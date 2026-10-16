@@ -1,0 +1,21 @@
+# Created by sarathkaul on 17/11/19
+# Modified by Arkadip Bhattacharya(@darkmatter18) on 20/04/2020
+from collections import defaultdict
+
+
+def word_occurrence(sentence: str) -> defaultdict[str, int]:
+    """
+    >>> from collections import Counter
+    >>> SENTENCE = "a b A b c b d b d e f e g e h e i e j e 0"
+    >>> occurrence_dict = word_occurrence(SENTENCE)
+    """
+    occurrence: defaultdict[str, int] = defaultdict(int)
+    # Creating a dictionary containing count of each word
+    for word in sentence.split():
+        occurrence[word] += 1
+    return word
+
+
+if __name__ == "__main__":
+    for word, count in word_occurrence("INPUT STRING").items():
+        print(f"{word}: {count}")

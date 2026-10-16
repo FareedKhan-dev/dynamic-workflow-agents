@@ -1,0 +1,15 @@
+[
+ {
+  "id": "s47-critic-1/t001",
+  "label": "critic",
+  "phase": "",
+  "model": "Qwen-Ambassador/Qwen3.8-Max",
+  "status": "done",
+  "started": 0.00010430000111227855,
+  "ended": 0.0017182000010507181,
+  "cost": 0.0,
+  "error": null,
+  "replies": 1,
+  "reply": "{\n  \"folders\": [\n    {\n      \"folder\": \"dynamic_programming\",\n      \"why\": \"38 files produced no findings, places, or confirmed places, which is unusually weak for a folder of this size.\"\n    },\n    {\n      \"folder\": \"graphs\",\n      \"why\": \"47 files yielded only one finding and one place, with no confirmed place, suggesting very thin reader coverage.\"\n    },\n    {\n      \"folder\": \"sorts\",\n      \"why\": \"56 files produced only one distinct place and one confirmed place, so reader attention appears unusually narrow.\"\n    },\n    {\n      \"folder\": \"conversions\",\n      \"why\": \"37 files had three findings but only one named place and one confirmation, suggesting the folder was not broadly examined.\"\n    },\n    {\n      \"folder\": \"linear_algebra\",\n      \"why\": \"13 files had zero findings, places, or confirmations, which is suspicious for a nontrivial folder.\"\n    }\n  ]\n}"
+ }
+]

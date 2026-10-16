@@ -1,0 +1,9 @@
+{
+  "paid_before": 39,
+  "paid_after": 21,
+  "total": 60,
+  "fresh": 60,
+  "from_ledger": 39,
+  "identical": true,
+  "crash_status": "cancelled"
+}

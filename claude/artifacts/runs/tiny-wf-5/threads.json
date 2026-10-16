@@ -1,0 +1,54 @@
+[
+ {
+  "id": "tiny-wf-5/t001",
+  "label": "grade:251#0",
+  "phase": "",
+  "model": "claude-haiku-5-5",
+  "status": "done",
+  "started": 6.541999982800917e-05,
+  "ended": 0.00036882999984300113,
+  "cost": 0.0,
+  "error": null,
+  "replies": 1,
+  "reply": "{\"grades\": [{\"id\": 251, \"wrong\": false, \"first_wrong_line\": null, \"kind\": null}, {\"id\": 252, \"wrong\": true, \"first_wrong_line\": 1, \"kind\": \"misread\"}, {\"id\": 253, \"wrong\": true, \"first_wrong_line\": 1, \"kind\": \"misread\"}, {\"id\": 254, \"wrong\": true, \"first_wrong_line\": 8, \"kind\": \"slip\"}, {\"id\": 255, \"wrong\": false, \"first_wrong_line\": null, \"kind\": null}]}"
+ },
+ {
+  "id": "tiny-wf-5/t002",
+  "label": "recheck:calculator:252#0",
+  "phase": "",
+  "model": "claude-haiku-4-5",
+  "status": "done",
+  "started": 0.0006282979998104565,
+  "ended": 0.001883423999970546,
+  "cost": 0.0,
+  "error": null,
+  "replies": 1,
+  "reply": "{\n  \"grades\": [\n    {\n      \"id\": 252,\n      \"wrong\": true,\n      \"first_wrong_line\": 1,\n      \"kind\": \"misread\"\n    },\n    {\n      \"id\": 253,\n      \"wrong\": true,\n      \"first_wrong_line\": 2,\n      \"kind\": \"operation\"\n    },\n    {\n      \"id\": 254,\n      \"wrong\": true,\n      \"first_wrong_line\": 4,\n      \"kind\": \"operation\"\n    }\n  ]\n}"
+ },
+ {
+  "id": "tiny-wf-5/t003",
+  "label": "recheck:logic:252#0",
+  "phase": "",
+  "model": "claude-haiku-4-5",
+  "status": "done",
+  "started": 0.0009841099999903236,
+  "ended": 0.002497322000181157,
+  "cost": 0.0,
+  "error": null,
+  "replies": 1,
+  "reply": "{\n  \"grades\": [\n    {\n      \"id\": 252,\n      \"wrong\": true,\n      \"first_wrong_line\": 1,\n      \"kind\": \"misread\"\n    },\n    {\n      \"id\": 253,\n      \"wrong\": true,\n      \"first_wrong_line\": 2,\n      \"kind\": \"operation\"\n    },\n    {\n      \"id\": 254,\n      \"wrong\": true,\n      \"first_wrong_line\": 7,\n      \"kind\": \"slip\"\n    }\n  ]\n}"
+ },
+ {
+  "id": "tiny-wf-5/t004",
+  "label": "recheck:question:252#0",
+  "phase": "",
+  "model": "claude-haiku-4-5",
+  "status": "done",
+  "started": 0.0014000840001244796,
+  "ended": 0.002178206999815302,
+  "cost": 0.0,
+  "error": null,
+  "replies": 1,
+  "reply": "{\n  \"grades\": [\n    {\n      \"id\": 252,\n      \"wrong\": true,\n      \"first_wrong_line\": 1,\n      \"kind\": \"misread\"\n    },\n    {\n      \"id\": 253,\n      \"wrong\": true,\n      \"first_wrong_line\": 2,\n      \"kind\": \"slip\"\n    },\n    {\n      \"id\": 254,\n      \"wrong\": true,\n      \"first_wrong_line\": 7,\n      \"kind\": \"slip\"\n    }\n  ]\n}"
+ }
+]

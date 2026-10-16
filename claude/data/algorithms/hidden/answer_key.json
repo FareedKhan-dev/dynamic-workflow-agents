@@ -1,0 +1,2312 @@
+[
+ {
+  "path": "electronics/resistor_color_code.py",
+  "folder": "electronics",
+  "operator": "flip comparison",
+  "function": "check_validity",
+  "line_original": 280,
+  "line": 274,
+  "old": ">=",
+  "new": ">",
+  "before": "if number_of_bands >= 3 and number_of_bands <= 6:",
+  "after": "if number_of_bands > 3 and number_of_bands <= 6:",
+  "failing": 3,
+  "examples": 24,
+  "loudness": 0.125,
+  "visible": 21,
+  "hidden": [
+   {
+    "owner": "check_validity",
+    "first": 266,
+    "source": "check_validity(3, [\"Black\",\"Blue\",\"Orange\"])\n",
+    "want": "True\n"
+   },
+   {
+    "owner": "check_validity",
+    "first": 274,
+    "source": "check_validity(3, [\"Cyan\",\"Red\",\"Yellow\"])\n",
+    "want": "Traceback (most recent call last):\n  ...\nValueError: Cyan is not a valid color\n"
+   },
+   {
+    "owner": "calculate_resistance",
+    "first": 301,
+    "source": "calculate_resistance(3, [\"Black\",\"Blue\",\"Orange\"])\n",
+    "want": "{'resistance': '6000\u03a9 \u00b120% '}\n"
+   }
+  ],
+  "id": "B01"
+ },
+ {
+  "path": "strings/levenshtein_distance.py",
+  "folder": "strings",
+  "operator": "flip comparison",
+  "function": "levenshtein_distance_optimized",
+  "line_original": 77,
+  "line": 71,
+  "old": "<",
+  "new": "<=",
+  "before": "if len(first_word) < len(second_word):",
+  "after": "if len(first_word) <= len(second_word):",
+  "failing": 3,
+  "examples": 14,
+  "loudness": 0.2143,
+  "visible": 11,
+  "hidden": [
+   {
+    "owner": "levenshtein_distance_optimized",
+    "first": 66,
+    "source": "levenshtein_distance_optimized(\"book\", \"back\")\n",
+    "want": "2\n"
+   },
+   {
+    "owner": "levenshtein_distance_optimized",
+    "first": 68,
+    "source": "levenshtein_distance_optimized(\"book\", \"book\")\n",
+    "want": "0\n"
+   },
+   {
+    "owner": "levenshtein_distance_optimized",
+    "first": 72,
+    "source": "levenshtein_distance_optimized(\"\", \"\")\n",
+    "want": "0\n"
+   }
+  ],
+  "id": "B02"
+ },
+ {
+  "path": "physics/shear_stress.py",
+  "folder": "physics",
+  "operator": "flip comparison",
+  "function": "shear_stress",
+  "line_original": 35,
+  "line": 33,
+  "old": "<",
+  "new": "<=",
+  "before": "if tangential_force < 0:",
+  "after": "if tangential_force <= 0:",
+  "failing": 1,
+  "examples": 3,
+  "loudness": 0.3333,
+  "visible": 2,
+  "hidden": [
+   {
+    "owner": "shear_stress",
+    "first": 28,
+    "source": "shear_stress(stress=1000, tangential_force=0, area=1200)\n",
+    "want": "('tangential_force', 1200000)\n"
+   }
+  ],
+  "id": "B03"
+ },
+ {
+  "path": "bit_manipulation/next_power_of_two.py",
+  "folder": "bit_manipulation",
+  "operator": "flip comparison",
+  "function": "next_power_of_two",
+  "line_original": 32,
+  "line": 28,
+  "old": "<=",
+  "new": "<",
+  "before": "if n <= 0:",
+  "after": "if n < 0:",
+  "failing": 1,
+  "examples": 7,
+  "loudness": 0.1429,
+  "visible": 6,
+  "hidden": [
+   {
+    "owner": "next_power_of_two",
+    "first": 23,
+    "source": "next_power_of_two(0)\n",
+    "want": "Traceback (most recent call last):\n    ...\nValueError: n must be positive\n"
+   }
+  ],
+  "id": "B04"
+ },
+ {
+  "path": "bit_manipulation/binary_or_operator.py",
+  "folder": "bit_manipulation",
+  "operator": "flip comparison",
+  "function": "binary_or",
+  "line_original": 41,
+  "line": 37,
+  "old": "<",
+  "new": "<=",
+  "before": "if a < 0 or b < 0:",
+  "after": "if a <= 0 or b < 0:",
+  "failing": 2,
+  "examples": 9,
+  "loudness": 0.2222,
+  "visible": 7,
+  "hidden": [
+   {
+    "owner": "<module>",
+    "first": 14,
+    "source": "binary_or(0, 255)\n",
+    "want": "'0b11111111'\n"
+   },
+   {
+    "owner": "<module>",
+    "first": 16,
+    "source": "binary_or(0, 256)\n",
+    "want": "'0b100000000'\n"
+   }
+  ],
+  "id": "B05"
+ },
+ {
+  "path": "strings/bitap_string_match.py",
+  "folder": "strings",
+  "operator": "flip comparison",
+  "function": "bitap_string_match",
+  "line_original": 46,
+  "line": 44,
+  "old": ">",
+  "new": ">=",
+  "before": "if m > len(text):",
+  "after": "if m >= len(text):",
+  "failing": 1,
+  "examples": 7,
+  "loudness": 0.1429,
+  "visible": 6,
+  "hidden": [
+   {
+    "owner": "bitap_string_match",
+    "first": 32,
+    "source": "bitap_string_match('zxywsijdfosdfnso', 'zxywsijdfosdfnso')\n",
+    "want": "0\n"
+   }
+  ],
+  "id": "B06"
+ },
+ {
+  "path": "other/bankers_algorithm.py",
+  "folder": "other",
+  "operator": "off-by-one range",
+  "function": "BankersAlgorithm.__processes_resource_summation",
+  "line_original": 65,
+  "line": 65,
+  "old": "len(self.__allocated_resources_table[0])",
+  "new": "len(self.__allocated_resources_table[0]) - 1",
+  "before": "for i in range(len(self.__allocated_resources_table[0]))",
+  "after": "for i in range(len(self.__allocated_resources_table[0]) - 1)",
+  "failing": 1,
+  "examples": 3,
+  "loudness": 0.3333,
+  "visible": 2,
+  "hidden": [
+   {
+    "owner": "main",
+    "first": 108,
+    "source": "BankersAlgorithm(test_claim_vector, test_allocated_res_table,\n   test_maximum_claim_table).main(describe=True)\n",
+    "want": "         Allocated Resource Table\nP1       2        0        1        1\n<BLANKLINE>\nP2       0        1        2        1\n<BLANKLINE>\nP3       4        0        0        3\n<BLANKLINE>\nP4       0        2        1        0\n<BLANKLINE>\nP5       1        0        3        0\n<BLANKLINE>\n         System Resource Table\nP1       3        2        1        4\n<BLANKLINE>\nP2       0        2        5        2\n<BLANKLINE>\nP3       5        1        0        5\n<BLANKLINE>\nP4       1        5        3        0\n<BLANKLINE>\nP5       3        0        3        3\n<BLANKLINE>\nCurrent Usage by Active Processes: 8 5 9 7\nInitial Available Resources:       1 2 2 2\n__________________________________________________\n<BLANKLINE>\nProcess 3 is executing.\nUpdated available resource stack for processes: 5 2 2 5\nThe process is in a safe state.\n<BLANKLINE>\nProcess 1 is executing.\nUpdated available resource stack for processes: 7 2 3 6\nThe process is in a safe state.\n<BLANKLINE>\nProcess 2 is executing.\nUpdated available resource stack for processes: 7 3 5 7\nThe process is in a safe state.\n<BLANKLINE>\nProcess 4 is executing.\nUpdated available resource stack for processes: 7 5 6 7\nThe process is in a safe state.\n<BLANKLINE>\nProcess 5 is executing.\nUpdated available resource stack for processes: 8 5 9 7\nThe process is in a safe state.\n<BLANKLINE>\n"
+   }
+  ],
+  "id": "B07"
+ },
+ {
+  "path": "linear_algebra/src/gaussian_elimination_pivoting.py",
+  "folder": "linear_algebra",
+  "operator": "off-by-one range",
+  "function": "solve_linear_system",
+  "line_original": 43,
+  "line": 41,
+  "old": "num_of_rows",
+  "new": "num_of_rows - 1",
+  "before": "for column_num in range(num_of_rows):",
+  "after": "for column_num in range(num_of_rows - 1):",
+  "failing": 1,
+  "examples": 6,
+  "loudness": 0.1667,
+  "visible": 5,
+  "hidden": [
+   {
+    "owner": "solve_linear_system",
+    "first": 24,
+    "source": "np.allclose(solution, np.array([2., 3., -1.]))\n",
+    "want": "True\n"
+   }
+  ],
+  "id": "B08"
+ },
+ {
+  "path": "financial/fractional_differentiation.py",
+  "folder": "financial",
+  "operator": "off-by-one range",
+  "function": "fracdiff_fixedwindow",
+  "line_original": 103,
+  "line": 101,
+  "old": "len(price_series)",
+  "new": "len(price_series) - 1",
+  "before": "for i in range(window_size, len(price_series)):",
+  "after": "for i in range(window_size, len(price_series) - 1):",
+  "failing": 1,
+  "examples": 4,
+  "loudness": 0.25,
+  "visible": 3,
+  "hidden": [
+   {
+    "owner": "fracdiff_fixedwindow",
+    "first": 96,
+    "source": "fracdiff_fixedwindow(price_series, 0.5, 3)\n",
+    "want": "[nan, nan, nan, 2.25, 2.625, 3.0, 3.375, 3.75, 4.125, 4.5]\n"
+   }
+  ],
+  "id": "B09"
+ },
+ {
+  "path": "other/graham_scan.py",
+  "folder": "other",
+  "operator": "off-by-one range",
+  "function": "graham_scan",
+  "line_original": 149,
+  "line": 140,
+  "old": "len(sorted_points)",
+  "new": "len(sorted_points) - 1",
+  "before": "for i in range(3, len(sorted_points)):",
+  "after": "for i in range(3, len(sorted_points) - 1):",
+  "failing": 4,
+  "examples": 10,
+  "loudness": 0.4,
+  "visible": 6,
+  "hidden": [
+   {
+    "owner": "graham_scan",
+    "first": 100,
+    "source": "graham_scan([(9, 6), (3, 1), (0, 0), (5, 5), (5, 2), (7, 0), (3, 3), (1, 4)])\n",
+    "want": "[(0, 0), (7, 0), (9, 6), (5, 5), (1, 4)]\n"
+   },
+   {
+    "owner": "graham_scan",
+    "first": 103,
+    "source": "graham_scan([(0, 0), (1, 0), (1, 1), (0, 1)])\n",
+    "want": "[(0, 0), (1, 0), (1, 1), (0, 1)]\n"
+   },
+   {
+    "owner": "graham_scan",
+    "first": 106,
+    "source": "graham_scan([(0, 0), (1, 1), (2, 2), (3, 3), (-1, 2)])\n",
+    "want": "[(0, 0), (1, 1), (2, 2), (3, 3), (-1, 2)]\n"
+   },
+   {
+    "owner": "graham_scan",
+    "first": 109,
+    "source": "graham_scan([(-100, 20), (99, 3), (1, 10000001), (5133186, -25), (-66, -4)])\n",
+    "want": "[(5133186, -25), (1, 10000001), (-100, 20), (-66, -4)]\n"
+   }
+  ],
+  "id": "B10"
+ },
+ {
+  "path": "dynamic_programming/subset_generation.py",
+  "folder": "dynamic_programming",
+  "operator": "off-by-one range",
+  "function": "subset_combinations",
+  "line_original": 49,
+  "line": 39,
+  "old": "0",
+  "new": "-1",
+  "before": "for j in range(i, 0, -1):",
+  "after": "for j in range(i, -1, -1):",
+  "failing": 3,
+  "examples": 12,
+  "loudness": 0.25,
+  "visible": 9,
+  "hidden": [
+   {
+    "owner": "subset_combinations",
+    "first": 22,
+    "source": "subset_combinations(elements=[10, 20, 30, 40, 50], n=0)\n",
+    "want": "[()]\n"
+   },
+   {
+    "owner": "subset_combinations",
+    "first": 28,
+    "source": "subset_combinations(elements=['single'], n=0)\n",
+    "want": "[()]\n"
+   },
+   {
+    "owner": "subset_combinations",
+    "first": 33,
+    "source": "all(subset_combinations(items, n) == list(combinations(items, n))\n    for items, n in (\n        ([10, 20, 30, 40], 2), ([1, 2, 3], 1), ([1, 2, 3], 3), ([42], 1),\n        ([6, 7, 8, 9], 4), ([10, 20, 30, 40, 50], 1), ([1, 2, 3, 4], 2),\n        ([1, 'apple', 3.14], 2), (['single'], 0), ([], 9)))\n",
+    "want": "True\n"
+   }
+  ],
+  "id": "B11"
+ },
+ {
+  "path": "maths/special_numbers/kaprekar_number.py",
+  "folder": "maths",
+  "operator": "off-by-one range",
+  "function": "is_kaprekar",
+  "line_original": 45,
+  "line": 43,
+  "old": "digits",
+  "new": "digits - 1",
+  "before": "for split in range(1, digits):",
+  "after": "for split in range(1, digits - 1):",
+  "failing": 1,
+  "examples": 9,
+  "loudness": 0.1111,
+  "visible": 8,
+  "hidden": [
+   {
+    "owner": "is_kaprekar",
+    "first": 17,
+    "source": "is_kaprekar(9)\n",
+    "want": "True\n"
+   }
+  ],
+  "id": "B12"
+ },
+ {
+  "path": "ciphers/base16.py",
+  "folder": "ciphers",
+  "operator": "off-by-one slice",
+  "function": "base16_encode",
+  "line_original": 15,
+  "line": 11,
+  "old": "2",
+  "new": "3",
+  "before": "return \"\".join([hex(byte)[2:].zfill(2).upper() for byte in list(data)])",
+  "after": "return \"\".join([hex(byte)[3:].zfill(2).upper() for byte in list(data)])",
+  "failing": 2,
+  "examples": 9,
+  "loudness": 0.2222,
+  "visible": 7,
+  "hidden": [
+   {
+    "owner": "base16_encode",
+    "first": 5,
+    "source": "base16_encode(b'Hello World!')\n",
+    "want": "'48656C6C6F20576F726C6421'\n"
+   },
+   {
+    "owner": "base16_encode",
+    "first": 7,
+    "source": "base16_encode(b'HELLO WORLD!')\n",
+    "want": "'48454C4C4F20574F524C4421'\n"
+   }
+  ],
+  "id": "B13"
+ },
+ {
+  "path": "hashes/md5.py",
+  "folder": "hashes",
+  "operator": "off-by-one slice",
+  "function": "get_block_words",
+  "line_original": 186,
+  "line": 180,
+  "old": "i + 32",
+  "new": "i + 32 - 1",
+  "before": "block_words.append(int(to_little_endian(block[i : i + 32]), 2))",
+  "after": "block_words.append(int(to_little_endian(block[i : i + 32 - 1]), 2))",
+  "failing": 7,
+  "examples": 43,
+  "loudness": 0.1628,
+  "visible": 36,
+  "hidden": [
+   {
+    "owner": "get_block_words",
+    "first": 166,
+    "source": "list(get_block_words(test_string))\n",
+    "want": "[[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]]\n"
+   },
+   {
+    "owner": "get_block_words",
+    "first": 168,
+    "source": "list(get_block_words(test_string * 4)) == [list(range(16))] * 4\n",
+    "want": "True\n"
+   },
+   {
+    "owner": "get_block_words",
+    "first": 170,
+    "source": "list(get_block_words(b\"1\" * 512)) == [[4294967295] * 16]\n",
+    "want": "True\n"
+   },
+   {
+    "owner": "md5_me",
+    "first": 309,
+    "source": "md5_me(b\"\")\n",
+    "want": "b'd41d8cd98f00b204e9800998ecf8427e'\n"
+   },
+   {
+    "owner": "md5_me",
+    "first": 311,
+    "source": "md5_me(b\"The quick brown fox jumps over the lazy dog\")\n",
+    "want": "b'9e107d9d372bb6826bd81d3542a419d6'\n"
+   },
+   {
+    "owner": "md5_me",
+    "first": 313,
+    "source": "md5_me(b\"The quick brown fox jumps over the lazy dog.\")\n",
+    "want": "b'e4d909c290d0fb1ca068ffaddf22cbd0'\n"
+   },
+   {
+    "owner": "md5_me",
+    "first": 320,
+    "source": "all(md5_me(msg) == hashlib.md5(msg).hexdigest().encode(\"utf-8\") for msg in msgs)\n",
+    "want": "True\n"
+   }
+  ],
+  "id": "B14"
+ },
+ {
+  "path": "conversions/binary_to_decimal.py",
+  "folder": "conversions",
+  "operator": "off-by-one slice",
+  "function": "bin_to_decimal",
+  "line_original": 31,
+  "line": 29,
+  "old": "1",
+  "new": "2",
+  "before": "bin_string = bin_string[1:]",
+  "after": "bin_string = bin_string[2:]",
+  "failing": 1,
+  "examples": 7,
+  "loudness": 0.1429,
+  "visible": 6,
+  "hidden": [
+   {
+    "owner": "bin_to_decimal",
+    "first": 9,
+    "source": "bin_to_decimal(\"-11101\")\n",
+    "want": "-29\n"
+   }
+  ],
+  "id": "B15"
+ },
+ {
+  "path": "conversions/base64_to_binary.py",
+  "folder": "conversions",
+  "operator": "off-by-one slice",
+  "function": "base64_to_bin",
+  "line_original": 97,
+  "line": 95,
+  "old": "1",
+  "new": "2",
+  "before": "b64_str = b64_str[1:]",
+  "after": "b64_str = b64_str[2:]",
+  "failing": 1,
+  "examples": 4,
+  "loudness": 0.25,
+  "visible": 3,
+  "hidden": [
+   {
+    "owner": "base64_to_bin",
+    "first": 81,
+    "source": "base64_to_bin(\"    -abc    \")\n",
+    "want": "'-011010011011011100'\n"
+   }
+  ],
+  "id": "B16"
+ },
+ {
+  "path": "conversions/binary_to_base64.py",
+  "folder": "conversions",
+  "operator": "off-by-one slice",
+  "function": "bin_to_base64",
+  "line_original": 105,
+  "line": 101,
+  "old": "1",
+  "new": "2",
+  "before": "bin_str = bin_str[1:]",
+  "after": "bin_str = bin_str[2:]",
+  "failing": 2,
+  "examples": 7,
+  "loudness": 0.2857,
+  "visible": 5,
+  "hidden": [
+   {
+    "owner": "bin_to_base64",
+    "first": 87,
+    "source": "bin_to_base64(\"-1\")\n",
+    "want": "'-B'\n"
+   },
+   {
+    "owner": "bin_to_base64",
+    "first": 89,
+    "source": "bin_to_base64(\" -000001 \")\n",
+    "want": "'-AB'\n"
+   }
+  ],
+  "id": "B17"
+ },
+ {
+  "path": "conversions/hex_to_bin.py",
+  "folder": "conversions",
+  "operator": "off-by-one slice",
+  "function": "hex_to_bin",
+  "line_original": 38,
+  "line": 36,
+  "old": "1",
+  "new": "2",
+  "before": "hex_num = hex_num[1:]",
+  "after": "hex_num = hex_num[2:]",
+  "failing": 1,
+  "examples": 7,
+  "loudness": 0.1429,
+  "visible": 6,
+  "hidden": [
+   {
+    "owner": "hex_to_bin",
+    "first": 20,
+    "source": "hex_to_bin(\"-fFfF\")\n",
+    "want": "-1111111111111111\n"
+   }
+  ],
+  "id": "B18"
+ },
+ {
+  "path": "knapsack/knapsack.py",
+  "folder": "knapsack",
+  "operator": "swap + and -",
+  "function": "knapsack.knapsack_recur",
+  "line_original": 55,
+  "line": 51,
+  "old": "-",
+  "new": "+",
+  "before": "left_capacity = capacity - weights[counter - 1]",
+  "after": "left_capacity = capacity - weights[counter + 1]",
+  "failing": 2,
+  "examples": 6,
+  "loudness": 0.3333,
+  "visible": 4,
+  "hidden": [
+   {
+    "owner": "knapsack",
+    "first": 26,
+    "source": "knapsack(cap, w, val, c)\n",
+    "want": "220\n"
+   },
+   {
+    "owner": "knapsack",
+    "first": 32,
+    "source": "knapsack(cap, w, val, c, True)\n",
+    "want": "300\n"
+   }
+  ],
+  "id": "B19"
+ },
+ {
+  "path": "sorts/merge_insertion_sort.py",
+  "folder": "sorts",
+  "operator": "swap + and -",
+  "function": "merge_insertion_sort",
+  "line_original": 189,
+  "line": 183,
+  "old": "-",
+  "new": "+",
+  "before": "for i in range(len(sorted_list_2d) - 1):",
+  "after": "for i in range(len(sorted_list_2d) + 1):",
+  "failing": 3,
+  "examples": 9,
+  "loudness": 0.3333,
+  "visible": 6,
+  "hidden": [
+   {
+    "owner": "merge_insertion_sort",
+    "first": 78,
+    "source": "merge_insertion_sort([0, 5, 3, 2, 2])\n",
+    "want": "[0, 2, 2, 3, 5]\n"
+   },
+   {
+    "owner": "merge_insertion_sort",
+    "first": 84,
+    "source": "merge_insertion_sort([-2, -5, -45])\n",
+    "want": "[-45, -5, -2]\n"
+   },
+   {
+    "owner": "merge_insertion_sort",
+    "first": 90,
+    "source": "all(merge_insertion_sort(p) == [0, 1, 2, 3, 4] for p in permutations)\n",
+    "want": "True\n"
+   }
+  ],
+  "id": "B20"
+ },
+ {
+  "path": "sorts/msd_radix_sort.py",
+  "folder": "sorts",
+  "operator": "swap + and -",
+  "function": "_msd_radix_sort",
+  "line_original": 68,
+  "line": 58,
+  "old": "-",
+  "new": "+",
+  "before": "zeros = _msd_radix_sort(zeros, bit_position - 1)",
+  "after": "zeros = _msd_radix_sort(zeros, bit_position + 1)",
+  "failing": 5,
+  "examples": 24,
+  "loudness": 0.2083,
+  "visible": 19,
+  "hidden": [
+   {
+    "owner": "msd_radix_sort",
+    "first": 17,
+    "source": "msd_radix_sort([40, 12, 1, 100, 4])\n",
+    "want": "[1, 4, 12, 40, 100]\n"
+   },
+   {
+    "owner": "msd_radix_sort",
+    "first": 21,
+    "source": "msd_radix_sort([123, 345, 123, 80])\n",
+    "want": "[80, 123, 123, 345]\n"
+   },
+   {
+    "owner": "msd_radix_sort",
+    "first": 23,
+    "source": "msd_radix_sort([1209, 834598, 1, 540402, 45])\n",
+    "want": "[1, 45, 1209, 540402, 834598]\n"
+   },
+   {
+    "owner": "_msd_radix_sort",
+    "first": 48,
+    "source": "_msd_radix_sort([45, 2, 32], 1)\n",
+    "want": "[2, 32, 45]\n"
+   },
+   {
+    "owner": "_msd_radix_sort",
+    "first": 50,
+    "source": "_msd_radix_sort([10, 4, 12], 2)\n",
+    "want": "[4, 12, 10]\n"
+   }
+  ],
+  "id": "B21"
+ },
+ {
+  "path": "sorts/odd_even_transposition_single_threaded.py",
+  "folder": "sorts",
+  "operator": "swap + and -",
+  "function": "odd_even_transposition",
+  "line_original": 72,
+  "line": 58,
+  "old": "+",
+  "new": "-",
+  "before": "if collection[i + 1] < collection[i]:",
+  "after": "if collection[i - 1] < collection[i]:",
+  "failing": 7,
+  "examples": 18,
+  "loudness": 0.3889,
+  "visible": 11,
+  "hidden": [
+   {
+    "owner": "odd_even_transposition",
+    "first": 36,
+    "source": "odd_even_transposition([5, 4, 3, 2, 1])\n",
+    "want": "[1, 2, 3, 4, 5]\n"
+   },
+   {
+    "owner": "odd_even_transposition",
+    "first": 38,
+    "source": "odd_even_transposition([13, 11, 18, 0, -1]) == sorted([13, 11, 18, 0, -1])\n",
+    "want": "True\n"
+   },
+   {
+    "owner": "odd_even_transposition",
+    "first": 40,
+    "source": "odd_even_transposition([-.1, 1.1, .1, -2.9]) == sorted([-.1, 1.1, .1, -2.9])\n",
+    "want": "True\n"
+   },
+   {
+    "owner": "odd_even_transposition",
+    "first": 44,
+    "source": "odd_even_transposition([3, 3, 1, 2, 2, 1])\n",
+    "want": "[1, 1, 2, 2, 3, 3]\n"
+   },
+   {
+    "owner": "odd_even_transposition",
+    "first": 54,
+    "source": "values\n",
+    "want": "[1, 2, 4, 7]\n"
+   },
+   {
+    "owner": "odd_even_transposition",
+    "first": 58,
+    "source": "odd_even_transposition(collection) == sorted(collection)\n",
+    "want": "True\n"
+   },
+   {
+    "owner": "odd_even_transposition",
+    "first": 62,
+    "source": "odd_even_transposition(collection) == sorted(collection)\n",
+    "want": "True\n"
+   }
+  ],
+  "id": "B22"
+ },
+ {
+  "path": "electronics/real_and_reactive_power.py",
+  "folder": "electronics",
+  "operator": "swap + and -",
+  "function": "reactive_power",
+  "line_original": 43,
+  "line": 39,
+  "old": "-",
+  "new": "+",
+  "before": "return apparent_power * math.sqrt(1 - power_factor**2)",
+  "after": "return apparent_power * math.sqrt(1 + power_factor**2)",
+  "failing": 2,
+  "examples": 6,
+  "loudness": 0.3333,
+  "visible": 4,
+  "hidden": [
+   {
+    "owner": "reactive_power",
+    "first": 30,
+    "source": "reactive_power(100, 0.9)\n",
+    "want": "43.58898943540673\n"
+   },
+   {
+    "owner": "reactive_power",
+    "first": 34,
+    "source": "reactive_power(100, -0.9)\n",
+    "want": "43.58898943540673\n"
+   }
+  ],
+  "id": "B23"
+ },
+ {
+  "path": "machine_learning/rmsprop.py",
+  "folder": "machine_learning",
+  "operator": "swap + and -",
+  "function": "rmsprop",
+  "line_original": 90,
+  "line": 86,
+  "old": "+",
+  "new": "-",
+  "before": "param = param - (learning_rate / math.sqrt(moving_avg[i] + epsilon)) * grad",
+  "after": "param = param - (learning_rate / math.sqrt(moving_avg[i] - epsilon)) * grad",
+  "failing": 2,
+  "examples": 6,
+  "loudness": 0.3333,
+  "visible": 4,
+  "hidden": [
+   {
+    "owner": "rmsprop",
+    "first": 56,
+    "source": "rmsprop([0.0], [0.0], 0.01)\n",
+    "want": "[0.0]\n"
+   },
+   {
+    "owner": "rmsprop",
+    "first": 58,
+    "source": "rmsprop([1.0], [0.0], 0.01)\n",
+    "want": "[1.0]\n"
+   }
+  ],
+  "id": "B24"
+ },
+ {
+  "path": "electronics/ic_555_timer.py",
+  "folder": "electronics",
+  "operator": "swap and / or",
+  "function": "astable_duty_cycle",
+  "line_original": 67,
+  "line": 63,
+  "old": "or",
+  "new": "and",
+  "before": "if resistance_1 <= 0 or resistance_2 <= 0:",
+  "after": "if resistance_1 <= 0 and resistance_2 <= 0:",
+  "failing": 1,
+  "examples": 8,
+  "loudness": 0.125,
+  "visible": 7,
+  "hidden": [
+   {
+    "owner": "astable_duty_cycle",
+    "first": 57,
+    "source": "astable_duty_cycle(resistance_1=2, resistance_2=-1)\n",
+    "want": "Traceback (most recent call last):\n    ...\nValueError: All values must be positive\n"
+   }
+  ],
+  "id": "B25"
+ },
+ {
+  "path": "strings/barcode_validator.py",
+  "folder": "strings",
+  "operator": "swap and / or",
+  "function": "is_valid",
+  "line_original": 53,
+  "line": 47,
+  "old": "and",
+  "new": "or",
+  "before": "return len(str(barcode)) == 13 and get_check_digit(barcode) == barcode % 10",
+  "after": "return len(str(barcode)) == 13 or get_check_digit(barcode) == barcode % 10",
+  "failing": 3,
+  "examples": 11,
+  "loudness": 0.2727,
+  "visible": 8,
+  "hidden": [
+   {
+    "owner": "is_valid",
+    "first": 42,
+    "source": "is_valid(87184525)\n",
+    "want": "False\n"
+   },
+   {
+    "owner": "is_valid",
+    "first": 44,
+    "source": "is_valid(87193425381089)\n",
+    "want": "False\n"
+   },
+   {
+    "owner": "is_valid",
+    "first": 46,
+    "source": "is_valid(0)\n",
+    "want": "False\n"
+   }
+  ],
+  "id": "B26"
+ },
+ {
+  "path": "bit_manipulation/bitwise_addition_recursive.py",
+  "folder": "bit_manipulation",
+  "operator": "swap and / or",
+  "function": "bitwise_addition_recursive",
+  "line_original": 37,
+  "line": 25,
+  "old": "or",
+  "new": "and",
+  "before": "if not isinstance(number, int) or not isinstance(other_number, int):",
+  "after": "if not isinstance(number, int) and not isinstance(other_number, int):",
+  "failing": 3,
+  "examples": 8,
+  "loudness": 0.375,
+  "visible": 5,
+  "hidden": [
+   {
+    "owner": "bitwise_addition_recursive",
+    "first": 15,
+    "source": "bitwise_addition_recursive(4.5, 9)\n",
+    "want": "Traceback (most recent call last):\n    ...\nTypeError: Both arguments MUST be integers!\n"
+   },
+   {
+    "owner": "bitwise_addition_recursive",
+    "first": 19,
+    "source": "bitwise_addition_recursive('4', 9)\n",
+    "want": "Traceback (most recent call last):\n    ...\nTypeError: Both arguments MUST be integers!\n"
+   },
+   {
+    "owner": "bitwise_addition_recursive",
+    "first": 23,
+    "source": "bitwise_addition_recursive('4.5', 9)\n",
+    "want": "Traceback (most recent call last):\n    ...\nTypeError: Both arguments MUST be integers!\n"
+   }
+  ],
+  "id": "B27"
+ },
+ {
+  "path": "other/lfu_cache.py",
+  "folder": "other",
+  "operator": "swap and / or",
+  "function": "DoubleLinkedList.remove",
+  "line_original": 154,
+  "line": 150,
+  "old": "or",
+  "new": "and",
+  "before": "if node.prev is None or node.next is None:",
+  "after": "if node.prev is None and node.next is None:",
+  "failing": 2,
+  "examples": 40,
+  "loudness": 0.05,
+  "visible": 38,
+  "hidden": [
+   {
+    "owner": "DoubleLinkedList",
+    "first": 88,
+    "source": "dll.remove(dll.head) is None\n",
+    "want": "True\n"
+   },
+   {
+    "owner": "DoubleLinkedList",
+    "first": 94,
+    "source": "dll.remove(dll.rear) is None\n",
+    "want": "True\n"
+   }
+  ],
+  "id": "B28"
+ },
+ {
+  "path": "other/lru_cache.py",
+  "folder": "other",
+  "operator": "swap and / or",
+  "function": "DoubleLinkedList.remove",
+  "line_original": 136,
+  "line": 132,
+  "old": "or",
+  "new": "and",
+  "before": "if node.prev is None or node.next is None:",
+  "after": "if node.prev is None and node.next is None:",
+  "failing": 2,
+  "examples": 43,
+  "loudness": 0.0465,
+  "visible": 41,
+  "hidden": [
+   {
+    "owner": "DoubleLinkedList",
+    "first": 86,
+    "source": "dll.remove(dll.head) is None\n",
+    "want": "True\n"
+   },
+   {
+    "owner": "DoubleLinkedList",
+    "first": 92,
+    "source": "dll.remove(dll.rear) is None\n",
+    "want": "True\n"
+   }
+  ],
+  "id": "B29"
+ },
+ {
+  "path": "bit_manipulation/binary_xor_operator.py",
+  "folder": "bit_manipulation",
+  "operator": "swap and / or",
+  "function": "binary_xor",
+  "line_original": 39,
+  "line": 35,
+  "old": "or",
+  "new": "and",
+  "before": "if not isinstance(a, int) or not isinstance(b, int):",
+  "after": "if not isinstance(a, int) and not isinstance(b, int):",
+  "failing": 1,
+  "examples": 9,
+  "loudness": 0.1111,
+  "visible": 8,
+  "hidden": [
+   {
+    "owner": "<module>",
+    "first": 25,
+    "source": "binary_xor(0, 1.1)\n",
+    "want": "Traceback (most recent call last):\n    ...\nTypeError: inputs must be integers\n"
+   }
+  ],
+  "id": "B30"
+ },
+ {
+  "path": "matrix/kronecker_product.py",
+  "folder": "matrix",
+  "operator": "drop not",
+  "function": "kronecker_product",
+  "line_original": 49,
+  "line": 45,
+  "old": "not ",
+  "new": "",
+  "before": "if not matrix_a or not matrix_b:",
+  "after": "if not matrix_a or matrix_b:",
+  "failing": 2,
+  "examples": 6,
+  "loudness": 0.3333,
+  "visible": 4,
+  "hidden": [
+   {
+    "owner": "kronecker_product",
+    "first": 33,
+    "source": "kronecker_product([[1, 2]], [[5, 6], [7, 8]])\n",
+    "want": "[[5, 6, 10, 12], [7, 8, 14, 16]]\n"
+   },
+   {
+    "owner": "kronecker_product",
+    "first": 36,
+    "source": "kronecker_product([[1, 2], [4, 5]], [[5, 6], [7, 8]])\n",
+    "want": "[[5, 6, 10, 12], [7, 8, 14, 16], [20, 24, 25, 30], [28, 32, 35, 40]]\n"
+   }
+  ],
+  "id": "B31"
+ },
+ {
+  "path": "geodesy/lamberts_ellipsoidal_distance.py",
+  "folder": "geodesy",
+  "operator": "drop not",
+  "function": "lamberts_ellipsoidal_distance",
+  "line_original": 73,
+  "line": 63,
+  "old": "not ",
+  "new": "",
+  "before": "if not -180 <= lon1 <= 180 or not -180 <= lon2 <= 180:",
+  "after": "if not -180 <= lon1 <= 180 or -180 <= lon2 <= 180:",
+  "failing": 4,
+  "examples": 13,
+  "loudness": 0.3077,
+  "visible": 9,
+  "hidden": [
+   {
+    "owner": "lamberts_ellipsoidal_distance",
+    "first": 49,
+    "source": "lamberts_ellipsoidal_distance(0, 0, 0, -200)\n",
+    "want": "Traceback (most recent call last):\n...\nValueError: Longitude must be between -180 and 180 degrees\n"
+   },
+   {
+    "owner": "lamberts_ellipsoidal_distance",
+    "first": 60,
+    "source": "f\"{lamberts_ellipsoidal_distance(*SAN_FRANCISCO, *YOSEMITE):0,.0f} meters\"\n",
+    "want": "'254,032 meters'\n"
+   },
+   {
+    "owner": "lamberts_ellipsoidal_distance",
+    "first": 62,
+    "source": "f\"{lamberts_ellipsoidal_distance(*SAN_FRANCISCO, *NEW_YORK):0,.0f} meters\"\n",
+    "want": "'4,133,295 meters'\n"
+   },
+   {
+    "owner": "lamberts_ellipsoidal_distance",
+    "first": 64,
+    "source": "f\"{lamberts_ellipsoidal_distance(*SAN_FRANCISCO, *VENICE):0,.0f} meters\"\n",
+    "want": "'9,719,525 meters'\n"
+   }
+  ],
+  "id": "B32"
+ },
+ {
+  "path": "other/least_recently_used.py",
+  "folder": "other",
+  "operator": "drop not",
+  "function": "LRUCache.__init__",
+  "line_original": 43,
+  "line": 37,
+  "old": "not ",
+  "new": "",
+  "before": "if not n:",
+  "after": "if n:",
+  "failing": 3,
+  "examples": 10,
+  "loudness": 0.3,
+  "visible": 7,
+  "hidden": [
+   {
+    "owner": "LRUCache",
+    "first": 19,
+    "source": "lru_cache\n",
+    "want": "LRUCache(4) => [3, 2, 'A']\n"
+   },
+   {
+    "owner": "LRUCache",
+    "first": 23,
+    "source": "lru_cache\n",
+    "want": "LRUCache(4) => ['A', 3, 2]\n"
+   },
+   {
+    "owner": "LRUCache",
+    "first": 28,
+    "source": "lru_cache\n",
+    "want": "LRUCache(4) => [5, 4, 'A', 3]\n"
+   }
+  ],
+  "id": "B33"
+ },
+ {
+  "path": "conversions/ipv4_conversion.py",
+  "folder": "conversions",
+  "operator": "drop not",
+  "function": "ipv4_to_decimal",
+  "line_original": 34,
+  "line": 26,
+  "old": "not ",
+  "new": "",
+  "before": "if not 0 <= octet <= 255:",
+  "after": "if 0 <= octet <= 255:",
+  "failing": 3,
+  "examples": 9,
+  "loudness": 0.3333,
+  "visible": 6,
+  "hidden": [
+   {
+    "owner": "ipv4_to_decimal",
+    "first": 14,
+    "source": "ipv4_to_decimal(\"192.168.0.1\")\n",
+    "want": "3232235521\n"
+   },
+   {
+    "owner": "ipv4_to_decimal",
+    "first": 16,
+    "source": "ipv4_to_decimal(\"10.0.0.255\")\n",
+    "want": "167772415\n"
+   },
+   {
+    "owner": "ipv4_to_decimal",
+    "first": 22,
+    "source": "ipv4_to_decimal(\"10.0.0.256\")\n",
+    "want": "Traceback (most recent call last):\n    ...\nValueError: Invalid IPv4 octet 256\n"
+   }
+  ],
+  "id": "B34"
+ },
+ {
+  "path": "data_structures/binary_tree/binary_tree_traversals.py",
+  "folder": "data_structures",
+  "operator": "drop not",
+  "function": "get_nodes_from_right_to_left.populate_output",
+  "line_original": 152,
+  "line": 148,
+  "old": "not ",
+  "new": "",
+  "before": "if not root:",
+  "after": "if root:",
+  "failing": 3,
+  "examples": 12,
+  "loudness": 0.25,
+  "visible": 9,
+  "hidden": [
+   {
+    "owner": "get_nodes_from_right_to_left",
+    "first": 145,
+    "source": "list(get_nodes_from_right_to_left(make_tree(), 1))\n",
+    "want": "[1]\n"
+   },
+   {
+    "owner": "get_nodes_from_right_to_left",
+    "first": 147,
+    "source": "list(get_nodes_from_right_to_left(make_tree(), 2))\n",
+    "want": "[3, 2]\n"
+   },
+   {
+    "owner": "zigzag",
+    "first": 167,
+    "source": "list(zigzag(make_tree()))\n",
+    "want": "[1, 3, 2, 4, 5]\n"
+   }
+  ],
+  "id": "B35"
+ },
+ {
+  "path": "data_structures/linked_list/is_palindrome.py",
+  "folder": "data_structures",
+  "operator": "drop not",
+  "function": "is_palindrome_stack",
+  "line_original": 94,
+  "line": 92,
+  "old": "not ",
+  "new": "",
+  "before": "if not head or not head.next_node:",
+  "after": "if not head or head.next_node:",
+  "failing": 1,
+  "examples": 16,
+  "loudness": 0.0625,
+  "visible": 15,
+  "hidden": [
+   {
+    "owner": "is_palindrome_stack",
+    "first": 85,
+    "source": "is_palindrome_stack(ListNode(1, ListNode(2)))\n",
+    "want": "False\n"
+   }
+  ],
+  "id": "B36"
+ },
+ {
+  "path": "dynamic_programming/longest_increasing_subsequence_o_nlogn.py",
+  "folder": "dynamic_programming",
+  "operator": "wrong index",
+  "function": "longest_increasing_subsequence_length",
+  "line_original": 38,
+  "line": 36,
+  "old": "0",
+  "new": "-1",
+  "before": "tail[0] = v[0]",
+  "after": "tail[-1] = v[0]",
+  "failing": 1,
+  "examples": 4,
+  "loudness": 0.25,
+  "visible": 3,
+  "hidden": [
+   {
+    "owner": "longest_increasing_subsequence_length",
+    "first": 29,
+    "source": "longest_increasing_subsequence_length([5, 4, 3, 2, 1])\n",
+    "want": "1\n"
+   }
+  ],
+  "id": "B37"
+ },
+ {
+  "path": "dynamic_programming/max_product_subarray.py",
+  "folder": "dynamic_programming",
+  "operator": "wrong index",
+  "function": "max_product_subarray",
+  "line_original": 41,
+  "line": 37,
+  "old": "0",
+  "new": "-1",
+  "before": "max_till_now = min_till_now = max_prod = numbers[0]",
+  "after": "max_till_now = min_till_now = max_prod = numbers[-1]",
+  "failing": 2,
+  "examples": 10,
+  "loudness": 0.2,
+  "visible": 8,
+  "hidden": [
+   {
+    "owner": "max_product_subarray",
+    "first": 8,
+    "source": "max_product_subarray([2, 3, -2, 4])\n",
+    "want": "6\n"
+   },
+   {
+    "owner": "max_product_subarray",
+    "first": 12,
+    "source": "max_product_subarray([2, 3, -2, 4, -1])\n",
+    "want": "48\n"
+   }
+  ],
+  "id": "B38"
+ },
+ {
+  "path": "maths/bearing.py",
+  "folder": "maths",
+  "operator": "wrong index",
+  "function": "initial_bearing",
+  "line_original": 49,
+  "line": 47,
+  "old": "0",
+  "new": "-1",
+  "before": "lat1, lon1 = float(origin[0]), float(origin[1])",
+  "after": "lat1, lon1 = float(origin[-1]), float(origin[1])",
+  "failing": 1,
+  "examples": 3,
+  "loudness": 0.3333,
+  "visible": 2,
+  "hidden": [
+   {
+    "owner": "initial_bearing",
+    "first": 39,
+    "source": "round(initial_bearing((50.066389, -5.714722), (58.643889, -3.07)), 3)\n",
+    "want": "9.12\n"
+   }
+  ],
+  "id": "B39"
+ },
+ {
+  "path": "ciphers/polybius.py",
+  "folder": "ciphers",
+  "operator": "wrong index",
+  "function": "PolybiusCipher.encode",
+  "line_original": 68,
+  "line": 64,
+  "old": "0",
+  "new": "-1",
+  "before": "encoded_message = encoded_message + str(numbers[0]) + str(numbers[1])",
+  "after": "encoded_message = encoded_message + str(numbers[-1]) + str(numbers[1])",
+  "failing": 2,
+  "examples": 8,
+  "loudness": 0.25,
+  "visible": 6,
+  "hidden": [
+   {
+    "owner": "encode",
+    "first": 55,
+    "source": "PolybiusCipher().encode(\"test message\") == \"44154344 32154343112215\"\n",
+    "want": "True\n"
+   },
+   {
+    "owner": "encode",
+    "first": 58,
+    "source": "PolybiusCipher().encode(\"Test Message\") == \"44154344 32154343112215\"\n",
+    "want": "True\n"
+   }
+  ],
+  "id": "B40"
+ },
+ {
+  "path": "ciphers/bifid.py",
+  "folder": "ciphers",
+  "operator": "wrong index",
+  "function": "BifidCipher.decode",
+  "line_original": 100,
+  "line": 98,
+  "old": "0",
+  "new": "-1",
+  "before": "first_step[letter_index * 2] = numbers[0]",
+  "after": "first_step[letter_index * 2] = numbers[-1]",
+  "failing": 1,
+  "examples": 8,
+  "loudness": 0.125,
+  "visible": 7,
+  "hidden": [
+   {
+    "owner": "decode",
+    "first": 92,
+    "source": "BifidCipher().decode('qtltbdxrxlk') == 'testmessage'\n",
+    "want": "True\n"
+   }
+  ],
+  "id": "B41"
+ },
+ {
+  "path": "maths/special_numbers/bell_numbers.py",
+  "folder": "maths",
+  "operator": "wrong index",
+  "function": "bell_numbers",
+  "line_original": 39,
+  "line": 35,
+  "old": "0",
+  "new": "-1",
+  "before": "bell[0] = 1",
+  "after": "bell[-1] = 1",
+  "failing": 2,
+  "examples": 6,
+  "loudness": 0.3333,
+  "visible": 4,
+  "hidden": [
+   {
+    "owner": "bell_numbers",
+    "first": 30,
+    "source": "bell_numbers(1)\n",
+    "want": "[1, 1]\n"
+   },
+   {
+    "owner": "bell_numbers",
+    "first": 32,
+    "source": "bell_numbers(5)\n",
+    "want": "[1, 1, 2, 5, 15, 52]\n"
+   }
+  ],
+  "id": "B42"
+ },
+ {
+  "path": "data_compression/run_length_encoding.py",
+  "folder": "data_compression",
+  "operator": "wrong start value",
+  "function": "run_length_encode",
+  "line_original": 24,
+  "line": 20,
+  "old": "1",
+  "new": "0",
+  "before": "count = 1",
+  "after": "count = 0",
+  "failing": 2,
+  "examples": 8,
+  "loudness": 0.25,
+  "visible": 6,
+  "hidden": [
+   {
+    "owner": "run_length_encode",
+    "first": 7,
+    "source": "run_length_encode(\"AAAABBBCCDAA\")\n",
+    "want": "[('A', 4), ('B', 3), ('C', 2), ('D', 1), ('A', 2)]\n"
+   },
+   {
+    "owner": "run_length_encode",
+    "first": 13,
+    "source": "run_length_encode(\"AAADDDDDDFFFCCCAAVVVV\")\n",
+    "want": "[('A', 3), ('D', 6), ('F', 3), ('C', 3), ('A', 2), ('V', 4)]\n"
+   }
+  ],
+  "id": "B43"
+ },
+ {
+  "path": "data_structures/binary_tree/maximum_fenwick_tree.py",
+  "folder": "data_structures",
+  "operator": "wrong start value",
+  "function": "MaxFenwickTree.query",
+  "line_original": 138,
+  "line": 134,
+  "old": "0",
+  "new": "1",
+  "before": "result = 0",
+  "after": "result = 1",
+  "failing": 2,
+  "examples": 33,
+  "loudness": 0.0606,
+  "visible": 31,
+  "hidden": [
+   {
+    "owner": "MaxFenwickTree",
+    "first": 8,
+    "source": "ft.query(0, 5)\n",
+    "want": "0\n"
+   },
+   {
+    "owner": "MaxFenwickTree",
+    "first": 48,
+    "source": "ft.query(0, 6)\n",
+    "want": "0\n"
+   }
+  ],
+  "id": "B44"
+ },
+ {
+  "path": "data_structures/arrays/find_triplets_with_0_sum.py",
+  "folder": "data_structures",
+  "operator": "wrong start value",
+  "function": "find_triplets_with_0_sum_hashing",
+  "line_original": 51,
+  "line": 45,
+  "old": "0",
+  "new": "1",
+  "before": "target_sum = 0",
+  "after": "target_sum = 1",
+  "failing": 3,
+  "examples": 11,
+  "loudness": 0.2727,
+  "visible": 8,
+  "hidden": [
+   {
+    "owner": "find_triplets_with_0_sum_hashing",
+    "first": 38,
+    "source": "find_triplets_with_0_sum_hashing([-1, 0, 1, 2, -1, -4])\n",
+    "want": "[[-1, 0, 1], [-1, -1, 2]]\n"
+   },
+   {
+    "owner": "find_triplets_with_0_sum_hashing",
+    "first": 42,
+    "source": "find_triplets_with_0_sum_hashing([0, 0, 0])\n",
+    "want": "[[0, 0, 0]]\n"
+   },
+   {
+    "owner": "find_triplets_with_0_sum_hashing",
+    "first": 44,
+    "source": "find_triplets_with_0_sum_hashing([1, 2, 3, 0, -1, -2, -3])\n",
+    "want": "[[-1, 0, 1], [-3, 1, 2], [-2, 0, 2], [-2, -1, 3], [-3, 0, 3]]\n"
+   }
+  ],
+  "id": "B45"
+ },
+ {
+  "path": "matrix/binary_search_matrix.py",
+  "folder": "matrix",
+  "operator": "wrong start value",
+  "function": "mat_bin_search",
+  "line_original": 43,
+  "line": 41,
+  "old": "0",
+  "new": "1",
+  "before": "index = 0",
+  "after": "index = 1",
+  "failing": 1,
+  "examples": 8,
+  "loudness": 0.125,
+  "visible": 7,
+  "hidden": [
+   {
+    "owner": "mat_bin_search",
+    "first": 37,
+    "source": "mat_bin_search(target, matrix)\n",
+    "want": "[0, 0]\n"
+   }
+  ],
+  "id": "B46"
+ },
+ {
+  "path": "data_structures/arrays/sparse_table.py",
+  "folder": "data_structures",
+  "operator": "wrong start value",
+  "function": "build_sparse_table",
+  "line_original": 49,
+  "line": 45,
+  "old": "0",
+  "new": "1",
+  "before": "i = 0",
+  "after": "i = 1",
+  "failing": 3,
+  "examples": 9,
+  "loudness": 0.3333,
+  "visible": 6,
+  "hidden": [
+   {
+    "owner": "build_sparse_table",
+    "first": 22,
+    "source": "build_sparse_table([8, 1, 0, 3, 4, 9, 3])\n",
+    "want": "[[8, 1, 0, 3, 4, 9, 3], [1, 0, 0, 3, 4, 3, 0], [0, 0, 0, 3, 0, 0, 0]]\n"
+   },
+   {
+    "owner": "build_sparse_table",
+    "first": 24,
+    "source": "build_sparse_table([3, 1, 9])\n",
+    "want": "[[3, 1, 9], [1, 1, 0]]\n"
+   },
+   {
+    "owner": "query",
+    "first": 69,
+    "source": "query(build_sparse_table([3, 1, 9]), 0, 1)\n",
+    "want": "1\n"
+   }
+  ],
+  "id": "B47"
+ },
+ {
+  "path": "maths/series/arithmetic.py",
+  "folder": "maths",
+  "operator": "wrong start value",
+  "function": "arithmetic_mean",
+  "line_original": 68,
+  "line": 60,
+  "old": "0",
+  "new": "1",
+  "before": "answer = 0",
+  "after": "answer = 1",
+  "failing": 4,
+  "examples": 11,
+  "loudness": 0.3636,
+  "visible": 7,
+  "hidden": [
+   {
+    "owner": "arithmetic_mean",
+    "first": 46,
+    "source": "arithmetic_mean([2, 4, 6])\n",
+    "want": "4.0\n"
+   },
+   {
+    "owner": "arithmetic_mean",
+    "first": 48,
+    "source": "arithmetic_mean([3, 6, 9, 12])\n",
+    "want": "7.5\n"
+   },
+   {
+    "owner": "arithmetic_mean",
+    "first": 54,
+    "source": "arithmetic_mean([4, 8, 1])\n",
+    "want": "4.333333333333333\n"
+   },
+   {
+    "owner": "arithmetic_mean",
+    "first": 56,
+    "source": "arithmetic_mean([1, 2, 3])\n",
+    "want": "2.0\n"
+   }
+  ],
+  "id": "B48"
+ },
+ {
+  "path": "geometry/monotone_chain.py",
+  "folder": "geometry",
+  "operator": "swap arguments",
+  "function": "monotone_chain",
+  "line_original": 109,
+  "line": 105,
+  "old": "lower_hull[-2], lower_hull[-1]",
+  "new": "lower_hull[-1], lower_hull[-2]",
+  "before": "and cross_product_direction(lower_hull[-2], lower_hull[-1], candidate_point)",
+  "after": "and cross_product_direction(lower_hull[-1], lower_hull[-2], candidate_point)",
+  "failing": 2,
+  "examples": 14,
+  "loudness": 0.1429,
+  "visible": 12,
+  "hidden": [
+   {
+    "owner": "monotone_chain",
+    "first": 88,
+    "source": "monotone_chain(square_points)\n",
+    "want": "[Point(x=0, y=0), Point(x=2, y=0), Point(x=2, y=2), Point(x=0, y=2)]\n"
+   },
+   {
+    "owner": "monotone_chain",
+    "first": 94,
+    "source": "monotone_chain(triangle_with_duplicates)\n",
+    "want": "[Point(x=0, y=0), Point(x=4, y=0), Point(x=2, y=3)]\n"
+   }
+  ],
+  "id": "B49"
+ },
+ {
+  "path": "blockchain/simple_blockchain.py",
+  "folder": "blockchain",
+  "operator": "swap arguments",
+  "function": "Blockchain.create_genesis_block",
+  "line_original": 109,
+  "line": 107,
+  "old": "0, \"Genesis Block\"",
+  "new": "\"Genesis Block\", 0",
+  "before": "return Block(0, \"Genesis Block\", \"0\", self.difficulty)",
+  "after": "return Block(\"Genesis Block\", 0, \"0\", self.difficulty)",
+  "failing": 1,
+  "examples": 22,
+  "loudness": 0.0455,
+  "visible": 21,
+  "hidden": [
+   {
+    "owner": "create_genesis_block",
+    "first": 104,
+    "source": "bc.chain[0].index\n",
+    "want": "0\n"
+   }
+  ],
+  "id": "B50"
+ },
+ {
+  "path": "ciphers/running_key_cipher.py",
+  "folder": "ciphers",
+  "operator": "swap arguments",
+  "function": "running_key_decrypt",
+  "line_original": 38,
+  "line": 38,
+  "old": "\" \", \"\"",
+  "new": "\"\", \" \"",
+  "before": "key = key.replace(\" \", \"\").upper()",
+  "after": "key = key.replace(\"\", \" \").upper()",
+  "failing": 1,
+  "examples": 3,
+  "loudness": 0.3333,
+  "visible": 2,
+  "hidden": [
+   {
+    "owner": "test_running_key_encrypt",
+    "first": 56,
+    "source": "running_key_decrypt(key, ciphertext) == \"DEFENDTHIS\"\n",
+    "want": "True\n"
+   }
+  ],
+  "id": "B51"
+ },
+ {
+  "path": "graphs/check_cycle.py",
+  "folder": "graphs",
+  "operator": "swap arguments",
+  "function": "check_cycle",
+  "line_original": 19,
+  "line": 15,
+  "old": "graph, node",
+  "new": "node, graph",
+  "before": "node not in visited and depth_first_search(graph, node, visited, rec_stk)",
+  "after": "node not in visited and depth_first_search(node, graph, visited, rec_stk)",
+  "failing": 2,
+  "examples": 5,
+  "loudness": 0.4,
+  "visible": 3,
+  "hidden": [
+   {
+    "owner": "check_cycle",
+    "first": 9,
+    "source": "check_cycle(graph={0:[], 1:[0, 3], 2:[0, 4], 3:[5], 4:[5], 5:[]})\n",
+    "want": "False\n"
+   },
+   {
+    "owner": "check_cycle",
+    "first": 11,
+    "source": "check_cycle(graph={0:[1, 2], 1:[2], 2:[0, 3], 3:[3]})\n",
+    "want": "True\n"
+   }
+  ],
+  "id": "B52"
+ },
+ {
+  "path": "ciphers/onepad_cipher.py",
+  "folder": "ciphers",
+  "operator": "swap arguments",
+  "function": "Onepad.encrypt",
+  "line_original": 32,
+  "line": 28,
+  "old": "1, 300",
+  "new": "300, 1",
+  "before": "k = random.randint(1, 300)",
+  "after": "k = random.randint(300, 1)",
+  "failing": 2,
+  "examples": 13,
+  "loudness": 0.1538,
+  "visible": 11,
+  "hidden": [
+   {
+    "owner": "encrypt",
+    "first": 14,
+    "source": "Onepad().encrypt(\" \")\n",
+    "want": "([6969], [69])\n"
+   },
+   {
+    "owner": "encrypt",
+    "first": 17,
+    "source": "Onepad().encrypt(\"Hello\")\n",
+    "want": "([9729, 114756, 4653, 31309, 10492], [69, 292, 33, 131, 61])\n"
+   }
+  ],
+  "id": "B53"
+ },
+ {
+  "path": "data_structures/heap/binomial_heap.py",
+  "folder": "data_structures",
+  "operator": "swap arguments",
+  "function": "BinomialHeap.pre_order",
+  "line_original": 373,
+  "line": 361,
+  "old": "top_root, heap_pre_order",
+  "new": "heap_pre_order, top_root",
+  "before": "self.__traversal(top_root, heap_pre_order)",
+  "after": "self.__traversal(heap_pre_order, top_root)",
+  "failing": 2,
+  "examples": 16,
+  "loudness": 0.125,
+  "visible": 14,
+  "hidden": [
+   {
+    "owner": "BinomialHeap",
+    "first": 97,
+    "source": "\" \".join(str(x) for x in second_heap.pre_order())\n",
+    "want": "\"(17, 0) ('#', 1) (31, 1) (20, 2) ('#', 3) ('#', 3) (34, 2) ('#', 3) ('#', 3)\"\n"
+   },
+   {
+    "owner": "BinomialHeap",
+    "first": 101,
+    "source": "print(second_heap)\n",
+    "want": "17\n-#\n-31\n--20\n---#\n---#\n--34\n---#\n---#\n"
+   }
+  ],
+  "id": "B54"
+ },
+ {
+  "path": "machine_learning/apriori_algorithm.py",
+  "folder": "machine_learning",
+  "operator": "wrong return value",
+  "function": "prune",
+  "line_original": 62,
+  "line": 58,
+  "old": "pruned",
+  "new": "item_tuple",
+  "before": "return pruned",
+  "after": "return item_tuple",
+  "failing": 4,
+  "examples": 11,
+  "loudness": 0.3636,
+  "visible": 7,
+  "hidden": [
+   {
+    "owner": "prune",
+    "first": 40,
+    "source": "prune(itemset, candidates, 2)\n",
+    "want": "[['X', 'Y'], ['X', 'Z'], ['Y', 'Z']]\n"
+   },
+   {
+    "owner": "prune",
+    "first": 45,
+    "source": "prune(itemset, candidates, 3)\n",
+    "want": "[]\n"
+   },
+   {
+    "owner": "apriori",
+    "first": 70,
+    "source": "apriori(data, 2)\n",
+    "want": "[(['A', 'B'], 1), (['A', 'C'], 2), (['B', 'C'], 2)]\n"
+   },
+   {
+    "owner": "apriori",
+    "first": 74,
+    "source": "apriori(data, 3)\n",
+    "want": "[]\n"
+   }
+  ],
+  "id": "B55"
+ },
+ {
+  "path": "strings/word_occurrence.py",
+  "folder": "strings",
+  "operator": "wrong return value",
+  "function": "word_occurrence",
+  "line_original": 21,
+  "line": 16,
+  "old": "occurrence",
+  "new": "word",
+  "before": "return occurrence",
+  "after": "return word",
+  "failing": 2,
+  "examples": 5,
+  "loudness": 0.4,
+  "visible": 3,
+  "hidden": [
+   {
+    "owner": "word_occurrence",
+    "first": 11,
+    "source": "all(occurrence_dict[word] == count for word, count\n    in Counter(SENTENCE.split()).items())\n",
+    "want": "True\n"
+   },
+   {
+    "owner": "word_occurrence",
+    "first": 14,
+    "source": "dict(word_occurrence(\"Two  spaces\"))\n",
+    "want": "{'Two': 1, 'spaces': 1}\n"
+   }
+  ],
+  "id": "B56"
+ },
+ {
+  "path": "graphs/gale_shapley_bigraph.py",
+  "folder": "graphs",
+  "operator": "wrong return value",
+  "function": "stable_matching",
+  "line_original": 49,
+  "line": 47,
+  "old": "donor_record",
+  "new": "n",
+  "before": "return donor_record",
+  "after": "return n",
+  "failing": 1,
+  "examples": 3,
+  "loudness": 0.3333,
+  "visible": 2,
+  "hidden": [
+   {
+    "owner": "stable_matching",
+    "first": 20,
+    "source": "stable_matching(donor_pref, recipient_pref)\n",
+    "want": "[1, 2, 3, 0]\n"
+   }
+  ],
+  "id": "B57"
+ },
+ {
+  "path": "backtracking/knight_tour.py",
+  "folder": "backtracking",
+  "operator": "wrong return value",
+  "function": "open_knight_tour",
+  "line_original": 91,
+  "line": 89,
+  "old": "board",
+  "new": "j",
+  "before": "return board",
+  "after": "return j",
+  "failing": 1,
+  "examples": 5,
+  "loudness": 0.2,
+  "visible": 4,
+  "hidden": [
+   {
+    "owner": "open_knight_tour",
+    "first": 76,
+    "source": "open_knight_tour(1)\n",
+    "want": "[[1]]\n"
+   }
+  ],
+  "id": "B58"
+ },
+ {
+  "path": "maths/area.py",
+  "folder": "maths",
+  "operator": "wrong return value",
+  "function": "area_triangle_three_sides",
+  "line_original": 412,
+  "line": 404,
+  "old": "area",
+  "new": "side2",
+  "before": "return area",
+  "after": "return side2",
+  "failing": 4,
+  "examples": 129,
+  "loudness": 0.031,
+  "visible": 125,
+  "hidden": [
+   {
+    "owner": "area_triangle_three_sides",
+    "first": 372,
+    "source": "area_triangle_three_sides(5, 12, 13)\n",
+    "want": "30.0\n"
+   },
+   {
+    "owner": "area_triangle_three_sides",
+    "first": 374,
+    "source": "area_triangle_three_sides(10, 11, 12)\n",
+    "want": "51.521233486786784\n"
+   },
+   {
+    "owner": "area_triangle_three_sides",
+    "first": 376,
+    "source": "area_triangle_three_sides(0, 0, 0)\n",
+    "want": "0.0\n"
+   },
+   {
+    "owner": "area_triangle_three_sides",
+    "first": 378,
+    "source": "area_triangle_three_sides(1.6, 2.6, 3.6)\n",
+    "want": "1.8703742940919619\n"
+   }
+  ],
+  "id": "B59"
+ },
+ {
+  "path": "maths/pell_number.py",
+  "folder": "maths",
+  "operator": "wrong return value",
+  "function": "pell_number_iterative",
+  "line_original": 44,
+  "line": 42,
+  "old": "prev_num",
+  "new": "prev_prev_num",
+  "before": "return prev_num",
+  "after": "return prev_prev_num",
+  "failing": 1,
+  "examples": 10,
+  "loudness": 0.1,
+  "visible": 9,
+  "hidden": [
+   {
+    "owner": "pell_number_iterative",
+    "first": 16,
+    "source": "pell_number_iterative(12)\n",
+    "want": "13860\n"
+   }
+  ],
+  "id": "B60"
+ },
+ {
+  "path": "sorts/stalin_sort.py",
+  "folder": "sorts",
+  "operator": "remove early return",
+  "function": "stalin_sort",
+  "line_original": 43,
+  "line": 41,
+  "old": "return []",
+  "new": "pass",
+  "before": "return []",
+  "after": "pass",
+  "failing": 1,
+  "examples": 10,
+  "loudness": 0.1,
+  "visible": 9,
+  "hidden": [
+   {
+    "owner": "stalin_sort",
+    "first": 36,
+    "source": "stalin_sort([])\n",
+    "want": "[]\n"
+   }
+  ],
+  "id": "B61"
+ },
+ {
+  "path": "conversions/prefix_conversions_string.py",
+  "folder": "conversions",
+  "operator": "remove early return",
+  "function": "add_si_prefix",
+  "line_original": 99,
+  "line": 97,
+  "old": "return f\"{numerical_part!s} {name_prefix}\"",
+  "new": "pass",
+  "before": "return f\"{numerical_part!s} {name_prefix}\"",
+  "after": "pass",
+  "failing": 1,
+  "examples": 12,
+  "loudness": 0.0833,
+  "visible": 11,
+  "hidden": [
+   {
+    "owner": "add_si_prefix",
+    "first": 92,
+    "source": "add_si_prefix(10000)\n",
+    "want": "'10.0 kilo'\n"
+   }
+  ],
+  "id": "B62"
+ },
+ {
+  "path": "sorts/pigeon_sort.py",
+  "folder": "sorts",
+  "operator": "remove early return",
+  "function": "pigeon_sort",
+  "line_original": 29,
+  "line": 27,
+  "old": "return array",
+  "new": "pass",
+  "before": "return array",
+  "after": "pass",
+  "failing": 1,
+  "examples": 3,
+  "loudness": 0.3333,
+  "visible": 2,
+  "hidden": [
+   {
+    "owner": "pigeon_sort",
+    "first": 23,
+    "source": "pigeon_sort([])\n",
+    "want": "[]\n"
+   }
+  ],
+  "id": "B63"
+ },
+ {
+  "path": "graphs/check_bipatrite.py",
+  "folder": "graphs",
+  "operator": "remove early return",
+  "function": "is_bipartite_dfs.depth_first_search",
+  "line_original": 70,
+  "line": 58,
+  "old": "return False",
+  "new": "pass",
+  "before": "return False",
+  "after": "pass",
+  "failing": 6,
+  "examples": 30,
+  "loudness": 0.2,
+  "visible": 24,
+  "hidden": [
+   {
+    "owner": "is_bipartite_dfs",
+    "first": 21,
+    "source": "is_bipartite_dfs({0: [1, 2], 1: [0, 3], 2: [0, 1]})\n",
+    "want": "False\n"
+   },
+   {
+    "owner": "is_bipartite_dfs",
+    "first": 27,
+    "source": "is_bipartite_dfs({0: [1, 2, 3], 1: [0, 2], 2: [0, 1, 3], 3: [0, 2]})\n",
+    "want": "False\n"
+   },
+   {
+    "owner": "is_bipartite_dfs",
+    "first": 31,
+    "source": "is_bipartite_dfs({0: [1, 3], 1: [0, 2], 2: [1, 3], 3: [0, 2], 4: [0]})\n",
+    "want": "False\n"
+   },
+   {
+    "owner": "is_bipartite_dfs",
+    "first": 33,
+    "source": "is_bipartite_dfs({7: [1, 3], 1: [0, 2], 2: [1, 3], 3: [0, 2], 4: [0]})\n",
+    "want": "False\n"
+   },
+   {
+    "owner": "is_bipartite_dfs",
+    "first": 36,
+    "source": "is_bipartite_dfs({0: [1, 3], 1: [0, 2], 2: [1, 3], 3: [0, 2], 9: [0]})\n",
+    "want": "False\n"
+   },
+   {
+    "owner": "is_bipartite_dfs",
+    "first": 38,
+    "source": "is_bipartite_dfs({0: [-1, 3], 1: [0, -2]})\n",
+    "want": "False\n"
+   }
+  ],
+  "id": "B64"
+ },
+ {
+  "path": "graphs/eulerian_path_and_circuit_for_undirected_graph.py",
+  "folder": "graphs",
+  "operator": "remove early return",
+  "function": "check_circuit_or_path",
+  "line_original": 75,
+  "line": 73,
+  "old": "return 2, odd_node",
+  "new": "pass",
+  "before": "return 2, odd_node",
+  "after": "pass",
+  "failing": 2,
+  "examples": 16,
+  "loudness": 0.125,
+  "visible": 14,
+  "hidden": [
+   {
+    "owner": "check_circuit_or_path",
+    "first": 55,
+    "source": "check_circuit_or_path({1: [2, 3, 4], 2: [], 3: [1, 2], 4: [], 5: [4]}, 10)\n",
+    "want": "(2, 5)\n"
+   },
+   {
+    "owner": "check_euler",
+    "first": 89,
+    "source": "check_euler({1: [2, 3, 4], 2: [1, 3], 3: [1, 2], 4: [1, 5], 5: [4]}, 10)\n",
+    "want": "graph has a Euler path\n[5, 4, 1, 2, 3, 1]\n"
+   }
+  ],
+  "id": "B65"
+ },
+ {
+  "path": "sorts/kirkpatrick_reisch_sort.py",
+  "folder": "sorts",
+  "operator": "remove early return",
+  "function": "kirkpatrick_reisch_sort",
+  "line_original": 49,
+  "line": 47,
+  "old": "return arr",
+  "new": "pass",
+  "before": "return arr",
+  "after": "pass",
+  "failing": 1,
+  "examples": 5,
+  "loudness": 0.2,
+  "visible": 4,
+  "hidden": [
+   {
+    "owner": "kirkpatrick_reisch_sort",
+    "first": 35,
+    "source": "kirkpatrick_reisch_sort([])\n",
+    "want": "[]\n"
+   }
+  ],
+  "id": "B66"
+ },
+ {
+  "path": "data_structures/binary_tree/binary_tree_path_sum.py",
+  "folder": "data_structures",
+  "operator": "change update",
+  "function": "BinaryTreePathSum.depth_first_search",
+  "line_original": 85,
+  "line": 75,
+  "old": "+=",
+  "new": "-=",
+  "before": "self.paths += 1",
+  "after": "self.paths -= 1",
+  "failing": 5,
+  "examples": 21,
+  "loudness": 0.2381,
+  "visible": 16,
+  "hidden": [
+   {
+    "owner": "BinaryTreePathSum",
+    "first": 46,
+    "source": "BinaryTreePathSum().path_sum(tree, 8)\n",
+    "want": "3\n"
+   },
+   {
+    "owner": "BinaryTreePathSum",
+    "first": 48,
+    "source": "BinaryTreePathSum().path_sum(tree, 7)\n",
+    "want": "2\n"
+   },
+   {
+    "owner": "BinaryTreePathSum",
+    "first": 51,
+    "source": "BinaryTreePathSum().path_sum(tree, 8)\n",
+    "want": "2\n"
+   },
+   {
+    "owner": "BinaryTreePathSum",
+    "first": 67,
+    "source": "BinaryTreePathSum().path_sum(tree2, 5)\n",
+    "want": "4\n"
+   },
+   {
+    "owner": "BinaryTreePathSum",
+    "first": 71,
+    "source": "BinaryTreePathSum().path_sum(tree2, 0)\n",
+    "want": "1\n"
+   }
+  ],
+  "id": "B67"
+ },
+ {
+  "path": "data_structures/stacks/stack_with_doubly_linked_list.py",
+  "folder": "data_structures",
+  "operator": "change update",
+  "function": "Stack.__len__",
+  "line_original": 78,
+  "line": 76,
+  "old": "+=",
+  "new": "-=",
+  "before": "count += 1",
+  "after": "count -= 1",
+  "failing": 1,
+  "examples": 10,
+  "loudness": 0.1,
+  "visible": 9,
+  "hidden": [
+   {
+    "owner": "Stack",
+    "first": 35,
+    "source": "len(stack)\n",
+    "want": "4\n"
+   }
+  ],
+  "id": "B68"
+ },
+ {
+  "path": "neural_network/simple_neural_network.py",
+  "folder": "neural_network",
+  "operator": "change update",
+  "function": "forward_propagation",
+  "line_original": 51,
+  "line": 49,
+  "old": "+=",
+  "new": "-=",
+  "before": "weight += INITIAL_VALUE * layer_1_delta",
+  "after": "weight -= INITIAL_VALUE * layer_1_delta",
+  "failing": 1,
+  "examples": 6,
+  "loudness": 0.1667,
+  "visible": 5,
+  "hidden": [
+   {
+    "owner": "forward_propagation",
+    "first": 32,
+    "source": "res > 31 and res < 33\n",
+    "want": "True\n"
+   }
+  ],
+  "id": "B69"
+ },
+ {
+  "path": "linear_algebra/jacobi_iteration_method.py",
+  "folder": "linear_algebra",
+  "operator": "change update",
+  "function": "strictly_diagonally_dominant",
+  "line_original": 191,
+  "line": 187,
+  "old": "+=",
+  "new": "-=",
+  "before": "total += table[i][j]",
+  "after": "total -= table[i][j]",
+  "failing": 1,
+  "examples": 29,
+  "loudness": 0.0345,
+  "visible": 28,
+  "hidden": [
+   {
+    "owner": "strictly_diagonally_dominant",
+    "first": 176,
+    "source": "strictly_diagonally_dominant(table)\n",
+    "want": "Traceback (most recent call last):\n    ...\nValueError: Coefficient matrix is not strictly diagonally dominant\n"
+   }
+  ],
+  "id": "B70"
+ },
+ {
+  "path": "machine_learning/frequent_pattern_growth.py",
+  "folder": "machine_learning",
+  "operator": "change update",
+  "function": "TreeNode.inc",
+  "line_original": 47,
+  "line": 47,
+  "old": "+=",
+  "new": "-=",
+  "before": "self.count += num_occur",
+  "after": "self.count -= num_occur",
+  "failing": 3,
+  "examples": 58,
+  "loudness": 0.0517,
+  "visible": 55,
+  "hidden": [
+   {
+    "owner": "create_tree",
+    "first": 82,
+    "source": "header_table[\"A\"]\n",
+    "want": "[[4, None], TreeNode('A', 4, TreeNode('Null Set', 1, None))]\n"
+   },
+   {
+    "owner": "create_tree",
+    "first": 84,
+    "source": "header_table[\"E\"][1]  # doctest: +NORMALIZE_WHITESPACE\n",
+    "want": "TreeNode('E', 1, TreeNode('B', 3, TreeNode('A', 4, TreeNode('Null Set', 1, None))))\n"
+   },
+   {
+    "owner": "update_tree",
+    "first": 156,
+    "source": "fp_tree.children['A'].children['B'].children['E'].count\n",
+    "want": "2\n"
+   }
+  ],
+  "id": "B71"
+ },
+ {
+  "path": "graphs/minimum_path_sum.py",
+  "folder": "graphs",
+  "operator": "change update",
+  "function": "fill_row",
+  "line_original": 53,
+  "line": 43,
+  "old": "+=",
+  "new": "-=",
+  "before": "current_row[0] += row_above[0]",
+  "after": "current_row[0] -= row_above[0]",
+  "failing": 2,
+  "examples": 5,
+  "loudness": 0.4,
+  "visible": 3,
+  "hidden": [
+   {
+    "owner": "min_path_sum",
+    "first": 12,
+    "source": "min_path_sum([\n    [1, 0, 5, 6, 7],\n    [8, 9, 0, 4, 2],\n    [4, 4, 4, 5, 1],\n    [9, 6, 3, 1, 0],\n    [8, 4, 3, 2, 7],\n])\n",
+    "want": "20\n"
+   },
+   {
+    "owner": "fill_row",
+    "first": 49,
+    "source": "fill_row([2, 2, 2], [1, 2, 3])\n",
+    "want": "[3, 4, 5]\n"
+   }
+  ],
+  "id": "B72"
+ }
+]

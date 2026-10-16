@@ -1,0 +1,80 @@
+[
+ {
+  "id": "chain-relay-3/t001",
+  "label": "leg 1",
+  "phase": "",
+  "model": "Qwen-Ambassador/Qwen3.8-27B",
+  "status": "done",
+  "started": 6.470000516856089e-05,
+  "ended": 1.937110600003507,
+  "cost": 0.2,
+  "error": null,
+  "replies": 1,
+  "reply": "{\"record\": \"R599\", \"balance\": 140}"
+ },
+ {
+  "id": "chain-relay-3/t002",
+  "label": "leg 2",
+  "phase": "",
+  "model": "Qwen-Ambassador/Qwen3.8-27B",
+  "status": "done",
+  "started": 1.9371825000052922,
+  "ended": 3.955860300004133,
+  "cost": 0.2,
+  "error": null,
+  "replies": 1,
+  "reply": "{\"record\": \"R363\", \"balance\": 180}"
+ },
+ {
+  "id": "chain-relay-3/t003",
+  "label": "leg 3",
+  "phase": "",
+  "model": "Qwen-Ambassador/Qwen3.8-27B",
+  "status": "done",
+  "started": 3.955970700000762,
+  "ended": 6.053495500003919,
+  "cost": 0.2,
+  "error": null,
+  "replies": 1,
+  "reply": "{\"record\": \"R410\", \"balance\": 235}"
+ },
+ {
+  "id": "chain-relay-3/t004",
+  "label": "leg 4",
+  "phase": "",
+  "model": "Qwen-Ambassador/Qwen3.8-27B",
+  "status": "done",
+  "started": 6.053561100001389,
+  "ended": 7.950581000004604,
+  "cost": 0.2,
+  "error": null,
+  "replies": 1,
+  "reply": "{\"record\": \"R122\", \"balance\": 307}"
+ },
+ {
+  "id": "chain-relay-3/t005",
+  "label": "leg 5",
+  "phase": "",
+  "model": "Qwen-Ambassador/Qwen3.8-27B",
+  "status": "done",
+  "started": 7.950714500002505,
+  "ended": 9.865963300006115,
+  "cost": 0.2,
+  "error": null,
+  "replies": 1,
+  "reply": "{\"record\": \"R595\", \"balance\": 234}"
+ },
+ {
+  "id": "chain-relay-3/t006",
+  "label": "leg 6",
+  "phase": "",
+  "model": "Qwen-Ambassador/Qwen3.8-27B",
+  "status": "done",
+  "started": 9.866021000001638,
+  "ended": 11.847670100003597,
+  "cost": 0.2,
+  "error": null,
+  "replies": 1,
+  "reply": "{\"record\": \"R217\", \"balance\": 254}"
+ }
+]

@@ -1,0 +1,34 @@
+{
+  "rows": [
+    {
+      "catches": "confirmed places (no key)",
+      "seen": 111,
+      "chapman": 110.3088,
+      "low": 104.573,
+      "high": 116.0446,
+      "chao1": 122.6071,
+      "n1": 86,
+      "n2": 86,
+      "both": 67
+    },
+    {
+      "catches": "planted bugs found (with the key)",
+      "seen": 58,
+      "chapman": 56.5106,
+      "low": 54.9776,
+      "high": 58.0437,
+      "chao1": 58.6667,
+      "n1": 52,
+      "n2": 50,
+      "both": 46
+    }
+  ],
+  "cover_equal": 0.9185,
+  "cover_unequal": 0.0005,
+  "median_equal": 98.6923,
+  "median_unequal": 68.7895,
+  "est_bugs": 56.5106,
+  "low_bugs": 54.9776,
+  "high_bugs": 58.0437,
+  "est_places": 110.3088
+}

@@ -1,0 +1,10 @@
+{
+  "acc_other": 0.8417,
+  "acc_same": 0.8879,
+  "fpr_other": 0.2778,
+  "fpr_same": 0.098,
+  "kappa": 0.55,
+  "disagree": 9,
+  "other_right": 3,
+  "same_right": 6
+}

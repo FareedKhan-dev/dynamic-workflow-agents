@@ -1,0 +1,103 @@
+{
+  "candidates": 14,
+  "rows": [
+    {
+      "place": "divide_and_conquer/strassen_matrix_multiplication.py::strassen",
+      "call": "strassen([[1, 2], [3, 4]], [[5, 6], [7, 8]])",
+      "expected": "[[19, 22], [43, 50]]",
+      "original gives": "[[[1, 2], [3, 4]], [[5, 6], [7, 8]]]",
+      "claim": "When both input matrices are already square, the function returns a list contain"
+    },
+    {
+      "place": "dynamic_programming/minimum_size_subarray_sum.py::minimum_subarray_sum",
+      "call": "minimum_subarray_sum(0, [0, 1])",
+      "expected": "1",
+      "original gives": "0",
+      "claim": "The condition `if target == 0 and target in numbers: return 0` incorrectly retur"
+    },
+    {
+      "place": "machine_learning/word_frequency_functions.py::document_frequency",
+      "call": "document_frequency('first', 'This is firstly document\\nThis ",
+      "expected": "(1, 2)",
+      "original gives": "(2, 2)",
+      "claim": "The function uses substring matching (`term in doc`) instead of exact word match"
+    },
+    {
+      "place": "maths/interquartile_range.py::find_median",
+      "call": "find_median([3, 1, 2])",
+      "expected": "2",
+      "original gives": "1",
+      "claim": "The function does not sort the input list before calculating the median, so it r"
+    },
+    {
+      "place": "graphics/vector3_for_2d_rendering.py::rotate",
+      "call": "rotate(1.0, 2.0, 3.0, 'y', 90.0)",
+      "expected": "(3.0, 2.0, 1.0)",
+      "original gives": "(3.130524675073759, 2.0, 0.4470070007889",
+      "claim": "The angle conversion formula divides by 450 instead of 180 (or multiplies incorr"
+    },
+    {
+      "place": "graphs/graph_peripherality.py::find_far_node",
+      "call": "find_far_node([(0, 5.0), (1, 5.0)])",
+      "expected": "(1, 5.0)",
+      "original gives": "(0, 5.0)",
+      "claim": "The tie-breaking logic prefers the node with the lower index instead of the high"
+    },
+    {
+      "place": "graphs/graph_peripherality.py::find_peripheral_node",
+      "call": "find_peripheral_node([(0, 5.0), (1, 5.0)])",
+      "expected": "(1, 5.0)",
+      "original gives": "(0, 5.0)",
+      "claim": "The tie-breaking logic prefers the node with the lower index instead of the high"
+    },
+    {
+      "place": "physics/grahams_law.py::second_molar_mass",
+      "call": "second_molar_mass(2.016, 1.408943, 0.709752)",
+      "expected": "4.002",
+      "original gives": "1.954713",
+      "claim": "The formula for calculating the second molar mass is inverted; it divides the sq"
+    },
+    {
+      "place": "graphs/frequent_pattern_graph_miner.py::get_support",
+      "call": "get_support({5: {'11111': ['ab']}, 4: {'11101': ['ef']}})",
+      "expected": "[100.0, 80.0]",
+      "original gives": "[250.0, 200.0]",
+      "claim": "The function divides by the number of clusters instead of the total number of gr"
+    },
+    {
+      "place": "matrix/matrix_based_game.py::find_repeat",
+      "call": "find_repeat([['A', 'B'], ['C', 'D']], 0, 0, 2)",
+      "expected": "{(0, 0)}",
+      "original gives": "{(1, 0)}",
+      "claim": "The function swaps the row and column indices after transforming the column, cau"
+    },
+    {
+      "place": "other/gauss_easter.py::gauss_easter",
+      "call": "gauss_easter(1996)",
+      "expected": "datetime.datetime(1996, 4, 21,",
+      "original gives": "datetime.datetime(1996, 4, 8, 0, 0, tzin",
+      "claim": "The variable `leap_day_reinstall_number` is calculated using floating-point divi"
+    },
+    {
+      "place": "backtracking/word_search.py::get_point_key",
+      "call": "get_point_key(3, 4, 1, 2)",
+      "expected": "6",
+      "original gives": "14",
+      "claim": "The hash key calculation uses len_board * len_board_column instead of len_board_"
+    },
+    {
+      "place": "maths/entropy.py::analyze_text",
+      "call": "analyze_text(\"\")",
+      "expected": "Traceback (most recent call la",
+      "original gives": "raised IndexError: string index out of r",
+      "claim": "The code unconditionally counts the last character of the text as a single chara"
+    },
+    {
+      "place": "ciphers/bifid.py::BifidCipher.decode",
+      "call": "BifidCipher().decode('qtlt bdxrxlk')",
+      "expected": "'testmessage'",
+      "original gives": "raised IndexError: index 0 is out of bou",
+      "claim": "Spaces are not removed from the input message because the return value of `repla"
+    }
+  ]
+}

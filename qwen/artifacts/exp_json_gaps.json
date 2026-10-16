@@ -1,0 +1,80 @@
+{
+  "discovery": [
+    {
+      "round": 1,
+      "new_places": 40,
+      "places": 40,
+      "new_bugs": 22,
+      "scan_recall": 0.3056
+    },
+    {
+      "round": 2,
+      "new_places": 20,
+      "places": 60,
+      "new_bugs": 5,
+      "scan_recall": 0.375
+    },
+    {
+      "round": 3,
+      "new_places": 12,
+      "places": 72,
+      "new_bugs": 4,
+      "scan_recall": 0.4306
+    }
+  ],
+  "round1_places": 40,
+  "later_places": 32,
+  "later_bugs": 9,
+  "recall_round1": 0.3056,
+  "recall_round3": 0.4306,
+  "evidence": [
+    {
+      "evidence": "agrees",
+      "places": 12,
+      "planted": 2,
+      "calls": 6.0
+    },
+    {
+      "evidence": "differs",
+      "places": 15,
+      "planted": 13,
+      "calls": 7.5
+    },
+    {
+      "evidence": "not run",
+      "places": 7,
+      "planted": 2,
+      "calls": 3.5
+    },
+    {
+      "evidence": "raised",
+      "places": 6,
+      "planted": 5,
+      "calls": 3.0
+    }
+  ],
+  "agrees_places": 12,
+  "agrees_planted": 2,
+  "places": 40,
+  "wait_mean": 0.3227,
+  "gaps": [
+    {
+      "idea": "loop until nothing new",
+      "json": "new field + compiler loop + validator rule",
+      "lines": 7,
+      "measured": "rounds 2-3 added 9 planted bugs to the scan stage"
+    },
+    {
+      "idea": "decide from results",
+      "json": "new field + evidence step in the compiler",
+      "lines": 1,
+      "measured": "30% of verify work skipped, 2 planted bugs lost"
+    },
+    {
+      "idea": "no barrier between steps",
+      "json": "a second execution model in the compiler",
+      "lines": 3,
+      "measured": "0 worker-minutes of waiting per run"
+    }
+  ]
+}

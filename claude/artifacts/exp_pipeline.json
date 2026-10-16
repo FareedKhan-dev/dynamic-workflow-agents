@@ -1,0 +1,9 @@
+{
+  "barrier_s": 3.857,
+  "pipeline_s": 3.017,
+  "saving": 0.2178,
+  "ideal_barrier": 3.7801,
+  "ideal_pipeline": 2.9772,
+  "items": 24,
+  "trace": "799 measured scan calls"
+}

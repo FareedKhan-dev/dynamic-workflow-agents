@@ -1,0 +1,49 @@
+{
+  "rows": [
+    {
+      "budget": 20,
+      "valid": true,
+      "decision": "approved",
+      "estimate": 7.3,
+      "workers": 39,
+      "magicubes": 0.0,
+      "full_price": 8.3,
+      "recall": 0.2778,
+      "precision": 0.8696,
+      "features": "loop, decides from results, own function",
+      "status": "completed"
+    },
+    {
+      "budget": 60,
+      "valid": true,
+      "decision": "approved",
+      "estimate": 15.7,
+      "workers": 87,
+      "magicubes": 0.0,
+      "full_price": 18.1,
+      "recall": 0.3889,
+      "precision": 0.7778,
+      "features": "decides from results",
+      "status": "completed"
+    },
+    {
+      "budget": 150,
+      "valid": true,
+      "decision": "approved",
+      "estimate": 52.9,
+      "workers": 236,
+      "magicubes": 0.6,
+      "full_price": 49.7,
+      "recall": 0.5278,
+      "precision": 0.76,
+      "features": "loop, decides from results, own function",
+      "status": "completed"
+    }
+  ],
+  "spent_small": 8.3,
+  "spent_mid": 18.1,
+  "spent_big": 49.7,
+  "recall_small": 0.2778,
+  "recall_mid": 0.3889,
+  "recall_big": 0.5278
+}

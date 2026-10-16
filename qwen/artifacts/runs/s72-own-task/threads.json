@@ -1,0 +1,15 @@
+[
+ {
+  "id": "s72-own-task/t001",
+  "label": "summarise",
+  "phase": "Summarise",
+  "model": "Qwen-Ambassador/Qwen3.8-Flash-Next",
+  "status": "done",
+  "started": 0.0002641000028233975,
+  "ended": 2.0493045000039274,
+  "cost": 0.2,
+  "error": null,
+  "replies": 1,
+  "reply": "{\"summaries\": [{\"id\": 1, \"summary\": \"Library adds scan worker lenses\"}, {\"id\": 2, \"summary\": \"Budget pauses work at cap\"}, {\"id\": 3, \"summary\": \"Plans checked before execution\"}]}"
+ }
+]

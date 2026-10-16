@@ -1,0 +1,4 @@
+{"seq": 1, "t": 0.0, "type": "run.created", "run_id": "intents-flat", "title": "intents: one flat merge", "goal": ""}
+{"seq": 2, "t": 0.001, "type": "run.agent_started", "run_id": "intents-flat", "thread": "intents-flat/t001", "label": "merge:1727", "model": "claude-haiku-4-5", "phase": ""}
+{"seq": 3, "t": 0.004, "type": "run.agent_ended", "run_id": "intents-flat", "thread": "intents-flat/t001", "label": "merge:1727", "ok": false, "seconds": 0.0, "cached": true, "cents": 0.0, "phase": ""}
+{"seq": 4, "t": 0.005, "type": "run.ended", "run_id": "intents-flat", "status": "completed", "seconds": 0.0, "agents": 1, "failed": 1, "cents": 0.0, "dropped": 0, "error": null}

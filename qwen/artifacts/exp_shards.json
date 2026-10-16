@@ -1,0 +1,44 @@
+{
+  "rows": [
+    {
+      "tokens": 20000,
+      "shards": 68,
+      "recall": 0.375,
+      "precision": 0.7105,
+      "calls": 79,
+      "full_price": 16.1,
+      "single_worker": 0.3125
+    },
+    {
+      "tokens": 40000,
+      "shards": 34,
+      "recall": 0.2361,
+      "precision": 0.85,
+      "calls": 43,
+      "full_price": 8.9,
+      "single_worker": 0.2083
+    },
+    {
+      "tokens": 60000,
+      "shards": 23,
+      "recall": 0.1944,
+      "precision": 0.875,
+      "calls": 28,
+      "full_price": 5.9,
+      "single_worker": 0.2083
+    },
+    {
+      "tokens": 100000,
+      "shards": 14,
+      "recall": 0.1806,
+      "precision": 0.7647,
+      "calls": 19,
+      "full_price": 4.1,
+      "single_worker": 0.2917
+    }
+  ],
+  "best_k": 20,
+  "best_recall": 0.375,
+  "chosen_k": 100,
+  "chosen_recall": 0.1806
+}

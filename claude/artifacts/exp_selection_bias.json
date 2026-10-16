@@ -1,0 +1,21 @@
+{
+  "pick edits uniformly": {
+    "method": "pick edits uniformly",
+    "mean": 0.6839,
+    "low": 0.6282,
+    "high": 0.7335
+  },
+  "pick files uniformly": {
+    "method": "pick files uniformly",
+    "mean": 0.5287,
+    "low": 0.503,
+    "high": 0.5703
+  },
+  "pick files per length quarter": {
+    "method": "pick files per length quarter",
+    "mean": 0.5072,
+    "low": 0.5006,
+    "high": 0.5169
+  },
+  "uniform_mean": 0.6839
+}

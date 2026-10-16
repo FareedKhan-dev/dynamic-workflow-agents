@@ -1,0 +1,313 @@
+{
+  "candidates": 44,
+  "rows": [
+    {
+      "place": "divide_and_conquer/strassen_matrix_multiplication.py::strassen",
+      "call": "strassen([[1, 2], [3, 4]], [[1, 0], [0, 1]])",
+      "expected": "[[1, 2], [3, 4]]",
+      "original gives": "[[[1, 2], [3, 4]], [[1, 0], [0, 1]]]",
+      "claim": "When both matrices are square, the function returns the pair [matrix1, matrix2] "
+    },
+    {
+      "place": "maths/basic_maths.py::sum_of_divisors",
+      "call": "sum_of_divisors(6)",
+      "expected": "12",
+      "original gives": "3",
+      "claim": "After trial division, any leftover prime factor greater than 1 is never accounte"
+    },
+    {
+      "place": "maths/prime_numbers.py::fast_primes",
+      "call": "list(fast_primes(2))",
+      "expected": "[2]",
+      "original gives": "[]",
+      "claim": "The guard `if max_n > 2` should be `>= 2`, so 2 is never yielded when max_n is e"
+    },
+    {
+      "place": "maths/special_numbers/catalan_number.py::catalan",
+      "call": "catalan(2)",
+      "expected": "2",
+      "original gives": "1",
+      "claim": "The loop runs over range(1, number), so it computes the (number-1)th Catalan num"
+    },
+    {
+      "place": "physics/grahams_law.py::second_molar_mass",
+      "call": "second_molar_mass(2, 1.408943, 0.709752)",
+      "expected": "about 7.8809 (2 * (1.408943/0.",
+      "original gives": "1.970351",
+      "claim": "The function divides by molar_mass instead of multiplying, so m2 = m1 * (r1/r2)^"
+    },
+    {
+      "place": "strings/is_polish_national_id.py::is_polish_national_id",
+      "call": "is_polish_national_id(\"00010100060\")",
+      "expected": "True",
+      "original gives": "False",
+      "claim": "When the weighted subtotal is divisible by 10 the checksum becomes 10 instead of"
+    },
+    {
+      "place": "conversions/decimal_to_hexadecimal.py::decimal_to_hexadecimal",
+      "call": "decimal_to_hexadecimal(0)",
+      "expected": "'0x0'",
+      "original gives": "'0x'",
+      "claim": "For input 0 the digit loop never runs, so the result is the bare prefix '0x' wit"
+    },
+    {
+      "place": "conversions/octal_to_hexadecimal.py::octal_to_hex",
+      "call": "octal_to_hex(\"0\")",
+      "expected": "'0x0'",
+      "original gives": "'0x'",
+      "claim": "For an octal input of zero the conversion loop produces no hex digits, so the fu"
+    },
+    {
+      "place": "data_structures/binary_tree/binary_search_tree.py::BinarySearchTree.search",
+      "call": "BinarySearchTree().insert(1000).search(int(\"1000\"))",
+      "expected": "The Node holding 1000 (its rep",
+      "original gives": "None",
+      "claim": "The loop compares with `is not`, so an equal but non-identical value (e.g. an in"
+    },
+    {
+      "place": "greedy_methods/fractional_knapsack.py::frac_knapsack",
+      "call": "frac_knapsack([10, 40], [5, 4], 2, 2)",
+      "expected": "20.0",
+      "original gives": "0",
+      "claim": "When the capacity is smaller than the first (best-ratio) item's weight, the func"
+    },
+    {
+      "place": "matrix/largest_square_area_in_matrix.py::largest_square_area_in_matrix_bottom_up_space_optimization",
+      "call": "largest_square_area_in_matrix_bottom_up_space_optimization(2",
+      "expected": "1",
+      "original gives": "2",
+      "claim": "After each row, next_row is assigned the same list object as current_row instead"
+    },
+    {
+      "place": "matrix/matrix_operation.py::multiply",
+      "call": "multiply([[1, 2, 3], [4, 5, 6]], [[1], [2], [3]])",
+      "expected": "[[14], [32]]",
+      "original gives": "raised ValueError: operands could not be",
+      "claim": "The dimension check calls _verify_matrix_sizes, which requires both matrices to "
+    },
+    {
+      "place": "divide_and_conquer/kth_order_statistic.py::kth_number",
+      "call": "kth_number([5, 5], 2)",
+      "expected": "5",
+      "original gives": "raised IndexError: Cannot choose from an",
+      "claim": "Elements equal to the pivot are dropped from both partitions, so duplicates of t"
+    },
+    {
+      "place": "maths/line_intersection.py::line_coefficients",
+      "call": "segment_intersection([1, 0], [1, 2], [0, 1], [2, 1], as_segm",
+      "expected": "[1.0, 1.0]",
+      "original gives": "[-1.0, 1.0]",
+      "claim": "For a vertical line x = c the returned C is +x instead of -x, which breaks the A"
+    },
+    {
+      "place": "other/gauss_easter.py::gauss_easter",
+      "call": "gauss_easter(2100)",
+      "expected": "datetime.datetime(2100, 3, 28,",
+      "original gives": "datetime.datetime(2100, 3, 26, 0, 0, tzi",
+      "claim": "Using true division instead of floor division makes leap_day_reinstall_number fr"
+    },
+    {
+      "place": "divide_and_conquer/closest_pair_of_points.py::dis_between_closest_in_strip",
+      "call": "dis_between_closest_in_strip([(0, 0), (0, 1), (100, 2), (200",
+      "expected": "1",
+      "original gives": "10001",
+      "claim": "The outer loop starts at min(6, n-1) instead of 1, so pairs whose later index is"
+    },
+    {
+      "place": "dynamic_programming/knapsack.py::knapsack",
+      "call": "knapsack(0, [1], [5], 1)",
+      "expected": "(0, [[0], [0]])",
+      "original gives": "raised UnboundLocalError: cannot access ",
+      "claim": "The return value uses the loop variable `w_`, which is never assigned when capac"
+    },
+    {
+      "place": "geometry/triangle.py::Triangle.__post_init__",
+      "call": "Triangle(Point(0, 0), Point(0, 1), Point(1, 0))",
+      "expected": "A Triangle object is construct",
+      "original gives": "raised ZeroDivisionError: division by ze",
+      "claim": "The vertical-side linearity check compares v3.y with v2.y instead of v3.x with v"
+    },
+    {
+      "place": "graphs/dijkstra_algorithm.py::PriorityQueue.par",
+      "call": "PriorityQueue().par(2)",
+      "expected": "0",
+      "original gives": "1",
+      "claim": "The parent index is computed as floor(i / 2), which gives 1 for index 2 instead "
+    },
+    {
+      "place": "searches/median_of_medians.py::median_of_medians",
+      "call": "median_of_medians([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12])",
+      "expected": "8",
+      "original gives": "9",
+      "claim": "For full groups the code takes the whole remaining suffix arr[i:] instead of the"
+    },
+    {
+      "place": "divide_and_conquer/closest_pair_of_points.py::closest_pair_of_points_sqr",
+      "call": "closest_pair_of_points([(0, 0), (0, 10), (1, 50), (1000, 100",
+      "expected": "1.4142135623730951",
+      "original gives": "10.0",
+      "claim": "The right-half recursion passes points_sorted_on_y as the x-sorted list and slic"
+    },
+    {
+      "place": "graphics/vector3_for_2d_rendering.py::rotate",
+      "call": "rotate(1, 2, 3, \"x\", 90)",
+      "expected": "Approximately (1, -3, 2), sinc",
+      "original gives": "(1, 3.5776792428178217, -0.4474497016542",
+      "claim": "The angle conversion uses /450*180/pi, which is not a degrees-to-radians convers"
+    },
+    {
+      "place": "graphs/breadth_first_search_shortest_path_2.py::bfs_shortest_path_distance",
+      "call": "bfs_shortest_path_distance({1: [2], 2: []}, 1, 2)",
+      "expected": "1",
+      "original gives": "raised TypeError: 'int' object is not it",
+      "claim": "The visited set is built with set(start), which splits a string node into charac"
+    },
+    {
+      "place": "linear_algebra/src/rank_of_matrix.py::rank_of_matrix",
+      "call": "rank_of_matrix([[0, 1, 1], [0, 0, 1], [0, 0, 0]])",
+      "expected": "2",
+      "original gives": "0",
+      "claim": "Setting row -= 1 inside a for loop has no effect, so after a column is replaced "
+    },
+    {
+      "place": "ciphers/base85.py::_base10_to_85",
+      "call": "ascii85_encode(b\"\\x00\\x00\\x00\\x01\")",
+      "expected": "b'!!!!\"'",
+      "original gives": "b'\"'",
+      "claim": "The recursion stops when the value reaches 0, so leading zero digits are dropped"
+    },
+    {
+      "place": "data_structures/binary_tree/diameter_of_binary_tree.py::Node.diameter",
+      "call": "Node(1, left=Node(2, left=Node(3, left=Node(4), right=Node(5",
+      "expected": "5",
+      "original gives": "4",
+      "claim": "The diameter is computed only through the current node, so a longer path lying e"
+    },
+    {
+      "place": "dynamic_programming/largest_divisible_subset.py::largest_divisible_subset",
+      "call": "largest_divisible_subset([0, 1])",
+      "expected": "[1]",
+      "original gives": "[1, 0]",
+      "claim": "Operator precedence makes the guard evaluate to True when a previous item is 0, "
+    },
+    {
+      "place": "conversions/hex_to_bin.py::hex_to_bin",
+      "call": "hex_to_bin(\"0\")",
+      "expected": "0",
+      "original gives": "raised ValueError: invalid literal for i",
+      "claim": "For input whose value is zero, bin_str stays empty and int(\"\") raises ValueError"
+    },
+    {
+      "place": "maths/derangement.py::derangement",
+      "call": "derangement(0)",
+      "expected": "1",
+      "original gives": "0",
+      "claim": "The base case returns 0 for objects == 0, but the number of derangements of zero"
+    },
+    {
+      "place": "maths/numerical_analysis/simpson_rule.py::make_points",
+      "call": "list(make_points(0.0, 1.0, 0.5))",
+      "expected": "[0.5]",
+      "original gives": "[]",
+      "claim": "The strict comparison x < b - h drops the last interior point b - h, so Simpson'"
+    },
+    {
+      "place": "other/davis_putnam_logemann_loveland.py::dpll_algorithm",
+      "call": "dpll_algorithm([Clause(['A1', 'A2']), Clause(['A1', \"A2'\"]),",
+      "expected": "(True, a model satisfying the ",
+      "original gives": "(False, None)",
+      "claim": "tmp1 and tmp2 are the same dict object, so setting tmp2[p]=False overwrites tmp1"
+    },
+    {
+      "place": "linear_algebra/src/transformations_2d.py::reflection",
+      "call": "reflection(1.0)",
+      "expected": "[[-0.4161468365471424, 0.90929",
+      "original gives": "[[0.08060461173627953, 0.909297426825681",
+      "claim": "The diagonal entries of the reflection matrix should be 2*c*c - 1 and 2*s*s - 1 "
+    },
+    {
+      "place": "genetic_algorithm/basic_string.py::mutate",
+      "call": "mutate(\"123456\", list(\"ABCDEF\"))",
+      "expected": "Mutation position should be un",
+      "original gives": "'12345D'",
+      "claim": "randint(0, len(child)) - 1 yields indices -1 to len-1, so the last gene is chose"
+    },
+    {
+      "place": "strings/pig_latin.py::pig_latin",
+      "call": "pig_latin(\"rhythm\")",
+      "expected": "'rhythmay'",
+      "original gives": "'mrhythay'",
+      "claim": "For a word with no vowels the loop ends with i at the last index, so the last le"
+    },
+    {
+      "place": "scheduling/job_sequence_with_deadline.py::max_tasks",
+      "call": "max_tasks([(2, 10), (1, 5)])",
+      "expected": "[0, 1]",
+      "original gives": "[0]",
+      "claim": "The feasibility test compares each deadline with the task's position in the rewa"
+    },
+    {
+      "place": "data_compression/lz77.py::LZ77Compressor._match_length_from_index",
+      "call": "LZ77Compressor().compress(\"abab\")",
+      "expected": "[(0, 0, a), (0, 0, b), (2, 2, ",
+      "original gives": "raised IndexError: string index out of r",
+      "claim": "The recursion checks only whether the whole text is empty, not whether text_inde"
+    },
+    {
+      "place": "graphs/ant_colony_optimization_algorithms.py::main",
+      "call": "main(cities={0: [0, 0], 1: [2, 2], 2: [4, 4]}, ants_num=1, i",
+      "expected": "pheromone matrix rows initiali",
+      "original gives": "([0, 2, 1, 0], 11.313708498984761)",
+      "claim": "`[[1.0] * n] * n` makes every row the same list object, so pheromone updates to "
+    },
+    {
+      "place": "graphs/depth_first_search.py::depth_first_search",
+      "call": "depth_first_search({\"AB\": [\"AB\"]}, \"AB\")",
+      "expected": "{'AB'}",
+      "original gives": "{'B', 'A', 'AB'}",
+      "claim": "set(start) builds a set of the characters of the start string rather than a set "
+    },
+    {
+      "place": "matrix/matrix_operation.py::_verify_matrix_sizes",
+      "call": "multiply([[1, 2], [3, 4], [5, 6]], [[1, 2], [3, 4]])",
+      "expected": "[[7, 10], [15, 22], [23, 34]]",
+      "original gives": "raised ValueError: operands could not be",
+      "claim": "The size check requires both operands to have identical shapes, which rejects va"
+    },
+    {
+      "place": "ciphers/base32.py::base32_encode",
+      "call": "base32_encode(b\"12345\")",
+      "expected": "b'GEZDGNBV'",
+      "original gives": "b'GEZDGNBVA======='",
+      "claim": "The ljust padding always adds an extra 5-bit group when the bit length is alread"
+    },
+    {
+      "place": "data_compression/coordinate_compression.py::CoordinateCompressor.__init__",
+      "call": "CoordinateCompressor([1, 1, 2]).decompress(2)",
+      "expected": "IndexError (only coordinates 0",
+      "original gives": "-1",
+      "claim": "reverse_map is sized to len(arr) including duplicates, so with duplicate inputs "
+    },
+    {
+      "place": "graphs/breadth_first_search_zero_one_shortest_path.py::AdjacencyList.add_edge",
+      "call": "AdjacencyList(2).add_edge(5, 0, 1)",
+      "expected": "ValueError: Vertex indexes mus",
+      "original gives": "raised IndexError: list index out of ran",
+      "claim": "The bounds check validates to_vertex but never from_vertex, so an out-of-range s"
+    },
+    {
+      "place": "graphs/markov_chain.py::get_transitions",
+      "call": "get_transitions('a', [('a', 'a', 1.0)], 0)",
+      "expected": "{'a': 0}",
+      "original gives": "Counter({'a': 1})",
+      "claim": "The visit Counter is seeded with each node at count 1 (Counter of the node list)"
+    },
+    {
+      "place": "data_compression/coordinate_compression.py::CoordinateCompressor.decompress",
+      "call": "CoordinateCompressor([1, 1, 2]).decompress(2)",
+      "expected": "IndexError, since only compres",
+      "original gives": "-1",
+      "claim": "The range check uses len(self.reverse_map), which counts the -1 placeholders lef"
+    }
+  ]
+}

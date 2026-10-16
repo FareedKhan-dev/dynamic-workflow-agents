@@ -1,0 +1,88 @@
+{
+  "rows": [
+    {
+      "feature": "three lenses (vs three general readings)",
+      "metric": "scan-stage recall",
+      "est": 0.0694,
+      "lo": -0.0139,
+      "hi": 0.1667,
+      "verdict": "NEUTRAL"
+    },
+    {
+      "feature": "a second round of scanning",
+      "metric": "scan-stage recall",
+      "est": -0.0694,
+      "lo": -0.1389,
+      "hi": -0.0139,
+      "verdict": "KEPT"
+    },
+    {
+      "feature": "executable evidence",
+      "metric": "skeptic accuracy",
+      "est": 0.0083,
+      "lo": -0.05,
+      "hi": 0.075,
+      "verdict": "NEUTRAL"
+    },
+    {
+      "feature": "verification, 2 of 3 skeptics",
+      "metric": "precision",
+      "est": -0.25,
+      "lo": -0.4,
+      "hi": -0.1274,
+      "verdict": "KEPT"
+    },
+    {
+      "feature": "three skeptics (vs one)",
+      "metric": "precision",
+      "est": 0.08,
+      "lo": 0.0029,
+      "hi": 0.1905,
+      "verdict": "HARMFUL"
+    },
+    {
+      "feature": "a judge from another generation",
+      "metric": "skeptic accuracy",
+      "est": 0.0463,
+      "lo": -0.0661,
+      "hi": 0.1575,
+      "verdict": "NEUTRAL"
+    }
+  ],
+  "described": [
+    {
+      "feature": "merging duplicates (dedupe)",
+      "metric": "skeptic calls per run",
+      "value": "saves 11 calls per run",
+      "verdict": "KEPT"
+    },
+    {
+      "feature": "the completeness critic",
+      "metric": "lift of missed bugs in named folders",
+      "value": "lift 1.2",
+      "verdict": "REPORTED"
+    },
+    {
+      "feature": "model routing",
+      "metric": "recall per Magicube on the subset",
+      "value": "front: judge, lead",
+      "verdict": "REPORTED"
+    },
+    {
+      "feature": "hedged requests",
+      "metric": "slowest call (demo server)",
+      "value": "p90 hedging: 1.34 s against 8.70 s",
+      "verdict": "REPORTED"
+    },
+    {
+      "feature": "a pipeline instead of a barrier",
+      "metric": "wall clock (simulated)",
+      "value": "ratio 0.94",
+      "verdict": "KEPT"
+    }
+  ],
+  "kept": 2,
+  "total": 6,
+  "neutral": 3,
+  "harmful": 1
+}

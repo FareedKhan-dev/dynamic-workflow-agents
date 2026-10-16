@@ -1,0 +1,100 @@
+{"seq": 1, "t": 0.0, "type": "run.created", "run_id": "s24-pipeline", "title": "pipeline", "goal": ""}
+{"seq": 2, "t": 0.0, "type": "run.phase_started", "run_id": "s24-pipeline", "phase": "Scan, then verify, per item", "index": 1}
+{"seq": 3, "t": 0.0, "type": "run.agent_started", "run_id": "s24-pipeline", "thread": "s24-pipeline/t001", "label": "scan#0", "model": "fake-worker", "phase": "Scan"}
+{"seq": 4, "t": 0.001, "type": "run.agent_started", "run_id": "s24-pipeline", "thread": "s24-pipeline/t002", "label": "scan#1", "model": "fake-worker", "phase": "Scan"}
+{"seq": 5, "t": 0.001, "type": "run.agent_started", "run_id": "s24-pipeline", "thread": "s24-pipeline/t003", "label": "scan#2", "model": "fake-worker", "phase": "Scan"}
+{"seq": 6, "t": 0.002, "type": "run.agent_started", "run_id": "s24-pipeline", "thread": "s24-pipeline/t004", "label": "scan#3", "model": "fake-worker", "phase": "Scan"}
+{"seq": 7, "t": 0.003, "type": "run.agent_started", "run_id": "s24-pipeline", "thread": "s24-pipeline/t005", "label": "scan#4", "model": "fake-worker", "phase": "Scan"}
+{"seq": 8, "t": 0.003, "type": "run.agent_started", "run_id": "s24-pipeline", "thread": "s24-pipeline/t006", "label": "scan#5", "model": "fake-worker", "phase": "Scan"}
+{"seq": 9, "t": 0.004, "type": "run.agent_started", "run_id": "s24-pipeline", "thread": "s24-pipeline/t007", "label": "scan#6", "model": "fake-worker", "phase": "Scan"}
+{"seq": 10, "t": 0.004, "type": "run.agent_started", "run_id": "s24-pipeline", "thread": "s24-pipeline/t008", "label": "scan#7", "model": "fake-worker", "phase": "Scan"}
+{"seq": 11, "t": 0.004, "type": "run.agent_started", "run_id": "s24-pipeline", "thread": "s24-pipeline/t009", "label": "scan#8", "model": "fake-worker", "phase": "Scan"}
+{"seq": 12, "t": 0.004, "type": "run.agent_started", "run_id": "s24-pipeline", "thread": "s24-pipeline/t010", "label": "scan#9", "model": "fake-worker", "phase": "Scan"}
+{"seq": 13, "t": 0.005, "type": "run.agent_started", "run_id": "s24-pipeline", "thread": "s24-pipeline/t011", "label": "scan#10", "model": "fake-worker", "phase": "Scan"}
+{"seq": 14, "t": 0.005, "type": "run.agent_started", "run_id": "s24-pipeline", "thread": "s24-pipeline/t012", "label": "scan#11", "model": "fake-worker", "phase": "Scan"}
+{"seq": 15, "t": 0.006, "type": "run.agent_started", "run_id": "s24-pipeline", "thread": "s24-pipeline/t013", "label": "scan#12", "model": "fake-worker", "phase": "Scan"}
+{"seq": 16, "t": 0.006, "type": "run.agent_started", "run_id": "s24-pipeline", "thread": "s24-pipeline/t014", "label": "scan#13", "model": "fake-worker", "phase": "Scan"}
+{"seq": 17, "t": 0.007, "type": "run.agent_started", "run_id": "s24-pipeline", "thread": "s24-pipeline/t015", "label": "scan#14", "model": "fake-worker", "phase": "Scan"}
+{"seq": 18, "t": 0.007, "type": "run.agent_started", "run_id": "s24-pipeline", "thread": "s24-pipeline/t016", "label": "scan#15", "model": "fake-worker", "phase": "Scan"}
+{"seq": 19, "t": 0.007, "type": "run.agent_started", "run_id": "s24-pipeline", "thread": "s24-pipeline/t017", "label": "scan#16", "model": "fake-worker", "phase": "Scan"}
+{"seq": 20, "t": 0.008, "type": "run.agent_started", "run_id": "s24-pipeline", "thread": "s24-pipeline/t018", "label": "scan#17", "model": "fake-worker", "phase": "Scan"}
+{"seq": 21, "t": 0.008, "type": "run.agent_started", "run_id": "s24-pipeline", "thread": "s24-pipeline/t019", "label": "scan#18", "model": "fake-worker", "phase": "Scan"}
+{"seq": 22, "t": 0.008, "type": "run.agent_started", "run_id": "s24-pipeline", "thread": "s24-pipeline/t020", "label": "scan#19", "model": "fake-worker", "phase": "Scan"}
+{"seq": 23, "t": 0.008, "type": "run.agent_started", "run_id": "s24-pipeline", "thread": "s24-pipeline/t021", "label": "scan#20", "model": "fake-worker", "phase": "Scan"}
+{"seq": 24, "t": 0.008, "type": "run.agent_started", "run_id": "s24-pipeline", "thread": "s24-pipeline/t022", "label": "scan#21", "model": "fake-worker", "phase": "Scan"}
+{"seq": 25, "t": 0.009, "type": "run.agent_started", "run_id": "s24-pipeline", "thread": "s24-pipeline/t023", "label": "scan#22", "model": "fake-worker", "phase": "Scan"}
+{"seq": 26, "t": 0.009, "type": "run.agent_started", "run_id": "s24-pipeline", "thread": "s24-pipeline/t024", "label": "scan#23", "model": "fake-worker", "phase": "Scan"}
+{"seq": 27, "t": 0.332, "type": "run.agent_ended", "run_id": "s24-pipeline", "thread": "s24-pipeline/t022", "label": "scan#21", "ok": true, "seconds": 0.32, "cached": false, "cents": 0.2, "phase": "Scan"}
+{"seq": 28, "t": 0.332, "type": "run.agent_started", "run_id": "s24-pipeline", "thread": "s24-pipeline/t025", "label": "verify#21", "model": "fake-judge", "phase": "Verify"}
+{"seq": 29, "t": 0.343, "type": "run.agent_ended", "run_id": "s24-pipeline", "thread": "s24-pipeline/t020", "label": "scan#19", "ok": true, "seconds": 0.34, "cached": false, "cents": 0.2, "phase": "Scan"}
+{"seq": 30, "t": 0.343, "type": "run.agent_started", "run_id": "s24-pipeline", "thread": "s24-pipeline/t026", "label": "verify#19", "model": "fake-judge", "phase": "Verify"}
+{"seq": 31, "t": 0.347, "type": "run.agent_ended", "run_id": "s24-pipeline", "thread": "s24-pipeline/t018", "label": "scan#17", "ok": true, "seconds": 0.34, "cached": false, "cents": 0.2, "phase": "Scan"}
+{"seq": 32, "t": 0.347, "type": "run.agent_started", "run_id": "s24-pipeline", "thread": "s24-pipeline/t027", "label": "verify#17", "model": "fake-judge", "phase": "Verify"}
+{"seq": 33, "t": 0.36, "type": "run.agent_ended", "run_id": "s24-pipeline", "thread": "s24-pipeline/t012", "label": "scan#11", "ok": true, "seconds": 0.35, "cached": false, "cents": 0.2, "phase": "Scan"}
+{"seq": 34, "t": 0.36, "type": "run.agent_started", "run_id": "s24-pipeline", "thread": "s24-pipeline/t028", "label": "verify#11", "model": "fake-judge", "phase": "Verify"}
+{"seq": 35, "t": 0.38, "type": "run.agent_ended", "run_id": "s24-pipeline", "thread": "s24-pipeline/t011", "label": "scan#10", "ok": true, "seconds": 0.37, "cached": false, "cents": 0.2, "phase": "Scan"}
+{"seq": 36, "t": 0.38, "type": "run.agent_started", "run_id": "s24-pipeline", "thread": "s24-pipeline/t029", "label": "verify#10", "model": "fake-judge", "phase": "Verify"}
+{"seq": 37, "t": 0.438, "type": "run.agent_ended", "run_id": "s24-pipeline", "thread": "s24-pipeline/t007", "label": "scan#6", "ok": true, "seconds": 0.43, "cached": false, "cents": 0.2, "phase": "Scan"}
+{"seq": 38, "t": 0.438, "type": "run.agent_started", "run_id": "s24-pipeline", "thread": "s24-pipeline/t030", "label": "verify#6", "model": "fake-judge", "phase": "Verify"}
+{"seq": 39, "t": 0.507, "type": "run.agent_ended", "run_id": "s24-pipeline", "thread": "s24-pipeline/t004", "label": "scan#3", "ok": true, "seconds": 0.51, "cached": false, "cents": 0.2, "phase": "Scan"}
+{"seq": 40, "t": 0.507, "type": "run.agent_started", "run_id": "s24-pipeline", "thread": "s24-pipeline/t031", "label": "verify#3", "model": "fake-judge", "phase": "Verify"}
+{"seq": 41, "t": 0.53, "type": "run.agent_ended", "run_id": "s24-pipeline", "thread": "s24-pipeline/t010", "label": "scan#9", "ok": true, "seconds": 0.53, "cached": false, "cents": 0.2, "phase": "Scan"}
+{"seq": 42, "t": 0.53, "type": "run.agent_started", "run_id": "s24-pipeline", "thread": "s24-pipeline/t032", "label": "verify#9", "model": "fake-judge", "phase": "Verify"}
+{"seq": 43, "t": 0.543, "type": "run.agent_ended", "run_id": "s24-pipeline", "thread": "s24-pipeline/t017", "label": "scan#16", "ok": true, "seconds": 0.54, "cached": false, "cents": 0.2, "phase": "Scan"}
+{"seq": 44, "t": 0.543, "type": "run.agent_started", "run_id": "s24-pipeline", "thread": "s24-pipeline/t033", "label": "verify#16", "model": "fake-judge", "phase": "Verify"}
+{"seq": 45, "t": 0.551, "type": "run.agent_ended", "run_id": "s24-pipeline", "thread": "s24-pipeline/t003", "label": "scan#2", "ok": true, "seconds": 0.55, "cached": false, "cents": 0.2, "phase": "Scan"}
+{"seq": 46, "t": 0.551, "type": "run.agent_started", "run_id": "s24-pipeline", "thread": "s24-pipeline/t034", "label": "verify#2", "model": "fake-judge", "phase": "Verify"}
+{"seq": 47, "t": 0.593, "type": "run.agent_ended", "run_id": "s24-pipeline", "thread": "s24-pipeline/t005", "label": "scan#4", "ok": true, "seconds": 0.59, "cached": false, "cents": 0.2, "phase": "Scan"}
+{"seq": 48, "t": 0.593, "type": "run.agent_started", "run_id": "s24-pipeline", "thread": "s24-pipeline/t035", "label": "verify#4", "model": "fake-judge", "phase": "Verify"}
+{"seq": 49, "t": 0.628, "type": "run.agent_ended", "run_id": "s24-pipeline", "thread": "s24-pipeline/t006", "label": "scan#5", "ok": true, "seconds": 0.63, "cached": false, "cents": 0.2, "phase": "Scan"}
+{"seq": 50, "t": 0.628, "type": "run.agent_started", "run_id": "s24-pipeline", "thread": "s24-pipeline/t036", "label": "verify#5", "model": "fake-judge", "phase": "Verify"}
+{"seq": 51, "t": 0.637, "type": "run.agent_ended", "run_id": "s24-pipeline", "thread": "s24-pipeline/t013", "label": "scan#12", "ok": true, "seconds": 0.63, "cached": false, "cents": 0.2, "phase": "Scan"}
+{"seq": 52, "t": 0.637, "type": "run.agent_started", "run_id": "s24-pipeline", "thread": "s24-pipeline/t037", "label": "verify#12", "model": "fake-judge", "phase": "Verify"}
+{"seq": 53, "t": 0.673, "type": "run.agent_ended", "run_id": "s24-pipeline", "thread": "s24-pipeline/t016", "label": "scan#15", "ok": true, "seconds": 0.67, "cached": false, "cents": 0.2, "phase": "Scan"}
+{"seq": 54, "t": 0.673, "type": "run.agent_started", "run_id": "s24-pipeline", "thread": "s24-pipeline/t038", "label": "verify#15", "model": "fake-judge", "phase": "Verify"}
+{"seq": 55, "t": 0.676, "type": "run.agent_ended", "run_id": "s24-pipeline", "thread": "s24-pipeline/t009", "label": "scan#8", "ok": true, "seconds": 0.67, "cached": false, "cents": 0.2, "phase": "Scan"}
+{"seq": 56, "t": 0.676, "type": "run.agent_started", "run_id": "s24-pipeline", "thread": "s24-pipeline/t039", "label": "verify#8", "model": "fake-judge", "phase": "Verify"}
+{"seq": 57, "t": 0.705, "type": "run.agent_ended", "run_id": "s24-pipeline", "thread": "s24-pipeline/t015", "label": "scan#14", "ok": true, "seconds": 0.7, "cached": false, "cents": 0.2, "phase": "Scan"}
+{"seq": 58, "t": 0.705, "type": "run.agent_started", "run_id": "s24-pipeline", "thread": "s24-pipeline/t040", "label": "verify#14", "model": "fake-judge", "phase": "Verify"}
+{"seq": 59, "t": 0.727, "type": "run.agent_ended", "run_id": "s24-pipeline", "thread": "s24-pipeline/t023", "label": "scan#22", "ok": true, "seconds": 0.72, "cached": false, "cents": 0.2, "phase": "Scan"}
+{"seq": 60, "t": 0.727, "type": "run.agent_started", "run_id": "s24-pipeline", "thread": "s24-pipeline/t041", "label": "verify#22", "model": "fake-judge", "phase": "Verify"}
+{"seq": 61, "t": 0.81, "type": "run.agent_ended", "run_id": "s24-pipeline", "thread": "s24-pipeline/t027", "label": "verify#17", "ok": true, "seconds": 0.46, "cached": false, "cents": 0.2, "phase": "Verify"}
+{"seq": 62, "t": 0.843, "type": "run.agent_ended", "run_id": "s24-pipeline", "thread": "s24-pipeline/t001", "label": "scan#0", "ok": true, "seconds": 0.84, "cached": false, "cents": 0.2, "phase": "Scan"}
+{"seq": 63, "t": 0.843, "type": "run.agent_started", "run_id": "s24-pipeline", "thread": "s24-pipeline/t042", "label": "verify#0", "model": "fake-judge", "phase": "Verify"}
+{"seq": 64, "t": 0.867, "type": "run.agent_ended", "run_id": "s24-pipeline", "thread": "s24-pipeline/t002", "label": "scan#1", "ok": true, "seconds": 0.87, "cached": false, "cents": 0.2, "phase": "Scan"}
+{"seq": 65, "t": 0.867, "type": "run.agent_started", "run_id": "s24-pipeline", "thread": "s24-pipeline/t043", "label": "verify#1", "model": "fake-judge", "phase": "Verify"}
+{"seq": 66, "t": 0.876, "type": "run.agent_ended", "run_id": "s24-pipeline", "thread": "s24-pipeline/t025", "label": "verify#21", "ok": true, "seconds": 0.54, "cached": false, "cents": 0.2, "phase": "Verify"}
+{"seq": 67, "t": 0.893, "type": "run.agent_ended", "run_id": "s24-pipeline", "thread": "s24-pipeline/t032", "label": "verify#9", "ok": true, "seconds": 0.36, "cached": false, "cents": 0.2, "phase": "Verify"}
+{"seq": 68, "t": 0.898, "type": "run.agent_ended", "run_id": "s24-pipeline", "thread": "s24-pipeline/t031", "label": "verify#3", "ok": true, "seconds": 0.39, "cached": false, "cents": 0.2, "phase": "Verify"}
+{"seq": 69, "t": 0.954, "type": "run.agent_ended", "run_id": "s24-pipeline", "thread": "s24-pipeline/t024", "label": "scan#23", "ok": true, "seconds": 0.95, "cached": false, "cents": 0.2, "phase": "Scan"}
+{"seq": 70, "t": 0.954, "type": "run.agent_started", "run_id": "s24-pipeline", "thread": "s24-pipeline/t044", "label": "verify#23", "model": "fake-judge", "phase": "Verify"}
+{"seq": 71, "t": 0.989, "type": "run.agent_ended", "run_id": "s24-pipeline", "thread": "s24-pipeline/t008", "label": "scan#7", "ok": true, "seconds": 0.98, "cached": false, "cents": 0.2, "phase": "Scan"}
+{"seq": 72, "t": 0.989, "type": "run.agent_started", "run_id": "s24-pipeline", "thread": "s24-pipeline/t045", "label": "verify#7", "model": "fake-judge", "phase": "Verify"}
+{"seq": 73, "t": 1.002, "type": "run.agent_ended", "run_id": "s24-pipeline", "thread": "s24-pipeline/t028", "label": "verify#11", "ok": true, "seconds": 0.64, "cached": false, "cents": 0.2, "phase": "Verify"}
+{"seq": 74, "t": 1.057, "type": "run.agent_ended", "run_id": "s24-pipeline", "thread": "s24-pipeline/t034", "label": "verify#2", "ok": true, "seconds": 0.51, "cached": false, "cents": 0.2, "phase": "Verify"}
+{"seq": 75, "t": 1.087, "type": "run.agent_ended", "run_id": "s24-pipeline", "thread": "s24-pipeline/t026", "label": "verify#19", "ok": true, "seconds": 0.74, "cached": false, "cents": 0.2, "phase": "Verify"}
+{"seq": 76, "t": 1.137, "type": "run.agent_ended", "run_id": "s24-pipeline", "thread": "s24-pipeline/t038", "label": "verify#15", "ok": true, "seconds": 0.46, "cached": false, "cents": 0.2, "phase": "Verify"}
+{"seq": 77, "t": 1.189, "type": "run.agent_ended", "run_id": "s24-pipeline", "thread": "s24-pipeline/t021", "label": "scan#20", "ok": true, "seconds": 1.18, "cached": false, "cents": 0.2, "phase": "Scan"}
+{"seq": 78, "t": 1.189, "type": "run.agent_started", "run_id": "s24-pipeline", "thread": "s24-pipeline/t046", "label": "verify#20", "model": "fake-judge", "phase": "Verify"}
+{"seq": 79, "t": 1.214, "type": "run.agent_ended", "run_id": "s24-pipeline", "thread": "s24-pipeline/t045", "label": "verify#7", "ok": true, "seconds": 0.22, "cached": false, "cents": 0.2, "phase": "Verify"}
+{"seq": 80, "t": 1.218, "type": "run.agent_ended", "run_id": "s24-pipeline", "thread": "s24-pipeline/t037", "label": "verify#12", "ok": true, "seconds": 0.58, "cached": false, "cents": 0.2, "phase": "Verify"}
+{"seq": 81, "t": 1.23, "type": "run.agent_ended", "run_id": "s24-pipeline", "thread": "s24-pipeline/t014", "label": "scan#13", "ok": true, "seconds": 1.22, "cached": false, "cents": 0.2, "phase": "Scan"}
+{"seq": 82, "t": 1.23, "type": "run.agent_started", "run_id": "s24-pipeline", "thread": "s24-pipeline/t047", "label": "verify#13", "model": "fake-judge", "phase": "Verify"}
+{"seq": 83, "t": 1.242, "type": "run.agent_ended", "run_id": "s24-pipeline", "thread": "s24-pipeline/t039", "label": "verify#8", "ok": true, "seconds": 0.57, "cached": false, "cents": 0.2, "phase": "Verify"}
+{"seq": 84, "t": 1.278, "type": "run.agent_ended", "run_id": "s24-pipeline", "thread": "s24-pipeline/t036", "label": "verify#5", "ok": true, "seconds": 0.65, "cached": false, "cents": 0.2, "phase": "Verify"}
+{"seq": 85, "t": 1.294, "type": "run.agent_ended", "run_id": "s24-pipeline", "thread": "s24-pipeline/t035", "label": "verify#4", "ok": true, "seconds": 0.7, "cached": false, "cents": 0.2, "phase": "Verify"}
+{"seq": 86, "t": 1.348, "type": "run.agent_ended", "run_id": "s24-pipeline", "thread": "s24-pipeline/t019", "label": "scan#18", "ok": true, "seconds": 1.34, "cached": false, "cents": 0.2, "phase": "Scan"}
+{"seq": 87, "t": 1.348, "type": "run.agent_started", "run_id": "s24-pipeline", "thread": "s24-pipeline/t048", "label": "verify#18", "model": "fake-judge", "phase": "Verify"}
+{"seq": 88, "t": 1.365, "type": "run.agent_ended", "run_id": "s24-pipeline", "thread": "s24-pipeline/t030", "label": "verify#6", "ok": true, "seconds": 0.93, "cached": false, "cents": 0.2, "phase": "Verify"}
+{"seq": 89, "t": 1.472, "type": "run.agent_ended", "run_id": "s24-pipeline", "thread": "s24-pipeline/t041", "label": "verify#22", "ok": true, "seconds": 0.74, "cached": false, "cents": 0.2, "phase": "Verify"}
+{"seq": 90, "t": 1.49, "type": "run.agent_ended", "run_id": "s24-pipeline", "thread": "s24-pipeline/t040", "label": "verify#14", "ok": true, "seconds": 0.78, "cached": false, "cents": 0.2, "phase": "Verify"}
+{"seq": 91, "t": 1.563, "type": "run.agent_ended", "run_id": "s24-pipeline", "thread": "s24-pipeline/t029", "label": "verify#10", "ok": true, "seconds": 1.18, "cached": false, "cents": 0.2, "phase": "Verify"}
+{"seq": 92, "t": 1.583, "type": "run.agent_ended", "run_id": "s24-pipeline", "thread": "s24-pipeline/t043", "label": "verify#1", "ok": true, "seconds": 0.72, "cached": false, "cents": 0.2, "phase": "Verify"}
+{"seq": 93, "t": 1.792, "type": "run.agent_ended", "run_id": "s24-pipeline", "thread": "s24-pipeline/t047", "label": "verify#13", "ok": true, "seconds": 0.56, "cached": false, "cents": 0.2, "phase": "Verify"}
+{"seq": 94, "t": 1.82, "type": "run.agent_ended", "run_id": "s24-pipeline", "thread": "s24-pipeline/t044", "label": "verify#23", "ok": true, "seconds": 0.87, "cached": false, "cents": 0.2, "phase": "Verify"}
+{"seq": 95, "t": 2.051, "type": "run.agent_ended", "run_id": "s24-pipeline", "thread": "s24-pipeline/t042", "label": "verify#0", "ok": true, "seconds": 1.21, "cached": false, "cents": 0.2, "phase": "Verify"}
+{"seq": 96, "t": 2.295, "type": "run.agent_ended", "run_id": "s24-pipeline", "thread": "s24-pipeline/t048", "label": "verify#18", "ok": true, "seconds": 0.95, "cached": false, "cents": 0.2, "phase": "Verify"}
+{"seq": 97, "t": 2.369, "type": "run.agent_ended", "run_id": "s24-pipeline", "thread": "s24-pipeline/t046", "label": "verify#20", "ok": true, "seconds": 1.18, "cached": false, "cents": 0.2, "phase": "Verify"}
+{"seq": 98, "t": 3.017, "type": "run.agent_ended", "run_id": "s24-pipeline", "thread": "s24-pipeline/t033", "label": "verify#16", "ok": true, "seconds": 2.47, "cached": false, "cents": 0.2, "phase": "Verify"}
+{"seq": 99, "t": 3.021, "type": "run.phase_ended", "run_id": "s24-pipeline", "phase": "Scan, then verify, per item", "agents": 0, "failed": 0, "seconds": 3.02}
+{"seq": 100, "t": 3.021, "type": "run.ended", "run_id": "s24-pipeline", "status": "completed", "seconds": 3.02, "agents": 48, "failed": 0, "cents": 9.6, "dropped": 0, "error": null}

@@ -1,0 +1,74 @@
+{
+  "rows": [
+    {
+      "id": "H1",
+      "claim": "the dynamic workflow finds more planted bugs than one agent alone",
+      "measured": "D 0.40 to 0.53, A 0.00 to 0.06; interval +0.30 to +0.56",
+      "verdict": "SUPPORTED"
+    },
+    {
+      "id": "H1b",
+      "claim": "the same holds against one agent given the same budget",
+      "measured": "D 0.40 to 0.53, A2 0.01 to 0.07; interval +0.28 to +0.54",
+      "verdict": "SUPPORTED"
+    },
+    {
+      "id": "H2",
+      "claim": "the dynamic workflow is more consistent from run to run",
+      "measured": "spread D 0.12, A 0.06",
+      "verdict": "NOT SUPPORTED"
+    },
+    {
+      "id": "H3",
+      "claim": "the dynamic workflow is not much less precise than one agent",
+      "measured": "interval -0.36 to +0.68",
+      "verdict": "NOT SUPPORTED"
+    },
+    {
+      "id": "H4",
+      "claim": "verification buys precision at little cost in recall",
+      "measured": "precision gain +0.25 (low +0.13); recall loss +0.028 (high +0.069)",
+      "verdict": "NOT SUPPORTED"
+    },
+    {
+      "id": "H5",
+      "claim": "a second round of scanning finds more planted bugs",
+      "measured": "planted bugs added by a second scan, per run: [5, 6, 2]",
+      "verdict": "SUPPORTED"
+    },
+    {
+      "id": "H6",
+      "claim": "executable evidence makes skeptics more accurate",
+      "measured": "accuracy gain -0.008 (95% -0.075 to +0.050)",
+      "verdict": "NOT SUPPORTED"
+    },
+    {
+      "id": "H7",
+      "claim": "a pipeline finishes sooner than a barrier for the same calls",
+      "measured": "simulated pipeline / barrier = 0.94",
+      "verdict": "NOT SUPPORTED"
+    },
+    {
+      "id": "H8",
+      "claim": "a crashed run resumes without paying twice",
+      "measured": "paid 0 + 1 = 20 calls; same report: True",
+      "verdict": "NOT SUPPORTED"
+    },
+    {
+      "id": "H9",
+      "claim": "one agent grading a long list gets worse further down; the workflow does not",
+      "measured": "single grader +0.006 per 100 items (-0.005 to +0.016); workflow +0.003 (-0.005 to +0.011)",
+      "verdict": "NOT SUPPORTED"
+    },
+    {
+      "id": "H10",
+      "claim": "on a tiny job, the workflow is no better and costs more",
+      "measured": "accuracy 0.97 against 0.93; cost 4.8 against 1.2 MC",
+      "verdict": "NOT SUPPORTED"
+    }
+  ],
+  "supported": 3,
+  "total": 11,
+  "not_supported": 8,
+  "reported": 0
+}

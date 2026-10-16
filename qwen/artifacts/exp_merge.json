@@ -1,0 +1,60 @@
+{
+  "rows": [
+    {
+      "run": 0,
+      "named": "dynamic_programming, linear_algebra, machine_learning, neural_network, physics",
+      "missed": 52,
+      "missed_in_named": 11,
+      "share_missed": 0.2115,
+      "share_files": 0.1343,
+      "lift": 1.5754,
+      "findings": 61,
+      "places": 40,
+      "confirmed": 25,
+      "reported": 25,
+      "merged": 0,
+      "left_out": 0,
+      "calls_saved": 12
+    },
+    {
+      "run": 1,
+      "named": "conversions, dynamic_programming, graphs, linear_algebra, sorts",
+      "missed": 49,
+      "missed_in_named": 11,
+      "share_missed": 0.2245,
+      "share_files": 0.225,
+      "lift": 0.9979,
+      "findings": 60,
+      "places": 43,
+      "confirmed": 27,
+      "reported": 27,
+      "merged": 0,
+      "left_out": 0,
+      "calls_saved": 6
+    },
+    {
+      "run": 2,
+      "named": "dynamic_programming, graphs, machine_learning, maths, physics",
+      "missed": 50,
+      "missed_in_named": 19,
+      "share_missed": 0.38,
+      "share_files": 0.3698,
+      "lift": 1.0275,
+      "findings": 69,
+      "places": 42,
+      "confirmed": 27,
+      "reported": 27,
+      "merged": 0,
+      "left_out": 0,
+      "calls_saved": 15
+    }
+  ],
+  "findings": 63.3333,
+  "places": 41.6667,
+  "calls_saved": 11.0,
+  "merged": 0.0,
+  "left_out": 0.0,
+  "share_files": 0.243,
+  "share_missed": 0.272,
+  "lift": 1.2002
+}

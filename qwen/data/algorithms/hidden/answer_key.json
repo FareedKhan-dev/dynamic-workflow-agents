@@ -1,0 +1,2312 @@
+[
+ {
+  "path": "other/token_bucket.py",
+  "folder": "other",
+  "operator": "flip comparison",
+  "function": "TokenBucketRateLimiter.allow_request",
+  "line_original": 78,
+  "line": 76,
+  "old": ">=",
+  "new": ">",
+  "before": "if self.tokens >= 1:",
+  "after": "if self.tokens > 1:",
+  "failing": 1,
+  "examples": 12,
+  "loudness": 0.0833,
+  "visible": 11,
+  "hidden": [
+   {
+    "owner": "allow_request",
+    "first": 71,
+    "source": "bucket.allow_request()  # Token is available, request passes\n",
+    "want": "True\n"
+   }
+  ],
+  "id": "B01"
+ },
+ {
+  "path": "data_structures/arrays/monotonic_array.py",
+  "folder": "data_structures",
+  "operator": "flip comparison",
+  "function": "is_monotonic",
+  "line_original": 23,
+  "line": 21,
+  "old": "<=",
+  "new": "<",
+  "before": "return all(nums[i] <= nums[i + 1] for i in range(len(nums) - 1)) or all(",
+  "after": "return all(nums[i] < nums[i + 1] for i in range(len(nums) - 1)) or all(",
+  "failing": 1,
+  "examples": 8,
+  "loudness": 0.125,
+  "visible": 7,
+  "hidden": [
+   {
+    "owner": "is_monotonic",
+    "first": 6,
+    "source": "is_monotonic([1, 2, 2, 3])\n",
+    "want": "True\n"
+   }
+  ],
+  "id": "B02"
+ },
+ {
+  "path": "maths/perfect_number.py",
+  "folder": "maths",
+  "operator": "flip comparison",
+  "function": "perfect",
+  "line_original": 130,
+  "line": 128,
+  "old": "<=",
+  "new": "<",
+  "before": "if number <= 0:",
+  "after": "if number < 0:",
+  "failing": 1,
+  "examples": 47,
+  "loudness": 0.0213,
+  "visible": 46,
+  "hidden": [
+   {
+    "owner": "perfect",
+    "first": 69,
+    "source": "perfect(0)\n",
+    "want": "False\n"
+   }
+  ],
+  "id": "B03"
+ },
+ {
+  "path": "physics/malus_law.py",
+  "folder": "physics",
+  "operator": "flip comparison",
+  "function": "malus_law",
+  "line_original": 71,
+  "line": 69,
+  "old": ">",
+  "new": ">=",
+  "before": "if angle < 0 or angle > 360:",
+  "after": "if angle < 0 or angle >= 360:",
+  "failing": 1,
+  "examples": 9,
+  "loudness": 0.1111,
+  "visible": 8,
+  "hidden": [
+   {
+    "owner": "malus_law",
+    "first": 64,
+    "source": "round(malus_law(100,360),2)\n",
+    "want": "100.0\n"
+   }
+  ],
+  "id": "B04"
+ },
+ {
+  "path": "physics/shear_stress.py",
+  "folder": "physics",
+  "operator": "flip comparison",
+  "function": "shear_stress",
+  "line_original": 35,
+  "line": 33,
+  "old": "<",
+  "new": "<=",
+  "before": "if tangential_force < 0:",
+  "after": "if tangential_force <= 0:",
+  "failing": 1,
+  "examples": 3,
+  "loudness": 0.3333,
+  "visible": 2,
+  "hidden": [
+   {
+    "owner": "shear_stress",
+    "first": 28,
+    "source": "shear_stress(stress=1000, tangential_force=0, area=1200)\n",
+    "want": "('tangential_force', 1200000)\n"
+   }
+  ],
+  "id": "B05"
+ },
+ {
+  "path": "maths/modular_division.py",
+  "folder": "maths",
+  "operator": "flip comparison",
+  "function": "extended_gcd",
+  "line_original": 96,
+  "line": 86,
+  "old": ">=",
+  "new": ">",
+  "before": "assert b >= 0",
+  "after": "assert b > 0",
+  "failing": 5,
+  "examples": 14,
+  "loudness": 0.3571,
+  "visible": 9,
+  "hidden": [
+   {
+    "owner": "modular_division",
+    "first": 21,
+    "source": "modular_division(4,8,5)\n",
+    "want": "2\n"
+   },
+   {
+    "owner": "modular_division",
+    "first": 24,
+    "source": "modular_division(3,8,5)\n",
+    "want": "1\n"
+   },
+   {
+    "owner": "modular_division",
+    "first": 27,
+    "source": "modular_division(4, 11, 5)\n",
+    "want": "4\n"
+   },
+   {
+    "owner": "extended_gcd",
+    "first": 86,
+    "source": "extended_gcd(10, 6)\n",
+    "want": "(2, -1, 2)\n"
+   },
+   {
+    "owner": "extended_gcd",
+    "first": 89,
+    "source": "extended_gcd(7, 5)\n",
+    "want": "(1, -2, 3)\n"
+   }
+  ],
+  "id": "B06"
+ },
+ {
+  "path": "geometry/shoelace.py",
+  "folder": "geometry",
+  "operator": "off-by-one range",
+  "function": "area_of_polygon",
+  "line_original": 23,
+  "line": 21,
+  "old": "len(xs)",
+  "new": "len(xs) - 1",
+  "before": "for i in range(len(xs))",
+  "after": "for i in range(len(xs) - 1)",
+  "failing": 1,
+  "examples": 4,
+  "loudness": 0.25,
+  "visible": 3,
+  "hidden": [
+   {
+    "owner": "area_of_polygon",
+    "first": 17,
+    "source": "isclose(area_of_polygon(xs, ys), 16.5)\n",
+    "want": "True\n"
+   }
+  ],
+  "id": "B07"
+ },
+ {
+  "path": "electronics/circular_convolution.py",
+  "folder": "electronics",
+  "operator": "off-by-one range",
+  "function": "CircularConvolution.circular_convolution",
+  "line_original": 67,
+  "line": 59,
+  "old": "max_length",
+  "new": "max_length - 1",
+  "before": "matrix = [[0] * max_length for i in range(max_length)]",
+  "after": "matrix = [[0] * max_length for i in range(max_length - 1)]",
+  "failing": 4,
+  "examples": 11,
+  "loudness": 0.3636,
+  "visible": 7,
+  "hidden": [
+   {
+    "owner": "circular_convolution",
+    "first": 41,
+    "source": "convolution.circular_convolution()\n",
+    "want": "[10.0, 10.0, 6.0, 14.0]\n"
+   },
+   {
+    "owner": "circular_convolution",
+    "first": 46,
+    "source": "convolution.circular_convolution()\n",
+    "want": "[5.2, 6.0, 6.48, 6.64, 6.48, 6.0, 5.2, 4.08]\n"
+   },
+   {
+    "owner": "circular_convolution",
+    "first": 51,
+    "source": "convolution.circular_convolution()\n",
+    "want": "[6.25, -3.0, 1.5, -2.0, -2.75]\n"
+   },
+   {
+    "owner": "circular_convolution",
+    "first": 56,
+    "source": "convolution.circular_convolution()\n",
+    "want": "[8.0, -2.0, 3.0, 4.0, 11.0]\n"
+   }
+  ],
+  "id": "B08"
+ },
+ {
+  "path": "linear_algebra/src/rank_of_matrix.py",
+  "folder": "linear_algebra",
+  "operator": "off-by-one range",
+  "function": "rank_of_matrix",
+  "line_original": 67,
+  "line": 60,
+  "old": "rows",
+  "new": "rows - 1",
+  "before": "for col in range(row + 1, rows):",
+  "after": "for col in range(row + 1, rows - 1):",
+  "failing": 3,
+  "examples": 13,
+  "loudness": 0.2308,
+  "visible": 10,
+  "hidden": [
+   {
+    "owner": "rank_of_matrix",
+    "first": 23,
+    "source": "rank_of_matrix(matrix1)\n",
+    "want": "2\n"
+   },
+   {
+    "owner": "rank_of_matrix",
+    "first": 33,
+    "source": "rank_of_matrix(matrix3)\n",
+    "want": "2\n"
+   },
+   {
+    "owner": "rank_of_matrix",
+    "first": 48,
+    "source": "rank_of_matrix([[3,2,1],\n               [-6,-4,-2]])\n",
+    "want": "1\n"
+   }
+  ],
+  "id": "B09"
+ },
+ {
+  "path": "strings/check_anagrams.py",
+  "folder": "strings",
+  "operator": "off-by-one range",
+  "function": "check_anagrams",
+  "line_original": 37,
+  "line": 35,
+  "old": "len(first_str)",
+  "new": "len(first_str) - 1",
+  "before": "for i in range(len(first_str)):",
+  "after": "for i in range(len(first_str) - 1):",
+  "failing": 1,
+  "examples": 4,
+  "loudness": 0.25,
+  "visible": 3,
+  "hidden": [
+   {
+    "owner": "check_anagrams",
+    "first": 12,
+    "source": "check_anagrams('Silent', 'Listen')\n",
+    "want": "True\n"
+   }
+  ],
+  "id": "B10"
+ },
+ {
+  "path": "scheduling/multi_level_feedback_queue.py",
+  "folder": "scheduling",
+  "operator": "off-by-one range",
+  "function": "MLFQ.multi_level_feedback_queue",
+  "line_original": 257,
+  "line": 247,
+  "old": "self.number_of_queues - 1",
+  "new": "self.number_of_queues - 1 - 1",
+  "before": "for i in range(self.number_of_queues - 1):",
+  "after": "for i in range(self.number_of_queues - 1 - 1):",
+  "failing": 5,
+  "examples": 68,
+  "loudness": 0.0735,
+  "visible": 63,
+  "hidden": [
+   {
+    "owner": "calculate_sequence_of_finish_queue",
+    "first": 52,
+    "source": "mlfq.calculate_sequence_of_finish_queue()\n",
+    "want": "['P2', 'P4', 'P1', 'P3']\n"
+   },
+   {
+    "owner": "calculate_waiting_time",
+    "first": 69,
+    "source": "mlfq.calculate_waiting_time([P1, P2, P3, P4])\n",
+    "want": "[83, 17, 94, 101]\n"
+   },
+   {
+    "owner": "calculate_turnaround_time",
+    "first": 86,
+    "source": "mlfq.calculate_turnaround_time([P1, P2, P3, P4])\n",
+    "want": "[136, 34, 162, 125]\n"
+   },
+   {
+    "owner": "calculate_completion_time",
+    "first": 103,
+    "source": "mlfq.calculate_completion_time([P1, P2, P3, P4])\n",
+    "want": "[136, 34, 162, 125]\n"
+   },
+   {
+    "owner": "multi_level_feedback_queue",
+    "first": 252,
+    "source": "mlfq.calculate_sequence_of_finish_queue()\n",
+    "want": "['P2', 'P4', 'P1', 'P3']\n"
+   }
+  ],
+  "id": "B11"
+ },
+ {
+  "path": "data_structures/arrays/set_matrix_zeroes.py",
+  "folder": "data_structures",
+  "operator": "off-by-one range",
+  "function": "set_matrix_zeroes",
+  "line_original": 55,
+  "line": 51,
+  "old": "cols",
+  "new": "cols - 1",
+  "before": "for j in range(1, cols):",
+  "after": "for j in range(1, cols - 1):",
+  "failing": 2,
+  "examples": 6,
+  "loudness": 0.3333,
+  "visible": 4,
+  "hidden": [
+   {
+    "owner": "<module>",
+    "first": 20,
+    "source": "matrix\n",
+    "want": "[[1, 0, 1], [0, 0, 0], [1, 0, 1]]\n"
+   },
+   {
+    "owner": "<module>",
+    "first": 24,
+    "source": "matrix\n",
+    "want": "[[0, 0, 0, 0], [0, 4, 5, 0], [0, 3, 1, 0]]\n"
+   }
+  ],
+  "id": "B12"
+ },
+ {
+  "path": "conversions/binary_to_base64.py",
+  "folder": "conversions",
+  "operator": "off-by-one slice",
+  "function": "bin_to_base64",
+  "line_original": 112,
+  "line": 108,
+  "old": "6",
+  "new": "7",
+  "before": "bin_str = bin_str[6:]",
+  "after": "bin_str = bin_str[7:]",
+  "failing": 2,
+  "examples": 7,
+  "loudness": 0.2857,
+  "visible": 5,
+  "hidden": [
+   {
+    "owner": "bin_to_base64",
+    "first": 81,
+    "source": "bin_to_base64(\"000001\")\n",
+    "want": "'AB'\n"
+   },
+   {
+    "owner": "bin_to_base64",
+    "first": 89,
+    "source": "bin_to_base64(\" -000001 \")\n",
+    "want": "'-AB'\n"
+   }
+  ],
+  "id": "B13"
+ },
+ {
+  "path": "data_structures/trie/radix_tree.py",
+  "folder": "data_structures",
+  "operator": "off-by-one slice",
+  "function": "RadixNode.match",
+  "line_original": 39,
+  "line": 37,
+  "old": "x",
+  "new": "x + 1",
+  "before": "return self.prefix[:x], self.prefix[x:], word[x:]",
+  "after": "return self.prefix[:x], self.prefix[x + 1:], word[x:]",
+  "failing": 1,
+  "examples": 8,
+  "loudness": 0.125,
+  "visible": 7,
+  "hidden": [
+   {
+    "owner": "match",
+    "first": 29,
+    "source": "RadixNode(\"myprefix\").match(\"mystring\")\n",
+    "want": "('my', 'prefix', 'string')\n"
+   }
+  ],
+  "id": "B14"
+ },
+ {
+  "path": "data_structures/arrays/merge_sorted.py",
+  "folder": "data_structures",
+  "operator": "off-by-one slice",
+  "function": "merge_sorted_arrays",
+  "line_original": 67,
+  "line": 65,
+  "old": "i",
+  "new": "i + 1",
+  "before": "merged.extend(nums1[i:])",
+  "after": "merged.extend(nums1[i + 1:])",
+  "failing": 1,
+  "examples": 9,
+  "loudness": 0.1111,
+  "visible": 8,
+  "hidden": [
+   {
+    "owner": "merge_sorted_arrays",
+    "first": 28,
+    "source": "merge_sorted_arrays([-5, -3, -1], [-2, -2])\n",
+    "want": "[-5, -3, -2, -2, -1]\n"
+   }
+  ],
+  "id": "B15"
+ },
+ {
+  "path": "data_structures/linked_list/from_sequence.py",
+  "folder": "data_structures",
+  "operator": "off-by-one slice",
+  "function": "make_linked_list",
+  "line_original": 54,
+  "line": 50,
+  "old": "1",
+  "new": "2",
+  "before": "for data in elements_list[1:]:",
+  "after": "for data in elements_list[2:]:",
+  "failing": 2,
+  "examples": 6,
+  "loudness": 0.3333,
+  "visible": 4,
+  "hidden": [
+   {
+    "owner": "make_linked_list",
+    "first": 40,
+    "source": "make_linked_list([1, 3, 5, 32, 44, 12, 43])\n",
+    "want": "<1> ---> <3> ---> <5> ---> <32> ---> <44> ---> <12> ---> <43> ---> <END>\n"
+   },
+   {
+    "owner": "make_linked_list",
+    "first": 42,
+    "source": "make_linked_list((1, 3, 5, 32, 44, 12, 43))\n",
+    "want": "<1> ---> <3> ---> <5> ---> <32> ---> <44> ---> <12> ---> <43> ---> <END>\n"
+   }
+  ],
+  "id": "B16"
+ },
+ {
+  "path": "maths/max_sum_sliding_window.py",
+  "folder": "maths",
+  "operator": "off-by-one slice",
+  "function": "max_sum_in_array",
+  "line_original": 32,
+  "line": 28,
+  "old": "k",
+  "new": "k - 1",
+  "before": "max_sum = current_sum = sum(array[:k])",
+  "after": "max_sum = current_sum = sum(array[:k - 1])",
+  "failing": 2,
+  "examples": 8,
+  "loudness": 0.25,
+  "visible": 6,
+  "hidden": [
+   {
+    "owner": "max_sum_in_array",
+    "first": 18,
+    "source": "max_sum_in_array(arr, k)\n",
+    "want": "24\n"
+   },
+   {
+    "owner": "max_sum_in_array",
+    "first": 27,
+    "source": "max_sum_in_array(arr, k)\n",
+    "want": "27\n"
+   }
+  ],
+  "id": "B17"
+ },
+ {
+  "path": "strings/is_spain_national_id.py",
+  "folder": "strings",
+  "operator": "off-by-one slice",
+  "function": "is_spain_national_id",
+  "line_original": 59,
+  "line": 53,
+  "old": "8",
+  "new": "7",
+  "before": "number = int(spanish_id_clean[0:8])",
+  "after": "number = int(spanish_id_clean[0:7])",
+  "failing": 3,
+  "examples": 11,
+  "loudness": 0.2727,
+  "visible": 8,
+  "hidden": [
+   {
+    "owner": "is_spain_national_id",
+    "first": 14,
+    "source": "is_spain_national_id(\"12345678Z\")\n",
+    "want": "True\n"
+   },
+   {
+    "owner": "is_spain_national_id",
+    "first": 16,
+    "source": "is_spain_national_id(\"12345678z\")  # It is case-insensitive\n",
+    "want": "True\n"
+   },
+   {
+    "owner": "is_spain_national_id",
+    "first": 22,
+    "source": "is_spain_national_id(\"12345678-Z\")  # Some systems add a dash\n",
+    "want": "True\n"
+   }
+  ],
+  "id": "B18"
+ },
+ {
+  "path": "geometry/monotone_chain.py",
+  "folder": "geometry",
+  "operator": "swap + and -",
+  "function": "cross_product_direction",
+  "line_original": 58,
+  "line": 58,
+  "old": "-",
+  "new": "+",
+  "before": "return (point_a.x - origin.x) * (point_b.y - origin.y) - (point_a.y - origin.y) * (",
+  "after": "return (point_a.x - origin.x) * (point_b.y - origin.y) - (point_a.y + origin.y) * (",
+  "failing": 3,
+  "examples": 14,
+  "loudness": 0.2143,
+  "visible": 11,
+  "hidden": [
+   {
+    "owner": "monotone_chain",
+    "first": 88,
+    "source": "monotone_chain(square_points)\n",
+    "want": "[Point(x=0, y=0), Point(x=2, y=0), Point(x=2, y=2), Point(x=0, y=2)]\n"
+   },
+   {
+    "owner": "monotone_chain",
+    "first": 94,
+    "source": "monotone_chain(triangle_with_duplicates)\n",
+    "want": "[Point(x=0, y=0), Point(x=4, y=0), Point(x=2, y=3)]\n"
+   },
+   {
+    "owner": "monotone_chain",
+    "first": 97,
+    "source": "monotone_chain(collinear_points)\n",
+    "want": "[Point(x=0, y=0), Point(x=3, y=3)]\n"
+   }
+  ],
+  "id": "B19"
+ },
+ {
+  "path": "neural_network/perceptron.py",
+  "folder": "neural_network",
+  "operator": "swap + and -",
+  "function": "Perceptron.training",
+  "line_original": 97,
+  "line": 95,
+  "old": "+",
+  "new": "-",
+  "before": "u = u + self.weight[j] * self.sample[i][j]",
+  "after": "u = u - self.weight[j] * self.sample[i][j]",
+  "failing": 3,
+  "examples": 18,
+  "loudness": 0.1667,
+  "visible": 15,
+  "hidden": [
+   {
+    "owner": "training",
+    "first": 79,
+    "source": "perceptron.training()\n",
+    "want": "5\n"
+   },
+   {
+    "owner": "sort",
+    "first": 126,
+    "source": "perceptron.training()\n",
+    "want": "5\n"
+   },
+   {
+    "owner": "sort",
+    "first": 128,
+    "source": "perceptron.sort([2.0149, 0.6192, 10.9263])\n",
+    "want": "-1\n"
+   }
+  ],
+  "id": "B20"
+ },
+ {
+  "path": "cellular_automata/wa_tor.py",
+  "folder": "cellular_automata",
+  "operator": "swap + and -",
+  "function": "WaTor.get_surrounding_prey",
+  "line_original": 242,
+  "line": 236,
+  "old": "-",
+  "new": "+",
+  "before": "(row - 1, col),  # North",
+  "after": "(row + 1, col),  # North",
+  "failing": 2,
+  "examples": 78,
+  "loudness": 0.0256,
+  "visible": 76,
+  "hidden": [
+   {
+    "owner": "get_surrounding_prey",
+    "first": 226,
+    "source": "wt.get_surrounding_prey(\nEntity(False, (1, 1)))  # doctest: +NORMALIZE_WHITESPACE\n",
+    "want": "[Entity(prey=True, coords=(0, 1), remaining_reproduction_time=5),\nEntity(prey=True, coords=(2, 1), remaining_reproduction_time=5)]\n"
+   },
+   {
+    "owner": "get_surrounding_prey",
+    "first": 237,
+    "source": "wt.get_surrounding_prey(Entity(False, (1, 0)))\n",
+    "want": "[Entity(prey=True, coords=(0, 0), remaining_reproduction_time=5)]\n"
+   }
+  ],
+  "id": "B21"
+ },
+ {
+  "path": "ciphers/polybius.py",
+  "folder": "ciphers",
+  "operator": "swap + and -",
+  "function": "PolybiusCipher.decode",
+  "line_original": 89,
+  "line": 85,
+  "old": "+",
+  "new": "-",
+  "before": "index2 = message[numbers_index * 2 + 1]",
+  "after": "index2 = message[numbers_index * 2 - 1]",
+  "failing": 2,
+  "examples": 8,
+  "loudness": 0.25,
+  "visible": 6,
+  "hidden": [
+   {
+    "owner": "decode",
+    "first": 78,
+    "source": "PolybiusCipher().decode(\"44154344 32154343112215\") == \"test message\"\n",
+    "want": "True\n"
+   },
+   {
+    "owner": "decode",
+    "first": 81,
+    "source": "PolybiusCipher().decode(\"4415434432154343112215\") == \"testmessage\"\n",
+    "want": "True\n"
+   }
+  ],
+  "id": "B22"
+ },
+ {
+  "path": "data_structures/binary_tree/inorder_tree_traversal_2022.py",
+  "folder": "data_structures",
+  "operator": "swap + and -",
+  "function": "inorder",
+  "line_original": 54,
+  "line": 52,
+  "old": "+",
+  "new": "-",
+  "before": "inorder_array = inorder_array + inorder(node.right_child)",
+  "after": "inorder_array = inorder_array - inorder(node.right_child)",
+  "failing": 1,
+  "examples": 6,
+  "loudness": 0.1667,
+  "visible": 5,
+  "hidden": [
+   {
+    "owner": "inorder",
+    "first": 48,
+    "source": "inorder(make_tree())\n",
+    "want": "[6, 10, 14, 15, 20, 25, 60]\n"
+   }
+  ],
+  "id": "B23"
+ },
+ {
+  "path": "maths/special_numbers/catalan_number.py",
+  "folder": "maths",
+  "operator": "swap + and -",
+  "function": "catalan",
+  "line_original": 45,
+  "line": 43,
+  "old": "+",
+  "new": "-",
+  "before": "current_number //= i + 1",
+  "after": "current_number //= i - 1",
+  "failing": 1,
+  "examples": 4,
+  "loudness": 0.25,
+  "visible": 3,
+  "hidden": [
+   {
+    "owner": "catalan",
+    "first": 17,
+    "source": "catalan(5)\n",
+    "want": "14\n"
+   }
+  ],
+  "id": "B24"
+ },
+ {
+  "path": "physics/bragg_angle.py",
+  "folder": "physics",
+  "operator": "swap and / or",
+  "function": "bragg_angle",
+  "line_original": 31,
+  "line": 27,
+  "old": "or",
+  "new": "and",
+  "before": "if sine_theta > 1 or sine_theta < -1:",
+  "after": "if sine_theta > 1 and sine_theta < -1:",
+  "failing": 1,
+  "examples": 4,
+  "loudness": 0.25,
+  "visible": 3,
+  "hidden": [
+   {
+    "owner": "bragg_angle",
+    "first": 25,
+    "source": "bragg_angle(1e-10, 2, 3e-10)\n",
+    "want": "Traceback (most recent call last):\n    ...\nValueError: The calculated sine value is out of the valid range.\n"
+   }
+  ],
+  "id": "B25"
+ },
+ {
+  "path": "maths/next_prime_number.py",
+  "folder": "maths",
+  "operator": "swap and / or",
+  "function": "is_prime",
+  "line_original": 36,
+  "line": 34,
+  "old": "or",
+  "new": "and",
+  "before": "if number % 2 == 0 or number % 3 == 0:",
+  "after": "if number % 2 == 0 and number % 3 == 0:",
+  "failing": 3,
+  "examples": 10,
+  "loudness": 0.3,
+  "visible": 7,
+  "hidden": [
+   {
+    "owner": "is_prime",
+    "first": 23,
+    "source": "is_prime(15)\n",
+    "want": "False\n"
+   },
+   {
+    "owner": "next_prime",
+    "first": 53,
+    "source": "next_prime(7)\n",
+    "want": "11\n"
+   },
+   {
+    "owner": "next_prime",
+    "first": 55,
+    "source": "next_prime(14)\n",
+    "want": "17\n"
+   }
+  ],
+  "id": "B26"
+ },
+ {
+  "path": "financial/kelly_criterion.py",
+  "folder": "financial",
+  "operator": "swap and / or",
+  "function": "fractional_kelly",
+  "line_original": 178,
+  "line": 170,
+  "old": "or",
+  "new": "and",
+  "before": "if fraction <= 0 or fraction > 1:",
+  "after": "if fraction <= 0 and fraction > 1:",
+  "failing": 2,
+  "examples": 22,
+  "loudness": 0.0909,
+  "visible": 20,
+  "hidden": [
+   {
+    "owner": "fractional_kelly",
+    "first": 165,
+    "source": "fractional_kelly(0.6, 2.0, 0.0)\n",
+    "want": "Traceback (most recent call last):\n    ...\nValueError: fraction must be between 0 and 1 (exclusive for 0, inclusive for 1)\n"
+   },
+   {
+    "owner": "fractional_kelly",
+    "first": 169,
+    "source": "fractional_kelly(0.6, 2.0, 1.5)\n",
+    "want": "Traceback (most recent call last):\n    ...\nValueError: fraction must be between 0 and 1 (exclusive for 0, inclusive for 1)\n"
+   }
+  ],
+  "id": "B27"
+ },
+ {
+  "path": "electronics/star_delta_conversions.py",
+  "folder": "electronics",
+  "operator": "swap and / or",
+  "function": "star_to_delta",
+  "line_original": 36,
+  "line": 32,
+  "old": "or",
+  "new": "and",
+  "before": "if abs(impedance_a) == 0 or abs(impedance_b) == 0 or abs(impedance_c) == 0:",
+  "after": "if abs(impedance_a) == 0 and abs(impedance_b) == 0 or abs(impedance_c) == 0:",
+  "failing": 1,
+  "examples": 8,
+  "loudness": 0.125,
+  "visible": 7,
+  "hidden": [
+   {
+    "owner": "star_to_delta",
+    "first": 24,
+    "source": "star_to_delta(complex(0,0),complex(1,2),complex(1,6))\n",
+    "want": "Traceback (most recent call last):\n   ...\nValueError: entered impedance value is zero\n"
+   }
+  ],
+  "id": "B28"
+ },
+ {
+  "path": "electronics/full_wave_rectifier.py",
+  "folder": "electronics",
+  "operator": "swap and / or",
+  "function": "max_load_current",
+  "line_original": 34,
+  "line": 30,
+  "old": "or",
+  "new": "and",
+  "before": "if rf < 0 or rs < 0 or rl < 0:",
+  "after": "if rf < 0 and rs < 0 or rl < 0:",
+  "failing": 1,
+  "examples": 14,
+  "loudness": 0.0714,
+  "visible": 13,
+  "hidden": [
+   {
+    "owner": "max_load_current",
+    "first": 23,
+    "source": "max_load_current(rf=2 , rs=-4 , rl=6 , vm=15 )\n",
+    "want": "Traceback (most recent call last):\n    ...\nValueError: Resistance cannot be negative\n"
+   }
+  ],
+  "id": "B29"
+ },
+ {
+  "path": "electronics/resistor_color_code.py",
+  "folder": "electronics",
+  "operator": "swap and / or",
+  "function": "check_validity",
+  "line_original": 280,
+  "line": 280,
+  "old": "and",
+  "new": "or",
+  "before": "if number_of_bands >= 3 and number_of_bands <= 6:",
+  "after": "if number_of_bands >= 3 or number_of_bands <= 6:",
+  "failing": 1,
+  "examples": 24,
+  "loudness": 0.0417,
+  "visible": 23,
+  "hidden": [
+   {
+    "owner": "calculate_resistance",
+    "first": 313,
+    "source": "calculate_resistance(0, [\"Violet\",\"Brown\",\"Grey\",\"Silver\",\"Green\"])\n",
+    "want": "Traceback (most recent call last):\n  ...\nValueError: Invalid number of bands. Resistor bands must be 3 to 6\n"
+   }
+  ],
+  "id": "B30"
+ },
+ {
+  "path": "financial/equated_monthly_installments.py",
+  "folder": "financial",
+  "operator": "drop not",
+  "function": "equated_monthly_installments",
+  "line_original": 41,
+  "line": 37,
+  "old": "not ",
+  "new": "",
+  "before": "if years_to_repay <= 0 or not isinstance(years_to_repay, int):",
+  "after": "if years_to_repay <= 0 or isinstance(years_to_repay, int):",
+  "failing": 2,
+  "examples": 5,
+  "loudness": 0.4,
+  "visible": 3,
+  "hidden": [
+   {
+    "owner": "equated_monthly_installments",
+    "first": 20,
+    "source": "equated_monthly_installments(25000, 0.12, 3)\n",
+    "want": "830.3577453212793\n"
+   },
+   {
+    "owner": "equated_monthly_installments",
+    "first": 22,
+    "source": "equated_monthly_installments(25000, 0.12, 10)\n",
+    "want": "358.67737100646826\n"
+   }
+  ],
+  "id": "B31"
+ },
+ {
+  "path": "sorts/bubble_sort_recursive.py",
+  "folder": "sorts",
+  "operator": "drop not",
+  "function": "bubble_sort_recursive",
+  "line_original": 45,
+  "line": 39,
+  "old": "not ",
+  "new": "",
+  "before": "if not swapped:",
+  "after": "if swapped:",
+  "failing": 3,
+  "examples": 8,
+  "loudness": 0.375,
+  "visible": 5,
+  "hidden": [
+   {
+    "owner": "bubble_sort_recursive",
+    "first": 16,
+    "source": "bubble_sort_recursive([5, 1, 4, 2, 8])\n",
+    "want": "[1, 2, 4, 5, 8]\n"
+   },
+   {
+    "owner": "bubble_sort_recursive",
+    "first": 22,
+    "source": "bubble_sort_recursive([3, 3, 2, 1])\n",
+    "want": "[1, 2, 3, 3]\n"
+   },
+   {
+    "owner": "bubble_sort_recursive",
+    "first": 24,
+    "source": "bubble_sort_recursive([-1, 5, 0, -2])\n",
+    "want": "[-2, -1, 0, 5]\n"
+   }
+  ],
+  "id": "B32"
+ },
+ {
+  "path": "maths/simultaneous_linear_equation_solver.py",
+  "folder": "maths",
+  "operator": "drop not",
+  "function": "solve_simultaneous",
+  "line_original": 86,
+  "line": 78,
+  "old": "not ",
+  "new": "",
+  "before": "if any(not isinstance(column, (int, float)) for column in row):",
+  "after": "if any(isinstance(column, (int, float)) for column in row):",
+  "failing": 3,
+  "examples": 8,
+  "loudness": 0.375,
+  "visible": 5,
+  "hidden": [
+   {
+    "owner": "solve_simultaneous",
+    "first": 59,
+    "source": "solve_simultaneous([[1, 2, 3],[4, 5, 6]])\n",
+    "want": "[-1.0, 2.0]\n"
+   },
+   {
+    "owner": "solve_simultaneous",
+    "first": 61,
+    "source": "solve_simultaneous([[0, -3, 1, 7],[3, 2, -1, 11],[5, 1, -2, 12]])\n",
+    "want": "[6.4, 1.2, 10.6]\n"
+   },
+   {
+    "owner": "solve_simultaneous",
+    "first": 75,
+    "source": "solve_simultaneous([[0, 2, 3],[4, 0, 6]])\n",
+    "want": "Traceback (most recent call last):\n    ...\nValueError: solve_simultaneous() requires at least 1 full equation\n"
+   }
+  ],
+  "id": "B33"
+ },
+ {
+  "path": "other/least_recently_used.py",
+  "folder": "other",
+  "operator": "drop not",
+  "function": "LRUCache.__init__",
+  "line_original": 43,
+  "line": 37,
+  "old": "not ",
+  "new": "",
+  "before": "if not n:",
+  "after": "if n:",
+  "failing": 3,
+  "examples": 10,
+  "loudness": 0.3,
+  "visible": 7,
+  "hidden": [
+   {
+    "owner": "LRUCache",
+    "first": 19,
+    "source": "lru_cache\n",
+    "want": "LRUCache(4) => [3, 2, 'A']\n"
+   },
+   {
+    "owner": "LRUCache",
+    "first": 23,
+    "source": "lru_cache\n",
+    "want": "LRUCache(4) => ['A', 3, 2]\n"
+   },
+   {
+    "owner": "LRUCache",
+    "first": 28,
+    "source": "lru_cache\n",
+    "want": "LRUCache(4) => [5, 4, 'A', 3]\n"
+   }
+  ],
+  "id": "B34"
+ },
+ {
+  "path": "data_compression/move_to_front.py",
+  "folder": "data_compression",
+  "operator": "drop not",
+  "function": "move_to_front_decode",
+  "line_original": 87,
+  "line": 75,
+  "old": "not ",
+  "new": "",
+  "before": "if not 0 <= index < len(symbols):",
+  "after": "if 0 <= index < len(symbols):",
+  "failing": 4,
+  "examples": 11,
+  "loudness": 0.3636,
+  "visible": 7,
+  "hidden": [
+   {
+    "owner": "move_to_front_decode",
+    "first": 68,
+    "source": "move_to_front_decode([1, 1, 13, 1, 1, 1], \"abcdefghijklmnopqrstuvwxyz\")\n",
+    "want": "'banana'\n"
+   },
+   {
+    "owner": "move_to_front_decode",
+    "first": 70,
+    "source": "move_to_front_decode([1, 1, 2, 1, 1, 1], \"abn\")\n",
+    "want": "'banana'\n"
+   },
+   {
+    "owner": "move_to_front_decode",
+    "first": 74,
+    "source": "move_to_front_decode([3], \"abc\")\n",
+    "want": "Traceback (most recent call last):\n    ...\nValueError: index 3 is not valid for alphabet size 3\n"
+   },
+   {
+    "owner": "move_to_front_decode",
+    "first": 78,
+    "source": "move_to_front_decode([-1], \"abc\")\n",
+    "want": "Traceback (most recent call last):\n    ...\nValueError: index -1 is not valid for alphabet size 3\n"
+   }
+  ],
+  "id": "B35"
+ },
+ {
+  "path": "maths/zellers_congruence.py",
+  "folder": "maths",
+  "operator": "drop not",
+  "function": "zeller",
+  "line_original": 105,
+  "line": 91,
+  "old": "not ",
+  "new": "",
+  "before": "if not 0 < d < 32:",
+  "after": "if 0 < d < 32:",
+  "failing": 4,
+  "examples": 11,
+  "loudness": 0.3636,
+  "visible": 7,
+  "hidden": [
+   {
+    "owner": "zeller",
+    "first": 10,
+    "source": "zeller('01-31-2010')\n",
+    "want": "'Your date 01-31-2010, is a Sunday!'\n"
+   },
+   {
+    "owner": "zeller",
+    "first": 26,
+    "source": "zeller('01-33-2010')\n",
+    "want": "Traceback (most recent call last):\n    ...\nValueError: Date must be between 1 - 31\n"
+   },
+   {
+    "owner": "zeller",
+    "first": 37,
+    "source": "zeller('01-31*2010')\n",
+    "want": "Traceback (most recent call last):\n    ...\nValueError: Date separator must be '-' or '/'\n"
+   },
+   {
+    "owner": "zeller",
+    "first": 51,
+    "source": "zeller('01-31-8999')\n",
+    "want": "Traceback (most recent call last):\n    ...\nValueError: Year out of range. There has to be some sort of limit...right?\n"
+   }
+  ],
+  "id": "B36"
+ },
+ {
+  "path": "matrix/cramers_rule_2x2.py",
+  "folder": "matrix",
+  "operator": "wrong index",
+  "function": "cramers_rule_2x2",
+  "line_original": 58,
+  "line": 54,
+  "old": "0",
+  "new": "-1",
+  "before": "if equation1[0] == equation1[1] == equation2[0] == equation2[1] == 0:",
+  "after": "if equation1[-1] == equation1[1] == equation2[0] == equation2[1] == 0:",
+  "failing": 1,
+  "examples": 11,
+  "loudness": 0.0909,
+  "visible": 10,
+  "hidden": [
+   {
+    "owner": "cramers_rule_2x2",
+    "first": 41,
+    "source": "cramers_rule_2x2([0, 0, 6], [0, 0, 3])\n",
+    "want": "Traceback (most recent call last):\n    ...\nValueError: Both a & b of two equations can't be zero.\n"
+   }
+  ],
+  "id": "B37"
+ },
+ {
+  "path": "matrix/binary_search_matrix.py",
+  "folder": "matrix",
+  "operator": "wrong index",
+  "function": "mat_bin_search",
+  "line_original": 44,
+  "line": 42,
+  "old": "0",
+  "new": "-1",
+  "before": "if matrix[index][0] == value:",
+  "after": "if matrix[index][-1] == value:",
+  "failing": 1,
+  "examples": 8,
+  "loudness": 0.125,
+  "visible": 7,
+  "hidden": [
+   {
+    "owner": "mat_bin_search",
+    "first": 37,
+    "source": "mat_bin_search(target, matrix)\n",
+    "want": "[0, 0]\n"
+   }
+  ],
+  "id": "B38"
+ },
+ {
+  "path": "dynamic_programming/max_product_subarray.py",
+  "folder": "dynamic_programming",
+  "operator": "wrong index",
+  "function": "max_product_subarray",
+  "line_original": 41,
+  "line": 37,
+  "old": "0",
+  "new": "-1",
+  "before": "max_till_now = min_till_now = max_prod = numbers[0]",
+  "after": "max_till_now = min_till_now = max_prod = numbers[-1]",
+  "failing": 2,
+  "examples": 10,
+  "loudness": 0.2,
+  "visible": 8,
+  "hidden": [
+   {
+    "owner": "max_product_subarray",
+    "first": 8,
+    "source": "max_product_subarray([2, 3, -2, 4])\n",
+    "want": "6\n"
+   },
+   {
+    "owner": "max_product_subarray",
+    "first": 12,
+    "source": "max_product_subarray([2, 3, -2, 4, -1])\n",
+    "want": "48\n"
+   }
+  ],
+  "id": "B39"
+ },
+ {
+  "path": "dynamic_programming/wildcard_matching.py",
+  "folder": "dynamic_programming",
+  "operator": "wrong index",
+  "function": "is_match",
+  "line_original": 53,
+  "line": 43,
+  "old": "0",
+  "new": "-1",
+  "before": "dp[0][j] = dp[0][j - 1]",
+  "after": "dp[-1][j] = dp[0][j - 1]",
+  "failing": 5,
+  "examples": 13,
+  "loudness": 0.3846,
+  "visible": 8,
+  "hidden": [
+   {
+    "owner": "is_match",
+    "first": 27,
+    "source": "is_match(\"abc\", \"*c\")\n",
+    "want": "True\n"
+   },
+   {
+    "owner": "is_match",
+    "first": 31,
+    "source": "is_match(\"abc\", \"*a*\")\n",
+    "want": "True\n"
+   },
+   {
+    "owner": "is_match",
+    "first": 35,
+    "source": "is_match(\"abc\", \"*?\")\n",
+    "want": "True\n"
+   },
+   {
+    "owner": "is_match",
+    "first": 43,
+    "source": "is_match('baaabab','*****ba*****ab')\n",
+    "want": "True\n"
+   },
+   {
+    "owner": "is_match",
+    "first": 45,
+    "source": "is_match('aa','*')\n",
+    "want": "True\n"
+   }
+  ],
+  "id": "B40"
+ },
+ {
+  "path": "data_structures/stacks/stock_span_problem.py",
+  "folder": "data_structures",
+  "operator": "wrong index",
+  "function": "calculate_span",
+  "line_original": 52,
+  "line": 48,
+  "old": "-1",
+  "new": "0",
+  "before": "s[i] = i + 1 if len(st) <= 0 else (i - st[-1])",
+  "after": "s[i] = i + 1 if len(st) <= 0 else (i - st[0])",
+  "failing": 2,
+  "examples": 6,
+  "loudness": 0.3333,
+  "visible": 4,
+  "hidden": [
+   {
+    "owner": "calculate_span",
+    "first": 23,
+    "source": "calculate_span([5, 4, 3, 2, 1])\n",
+    "want": "[1, 1, 1, 1, 1]\n"
+   },
+   {
+    "owner": "calculate_span",
+    "first": 29,
+    "source": "calculate_span([100, 80, 60, 70, 60, 75, 85])\n",
+    "want": "[1, 1, 1, 2, 1, 4, 6]\n"
+   }
+  ],
+  "id": "B41"
+ },
+ {
+  "path": "other/maximum_subsequence.py",
+  "folder": "other",
+  "operator": "wrong index",
+  "function": "max_subsequence_sum",
+  "line_original": 26,
+  "line": 24,
+  "old": "0",
+  "new": "-1",
+  "before": "ans = nums[0]",
+  "after": "ans = nums[-1]",
+  "failing": 1,
+  "examples": 4,
+  "loudness": 0.25,
+  "visible": 3,
+  "hidden": [
+   {
+    "owner": "max_subsequence_sum",
+    "first": 10,
+    "source": "max_subsequence_sum([1,2,3,4,-2])\n",
+    "want": "10\n"
+   }
+  ],
+  "id": "B42"
+ },
+ {
+  "path": "matrix/nth_fibonacci_using_matrix_exponentiation.py",
+  "folder": "matrix",
+  "operator": "wrong start value",
+  "function": "nth_fibonacci_bruteforce",
+  "line_original": 66,
+  "line": 64,
+  "old": "0",
+  "new": "1",
+  "before": "fib0 = 0",
+  "after": "fib0 = 1",
+  "failing": 1,
+  "examples": 4,
+  "loudness": 0.25,
+  "visible": 3,
+  "hidden": [
+   {
+    "owner": "nth_fibonacci_bruteforce",
+    "first": 59,
+    "source": "nth_fibonacci_bruteforce(100)\n",
+    "want": "354224848179261915075\n"
+   }
+  ],
+  "id": "B43"
+ },
+ {
+  "path": "ciphers/autokey.py",
+  "folder": "ciphers",
+  "operator": "wrong start value",
+  "function": "encrypt",
+  "line_original": 52,
+  "line": 48,
+  "old": "0",
+  "new": "1",
+  "before": "key_iterator = 0",
+  "after": "key_iterator = 1",
+  "failing": 2,
+  "examples": 12,
+  "loudness": 0.1667,
+  "visible": 10,
+  "hidden": [
+   {
+    "owner": "encrypt",
+    "first": 17,
+    "source": "encrypt(\"hello world\", \"coffee\")\n",
+    "want": "'jsqqs avvwo'\n"
+   },
+   {
+    "owner": "encrypt",
+    "first": 19,
+    "source": "encrypt(\"coffee is good as python\", \"TheAlgorithms\")\n",
+    "want": "'vvjfpk wj ohvp su ddylsv'\n"
+   }
+  ],
+  "id": "B44"
+ },
+ {
+  "path": "linear_algebra/jacobi_iteration_method.py",
+  "folder": "linear_algebra",
+  "operator": "wrong start value",
+  "function": "strictly_diagonally_dominant",
+  "line_original": 187,
+  "line": 183,
+  "old": "0",
+  "new": "1",
+  "before": "total = 0",
+  "after": "total = 1",
+  "failing": 2,
+  "examples": 29,
+  "loudness": 0.069,
+  "visible": 27,
+  "hidden": [
+   {
+    "owner": "jacobi_iteration_method",
+    "first": 36,
+    "source": "jacobi_iteration_method(coefficient, constant, init_val, iterations)\n",
+    "want": "[0.909375, -1.14375, -0.7484375]\n"
+   },
+   {
+    "owner": "strictly_diagonally_dominant",
+    "first": 172,
+    "source": "strictly_diagonally_dominant(table)\n",
+    "want": "True\n"
+   }
+  ],
+  "id": "B45"
+ },
+ {
+  "path": "matrix/count_islands_in_matrix.py",
+  "folder": "matrix",
+  "operator": "wrong start value",
+  "function": "Matrix.count_islands",
+  "line_original": 86,
+  "line": 82,
+  "old": "0",
+  "new": "1",
+  "before": "count = 0",
+  "after": "count = 1",
+  "failing": 2,
+  "examples": 18,
+  "loudness": 0.1111,
+  "visible": 16,
+  "hidden": [
+   {
+    "owner": "count_islands",
+    "first": 77,
+    "source": "m.count_islands()\n",
+    "want": "2\n"
+   },
+   {
+    "owner": "count_islands",
+    "first": 82,
+    "source": "m2.count_islands()\n",
+    "want": "2\n"
+   }
+  ],
+  "id": "B46"
+ },
+ {
+  "path": "searches/sentinel_linear_search.py",
+  "folder": "searches",
+  "operator": "wrong start value",
+  "function": "sentinel_linear_search",
+  "line_original": 36,
+  "line": 34,
+  "old": "0",
+  "new": "1",
+  "before": "index = 0",
+  "after": "index = 1",
+  "failing": 1,
+  "examples": 4,
+  "loudness": 0.25,
+  "visible": 3,
+  "hidden": [
+   {
+    "owner": "sentinel_linear_search",
+    "first": 22,
+    "source": "sentinel_linear_search([0, 5, 7, 10, 15], 0)\n",
+    "want": "0\n"
+   }
+  ],
+  "id": "B47"
+ },
+ {
+  "path": "maths/prime_sieve_eratosthenes.py",
+  "folder": "maths",
+  "operator": "wrong start value",
+  "function": "prime_sieve_eratosthenes",
+  "line_original": 38,
+  "line": 34,
+  "old": "2",
+  "new": "3",
+  "before": "p = 2",
+  "after": "p = 3",
+  "failing": 2,
+  "examples": 5,
+  "loudness": 0.4,
+  "visible": 3,
+  "hidden": [
+   {
+    "owner": "prime_sieve_eratosthenes",
+    "first": 19,
+    "source": "prime_sieve_eratosthenes(10)\n",
+    "want": "[2, 3, 5, 7]\n"
+   },
+   {
+    "owner": "prime_sieve_eratosthenes",
+    "first": 21,
+    "source": "prime_sieve_eratosthenes(20)\n",
+    "want": "[2, 3, 5, 7, 11, 13, 17, 19]\n"
+   }
+  ],
+  "id": "B48"
+ },
+ {
+  "path": "searches/exponential_search.py",
+  "folder": "searches",
+  "operator": "swap arguments",
+  "function": "exponential_search",
+  "line_original": 120,
+  "line": 110,
+  "old": "sorted_collection, item",
+  "new": "item, sorted_collection",
+  "before": "return binary_search_by_recursion(sorted_collection, item, left, right)",
+  "after": "return binary_search_by_recursion(item, sorted_collection, left, right)",
+  "failing": 5,
+  "examples": 13,
+  "loudness": 0.3846,
+  "visible": 8,
+  "hidden": [
+   {
+    "owner": "exponential_search",
+    "first": 93,
+    "source": "exponential_search([0, 5, 7, 10, 15], 15)\n",
+    "want": "4\n"
+   },
+   {
+    "owner": "exponential_search",
+    "first": 95,
+    "source": "exponential_search([0, 5, 7, 10, 15], 5)\n",
+    "want": "1\n"
+   },
+   {
+    "owner": "exponential_search",
+    "first": 97,
+    "source": "exponential_search([0, 5, 7, 10, 15], 6)\n",
+    "want": "-1\n"
+   },
+   {
+    "owner": "exponential_search",
+    "first": 99,
+    "source": "exponential_search([0, 5, 7, 10, 15], -3)\n",
+    "want": "-1\n"
+   },
+   {
+    "owner": "exponential_search",
+    "first": 101,
+    "source": "exponential_search([0, 5, 7, 10, 15], 20)\n",
+    "want": "-1\n"
+   }
+  ],
+  "id": "B49"
+ },
+ {
+  "path": "other/greedy.py",
+  "folder": "other",
+  "operator": "swap arguments",
+  "function": "build_menu",
+  "line_original": 26,
+  "line": 26,
+  "old": "name[i], value[i]",
+  "new": "value[i], name[i]",
+  "before": "menu.append(Things(name[i], value[i], weight[i]))",
+  "after": "menu.append(Things(value[i], name[i], weight[i]))",
+  "failing": 2,
+  "examples": 6,
+  "loudness": 0.3333,
+  "visible": 4,
+  "hidden": [
+   {
+    "owner": "test_greedy",
+    "first": 49,
+    "source": "foods  # doctest: +NORMALIZE_WHITESPACE\n",
+    "want": "[Things(Burger, 80, 40), Things(Pizza, 100, 60), Things(Coca Cola, 60, 40),\n Things(Rice, 70, 70), Things(Sambhar, 50, 100), Things(Chicken, 110, 85),\n Things(Fries, 90, 55), Things(Milk, 60, 70)]\n"
+   },
+   {
+    "owner": "test_greedy",
+    "first": 53,
+    "source": "greedy(foods, 500, Things.get_value)  # doctest: +NORMALIZE_WHITESPACE\n",
+    "want": "([Things(Chicken, 110, 85), Things(Pizza, 100, 60), Things(Fries, 90, 55),\n  Things(Burger, 80, 40), Things(Rice, 70, 70), Things(Coca Cola, 60, 40),\n  Things(Milk, 60, 70)], 570.0)\n"
+   }
+  ],
+  "id": "B50"
+ },
+ {
+  "path": "dynamic_programming/matrix_chain_multiplication.py",
+  "folder": "dynamic_programming",
+  "operator": "swap arguments",
+  "function": "matrix_chain_order.a",
+  "line_original": 123,
+  "line": 119,
+  "old": "k, j",
+  "new": "j, k",
+  "before": "(a(i, k) + dims[i] * dims[k] * dims[j] + a(k, j) for k in range(i + 1, j)),",
+  "after": "(a(i, k) + dims[i] * dims[k] * dims[j] + a(j, k) for k in range(i + 1, j)),",
+  "failing": 2,
+  "examples": 10,
+  "loudness": 0.2,
+  "visible": 8,
+  "hidden": [
+   {
+    "owner": "matrix_chain_order",
+    "first": 106,
+    "source": "matrix_chain_order([1, 2, 3, 4, 3])\n",
+    "want": "30\n"
+   },
+   {
+    "owner": "matrix_chain_order",
+    "first": 114,
+    "source": "matrix_chain_order(list(range(1, 100)))\n",
+    "want": "323398\n"
+   }
+  ],
+  "id": "B51"
+ },
+ {
+  "path": "maths/euler_method.py",
+  "folder": "maths",
+  "operator": "swap arguments",
+  "function": "explicit_euler",
+  "line_original": 38,
+  "line": 36,
+  "old": "x, y[k]",
+  "new": "y[k], x",
+  "before": "y[k + 1] = y[k] + step_size * ode_func(x, y[k])",
+  "after": "y[k + 1] = y[k] + step_size * ode_func(y[k], x)",
+  "failing": 1,
+  "examples": 4,
+  "loudness": 0.25,
+  "visible": 3,
+  "hidden": [
+   {
+    "owner": "explicit_euler",
+    "first": 29,
+    "source": "float(y[-1])\n",
+    "want": "144.77277243257308\n"
+   }
+  ],
+  "id": "B52"
+ },
+ {
+  "path": "maths/euler_modified.py",
+  "folder": "maths",
+  "operator": "swap arguments",
+  "function": "euler_modified",
+  "line_original": 44,
+  "line": 40,
+  "old": "x, y[k]",
+  "new": "y[k], x",
+  "before": "(step_size / 2) * (ode_func(x, y[k]) + ode_func(x + step_size, y_get))",
+  "after": "(step_size / 2) * (ode_func(y[k], x) + ode_func(x + step_size, y_get))",
+  "failing": 2,
+  "examples": 7,
+  "loudness": 0.2857,
+  "visible": 5,
+  "hidden": [
+   {
+    "owner": "euler_modified",
+    "first": 27,
+    "source": "float(y[-1])\n",
+    "want": "0.503338255442106\n"
+   },
+   {
+    "owner": "euler_modified",
+    "first": 33,
+    "source": "float(y[-1])\n",
+    "want": "0.5525976431951775\n"
+   }
+  ],
+  "id": "B53"
+ },
+ {
+  "path": "strings/min_cost_string_conversion.py",
+  "folder": "strings",
+  "operator": "swap arguments",
+  "function": "assemble_transformation",
+  "line_original": 116,
+  "line": 114,
+  "old": "ops, i",
+  "new": "i, ops",
+  "before": "seq = assemble_transformation(ops, i, j - 1)",
+  "after": "seq = assemble_transformation(i, ops, j - 1)",
+  "failing": 1,
+  "examples": 19,
+  "loudness": 0.0526,
+  "visible": 18,
+  "hidden": [
+   {
+    "owner": "assemble_transformation",
+    "first": 102,
+    "source": "assemble_transformation(ops2, x2, y2)\n",
+    "want": "['C1', 'I2', 'R23']\n"
+   }
+  ],
+  "id": "B54"
+ },
+ {
+  "path": "strings/frequency_finder.py",
+  "folder": "strings",
+  "operator": "wrong return value",
+  "function": "english_freq_match_score",
+  "line_original": 100,
+  "line": 98,
+  "old": "match_score",
+  "new": "message",
+  "before": "return match_score",
+  "after": "return message",
+  "failing": 1,
+  "examples": 4,
+  "loudness": 0.25,
+  "visible": 3,
+  "hidden": [
+   {
+    "owner": "english_freq_match_score",
+    "first": 87,
+    "source": "english_freq_match_score('Hello World')\n",
+    "want": "1\n"
+   }
+  ],
+  "id": "B55"
+ },
+ {
+  "path": "ciphers/beaufort_cipher.py",
+  "folder": "ciphers",
+  "operator": "wrong return value",
+  "function": "original_text",
+  "line_original": 66,
+  "line": 64,
+  "old": "or_txt",
+  "new": "x",
+  "before": "return or_txt",
+  "after": "return x",
+  "failing": 1,
+  "examples": 3,
+  "loudness": 0.3333,
+  "visible": 2,
+  "hidden": [
+   {
+    "owner": "original_text",
+    "first": 54,
+    "source": "original_text(\"BDC PAYUWL JPAIYI\",\"SECRETSECRETSECRE\")\n",
+    "want": "'THE GERMAN ATTACK'\n"
+   }
+  ],
+  "id": "B56"
+ },
+ {
+  "path": "physics/snells_law.py",
+  "folder": "physics",
+  "operator": "wrong return value",
+  "function": "calculate_refraction_angle",
+  "line_original": 75,
+  "line": 73,
+  "old": "refraction_angle",
+  "new": "refraction_sine",
+  "before": "return refraction_angle",
+  "after": "return refraction_sine",
+  "failing": 1,
+  "examples": 4,
+  "loudness": 0.25,
+  "visible": 3,
+  "hidden": [
+   {
+    "owner": "calculate_refraction_angle",
+    "first": 44,
+    "source": "calculate_refraction_angle(1.0, 1.33, 60.0)\n",
+    "want": "40.63\n"
+   }
+  ],
+  "id": "B57"
+ },
+ {
+  "path": "strings/top_k_frequent_words.py",
+  "folder": "strings",
+  "operator": "wrong return value",
+  "function": "WordCount.__eq__",
+  "line_original": 42,
+  "line": 40,
+  "old": "NotImplemented",
+  "new": "other",
+  "before": "return NotImplemented",
+  "after": "return other",
+  "failing": 1,
+  "examples": 18,
+  "loudness": 0.0556,
+  "visible": 17,
+  "hidden": [
+   {
+    "owner": "__eq__",
+    "first": 38,
+    "source": "WordCount('a', 1).__eq__(1)\n",
+    "want": "NotImplemented\n"
+   }
+  ],
+  "id": "B58"
+ },
+ {
+  "path": "bit_manipulation/fast_walsh_hadamard_transform.py",
+  "folder": "bit_manipulation",
+  "operator": "wrong return value",
+  "function": "fwht_xor",
+  "line_original": 59,
+  "line": 55,
+  "old": "result",
+  "new": "sequence",
+  "before": "return result",
+  "after": "return sequence",
+  "failing": 3,
+  "examples": 17,
+  "loudness": 0.1765,
+  "visible": 14,
+  "hidden": [
+   {
+    "owner": "fwht_xor",
+    "first": 18,
+    "source": "fwht_xor([1, 2, 3, 4])\n",
+    "want": "[10, -2, -4, 0]\n"
+   },
+   {
+    "owner": "fwht_xor",
+    "first": 20,
+    "source": "fwht_xor([10, -2, -4, 0], inverse=True)\n",
+    "want": "[1, 2, 3, 4]\n"
+   },
+   {
+    "owner": "xor_convolution",
+    "first": 68,
+    "source": "xor_convolution([1, 2], [3, 4])\n",
+    "want": "[11, 10]\n"
+   }
+  ],
+  "id": "B59"
+ },
+ {
+  "path": "bit_manipulation/count_number_of_one_bits.py",
+  "folder": "bit_manipulation",
+  "operator": "wrong return value",
+  "function": "get_set_bits_count_using_brian_kernighans_algorithm",
+  "line_original": 32,
+  "line": 20,
+  "old": "result",
+  "new": "number",
+  "before": "return result",
+  "after": "return number",
+  "failing": 6,
+  "examples": 23,
+  "loudness": 0.2609,
+  "visible": 17,
+  "hidden": [
+   {
+    "owner": "get_set_bits_count_using_brian_kernighans_algorithm",
+    "first": 7,
+    "source": "get_set_bits_count_using_brian_kernighans_algorithm(25)\n",
+    "want": "3\n"
+   },
+   {
+    "owner": "get_set_bits_count_using_brian_kernighans_algorithm",
+    "first": 9,
+    "source": "get_set_bits_count_using_brian_kernighans_algorithm(37)\n",
+    "want": "3\n"
+   },
+   {
+    "owner": "get_set_bits_count_using_brian_kernighans_algorithm",
+    "first": 11,
+    "source": "get_set_bits_count_using_brian_kernighans_algorithm(21)\n",
+    "want": "3\n"
+   },
+   {
+    "owner": "get_set_bits_count_using_brian_kernighans_algorithm",
+    "first": 13,
+    "source": "get_set_bits_count_using_brian_kernighans_algorithm(58)\n",
+    "want": "4\n"
+   },
+   {
+    "owner": "get_set_bits_count_using_brian_kernighans_algorithm",
+    "first": 17,
+    "source": "get_set_bits_count_using_brian_kernighans_algorithm(256)\n",
+    "want": "1\n"
+   },
+   {
+    "owner": "get_set_bits_count_using_brian_kernighans_algorithm",
+    "first": 23,
+    "source": "get_set_bits_count_using_brian_kernighans_algorithm(1023)\n",
+    "want": "10\n"
+   }
+  ],
+  "id": "B60"
+ },
+ {
+  "path": "greedy_methods/activity_selection.py",
+  "folder": "greedy_methods",
+  "operator": "remove early return",
+  "function": "activity_selection",
+  "line_original": 42,
+  "line": 40,
+  "old": "return []",
+  "new": "pass",
+  "before": "return []",
+  "after": "pass",
+  "failing": 1,
+  "examples": 5,
+  "loudness": 0.2,
+  "visible": 4,
+  "hidden": [
+   {
+    "owner": "activity_selection",
+    "first": 38,
+    "source": "all(activity_selection(x) == [] for x in ([], {}, None, False, 0, 0.0))\n",
+    "want": "True\n"
+   }
+  ],
+  "id": "B61"
+ },
+ {
+  "path": "divide_and_conquer/heaps_algorithm.py",
+  "folder": "divide_and_conquer",
+  "operator": "remove early return",
+  "function": "heaps",
+  "line_original": 31,
+  "line": 26,
+  "old": "return [tuple(arr)]",
+  "new": "pass",
+  "before": "return [tuple(arr)]",
+  "after": "pass",
+  "failing": 2,
+  "examples": 7,
+  "loudness": 0.2857,
+  "visible": 5,
+  "hidden": [
+   {
+    "owner": "heaps",
+    "first": 14,
+    "source": "heaps([])\n",
+    "want": "[()]\n"
+   },
+   {
+    "owner": "heaps",
+    "first": 25,
+    "source": "all(sorted(heaps(x)) == sorted(permutations(x))\n    for x in ([], [0], [-1, 1], [1, 2, 3]))\n",
+    "want": "True\n"
+   }
+  ],
+  "id": "B62"
+ },
+ {
+  "path": "divide_and_conquer/mergesort.py",
+  "folder": "divide_and_conquer",
+  "operator": "remove early return",
+  "function": "merge_sort",
+  "line_original": 95,
+  "line": 81,
+  "old": "return array",
+  "new": "pass",
+  "before": "return array",
+  "after": "pass",
+  "failing": 7,
+  "examples": 32,
+  "loudness": 0.2188,
+  "visible": 25,
+  "hidden": [
+   {
+    "owner": "merge_sort",
+    "first": 66,
+    "source": "merge_sort(array)\n",
+    "want": "[-200, -10, -2, 3, 11, 99, 100, 100000]\n"
+   },
+   {
+    "owner": "merge_sort",
+    "first": 70,
+    "source": "merge_sort(array)\n",
+    "want": "[-200, -10, -2, 3, 11, 99, 100, 100000]\n"
+   },
+   {
+    "owner": "merge_sort",
+    "first": 74,
+    "source": "merge_sort(array)\n",
+    "want": "[-200]\n"
+   },
+   {
+    "owner": "merge_sort",
+    "first": 79,
+    "source": "sorted(array) == merge_sort(array)\n",
+    "want": "True\n"
+   },
+   {
+    "owner": "merge_sort",
+    "first": 83,
+    "source": "merge_sort(array)\n",
+    "want": "[-2]\n"
+   },
+   {
+    "owner": "merge_sort",
+    "first": 87,
+    "source": "merge_sort(array)\n",
+    "want": "[]\n"
+   },
+   {
+    "owner": "merge_sort",
+    "first": 91,
+    "source": "sorted(array) == merge_sort(array)\n",
+    "want": "True\n"
+   }
+  ],
+  "id": "B63"
+ },
+ {
+  "path": "sorts/pigeon_sort.py",
+  "folder": "sorts",
+  "operator": "remove early return",
+  "function": "pigeon_sort",
+  "line_original": 29,
+  "line": 27,
+  "old": "return array",
+  "new": "pass",
+  "before": "return array",
+  "after": "pass",
+  "failing": 1,
+  "examples": 3,
+  "loudness": 0.3333,
+  "visible": 2,
+  "hidden": [
+   {
+    "owner": "pigeon_sort",
+    "first": 23,
+    "source": "pigeon_sort([])\n",
+    "want": "[]\n"
+   }
+  ],
+  "id": "B64"
+ },
+ {
+  "path": "linear_algebra/src/polynom_for_points.py",
+  "folder": "linear_algebra",
+  "operator": "remove early return",
+  "function": "points_to_polynomial",
+  "line_original": 47,
+  "line": 45,
+  "old": "return f\"x={coordinates[0][0]}\"",
+  "new": "pass",
+  "before": "return f\"x={coordinates[0][0]}\"",
+  "after": "pass",
+  "failing": 1,
+  "examples": 13,
+  "loudness": 0.0769,
+  "visible": 12,
+  "hidden": [
+   {
+    "owner": "points_to_polynomial",
+    "first": 30,
+    "source": "points_to_polynomial([[1, 1], [1, 2], [1, 3]])\n",
+    "want": "'x=1'\n"
+   }
+  ],
+  "id": "B65"
+ },
+ {
+  "path": "divide_and_conquer/power.py",
+  "folder": "divide_and_conquer",
+  "operator": "remove early return",
+  "function": "power",
+  "line_original": 48,
+  "line": 44,
+  "old": "return 1 / actual_power(a, -b)",
+  "new": "pass",
+  "before": "return 1 / actual_power(a, -b)",
+  "after": "pass",
+  "failing": 2,
+  "examples": 9,
+  "loudness": 0.2222,
+  "visible": 7,
+  "hidden": [
+   {
+    "owner": "power",
+    "first": 42,
+    "source": "power(2,-3)\n",
+    "want": "0.125\n"
+   },
+   {
+    "owner": "power",
+    "first": 44,
+    "source": "power(-2,-3)\n",
+    "want": "-0.125\n"
+   }
+  ],
+  "id": "B66"
+ },
+ {
+  "path": "graphs/markov_chain.py",
+  "folder": "graphs",
+  "operator": "change update",
+  "function": "get_transitions",
+  "line_original": 76,
+  "line": 74,
+  "old": "+=",
+  "new": "-=",
+  "before": "visited[node] += 1",
+  "after": "visited[node] -= 1",
+  "failing": 1,
+  "examples": 3,
+  "loudness": 0.3333,
+  "visible": 2,
+  "hidden": [
+   {
+    "owner": "get_transitions",
+    "first": 62,
+    "source": "result['a'] > result['b'] > result['c']\n",
+    "want": "True\n"
+   }
+  ],
+  "id": "B67"
+ },
+ {
+  "path": "sorts/reversort.py",
+  "folder": "sorts",
+  "operator": "change update",
+  "function": "reversort_cost",
+  "line_original": 150,
+  "line": 142,
+  "old": "+=",
+  "new": "-=",
+  "before": "total_cost += min_index - i + 1",
+  "after": "total_cost -= min_index - i + 1",
+  "failing": 4,
+  "examples": 33,
+  "loudness": 0.1212,
+  "visible": 29,
+  "hidden": [
+   {
+    "owner": "reversort_cost",
+    "first": 118,
+    "source": "reversort_cost([4, 2, 1, 3])\n",
+    "want": "6\n"
+   },
+   {
+    "owner": "reversort_cost",
+    "first": 120,
+    "source": "reversort_cost([1, 2])\n",
+    "want": "1\n"
+   },
+   {
+    "owner": "reversort_cost",
+    "first": 122,
+    "source": "reversort_cost([7, 6, 5, 4, 3, 2, 1])\n",
+    "want": "12\n"
+   },
+   {
+    "owner": "reversort_cost",
+    "first": 124,
+    "source": "reversort_cost([1, 2, 3, 4])\n",
+    "want": "3\n"
+   }
+  ],
+  "id": "B68"
+ },
+ {
+  "path": "sorts/smoothsort.py",
+  "folder": "sorts",
+  "operator": "change update",
+  "function": "smoothsort",
+  "line_original": 184,
+  "line": 170,
+  "old": "+=",
+  "new": "-=",
+  "before": "heap_sizes[-1] += 1",
+  "after": "heap_sizes[-1] -= 1",
+  "failing": 7,
+  "examples": 28,
+  "loudness": 0.25,
+  "visible": 21,
+  "hidden": [
+   {
+    "owner": "smoothsort",
+    "first": 147,
+    "source": "smoothsort([4, 1, 3, 9, 7])\n",
+    "want": "[1, 3, 4, 7, 9]\n"
+   },
+   {
+    "owner": "smoothsort",
+    "first": 153,
+    "source": "smoothsort([5, 4, 3, 2, 1])\n",
+    "want": "[1, 2, 3, 4, 5]\n"
+   },
+   {
+    "owner": "smoothsort",
+    "first": 155,
+    "source": "smoothsort([3, 3, 2, 1, 2])\n",
+    "want": "[1, 2, 2, 3, 3]\n"
+   },
+   {
+    "owner": "smoothsort",
+    "first": 157,
+    "source": "smoothsort([\"d\", \"a\", \"c\", \"b\"])\n",
+    "want": "['a', 'b', 'c', 'd']\n"
+   },
+   {
+    "owner": "smoothsort",
+    "first": 159,
+    "source": "smoothsort([2.5, -1, 0.0])\n",
+    "want": "[-1, 0.0, 2.5]\n"
+   },
+   {
+    "owner": "smoothsort",
+    "first": 161,
+    "source": "smoothsort([1, 2, 3, 4, 5])\n",
+    "want": "[1, 2, 3, 4, 5]\n"
+   },
+   {
+    "owner": "smoothsort",
+    "first": 163,
+    "source": "smoothsort([-3, 0, -1, 5, 2])\n",
+    "want": "[-3, -1, 0, 2, 5]\n"
+   }
+  ],
+  "id": "B69"
+ },
+ {
+  "path": "graphs/minimum_path_sum.py",
+  "folder": "graphs",
+  "operator": "change update",
+  "function": "min_path_sum",
+  "line_original": 36,
+  "line": 22,
+  "old": "+=",
+  "new": "-=",
+  "before": "grid[0][cell_n] += grid[0][cell_n - 1]",
+  "after": "grid[0][cell_n] -= grid[0][cell_n - 1]",
+  "failing": 2,
+  "examples": 5,
+  "loudness": 0.4,
+  "visible": 3,
+  "hidden": [
+   {
+    "owner": "min_path_sum",
+    "first": 5,
+    "source": "min_path_sum([\n    [1, 3, 1],\n    [1, 5, 1],\n    [4, 2, 1],\n])\n",
+    "want": "7\n"
+   },
+   {
+    "owner": "min_path_sum",
+    "first": 12,
+    "source": "min_path_sum([\n    [1, 0, 5, 6, 7],\n    [8, 9, 0, 4, 2],\n    [4, 4, 4, 5, 1],\n    [9, 6, 3, 1, 0],\n    [8, 4, 3, 2, 7],\n])\n",
+    "want": "20\n"
+   }
+  ],
+  "id": "B70"
+ },
+ {
+  "path": "data_compression/run_length_encoding.py",
+  "folder": "data_compression",
+  "operator": "change update",
+  "function": "run_length_encode",
+  "line_original": 21,
+  "line": 15,
+  "old": "+=",
+  "new": "-=",
+  "before": "count += 1",
+  "after": "count -= 1",
+  "failing": 3,
+  "examples": 8,
+  "loudness": 0.375,
+  "visible": 5,
+  "hidden": [
+   {
+    "owner": "run_length_encode",
+    "first": 7,
+    "source": "run_length_encode(\"AAAABBBCCDAA\")\n",
+    "want": "[('A', 4), ('B', 3), ('C', 2), ('D', 1), ('A', 2)]\n"
+   },
+   {
+    "owner": "run_length_encode",
+    "first": 11,
+    "source": "run_length_encode(\"AA\")\n",
+    "want": "[('A', 2)]\n"
+   },
+   {
+    "owner": "run_length_encode",
+    "first": 13,
+    "source": "run_length_encode(\"AAADDDDDDFFFCCCAAVVVV\")\n",
+    "want": "[('A', 3), ('D', 6), ('F', 3), ('C', 3), ('A', 2), ('V', 4)]\n"
+   }
+  ],
+  "id": "B71"
+ },
+ {
+  "path": "networking_flow/ford_fulkerson.py",
+  "folder": "networking_flow",
+  "operator": "change update",
+  "function": "ford_fulkerson",
+  "line_original": 105,
+  "line": 103,
+  "old": "+=",
+  "new": "-=",
+  "before": "max_flow += path_flow",
+  "after": "max_flow -= path_flow",
+  "failing": 1,
+  "examples": 3,
+  "loudness": 0.3333,
+  "visible": 2,
+  "hidden": [
+   {
+    "owner": "ford_fulkerson",
+    "first": 83,
+    "source": "ford_fulkerson(test_graph, 0, 5)\n",
+    "want": "23\n"
+   }
+  ],
+  "id": "B72"
+ }
+]

@@ -1,0 +1,50 @@
+{
+  "rows": [
+    {
+      "budget": 75,
+      "valid": true,
+      "decision": "approved",
+      "estimate": 24.6,
+      "workers": 42,
+      "cents": 0.0,
+      "full_price": 34.09,
+      "recall": 0.6944,
+      "precision": 0.6667,
+      "features": "loop, decides from results, reads the budget",
+      "status": "completed"
+    },
+    {
+      "budget": 150,
+      "valid": true,
+      "decision": "approved",
+      "estimate": 47.9,
+      "workers": 81,
+      "cents": 0.0,
+      "full_price": 63.79,
+      "recall": 0.6944,
+      "precision": 0.6173,
+      "features": "loop, decides from results",
+      "status": "completed"
+    },
+    {
+      "budget": 300,
+      "valid": true,
+      "decision": "approved",
+      "estimate": 78.1,
+      "workers": 142,
+      "cents": 0.0,
+      "full_price": 109.46,
+      "recall": 0.7639,
+      "precision": 0.6548,
+      "features": "loop",
+      "status": "completed"
+    }
+  ],
+  "spent_small": 34.09,
+  "spent_mid": 63.79,
+  "spent_big": 109.46,
+  "recall_small": 0.6944,
+  "recall_mid": 0.6944,
+  "recall_big": 0.7639,
+  "summary": "75 cents, a plan of 42 workers that cost 34.1 and found 69% of the planted bugs; 150 cents, a plan of 81 workers that cost 63.8 and found 69% of the planted bugs; 300 cents, a plan of 142 workers that cost 109.5 and found 76% of the planted bugs"
+}

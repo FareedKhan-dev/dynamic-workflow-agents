@@ -1,0 +1,15 @@
+[
+ {
+  "id": "intents-one-call/t001",
+  "label": "tag:all",
+  "phase": "",
+  "model": "Qwen-Ambassador/Qwen3.8-27B",
+  "status": "done",
+  "started": 0.006964299995161127,
+  "ended": 0.016933599996264093,
+  "cost": 0.0,
+  "error": null,
+  "replies": 1,
+  "reply": "```json\n{\n  \"tags\": [\n    {\"id\": 1, \"label\": \"card has not arrived\"},\n    {\"id\": 2, \"label\": \"card has not arrived\"},\n    {\"id\": 3, \"label\": \"card has not arrived\"},\n    {\"id\": 4, \"label\": \"track card delivery\"},\n    {\"id\": 5, \"label\": \"track card delivery\"},\n    {\"id\": 6, \"label\": \"card has not arrived\"},\n    {\"id\": 7, \"label\": \"track card delivery\"},\n    {\"id\": 8, \"label\": \"card has not arrived\"},\n    {\"id\": 9, \"label\": \"track card delivery\"},\n    {\"id\": 10, \"label\": \"card has not arrived\"},\n    {\"id\": 11, \"label\": \"card has not arrived\"},\n    {\"id\": 12, \"label\": \"card has not arrived\"},\n    {\"id\": 13, \"label\": \"track card delivery\"},\n    {\"id\": 14, \"label\": \"track card delivery\"},\n    {\"id\": 15, \"label\": \"card has not arrived\"},\n    {\"id\": 16, \"label\": \"track card delivery\"},\n    {\"id\": 17, \"label\": \"card has not arrived\"},\n    {\"id\": 18, \"label\": \"track card delivery\"},\n    {\"id\": 19, \"label\": \"card has not arrived\"},\n    {\"id\": 20, \"label\": \"card has not arrived\"},\n    {\"id\": 21, \"label\": \"track card delivery\"},\n    {\"id\": 22, \"label\": \"track card delivery\"},\n    {\"id\": 23, \"label\": \"card has not arrived\"},\n    {\"id\": 24, \"label\": \"card has not arrived\"},\n    {\"id\": 25, \"label\": \"card has not arrived\"},\n    {\"id\": 26, \"label\": \"card has not arrived\"},\n    {\"id\": 27, \"label\": \"track card delivery\"},\n    {\"id\": 28, \"label\": \"card has not arrived\"},\n    {\"id\": 29, \"label\": \"card has not arrived\"},\n    {\"id\": 30, \"label\": \"track card delivery\"},\n    {\"id\": 31, \"label\": \"track card delivery\"},\n    {\"id\": 32, \"label\": \"track card delivery\"},\n    {\"id\": 33, \"label\": \"track card delivery\"},\n    {\"id\": 34, \"label\": \"card has not arrived\"},\n    {\"id\": 35, \"label\": \"card has not arrived\"},\n    {\"id\": 36, \"label\": \"track card delivery\"},\n    {\"id\": 37, \"label\": \"card has not arrived\"},\n    {\"id\": 38, \"label\": \"track card delivery\"},\n    {\"id\": 39, \"label\": \"card has not arrived\"},\n    {\"id\": 40, \"label\": \"card has not arrived\"},\n    {\"id\": 41, \"label\": \"track card delivery"
+ }
+]

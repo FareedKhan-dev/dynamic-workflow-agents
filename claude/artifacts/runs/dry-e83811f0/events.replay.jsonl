@@ -1,0 +1,147 @@
+{"seq": 1, "t": 0.002, "type": "run.created", "run_id": "dry-e83811f0", "title": "dry run", "goal": ""}
+{"seq": 2, "t": 0.004, "type": "run.phase_started", "run_id": "dry-e83811f0", "phase": "Tag", "index": 1}
+{"seq": 3, "t": 0.004, "type": "run.agent_started", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t001", "label": "tag:1", "model": "claude-haiku-5-5", "phase": "Tag"}
+{"seq": 4, "t": 0.005, "type": "run.agent_started", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t002", "label": "tag:301", "model": "claude-haiku-5-5", "phase": "Tag"}
+{"seq": 5, "t": 0.007, "type": "run.agent_started", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t003", "label": "tag:601", "model": "claude-haiku-5-5", "phase": "Tag"}
+{"seq": 6, "t": 0.007, "type": "run.agent_started", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t004", "label": "tag:901", "model": "claude-haiku-5-5", "phase": "Tag"}
+{"seq": 7, "t": 0.008, "type": "run.agent_started", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t005", "label": "tag:1201", "model": "claude-haiku-5-5", "phase": "Tag"}
+{"seq": 8, "t": 0.008, "type": "run.agent_started", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t006", "label": "tag:1501", "model": "claude-haiku-5-5", "phase": "Tag"}
+{"seq": 9, "t": 0.009, "type": "run.agent_started", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t007", "label": "tag:1801", "model": "claude-haiku-5-5", "phase": "Tag"}
+{"seq": 10, "t": 0.009, "type": "run.agent_started", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t008", "label": "tag:2101", "model": "claude-haiku-5-5", "phase": "Tag"}
+{"seq": 11, "t": 0.01, "type": "run.agent_started", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t009", "label": "tag:2401", "model": "claude-haiku-5-5", "phase": "Tag"}
+{"seq": 12, "t": 0.01, "type": "run.agent_started", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t010", "label": "tag:2701", "model": "claude-haiku-5-5", "phase": "Tag"}
+{"seq": 13, "t": 0.011, "type": "run.agent_started", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t011", "label": "tag:3001", "model": "claude-haiku-5-5", "phase": "Tag"}
+{"seq": 14, "t": 0.011, "type": "run.agent_started", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t012", "label": "tag:3301", "model": "claude-haiku-5-5", "phase": "Tag"}
+{"seq": 15, "t": 0.012, "type": "run.agent_started", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t013", "label": "tag:3601", "model": "claude-haiku-5-5", "phase": "Tag"}
+{"seq": 16, "t": 0.012, "type": "run.agent_started", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t014", "label": "tag:3901", "model": "claude-haiku-5-5", "phase": "Tag"}
+{"seq": 17, "t": 0.013, "type": "run.agent_started", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t015", "label": "tag:4201", "model": "claude-haiku-5-5", "phase": "Tag"}
+{"seq": 18, "t": 0.013, "type": "run.agent_started", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t016", "label": "tag:4501", "model": "claude-haiku-5-5", "phase": "Tag"}
+{"seq": 19, "t": 0.013, "type": "run.agent_started", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t017", "label": "tag:4801", "model": "claude-haiku-5-5", "phase": "Tag"}
+{"seq": 20, "t": 0.014, "type": "run.agent_started", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t018", "label": "tag:5101", "model": "claude-haiku-5-5", "phase": "Tag"}
+{"seq": 21, "t": 0.018, "type": "run.agent_ended", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t001", "label": "tag:1", "ok": true, "seconds": 0.01, "cached": false, "cents": 0.19, "phase": "Tag"}
+{"seq": 22, "t": 0.018, "type": "run.agent_started", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t019", "label": "tag:5401", "model": "claude-haiku-5-5", "phase": "Tag"}
+{"seq": 23, "t": 0.019, "type": "run.agent_started", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t020", "label": "tag:5701", "model": "claude-haiku-5-5", "phase": "Tag"}
+{"seq": 24, "t": 0.02, "type": "run.agent_started", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t021", "label": "tag:6001", "model": "claude-haiku-5-5", "phase": "Tag"}
+{"seq": 25, "t": 0.022, "type": "run.agent_started", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t022", "label": "tag:6301", "model": "claude-haiku-5-5", "phase": "Tag"}
+{"seq": 26, "t": 0.022, "type": "run.agent_started", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t023", "label": "tag:6601", "model": "claude-haiku-5-5", "phase": "Tag"}
+{"seq": 27, "t": 0.024, "type": "run.agent_started", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t024", "label": "tag:6901", "model": "claude-haiku-5-5", "phase": "Tag"}
+{"seq": 28, "t": 0.024, "type": "run.agent_started", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t025", "label": "tag:7201", "model": "claude-haiku-5-5", "phase": "Tag"}
+{"seq": 29, "t": 0.025, "type": "run.agent_started", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t026", "label": "tag:7501", "model": "claude-haiku-5-5", "phase": "Tag"}
+{"seq": 30, "t": 0.026, "type": "run.agent_started", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t027", "label": "tag:7801", "model": "claude-haiku-5-5", "phase": "Tag"}
+{"seq": 31, "t": 0.028, "type": "run.agent_started", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t028", "label": "tag:8101", "model": "claude-haiku-5-5", "phase": "Tag"}
+{"seq": 32, "t": 0.029, "type": "run.agent_started", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t029", "label": "tag:8401", "model": "claude-haiku-5-5", "phase": "Tag"}
+{"seq": 33, "t": 0.029, "type": "run.agent_started", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t030", "label": "tag:8701", "model": "claude-haiku-5-5", "phase": "Tag"}
+{"seq": 34, "t": 0.03, "type": "run.agent_started", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t031", "label": "tag:9001", "model": "claude-haiku-5-5", "phase": "Tag"}
+{"seq": 35, "t": 0.031, "type": "run.agent_started", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t032", "label": "tag:9301", "model": "claude-haiku-5-5", "phase": "Tag"}
+{"seq": 36, "t": 0.032, "type": "run.agent_started", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t033", "label": "tag:9601", "model": "claude-haiku-5-5", "phase": "Tag"}
+{"seq": 37, "t": 0.033, "type": "run.agent_started", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t034", "label": "tag:9901", "model": "claude-haiku-5-5", "phase": "Tag"}
+{"seq": 38, "t": 0.049, "type": "run.agent_ended", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t003", "label": "tag:601", "ok": true, "seconds": 0.04, "cached": false, "cents": 0.25, "phase": "Tag"}
+{"seq": 39, "t": 0.058, "type": "run.agent_ended", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t002", "label": "tag:301", "ok": true, "seconds": 0.05, "cached": false, "cents": 0.24, "phase": "Tag"}
+{"seq": 40, "t": 0.068, "type": "run.agent_ended", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t004", "label": "tag:901", "ok": true, "seconds": 0.06, "cached": false, "cents": 0.22, "phase": "Tag"}
+{"seq": 41, "t": 0.079, "type": "run.agent_ended", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t005", "label": "tag:1201", "ok": true, "seconds": 0.07, "cached": false, "cents": 0.21, "phase": "Tag"}
+{"seq": 42, "t": 0.088, "type": "run.agent_ended", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t006", "label": "tag:1501", "ok": true, "seconds": 0.08, "cached": false, "cents": 0.2, "phase": "Tag"}
+{"seq": 43, "t": 0.098, "type": "run.agent_ended", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t007", "label": "tag:1801", "ok": true, "seconds": 0.09, "cached": false, "cents": 0.22, "phase": "Tag"}
+{"seq": 44, "t": 0.106, "type": "run.agent_ended", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t008", "label": "tag:2101", "ok": true, "seconds": 0.1, "cached": false, "cents": 0.22, "phase": "Tag"}
+{"seq": 45, "t": 0.118, "type": "run.agent_ended", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t009", "label": "tag:2401", "ok": true, "seconds": 0.11, "cached": false, "cents": 0.25, "phase": "Tag"}
+{"seq": 46, "t": 0.126, "type": "run.agent_ended", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t010", "label": "tag:2701", "ok": true, "seconds": 0.12, "cached": false, "cents": 0.27, "phase": "Tag"}
+{"seq": 47, "t": 0.137, "type": "run.agent_ended", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t011", "label": "tag:3001", "ok": true, "seconds": 0.13, "cached": false, "cents": 0.22, "phase": "Tag"}
+{"seq": 48, "t": 0.145, "type": "run.agent_ended", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t012", "label": "tag:3301", "ok": true, "seconds": 0.13, "cached": false, "cents": 0.29, "phase": "Tag"}
+{"seq": 49, "t": 0.153, "type": "run.agent_ended", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t013", "label": "tag:3601", "ok": true, "seconds": 0.14, "cached": false, "cents": 0.23, "phase": "Tag"}
+{"seq": 50, "t": 0.163, "type": "run.agent_ended", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t014", "label": "tag:3901", "ok": true, "seconds": 0.15, "cached": false, "cents": 0.22, "phase": "Tag"}
+{"seq": 51, "t": 0.172, "type": "run.agent_ended", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t015", "label": "tag:4201", "ok": true, "seconds": 0.16, "cached": false, "cents": 0.23, "phase": "Tag"}
+{"seq": 52, "t": 0.181, "type": "run.agent_ended", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t016", "label": "tag:4501", "ok": true, "seconds": 0.17, "cached": false, "cents": 0.25, "phase": "Tag"}
+{"seq": 53, "t": 0.19, "type": "run.agent_ended", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t017", "label": "tag:4801", "ok": true, "seconds": 0.18, "cached": false, "cents": 0.24, "phase": "Tag"}
+{"seq": 54, "t": 0.199, "type": "run.agent_ended", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t018", "label": "tag:5101", "ok": true, "seconds": 0.18, "cached": false, "cents": 0.23, "phase": "Tag"}
+{"seq": 55, "t": 0.208, "type": "run.agent_ended", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t019", "label": "tag:5401", "ok": true, "seconds": 0.19, "cached": false, "cents": 0.23, "phase": "Tag"}
+{"seq": 56, "t": 0.217, "type": "run.agent_ended", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t020", "label": "tag:5701", "ok": true, "seconds": 0.2, "cached": false, "cents": 0.25, "phase": "Tag"}
+{"seq": 57, "t": 0.225, "type": "run.agent_ended", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t021", "label": "tag:6001", "ok": true, "seconds": 0.2, "cached": false, "cents": 0.22, "phase": "Tag"}
+{"seq": 58, "t": 0.234, "type": "run.agent_ended", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t022", "label": "tag:6301", "ok": true, "seconds": 0.21, "cached": false, "cents": 0.25, "phase": "Tag"}
+{"seq": 59, "t": 0.242, "type": "run.agent_ended", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t023", "label": "tag:6601", "ok": true, "seconds": 0.22, "cached": false, "cents": 0.23, "phase": "Tag"}
+{"seq": 60, "t": 0.25, "type": "run.agent_ended", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t024", "label": "tag:6901", "ok": true, "seconds": 0.23, "cached": false, "cents": 0.23, "phase": "Tag"}
+{"seq": 61, "t": 0.259, "type": "run.agent_ended", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t025", "label": "tag:7201", "ok": true, "seconds": 0.23, "cached": false, "cents": 0.24, "phase": "Tag"}
+{"seq": 62, "t": 0.267, "type": "run.agent_ended", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t026", "label": "tag:7501", "ok": true, "seconds": 0.24, "cached": false, "cents": 0.22, "phase": "Tag"}
+{"seq": 63, "t": 0.275, "type": "run.agent_ended", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t027", "label": "tag:7801", "ok": true, "seconds": 0.25, "cached": false, "cents": 0.22, "phase": "Tag"}
+{"seq": 64, "t": 0.283, "type": "run.agent_ended", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t028", "label": "tag:8101", "ok": true, "seconds": 0.25, "cached": false, "cents": 0.27, "phase": "Tag"}
+{"seq": 65, "t": 0.291, "type": "run.agent_ended", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t029", "label": "tag:8401", "ok": true, "seconds": 0.26, "cached": false, "cents": 0.24, "phase": "Tag"}
+{"seq": 66, "t": 0.299, "type": "run.agent_ended", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t030", "label": "tag:8701", "ok": true, "seconds": 0.27, "cached": false, "cents": 0.27, "phase": "Tag"}
+{"seq": 67, "t": 0.307, "type": "run.agent_ended", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t031", "label": "tag:9001", "ok": true, "seconds": 0.28, "cached": false, "cents": 0.21, "phase": "Tag"}
+{"seq": 68, "t": 0.315, "type": "run.agent_ended", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t032", "label": "tag:9301", "ok": true, "seconds": 0.28, "cached": false, "cents": 0.24, "phase": "Tag"}
+{"seq": 69, "t": 0.322, "type": "run.agent_ended", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t033", "label": "tag:9601", "ok": true, "seconds": 0.29, "cached": false, "cents": 0.22, "phase": "Tag"}
+{"seq": 70, "t": 0.327, "type": "run.agent_ended", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t034", "label": "tag:9901", "ok": true, "seconds": 0.29, "cached": false, "cents": 0.07, "phase": "Tag"}
+{"seq": 71, "t": 0.329, "type": "run.phase_ended", "run_id": "dry-e83811f0", "phase": "Tag", "agents": 34, "failed": 0, "seconds": 0.33}
+{"seq": 72, "t": 0.329, "type": "run.phase_started", "run_id": "dry-e83811f0", "phase": "Merge", "index": 2}
+{"seq": 73, "t": 0.33, "type": "run.log", "run_id": "dry-e83811f0", "message": "distinct labels: 227"}
+{"seq": 74, "t": 0.33, "type": "run.agent_started", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t035", "label": "merge:227", "model": "claude-haiku-4-5", "phase": "Merge"}
+{"seq": 75, "t": 0.343, "type": "run.agent_ended", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t035", "label": "merge:227", "ok": true, "seconds": 0.01, "cached": false, "cents": 2.25, "phase": "Merge"}
+{"seq": 76, "t": 0.343, "type": "run.phase_ended", "run_id": "dry-e83811f0", "phase": "Merge", "agents": 1, "failed": 0, "seconds": 0.01}
+{"seq": 77, "t": 0.343, "type": "run.phase_started", "run_id": "dry-e83811f0", "phase": "Classify", "index": 3}
+{"seq": 78, "t": 0.343, "type": "run.agent_started", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t036", "label": "classify:1", "model": "claude-haiku-5-5", "phase": "Classify"}
+{"seq": 79, "t": 0.344, "type": "run.agent_started", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t037", "label": "classify:301", "model": "claude-haiku-5-5", "phase": "Classify"}
+{"seq": 80, "t": 0.345, "type": "run.agent_started", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t038", "label": "classify:601", "model": "claude-haiku-5-5", "phase": "Classify"}
+{"seq": 81, "t": 0.346, "type": "run.agent_started", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t039", "label": "classify:901", "model": "claude-haiku-5-5", "phase": "Classify"}
+{"seq": 82, "t": 0.346, "type": "run.agent_started", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t040", "label": "classify:1201", "model": "claude-haiku-5-5", "phase": "Classify"}
+{"seq": 83, "t": 0.347, "type": "run.agent_started", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t041", "label": "classify:1501", "model": "claude-haiku-5-5", "phase": "Classify"}
+{"seq": 84, "t": 0.347, "type": "run.agent_started", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t042", "label": "classify:1801", "model": "claude-haiku-5-5", "phase": "Classify"}
+{"seq": 85, "t": 0.348, "type": "run.agent_started", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t043", "label": "classify:2101", "model": "claude-haiku-5-5", "phase": "Classify"}
+{"seq": 86, "t": 0.348, "type": "run.agent_started", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t044", "label": "classify:2401", "model": "claude-haiku-5-5", "phase": "Classify"}
+{"seq": 87, "t": 0.349, "type": "run.agent_started", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t045", "label": "classify:2701", "model": "claude-haiku-5-5", "phase": "Classify"}
+{"seq": 88, "t": 0.349, "type": "run.agent_started", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t046", "label": "classify:3001", "model": "claude-haiku-5-5", "phase": "Classify"}
+{"seq": 89, "t": 0.35, "type": "run.agent_started", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t047", "label": "classify:3301", "model": "claude-haiku-5-5", "phase": "Classify"}
+{"seq": 90, "t": 0.35, "type": "run.agent_started", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t048", "label": "classify:3601", "model": "claude-haiku-5-5", "phase": "Classify"}
+{"seq": 91, "t": 0.351, "type": "run.agent_started", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t049", "label": "classify:3901", "model": "claude-haiku-5-5", "phase": "Classify"}
+{"seq": 92, "t": 0.351, "type": "run.agent_started", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t050", "label": "classify:4201", "model": "claude-haiku-5-5", "phase": "Classify"}
+{"seq": 93, "t": 0.355, "type": "run.agent_ended", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t036", "label": "classify:1", "ok": true, "seconds": 0.01, "cached": false, "cents": 0.19, "phase": "Classify"}
+{"seq": 94, "t": 0.355, "type": "run.agent_started", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t051", "label": "classify:4801", "model": "claude-haiku-5-5", "phase": "Classify"}
+{"seq": 95, "t": 0.356, "type": "run.agent_started", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t052", "label": "classify:5101", "model": "claude-haiku-5-5", "phase": "Classify"}
+{"seq": 96, "t": 0.356, "type": "run.agent_started", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t053", "label": "classify:4501", "model": "claude-haiku-5-5", "phase": "Classify"}
+{"seq": 97, "t": 0.357, "type": "run.agent_started", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t054", "label": "classify:5401", "model": "claude-haiku-5-5", "phase": "Classify"}
+{"seq": 98, "t": 0.358, "type": "run.agent_started", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t055", "label": "classify:5701", "model": "claude-haiku-5-5", "phase": "Classify"}
+{"seq": 99, "t": 0.359, "type": "run.agent_started", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t056", "label": "classify:6001", "model": "claude-haiku-5-5", "phase": "Classify"}
+{"seq": 100, "t": 0.36, "type": "run.agent_started", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t057", "label": "classify:6301", "model": "claude-haiku-5-5", "phase": "Classify"}
+{"seq": 101, "t": 0.361, "type": "run.agent_started", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t058", "label": "classify:6601", "model": "claude-haiku-5-5", "phase": "Classify"}
+{"seq": 102, "t": 0.368, "type": "run.agent_started", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t059", "label": "classify:6901", "model": "claude-haiku-5-5", "phase": "Classify"}
+{"seq": 103, "t": 0.37, "type": "run.agent_started", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t060", "label": "classify:7201", "model": "claude-haiku-5-5", "phase": "Classify"}
+{"seq": 104, "t": 0.371, "type": "run.agent_started", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t061", "label": "classify:7501", "model": "claude-haiku-5-5", "phase": "Classify"}
+{"seq": 105, "t": 0.371, "type": "run.agent_started", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t062", "label": "classify:7801", "model": "claude-haiku-5-5", "phase": "Classify"}
+{"seq": 106, "t": 0.372, "type": "run.agent_started", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t063", "label": "classify:8101", "model": "claude-haiku-5-5", "phase": "Classify"}
+{"seq": 107, "t": 0.373, "type": "run.agent_started", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t064", "label": "classify:8401", "model": "claude-haiku-5-5", "phase": "Classify"}
+{"seq": 108, "t": 0.375, "type": "run.agent_started", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t065", "label": "classify:8701", "model": "claude-haiku-5-5", "phase": "Classify"}
+{"seq": 109, "t": 0.376, "type": "run.agent_started", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t066", "label": "classify:9001", "model": "claude-haiku-5-5", "phase": "Classify"}
+{"seq": 110, "t": 0.377, "type": "run.agent_started", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t067", "label": "classify:9301", "model": "claude-haiku-5-5", "phase": "Classify"}
+{"seq": 111, "t": 0.378, "type": "run.agent_started", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t068", "label": "classify:9601", "model": "claude-haiku-5-5", "phase": "Classify"}
+{"seq": 112, "t": 0.38, "type": "run.agent_started", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t069", "label": "classify:9901", "model": "claude-haiku-5-5", "phase": "Classify"}
+{"seq": 113, "t": 0.387, "type": "run.agent_ended", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t037", "label": "classify:301", "ok": true, "seconds": 0.04, "cached": false, "cents": 0.24, "phase": "Classify"}
+{"seq": 114, "t": 0.398, "type": "run.agent_ended", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t038", "label": "classify:601", "ok": true, "seconds": 0.05, "cached": false, "cents": 0.25, "phase": "Classify"}
+{"seq": 115, "t": 0.406, "type": "run.agent_ended", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t039", "label": "classify:901", "ok": true, "seconds": 0.06, "cached": false, "cents": 0.22, "phase": "Classify"}
+{"seq": 116, "t": 0.416, "type": "run.agent_ended", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t040", "label": "classify:1201", "ok": true, "seconds": 0.07, "cached": false, "cents": 0.21, "phase": "Classify"}
+{"seq": 117, "t": 0.424, "type": "run.agent_ended", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t041", "label": "classify:1501", "ok": true, "seconds": 0.08, "cached": false, "cents": 0.2, "phase": "Classify"}
+{"seq": 118, "t": 0.432, "type": "run.agent_ended", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t042", "label": "classify:1801", "ok": true, "seconds": 0.08, "cached": false, "cents": 0.23, "phase": "Classify"}
+{"seq": 119, "t": 0.441, "type": "run.agent_ended", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t043", "label": "classify:2101", "ok": true, "seconds": 0.09, "cached": false, "cents": 0.22, "phase": "Classify"}
+{"seq": 120, "t": 0.45, "type": "run.agent_ended", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t044", "label": "classify:2401", "ok": true, "seconds": 0.1, "cached": false, "cents": 0.26, "phase": "Classify"}
+{"seq": 121, "t": 0.459, "type": "run.agent_ended", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t045", "label": "classify:2701", "ok": true, "seconds": 0.11, "cached": false, "cents": 0.28, "phase": "Classify"}
+{"seq": 122, "t": 0.469, "type": "run.agent_ended", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t046", "label": "classify:3001", "ok": true, "seconds": 0.12, "cached": false, "cents": 0.21, "phase": "Classify"}
+{"seq": 123, "t": 0.478, "type": "run.agent_ended", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t047", "label": "classify:3301", "ok": true, "seconds": 0.13, "cached": false, "cents": 0.31, "phase": "Classify"}
+{"seq": 124, "t": 0.486, "type": "run.agent_ended", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t048", "label": "classify:3601", "ok": true, "seconds": 0.14, "cached": false, "cents": 0.23, "phase": "Classify"}
+{"seq": 125, "t": 0.495, "type": "run.agent_ended", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t049", "label": "classify:3901", "ok": true, "seconds": 0.14, "cached": false, "cents": 0.22, "phase": "Classify"}
+{"seq": 126, "t": 0.502, "type": "run.agent_ended", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t050", "label": "classify:4201", "ok": true, "seconds": 0.15, "cached": false, "cents": 0.22, "phase": "Classify"}
+{"seq": 127, "t": 0.51, "type": "run.agent_ended", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t051", "label": "classify:4801", "ok": true, "seconds": 0.15, "cached": false, "cents": 0.24, "phase": "Classify"}
+{"seq": 128, "t": 0.518, "type": "run.agent_ended", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t052", "label": "classify:5101", "ok": true, "seconds": 0.16, "cached": false, "cents": 0.23, "phase": "Classify"}
+{"seq": 129, "t": 0.526, "type": "run.agent_ended", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t053", "label": "classify:4501", "ok": true, "seconds": 0.17, "cached": false, "cents": 0.25, "phase": "Classify"}
+{"seq": 130, "t": 0.534, "type": "run.agent_ended", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t054", "label": "classify:5401", "ok": true, "seconds": 0.18, "cached": false, "cents": 0.23, "phase": "Classify"}
+{"seq": 131, "t": 0.542, "type": "run.agent_ended", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t055", "label": "classify:5701", "ok": true, "seconds": 0.18, "cached": false, "cents": 0.24, "phase": "Classify"}
+{"seq": 132, "t": 0.549, "type": "run.agent_ended", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t056", "label": "classify:6001", "ok": true, "seconds": 0.19, "cached": false, "cents": 0.22, "phase": "Classify"}
+{"seq": 133, "t": 0.558, "type": "run.agent_ended", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t057", "label": "classify:6301", "ok": true, "seconds": 0.2, "cached": false, "cents": 0.25, "phase": "Classify"}
+{"seq": 134, "t": 0.566, "type": "run.agent_ended", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t058", "label": "classify:6601", "ok": true, "seconds": 0.21, "cached": false, "cents": 0.23, "phase": "Classify"}
+{"seq": 135, "t": 0.574, "type": "run.agent_ended", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t059", "label": "classify:6901", "ok": true, "seconds": 0.21, "cached": false, "cents": 0.23, "phase": "Classify"}
+{"seq": 136, "t": 0.582, "type": "run.agent_ended", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t060", "label": "classify:7201", "ok": true, "seconds": 0.21, "cached": false, "cents": 0.23, "phase": "Classify"}
+{"seq": 137, "t": 0.589, "type": "run.agent_ended", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t061", "label": "classify:7501", "ok": true, "seconds": 0.22, "cached": false, "cents": 0.22, "phase": "Classify"}
+{"seq": 138, "t": 0.597, "type": "run.agent_ended", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t062", "label": "classify:7801", "ok": true, "seconds": 0.23, "cached": false, "cents": 0.22, "phase": "Classify"}
+{"seq": 139, "t": 0.605, "type": "run.agent_ended", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t063", "label": "classify:8101", "ok": true, "seconds": 0.23, "cached": false, "cents": 0.27, "phase": "Classify"}
+{"seq": 140, "t": 0.614, "type": "run.agent_ended", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t064", "label": "classify:8401", "ok": true, "seconds": 0.24, "cached": false, "cents": 0.25, "phase": "Classify"}
+{"seq": 141, "t": 0.622, "type": "run.agent_ended", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t065", "label": "classify:8701", "ok": true, "seconds": 0.25, "cached": false, "cents": 0.27, "phase": "Classify"}
+{"seq": 142, "t": 0.63, "type": "run.agent_ended", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t066", "label": "classify:9001", "ok": true, "seconds": 0.25, "cached": false, "cents": 0.21, "phase": "Classify"}
+{"seq": 143, "t": 0.638, "type": "run.agent_ended", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t067", "label": "classify:9301", "ok": true, "seconds": 0.26, "cached": false, "cents": 0.24, "phase": "Classify"}
+{"seq": 144, "t": 0.646, "type": "run.agent_ended", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t068", "label": "classify:9601", "ok": true, "seconds": 0.27, "cached": false, "cents": 0.22, "phase": "Classify"}
+{"seq": 145, "t": 0.651, "type": "run.agent_ended", "run_id": "dry-e83811f0", "thread": "dry-e83811f0/t069", "label": "classify:9901", "ok": true, "seconds": 0.27, "cached": false, "cents": 0.07, "phase": "Classify"}
+{"seq": 146, "t": 0.654, "type": "run.phase_ended", "run_id": "dry-e83811f0", "phase": "Classify", "agents": 34, "failed": 0, "seconds": 0.31}
+{"seq": 147, "t": 0.654, "type": "run.ended", "run_id": "dry-e83811f0", "status": "completed", "seconds": 0.65, "agents": 69, "failed": 0, "cents": 17.84, "dropped": 0, "error": null}

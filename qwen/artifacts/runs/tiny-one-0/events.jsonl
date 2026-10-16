@@ -1,0 +1,4 @@
+{"seq": 1, "t": 0.0, "type": "run.created", "run_id": "tiny-one-0", "title": "tiny job 0: one worker", "goal": ""}
+{"seq": 2, "t": 0.0, "type": "run.agent_started", "run_id": "tiny-one-0", "thread": "tiny-one-0/t001", "label": "grade:1#0", "model": "Qwen3.8-27B", "phase": ""}
+{"seq": 3, "t": 2.806, "type": "run.agent_ended", "run_id": "tiny-one-0", "thread": "tiny-one-0/t001", "label": "grade:1#0", "ok": true, "seconds": 2.81, "cached": false, "magicubes": 0.2, "phase": ""}
+{"seq": 4, "t": 2.806, "type": "run.ended", "run_id": "tiny-one-0", "status": "completed", "seconds": 2.81, "agents": 1, "failed": 0, "magicubes": 0.2, "dropped": 0, "error": null}

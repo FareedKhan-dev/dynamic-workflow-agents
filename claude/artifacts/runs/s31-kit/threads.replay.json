@@ -1,0 +1,67 @@
+[
+ {
+  "id": "s31-kit/t001",
+  "label": "scan:boundaries:conversions#0",
+  "phase": "Scan",
+  "model": "claude-haiku-5-5",
+  "status": "done",
+  "started": 0.03348809599992819,
+  "ended": 0.04366444799961755,
+  "cost": 0.0,
+  "error": null,
+  "replies": 1,
+  "reply": "{\"findings\": [{\"file\": \"data_compression/run_length_encoding.py\", \"line\": 20, \"function\": \"run_length_encode\", \"claim\": \"After appending a run, the count is reset to 0 instead of 1, so every character that starts a new run is recorded with count 0 unless it is the first character.\", \"failing_call\": \"run_length_encode(\\\"AB\\\")\", \"expected\": \"[('A', 1), ('B', 1)]\", \"confidence\": 0.95}, {\"file\": \"conversions/ipv4_conversion.py\", \"line\": 26, \"function\": \"ipv4_to_decimal\", \"claim\": \"The octet range check is inverted, so it raises for every valid octet in 0..255 and never for out-of-range values.\", \"failing_call\": \"ipv4_to_decimal(\\\"192.168.0.1\\\")\", \"expected\": \"3232235521\", \"confidence\": 0.95}, {\"file\": \"conversions/decimal_to_hexadecimal.py\", \"line\": 63, \"function\": \"decimal_to_hexadecimal\", \"claim\": \"For input 0 the digit loop never runs, so the result is the bare prefix '0x' with no digit instead of '0x0'.\", \"failing_call\": \"decimal_to_hexadecimal(0)\", \"expected\": \"'0x0'\", \"confidence\": 0.8}, {\"file\": \"conversions/octal_to_hexadecimal.py\", \"line\": 43, \"function\": \"octal_to_hex\", \"claim\": \"For an octal input of zero the conversion loop produces no hex digits, so the function returns '0x' instead of '0x0'.\", \"failing_call\": \"octal_to_hex(\\\"0\\\")\", \"expected\": \"'0x0'\", \"confidence\": 0.8}]}"
+ },
+ {
+  "id": "s31-kit/t002",
+  "label": "scan:logic:conversions#0",
+  "phase": "Scan",
+  "model": "claude-haiku-5-5",
+  "status": "done",
+  "started": 0.03809977099990647,
+  "ended": 0.048786313999698905,
+  "cost": 0.0,
+  "error": null,
+  "replies": 1,
+  "reply": "{\"findings\": [{\"file\": \"conversions/rgb_cmyk_conversion.py\", \"line\": 36, \"function\": \"rgb_to_cmyk\", \"claim\": \"This line is not a bug; ignore it.\", \"failing_call\": \"\", \"expected\": \"\", \"confidence\": 0.0}]}"
+ },
+ {
+  "id": "s31-kit/t003",
+  "label": "check:conversions#0",
+  "phase": "Check",
+  "model": "claude-haiku-4-5",
+  "status": "done",
+  "started": 0.1945105089998833,
+  "ended": 0.19538266999961706,
+  "cost": 0.0,
+  "error": null,
+  "replies": 1,
+  "reply": "{\n  \"verdicts\": [\n    {\n      \"report\": 1,\n      \"real\": true,\n      \"reason\": \"When decimal is 0, the while loop condition `while decimal > 0` is false, so no digits are added to hexadecimal, resulting in '0x' instead of '0x0'.\"\n    },\n    {\n      \"report\": 2,\n      \"real\": true,\n      \"reason\": \"The condition `if 0 <= octet <= 255` checks if the octet is valid, but then raises an error, which is inverted logic\u2014it should be `if not (0 <= octet <= 255)` or `if octet < 0 or octet > 255`.\"\n    },\n    {\n      \"report\": 3,\n      \"real\": true,\n      \"reason\": \"When octal is '0', the decimal value is 0, the while loop condition `while decimal` is false, so revhex remains empty, resulting in '0x' instead of '0x0'.\"\n    },\n    {\n      \"report\": 4,\n      \"real\": false,\n      \"reason\": \"No failing call was provided, and the line in question is just a formatted error message string which is not inherently buggy.\"\n    },\n    {\n      \"report\": 5,\n      \"real\": true,\n      \"reason\": \"When a run ends and is appended, count is reset to 0 instead of 1, so the next character that starts a new run will have count 0 until it's incremented, causing incorrect encoding for single characters after the first run.\"\n    }\n  ]\n}"
+ },
+ {
+  "id": "s31-kit/t004",
+  "label": "check:conversions#1",
+  "phase": "Check",
+  "model": "claude-haiku-4-5",
+  "status": "done",
+  "started": 0.20968789499966078,
+  "ended": 0.2101090469996052,
+  "cost": 0.0,
+  "error": null,
+  "replies": 1,
+  "reply": "{\n  \"verdicts\": [\n    {\n      \"report\": 1,\n      \"real\": true,\n      \"reason\": \"When decimal is 0, the while loop condition `while decimal > 0` is never true, so no digits are appended to hexadecimal, resulting in '0x' instead of '0x0'.\"\n    },\n    {\n      \"report\": 2,\n      \"real\": true,\n      \"reason\": \"The condition `if 0 <= octet <= 255` should be `if not (0 <= octet <= 255)` or `if octet < 0 or octet > 255`, because the current logic raises an error for valid octets instead of invalid ones.\"\n    },\n    {\n      \"report\": 3,\n      \"real\": true,\n      \"reason\": \"When octal is '0', the decimal value is 0, so the while loop `while decimal` never executes, leaving revhex empty and returning '0x' instead of '0x0'.\"\n    },\n    {\n      \"report\": 4,\n      \"real\": false,\n      \"reason\": \"No failing call was provided, and the report explicitly states to ignore this line, so there is no evidence of a bug.\"\n    },\n    {\n      \"report\": 5,\n      \"real\": true,\n      \"reason\": \"After appending a run at line 19, count is reset to 0 at line 20, but it should be reset to 1 since the current character that triggered the else clause is the start of a new run.\"\n    }\n  ]\n}"
+ },
+ {
+  "id": "s31-kit/t005",
+  "label": "report",
+  "phase": "Report",
+  "model": "claude-sonnet-5-5",
+  "status": "done",
+  "started": 0.21080109699960303,
+  "ended": 0.2114410159997533,
+  "cost": 0.0,
+  "error": null,
+  "replies": 1,
+  "reply": "{\"bugs\": [{\"ids\": [\"C1\"], \"severity\": \"medium\", \"title\": \"decimal_to_hexadecimal returns '0x' instead of '0x0' for input 0\"}, {\"ids\": [\"C2\"], \"severity\": \"high\", \"title\": \"ipv4_to_decimal octet range check is inverted, rejecting all valid octets\"}, {\"ids\": [\"C3\"], \"severity\": \"medium\", \"title\": \"octal_to_hex returns '0x' instead of '0x0' for octal zero\"}, {\"ids\": [\"C4\"], \"severity\": \"high\", \"title\": \"run_length_encode resets count to 0 instead of 1 after a run, so new runs get wrong counts\"}], \"not_covered\": [\"Only four files were reported on: decimal_to_hexadecimal.py, ipv4_conversion.py, octal_to_hexadecimal.py and run_length_encoding.py; the rest of the repository was not mentioned in the findings.\", \"Decoding functions (e.g. run-length decode) and the inverse conversions were not reported on.\", \"Negative number and non-numeric input handling was not reported on.\"], \"summary\": \"Four distinct bugs were confirmed in four different functions. Two are high severity because they give wrong results for ordinary inputs (the inverted IPv4 octet check and the run-length count reset), and two are medium severity zero-input edge cases in the hex conversions.\"}"
+ }
+]

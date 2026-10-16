@@ -1,0 +1,88 @@
+{
+  "weakest": "wrong index",
+  "weakest_recall": 0.0,
+  "strongest": "wrong return value",
+  "strongest_recall": 0.8333,
+  "D_quiet": 0.3864,
+  "D_loud": 0.5476,
+  "by_arm": {
+    "A": {
+      "kind": {
+        "flip comparison": 0.0,
+        "off-by-one range": 0.0556,
+        "off-by-one slice": 0.0,
+        "swap + and -": 0.0,
+        "swap and / or": 0.0,
+        "drop not": 0.1111,
+        "wrong index": 0.0,
+        "wrong start value": 0.0,
+        "swap arguments": 0.0,
+        "wrong return value": 0.0556,
+        "remove early return": 0.0,
+        "change update": 0.0556
+      },
+      "loudness": {
+        "quiet half": 0.0227,
+        "loud half": 0.0238
+      },
+      "length": {
+        "quarter 3": 0.0185,
+        "quarter 1": 0.0556,
+        "quarter 4": 0.0185,
+        "quarter 2": 0.0
+      }
+    },
+    "C": {
+      "kind": {
+        "flip comparison": 0.0556,
+        "off-by-one range": 0.5,
+        "off-by-one slice": 0.5,
+        "swap + and -": 0.3889,
+        "swap and / or": 0.3889,
+        "drop not": 0.3333,
+        "wrong index": 0.0,
+        "wrong start value": 0.1111,
+        "swap arguments": 0.1667,
+        "wrong return value": 0.7222,
+        "remove early return": 0.0,
+        "change update": 0.4444
+      },
+      "loudness": {
+        "quiet half": 0.2576,
+        "loud half": 0.369
+      },
+      "length": {
+        "quarter 3": 0.463,
+        "quarter 1": 0.1852,
+        "quarter 4": 0.2963,
+        "quarter 2": 0.2593
+      }
+    },
+    "D": {
+      "kind": {
+        "flip comparison": 0.1667,
+        "off-by-one range": 0.6667,
+        "off-by-one slice": 0.7222,
+        "swap + and -": 0.5556,
+        "swap and / or": 0.3889,
+        "drop not": 0.7778,
+        "wrong index": 0.0,
+        "wrong start value": 0.2222,
+        "swap arguments": 0.3333,
+        "wrong return value": 0.8333,
+        "remove early return": 0.0556,
+        "change update": 0.6667
+      },
+      "loudness": {
+        "quiet half": 0.3864,
+        "loud half": 0.5476
+      },
+      "length": {
+        "quarter 3": 0.6111,
+        "quarter 1": 0.3704,
+        "quarter 4": 0.3704,
+        "quarter 2": 0.4444
+      }
+    }
+  }
+}

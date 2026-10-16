@@ -1,0 +1,17 @@
+# Local environments and notebook scratch files
+.venv/
+.uv-cache/
+__pycache__/
+.ipynb_checkpoints/
+**/_build/out/
+
+# Secrets and transient SQLite files. The main replay ledgers are versioned.
+.env
+.env.*
+modelscope.txt
+*.sqlite-wal
+*.sqlite-shm
+*.sqlite-journal
+ledger_backup_*.sqlite
+
+.DS_Store

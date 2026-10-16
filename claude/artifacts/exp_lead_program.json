@@ -1,0 +1,106 @@
+{
+  "rows": [
+    {
+      "sample": 0,
+      "tries": 1,
+      "valid": "yes",
+      "lines": 15,
+      "cents": 78.1,
+      "workers": 130,
+      "features": "loop"
+    },
+    {
+      "sample": 1,
+      "tries": 1,
+      "valid": "yes",
+      "lines": 19,
+      "cents": 62.2,
+      "workers": 121,
+      "features": "loop, decides from results, reads the budget"
+    },
+    {
+      "sample": 2,
+      "tries": 1,
+      "valid": "yes",
+      "lines": 15,
+      "cents": 62.2,
+      "workers": 121,
+      "features": "loop"
+    },
+    {
+      "sample": 3,
+      "tries": 2,
+      "valid": "yes",
+      "lines": 30,
+      "cents": 62.2,
+      "workers": 121,
+      "features": "loop, decides from results, reads the budget"
+    },
+    {
+      "sample": 4,
+      "tries": 1,
+      "valid": "yes",
+      "lines": 21,
+      "cents": 69.2,
+      "workers": 125,
+      "features": "loop, decides from results, reads the budget"
+    },
+    {
+      "sample": 5,
+      "tries": 1,
+      "valid": "yes",
+      "lines": 18,
+      "cents": 62.2,
+      "workers": 121,
+      "features": "loop, decides from results, reads the budget"
+    },
+    {
+      "sample": 6,
+      "tries": 1,
+      "valid": "yes",
+      "lines": 25,
+      "cents": 62.2,
+      "workers": 121,
+      "features": "loop, decides from results, reads the budget"
+    },
+    {
+      "sample": 7,
+      "tries": 1,
+      "valid": "yes",
+      "lines": 33,
+      "cents": 83.5,
+      "workers": 162,
+      "features": "loop, decides from results"
+    },
+    {
+      "sample": 8,
+      "tries": 1,
+      "valid": "yes",
+      "lines": 20,
+      "cents": 62.2,
+      "workers": 121,
+      "features": "loop, decides from results, reads the budget"
+    },
+    {
+      "sample": 9,
+      "tries": 1,
+      "valid": "yes",
+      "lines": 18,
+      "cents": 62.2,
+      "workers": 121,
+      "features": "loop, decides from results, reads the budget"
+    }
+  ],
+  "valid_first": 9,
+  "valid_final": 10,
+  "errors": {
+    "syntax kinds": 1
+  },
+  "features": {
+    "loop": 10,
+    "decides from results": 8,
+    "reads the budget": 7
+  },
+  "beyond": 10,
+  "instruction_tokens": 2122
+}

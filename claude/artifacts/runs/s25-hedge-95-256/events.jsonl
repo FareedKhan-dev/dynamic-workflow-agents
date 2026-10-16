@@ -1,0 +1,124 @@
+{"seq": 1, "t": 0.0, "type": "run.created", "run_id": "s25-hedge-95-256", "title": "hedge 95, 256 fixed slots", "goal": ""}
+{"seq": 2, "t": 0.0, "type": "run.phase_started", "run_id": "s25-hedge-95-256", "phase": "Calls", "index": 1}
+{"seq": 3, "t": 0.0, "type": "run.agent_started", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t001", "label": "call#0", "model": "fake-worker", "phase": "Calls"}
+{"seq": 4, "t": 0.001, "type": "run.agent_started", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t002", "label": "call#1", "model": "fake-worker", "phase": "Calls"}
+{"seq": 5, "t": 0.001, "type": "run.agent_started", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t003", "label": "call#2", "model": "fake-worker", "phase": "Calls"}
+{"seq": 6, "t": 0.002, "type": "run.agent_started", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t004", "label": "call#3", "model": "fake-worker", "phase": "Calls"}
+{"seq": 7, "t": 0.002, "type": "run.agent_started", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t005", "label": "call#4", "model": "fake-worker", "phase": "Calls"}
+{"seq": 8, "t": 0.002, "type": "run.agent_started", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t006", "label": "call#5", "model": "fake-worker", "phase": "Calls"}
+{"seq": 9, "t": 0.003, "type": "run.agent_started", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t007", "label": "call#6", "model": "fake-worker", "phase": "Calls"}
+{"seq": 10, "t": 0.003, "type": "run.agent_started", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t008", "label": "call#7", "model": "fake-worker", "phase": "Calls"}
+{"seq": 11, "t": 0.003, "type": "run.agent_started", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t009", "label": "call#8", "model": "fake-worker", "phase": "Calls"}
+{"seq": 12, "t": 0.003, "type": "run.agent_started", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t010", "label": "call#9", "model": "fake-worker", "phase": "Calls"}
+{"seq": 13, "t": 0.004, "type": "run.agent_started", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t011", "label": "call#10", "model": "fake-worker", "phase": "Calls"}
+{"seq": 14, "t": 0.004, "type": "run.agent_started", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t012", "label": "call#11", "model": "fake-worker", "phase": "Calls"}
+{"seq": 15, "t": 0.004, "type": "run.agent_started", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t013", "label": "call#12", "model": "fake-worker", "phase": "Calls"}
+{"seq": 16, "t": 0.004, "type": "run.agent_started", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t014", "label": "call#13", "model": "fake-worker", "phase": "Calls"}
+{"seq": 17, "t": 0.005, "type": "run.agent_started", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t015", "label": "call#14", "model": "fake-worker", "phase": "Calls"}
+{"seq": 18, "t": 0.005, "type": "run.agent_started", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t016", "label": "call#15", "model": "fake-worker", "phase": "Calls"}
+{"seq": 19, "t": 0.005, "type": "run.agent_started", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t017", "label": "call#16", "model": "fake-worker", "phase": "Calls"}
+{"seq": 20, "t": 0.006, "type": "run.agent_started", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t018", "label": "call#17", "model": "fake-worker", "phase": "Calls"}
+{"seq": 21, "t": 0.006, "type": "run.agent_started", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t019", "label": "call#18", "model": "fake-worker", "phase": "Calls"}
+{"seq": 22, "t": 0.006, "type": "run.agent_started", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t020", "label": "call#19", "model": "fake-worker", "phase": "Calls"}
+{"seq": 23, "t": 0.006, "type": "run.agent_started", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t021", "label": "call#20", "model": "fake-worker", "phase": "Calls"}
+{"seq": 24, "t": 0.007, "type": "run.agent_started", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t022", "label": "call#21", "model": "fake-worker", "phase": "Calls"}
+{"seq": 25, "t": 0.007, "type": "run.agent_started", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t023", "label": "call#22", "model": "fake-worker", "phase": "Calls"}
+{"seq": 26, "t": 0.008, "type": "run.agent_started", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t024", "label": "call#23", "model": "fake-worker", "phase": "Calls"}
+{"seq": 27, "t": 0.008, "type": "run.agent_started", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t025", "label": "call#24", "model": "fake-worker", "phase": "Calls"}
+{"seq": 28, "t": 0.008, "type": "run.agent_started", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t026", "label": "call#25", "model": "fake-worker", "phase": "Calls"}
+{"seq": 29, "t": 0.008, "type": "run.agent_started", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t027", "label": "call#26", "model": "fake-worker", "phase": "Calls"}
+{"seq": 30, "t": 0.009, "type": "run.agent_started", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t028", "label": "call#27", "model": "fake-worker", "phase": "Calls"}
+{"seq": 31, "t": 0.009, "type": "run.agent_started", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t029", "label": "call#28", "model": "fake-worker", "phase": "Calls"}
+{"seq": 32, "t": 0.009, "type": "run.agent_started", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t030", "label": "call#29", "model": "fake-worker", "phase": "Calls"}
+{"seq": 33, "t": 0.01, "type": "run.agent_started", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t031", "label": "call#30", "model": "fake-worker", "phase": "Calls"}
+{"seq": 34, "t": 0.01, "type": "run.agent_started", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t032", "label": "call#31", "model": "fake-worker", "phase": "Calls"}
+{"seq": 35, "t": 0.011, "type": "run.agent_started", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t033", "label": "call#32", "model": "fake-worker", "phase": "Calls"}
+{"seq": 36, "t": 0.011, "type": "run.agent_started", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t034", "label": "call#33", "model": "fake-worker", "phase": "Calls"}
+{"seq": 37, "t": 0.011, "type": "run.agent_started", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t035", "label": "call#34", "model": "fake-worker", "phase": "Calls"}
+{"seq": 38, "t": 0.012, "type": "run.agent_started", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t036", "label": "call#35", "model": "fake-worker", "phase": "Calls"}
+{"seq": 39, "t": 0.012, "type": "run.agent_started", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t037", "label": "call#36", "model": "fake-worker", "phase": "Calls"}
+{"seq": 40, "t": 0.012, "type": "run.agent_started", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t038", "label": "call#37", "model": "fake-worker", "phase": "Calls"}
+{"seq": 41, "t": 0.012, "type": "run.agent_started", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t039", "label": "call#38", "model": "fake-worker", "phase": "Calls"}
+{"seq": 42, "t": 0.013, "type": "run.agent_started", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t040", "label": "call#39", "model": "fake-worker", "phase": "Calls"}
+{"seq": 43, "t": 0.013, "type": "run.agent_started", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t041", "label": "call#40", "model": "fake-worker", "phase": "Calls"}
+{"seq": 44, "t": 0.013, "type": "run.agent_started", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t042", "label": "call#41", "model": "fake-worker", "phase": "Calls"}
+{"seq": 45, "t": 0.014, "type": "run.agent_started", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t043", "label": "call#42", "model": "fake-worker", "phase": "Calls"}
+{"seq": 46, "t": 0.014, "type": "run.agent_started", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t044", "label": "call#43", "model": "fake-worker", "phase": "Calls"}
+{"seq": 47, "t": 0.014, "type": "run.agent_started", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t045", "label": "call#44", "model": "fake-worker", "phase": "Calls"}
+{"seq": 48, "t": 0.015, "type": "run.agent_started", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t046", "label": "call#45", "model": "fake-worker", "phase": "Calls"}
+{"seq": 49, "t": 0.015, "type": "run.agent_started", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t047", "label": "call#46", "model": "fake-worker", "phase": "Calls"}
+{"seq": 50, "t": 0.015, "type": "run.agent_started", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t048", "label": "call#47", "model": "fake-worker", "phase": "Calls"}
+{"seq": 51, "t": 0.015, "type": "run.agent_started", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t049", "label": "call#48", "model": "fake-worker", "phase": "Calls"}
+{"seq": 52, "t": 0.016, "type": "run.agent_started", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t050", "label": "call#49", "model": "fake-worker", "phase": "Calls"}
+{"seq": 53, "t": 0.016, "type": "run.agent_started", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t051", "label": "call#50", "model": "fake-worker", "phase": "Calls"}
+{"seq": 54, "t": 0.016, "type": "run.agent_started", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t052", "label": "call#51", "model": "fake-worker", "phase": "Calls"}
+{"seq": 55, "t": 0.017, "type": "run.agent_started", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t053", "label": "call#52", "model": "fake-worker", "phase": "Calls"}
+{"seq": 56, "t": 0.017, "type": "run.agent_started", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t054", "label": "call#53", "model": "fake-worker", "phase": "Calls"}
+{"seq": 57, "t": 0.017, "type": "run.agent_started", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t055", "label": "call#54", "model": "fake-worker", "phase": "Calls"}
+{"seq": 58, "t": 0.018, "type": "run.agent_started", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t056", "label": "call#55", "model": "fake-worker", "phase": "Calls"}
+{"seq": 59, "t": 0.018, "type": "run.agent_started", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t057", "label": "call#56", "model": "fake-worker", "phase": "Calls"}
+{"seq": 60, "t": 0.018, "type": "run.agent_started", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t058", "label": "call#57", "model": "fake-worker", "phase": "Calls"}
+{"seq": 61, "t": 0.018, "type": "run.agent_started", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t059", "label": "call#58", "model": "fake-worker", "phase": "Calls"}
+{"seq": 62, "t": 0.019, "type": "run.agent_started", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t060", "label": "call#59", "model": "fake-worker", "phase": "Calls"}
+{"seq": 63, "t": 0.086, "type": "run.agent_ended", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t002", "label": "call#1", "ok": true, "seconds": 0.08, "cached": false, "cents": 0.2, "phase": "Calls"}
+{"seq": 64, "t": 0.113, "type": "run.agent_ended", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t027", "label": "call#26", "ok": true, "seconds": 0.1, "cached": false, "cents": 0.2, "phase": "Calls"}
+{"seq": 65, "t": 0.136, "type": "run.agent_ended", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t025", "label": "call#24", "ok": true, "seconds": 0.13, "cached": false, "cents": 0.2, "phase": "Calls"}
+{"seq": 66, "t": 0.138, "type": "run.agent_ended", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t040", "label": "call#39", "ok": true, "seconds": 0.13, "cached": false, "cents": 0.2, "phase": "Calls"}
+{"seq": 67, "t": 0.189, "type": "run.agent_ended", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t035", "label": "call#34", "ok": true, "seconds": 0.18, "cached": false, "cents": 0.2, "phase": "Calls"}
+{"seq": 68, "t": 0.212, "type": "run.agent_ended", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t036", "label": "call#35", "ok": true, "seconds": 0.2, "cached": false, "cents": 0.2, "phase": "Calls"}
+{"seq": 69, "t": 0.23, "type": "run.agent_ended", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t011", "label": "call#10", "ok": true, "seconds": 0.23, "cached": false, "cents": 0.2, "phase": "Calls"}
+{"seq": 70, "t": 0.274, "type": "run.agent_ended", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t018", "label": "call#17", "ok": true, "seconds": 0.27, "cached": false, "cents": 0.2, "phase": "Calls"}
+{"seq": 71, "t": 0.311, "type": "run.agent_ended", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t039", "label": "call#38", "ok": true, "seconds": 0.3, "cached": false, "cents": 0.2, "phase": "Calls"}
+{"seq": 72, "t": 0.366, "type": "run.agent_ended", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t052", "label": "call#51", "ok": true, "seconds": 0.35, "cached": false, "cents": 0.2, "phase": "Calls"}
+{"seq": 73, "t": 0.378, "type": "run.agent_ended", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t001", "label": "call#0", "ok": true, "seconds": 0.38, "cached": false, "cents": 0.2, "phase": "Calls"}
+{"seq": 74, "t": 0.401, "type": "run.agent_ended", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t004", "label": "call#3", "ok": true, "seconds": 0.4, "cached": false, "cents": 0.2, "phase": "Calls"}
+{"seq": 75, "t": 0.417, "type": "run.agent_ended", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t056", "label": "call#55", "ok": true, "seconds": 0.4, "cached": false, "cents": 0.2, "phase": "Calls"}
+{"seq": 76, "t": 0.42, "type": "run.agent_ended", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t053", "label": "call#52", "ok": true, "seconds": 0.4, "cached": false, "cents": 0.2, "phase": "Calls"}
+{"seq": 77, "t": 0.429, "type": "run.agent_ended", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t016", "label": "call#15", "ok": true, "seconds": 0.42, "cached": false, "cents": 0.2, "phase": "Calls"}
+{"seq": 78, "t": 0.435, "type": "run.agent_ended", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t019", "label": "call#18", "ok": true, "seconds": 0.43, "cached": false, "cents": 0.2, "phase": "Calls"}
+{"seq": 79, "t": 0.446, "type": "run.agent_ended", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t014", "label": "call#13", "ok": true, "seconds": 0.44, "cached": false, "cents": 0.2, "phase": "Calls"}
+{"seq": 80, "t": 0.458, "type": "run.agent_ended", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t015", "label": "call#14", "ok": true, "seconds": 0.45, "cached": false, "cents": 0.2, "phase": "Calls"}
+{"seq": 81, "t": 0.465, "type": "run.agent_ended", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t048", "label": "call#47", "ok": true, "seconds": 0.45, "cached": false, "cents": 0.2, "phase": "Calls"}
+{"seq": 82, "t": 0.468, "type": "run.agent_ended", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t058", "label": "call#57", "ok": true, "seconds": 0.45, "cached": false, "cents": 0.2, "phase": "Calls"}
+{"seq": 83, "t": 0.485, "type": "run.agent_ended", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t006", "label": "call#5", "ok": true, "seconds": 0.48, "cached": false, "cents": 0.2, "phase": "Calls"}
+{"seq": 84, "t": 0.487, "type": "run.agent_ended", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t037", "label": "call#36", "ok": true, "seconds": 0.48, "cached": false, "cents": 0.2, "phase": "Calls"}
+{"seq": 85, "t": 0.49, "type": "run.agent_ended", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t032", "label": "call#31", "ok": true, "seconds": 0.48, "cached": false, "cents": 0.2, "phase": "Calls"}
+{"seq": 86, "t": 0.505, "type": "run.agent_ended", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t060", "label": "call#59", "ok": true, "seconds": 0.49, "cached": false, "cents": 0.2, "phase": "Calls"}
+{"seq": 87, "t": 0.545, "type": "run.agent_ended", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t059", "label": "call#58", "ok": true, "seconds": 0.53, "cached": false, "cents": 0.2, "phase": "Calls"}
+{"seq": 88, "t": 0.547, "type": "run.agent_ended", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t044", "label": "call#43", "ok": true, "seconds": 0.53, "cached": false, "cents": 0.2, "phase": "Calls"}
+{"seq": 89, "t": 0.55, "type": "run.agent_ended", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t031", "label": "call#30", "ok": true, "seconds": 0.54, "cached": false, "cents": 0.2, "phase": "Calls"}
+{"seq": 90, "t": 0.558, "type": "run.agent_ended", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t020", "label": "call#19", "ok": true, "seconds": 0.55, "cached": false, "cents": 0.2, "phase": "Calls"}
+{"seq": 91, "t": 0.585, "type": "run.agent_ended", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t024", "label": "call#23", "ok": true, "seconds": 0.58, "cached": false, "cents": 0.2, "phase": "Calls"}
+{"seq": 92, "t": 0.59, "type": "run.agent_ended", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t045", "label": "call#44", "ok": true, "seconds": 0.58, "cached": false, "cents": 0.2, "phase": "Calls"}
+{"seq": 93, "t": 0.597, "type": "run.agent_ended", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t010", "label": "call#9", "ok": true, "seconds": 0.59, "cached": false, "cents": 0.2, "phase": "Calls"}
+{"seq": 94, "t": 0.599, "type": "run.agent_ended", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t051", "label": "call#50", "ok": true, "seconds": 0.58, "cached": false, "cents": 0.2, "phase": "Calls"}
+{"seq": 95, "t": 0.608, "type": "run.agent_ended", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t033", "label": "call#32", "ok": true, "seconds": 0.6, "cached": false, "cents": 0.2, "phase": "Calls"}
+{"seq": 96, "t": 0.646, "type": "run.agent_ended", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t023", "label": "call#22", "ok": true, "seconds": 0.64, "cached": false, "cents": 0.2, "phase": "Calls"}
+{"seq": 97, "t": 0.661, "type": "run.agent_ended", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t013", "label": "call#12", "ok": true, "seconds": 0.66, "cached": false, "cents": 0.2, "phase": "Calls"}
+{"seq": 98, "t": 0.691, "type": "run.agent_ended", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t041", "label": "call#40", "ok": true, "seconds": 0.68, "cached": false, "cents": 0.2, "phase": "Calls"}
+{"seq": 99, "t": 0.693, "type": "run.agent_ended", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t057", "label": "call#56", "ok": true, "seconds": 0.68, "cached": false, "cents": 0.2, "phase": "Calls"}
+{"seq": 100, "t": 0.703, "type": "run.agent_ended", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t012", "label": "call#11", "ok": true, "seconds": 0.7, "cached": false, "cents": 0.2, "phase": "Calls"}
+{"seq": 101, "t": 0.719, "type": "run.agent_ended", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t055", "label": "call#54", "ok": true, "seconds": 0.7, "cached": false, "cents": 0.2, "phase": "Calls"}
+{"seq": 102, "t": 0.73, "type": "run.agent_ended", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t046", "label": "call#45", "ok": true, "seconds": 0.72, "cached": false, "cents": 0.2, "phase": "Calls"}
+{"seq": 103, "t": 0.749, "type": "run.agent_ended", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t009", "label": "call#8", "ok": true, "seconds": 0.75, "cached": false, "cents": 0.2, "phase": "Calls"}
+{"seq": 104, "t": 0.751, "type": "run.agent_ended", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t030", "label": "call#29", "ok": true, "seconds": 0.74, "cached": false, "cents": 0.2, "phase": "Calls"}
+{"seq": 105, "t": 0.754, "type": "run.agent_ended", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t022", "label": "call#21", "ok": true, "seconds": 0.75, "cached": false, "cents": 0.2, "phase": "Calls"}
+{"seq": 106, "t": 0.776, "type": "run.agent_ended", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t008", "label": "call#7", "ok": true, "seconds": 0.77, "cached": false, "cents": 0.2, "phase": "Calls"}
+{"seq": 107, "t": 0.789, "type": "run.agent_ended", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t005", "label": "call#4", "ok": true, "seconds": 0.79, "cached": false, "cents": 0.2, "phase": "Calls"}
+{"seq": 108, "t": 0.791, "type": "run.agent_ended", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t054", "label": "call#53", "ok": true, "seconds": 0.77, "cached": false, "cents": 0.2, "phase": "Calls"}
+{"seq": 109, "t": 0.805, "type": "run.agent_ended", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t047", "label": "call#46", "ok": true, "seconds": 0.79, "cached": false, "cents": 0.2, "phase": "Calls"}
+{"seq": 110, "t": 0.817, "type": "run.agent_ended", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t029", "label": "call#28", "ok": true, "seconds": 0.81, "cached": false, "cents": 0.2, "phase": "Calls"}
+{"seq": 111, "t": 0.83, "type": "run.agent_ended", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t038", "label": "call#37", "ok": true, "seconds": 0.82, "cached": false, "cents": 0.2, "phase": "Calls"}
+{"seq": 112, "t": 0.874, "type": "run.agent_ended", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t026", "label": "call#25", "ok": true, "seconds": 0.87, "cached": false, "cents": 0.2, "phase": "Calls"}
+{"seq": 113, "t": 0.878, "type": "run.agent_ended", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t017", "label": "call#16", "ok": true, "seconds": 0.87, "cached": false, "cents": 0.2, "phase": "Calls"}
+{"seq": 114, "t": 0.892, "type": "run.agent_ended", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t050", "label": "call#49", "ok": true, "seconds": 0.88, "cached": false, "cents": 0.2, "phase": "Calls"}
+{"seq": 115, "t": 0.909, "type": "run.agent_ended", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t049", "label": "call#48", "ok": true, "seconds": 0.89, "cached": false, "cents": 0.2, "phase": "Calls"}
+{"seq": 116, "t": 0.966, "type": "run.agent_ended", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t003", "label": "call#2", "ok": true, "seconds": 0.96, "cached": false, "cents": 0.2, "phase": "Calls"}
+{"seq": 117, "t": 1.013, "type": "run.agent_ended", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t028", "label": "call#27", "ok": true, "seconds": 1.0, "cached": false, "cents": 0.2, "phase": "Calls"}
+{"seq": 118, "t": 1.034, "type": "run.agent_ended", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t034", "label": "call#33", "ok": true, "seconds": 1.02, "cached": false, "cents": 0.2, "phase": "Calls"}
+{"seq": 119, "t": 1.159, "type": "run.agent_ended", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t043", "label": "call#42", "ok": true, "seconds": 1.15, "cached": false, "cents": 0.2, "phase": "Calls"}
+{"seq": 120, "t": 1.219, "type": "run.agent_ended", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t021", "label": "call#20", "ok": true, "seconds": 1.21, "cached": false, "cents": 0.2, "phase": "Calls"}
+{"seq": 121, "t": 1.331, "type": "run.agent_ended", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t042", "label": "call#41", "ok": true, "seconds": 1.32, "cached": false, "cents": 0.2, "phase": "Calls"}
+{"seq": 122, "t": 1.499, "type": "run.agent_ended", "run_id": "s25-hedge-95-256", "thread": "s25-hedge-95-256/t007", "label": "call#6", "ok": true, "seconds": 1.5, "cached": false, "cents": 0.4, "phase": "Calls"}
+{"seq": 123, "t": 1.503, "type": "run.phase_ended", "run_id": "s25-hedge-95-256", "phase": "Calls", "agents": 60, "failed": 0, "seconds": 1.5}
+{"seq": 124, "t": 1.503, "type": "run.ended", "run_id": "s25-hedge-95-256", "status": "completed", "seconds": 1.5, "agents": 60, "failed": 0, "cents": 12.2, "dropped": 0, "error": null}

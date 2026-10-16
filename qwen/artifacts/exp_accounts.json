@@ -1,0 +1,196 @@
+{
+  "calls": 2616,
+  "paid": 557.4,
+  "top": "scan",
+  "top_calls": 1049,
+  "second": "solo",
+  "second_calls": 827,
+  "by_role": [
+    {
+      "group": "scan",
+      "calls": 1049,
+      "prompt_tokens": 86692305,
+      "completion_tokens": 1680682,
+      "magicubes": 218.8,
+      "seconds": 34782.2292
+    },
+    {
+      "group": "solo",
+      "calls": 827,
+      "prompt_tokens": 40814239,
+      "completion_tokens": 24171,
+      "magicubes": 165.4,
+      "seconds": 2402.0356
+    },
+    {
+      "group": "skeptic",
+      "calls": 385,
+      "prompt_tokens": 1512141,
+      "completion_tokens": 2454494,
+      "magicubes": 77.0,
+      "seconds": 40887.0369
+    },
+    {
+      "group": "lead",
+      "calls": 48,
+      "prompt_tokens": 73816,
+      "completion_tokens": 557316,
+      "magicubes": 24.0,
+      "seconds": 14756.8839
+    },
+    {
+      "group": "memory",
+      "calls": 72,
+      "prompt_tokens": 23677,
+      "completion_tokens": 14680,
+      "magicubes": 14.4,
+      "seconds": 351.9347
+    },
+    {
+      "group": "report",
+      "calls": 19,
+      "prompt_tokens": 33439,
+      "completion_tokens": 122503,
+      "magicubes": 9.5,
+      "seconds": 3229.2789
+    },
+    {
+      "group": "json-test",
+      "calls": 32,
+      "prompt_tokens": 36560,
+      "completion_tokens": 2587,
+      "magicubes": 8.8,
+      "seconds": 77.9188
+    },
+    {
+      "group": "classify",
+      "calls": 35,
+      "prompt_tokens": 199488,
+      "completion_tokens": 225488,
+      "magicubes": 7.0,
+      "seconds": 2868.4057
+    },
+    {
+      "group": "chain",
+      "calls": 33,
+      "prompt_tokens": 129050,
+      "completion_tokens": 582,
+      "magicubes": 6.6,
+      "seconds": 76.0699
+    },
+    {
+      "group": "probe",
+      "calls": 18,
+      "prompt_tokens": 652,
+      "completion_tokens": 655,
+      "magicubes": 5.4,
+      "seconds": 34.0151
+    },
+    {
+      "group": "grade",
+      "calls": 21,
+      "prompt_tokens": 121258,
+      "completion_tokens": 16369,
+      "magicubes": 4.2,
+      "seconds": 275.2848
+    },
+    {
+      "group": "recheck",
+      "calls": 21,
+      "prompt_tokens": 26432,
+      "completion_tokens": 52939,
+      "magicubes": 4.2,
+      "seconds": 867.0779
+    },
+    {
+      "group": "tag",
+      "calls": 18,
+      "prompt_tokens": 296500,
+      "completion_tokens": 133582,
+      "magicubes": 3.6,
+      "seconds": 1630.6058
+    },
+    {
+      "group": "grade-single",
+      "calls": 15,
+      "prompt_tokens": 1012001,
+      "completion_tokens": 15596,
+      "magicubes": 3.0,
+      "seconds": 219.0932
+    },
+    {
+      "group": "worker",
+      "calls": 12,
+      "prompt_tokens": 1143264,
+      "completion_tokens": 2620,
+      "magicubes": 2.4,
+      "seconds": 180.2575
+    },
+    {
+      "group": "merge",
+      "calls": 8,
+      "prompt_tokens": 21188,
+      "completion_tokens": 161188,
+      "magicubes": 1.6,
+      "seconds": 2590.2105
+    },
+    {
+      "group": "critic",
+      "calls": 3,
+      "prompt_tokens": 2752,
+      "completion_tokens": 33484,
+      "magicubes": 1.5,
+      "seconds": 830.3414
+    }
+  ],
+  "by_model": [
+    {
+      "group": "Qwen-Ambassador/Qwen3.8-27B",
+      "calls": 2007,
+      "prompt_tokens": 125164832,
+      "completion_tokens": 1295419,
+      "magicubes": 401.4,
+      "seconds": 30557.3591
+    },
+    {
+      "group": "Qwen-Ambassador/Qwen3.7-Plus",
+      "calls": 420,
+      "prompt_tokens": 3038682,
+      "completion_tokens": 2757611,
+      "magicubes": 84.0,
+      "seconds": 45762.2142
+    },
+    {
+      "group": "Qwen-Ambassador/Qwen3.8-Max",
+      "calls": 95,
+      "prompt_tokens": 1362082,
+      "completion_tokens": 899268,
+      "magicubes": 47.5,
+      "seconds": 23228.7867
+    },
+    {
+      "group": "Qwen-Ambassador/Qwen3.8-Flash-Next",
+      "calls": 72,
+      "prompt_tokens": 1083896,
+      "completion_tokens": 449149,
+      "magicubes": 14.4,
+      "seconds": 5662.9489
+    },
+    {
+      "group": "Qwen-Ambassador/Qwen3.7-Max",
+      "calls": 19,
+      "prompt_tokens": 1489154,
+      "completion_tokens": 97448,
+      "magicubes": 9.5,
+      "seconds": 843.0359
+    },
+    {
+      "group": "Qwen-Ambassador/Qwen3.8-Omni-Flash",
+      "calls": 3,
+      "prompt_tokens": 116,
+      "completion_tokens": 41,
+      "magicubes": 0.6,
+      "seconds": 4.3349
+    }
+  ]
+}

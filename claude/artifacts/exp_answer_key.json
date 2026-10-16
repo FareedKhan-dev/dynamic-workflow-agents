@@ -1,0 +1,79 @@
+{
+  "bugs": 72,
+  "files": 856,
+  "share_of_files": 0.0841,
+  "operators": {
+    "flip comparison": 6,
+    "off-by-one range": 6,
+    "off-by-one slice": 6,
+    "swap + and -": 6,
+    "swap and / or": 6,
+    "drop not": 6,
+    "wrong index": 6,
+    "wrong start value": 6,
+    "swap arguments": 6,
+    "wrong return value": 6,
+    "remove early return": 6,
+    "change update": 6
+  },
+  "folders": 24,
+  "median_loudness": 0.2222,
+  "audited_lines": 92363,
+  "visible_examples": 8910,
+  "hidden_clean": 2131,
+  "untouched_clean": 11,
+  "max_auroc": 0.5786,
+  "ks_p": 0.9026,
+  "leak": [
+    {
+      "property": "examples",
+      "buggy mean": 11.2778,
+      "clean mean": 10.1071,
+      "auroc": 0.5277
+    },
+    {
+      "property": "examples per function",
+      "buggy mean": 3.8406,
+      "clean mean": 3.8784,
+      "auroc": 0.5078
+    },
+    {
+      "property": "lines",
+      "buggy mean": 122.7778,
+      "clean mean": 106.5344,
+      "auroc": 0.5442
+    },
+    {
+      "property": "docstring share",
+      "buggy mean": 0.4284,
+      "clean mean": 0.4661,
+      "auroc": 0.5786
+    },
+    {
+      "property": "blank-line runs in docstrings",
+      "buggy mean": 0.3611,
+      "clean mean": 0.1824,
+      "auroc": 0.5766
+    }
+  ],
+  "plant_log": {
+    "flip_comparison|planted": 6,
+    "off_by_one_range|planted": 6,
+    "off_by_one_range|failing example keeps state": 1,
+    "off_by_one_slice|planted": 6,
+    "swap_plus_minus|planted": 6,
+    "swap_plus_minus|failing example keeps state": 1,
+    "swap_and_or|file already holds a bug": 2,
+    "swap_and_or|planted": 6,
+    "drop_not|planted": 6,
+    "wrong_index|planted": 6,
+    "wrong_constant|planted": 6,
+    "wrong_constant|file already holds a bug": 1,
+    "swap_args|planted": 6,
+    "wrong_return|planted": 6,
+    "remove_early_return|planted": 6,
+    "change_update|file already holds a bug": 2,
+    "change_update|planted": 6,
+    "change_update|failing example keeps state": 1
+  }
+}

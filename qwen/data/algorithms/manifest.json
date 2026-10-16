@@ -1,0 +1,7643 @@
+[
+ {
+  "path": "audio_filters/butterworth_filter.py",
+  "folder": "audio_filters",
+  "lines": 361,
+  "chars": 10664,
+  "examples": 23,
+  "functions": 10,
+  "sha256": "1e0b640eeab279ad95aab25c46ea801576803ba9cf3751b8ad708f65fe09d31c"
+ },
+ {
+  "path": "audio_filters/iir_filter.py",
+  "folder": "audio_filters",
+  "lines": 129,
+  "chars": 4598,
+  "examples": 12,
+  "functions": 3,
+  "sha256": "1c8a18c65424ecad71b556b3a2e1bb8a6e42cfd49ddf8ba28bd0f4028ff118b5"
+ },
+ {
+  "path": "backtracking/all_combinations.py",
+  "folder": "backtracking",
+  "lines": 116,
+  "chars": 3481,
+  "examples": 24,
+  "functions": 3,
+  "sha256": "e6c22b86d971857ae11a8271944840f4542f1d53fbeb90f3e1ad5ead3515c297"
+ },
+ {
+  "path": "backtracking/all_permutations.py",
+  "folder": "backtracking",
+  "lines": 98,
+  "chars": 2741,
+  "examples": 14,
+  "functions": 2,
+  "sha256": "a5494e8982da18769abafd7d8b35a7569083e5e0498651b5cc1ef40df65e1905"
+ },
+ {
+  "path": "backtracking/all_subsequences.py",
+  "folder": "backtracking",
+  "lines": 108,
+  "chars": 2465,
+  "examples": 14,
+  "functions": 2,
+  "sha256": "1dc893b0323c0d49fe9998e300aa91b1e63f27fc7f3114250fcd10678c25311a"
+ },
+ {
+  "path": "backtracking/coloring.py",
+  "folder": "backtracking",
+  "lines": 186,
+  "chars": 6212,
+  "examples": 34,
+  "functions": 3,
+  "sha256": "963f2e6386e0561052d8cdab0615a26337b7a607235d9d9554e14e2aac723218"
+ },
+ {
+  "path": "backtracking/combination_sum.py",
+  "folder": "backtracking",
+  "lines": 76,
+  "chars": 2270,
+  "examples": 4,
+  "functions": 3,
+  "sha256": "376bac453ba140719240d28c2099e6bb5bfc4e3159f24ca1561e1ee1e05dd3d7"
+ },
+ {
+  "path": "backtracking/crossword_puzzle_solver.py",
+  "folder": "backtracking",
+  "lines": 122,
+  "chars": 4055,
+  "examples": 17,
+  "functions": 4,
+  "sha256": "80d0945ab4f3a7c22ef6315620afe69e5f274ffcfcf7b22eba55f835b904e371"
+ },
+ {
+  "path": "backtracking/generate_parentheses.py",
+  "folder": "backtracking",
+  "lines": 81,
+  "chars": 2438,
+  "examples": 6,
+  "functions": 2,
+  "sha256": "e337db1a59e3060e6f400dd857ecf6e4eb73297e01f813fc3688442f840c1da0"
+ },
+ {
+  "path": "backtracking/generate_parentheses_iterative.py",
+  "folder": "backtracking",
+  "lines": 67,
+  "chars": 2164,
+  "examples": 4,
+  "functions": 1,
+  "sha256": "c7c6d3ebcc121a832234ea83db3de74c57702f5873a4f808b778633571d190c8"
+ },
+ {
+  "path": "backtracking/hamiltonian_cycle.py",
+  "folder": "backtracking",
+  "lines": 176,
+  "chars": 5835,
+  "examples": 25,
+  "functions": 3,
+  "sha256": "216ceb622f942554a53c6f5216e0fb54da1062ca25d3e068e7f49de9dcd856e7"
+ },
+ {
+  "path": "backtracking/knight_tour.py",
+  "folder": "backtracking",
+  "lines": 101,
+  "chars": 2451,
+  "examples": 5,
+  "functions": 4,
+  "sha256": "9250a499d67b2d52ec39d3bd12da468ee90206b89591e5e177f39322bd4f3b61"
+ },
+ {
+  "path": "backtracking/m_coloring_problem.py",
+  "folder": "backtracking",
+  "lines": 86,
+  "chars": 2253,
+  "examples": 6,
+  "functions": 3,
+  "sha256": "ac78ee09d0684cdb32b5e564a4a3d9338d67f3fc2a827754aa81113ae2dfd1b6"
+ },
+ {
+  "path": "backtracking/match_word_pattern.py",
+  "folder": "backtracking",
+  "lines": 61,
+  "chars": 1806,
+  "examples": 3,
+  "functions": 2,
+  "sha256": "f558846bc592a8fe5d85e917b5c488518555dc8926ae90d3991a730c7609a321"
+ },
+ {
+  "path": "backtracking/minimax.py",
+  "folder": "backtracking",
+  "lines": 101,
+  "chars": 3315,
+  "examples": 10,
+  "functions": 2,
+  "sha256": "59a509877d235b0fe203c5875521a4a3baf098cdfbc8e09449c6bda251cb08de"
+ },
+ {
+  "path": "backtracking/n_queens.py",
+  "folder": "backtracking",
+  "lines": 109,
+  "chars": 3293,
+  "examples": 8,
+  "functions": 3,
+  "sha256": "4b53309df68d5a302842d5076781d3e2e5a4f6f1c2c48a54792bb7e6f9a5bc4e"
+ },
+ {
+  "path": "backtracking/n_queens_math.py",
+  "folder": "backtracking",
+  "lines": 158,
+  "chars": 4927,
+  "examples": 3,
+  "functions": 2,
+  "sha256": "c104b71127c3903ebd9317a32fefb451b167d08dc36a7963e2f509c4d57efa60"
+ },
+ {
+  "path": "backtracking/power_sum.py",
+  "folder": "backtracking",
+  "lines": 91,
+  "chars": 2624,
+  "examples": 15,
+  "functions": 2,
+  "sha256": "19a2454ccb73cbd74a2d89f6c00a2b696a66d68980abf6cefcb4601a53e59c25"
+ },
+ {
+  "path": "backtracking/rat_in_maze.py",
+  "folder": "backtracking",
+  "lines": 197,
+  "chars": 6563,
+  "examples": 18,
+  "functions": 2,
+  "sha256": "a86e721f8289b2a7e69aa42cfa755328163687e24c209cf2d85e43a96e594b20"
+ },
+ {
+  "path": "backtracking/sum_of_subsets.py",
+  "folder": "backtracking",
+  "lines": 81,
+  "chars": 2208,
+  "examples": 8,
+  "functions": 2,
+  "sha256": "abf5c7a1a84729dc93a16cdeaf7a272efb5084d0c80f06ea6fb654e20a0db46a"
+ },
+ {
+  "path": "backtracking/word_break.py",
+  "folder": "backtracking",
+  "lines": 74,
+  "chars": 2146,
+  "examples": 7,
+  "functions": 2,
+  "sha256": "f7193b2658a593f9a1cc001ba8f69a9ef1c4fc27e6d08289dd54db7e6c2c1ee8"
+ },
+ {
+  "path": "backtracking/word_ladder.py",
+  "folder": "backtracking",
+  "lines": 100,
+  "chars": 3728,
+  "examples": 8,
+  "functions": 2,
+  "sha256": "7d0fc8bdea25596069b8aeec6ffbe8f9b2116f83a67f23e2b99c5f944c5cf9f3"
+ },
+ {
+  "path": "backtracking/word_search.py",
+  "folder": "backtracking",
+  "lines": 249,
+  "chars": 7348,
+  "examples": 29,
+  "functions": 6,
+  "sha256": "37328b0b2bacd67489b189b81b41761ecb2335770a864f6f21506071c86812c3"
+ },
+ {
+  "path": "bit_manipulation/binary_and_operator.py",
+  "folder": "bit_manipulation",
+  "lines": 90,
+  "chars": 2244,
+  "examples": 19,
+  "functions": 1,
+  "sha256": "2eb2b41939de29c2c9c59daf6eaf737de2b19feb308c08209785d9af1c83b01c"
+ },
+ {
+  "path": "bit_manipulation/binary_coded_decimal.py",
+  "folder": "bit_manipulation",
+  "lines": 29,
+  "chars": 705,
+  "examples": 7,
+  "functions": 1,
+  "sha256": "10f25bfc20d790e15343d1059107a1d31c9936bb1e680ec218f7950e8408001a"
+ },
+ {
+  "path": "bit_manipulation/binary_count_setbits.py",
+  "folder": "bit_manipulation",
+  "lines": 41,
+  "chars": 1108,
+  "examples": 9,
+  "functions": 1,
+  "sha256": "a21c9dd8120e1076c59cfd25b592d6ac849ecf393df54df04082b8ab9234e5f4"
+ },
+ {
+  "path": "bit_manipulation/binary_count_trailing_zeros.py",
+  "folder": "bit_manipulation",
+  "lines": 55,
+  "chars": 1420,
+  "examples": 9,
+  "functions": 1,
+  "sha256": "ceaf92a270d792b2fe6c63b8cb579f5df6b2a40b52b19f594a38952ab8d4ed59"
+ },
+ {
+  "path": "bit_manipulation/binary_or_operator.py",
+  "folder": "bit_manipulation",
+  "lines": 50,
+  "chars": 1210,
+  "examples": 9,
+  "functions": 1,
+  "sha256": "e2810e12a157f90bd2be7f50cc9f70b0e5a40a10c37657e1afb341a5ef2264e3"
+ },
+ {
+  "path": "bit_manipulation/binary_shifts.py",
+  "folder": "bit_manipulation",
+  "lines": 109,
+  "chars": 3403,
+  "examples": 18,
+  "functions": 3,
+  "sha256": "ef056dbb755a8ef8eb458c9beebfe87c94131eeaae84f548bf05974982d5de2b"
+ },
+ {
+  "path": "bit_manipulation/binary_twos_complement.py",
+  "folder": "bit_manipulation",
+  "lines": 43,
+  "chars": 1121,
+  "examples": 6,
+  "functions": 1,
+  "sha256": "2a8f0bb265f8f51547c7a945895b69a1e9a368d5072bfccdd76b443088e7df70"
+ },
+ {
+  "path": "bit_manipulation/binary_xor_operator.py",
+  "folder": "bit_manipulation",
+  "lines": 51,
+  "chars": 1224,
+  "examples": 9,
+  "functions": 1,
+  "sha256": "b03704321e5f33bc4eda1272bc24808bcca56711ebaf022e6b78bbc7d13b7551"
+ },
+ {
+  "path": "bit_manipulation/bitwise_addition_recursive.py",
+  "folder": "bit_manipulation",
+  "lines": 55,
+  "chars": 1594,
+  "examples": 8,
+  "functions": 1,
+  "sha256": "7abbbb778951abdcac62ef01261d59862dfbc3dee1e47a074495a6eba26d392e"
+ },
+ {
+  "path": "bit_manipulation/count_1s_brian_kernighan_method.py",
+  "folder": "bit_manipulation",
+  "lines": 46,
+  "chars": 1286,
+  "examples": 9,
+  "functions": 1,
+  "sha256": "705e7b1f66dcc523628b42ecd0f6b2c7c83ce903408b11fba90892f267bc37f3"
+ },
+ {
+  "path": "bit_manipulation/count_number_of_one_bits.py",
+  "folder": "bit_manipulation",
+  "lines": 146,
+  "chars": 4548,
+  "examples": 23,
+  "functions": 5,
+  "sha256": "c94a673d1331c518a05bf466c1910e22f8f8c6b177a108b6eef06f289293a836"
+ },
+ {
+  "path": "bit_manipulation/excess_3_code.py",
+  "folder": "bit_manipulation",
+  "lines": 27,
+  "chars": 628,
+  "examples": 5,
+  "functions": 1,
+  "sha256": "a28cb57eb76cb16b733f6ced33537013184a656c24c85cf579eb5e47c24695fd"
+ },
+ {
+  "path": "bit_manipulation/fast_walsh_hadamard_transform.py",
+  "folder": "bit_manipulation",
+  "lines": 209,
+  "chars": 6906,
+  "examples": 17,
+  "functions": 6,
+  "sha256": "e2a0a51c5e47b47cf487bf8a6fbb5ddd14fe2afd7b9e5f3f20a5c1910eb4cd0d"
+ },
+ {
+  "path": "bit_manipulation/find_previous_power_of_two.py",
+  "folder": "bit_manipulation",
+  "lines": 30,
+  "chars": 967,
+  "examples": 3,
+  "functions": 1,
+  "sha256": "c4614c5b5da2ffa613b3aa057bc8e35f8f308a612188cf4fe1e04db65748e453"
+ },
+ {
+  "path": "bit_manipulation/find_unique_number.py",
+  "folder": "bit_manipulation",
+  "lines": 37,
+  "chars": 998,
+  "examples": 6,
+  "functions": 1,
+  "sha256": "397936c8ff65a64960ba52f4eb300f97a5abac4e884236912ea40e4f0a592bbb"
+ },
+ {
+  "path": "bit_manipulation/gray_code_sequence.py",
+  "folder": "bit_manipulation",
+  "lines": 95,
+  "chars": 2489,
+  "examples": 9,
+  "functions": 2,
+  "sha256": "9b7932071d8c367620bff98b9764a614e576ae3b9013ac3fffa74439798db5e6"
+ },
+ {
+  "path": "bit_manipulation/highest_set_bit.py",
+  "folder": "bit_manipulation",
+  "lines": 34,
+  "chars": 850,
+  "examples": 6,
+  "functions": 1,
+  "sha256": "b615134f1947ac37053dbfc92c7137d82b10cc60478cb0cc936bfa5b8f7aeef8"
+ },
+ {
+  "path": "bit_manipulation/index_of_rightmost_set_bit.py",
+  "folder": "bit_manipulation",
+  "lines": 51,
+  "chars": 1483,
+  "examples": 7,
+  "functions": 1,
+  "sha256": "6cce20f15744c258f04da06f2f53ecad06734c56d609ddf6d8ba4bfc3feebd45"
+ },
+ {
+  "path": "bit_manipulation/is_even.py",
+  "folder": "bit_manipulation",
+  "lines": 75,
+  "chars": 1820,
+  "examples": 16,
+  "functions": 2,
+  "sha256": "1eae91e43f84ae11d17ff39e3a8863900cd419d388544bc3967acbf08ed533c2"
+ },
+ {
+  "path": "bit_manipulation/is_power_of_two.py",
+  "folder": "bit_manipulation",
+  "lines": 61,
+  "chars": 1389,
+  "examples": 12,
+  "functions": 1,
+  "sha256": "7dd2b251fd0e652b4712a510c94a426475f773eae15d365b2a7869e94881a0fb"
+ },
+ {
+  "path": "bit_manipulation/largest_pow_of_two_le_num.py",
+  "folder": "bit_manipulation",
+  "lines": 60,
+  "chars": 1332,
+  "examples": 9,
+  "functions": 1,
+  "sha256": "6776813e1a874b6abde673813ed842655c185b8645a6f186e16631add9869361"
+ },
+ {
+  "path": "bit_manipulation/missing_number.py",
+  "folder": "bit_manipulation",
+  "lines": 40,
+  "chars": 881,
+  "examples": 7,
+  "functions": 1,
+  "sha256": "c0c256efd45ef13ca1d8e7a34f49a10b753076253265378f429bea15da686394"
+ },
+ {
+  "path": "bit_manipulation/next_power_of_two.py",
+  "folder": "bit_manipulation",
+  "lines": 55,
+  "chars": 1193,
+  "examples": 7,
+  "functions": 1,
+  "sha256": "47e30696468c2e4011be5a71453fb2a176e991d17d3660fe337c8f81f309e370"
+ },
+ {
+  "path": "bit_manipulation/numbers_different_signs.py",
+  "folder": "bit_manipulation",
+  "lines": 39,
+  "chars": 856,
+  "examples": 7,
+  "functions": 1,
+  "sha256": "5fac3cf4b3a1e8c54cd58f98091e2c5192ff8d9c0a53cb572e75defbd109c850"
+ },
+ {
+  "path": "bit_manipulation/parity.py",
+  "folder": "bit_manipulation",
+  "lines": 43,
+  "chars": 850,
+  "examples": 6,
+  "functions": 1,
+  "sha256": "29ba7613e71826c99527a29168891bee8941d76568573b9b629f58abeeedfa90"
+ },
+ {
+  "path": "bit_manipulation/power_of_4.py",
+  "folder": "bit_manipulation",
+  "lines": 67,
+  "chars": 1493,
+  "examples": 10,
+  "functions": 1,
+  "sha256": "1873f8705b4c65a57afd6a2dcabd9bfaa682c625bad4efa8c935c99b9fc21e68"
+ },
+ {
+  "path": "bit_manipulation/reverse_bits.py",
+  "folder": "bit_manipulation",
+  "lines": 86,
+  "chars": 2328,
+  "examples": 15,
+  "functions": 2,
+  "sha256": "5ba1856dce9249771dd5c3ffe1c1b51983cc8a1f755b5cbf018022a1216da7d2"
+ },
+ {
+  "path": "bit_manipulation/rotate_bits.py",
+  "folder": "bit_manipulation",
+  "lines": 70,
+  "chars": 1824,
+  "examples": 11,
+  "functions": 2,
+  "sha256": "4fbfe839074133cb182b996c6b7b7f99da715a8309363a1d84e011ef29683f12"
+ },
+ {
+  "path": "bit_manipulation/single_bit_manipulation_operations.py",
+  "folder": "bit_manipulation",
+  "lines": 123,
+  "chars": 3075,
+  "examples": 21,
+  "functions": 6,
+  "sha256": "0638df3c8a7aeaf846b8e6c063b7b47a50c55871d0115c0639639d8a3e8d48d5"
+ },
+ {
+  "path": "bit_manipulation/swap_all_odd_and_even_bits.py",
+  "folder": "bit_manipulation",
+  "lines": 58,
+  "chars": 1893,
+  "examples": 9,
+  "functions": 2,
+  "sha256": "190ea9e5aae81d769e1ed2207b9e42a457acbb9034c26e56321b87d0d94bfedd"
+ },
+ {
+  "path": "bit_manipulation/xor_swap_two_integers.py",
+  "folder": "bit_manipulation",
+  "lines": 40,
+  "chars": 1020,
+  "examples": 5,
+  "functions": 1,
+  "sha256": "6e9a51c09408885a34db356867cd53b7fad39d53d83f2b32a2f04e2048de61ed"
+ },
+ {
+  "path": "blockchain/merkle_tree.py",
+  "folder": "blockchain",
+  "lines": 107,
+  "chars": 2715,
+  "examples": 10,
+  "functions": 4,
+  "sha256": "4746ba64e6811a7947e239f167c53e248b91a53cd9b04462df701058333af400"
+ },
+ {
+  "path": "blockchain/proof_of_stake.py",
+  "folder": "blockchain",
+  "lines": 40,
+  "chars": 1228,
+  "examples": 3,
+  "functions": 2,
+  "sha256": "d54a82c0564b2d4ad243aa265ab4bfa07f96330cfee5390df75ab0df132f0761"
+ },
+ {
+  "path": "blockchain/simple_blockchain.py",
+  "folder": "blockchain",
+  "lines": 168,
+  "chars": 4781,
+  "examples": 22,
+  "functions": 7,
+  "sha256": "4886432377a72ec5ed7e40b63e39994c8e96ae1a0f916f300932767b39d162b5"
+ },
+ {
+  "path": "blockchain/simple_proof_of_work.py",
+  "folder": "blockchain",
+  "lines": 62,
+  "chars": 1712,
+  "examples": 5,
+  "functions": 1,
+  "sha256": "20a3931e9302aa26187b6d521403425f07533efb8db77c0afbb14bad89e9c12c"
+ },
+ {
+  "path": "boolean_algebra/and_gate.py",
+  "folder": "boolean_algebra",
+  "lines": 95,
+  "chars": 2611,
+  "examples": 12,
+  "functions": 2,
+  "sha256": "35df92fc365012dffa9cc5b802c021df90abe66f8f3844b82a85cce986ab5a02"
+ },
+ {
+  "path": "boolean_algebra/imply_gate.py",
+  "folder": "boolean_algebra",
+  "lines": 91,
+  "chars": 2462,
+  "examples": 19,
+  "functions": 2,
+  "sha256": "346153eb7ecbbe5c03fd352c9da2b6e4fc5d8721da82269a41cf41e43a3f5a6f"
+ },
+ {
+  "path": "boolean_algebra/karnaugh_map_simplification.py",
+  "folder": "boolean_algebra",
+  "lines": 55,
+  "chars": 1369,
+  "examples": 7,
+  "functions": 2,
+  "sha256": "9f39ae62c7a5a37dddb21986e6e1ab50b2aa0d2fdf31e1529e0755b716aef4d4"
+ },
+ {
+  "path": "boolean_algebra/multiplexer.py",
+  "folder": "boolean_algebra",
+  "lines": 42,
+  "chars": 1224,
+  "examples": 7,
+  "functions": 1,
+  "sha256": "7279542f216587c8f90597c21c189aaa5360bbb5e160284dec1d5365cfb3c276"
+ },
+ {
+  "path": "boolean_algebra/nand_gate.py",
+  "folder": "boolean_algebra",
+  "lines": 36,
+  "chars": 916,
+  "examples": 4,
+  "functions": 1,
+  "sha256": "a2fb639ff83ec34d606a4119de1e608cc5a304423f1239f071a486b136396845"
+ },
+ {
+  "path": "boolean_algebra/nimply_gate.py",
+  "folder": "boolean_algebra",
+  "lines": 39,
+  "chars": 965,
+  "examples": 4,
+  "functions": 1,
+  "sha256": "4c696a219c4e415fcf14bc078b95e1115368c67f84b7ffce128509c6576e4c16"
+ },
+ {
+  "path": "boolean_algebra/nor_gate.py",
+  "folder": "boolean_algebra",
+  "lines": 68,
+  "chars": 1724,
+  "examples": 7,
+  "functions": 3,
+  "sha256": "aded137880a75729ab2a96b199431a7536415a8022feef262035a32bed6ab5a6"
+ },
+ {
+  "path": "boolean_algebra/or_gate.py",
+  "folder": "boolean_algebra",
+  "lines": 35,
+  "chars": 852,
+  "examples": 4,
+  "functions": 1,
+  "sha256": "de8208db753fa6a5fa43f1b939343a293fc0ccaace8ff037d9223994d913a788"
+ },
+ {
+  "path": "boolean_algebra/xnor_gate.py",
+  "folder": "boolean_algebra",
+  "lines": 37,
+  "chars": 929,
+  "examples": 4,
+  "functions": 1,
+  "sha256": "7844208084692632335894efe32e777546550aecc549c548bd63bb62c34af6e4"
+ },
+ {
+  "path": "boolean_algebra/xor_gate.py",
+  "folder": "boolean_algebra",
+  "lines": 37,
+  "chars": 887,
+  "examples": 4,
+  "functions": 1,
+  "sha256": "94c4f8e6ba73b07897423bc9a259bab5cbe89d8ce73de7a312a03c8ccf08afef"
+ },
+ {
+  "path": "cellular_automata/nagel_schrekenberg.py",
+  "folder": "cellular_automata",
+  "lines": 140,
+  "chars": 5175,
+  "examples": 11,
+  "functions": 4,
+  "sha256": "d0da2677866418b014776c40ae2514e38eb3afa796ef95277b28a107247673ee"
+ },
+ {
+  "path": "cellular_automata/wa_tor.py",
+  "folder": "cellular_automata",
+  "lines": 548,
+  "chars": 20556,
+  "examples": 78,
+  "functions": 14,
+  "sha256": "1ebcfd4b4a8425b114febc69b83a251415d80d8b1d2600f2c5d7ce1df0b269fb"
+ },
+ {
+  "path": "ciphers/atbash.py",
+  "folder": "ciphers",
+  "lines": 54,
+  "chars": 1448,
+  "examples": 4,
+  "functions": 3,
+  "sha256": "515dd579c93adc1379f07a51465c50a0e4a54874c01fc5f5803a23c9fb55c196"
+ },
+ {
+  "path": "ciphers/autokey.py",
+  "folder": "ciphers",
+  "lines": 151,
+  "chars": 4779,
+  "examples": 12,
+  "functions": 2,
+  "sha256": "c490e1ca512a1fccb1fd2a3f46439b5c4e9b68be741108f66ff45fea345a2621"
+ },
+ {
+  "path": "ciphers/baconian_cipher.py",
+  "folder": "ciphers",
+  "lines": 89,
+  "chars": 2136,
+  "examples": 6,
+  "functions": 2,
+  "sha256": "d7ee175f277ded014d238f2ffc8986e64f0817145557802048f2827a01ece9e8"
+ },
+ {
+  "path": "ciphers/base16.py",
+  "folder": "ciphers",
+  "lines": 66,
+  "chars": 2318,
+  "examples": 9,
+  "functions": 2,
+  "sha256": "1bfc4f0b2e9215597646482e96331032b93744c0a9e520a2ce574cdaf69f2c1d"
+ },
+ {
+  "path": "ciphers/base32.py",
+  "folder": "ciphers",
+  "lines": 46,
+  "chars": 1426,
+  "examples": 6,
+  "functions": 2,
+  "sha256": "f3bffb2edc15d663c236c23b5a970aa70f41140b01fd317385899dc7806a8fde"
+ },
+ {
+  "path": "ciphers/base58.py",
+  "folder": "ciphers",
+  "lines": 142,
+  "chars": 5036,
+  "examples": 16,
+  "functions": 2,
+  "sha256": "58a68aa6e646e276ae8215846b7410be3a7602eca9f89b332451eb12274960bf"
+ },
+ {
+  "path": "ciphers/base64_cipher.py",
+  "folder": "ciphers",
+  "lines": 142,
+  "chars": 5036,
+  "examples": 16,
+  "functions": 2,
+  "sha256": "58a68aa6e646e276ae8215846b7410be3a7602eca9f89b332451eb12274960bf"
+ },
+ {
+  "path": "ciphers/base85.py",
+  "folder": "ciphers",
+  "lines": 58,
+  "chars": 1867,
+  "examples": 6,
+  "functions": 4,
+  "sha256": "21b522cf5113df4f2c0897e70bef703213643573616c7b4742f8da1abf348479"
+ },
+ {
+  "path": "ciphers/beaufort_cipher.py",
+  "folder": "ciphers",
+  "lines": 82,
+  "chars": 1940,
+  "examples": 3,
+  "functions": 4,
+  "sha256": "ec975b04d43f708440f3413cfde9c59f3aa63b13c75465ab17a477438bb1e284"
+ },
+ {
+  "path": "ciphers/bifid.py",
+  "folder": "ciphers",
+  "lines": 111,
+  "chars": 3584,
+  "examples": 8,
+  "functions": 5,
+  "sha256": "c3a652c5762f1b984a16f3b397f9a87b2721cc04d7c2360cdb54b7c0c56ec32a"
+ },
+ {
+  "path": "ciphers/caesar_cipher.py",
+  "folder": "ciphers",
+  "lines": 256,
+  "chars": 7956,
+  "examples": 8,
+  "functions": 3,
+  "sha256": "aa9eb21da00ffdaf0ef800b83bb2dc47f10146694f02aa08165dd9f02c70eb09"
+ },
+ {
+  "path": "ciphers/columnar_transposition.py",
+  "folder": "ciphers",
+  "lines": 127,
+  "chars": 3390,
+  "examples": 8,
+  "functions": 4,
+  "sha256": "8eb051eabb7146526adfa13bd6cffec951b7dd0cb80a666a95aa9ea2d0f7d8aa"
+ },
+ {
+  "path": "ciphers/decrypt_caesar_with_chi_squared.py",
+  "folder": "ciphers",
+  "lines": 253,
+  "chars": 9535,
+  "examples": 4,
+  "functions": 2,
+  "sha256": "8c7d80cee2e52a0e2873b25a78c01691ca95b0182b05ea06fe7eeb1ad0335d91"
+ },
+ {
+  "path": "ciphers/des_ecb.py",
+  "folder": "ciphers",
+  "lines": 562,
+  "chars": 20651,
+  "examples": 46,
+  "functions": 14,
+  "sha256": "6f758062046f1ac3fcec88d4b0d60ea60242f3d5e4de135ca054b13060a41a13"
+ },
+ {
+  "path": "ciphers/diffie.py",
+  "folder": "ciphers",
+  "lines": 53,
+  "chars": 1531,
+  "examples": 3,
+  "functions": 1,
+  "sha256": "d1ea509b846656a7e3bb4757c1803e0fc668581355c20ee65705762ead41e26a"
+ },
+ {
+  "path": "ciphers/diffie_hellman.py",
+  "folder": "ciphers",
+  "lines": 267,
+  "chars": 12147,
+  "examples": 12,
+  "functions": 7,
+  "sha256": "256cf7b0afb25e3de10cf8585040127fec7f7d1f749a1fded650a4178a3e1fa1"
+ },
+ {
+  "path": "ciphers/enigma_machine2.py",
+  "folder": "ciphers",
+  "lines": 300,
+  "chars": 8909,
+  "examples": 7,
+  "functions": 3,
+  "sha256": "a21499c4da8dbfb1711941fbd05dccde7af3fb899d1ffdedeee2e7fae93342b4"
+ },
+ {
+  "path": "ciphers/fractionated_morse_cipher.py",
+  "folder": "ciphers",
+  "lines": 168,
+  "chars": 4003,
+  "examples": 3,
+  "functions": 3,
+  "sha256": "e42cc11d3a910d34364e1e071742a2eb65fa83e18fd94ed5816bfa9b27d2c391"
+ },
+ {
+  "path": "ciphers/mono_alphabetic_ciphers.py",
+  "folder": "ciphers",
+  "lines": 64,
+  "chars": 1790,
+  "examples": 3,
+  "functions": 4,
+  "sha256": "ea38e267edb26a74180a3c74ef0d8dea2c6061d7432e149a1fa8e5086ea1c3bc"
+ },
+ {
+  "path": "ciphers/morse_code.py",
+  "folder": "ciphers",
+  "lines": 58,
+  "chars": 1713,
+  "examples": 5,
+  "functions": 3,
+  "sha256": "7fbc4386d942c5d3a6603cbeba9cf0e20a6ad5db6e75012e2cab765a086293ad"
+ },
+ {
+  "path": "ciphers/onepad_cipher.py",
+  "folder": "ciphers",
+  "lines": 64,
+  "chars": 1855,
+  "examples": 13,
+  "functions": 2,
+  "sha256": "6160616d073ba2cf40f2374ba555bb2e82efeedbcbc5733a7ce0c79240d54fb5"
+ },
+ {
+  "path": "ciphers/permutation_cipher.py",
+  "folder": "ciphers",
+  "lines": 143,
+  "chars": 4058,
+  "examples": 11,
+  "functions": 5,
+  "sha256": "46aa9290a284329b6a86618a2f753d50265bc93bf2330a4ec837528c0a0bb40d"
+ },
+ {
+  "path": "ciphers/playfair_cipher.py",
+  "folder": "ciphers",
+  "lines": 159,
+  "chars": 4506,
+  "examples": 8,
+  "functions": 5,
+  "sha256": "71e408d9b78f0904342edd3d1585b73e2143b9e4828df282d5e516ede3dbf7c3"
+ },
+ {
+  "path": "ciphers/polybius.py",
+  "folder": "ciphers",
+  "lines": 96,
+  "chars": 3084,
+  "examples": 8,
+  "functions": 5,
+  "sha256": "0a766a518d2640ddc8d9d264c2367ced77c92aa1b089ff3e45a4b9e79e18b39d"
+ },
+ {
+  "path": "ciphers/porta_cipher.py",
+  "folder": "ciphers",
+  "lines": 103,
+  "chars": 3152,
+  "examples": 5,
+  "functions": 5,
+  "sha256": "fb775be02be23536b5e47506ff5d2df9a1597ef122f1bb9de74fc780ef1f20f1"
+ },
+ {
+  "path": "ciphers/rail_fence_cipher.py",
+  "folder": "ciphers",
+  "lines": 102,
+  "chars": 3060,
+  "examples": 7,
+  "functions": 3,
+  "sha256": "1d1b058c4662f78d3d0e6bd259b457df9393268f67b9eeb55e0eb8c9216ec188"
+ },
+ {
+  "path": "ciphers/rc4.py",
+  "folder": "ciphers",
+  "lines": 217,
+  "chars": 6659,
+  "examples": 8,
+  "functions": 4,
+  "sha256": "d2682f4eac51ce9cab85ee40a7839fa74175e4d7912b08e8e7b96473296ab46d"
+ },
+ {
+  "path": "ciphers/rsa_factorization.py",
+  "folder": "ciphers",
+  "lines": 61,
+  "chars": 1635,
+  "examples": 3,
+  "functions": 1,
+  "sha256": "2ac17b35d667eeeb21278a82a83c840a02406c518e6934e0f20ee09c64fb27f4"
+ },
+ {
+  "path": "ciphers/running_key_cipher.py",
+  "folder": "ciphers",
+  "lines": 75,
+  "chars": 2023,
+  "examples": 3,
+  "functions": 3,
+  "sha256": "852b17cef291b465593f50bce72bc0fffbcf99c8cc536022f1bd3c9f7c1cbe8a"
+ },
+ {
+  "path": "ciphers/shuffled_shift_cipher.py",
+  "folder": "ciphers",
+  "lines": 184,
+  "chars": 6738,
+  "examples": 5,
+  "functions": 9,
+  "sha256": "1b2b24f68665092c1dba0f07913c69b772d827d2d0aa1d8a80807385570ff3c8"
+ },
+ {
+  "path": "ciphers/skytale_cipher.py",
+  "folder": "ciphers",
+  "lines": 103,
+  "chars": 2957,
+  "examples": 8,
+  "functions": 2,
+  "sha256": "8fee05a49c2ba9a29975a0568335953d6a8d75b530440fb28b2889a254ea4942"
+ },
+ {
+  "path": "ciphers/trifid_cipher.py",
+  "folder": "ciphers",
+  "lines": 215,
+  "chars": 6807,
+  "examples": 14,
+  "functions": 5,
+  "sha256": "b83daf9f608d3bc3a3225996b1f6d048d20fc04e30bf2982db9460c89d31dabf"
+ },
+ {
+  "path": "ciphers/xtea.py",
+  "folder": "ciphers",
+  "lines": 118,
+  "chars": 3411,
+  "examples": 15,
+  "functions": 2,
+  "sha256": "d20622adf7b948047a3b22a85ef3239c6fd18f1e62925390e40e79785d33d17f"
+ },
+ {
+  "path": "computer_vision/gramian.py",
+  "folder": "computer_vision",
+  "lines": 69,
+  "chars": 1976,
+  "examples": 8,
+  "functions": 2,
+  "sha256": "69a26397fadb77d764b2a4b65abae4ece10df5a1ad943206b361ecbcc178915b"
+ },
+ {
+  "path": "computer_vision/vision_transformer.py",
+  "folder": "computer_vision",
+  "lines": 442,
+  "chars": 13787,
+  "examples": 50,
+  "functions": 8,
+  "sha256": "3f4d0696ad0cb5e06717f00fb28bfb62088e0a040a8faa1561166958025988d0"
+ },
+ {
+  "path": "conversions/astronomical_length_scale_conversion.py",
+  "folder": "conversions",
+  "lines": 106,
+  "chars": 3045,
+  "examples": 9,
+  "functions": 1,
+  "sha256": "df3612b9a796abaa812937c1f9c8f2c49c510c6c84b222b1c2465f8089c2fe38"
+ },
+ {
+  "path": "conversions/base64_to_binary.py",
+  "folder": "conversions",
+  "lines": 112,
+  "chars": 2540,
+  "examples": 4,
+  "functions": 1,
+  "sha256": "0c600ad7d2637c959c8d452c4b2c519bec0be6fd7486e2e578f75e744610d910"
+ },
+ {
+  "path": "conversions/binary_to_base64.py",
+  "folder": "conversions",
+  "lines": 120,
+  "chars": 2673,
+  "examples": 7,
+  "functions": 1,
+  "sha256": "29be8d5ec0d135b410c72a8002d6148aa31f6b150d04326742888c3c2f4f86ca"
+ },
+ {
+  "path": "conversions/binary_to_decimal.py",
+  "folder": "conversions",
+  "lines": 43,
+  "chars": 1277,
+  "examples": 7,
+  "functions": 1,
+  "sha256": "499412377532d213d0e63aeded47c8a7c029db9632dc4570c167a92e629bdbe8"
+ },
+ {
+  "path": "conversions/binary_to_gray_code.py",
+  "folder": "conversions",
+  "lines": 224,
+  "chars": 5664,
+  "examples": 39,
+  "functions": 4,
+  "sha256": "ca114d3d2ba4f23505e150dadee190861a4f246958bd88deeb937a21d642ee46"
+ },
+ {
+  "path": "conversions/binary_to_hexadecimal.py",
+  "folder": "conversions",
+  "lines": 66,
+  "chars": 1700,
+  "examples": 5,
+  "functions": 1,
+  "sha256": "c5482a15e94049130a48f7ee26581ef3927c1a85462d80b96b8741556466686c"
+ },
+ {
+  "path": "conversions/binary_to_octal.py",
+  "folder": "conversions",
+  "lines": 45,
+  "chars": 1196,
+  "examples": 4,
+  "functions": 1,
+  "sha256": "046c12eb0eed9871130b69f2c60816249eae414194037284ef68a9fe2ab01265"
+ },
+ {
+  "path": "conversions/convert_number_to_words.py",
+  "folder": "conversions",
+  "lines": 205,
+  "chars": 5690,
+  "examples": 21,
+  "functions": 3,
+  "sha256": "1a6bab0f7dc092633ff33708500dcec4227ba9befaf4889e2ee344794343901e"
+ },
+ {
+  "path": "conversions/decimal_to_any.py",
+  "folder": "conversions",
+  "lines": 106,
+  "chars": 3211,
+  "examples": 15,
+  "functions": 1,
+  "sha256": "2d16ca436358609145f0fccfe8d5c3a399c852426514d343b59e0c87b16cac01"
+ },
+ {
+  "path": "conversions/decimal_to_binary.py",
+  "folder": "conversions",
+  "lines": 109,
+  "chars": 3328,
+  "examples": 15,
+  "functions": 3,
+  "sha256": "a488655944a6b6505ae07e7dcb485d87a5e2f9259783f8a8e1e0a599c05bf73c"
+ },
+ {
+  "path": "conversions/decimal_to_hexadecimal.py",
+  "folder": "conversions",
+  "lines": 80,
+  "chars": 1960,
+  "examples": 11,
+  "functions": 1,
+  "sha256": "71d8989f0a00d1409fa5fa42178acc618b7ca4d4e4d0a5f3299ae86d2132a081"
+ },
+ {
+  "path": "conversions/endianness.py",
+  "folder": "conversions",
+  "lines": 329,
+  "chars": 8467,
+  "examples": 37,
+  "functions": 7,
+  "sha256": "62082e7ea0855dd581b0e4abebadd110190fd768002de37deb7016076513bbd3"
+ },
+ {
+  "path": "conversions/energy_conversions.py",
+  "folder": "conversions",
+  "lines": 114,
+  "chars": 4292,
+  "examples": 21,
+  "functions": 1,
+  "sha256": "a26c31e86e1ac2481f05ffc6a8c5c07a8014e700a54ad41e067bd6ce316e0ce4"
+ },
+ {
+  "path": "conversions/excel_title_to_column.py",
+  "folder": "conversions",
+  "lines": 49,
+  "chars": 1269,
+  "examples": 8,
+  "functions": 1,
+  "sha256": "e181b4b1a56d05135cb35c26691564b17a3b766ec0912477ea939ef4386ebe9d"
+ },
+ {
+  "path": "conversions/hex_to_bin.py",
+  "folder": "conversions",
+  "lines": 56,
+  "chars": 1500,
+  "examples": 7,
+  "functions": 1,
+  "sha256": "8d3cf068223b96625012a92433426dd246081fa0d517af585c62232d62ce7e5e"
+ },
+ {
+  "path": "conversions/hex_to_rgb.py",
+  "folder": "conversions",
+  "lines": 79,
+  "chars": 1951,
+  "examples": 8,
+  "functions": 1,
+  "sha256": "99783e3865d34451a0976f3431ae3d7941621c4e34437097d285f3fb935e5e9e"
+ },
+ {
+  "path": "conversions/hexadecimal_to_decimal.py",
+  "folder": "conversions",
+  "lines": 49,
+  "chars": 1521,
+  "examples": 8,
+  "functions": 1,
+  "sha256": "2b57103f517b287e86ceaff6b35458e4f79ffc54d19d1e8dc32a586e1644bae9"
+ },
+ {
+  "path": "conversions/int_to_negative_binary_base.py",
+  "folder": "conversions",
+  "lines": 30,
+  "chars": 775,
+  "examples": 4,
+  "functions": 1,
+  "sha256": "6693f6de05313e82928a81a22c859db9883e059c83f4757c9614bd2994b5a36a"
+ },
+ {
+  "path": "conversions/ipv4_conversion.py",
+  "folder": "conversions",
+  "lines": 85,
+  "chars": 2241,
+  "examples": 9,
+  "functions": 3,
+  "sha256": "343df7f4674f520cf67e3dfe7a02224042ec71429203995e08a5d0227dcb6e7a"
+ },
+ {
+  "path": "conversions/length_conversion.py",
+  "folder": "conversions",
+  "lines": 132,
+  "chars": 4019,
+  "examples": 20,
+  "functions": 1,
+  "sha256": "ea416aa5aeee51a1656f30c16bccf442f371bb6a4f356244255678aa715418a5"
+ },
+ {
+  "path": "conversions/molecular_chemistry.py",
+  "folder": "conversions",
+  "lines": 131,
+  "chars": 3737,
+  "examples": 12,
+  "functions": 6,
+  "sha256": "9df46b0bed935b5948b3821a4c4218d85d464fb03c203ac80d5599e80a4fc1dc"
+ },
+ {
+  "path": "conversions/negative_binary_base_to_int.py",
+  "folder": "conversions",
+  "lines": 24,
+  "chars": 631,
+  "examples": 4,
+  "functions": 1,
+  "sha256": "9a778aac561f1c83df15ed405ab3bfe7d4c7a95f5ee9e82d495568a2a6d795ff"
+ },
+ {
+  "path": "conversions/octal_to_binary.py",
+  "folder": "conversions",
+  "lines": 54,
+  "chars": 1438,
+  "examples": 5,
+  "functions": 1,
+  "sha256": "529ded197d3a0a1b3bd71834db86f2ab2406109cac037d870463ca29c9ab129b"
+ },
+ {
+  "path": "conversions/octal_to_decimal.py",
+  "folder": "conversions",
+  "lines": 79,
+  "chars": 2408,
+  "examples": 17,
+  "functions": 1,
+  "sha256": "5486628c3ec90fe661a41551d36417ecc9fcfa80d434263d636ade89fb2dce71"
+ },
+ {
+  "path": "conversions/octal_to_hexadecimal.py",
+  "folder": "conversions",
+  "lines": 65,
+  "chars": 1626,
+  "examples": 5,
+  "functions": 1,
+  "sha256": "8173ceae51b0ee41320c0a74ad00266733e4ddeaa4fa6e1e6cb41d91d6fd7f5d"
+ },
+ {
+  "path": "conversions/prefix_conversions.py",
+  "folder": "conversions",
+  "lines": 104,
+  "chars": 2468,
+  "examples": 10,
+  "functions": 2,
+  "sha256": "44d0fece45d9fcd5875ddb039ca0713678c112f36429a9e4eb6e7a06bd99fe09"
+ },
+ {
+  "path": "conversions/prefix_conversions_string.py",
+  "folder": "conversions",
+  "lines": 121,
+  "chars": 3181,
+  "examples": 12,
+  "functions": 4,
+  "sha256": "9367704898538d5826c75c51b70325c7f57683b1ba9ca3be8c53fd0229c0d49f"
+ },
+ {
+  "path": "conversions/pressure_conversions.py",
+  "folder": "conversions",
+  "lines": 87,
+  "chars": 2893,
+  "examples": 9,
+  "functions": 1,
+  "sha256": "81f71742651cf0e694ec034b7ca86a77678c4e58c3da3a11b58e2ae431e74c1f"
+ },
+ {
+  "path": "conversions/rectangular_to_polar.py",
+  "folder": "conversions",
+  "lines": 32,
+  "chars": 768,
+  "examples": 7,
+  "functions": 1,
+  "sha256": "e65b43ef222ce7464e3e03647675b84f30f91b2f9985baa3b221b822863415c0"
+ },
+ {
+  "path": "conversions/rgb_cmyk_conversion.py",
+  "folder": "conversions",
+  "lines": 71,
+  "chars": 2002,
+  "examples": 8,
+  "functions": 1,
+  "sha256": "028da0161d90cf1e5384a5029e24c5f9484054aa11ea8dfca2e9c8361fbc9cd8"
+ },
+ {
+  "path": "conversions/rgb_hsv_conversion.py",
+  "folder": "conversions",
+  "lines": 159,
+  "chars": 5789,
+  "examples": 24,
+  "functions": 3,
+  "sha256": "1b314bd152d52c2afe3fa2b686a0e5b7e362cf90c09beb072bb2f14a2cc2150e"
+ },
+ {
+  "path": "conversions/roman_numerals.py",
+  "folder": "conversions",
+  "lines": 84,
+  "chars": 2634,
+  "examples": 8,
+  "functions": 2,
+  "sha256": "38afe389e764b400d3322789a9634036d123e9520529d095442a52f19c4904bb"
+ },
+ {
+  "path": "conversions/speed_conversions.py",
+  "folder": "conversions",
+  "lines": 71,
+  "chars": 1770,
+  "examples": 12,
+  "functions": 1,
+  "sha256": "2b109accce5b10bcda4464acfe9d0c1b8be60443ce96726130e549771c94654e"
+ },
+ {
+  "path": "conversions/temperature_conversions.py",
+  "folder": "conversions",
+  "lines": 385,
+  "chars": 11615,
+  "examples": 95,
+  "functions": 16,
+  "sha256": "e1f631535c21b40de2b0583610db80e2c867b1b626c6ea777fb130be127a8fdc"
+ },
+ {
+  "path": "conversions/time_conversions.py",
+  "folder": "conversions",
+  "lines": 86,
+  "chars": 3127,
+  "examples": 11,
+  "functions": 1,
+  "sha256": "1444607bd915b6d8e81515c544471385ac30e10c8028a1f097020c2a87d43831"
+ },
+ {
+  "path": "conversions/volume_conversions.py",
+  "folder": "conversions",
+  "lines": 83,
+  "chars": 2712,
+  "examples": 8,
+  "functions": 1,
+  "sha256": "cda95ca59ebe11ddc2bdf6569637a18c43cb00121503bbbd91d7298eb3a3982b"
+ },
+ {
+  "path": "conversions/weight_conversion.py",
+  "folder": "conversions",
+  "lines": 319,
+  "chars": 10699,
+  "examples": 112,
+  "functions": 1,
+  "sha256": "81784f863fa5fe2cd41e5509fdeebdd1fa4c0c71a134450b959d898de6a8f2fd"
+ },
+ {
+  "path": "data_compression/burrows_wheeler.py",
+  "folder": "data_compression",
+  "lines": 177,
+  "chars": 6956,
+  "examples": 19,
+  "functions": 3,
+  "sha256": "1ab06834572310f2169f117b4232f4b2446951ad862ab435eee0239260a8a3c2"
+ },
+ {
+  "path": "data_compression/coordinate_compression.py",
+  "folder": "data_compression",
+  "lines": 145,
+  "chars": 4325,
+  "examples": 18,
+  "functions": 4,
+  "sha256": "98ff2a7fa80d42a4be949a7a67e7f6e1f46bca263d6a9bea2c98f72e2efc8f88"
+ },
+ {
+  "path": "data_compression/move_to_front.py",
+  "folder": "data_compression",
+  "lines": 99,
+  "chars": 3001,
+  "examples": 11,
+  "functions": 3,
+  "sha256": "d71e6280014e9adcf2bede5a40e4b332351c260e044c25793964b09f70cba2fe"
+ },
+ {
+  "path": "data_compression/run_length_encoding.py",
+  "folder": "data_compression",
+  "lines": 48,
+  "chars": 1325,
+  "examples": 8,
+  "functions": 2,
+  "sha256": "26d047b31fd2eacde3ef6f900537548ab9680dfc44e643e6645f6a6113787afa"
+ },
+ {
+  "path": "data_structures/arrays/dynamic_array.py",
+  "folder": "data_structures",
+  "lines": 127,
+  "chars": 3295,
+  "examples": 36,
+  "functions": 7,
+  "sha256": "1f7ba4cfc2e56ceaae3da618c039f0b8b2ca0e1ba6c68adf883f2b77e50c2f75"
+ },
+ {
+  "path": "data_structures/arrays/equilibrium_index_in_array.py",
+  "folder": "data_structures",
+  "lines": 66,
+  "chars": 1575,
+  "examples": 9,
+  "functions": 1,
+  "sha256": "1046b322ccf7f227bcc4ddc578a689c8a437f9f7559f06aa3cafa8afd66e9c7b"
+ },
+ {
+  "path": "data_structures/arrays/find_triplets_with_0_sum.py",
+  "folder": "data_structures",
+  "lines": 139,
+  "chars": 4234,
+  "examples": 11,
+  "functions": 3,
+  "sha256": "510f1f4b7a06df96ec5dcd07728b07ac5a68a2a159e45f93f0ea60d350acdfd7"
+ },
+ {
+  "path": "data_structures/arrays/gas_station.py",
+  "folder": "data_structures",
+  "lines": 50,
+  "chars": 1498,
+  "examples": 5,
+  "functions": 1,
+  "sha256": "dec6dd3d807d989e7efd0c3bcfefba6aa5ca2660b68ac7a4b44d026dfedde125"
+ },
+ {
+  "path": "data_structures/arrays/index_2d_array_in_1d.py",
+  "folder": "data_structures",
+  "lines": 105,
+  "chars": 3133,
+  "examples": 17,
+  "functions": 2,
+  "sha256": "09b2ac20795f7ef872570cb55be98b3b29dab9d61db58d4597d70d7a93a3b2ec"
+ },
+ {
+  "path": "data_structures/arrays/kth_largest_element.py",
+  "folder": "data_structures",
+  "lines": 117,
+  "chars": 3673,
+  "examples": 15,
+  "functions": 2,
+  "sha256": "d0aa638b5a83c2c9ce4d9f18ea02075120a1f960b5f107cfa170e7889c3557f5"
+ },
+ {
+  "path": "data_structures/arrays/median_two_array.py",
+  "folder": "data_structures",
+  "lines": 61,
+  "chars": 1553,
+  "examples": 7,
+  "functions": 1,
+  "sha256": "cb34dd4870be88e012713d9c2d376df7c91ad93eb36a4f864ec3cecd2f994310"
+ },
+ {
+  "path": "data_structures/arrays/merge_intervals.py",
+  "folder": "data_structures",
+  "lines": 64,
+  "chars": 1987,
+  "examples": 5,
+  "functions": 1,
+  "sha256": "af3ae62a436979f4023b8492605b3b2d12c385147ad8621563e03e958e2cb7de"
+ },
+ {
+  "path": "data_structures/arrays/merge_sorted.py",
+  "folder": "data_structures",
+  "lines": 76,
+  "chars": 1874,
+  "examples": 9,
+  "functions": 1,
+  "sha256": "d327a2c707b109c9b471d5efc6a908b131a48b9889dc493c5e11fd06339c7dc3"
+ },
+ {
+  "path": "data_structures/arrays/monotonic_array.py",
+  "folder": "data_structures",
+  "lines": 37,
+  "chars": 946,
+  "examples": 8,
+  "functions": 1,
+  "sha256": "3802df4160663f73cf8d950985f4acf3d8a3ba9e9f3d0e1299f7af86edd478f1"
+ },
+ {
+  "path": "data_structures/arrays/pairs_with_given_sum.py",
+  "folder": "data_structures",
+  "lines": 29,
+  "chars": 702,
+  "examples": 3,
+  "functions": 1,
+  "sha256": "6b17d37bef26254b175038297d7390e264df2ea9168c93301a097697e1777db7"
+ },
+ {
+  "path": "data_structures/arrays/pairwise_iteration.py",
+  "folder": "data_structures",
+  "lines": 145,
+  "chars": 5087,
+  "examples": 18,
+  "functions": 2,
+  "sha256": "a56b281c091a8f149a99a3928d3d34beddab925bbc81f73fb199703961f37ae8"
+ },
+ {
+  "path": "data_structures/arrays/prefix_sum.py",
+  "folder": "data_structures",
+  "lines": 96,
+  "chars": 2571,
+  "examples": 13,
+  "functions": 3,
+  "sha256": "33284e80df515c54e1096e8eadcba72055d6e4b339a844d1afdf3375ebbfe549"
+ },
+ {
+  "path": "data_structures/arrays/product_sum.py",
+  "folder": "data_structures",
+  "lines": 222,
+  "chars": 6504,
+  "examples": 22,
+  "functions": 4,
+  "sha256": "73b89889350d24c4b6e09cdd4482e841cc9c7c478e9fef9ca03af5f359a65fdc"
+ },
+ {
+  "path": "data_structures/arrays/reverse_array.py",
+  "folder": "data_structures",
+  "lines": 72,
+  "chars": 2157,
+  "examples": 9,
+  "functions": 1,
+  "sha256": "168f5fdde8de1f8a21387bdd48898e5a00c660515da81d7427dc5a21182b2ad9"
+ },
+ {
+  "path": "data_structures/arrays/rotate_array.py",
+  "folder": "data_structures",
+  "lines": 80,
+  "chars": 1935,
+  "examples": 4,
+  "functions": 2,
+  "sha256": "63c0c391ceeee1f08abafdaec6ac16a0373c34bb47bf27efb633ce8a6154ad11"
+ },
+ {
+  "path": "data_structures/arrays/set_matrix_zeroes.py",
+  "folder": "data_structures",
+  "lines": 67,
+  "chars": 1754,
+  "examples": 6,
+  "functions": 1,
+  "sha256": "1c7e8bd75916bd09a509f9142f5400892eba78e07e01b16f79cc13c5751e520d"
+ },
+ {
+  "path": "data_structures/arrays/sparse_table.py",
+  "folder": "data_structures",
+  "lines": 95,
+  "chars": 3318,
+  "examples": 9,
+  "functions": 2,
+  "sha256": "1e28d3f54788e44db42ecb5b60a301e9074ff95149d5ad41da80e92726b5110b"
+ },
+ {
+  "path": "data_structures/binary_tree/avl_tree.py",
+  "folder": "data_structures",
+  "lines": 350,
+  "chars": 9708,
+  "examples": 10,
+  "functions": 31,
+  "sha256": "c70f5c412f3e2e072b4715a999926929648f98d9c29bc3d997121729806efd26"
+ },
+ {
+  "path": "data_structures/binary_tree/basic_binary_tree.py",
+  "folder": "data_structures",
+  "lines": 110,
+  "chars": 2678,
+  "examples": 12,
+  "functions": 10,
+  "sha256": "3f17b5af01a9d7ee0cc722b96529731ff4bed8b4848f21da3f1da7ca0422ca57"
+ },
+ {
+  "path": "data_structures/binary_tree/binary_search_tree.py",
+  "folder": "data_structures",
+  "lines": 354,
+  "chars": 10931,
+  "examples": 51,
+  "functions": 20,
+  "sha256": "6125cd03f0d882369ca12ffc47bdd855e55f17f1e95d805e4d84e9e0b30edf87"
+ },
+ {
+  "path": "data_structures/binary_tree/binary_tree_maximum_path_sum.py",
+  "folder": "data_structures",
+  "lines": 116,
+  "chars": 2700,
+  "examples": 16,
+  "functions": 4,
+  "sha256": "6a03ec1d0c294c8f1c56ad9c5eb4b20b126a995fb2d984d5f35a103d4716c521"
+ },
+ {
+  "path": "data_structures/binary_tree/binary_tree_mirror.py",
+  "folder": "data_structures",
+  "lines": 45,
+  "chars": 1793,
+  "examples": 4,
+  "functions": 2,
+  "sha256": "37f2f61673779791c3e5104526f62c1b1bb14e5b4e5f52b06361a73c5ef292d0"
+ },
+ {
+  "path": "data_structures/binary_tree/binary_tree_node_sum.py",
+  "folder": "data_structures",
+  "lines": 75,
+  "chars": 1671,
+  "examples": 11,
+  "functions": 4,
+  "sha256": "026d47a9beca36f06267ceef1226191c9169737e4112ec91aa4ab23e1681279d"
+ },
+ {
+  "path": "data_structures/binary_tree/binary_tree_path_sum.py",
+  "folder": "data_structures",
+  "lines": 108,
+  "chars": 2468,
+  "examples": 21,
+  "functions": 4,
+  "sha256": "2e00fb7ed8a2ba54a2d5bcb00f1073d71495827c69f653fdd006369597cf130c"
+ },
+ {
+  "path": "data_structures/binary_tree/binary_tree_traversals.py",
+  "folder": "data_structures",
+  "lines": 213,
+  "chars": 5536,
+  "examples": 12,
+  "functions": 13,
+  "sha256": "4b0bdd9a297639f7a95a6ecb138654906c6f1c09054d0d5a3f0ec843c0b1949c"
+ },
+ {
+  "path": "data_structures/binary_tree/diameter_of_binary_tree.py",
+  "folder": "data_structures",
+  "lines": 73,
+  "chars": 1645,
+  "examples": 14,
+  "functions": 2,
+  "sha256": "91e32a09da51bdec9379ebf07697d970a8f43d4a88f5d1902c952176f92f9fae"
+ },
+ {
+  "path": "data_structures/binary_tree/diff_views_of_binary_tree.py",
+  "folder": "data_structures",
+  "lines": 210,
+  "chars": 4827,
+  "examples": 9,
+  "functions": 9,
+  "sha256": "0b5e18e42cfe41f5ebad22a6db5a6fb7de2a61fca1d66edc0ae4c25c5df2f698"
+ },
+ {
+  "path": "data_structures/binary_tree/distribute_coins.py",
+  "folder": "data_structures",
+  "lines": 137,
+  "chars": 3261,
+  "examples": 6,
+  "functions": 4,
+  "sha256": "728bf7aaa9215f0967b0d178c5f1db4c671a217e175a6f0bd1d866565c0dd3e8"
+ },
+ {
+  "path": "data_structures/binary_tree/fenwick_tree.py",
+  "folder": "data_structures",
+  "lines": 247,
+  "chars": 6368,
+  "examples": 45,
+  "functions": 11,
+  "sha256": "66ac84d5b452b48e99bfd9580f1b3fed45f584d596b195990e757f8e3c65d0b6"
+ },
+ {
+  "path": "data_structures/binary_tree/flatten_binarytree_to_linkedlist.py",
+  "folder": "data_structures",
+  "lines": 139,
+  "chars": 3408,
+  "examples": 24,
+  "functions": 4,
+  "sha256": "075b5279ccc646579f2119e3f7980f504e772e56a9bb92978587da5ccc86f998"
+ },
+ {
+  "path": "data_structures/binary_tree/floor_and_ceiling.py",
+  "folder": "data_structures",
+  "lines": 88,
+  "chars": 2110,
+  "examples": 12,
+  "functions": 3,
+  "sha256": "de1a8b6e7a50f6999bd5127828185b00eb6d4bab413547054bf7814e48aa3609"
+ },
+ {
+  "path": "data_structures/binary_tree/inorder_tree_traversal_2022.py",
+  "folder": "data_structures",
+  "lines": 82,
+  "chars": 2272,
+  "examples": 6,
+  "functions": 5,
+  "sha256": "b2b0ae44f8ac0c063dd97deb6d6159f166510249195f236fda75677f160a1aab"
+ },
+ {
+  "path": "data_structures/binary_tree/is_sorted.py",
+  "folder": "data_structures",
+  "lines": 98,
+  "chars": 3044,
+  "examples": 13,
+  "functions": 2,
+  "sha256": "3f83ad5bf356ac776b138c671be9292c0b400672b2f6ae2bd4bcf4b6e357ab64"
+ },
+ {
+  "path": "data_structures/binary_tree/is_sum_tree.py",
+  "folder": "data_structures",
+  "lines": 162,
+  "chars": 4126,
+  "examples": 21,
+  "functions": 9,
+  "sha256": "4e0900ff48c231ab6f68acf92aec3b68b254aa2fb18f5b1aaa47b50302180fc6"
+ },
+ {
+  "path": "data_structures/binary_tree/lazy_segment_tree.py",
+  "folder": "data_structures",
+  "lines": 136,
+  "chars": 4847,
+  "examples": 14,
+  "functions": 7,
+  "sha256": "4bea028d02e10a9cee6a94b68b824ead0464b8f7c7b227b4bb5b521cbb07163a"
+ },
+ {
+  "path": "data_structures/binary_tree/lowest_common_ancestor.py",
+  "folder": "data_structures",
+  "lines": 171,
+  "chars": 4999,
+  "examples": 33,
+  "functions": 5,
+  "sha256": "803938f1fe912a5198bb8a17e7756cb0853be949f5a56d92e7828fc1777d2bfb"
+ },
+ {
+  "path": "data_structures/binary_tree/maximum_fenwick_tree.py",
+  "folder": "data_structures",
+  "lines": 189,
+  "chars": 5365,
+  "examples": 33,
+  "functions": 5,
+  "sha256": "4ca725efb25a4184dcf08515bbed73864599bcdfa4c69f203abcee59724ca4f3"
+ },
+ {
+  "path": "data_structures/binary_tree/maximum_sum_bst.py",
+  "folder": "data_structures",
+  "lines": 78,
+  "chars": 2143,
+  "examples": 19,
+  "functions": 2,
+  "sha256": "8e78662a905bf02ee4491416b0a566a85b2cfafe764415fa2cd34837da18bc96"
+ },
+ {
+  "path": "data_structures/binary_tree/merge_two_binary_trees.py",
+  "folder": "data_structures",
+  "lines": 94,
+  "chars": 2285,
+  "examples": 16,
+  "functions": 3,
+  "sha256": "56a00d7bdd9b1d83db1dc03dc5b5f0b2ff1c353c19957b2cfdd3aa027b47f3c0"
+ },
+ {
+  "path": "data_structures/binary_tree/mirror_binary_tree.py",
+  "folder": "data_structures",
+  "lines": 160,
+  "chars": 3494,
+  "examples": 15,
+  "functions": 6,
+  "sha256": "45b51aa8dae9abebdf8e2d1f46197be4e6099f6c5bdbcf8e3490dd29dade7b04"
+ },
+ {
+  "path": "data_structures/binary_tree/non_recursive_segment_tree.py",
+  "folder": "data_structures",
+  "lines": 162,
+  "chars": 4719,
+  "examples": 27,
+  "functions": 5,
+  "sha256": "f9345b49d61a099514efa73282e0e45278a8b88c7fe43aa51384bbef76f2daea"
+ },
+ {
+  "path": "data_structures/binary_tree/number_of_possible_binary_trees.py",
+  "folder": "data_structures",
+  "lines": 102,
+  "chars": 2889,
+  "examples": 8,
+  "functions": 4,
+  "sha256": "70bd81901fe750afe593cf474ae0495c6a724d3fd065c9345adf5ccb29c1e60a"
+ },
+ {
+  "path": "data_structures/binary_tree/persistent_segment_tree.py",
+  "folder": "data_structures",
+  "lines": 138,
+  "chars": 4912,
+  "examples": 29,
+  "functions": 6,
+  "sha256": "1dcde0f54ed203a197ac49f9a708c50dd7c64e2501e92ca78a08fb3a9169cdb5"
+ },
+ {
+  "path": "data_structures/binary_tree/segment_tree.py",
+  "folder": "data_structures",
+  "lines": 116,
+  "chars": 3348,
+  "examples": 12,
+  "functions": 9,
+  "sha256": "af99397676610ef663d518c392f608846f9bf76e7677bb1c5af554381349d8d4"
+ },
+ {
+  "path": "data_structures/binary_tree/segment_tree_other.py",
+  "folder": "data_structures",
+  "lines": 237,
+  "chars": 7583,
+  "examples": 32,
+  "functions": 9,
+  "sha256": "54a899fa71b769bb6d4d869c740288f082b32c70b2e2b9a52042e1eba848a2ac"
+ },
+ {
+  "path": "data_structures/binary_tree/serialize_deserialize_binary_tree.py",
+  "folder": "data_structures",
+  "lines": 140,
+  "chars": 3569,
+  "examples": 19,
+  "functions": 7,
+  "sha256": "94e91fc9f75bc1a1d497389a70ee5a84d908fd40a3feb3eb1ed22d1c4a624143"
+ },
+ {
+  "path": "data_structures/binary_tree/splay_tree.py",
+  "folder": "data_structures",
+  "lines": 237,
+  "chars": 7286,
+  "examples": 30,
+  "functions": 9,
+  "sha256": "3cb3c9ca624cc94149b06433b721c836773d167dca8ff11600784d2ad214741c"
+ },
+ {
+  "path": "data_structures/binary_tree/symmetric_tree.py",
+  "folder": "data_structures",
+  "lines": 159,
+  "chars": 3636,
+  "examples": 18,
+  "functions": 4,
+  "sha256": "e9993f06cd6dec90b9315789b342f70077ecae9a84af773f24888ab6db5cd8c4"
+ },
+ {
+  "path": "data_structures/binary_tree/wavelet_tree.py",
+  "folder": "data_structures",
+  "lines": 210,
+  "chars": 6065,
+  "examples": 26,
+  "functions": 7,
+  "sha256": "fcf2beaf763e24256823cb7082a6102d51b7f160adb78ad777997ccb9e59aa49"
+ },
+ {
+  "path": "data_structures/disjoint_set/alternate_disjoint_set.py",
+  "folder": "data_structures",
+  "lines": 68,
+  "chars": 2192,
+  "examples": 8,
+  "functions": 3,
+  "sha256": "f64d17e127b781147d0437f942c70527e596e6497e8ed4184a5f6a82dc5389e6"
+ },
+ {
+  "path": "data_structures/hashing/bloom_filter.py",
+  "folder": "data_structures",
+  "lines": 106,
+  "chars": 2797,
+  "examples": 19,
+  "functions": 9,
+  "sha256": "4ed3710659212bd7dfadc4debef474eb539e1e4470573eb273b22e2d64fd0bca"
+ },
+ {
+  "path": "data_structures/hashing/double_hash.py",
+  "folder": "data_structures",
+  "lines": 85,
+  "chars": 2722,
+  "examples": 15,
+  "functions": 4,
+  "sha256": "9c813b0405b9ba0702de8afcb5092572d009c244842a9a352f6a15f9e02533cc"
+ },
+ {
+  "path": "data_structures/hashing/hash_map.py",
+  "folder": "data_structures",
+  "lines": 327,
+  "chars": 8730,
+  "examples": 88,
+  "functions": 19,
+  "sha256": "f0affae845ba948eb662d78f7d404002cf4516952801842ed6ada7ede899a8bf"
+ },
+ {
+  "path": "data_structures/hashing/hash_table.py",
+  "folder": "data_structures",
+  "lines": 283,
+  "chars": 8101,
+  "examples": 77,
+  "functions": 10,
+  "sha256": "19a6c573b314cacdbadc5ec31b3b5d50f989c18e98a1dbb519250eaf92f8b284"
+ },
+ {
+  "path": "data_structures/hashing/number_theory/prime_numbers.py",
+  "folder": "data_structures",
+  "lines": 59,
+  "chars": 1285,
+  "examples": 9,
+  "functions": 2,
+  "sha256": "3bcefafe4b629c4fd76f7750728d504eca5bc9ec359eaf4bb459fe3760246883"
+ },
+ {
+  "path": "data_structures/hashing/quadratic_probing.py",
+  "folder": "data_structures",
+  "lines": 84,
+  "chars": 2369,
+  "examples": 24,
+  "functions": 2,
+  "sha256": "1c1a68f1fff3096c331f9beed9bf562cb9e466462955e9a9afab8f4180a02007"
+ },
+ {
+  "path": "data_structures/heap/binomial_heap.py",
+  "folder": "data_structures",
+  "lines": 403,
+  "chars": 12390,
+  "examples": 16,
+  "functions": 11,
+  "sha256": "cbdb8d602eb29115d8e1318b4549fb107321572879e189eeb034ba09f8c1c0ec"
+ },
+ {
+  "path": "data_structures/heap/heap.py",
+  "folder": "data_structures",
+  "lines": 267,
+  "chars": 7224,
+  "examples": 61,
+  "functions": 11,
+  "sha256": "c239eebab1e963e44e9ade45210606dfe0cc88b906c407a38e3c55fccdf30ce2"
+ },
+ {
+  "path": "data_structures/heap/heap_generic.py",
+  "folder": "data_structures",
+  "lines": 174,
+  "chars": 5826,
+  "examples": 24,
+  "functions": 15,
+  "sha256": "b628e82185ef25324f398a04ddfd9eaaba74c602d6cb49f268068f6fd065ff2b"
+ },
+ {
+  "path": "data_structures/heap/max_heap.py",
+  "folder": "data_structures",
+  "lines": 86,
+  "chars": 2436,
+  "examples": 9,
+  "functions": 7,
+  "sha256": "d832be5f158b546eb7eae34e76ffc2167d665e675e37aa6855a62b3b85c11fed"
+ },
+ {
+  "path": "data_structures/heap/min_heap.py",
+  "folder": "data_structures",
+  "lines": 170,
+  "chars": 4607,
+  "examples": 10,
+  "functions": 17,
+  "sha256": "987b6d79e2126d2f368c679d2f6f3b195af323803cdf6c8bc6d89cf0a459dab0"
+ },
+ {
+  "path": "data_structures/heap/randomized_heap.py",
+  "folder": "data_structures",
+  "lines": 222,
+  "chars": 5297,
+  "examples": 54,
+  "functions": 10,
+  "sha256": "6ba2aec0ccf833b608db1bb6186d9bf9a87fc3b4b762441fe3ed1d1b5f421a84"
+ },
+ {
+  "path": "data_structures/heap/skew_heap.py",
+  "folder": "data_structures",
+  "lines": 237,
+  "chars": 5632,
+  "examples": 58,
+  "functions": 10,
+  "sha256": "443cf0c55b9959dd8f2273ef50eaa195a8b100a89bee557744f1f740069f109f"
+ },
+ {
+  "path": "data_structures/linked_list/deque_doubly.py",
+  "folder": "data_structures",
+  "lines": 143,
+  "chars": 4103,
+  "examples": 20,
+  "functions": 13,
+  "sha256": "3f49deb8df79c35d3d28c0bb4a77faa36755002a16203abd7446f361ef5748cc"
+ },
+ {
+  "path": "data_structures/linked_list/doubly_linked_list.py",
+  "folder": "data_structures",
+  "lines": 250,
+  "chars": 7561,
+  "examples": 35,
+  "functions": 15,
+  "sha256": "e78e16b04f6ff35b8d6c6b03aabdf861351cfe654d21d15edbec3011ccb5aba2"
+ },
+ {
+  "path": "data_structures/linked_list/doubly_linked_list_two.py",
+  "folder": "data_structures",
+  "lines": 262,
+  "chars": 6919,
+  "examples": 43,
+  "functions": 20,
+  "sha256": "e91d76f7e6fdc5457c214c2c37aec390f970aecaaf0b99958801f14ef7f03008"
+ },
+ {
+  "path": "data_structures/linked_list/floyds_cycle_detection.py",
+  "folder": "data_structures",
+  "lines": 150,
+  "chars": 4220,
+  "examples": 18,
+  "functions": 3,
+  "sha256": "8c1212c8f49825ce66292378f28b170caf8ee4de165cb3d77d740d39faabdc61"
+ },
+ {
+  "path": "data_structures/linked_list/from_sequence.py",
+  "folder": "data_structures",
+  "lines": 57,
+  "chars": 1696,
+  "examples": 6,
+  "functions": 3,
+  "sha256": "27fcc9e8f3f7fba6b90e4c73f5048b77eff670877a845c4a3c81f7b8f0cc6e6d"
+ },
+ {
+  "path": "data_structures/linked_list/has_loop.py",
+  "folder": "data_structures",
+  "lines": 63,
+  "chars": 1756,
+  "examples": 7,
+  "functions": 3,
+  "sha256": "958f773b069a2c88af23d24f44da64203369f65fe2deccbedc268f7469b1d9ab"
+ },
+ {
+  "path": "data_structures/linked_list/is_palindrome.py",
+  "folder": "data_structures",
+  "lines": 185,
+  "chars": 4633,
+  "examples": 16,
+  "functions": 3,
+  "sha256": "401f48f479f46f8e2ce425a3f46a688eeaae62ad49b8bf17697965f8b97bb740"
+ },
+ {
+  "path": "data_structures/linked_list/kth_element_from_end.py",
+  "folder": "data_structures",
+  "lines": 140,
+  "chars": 4040,
+  "examples": 34,
+  "functions": 5,
+  "sha256": "b849ab46668f856d46738e65e69fe754aa5f557f729f30bdd28be35806eff156"
+ },
+ {
+  "path": "data_structures/linked_list/merge_two_lists.py",
+  "folder": "data_structures",
+  "lines": 83,
+  "chars": 2210,
+  "examples": 12,
+  "functions": 5,
+  "sha256": "97448c995975c80bfb80c3808b34afba6b1f915965f6a0665f544713791ad3d1"
+ },
+ {
+  "path": "data_structures/linked_list/middle_element_of_linked_list.py",
+  "folder": "data_structures",
+  "lines": 68,
+  "chars": 1551,
+  "examples": 14,
+  "functions": 4,
+  "sha256": "1bc958b43c7b1511051b525c65e5c0394fc200523c006757abc93f1bf3f26e75"
+ },
+ {
+  "path": "data_structures/linked_list/partition_linked_list.py",
+  "folder": "data_structures",
+  "lines": 175,
+  "chars": 5233,
+  "examples": 58,
+  "functions": 5,
+  "sha256": "40fb6d85867450dd0d8b431ba117268ab6fae21c173a34720bde526c1468f3ee"
+ },
+ {
+  "path": "data_structures/linked_list/print_reverse.py",
+  "folder": "data_structures",
+  "lines": 126,
+  "chars": 3611,
+  "examples": 31,
+  "functions": 7,
+  "sha256": "886fae295af7fcdb83f557cad238f59a3b81eb90ce514293e3e82708c4d85f4e"
+ },
+ {
+  "path": "data_structures/linked_list/remove_nth_node_from_end_of_list.py",
+  "folder": "data_structures",
+  "lines": 142,
+  "chars": 3750,
+  "examples": 20,
+  "functions": 5,
+  "sha256": "18dad697bbdb4a6b7555efedbbd8fc9363b865e3e23abe7da4d24899d5017c47"
+ },
+ {
+  "path": "data_structures/linked_list/reverse_k_group.py",
+  "folder": "data_structures",
+  "lines": 118,
+  "chars": 3076,
+  "examples": 19,
+  "functions": 6,
+  "sha256": "521ef7c3becaa53dd37773dfff25ad949e2dd8cc84ff95ecd61e1496c0fbf2c1"
+ },
+ {
+  "path": "data_structures/linked_list/rotate_to_the_right.py",
+  "folder": "data_structures",
+  "lines": 156,
+  "chars": 4104,
+  "examples": 21,
+  "functions": 3,
+  "sha256": "67a4f5a6391f9d0c691179535fe89773f45bfbf9d63f3e798019826ca0eadbc1"
+ },
+ {
+  "path": "data_structures/linked_list/skip_list.py",
+  "folder": "data_structures",
+  "lines": 448,
+  "chars": 12721,
+  "examples": 32,
+  "functions": 24,
+  "sha256": "55ac9ab44214e342e8e34b7112793aa20a8fedd617bfb75e066c5b9ad4972173"
+ },
+ {
+  "path": "data_structures/linked_list/swap_nodes.py",
+  "folder": "data_structures",
+  "lines": 148,
+  "chars": 4157,
+  "examples": 38,
+  "functions": 4,
+  "sha256": "cd7a67315e612f85075508a221be38221d133a3a7288cd3106cb4761b0ca455a"
+ },
+ {
+  "path": "data_structures/linked_list/xor_linked_list.py",
+  "folder": "data_structures",
+  "lines": 85,
+  "chars": 2768,
+  "examples": 5,
+  "functions": 4,
+  "sha256": "2d855f0301832d00877c663c944370a3d8a147b148fef97c44df45f621db3429"
+ },
+ {
+  "path": "data_structures/queues/circular_queue.py",
+  "folder": "data_structures",
+  "lines": 109,
+  "chars": 3138,
+  "examples": 25,
+  "functions": 6,
+  "sha256": "134efb8cb467fdc27e11d57406b53bdcdaf59ef6c8869f93b93664f7d3527a4c"
+ },
+ {
+  "path": "data_structures/queues/circular_queue_linked_list.py",
+  "folder": "data_structures",
+  "lines": 161,
+  "chars": 4233,
+  "examples": 30,
+  "functions": 9,
+  "sha256": "328644bd1d819edf46850fffd51052c7ab2837ab90c00b4b065a42402d523983"
+ },
+ {
+  "path": "data_structures/queues/double_ended_queue.py",
+  "folder": "data_structures",
+  "lines": 463,
+  "chars": 13878,
+  "examples": 134,
+  "functions": 15,
+  "sha256": "52bfd0f01551ac7f7ef64c3bedc5f8367af3324340bcf5227cfd130217d5693c"
+ },
+ {
+  "path": "data_structures/queues/linked_queue.py",
+  "folder": "data_structures",
+  "lines": 156,
+  "chars": 3708,
+  "examples": 43,
+  "functions": 10,
+  "sha256": "6960f8f8589d0592b862e34f47bed1c4f926d62d0dcd0787dc1290d1e8b6b511"
+ },
+ {
+  "path": "data_structures/queues/priority_queue_using_list.py",
+  "folder": "data_structures",
+  "lines": 231,
+  "chars": 5723,
+  "examples": 46,
+  "functions": 10,
+  "sha256": "2aedfc125071ce0fb4084ac796849062fc34e08748c5a03c6a5b092fe3c4a4b2"
+ },
+ {
+  "path": "data_structures/queues/queue_by_list.py",
+  "folder": "data_structures",
+  "lines": 138,
+  "chars": 3037,
+  "examples": 43,
+  "functions": 7,
+  "sha256": "14801530959eabb14ac7c9028b08cb14cdc08cab86d4c431d9f32117b09541ed"
+ },
+ {
+  "path": "data_structures/queues/queue_by_two_stacks.py",
+  "folder": "data_structures",
+  "lines": 112,
+  "chars": 2614,
+  "examples": 32,
+  "functions": 5,
+  "sha256": "285f9e70014d4b6762f3cab922da5ee8c9f1595236e6bc4e2944c7c1529d7f12"
+ },
+ {
+  "path": "data_structures/stacks/balanced_parentheses.py",
+  "folder": "data_structures",
+  "lines": 44,
+  "chars": 1215,
+  "examples": 8,
+  "functions": 1,
+  "sha256": "e9b404eaf225f14a02e4f38aa7710c92b0f07f7ae93a645962559c0c76f31f4d"
+ },
+ {
+  "path": "data_structures/stacks/dijkstras_two_stack_algorithm.py",
+  "folder": "data_structures",
+  "lines": 84,
+  "chars": 2643,
+  "examples": 3,
+  "functions": 1,
+  "sha256": "0e1517439429cc6944c7a76225b8107a39d5e59f7c58841eb7cacba8aefa5c08"
+ },
+ {
+  "path": "data_structures/stacks/infix_to_postfix_conversion.py",
+  "folder": "data_structures",
+  "lines": 113,
+  "chars": 3073,
+  "examples": 8,
+  "functions": 3,
+  "sha256": "b7633489ec9b836743b65179ce2495fbfac4bca4a0f988c94ba3aa6f21581c70"
+ },
+ {
+  "path": "data_structures/stacks/infix_to_prefix_conversion.py",
+  "folder": "data_structures",
+  "lines": 193,
+  "chars": 5827,
+  "examples": 10,
+  "functions": 2,
+  "sha256": "c94e231c2ff9741e87fba630f0849f94620c29ef7e89738c2d8813e129d5648c"
+ },
+ {
+  "path": "data_structures/stacks/kth_next_greater_element.py",
+  "folder": "data_structures",
+  "lines": 95,
+  "chars": 3991,
+  "examples": 5,
+  "functions": 1,
+  "sha256": "1f0b1dcdd0076c5d600fb1efe3dbf5e5d3bc81b0d5b0ab778975dcf7402d2629"
+ },
+ {
+  "path": "data_structures/stacks/largest_rectangle_histogram.py",
+  "folder": "data_structures",
+  "lines": 39,
+  "chars": 1074,
+  "examples": 4,
+  "functions": 1,
+  "sha256": "7cd542ca383e683dd8a0c60dc9543218bfc69a7297d9a2167d61b63c0caa389f"
+ },
+ {
+  "path": "data_structures/stacks/lexicographical_numbers.py",
+  "folder": "data_structures",
+  "lines": 38,
+  "chars": 966,
+  "examples": 5,
+  "functions": 1,
+  "sha256": "e69a6c5978c6f97b33ac6aa7efebce1e66e3f3fbc9cd66aa7962bc6ebf8bd88a"
+ },
+ {
+  "path": "data_structures/stacks/next_greater_element.py",
+  "folder": "data_structures",
+  "lines": 133,
+  "chars": 3962,
+  "examples": 3,
+  "functions": 3,
+  "sha256": "005628705156ebd0ba73e1f4248fe97c7d500c37fb6fc408ecf49bb29f150479"
+ },
+ {
+  "path": "data_structures/stacks/postfix_evaluation.py",
+  "folder": "data_structures",
+  "lines": 200,
+  "chars": 6004,
+  "examples": 13,
+  "functions": 2,
+  "sha256": "c4c45340feb3cc4684882ce1a693892cd9adfc49ac9b0efd51fe7019947bb48f"
+ },
+ {
+  "path": "data_structures/stacks/postfix_to_infix_conversion.py",
+  "folder": "data_structures",
+  "lines": 63,
+  "chars": 1972,
+  "examples": 6,
+  "functions": 1,
+  "sha256": "d71c5fec62fc80dd2e9f87c320dfbcc54fe78c31b0d243cec8d00e7240d00db5"
+ },
+ {
+  "path": "data_structures/stacks/prefix_evaluation.py",
+  "folder": "data_structures",
+  "lines": 92,
+  "chars": 2012,
+  "examples": 12,
+  "functions": 3,
+  "sha256": "c1922fe899682a88b1ab8b139b580811ea843ba5e9a4edd7aefd61e9ab95894b"
+ },
+ {
+  "path": "data_structures/stacks/stack.py",
+  "folder": "data_structures",
+  "lines": 215,
+  "chars": 4733,
+  "examples": 43,
+  "functions": 11,
+  "sha256": "a52bbb1c68ed5e42b7224cd5bbfbee71f9373b50c825c1a429224e80730b43b1"
+ },
+ {
+  "path": "data_structures/stacks/stack_tracking_min_max.py",
+  "folder": "data_structures",
+  "lines": 175,
+  "chars": 4208,
+  "examples": 37,
+  "functions": 7,
+  "sha256": "d3e75250c0b6bf19d39bcb9ef89c5270dbbae63f00ab3f473ec52d9ce2ea65a6"
+ },
+ {
+  "path": "data_structures/stacks/stack_using_two_queues.py",
+  "folder": "data_structures",
+  "lines": 86,
+  "chars": 2321,
+  "examples": 11,
+  "functions": 3,
+  "sha256": "99f370147ba6db6ea71ddd2fc04d5fa20d004ae9580c4e20c3ed168024630584"
+ },
+ {
+  "path": "data_structures/stacks/stack_with_doubly_linked_list.py",
+  "folder": "data_structures",
+  "lines": 130,
+  "chars": 3179,
+  "examples": 10,
+  "functions": 8,
+  "sha256": "120465cfe9fd591f7e9074e7896f44d733ce2cca736826e3b830b6aa835fb37a"
+ },
+ {
+  "path": "data_structures/stacks/stack_with_singly_linked_list.py",
+  "folder": "data_structures",
+  "lines": 165,
+  "chars": 3705,
+  "examples": 53,
+  "functions": 11,
+  "sha256": "3b8db227a3c2f96563a8586631c3e727b709938f5b963b2fa885012d0bfdd710"
+ },
+ {
+  "path": "data_structures/stacks/stock_span_problem.py",
+  "folder": "data_structures",
+  "lines": 73,
+  "chars": 2177,
+  "examples": 6,
+  "functions": 2,
+  "sha256": "bd78cc06ce877a855157a8566c26669d9cda32f914b9e66554c49cec4e05d6a8"
+ },
+ {
+  "path": "data_structures/trie/radix_tree.py",
+  "folder": "data_structures",
+  "lines": 252,
+  "chars": 8545,
+  "examples": 8,
+  "functions": 10,
+  "sha256": "8709e0c9c9906f3c25904fa64757eddb8f629f5268658d18067a14f0e9c6b8c8"
+ },
+ {
+  "path": "divide_and_conquer/closest_pair_of_points.py",
+  "folder": "divide_and_conquer",
+  "lines": 141,
+  "chars": 4256,
+  "examples": 6,
+  "functions": 6,
+  "sha256": "cea12f31cb5b3193433d702c45ab6ceadef09183c06ab9c1fe32d49c55711b4e"
+ },
+ {
+  "path": "divide_and_conquer/heaps_algorithm.py",
+  "folder": "divide_and_conquer",
+  "lines": 56,
+  "chars": 1543,
+  "examples": 7,
+  "functions": 2,
+  "sha256": "db7646a457de9e1779263c1f14912ed8e8e1eab643577252133434cfb2c42a21"
+ },
+ {
+  "path": "divide_and_conquer/heaps_algorithm_iterative.py",
+  "folder": "divide_and_conquer",
+  "lines": 60,
+  "chars": 1620,
+  "examples": 7,
+  "functions": 2,
+  "sha256": "038d0711d89aab04049e2efd2ad92e387aa3e02365a9b15c0faa85e2743a7c25"
+ },
+ {
+  "path": "divide_and_conquer/inversions.py",
+  "folder": "divide_and_conquer",
+  "lines": 153,
+  "chars": 4699,
+  "examples": 8,
+  "functions": 4,
+  "sha256": "33ba73e0a83375cc6ee77fd274a70a05637edcec35585eaad3bbe575269fa7d2"
+ },
+ {
+  "path": "divide_and_conquer/kth_order_statistic.py",
+  "folder": "divide_and_conquer",
+  "lines": 66,
+  "chars": 1756,
+  "examples": 5,
+  "functions": 2,
+  "sha256": "46817465e3d5f1bc9e5c5abd1a5b5c6b1f36e62294284226a4bc0b882b45e812"
+ },
+ {
+  "path": "divide_and_conquer/mergesort.py",
+  "folder": "divide_and_conquer",
+  "lines": 112,
+  "chars": 3012,
+  "examples": 32,
+  "functions": 2,
+  "sha256": "ff756d1eeac9c8fef54f6fde27165288957e2f1f1483918b1a254fcdb52957f5"
+ },
+ {
+  "path": "divide_and_conquer/minimum_element_of_array.py",
+  "folder": "divide_and_conquer",
+  "lines": 129,
+  "chars": 3729,
+  "examples": 17,
+  "functions": 3,
+  "sha256": "3240b6bb663bc98bb50f30e5b5a79d7d8168a82cd5bf6294668ab2c43430a77e"
+ },
+ {
+  "path": "divide_and_conquer/peak.py",
+  "folder": "divide_and_conquer",
+  "lines": 54,
+  "chars": 1252,
+  "examples": 5,
+  "functions": 1,
+  "sha256": "f00d87d0a0500d01cd13d395957a56e2affbafaa2867c06de9922fcb4fc5a89d"
+ },
+ {
+  "path": "divide_and_conquer/power.py",
+  "folder": "divide_and_conquer",
+  "lines": 53,
+  "chars": 1112,
+  "examples": 9,
+  "functions": 2,
+  "sha256": "27f9fdf720551bf55931acf5ec8ca5ebb116500f23704093877cf6c7e292aef1"
+ },
+ {
+  "path": "divide_and_conquer/strassen_matrix_multiplication.py",
+  "folder": "divide_and_conquer",
+  "lines": 225,
+  "chars": 8304,
+  "examples": 4,
+  "functions": 9,
+  "sha256": "bc2af22fb734acc8d4e7a4d037f3a7263029c7f6da779817073874d5b7d58f4c"
+ },
+ {
+  "path": "dynamic_programming/climbing_stairs.py",
+  "folder": "dynamic_programming",
+  "lines": 42,
+  "chars": 1114,
+  "examples": 3,
+  "functions": 1,
+  "sha256": "35c1403f4dfeb603d9698e22cbfb358fe5bf9adc16c55e3897c50997c08fd43d"
+ },
+ {
+  "path": "dynamic_programming/combination_sum_iv.py",
+  "folder": "dynamic_programming",
+  "lines": 102,
+  "chars": 2824,
+  "examples": 3,
+  "functions": 5,
+  "sha256": "6e641a2a05e3e1b75eb158def39854bc0913ee624f61278e207b38a8ebdc8c4d"
+ },
+ {
+  "path": "dynamic_programming/edit_distance.py",
+  "folder": "dynamic_programming",
+  "lines": 103,
+  "chars": 3443,
+  "examples": 6,
+  "functions": 4,
+  "sha256": "e844589a5505736ab8a8ee6aee2494f124a7c56c28d92ab860fb817993f0e433"
+ },
+ {
+  "path": "dynamic_programming/fizz_buzz.py",
+  "folder": "dynamic_programming",
+  "lines": 65,
+  "chars": 1979,
+  "examples": 6,
+  "functions": 1,
+  "sha256": "ca2eb715b0cd6d0dae272ddebc07b9bc8a0d5cd8a20223b3c418a83bb35b8c1c"
+ },
+ {
+  "path": "dynamic_programming/floyd_warshall.py",
+  "folder": "dynamic_programming",
+  "lines": 85,
+  "chars": 2201,
+  "examples": 15,
+  "functions": 4,
+  "sha256": "b3f7999a20d4bddf194d78815b822b8ff8e1d05f41a132ab06fba2fad36a2816"
+ },
+ {
+  "path": "dynamic_programming/integer_partition.py",
+  "folder": "dynamic_programming",
+  "lines": 61,
+  "chars": 1761,
+  "examples": 7,
+  "functions": 1,
+  "sha256": "7e32485bf2ad4e12984f6f44f22e2b9179be6e0c43283d488ba1fcb908550d27"
+ },
+ {
+  "path": "dynamic_programming/iterating_through_submasks.py",
+  "folder": "dynamic_programming",
+  "lines": 62,
+  "chars": 1747,
+  "examples": 4,
+  "functions": 1,
+  "sha256": "6b3a81c39a963d4845c99347a5986f4399f988446a47b59ecd40253e60723b0b"
+ },
+ {
+  "path": "dynamic_programming/knapsack.py",
+  "folder": "dynamic_programming",
+  "lines": 153,
+  "chars": 5180,
+  "examples": 3,
+  "functions": 4,
+  "sha256": "380ab6e529d0a09993f7b4390b1ba1f84d2f0f0899366cad0fb54aba79208a70"
+ },
+ {
+  "path": "dynamic_programming/largest_divisible_subset.py",
+  "folder": "dynamic_programming",
+  "lines": 74,
+  "chars": 2151,
+  "examples": 9,
+  "functions": 1,
+  "sha256": "18f05cd1f78baba36706f85b8e90c043681c9f4c3a19b84db5ac74ee62098b77"
+ },
+ {
+  "path": "dynamic_programming/longest_common_subsequence.py",
+  "folder": "dynamic_programming",
+  "lines": 95,
+  "chars": 2715,
+  "examples": 12,
+  "functions": 1,
+  "sha256": "83fba1ad212d1e6beb9999f5fe16faaf463b0f5e73c3144829c642685546f60a"
+ },
+ {
+  "path": "dynamic_programming/longest_common_substring.py",
+  "folder": "dynamic_programming",
+  "lines": 70,
+  "chars": 2052,
+  "examples": 11,
+  "functions": 1,
+  "sha256": "4b60ccb26882d8fa5d87e4e2417d9ed810fb12dc4e386f6689b10a2b985bda77"
+ },
+ {
+  "path": "dynamic_programming/longest_increasing_subsequence.py",
+  "folder": "dynamic_programming",
+  "lines": 67,
+  "chars": 1876,
+  "examples": 6,
+  "functions": 1,
+  "sha256": "faa6e117738e78353e8c498fb2976ca59e0d128f758c24d61c51e0d14c31994b"
+ },
+ {
+  "path": "dynamic_programming/longest_increasing_subsequence_iterative.py",
+  "folder": "dynamic_programming",
+  "lines": 72,
+  "chars": 2183,
+  "examples": 6,
+  "functions": 1,
+  "sha256": "f506b58c91a55529c5efb42e168e6984140224feeb634c217f498206f4e48a3a"
+ },
+ {
+  "path": "dynamic_programming/longest_increasing_subsequence_o_nlogn.py",
+  "folder": "dynamic_programming",
+  "lines": 55,
+  "chars": 1390,
+  "examples": 4,
+  "functions": 2,
+  "sha256": "2c711292c4008166a31d89971d08f3774b9dbb51f519787f9d70255ea30f0cf0"
+ },
+ {
+  "path": "dynamic_programming/longest_repeating_subsequence.py",
+  "folder": "dynamic_programming",
+  "lines": 88,
+  "chars": 2611,
+  "examples": 10,
+  "functions": 1,
+  "sha256": "cd139a61af3c9163d09eaa3094e40a2526fadf54a625b48932c321fa41a7ccfa"
+ },
+ {
+  "path": "dynamic_programming/matrix_chain_multiplication.py",
+  "folder": "dynamic_programming",
+  "lines": 151,
+  "chars": 4860,
+  "examples": 10,
+  "functions": 4,
+  "sha256": "ef4a1f8b4b300eb00e3f4544d5553676ca6b45ec2da8ebb5507935f62bd7d47d"
+ },
+ {
+  "path": "dynamic_programming/max_non_adjacent_sum.py",
+  "folder": "dynamic_programming",
+  "lines": 34,
+  "chars": 879,
+  "examples": 4,
+  "functions": 1,
+  "sha256": "5508c19071d450920648bfd293b1bf0e8b39e2397624d31acb8edd37ce77fbde"
+ },
+ {
+  "path": "dynamic_programming/max_product_subarray.py",
+  "folder": "dynamic_programming",
+  "lines": 54,
+  "chars": 1604,
+  "examples": 10,
+  "functions": 1,
+  "sha256": "4b40e662312e163ac4cab83e65ac057c0594660c847a0c87381a17345f830f8f"
+ },
+ {
+  "path": "dynamic_programming/max_subarray_sum.py",
+  "folder": "dynamic_programming",
+  "lines": 61,
+  "chars": 1776,
+  "examples": 9,
+  "functions": 1,
+  "sha256": "a1746db66c2abb971745c64f89bd1cbbc5b33362015f4e0417371e53954da59c"
+ },
+ {
+  "path": "dynamic_programming/min_distance_up_bottom.py",
+  "folder": "dynamic_programming",
+  "lines": 49,
+  "chars": 1406,
+  "examples": 4,
+  "functions": 2,
+  "sha256": "08af3788e728063e1b8bb09339a4fe09ff5f02ba19e915fe8e5a81d3d8e36c9f"
+ },
+ {
+  "path": "dynamic_programming/minimum_coin_change.py",
+  "folder": "dynamic_programming",
+  "lines": 46,
+  "chars": 1092,
+  "examples": 6,
+  "functions": 1,
+  "sha256": "99c2cb60caf5fce243d1aa55ea3d709b79edded4f85951019aa3f8cdeea4e2e5"
+ },
+ {
+  "path": "dynamic_programming/minimum_partition.py",
+  "folder": "dynamic_programming",
+  "lines": 76,
+  "chars": 1662,
+  "examples": 16,
+  "functions": 1,
+  "sha256": "fc580257732646d174145221224f6fd67a0e66523ded3c44b835030a7566f568"
+ },
+ {
+  "path": "dynamic_programming/minimum_size_subarray_sum.py",
+  "folder": "dynamic_programming",
+  "lines": 62,
+  "chars": 1795,
+  "examples": 15,
+  "functions": 1,
+  "sha256": "9b6dcc097633ddfdb42623810430bde98c73dbd9658757879dd8d76ee7f974f2"
+ },
+ {
+  "path": "dynamic_programming/minimum_squares_to_represent_a_number.py",
+  "folder": "dynamic_programming",
+  "lines": 49,
+  "chars": 1426,
+  "examples": 7,
+  "functions": 1,
+  "sha256": "ea6230721fd5163e60736db37f72a4ccf8628d6dc7fe57bd3706ce3a10c8c7d7"
+ },
+ {
+  "path": "dynamic_programming/minimum_steps_to_one.py",
+  "folder": "dynamic_programming",
+  "lines": 66,
+  "chars": 1350,
+  "examples": 3,
+  "functions": 1,
+  "sha256": "2e916b23672be344c66f8b6e343caa2c93e7637b74a1c394966d6532afe3da55"
+ },
+ {
+  "path": "dynamic_programming/minimum_tickets_cost.py",
+  "folder": "dynamic_programming",
+  "lines": 129,
+  "chars": 3707,
+  "examples": 14,
+  "functions": 2,
+  "sha256": "e514bf389adb1cd5bab0777afd3e1a4e4e32018476f8dff05449585da83df8c8"
+ },
+ {
+  "path": "dynamic_programming/narcissistic_number.py",
+  "folder": "dynamic_programming",
+  "lines": 103,
+  "chars": 3559,
+  "examples": 7,
+  "functions": 2,
+  "sha256": "be768b9f5b63b6a9ee65b73a68dca1410c09e39af31e108b2fd86ef0bfa7c600"
+ },
+ {
+  "path": "dynamic_programming/needleman_wunsch.py",
+  "folder": "dynamic_programming",
+  "lines": 187,
+  "chars": 7007,
+  "examples": 7,
+  "functions": 1,
+  "sha256": "585cd16e592d5d67ff18c72e17550394b33f62d2c0d7141ec18f84d2026286d4"
+ },
+ {
+  "path": "dynamic_programming/optimal_binary_search_tree.py",
+  "folder": "dynamic_programming",
+  "lines": 150,
+  "chars": 5635,
+  "examples": 5,
+  "functions": 5,
+  "sha256": "9eb9f2aef6bad4515b9cae7f127d446da72b746eb1d44196e7ed8629a5bf502b"
+ },
+ {
+  "path": "dynamic_programming/palindrome_partitioning.py",
+  "folder": "dynamic_programming",
+  "lines": 39,
+  "chars": 1221,
+  "examples": 3,
+  "functions": 1,
+  "sha256": "d0e8af291bd6ec09cb9dde96f35173fd79ee507b280a953c1da915549229793a"
+ },
+ {
+  "path": "dynamic_programming/regex_match.py",
+  "folder": "dynamic_programming",
+  "lines": 99,
+  "chars": 2547,
+  "examples": 10,
+  "functions": 2,
+  "sha256": "650a4ab9cbde9a16a0e27c6a4def84ea41be51842c6bbdb30dbe29df042c45f2"
+ },
+ {
+  "path": "dynamic_programming/rod_cutting.py",
+  "folder": "dynamic_programming",
+  "lines": 218,
+  "chars": 6068,
+  "examples": 6,
+  "functions": 6,
+  "sha256": "4253f89b9128e1db52dff0d20cf07cd18223e1019460effbb28e13bd986a8f22"
+ },
+ {
+  "path": "dynamic_programming/smith_waterman.py",
+  "folder": "dynamic_programming",
+  "lines": 193,
+  "chars": 6406,
+  "examples": 30,
+  "functions": 3,
+  "sha256": "e98d9a57cfd9d47ad13413d62d9a4379e978ab7f83dbb5d87031a019656d42d7"
+ },
+ {
+  "path": "dynamic_programming/subset_generation.py",
+  "folder": "dynamic_programming",
+  "lines": 63,
+  "chars": 2143,
+  "examples": 12,
+  "functions": 1,
+  "sha256": "2e35d4ee2712cb9aaa922416812584af56b1a1e420692ac946fa6e46dfcc987c"
+ },
+ {
+  "path": "dynamic_programming/trapped_water.py",
+  "folder": "dynamic_programming",
+  "lines": 60,
+  "chars": 2086,
+  "examples": 3,
+  "functions": 1,
+  "sha256": "efaed7166533de1d8b3becdecc89f78cad2dbfe827c9e32cb92bc822e6b79a6e"
+ },
+ {
+  "path": "dynamic_programming/viterbi.py",
+  "folder": "dynamic_programming",
+  "lines": 376,
+  "chars": 13447,
+  "examples": 56,
+  "functions": 8,
+  "sha256": "d6f8ba0eead9989be21d1c63761b670b330483224f71d90c339fcec8d4d29203"
+ },
+ {
+  "path": "dynamic_programming/wildcard_matching.py",
+  "folder": "dynamic_programming",
+  "lines": 68,
+  "chars": 1760,
+  "examples": 13,
+  "functions": 1,
+  "sha256": "e5f049e38c9c56823b63ecb149f3fb70bef69178be8885756395ef8b6aff0256"
+ },
+ {
+  "path": "dynamic_programming/word_break.py",
+  "folder": "dynamic_programming",
+  "lines": 111,
+  "chars": 2885,
+  "examples": 8,
+  "functions": 2,
+  "sha256": "f40d36c3548022191fa78b2eb5e7ed9f8f8352967927e6f595772ed62e8aa08b"
+ },
+ {
+  "path": "electronics/capacitor_equivalence.py",
+  "folder": "electronics",
+  "lines": 53,
+  "chars": 1593,
+  "examples": 5,
+  "functions": 2,
+  "sha256": "c207c59906c22ad38cbe6e139bb3cd7d72ed47b27c7a6bd0f75d53c11641d90d"
+ },
+ {
+  "path": "electronics/carrier_concentration.py",
+  "folder": "electronics",
+  "lines": 75,
+  "chars": 2747,
+  "examples": 7,
+  "functions": 1,
+  "sha256": "9244992955c80915c52c3879b95d02bceac3570cb3d67b6c9b98880f9a25f07b"
+ },
+ {
+  "path": "electronics/charging_capacitor.py",
+  "folder": "electronics",
+  "lines": 72,
+  "chars": 2588,
+  "examples": 7,
+  "functions": 1,
+  "sha256": "c4237d60f2c86d221764ed33d5deabcb93a70bd0f8402097c1f617ad94a1b332"
+ },
+ {
+  "path": "electronics/charging_inductor.py",
+  "folder": "electronics",
+  "lines": 97,
+  "chars": 3514,
+  "examples": 9,
+  "functions": 1,
+  "sha256": "64dfd17f5976b55be393603afff74bb3dbe19dea88ccfc1d110d03898b4a9d7f"
+ },
+ {
+  "path": "electronics/circular_convolution.py",
+  "folder": "electronics",
+  "lines": 98,
+  "chars": 3456,
+  "examples": 11,
+  "functions": 2,
+  "sha256": "979848371aab0dac20c4e349009bc2bffa8f54fc27fa0a0ef8682ad4199d4d04"
+ },
+ {
+  "path": "electronics/coulombs_law.py",
+  "folder": "electronics",
+  "lines": 85,
+  "chars": 2701,
+  "examples": 5,
+  "functions": 1,
+  "sha256": "1df70b021f6043b3ec6a885a28a92f13c5d64deee8588f913cc665a324e865aa"
+ },
+ {
+  "path": "electronics/electric_conductivity.py",
+  "folder": "electronics",
+  "lines": 73,
+  "chars": 2565,
+  "examples": 8,
+  "functions": 1,
+  "sha256": "35bfdcecb37b4a6446abf75ee36f35589aecbd97f96966987878368c649b8366"
+ },
+ {
+  "path": "electronics/electric_power.py",
+  "folder": "electronics",
+  "lines": 59,
+  "chars": 1947,
+  "examples": 8,
+  "functions": 1,
+  "sha256": "76eca1f75f02156d1022f0d5cab132b636399ee176e2b2a6f72f11114b5238c7"
+ },
+ {
+  "path": "electronics/electrical_impedance.py",
+  "folder": "electronics",
+  "lines": 46,
+  "chars": 1548,
+  "examples": 4,
+  "functions": 1,
+  "sha256": "4e1992a6732327c9159db81dbb7321b944976a268a336dad67ab1a69f781bd9d"
+ },
+ {
+  "path": "electronics/full_wave_rectifier.py",
+  "folder": "electronics",
+  "lines": 130,
+  "chars": 4011,
+  "examples": 14,
+  "functions": 6,
+  "sha256": "b1fbd3843eed692fb2c2ba03b00c7b13ec4ce0fbaac0c9fb39d9b26ddd94adfd"
+ },
+ {
+  "path": "electronics/half_wave_rectifier.py",
+  "folder": "electronics",
+  "lines": 130,
+  "chars": 3963,
+  "examples": 14,
+  "functions": 6,
+  "sha256": "f685398f889cf19e580d0d4a8ac8146ee59cc7d90b953335df12fbbccda7c663"
+ },
+ {
+  "path": "electronics/ic_555_timer.py",
+  "folder": "electronics",
+  "lines": 75,
+  "chars": 2633,
+  "examples": 8,
+  "functions": 2,
+  "sha256": "f2d922f73f4da610530c303fa8c70cc0e0a2330f39be0168fb28130815df9bd5"
+ },
+ {
+  "path": "electronics/ind_reactance.py",
+  "folder": "electronics",
+  "lines": 69,
+  "chars": 1991,
+  "examples": 6,
+  "functions": 1,
+  "sha256": "9df9c049ccdefeb4329f7f9df48db6d4b06274863829e26319685b928fc21150"
+ },
+ {
+  "path": "electronics/ohms_law.py",
+  "folder": "electronics",
+  "lines": 42,
+  "chars": 1459,
+  "examples": 5,
+  "functions": 1,
+  "sha256": "a824e4128453c531592347f018364454b4dd827c7f984b8123828885d76a6af6"
+ },
+ {
+  "path": "electronics/power_factor_correction.py",
+  "folder": "electronics",
+  "lines": 125,
+  "chars": 4381,
+  "examples": 12,
+  "functions": 3,
+  "sha256": "98c8e2fb627d34bcc91ee892a0178a2726d5798d8e7a49973c997c4049586cd3"
+ },
+ {
+  "path": "electronics/real_and_reactive_power.py",
+  "folder": "electronics",
+  "lines": 49,
+  "chars": 1206,
+  "examples": 6,
+  "functions": 2,
+  "sha256": "cbc7a0d1d1a49dc297fa76da85614c8617be93cf3c5eb6b578b41ad021d13038"
+ },
+ {
+  "path": "electronics/resistor_color_code.py",
+  "folder": "electronics",
+  "lines": 374,
+  "chars": 12618,
+  "examples": 24,
+  "functions": 7,
+  "sha256": "712f3be23ea1750cf5a2e49f8f52cc4374d7e6ac051c1054a35c60f06f365e7e"
+ },
+ {
+  "path": "electronics/resistor_equivalence.py",
+  "folder": "electronics",
+  "lines": 56,
+  "chars": 1563,
+  "examples": 5,
+  "functions": 2,
+  "sha256": "68f61aec03b07ca59554779b0dff4f6cc1293b11abdbd4f574896229e9c43724"
+ },
+ {
+  "path": "electronics/resonant_frequency.py",
+  "folder": "electronics",
+  "lines": 49,
+  "chars": 1569,
+  "examples": 3,
+  "functions": 1,
+  "sha256": "ea0d841f6a4ab40f30348f3d0e19d23d2dfc7cabc74d7af74c7ef546eadd5f8d"
+ },
+ {
+  "path": "electronics/star_delta_conversions.py",
+  "folder": "electronics",
+  "lines": 103,
+  "chars": 3388,
+  "examples": 8,
+  "functions": 2,
+  "sha256": "0a4f17fa9cbf63f55d4bf647d670a2fd41a747574f8b198c22db23ebd4d54d1a"
+ },
+ {
+  "path": "electronics/wheatstone_bridge.py",
+  "folder": "electronics",
+  "lines": 72,
+  "chars": 2254,
+  "examples": 4,
+  "functions": 1,
+  "sha256": "c85cfbb559870aab542b9c178f00e156d9d3be4964c96a378a32b7ddac024e24"
+ },
+ {
+  "path": "financial/annuity_due_future_value.py",
+  "folder": "financial",
+  "lines": 60,
+  "chars": 2212,
+  "examples": 4,
+  "functions": 1,
+  "sha256": "93a95fe1b534de75abaf7181a2211b9fe2d85931561a64d144d16fc1c6d5bad5"
+ },
+ {
+  "path": "financial/equated_monthly_installments.py",
+  "folder": "financial",
+  "lines": 61,
+  "chars": 1926,
+  "examples": 5,
+  "functions": 1,
+  "sha256": "a2cef255d42b6b1064e715f52323c52b98334b75a32136500325c00dc833b597"
+ },
+ {
+  "path": "financial/expected_shortfall.py",
+  "folder": "financial",
+  "lines": 88,
+  "chars": 3063,
+  "examples": 6,
+  "functions": 2,
+  "sha256": "bc3cf26343aa2f39ead259f7454290605dfda5e329f135247e908e432bb5a539"
+ },
+ {
+  "path": "financial/fractional_differentiation.py",
+  "folder": "financial",
+  "lines": 113,
+  "chars": 3473,
+  "examples": 4,
+  "functions": 2,
+  "sha256": "e61dc976a90eae2e1a20d63a4a743f2d9ca0b88e819c3de63b057675227c56ef"
+ },
+ {
+  "path": "financial/interest.py",
+  "folder": "financial",
+  "lines": 120,
+  "chars": 3669,
+  "examples": 20,
+  "functions": 3,
+  "sha256": "b3c392cf0ddd7286441b40a26d68996667bfd664523c497ca679ec698070c35c"
+ },
+ {
+  "path": "financial/kelly_criterion.py",
+  "folder": "financial",
+  "lines": 201,
+  "chars": 6742,
+  "examples": 22,
+  "functions": 3,
+  "sha256": "f723d376de88256115e6ecc2d7e73116ba0382a598c41e1670e8789f501c3f2f"
+ },
+ {
+  "path": "financial/macaulay_duration.py",
+  "folder": "financial",
+  "lines": 77,
+  "chars": 2407,
+  "examples": 7,
+  "functions": 1,
+  "sha256": "7be2b5c8f720ffb796a458927a0568488abdf3d14869a5ba96389ba8452e4947"
+ },
+ {
+  "path": "financial/ordinary_annuity_future_value.py",
+  "folder": "financial",
+  "lines": 58,
+  "chars": 2235,
+  "examples": 4,
+  "functions": 1,
+  "sha256": "cf56d39a6515acee3f0fd4991e12d2ed44772fafe6567586fd196c5b7f32dfca"
+ },
+ {
+  "path": "financial/present_value.py",
+  "folder": "financial",
+  "lines": 42,
+  "chars": 1416,
+  "examples": 5,
+  "functions": 1,
+  "sha256": "779983d08f721593b7b9ca72045ce31291cb2af0e1215106b5bf08e2960a2c03"
+ },
+ {
+  "path": "financial/sharpe_ratio.py",
+  "folder": "financial",
+  "lines": 146,
+  "chars": 5012,
+  "examples": 14,
+  "functions": 2,
+  "sha256": "2dff497bc65c3971d633a73d2548616ab9f29b390118fc657cf679e4dad2b120"
+ },
+ {
+  "path": "financial/simple_moving_average.py",
+  "folder": "financial",
+  "lines": 69,
+  "chars": 2294,
+  "examples": 4,
+  "functions": 1,
+  "sha256": "3cfb9aa33c41c1a1d92115af81cd58d8dc53376a0edfe982eac23d5ff6516fde"
+ },
+ {
+  "path": "financial/straight_line_depreciation.py",
+  "folder": "financial",
+  "lines": 103,
+  "chars": 3919,
+  "examples": 5,
+  "functions": 1,
+  "sha256": "46d6162f7415a85b81d1ee56abf52b222b6ed942446414ed9e4bf0c2195b93fb"
+ },
+ {
+  "path": "financial/streaming_moving_average.py",
+  "folder": "financial",
+  "lines": 91,
+  "chars": 2605,
+  "examples": 10,
+  "functions": 3,
+  "sha256": "22034fd7ed06fa077cf24a4e1f225aa39ca129195948f50003aba6da7e6c7882"
+ },
+ {
+  "path": "financial/time_and_half_pay.py",
+  "folder": "financial",
+  "lines": 40,
+  "chars": 1054,
+  "examples": 3,
+  "functions": 1,
+  "sha256": "04340108bb52641deaf0ff58571cc3b00fc16f8c61e66fc59a63e50e47359c4a"
+ },
+ {
+  "path": "financial/value_at_risk.py",
+  "folder": "financial",
+  "lines": 88,
+  "chars": 3017,
+  "examples": 8,
+  "functions": 2,
+  "sha256": "23b84b767ecd5395d131a8226b9316c6e98b61a72036006c66ec8f1ad87ce910"
+ },
+ {
+  "path": "fractals/sierpinski_carpet.py",
+  "folder": "fractals",
+  "lines": 130,
+  "chars": 3953,
+  "examples": 12,
+  "functions": 3,
+  "sha256": "58f509b9041352ff7f33bf031fafa4de8a6b4a9e59123173bf54deb62f7149ac"
+ },
+ {
+  "path": "genetic_algorithm/basic_string.py",
+  "folder": "genetic_algorithm",
+  "lines": 208,
+  "chars": 8055,
+  "examples": 22,
+  "functions": 5,
+  "sha256": "6c58842a293112bdf1467453b00be7665373b18bf329bcebab0de92e4fd0676c"
+ },
+ {
+  "path": "genetic_algorithm/travelling_salesman_problem.py",
+  "folder": "genetic_algorithm",
+  "lines": 364,
+  "chars": 13006,
+  "examples": 39,
+  "functions": 8,
+  "sha256": "fc55c49fc4f4aa7f09e8a1a5d736b2e7edc2fec35d5b758f83d2057ac83e90f8"
+ },
+ {
+  "path": "geodesy/haversine_distance.py",
+  "folder": "geodesy",
+  "lines": 72,
+  "chars": 3025,
+  "examples": 15,
+  "functions": 1,
+  "sha256": "27d6535218685b23c983cb32f2570e672dbb832acb89781564bca49426b75bae"
+ },
+ {
+  "path": "geodesy/lamberts_ellipsoidal_distance.py",
+  "folder": "geodesy",
+  "lines": 112,
+  "chars": 4435,
+  "examples": 13,
+  "functions": 1,
+  "sha256": "31799e1a14e9174134fe0620af3cea9c07e71ab80c45deb20a63237b4e4745a4"
+ },
+ {
+  "path": "geodesy/radar_target_calculation.py",
+  "folder": "geodesy",
+  "lines": 180,
+  "chars": 6064,
+  "examples": 12,
+  "functions": 4,
+  "sha256": "330d0f604a83819325032eae71f58a7a1c6078014fa66704c016349898d706dd"
+ },
+ {
+  "path": "geometry/braik_mac_construction.py",
+  "folder": "geometry",
+  "lines": 160,
+  "chars": 4394,
+  "examples": 7,
+  "functions": 3,
+  "sha256": "72f92cb19840e5096b12e6322a36f5f60e4fdd4d56d7b6026aa8addb31d3dead"
+ },
+ {
+  "path": "geometry/geometry.py",
+  "folder": "geometry",
+  "lines": 484,
+  "chars": 13819,
+  "examples": 72,
+  "functions": 27,
+  "sha256": "89a4b2c1fd8305dc98e4f166e000dbc3ddbc71338c685526c6e26bd0f876a35b"
+ },
+ {
+  "path": "geometry/graham_scan.py",
+  "folder": "geometry",
+  "lines": 246,
+  "chars": 7645,
+  "examples": 18,
+  "functions": 8,
+  "sha256": "2cd8f95cf95b61fd386b5b544d1fa85a1d5f811c2ff3b6444d485b1ff41c77c8"
+ },
+ {
+  "path": "geometry/monotone_chain.py",
+  "folder": "geometry",
+  "lines": 133,
+  "chars": 4231,
+  "examples": 14,
+  "functions": 2,
+  "sha256": "1f76ce2110b374100cc0fef2063e003e0241b1f4a7abb347563391a498d59d3c"
+ },
+ {
+  "path": "geometry/ramer_douglas_peucker.py",
+  "folder": "geometry",
+  "lines": 184,
+  "chars": 6430,
+  "examples": 13,
+  "functions": 3,
+  "sha256": "29bac3543d401e416d5b19f8b214dda50e7308d05d1322de32b724bfa1797061"
+ },
+ {
+  "path": "geometry/rotating_calipers.py",
+  "folder": "geometry",
+  "lines": 207,
+  "chars": 6722,
+  "examples": 20,
+  "functions": 4,
+  "sha256": "87fe322cace39b7e7334530afac6c4f0046ff45fd694dc690f6016726e3290fb"
+ },
+ {
+  "path": "geometry/segment_intersection.py",
+  "folder": "geometry",
+  "lines": 112,
+  "chars": 3407,
+  "examples": 14,
+  "functions": 3,
+  "sha256": "40a71b979f437badc9e6c52462e9c761a48468ca166675736f5ff9c6c08ba5fb"
+ },
+ {
+  "path": "geometry/shoelace.py",
+  "folder": "geometry",
+  "lines": 30,
+  "chars": 883,
+  "examples": 4,
+  "functions": 1,
+  "sha256": "2062dec8fe63f99ad7cccb199f0f89d25cd6fdea1c2e947011b88dcddfb78b43"
+ },
+ {
+  "path": "geometry/triangle.py",
+  "folder": "geometry",
+  "lines": 131,
+  "chars": 4403,
+  "examples": 5,
+  "functions": 5,
+  "sha256": "bebb7ed248659f428a59588b90b962ef1400beba536241826e4ee06b7bffbf30"
+ },
+ {
+  "path": "graphics/vector3_for_2d_rendering.py",
+  "folder": "graphics",
+  "lines": 103,
+  "chars": 3314,
+  "examples": 9,
+  "functions": 2,
+  "sha256": "1ac04fea686d9d6cf1fad0bd505b77e1549718b038e320444b918e1fa423f91e"
+ },
+ {
+  "path": "graphs/a_star.py",
+  "folder": "graphs",
+  "lines": 138,
+  "chars": 4442,
+  "examples": 10,
+  "functions": 1,
+  "sha256": "9e1415a3aaeb2cd562b0513cbf201b38330da7305f78fe8e16d42752fad9e5ce"
+ },
+ {
+  "path": "graphs/ant_colony_optimization_algorithms.py",
+  "folder": "graphs",
+  "lines": 224,
+  "chars": 8147,
+  "examples": 18,
+  "functions": 4,
+  "sha256": "24a37dca5981e5be2749b0d9af762b24dc22fa5908b0f81b82375120d6d5c3be"
+ },
+ {
+  "path": "graphs/bellman_ford.py",
+  "folder": "graphs",
+  "lines": 73,
+  "chars": 2320,
+  "examples": 5,
+  "functions": 3,
+  "sha256": "fb0d9faf24c5d34f0ca7ac6fd1e6f9962708b1dc865f816c894c311e0ba52176"
+ },
+ {
+  "path": "graphs/bidirectional_a_star.py",
+  "folder": "graphs",
+  "lines": 311,
+  "chars": 10110,
+  "examples": 27,
+  "functions": 10,
+  "sha256": "dad3fe77da343a6a0b85226a786327a0fefe4242bcbf1e802175f6087a4d6769"
+ },
+ {
+  "path": "graphs/bidirectional_breadth_first_search.py",
+  "folder": "graphs",
+  "lines": 188,
+  "chars": 6069,
+  "examples": 4,
+  "functions": 8,
+  "sha256": "e1604f6cb0b4cf111a6b76b08d2a91f33dff2632b25e67bc96376e4f71d6c833"
+ },
+ {
+  "path": "graphs/bidirectional_search.py",
+  "folder": "graphs",
+  "lines": 201,
+  "chars": 5656,
+  "examples": 6,
+  "functions": 4,
+  "sha256": "b72ac8bb4e9359ae97e4a03a3ad7707f6950ffb4c44e85da84e7587de8d4babf"
+ },
+ {
+  "path": "graphs/boruvka.py",
+  "folder": "graphs",
+  "lines": 176,
+  "chars": 6405,
+  "examples": 3,
+  "functions": 7,
+  "sha256": "df435eafc51dc85e38b71a0cfbce840caf06729d3ea9e7c30d50d1045b5f1eab"
+ },
+ {
+  "path": "graphs/breadth_first_search.py",
+  "folder": "graphs",
+  "lines": 93,
+  "chars": 2390,
+  "examples": 17,
+  "functions": 4,
+  "sha256": "621e11bd4a320c7437bba42e29715608b05e84a5939562715cde8e32a576a529"
+ },
+ {
+  "path": "graphs/breadth_first_search_shortest_path.py",
+  "folder": "graphs",
+  "lines": 90,
+  "chars": 3020,
+  "examples": 8,
+  "functions": 3,
+  "sha256": "7504d6dfbe949269501ab58c4d9d59d0d4d1d6fc08f1d1ce029a7cdc0f11bc36"
+ },
+ {
+  "path": "graphs/breadth_first_search_shortest_path_2.py",
+  "folder": "graphs",
+  "lines": 113,
+  "chars": 3599,
+  "examples": 6,
+  "functions": 2,
+  "sha256": "a1d424e2be9a510f07066fa18065b7eeadb59788db1135c9f457b5129dfe6219"
+ },
+ {
+  "path": "graphs/breadth_first_search_zero_one_shortest_path.py",
+  "folder": "graphs",
+  "lines": 143,
+  "chars": 4676,
+  "examples": 28,
+  "functions": 5,
+  "sha256": "97df47f87f3fa776196a2b318f91319556dcd275fba4489b6d849554f40af873"
+ },
+ {
+  "path": "graphs/check_bipatrite.py",
+  "folder": "graphs",
+  "lines": 153,
+  "chars": 5108,
+  "examples": 30,
+  "functions": 3,
+  "sha256": "a1dd5e0e2252b43a46ef1c83bde8f590ccdcb5546e36a24ef0aa71a8a34c3a29"
+ },
+ {
+  "path": "graphs/check_cycle.py",
+  "folder": "graphs",
+  "lines": 52,
+  "chars": 1538,
+  "examples": 5,
+  "functions": 2,
+  "sha256": "b1b9e3959fffecc92fb4be790c4404cd7647f1342a06a07635b89202008d4aa5"
+ },
+ {
+  "path": "graphs/connected_components.py",
+  "folder": "graphs",
+  "lines": 58,
+  "chars": 1430,
+  "examples": 4,
+  "functions": 2,
+  "sha256": "95b8ac86c8451bad7c40da072b4d4472cc771767c667c50a7bd55e3e8aee9580"
+ },
+ {
+  "path": "graphs/deep_clone_graph.py",
+  "folder": "graphs",
+  "lines": 78,
+  "chars": 1741,
+  "examples": 5,
+  "functions": 3,
+  "sha256": "8f6199e6078a36884c40b87375d3bc5f8a4fe1c077becdbc522e5ea94c652fd3"
+ },
+ {
+  "path": "graphs/depth_first_search.py",
+  "folder": "graphs",
+  "lines": 48,
+  "chars": 1392,
+  "examples": 4,
+  "functions": 1,
+  "sha256": "77905093e10b9fa6ed2fc2567424d1333305eca6a5e249cfe901fcfdc00dbc94"
+ },
+ {
+  "path": "graphs/depth_first_search_2.py",
+  "folder": "graphs",
+  "lines": 127,
+  "chars": 3327,
+  "examples": 29,
+  "functions": 5,
+  "sha256": "79f5d01ed43763bf0260f07ca4ec52d46b6f8d2116479857c4716ed22c005541"
+ },
+ {
+  "path": "graphs/dijkstra.py",
+  "folder": "graphs",
+  "lines": 130,
+  "chars": 3763,
+  "examples": 3,
+  "functions": 1,
+  "sha256": "eebe79cba9ede0138a97bd21d3bcce7ca8749b5e05b735859fa22b4d1077552a"
+ },
+ {
+  "path": "graphs/dijkstra_2.py",
+  "folder": "graphs",
+  "lines": 126,
+  "chars": 3259,
+  "examples": 15,
+  "functions": 3,
+  "sha256": "5aeb19551c9efc189fde97c9cf94ecc5bb6fdeb525e8c538e1568f85dce75d71"
+ },
+ {
+  "path": "graphs/dijkstra_algorithm.py",
+  "folder": "graphs",
+  "lines": 484,
+  "chars": 14735,
+  "examples": 117,
+  "functions": 16,
+  "sha256": "333eb32f64a55531065c0c01fae65a86cdc5ac0b3b0d0d8c225221e7f6d92682"
+ },
+ {
+  "path": "graphs/dijkstra_alternate.py",
+  "folder": "graphs",
+  "lines": 98,
+  "chars": 3198,
+  "examples": 7,
+  "functions": 4,
+  "sha256": "f2b7d46b6ce67f4d2666dc869be74ec152183f96356a0ceaf4e70d0ba95783bc"
+ },
+ {
+  "path": "graphs/dijkstra_binary_grid.py",
+  "folder": "graphs",
+  "lines": 89,
+  "chars": 2875,
+  "examples": 3,
+  "functions": 1,
+  "sha256": "6ca1420ba7981b2e53d9c52758777290a8133caa588bce7495178aed5a2f17ee"
+ },
+ {
+  "path": "graphs/directed_and_undirected_weighted_graph.py",
+  "folder": "graphs",
+  "lines": 615,
+  "chars": 18658,
+  "examples": 83,
+  "functions": 26,
+  "sha256": "4fd7e3d6bf01501381e2e72b1fae0a4d6f30a570e9e6648cbc8407fbace4a5b2"
+ },
+ {
+  "path": "graphs/eulerian_path_and_circuit_for_undirected_graph.py",
+  "folder": "graphs",
+  "lines": 141,
+  "chars": 4115,
+  "examples": 16,
+  "functions": 4,
+  "sha256": "8cbc80f40e6c7724f62001c85c16ec1a2c6c727499d084533e3cbdbf22482ee1"
+ },
+ {
+  "path": "graphs/finding_bridges.py",
+  "folder": "graphs",
+  "lines": 106,
+  "chars": 2775,
+  "examples": 5,
+  "functions": 3,
+  "sha256": "b2af0c6709be66933b9c7daf056abaa38cd2bb027d61b34e4a22f950393608e1"
+ },
+ {
+  "path": "graphs/frequent_pattern_graph_miner.py",
+  "folder": "graphs",
+  "lines": 234,
+  "chars": 7173,
+  "examples": 4,
+  "functions": 13,
+  "sha256": "a298b081f464895f3e1946503e1b6cbffdda8888ba6d6432a00dd39015e5b536"
+ },
+ {
+  "path": "graphs/gale_shapley_bigraph.py",
+  "folder": "graphs",
+  "lines": 49,
+  "chars": 1991,
+  "examples": 3,
+  "functions": 1,
+  "sha256": "98070bb77f0bcf03c9514995d7f9c22d23cbfb03581cccd1598c882b3ad38322"
+ },
+ {
+  "path": "graphs/graph_centrality.py",
+  "folder": "graphs",
+  "lines": 386,
+  "chars": 12294,
+  "examples": 47,
+  "functions": 16,
+  "sha256": "ca5a2f5591ec70fa38a897924290427b21a1de678880e26818edb6ae17f5387d"
+ },
+ {
+  "path": "graphs/graph_list.py",
+  "folder": "graphs",
+  "lines": 150,
+  "chars": 6550,
+  "examples": 18,
+  "functions": 3,
+  "sha256": "b83c9c1d92af95d3aebf9053837d65c3fd52589d8dc1c1b8046a4283f44e71dd"
+ },
+ {
+  "path": "graphs/graph_peripherality.py",
+  "folder": "graphs",
+  "lines": 393,
+  "chars": 12239,
+  "examples": 47,
+  "functions": 16,
+  "sha256": "4f9363206b3b7a970f1a6e7e7ba5435624808dc949eeac1f67a03d08aea20c48"
+ },
+ {
+  "path": "graphs/graphs_floyd_warshall.py",
+  "folder": "graphs",
+  "lines": 125,
+  "chars": 3738,
+  "examples": 4,
+  "functions": 2,
+  "sha256": "1ea14987a25eff07da0762985dce1263141a9dbacc27925182f23b8fb7bc6bc7"
+ },
+ {
+  "path": "graphs/greedy_best_first.py",
+  "folder": "graphs",
+  "lines": 199,
+  "chars": 5405,
+  "examples": 15,
+  "functions": 8,
+  "sha256": "8cd2267edfdc6bc87c2ac89bbe09bef7448c308dc4dd4509c0dcfd7a7ab5974a"
+ },
+ {
+  "path": "graphs/hopcroft_karp.py",
+  "folder": "graphs",
+  "lines": 325,
+  "chars": 12234,
+  "examples": 29,
+  "functions": 6,
+  "sha256": "cba2ce064c47222f3f086d3900ada12da2bd1d7cb92f42a4683340cd9adfbd71"
+ },
+ {
+  "path": "graphs/kahns_algorithm_topo.py",
+  "folder": "graphs",
+  "lines": 71,
+  "chars": 2078,
+  "examples": 8,
+  "functions": 1,
+  "sha256": "76fdea22e32a946829839f60bebd68d85db1fa089cb0d683cf815b99ac8ecc9a"
+ },
+ {
+  "path": "graphs/lanczos_eigenvectors.py",
+  "folder": "graphs",
+  "lines": 206,
+  "chars": 7844,
+  "examples": 10,
+  "functions": 5,
+  "sha256": "83093912da7679927a99197986ccb2caf8283eb9dd17af5a6b5e9056f5827fe2"
+ },
+ {
+  "path": "graphs/markov_chain.py",
+  "folder": "graphs",
+  "lines": 84,
+  "chars": 2093,
+  "examples": 3,
+  "functions": 6,
+  "sha256": "901f9ee823ede253d6b7388e5e8105f70168a6b5ffdb599aaba1f9d4dcc7b48c"
+ },
+ {
+  "path": "graphs/matching_min_vertex_cover.py",
+  "folder": "graphs",
+  "lines": 62,
+  "chars": 2181,
+  "examples": 4,
+  "functions": 2,
+  "sha256": "9d21277318da3ffe02153c88c55e7bb276df284d307aa6158d62a1dd24400a4f"
+ },
+ {
+  "path": "graphs/minimum_path_sum.py",
+  "folder": "graphs",
+  "lines": 63,
+  "chars": 1580,
+  "examples": 5,
+  "functions": 2,
+  "sha256": "6b488508b135315fe8e7b80471abfb49993c213a9ddd0d1c698701e6980af878"
+ },
+ {
+  "path": "graphs/minimum_spanning_tree_boruvka.py",
+  "folder": "graphs",
+  "lines": 196,
+  "chars": 5811,
+  "examples": 5,
+  "functions": 14,
+  "sha256": "3c2c1cccbc13dae7fb21c64277b1ec22a26db6a00ed401b7c508f096e4162b12"
+ },
+ {
+  "path": "graphs/minimum_spanning_tree_kruskal.py",
+  "folder": "graphs",
+  "lines": 46,
+  "chars": 1353,
+  "examples": 3,
+  "functions": 2,
+  "sha256": "eb027edcd5e2f5293f7a9618f0fba76eade1021aad13ff51be0c296ec45b998b"
+ },
+ {
+  "path": "graphs/minimum_spanning_tree_kruskal2.py",
+  "folder": "graphs",
+  "lines": 121,
+  "chars": 4059,
+  "examples": 18,
+  "functions": 10,
+  "sha256": "5ad21b8d3f6d635854f2bec85b55700d6fbb33c92dabce05eb0dd859db0d7bfc"
+ },
+ {
+  "path": "graphs/minimum_spanning_tree_prims2.py",
+  "folder": "graphs",
+  "lines": 269,
+  "chars": 8950,
+  "examples": 24,
+  "functions": 19,
+  "sha256": "f22a3d85bcbc18a39e430cdfbf16ba31c26a68c6f5c291382b3ebab76849fcf6"
+ },
+ {
+  "path": "graphs/prim.py",
+  "folder": "graphs",
+  "lines": 152,
+  "chars": 3553,
+  "examples": 14,
+  "functions": 9,
+  "sha256": "707bdb3badaa7ebcdc71607c6c387d84e0b5eb9ee04b7273584239e8710f0e48"
+ },
+ {
+  "path": "graphs/random_graph_generator.py",
+  "folder": "graphs",
+  "lines": 67,
+  "chars": 2164,
+  "examples": 5,
+  "functions": 2,
+  "sha256": "4eb93a259161ea67ae43816eb98318e052d028bd447579e03c98e93dd619d9dc"
+ },
+ {
+  "path": "graphs/strongly_connected_components.py",
+  "folder": "graphs",
+  "lines": 90,
+  "chars": 2499,
+  "examples": 6,
+  "functions": 3,
+  "sha256": "20c8303666f25b637725b6f706ac1af4f046c912d61ea86fe5c6fe4e2b5c9ebf"
+ },
+ {
+  "path": "graphs/tarjans_scc.py",
+  "folder": "graphs",
+  "lines": 106,
+  "chars": 3578,
+  "examples": 14,
+  "functions": 3,
+  "sha256": "9d3f656eeb29a35f698e9938f37f5da54cc67d3325c6d9336eacb284a5cd8299"
+ },
+ {
+  "path": "graphs/travelling_salesman_problem.py",
+  "folder": "graphs",
+  "lines": 243,
+  "chars": 7894,
+  "examples": 11,
+  "functions": 4,
+  "sha256": "36e04e9a162c60fb017bc2cd89675d2c63a4f4cb0a325b09c84eab6a1b673722"
+ },
+ {
+  "path": "greedy_methods/activity_selection.py",
+  "folder": "greedy_methods",
+  "lines": 57,
+  "chars": 2073,
+  "examples": 5,
+  "functions": 1,
+  "sha256": "e220ca857cd9e6850ad28ae469e0db6f6fc3eab62c7c118e2f3133eeef50bcf7"
+ },
+ {
+  "path": "greedy_methods/fractional_cover_problem.py",
+  "folder": "greedy_methods",
+  "lines": 102,
+  "chars": 2538,
+  "examples": 12,
+  "functions": 2,
+  "sha256": "363e48e63adbdeaf244655ad788457973741defcd4c326d8d4c38bae06b9ef7e"
+ },
+ {
+  "path": "greedy_methods/fractional_knapsack.py",
+  "folder": "greedy_methods",
+  "lines": 51,
+  "chars": 1431,
+  "examples": 12,
+  "functions": 1,
+  "sha256": "af6c079f473bb580087192af278732b54b48a5cb2e7742ac374d3352bc57916f"
+ },
+ {
+  "path": "greedy_methods/fractional_knapsack_2.py",
+  "folder": "greedy_methods",
+  "lines": 53,
+  "chars": 1655,
+  "examples": 10,
+  "functions": 1,
+  "sha256": "fdd2fce97744bd837a57835f50e2f1eed66639fea5199e64a62a0b5fae8a6550"
+ },
+ {
+  "path": "greedy_methods/gas_station.py",
+  "folder": "greedy_methods",
+  "lines": 98,
+  "chars": 2960,
+  "examples": 6,
+  "functions": 2,
+  "sha256": "dac0899c1f3a05a1a16a47c737d46ff10df8b272112eea9e65430c31baddd3dd"
+ },
+ {
+  "path": "greedy_methods/minimize_deviation_in_array.py",
+  "folder": "greedy_methods",
+  "lines": 60,
+  "chars": 1892,
+  "examples": 4,
+  "functions": 1,
+  "sha256": "3a48b0d06095994ae43cd55b9facd911ae62556cbdebcf9db28e44cc1830a03f"
+ },
+ {
+  "path": "greedy_methods/minimum_coin_change.py",
+  "folder": "greedy_methods",
+  "lines": 100,
+  "chars": 3060,
+  "examples": 5,
+  "functions": 1,
+  "sha256": "48985077e90ee5fc6d36d0c5170d3d1a76a2b35a908930350130d5419c76e536"
+ },
+ {
+  "path": "greedy_methods/minimum_waiting_time.py",
+  "folder": "greedy_methods",
+  "lines": 48,
+  "chars": 1399,
+  "examples": 5,
+  "functions": 1,
+  "sha256": "00a6255aaab00cedd11ade932656078239b3133d1fefee518c5789aae3fcc2a7"
+ },
+ {
+  "path": "greedy_methods/optimal_merge_pattern.py",
+  "folder": "greedy_methods",
+  "lines": 56,
+  "chars": 1637,
+  "examples": 3,
+  "functions": 1,
+  "sha256": "d0391e8a32cb3a8bda77815dcae4e771ed935445967afd3fd7ca4351f7bf099c"
+ },
+ {
+  "path": "greedy_methods/sliding_window.py",
+  "folder": "greedy_methods",
+  "lines": 64,
+  "chars": 1855,
+  "examples": 7,
+  "functions": 1,
+  "sha256": "6d2f69289af704e62a323b78a104b538297cce92fe19478c1d4db273b6cccea2"
+ },
+ {
+  "path": "greedy_methods/smallest_range.py",
+  "folder": "greedy_methods",
+  "lines": 72,
+  "chars": 2153,
+  "examples": 7,
+  "functions": 1,
+  "sha256": "ff170eae54f7f506cf97b4beb5d94b51f3ae5021d252867c354c9739901de6d4"
+ },
+ {
+  "path": "hashes/chaos_machine.py",
+  "folder": "hashes",
+  "lines": 137,
+  "chars": 3369,
+  "examples": 3,
+  "functions": 4,
+  "sha256": "86be8cb3b81252ac0556bfdab14287cefd838fe7fe94c597c73fca51480ee789"
+ },
+ {
+  "path": "hashes/crc32.py",
+  "folder": "hashes",
+  "lines": 124,
+  "chars": 2751,
+  "examples": 17,
+  "functions": 2,
+  "sha256": "06535704523e420591824e50bcdd7d4a80ba43df433766161b3726b388b1d504"
+ },
+ {
+  "path": "hashes/fletcher16.py",
+  "folder": "hashes",
+  "lines": 36,
+  "chars": 1010,
+  "examples": 3,
+  "functions": 1,
+  "sha256": "8f0892e6ce0aa08456a42ce757bcc81c7d00016b0db8dad9e96c225cb6cd369b"
+ },
+ {
+  "path": "hashes/hamming_code.py",
+  "folder": "hashes",
+  "lines": 286,
+  "chars": 9249,
+  "examples": 5,
+  "functions": 4,
+  "sha256": "22f2fb0712181a305ce45f00ecabebee067d18636637da1ec6fe52d2542bca04"
+ },
+ {
+  "path": "hashes/jenkins_one_at_a_time.py",
+  "folder": "hashes",
+  "lines": 39,
+  "chars": 993,
+  "examples": 3,
+  "functions": 1,
+  "sha256": "92a91b1a50302979a308516cd9b439bb4f47af94c0d002fd69d28ba0b590720e"
+ },
+ {
+  "path": "hashes/md5.py",
+  "folder": "hashes",
+  "lines": 444,
+  "chars": 11393,
+  "examples": 43,
+  "functions": 8,
+  "sha256": "3aa14e9cf5723e4d4f44f9695e3e40305c995c059060cf4684c582178197cee1"
+ },
+ {
+  "path": "knapsack/knapsack.py",
+  "folder": "knapsack",
+  "lines": 68,
+  "chars": 2149,
+  "examples": 6,
+  "functions": 2,
+  "sha256": "f1f9a1b3f5e20b4844aabebdd02bef6c819c93c6cbe87f9527133b3abc356221"
+ },
+ {
+  "path": "linear_algebra/gauss_jordan.py",
+  "folder": "linear_algebra",
+  "lines": 80,
+  "chars": 2478,
+  "examples": 6,
+  "functions": 1,
+  "sha256": "acb46974e946345c8de50c14131cbaec9499bfb952c41ce8ac19644fe96ff180"
+ },
+ {
+  "path": "linear_algebra/gaussian_elimination.py",
+  "folder": "linear_algebra",
+  "lines": 95,
+  "chars": 2643,
+  "examples": 4,
+  "functions": 2,
+  "sha256": "b672ddb27c6413fc61aff5a2b138e89f3e40e2ee5595b26f404560e9003dc1bb"
+ },
+ {
+  "path": "linear_algebra/jacobi_iteration_method.py",
+  "folder": "linear_algebra",
+  "lines": 203,
+  "chars": 6453,
+  "examples": 29,
+  "functions": 2,
+  "sha256": "73e92c0fdc8786ae9c8692ea7deb6d92d63db8156394b4834c36c6f7b9849785"
+ },
+ {
+  "path": "linear_algebra/lu_decomposition.py",
+  "folder": "linear_algebra",
+  "lines": 114,
+  "chars": 3944,
+  "examples": 18,
+  "functions": 1,
+  "sha256": "6e260d71d747b754a6893be163028a4ca57f60d3b90a4d6ec2ba0b16549004af"
+ },
+ {
+  "path": "linear_algebra/matrix_inversion.py",
+  "folder": "linear_algebra",
+  "lines": 43,
+  "chars": 1341,
+  "examples": 3,
+  "functions": 1,
+  "sha256": "eecbb4563c2737811e44f93e952e049476c47f746260c430ef74f0c87355e2e2"
+ },
+ {
+  "path": "linear_algebra/src/conjugate_gradient.py",
+  "folder": "linear_algebra",
+  "lines": 180,
+  "chars": 5150,
+  "examples": 14,
+  "functions": 4,
+  "sha256": "8b34e4fc0dca72c4b6408a99b2e2e4ba80d4814b2379f689c26307d4ae87fe10"
+ },
+ {
+  "path": "linear_algebra/src/gaussian_elimination_pivoting.py",
+  "folder": "linear_algebra",
+  "lines": 88,
+  "chars": 2690,
+  "examples": 6,
+  "functions": 1,
+  "sha256": "fa70fedbcb72f55491a45fa6f53504e6c7b3ad7bfd9f891f03fc21fdaa63e324"
+ },
+ {
+  "path": "linear_algebra/src/lib.py",
+  "folder": "linear_algebra",
+  "lines": 448,
+  "chars": 14473,
+  "examples": 7,
+  "functions": 34,
+  "sha256": "004ad6fa1f82805be01c8d37e26aa92fb4f86d9c1e84581020a483a875dea2b0"
+ },
+ {
+  "path": "linear_algebra/src/polynom_for_points.py",
+  "folder": "linear_algebra",
+  "lines": 116,
+  "chars": 4647,
+  "examples": 13,
+  "functions": 1,
+  "sha256": "784e41eb5ab5e479570a3e63fe1f6200a1ef29b9c90cf0a3dd49a232571a60c9"
+ },
+ {
+  "path": "linear_algebra/src/power_iteration.py",
+  "folder": "linear_algebra",
+  "lines": 129,
+  "chars": 4541,
+  "examples": 5,
+  "functions": 2,
+  "sha256": "ac3ba0cf54d54c6e48a38cd0126009ec8a4bae3fc63aa996e3b0bd8f310596cc"
+ },
+ {
+  "path": "linear_algebra/src/rank_of_matrix.py",
+  "folder": "linear_algebra",
+  "lines": 93,
+  "chars": 2384,
+  "examples": 13,
+  "functions": 1,
+  "sha256": "538fb11f10d8a22137fef36154607cdc7027e784064a5fcb5b86f26729bec0c8"
+ },
+ {
+  "path": "linear_algebra/src/rayleigh_quotient.py",
+  "folder": "linear_algebra",
+  "lines": 69,
+  "chars": 1554,
+  "examples": 9,
+  "functions": 3,
+  "sha256": "20a8450e2c67ff872cc5c8b1f56f13acc3ee58940b1916e108c6c9260e2c5bf0"
+ },
+ {
+  "path": "linear_algebra/src/transformations_2d.py",
+  "folder": "linear_algebra",
+  "lines": 64,
+  "chars": 1900,
+  "examples": 4,
+  "functions": 4,
+  "sha256": "fdd1901b79467fc628c582ade497fe24b2a06a185a453b4e52d03958e238bd1f"
+ },
+ {
+  "path": "linear_programming/simplex.py",
+  "folder": "linear_programming",
+  "lines": 352,
+  "chars": 12359,
+  "examples": 19,
+  "functions": 7,
+  "sha256": "2dab35d537c1195a693a26b496e78b18e8e95ec51f337181bdecb2ecebfe2d63"
+ },
+ {
+  "path": "machine_learning/apriori_algorithm.py",
+  "folder": "machine_learning",
+  "lines": 119,
+  "chars": 4114,
+  "examples": 11,
+  "functions": 3,
+  "sha256": "6c220447af8b7def2f9b1eaf92965c5bb1e85c7aec1b59da6dda230e9bbcc877"
+ },
+ {
+  "path": "machine_learning/astar.py",
+  "folder": "machine_learning",
+  "lines": 148,
+  "chars": 4221,
+  "examples": 6,
+  "functions": 7,
+  "sha256": "64bde48986dbe29f1dfe86e83626b3ccbe36885f8c0bb65de2471c761e78d32f"
+ },
+ {
+  "path": "machine_learning/automatic_differentiation.py",
+  "folder": "machine_learning",
+  "lines": 329,
+  "chars": 10352,
+  "examples": 13,
+  "functions": 22,
+  "sha256": "2dd7c1efd30977225da1d7b2c5fc10eb34364a4f71e5c0c0e5a828bd37e83422"
+ },
+ {
+  "path": "machine_learning/data_transformations.py",
+  "folder": "machine_learning",
+  "lines": 67,
+  "chars": 2854,
+  "examples": 4,
+  "functions": 2,
+  "sha256": "d4381b964ac4c3544264272579f9dd5c25bfbc33ee5cc60171a56dcb8de872d6"
+ },
+ {
+  "path": "machine_learning/dbscan.py",
+  "folder": "machine_learning",
+  "lines": 199,
+  "chars": 6539,
+  "examples": 27,
+  "functions": 3,
+  "sha256": "bc378967d66226d71eef9a294c64b29d74c399863130cac1b6aee76b6bbf8972"
+ },
+ {
+  "path": "machine_learning/decision_tree.py",
+  "folder": "machine_learning",
+  "lines": 200,
+  "chars": 7147,
+  "examples": 15,
+  "functions": 6,
+  "sha256": "a4cd4097834ab5d54e548db1ed2762c47bbcc0aed63f4845540a6734c0496ba0"
+ },
+ {
+  "path": "machine_learning/federated_averaging.py",
+  "folder": "machine_learning",
+  "lines": 169,
+  "chars": 5205,
+  "examples": 16,
+  "functions": 3,
+  "sha256": "de4b353e7fbb555dbb3d7d11880317efef3bc3b485443690a58739d1ac1e83f1"
+ },
+ {
+  "path": "machine_learning/frequent_pattern_growth.py",
+  "folder": "machine_learning",
+  "lines": 350,
+  "chars": 10854,
+  "examples": 58,
+  "functions": 9,
+  "sha256": "cef088c1efdc29e282fc9ac139f67aca05f7c32c3ddc8a8ddb8596407a76fa54"
+ },
+ {
+  "path": "machine_learning/gradient_descent.py",
+  "folder": "machine_learning",
+  "lines": 171,
+  "chars": 5127,
+  "examples": 12,
+  "functions": 8,
+  "sha256": "3ceff7706b0f437fc4968eedfd2c4e2504925e639b9d6a48671ef6024f209308"
+ },
+ {
+  "path": "machine_learning/loss_functions.py",
+  "folder": "machine_learning",
+  "lines": 929,
+  "chars": 34915,
+  "examples": 174,
+  "functions": 17,
+  "sha256": "72a8011bcc20883a5cba0617b9499a1f8f949d92883ac4f1055d6245244787e3"
+ },
+ {
+  "path": "machine_learning/mean_shift.py",
+  "folder": "machine_learning",
+  "lines": 260,
+  "chars": 8452,
+  "examples": 34,
+  "functions": 7,
+  "sha256": "77423d37a847ec9131b7ef33ee588b1575e0d94d944deda9f3d485abddcc8886"
+ },
+ {
+  "path": "machine_learning/mini_batch_gradient_descent.py",
+  "folder": "machine_learning",
+  "lines": 76,
+  "chars": 2180,
+  "examples": 5,
+  "functions": 1,
+  "sha256": "94dcf5a42fc0b90c4ec261d09b3d3d72d5810dcbc7d2735caeac8a86137bf282"
+ },
+ {
+  "path": "machine_learning/multilayer_perceptron_classifier.py",
+  "folder": "machine_learning",
+  "lines": 517,
+  "chars": 17767,
+  "examples": 68,
+  "functions": 18,
+  "sha256": "ef2690859e8f09a15d41a90d5c5da8d5efa90e38efefdd36e8ed7cdf5c8ac57a"
+ },
+ {
+  "path": "machine_learning/naive_bayes_text_classification.py",
+  "folder": "machine_learning",
+  "lines": 202,
+  "chars": 6896,
+  "examples": 24,
+  "functions": 6,
+  "sha256": "9bcb4e900f49f32fc95aa9d00dc7878fb8b3f88219357f96885716f7f68a5b9b"
+ },
+ {
+  "path": "machine_learning/ordinary_least_squares_regression.py",
+  "folder": "machine_learning",
+  "lines": 80,
+  "chars": 2100,
+  "examples": 5,
+  "functions": 1,
+  "sha256": "875d8e5214be53afa10db934509ecd1bed7ab4dd5c3dc17ea7001ddce0f6e5ec"
+ },
+ {
+  "path": "machine_learning/rmsprop.py",
+  "folder": "machine_learning",
+  "lines": 119,
+  "chars": 4120,
+  "examples": 6,
+  "functions": 1,
+  "sha256": "070affbcc847d0ec01cda37ce1a6f4726a71f2d703dc8824d25288a377bbc299"
+ },
+ {
+  "path": "machine_learning/scoring_functions.py",
+  "folder": "machine_learning",
+  "lines": 139,
+  "chars": 3423,
+  "examples": 18,
+  "functions": 6,
+  "sha256": "cce6d7e6dbf6cfc36521501b1ed47f78e4face95cc3315c334dd5ec7ccb46552"
+ },
+ {
+  "path": "machine_learning/similarity_search.py",
+  "folder": "machine_learning",
+  "lines": 162,
+  "chars": 5455,
+  "examples": 26,
+  "functions": 3,
+  "sha256": "1821490d53751e1453f7453349a72fea5170ceccebaca21011178f9adfb893d2"
+ },
+ {
+  "path": "machine_learning/word_frequency_functions.py",
+  "folder": "machine_learning",
+  "lines": 137,
+  "chars": 5098,
+  "examples": 7,
+  "functions": 4,
+  "sha256": "0b6f22d5df1ac31420c94430a8a8d331e6bf0d668b9cc1800d83591797f71779"
+ },
+ {
+  "path": "maths/abs.py",
+  "folder": "maths",
+  "lines": 94,
+  "chars": 1897,
+  "examples": 13,
+  "functions": 5,
+  "sha256": "2c21391ff48c59ba77c34f7f4ddba53a3421fcc79aa4752596e6b23282847e93"
+ },
+ {
+  "path": "maths/addition_without_arithmetic.py",
+  "folder": "maths",
+  "lines": 43,
+  "chars": 1000,
+  "examples": 5,
+  "functions": 1,
+  "sha256": "201dfe0423ff84a04613eb2c8645aa24f29d136145dc4f0e644014e6bd23d864"
+ },
+ {
+  "path": "maths/aliquot_sum.py",
+  "folder": "maths",
+  "lines": 48,
+  "chars": 1406,
+  "examples": 8,
+  "functions": 1,
+  "sha256": "d5490e8d00cb929fde550bafb6cea318857f6c33c0a719082d7e75c88cfb4cf2"
+ },
+ {
+  "path": "maths/allocation_number.py",
+  "folder": "maths",
+  "lines": 50,
+  "chars": 1711,
+  "examples": 4,
+  "functions": 1,
+  "sha256": "8f98cb7f35879d597730e5f01526d4659e507a7a817679ba58db59f1a27c8253"
+ },
+ {
+  "path": "maths/arc_length.py",
+  "folder": "maths",
+  "lines": 17,
+  "chars": 340,
+  "examples": 3,
+  "functions": 1,
+  "sha256": "df18ab2a9d4fdfce2996ce5224be9e8e2d833d8c84c6ee7c26b7e7fb33cc8e17"
+ },
+ {
+  "path": "maths/area.py",
+  "folder": "maths",
+  "lines": 682,
+  "chars": 22663,
+  "examples": 129,
+  "functions": 21,
+  "sha256": "e3bdce0f3bfb655dcf31d49156ac74306b5ee4ce4ad6a3e5bf5274f71a629707"
+ },
+ {
+  "path": "maths/area_under_curve.py",
+  "folder": "maths",
+  "lines": 61,
+  "chars": 1663,
+  "examples": 5,
+  "functions": 2,
+  "sha256": "f44d8535b7da9c3cc9ef633e1c3c6a880a28d2684e924f56fbe85a0ca7b4b127"
+ },
+ {
+  "path": "maths/autocorrelation.py",
+  "folder": "maths",
+  "lines": 50,
+  "chars": 1488,
+  "examples": 3,
+  "functions": 1,
+  "sha256": "549622c40f0df826f12dcc829528c81c878dca424306e42a5d0b4ac35091b061"
+ },
+ {
+  "path": "maths/average_absolute_deviation.py",
+  "folder": "maths",
+  "lines": 29,
+  "chars": 859,
+  "examples": 5,
+  "functions": 1,
+  "sha256": "a7f1da1f025b6eb909d25a2aa7934b891a38fd55aeced4a3a70ddfe4db43a434"
+ },
+ {
+  "path": "maths/average_mean.py",
+  "folder": "maths",
+  "lines": 28,
+  "chars": 574,
+  "examples": 4,
+  "functions": 1,
+  "sha256": "4631a33faeeff0531b61a9ea900be47920b06b760f5a082abadaa002d8f45440"
+ },
+ {
+  "path": "maths/average_median.py",
+  "folder": "maths",
+  "lines": 41,
+  "chars": 812,
+  "examples": 3,
+  "functions": 2,
+  "sha256": "016bb5900cacd60592a72ed0cca12afcd21724066dec78a35573ac6b8c557fd0"
+ },
+ {
+  "path": "maths/average_mode.py",
+  "folder": "maths",
+  "lines": 32,
+  "chars": 903,
+  "examples": 5,
+  "functions": 1,
+  "sha256": "318cccd4dc9d36081e1c3568bdaac2456026efc11574fda32613593aa1b1973f"
+ },
+ {
+  "path": "maths/bailey_borwein_plouffe.py",
+  "folder": "maths",
+  "lines": 89,
+  "chars": 3600,
+  "examples": 7,
+  "functions": 2,
+  "sha256": "497f06e8b1030fddeb33c2a549aaeaa89c21a32d36694a4739ec77ce42474e0a"
+ },
+ {
+  "path": "maths/base_neg2_conversion.py",
+  "folder": "maths",
+  "lines": 37,
+  "chars": 797,
+  "examples": 4,
+  "functions": 1,
+  "sha256": "d3a1ab01f119281bee020940d4e2a58e0bf8a7ffba0f75406a620b336b0c9b9e"
+ },
+ {
+  "path": "maths/basic_maths.py",
+  "folder": "maths",
+  "lines": 122,
+  "chars": 2988,
+  "examples": 12,
+  "functions": 4,
+  "sha256": "8806dd24791e47a6cecc559c96ba43dee4277e1594c726e276dc5f9d8ccfedbb"
+ },
+ {
+  "path": "maths/bearing.py",
+  "folder": "maths",
+  "lines": 78,
+  "chars": 2230,
+  "examples": 3,
+  "functions": 1,
+  "sha256": "f6d05ce7fdfe9926aee06b1daa393f4b6e89fe824cbeae71c8ce2c7b9d6fb624"
+ },
+ {
+  "path": "maths/binary_exponentiation.py",
+  "folder": "maths",
+  "lines": 196,
+  "chars": 5175,
+  "examples": 26,
+  "functions": 4,
+  "sha256": "52554576c9d40931127dfa35eb429ddd6969c3d691ff8646e8e7196baa71617d"
+ },
+ {
+  "path": "maths/binary_multiplication.py",
+  "folder": "maths",
+  "lines": 101,
+  "chars": 2246,
+  "examples": 13,
+  "functions": 2,
+  "sha256": "eec3cbab4dc09195880907c528086535d01dd6262478e8f0b672f7dd4f2eb2f7"
+ },
+ {
+  "path": "maths/binomial_coefficient.py",
+  "folder": "maths",
+  "lines": 62,
+  "chars": 1685,
+  "examples": 11,
+  "functions": 1,
+  "sha256": "8259ba897db18bfee144117a7d051f701f3d095b2dfe8e5f0a79f7930b08b853"
+ },
+ {
+  "path": "maths/binomial_expansion.py",
+  "folder": "maths",
+  "lines": 55,
+  "chars": 1467,
+  "examples": 5,
+  "functions": 1,
+  "sha256": "f3573f569e167a7de3b79d651639af1458bdbb5c986554c2288f600a6a4c1d10"
+ },
+ {
+  "path": "maths/chebyshev_distance.py",
+  "folder": "maths",
+  "lines": 20,
+  "chars": 753,
+  "examples": 3,
+  "functions": 1,
+  "sha256": "23a91f6912b70982471b09ce1184e5634b6cbf3e7fb5ed86bbc8e2ce3d1bfb66"
+ },
+ {
+  "path": "maths/check_polygon.py",
+  "folder": "maths",
+  "lines": 47,
+  "chars": 1429,
+  "examples": 9,
+  "functions": 1,
+  "sha256": "1e253993f744cbe895cf8f9cb75e3004497bc1573aae111f2926e8b563281b0a"
+ },
+ {
+  "path": "maths/chinese_remainder_theorem.py",
+  "folder": "maths",
+  "lines": 96,
+  "chars": 2284,
+  "examples": 8,
+  "functions": 4,
+  "sha256": "83251cec88b99a78829554e17cd05f62fbe83f2eccdf679dcd8374ddaea6fa43"
+ },
+ {
+  "path": "maths/cholesky_decomposition.py",
+  "folder": "maths",
+  "lines": 120,
+  "chars": 3412,
+  "examples": 17,
+  "functions": 2,
+  "sha256": "779fc2ca659a00e2a88fc19d9aa1c4d4b358d47b0dfde4626907a45bb5d53feb"
+ },
+ {
+  "path": "maths/chudnovsky_algorithm.py",
+  "folder": "maths",
+  "lines": 60,
+  "chars": 2048,
+  "examples": 4,
+  "functions": 1,
+  "sha256": "da8292f08ac4ad933feec6581d15e689777547967945f3e6978c260e5c67f30f"
+ },
+ {
+  "path": "maths/combinations.py",
+  "folder": "maths",
+  "lines": 60,
+  "chars": 1464,
+  "examples": 6,
+  "functions": 1,
+  "sha256": "92db5fc40de2fa5b2c4de702e11b641010ca9197a22953c92a26040ac6bfbce0"
+ },
+ {
+  "path": "maths/continued_fraction.py",
+  "folder": "maths",
+  "lines": 57,
+  "chars": 1584,
+  "examples": 8,
+  "functions": 1,
+  "sha256": "fabeb92822d0f75acedf40f6549cb56c579b87eb483bf9e777c4a7e2a182be78"
+ },
+ {
+  "path": "maths/convolve_1d.py",
+  "folder": "maths",
+  "lines": 61,
+  "chars": 1748,
+  "examples": 4,
+  "functions": 2,
+  "sha256": "7fab3b03fb766934a6ee4f1160114da2a964115d5b7e3c1e020c6d476816a6af"
+ },
+ {
+  "path": "maths/decimal_isolate.py",
+  "folder": "maths",
+  "lines": 44,
+  "chars": 1213,
+  "examples": 9,
+  "functions": 1,
+  "sha256": "13e1f7d44dda65f557320148a5711d39c30533c17772531c56bf243fca5aed99"
+ },
+ {
+  "path": "maths/decimal_to_fraction.py",
+  "folder": "maths",
+  "lines": 62,
+  "chars": 1968,
+  "examples": 14,
+  "functions": 1,
+  "sha256": "2e1a568bee0193c72f4c150439227fc82d6d96e38b86f01e2616fac1a6bf691d"
+ },
+ {
+  "path": "maths/derangement.py",
+  "folder": "maths",
+  "lines": 42,
+  "chars": 1023,
+  "examples": 3,
+  "functions": 1,
+  "sha256": "102dafbf55c5d2b6896250293a112223d25aea18c83bac1b179aaf0eb882ef4d"
+ },
+ {
+  "path": "maths/digital_root.py",
+  "folder": "maths",
+  "lines": 46,
+  "chars": 1187,
+  "examples": 6,
+  "functions": 1,
+  "sha256": "3371ad012c01ffe856aacbc2b415952e153129026594c41899a91f8bccd76803"
+ },
+ {
+  "path": "maths/disarium.py",
+  "folder": "maths",
+  "lines": 24,
+  "chars": 464,
+  "examples": 3,
+  "functions": 1,
+  "sha256": "ee88f538883a530401b6ed5cba32d08784976e249ac3f872e73d900cc5cf29fe"
+ },
+ {
+  "path": "maths/dodecahedron.py",
+  "folder": "maths",
+  "lines": 73,
+  "chars": 2109,
+  "examples": 6,
+  "functions": 2,
+  "sha256": "3e9caa2fc0afd64838c72f6c8ef75e6bdfc54f6cff2c935ca71bea390884638a"
+ },
+ {
+  "path": "maths/double_factorial.py",
+  "folder": "maths",
+  "lines": 60,
+  "chars": 2074,
+  "examples": 8,
+  "functions": 2,
+  "sha256": "c48437588d8f3efa6716b13ccab8c06230ea5673a64026130874406e5136dbca"
+ },
+ {
+  "path": "maths/dual_number_automatic_differentiation.py",
+  "folder": "maths",
+  "lines": 139,
+  "chars": 4402,
+  "examples": 7,
+  "functions": 11,
+  "sha256": "07e8b1f3ca957a003e65a93e3fe68fb52cb9e030cd8a309a08681948429bb62f"
+ },
+ {
+  "path": "maths/ear_clipping_polygon_triangulation.py",
+  "folder": "maths",
+  "lines": 255,
+  "chars": 9197,
+  "examples": 21,
+  "functions": 6,
+  "sha256": "487ac417b706ccc0033d03e302a35ddb61ed62784ddec3f3915292a7d9194bb1"
+ },
+ {
+  "path": "maths/entropy.py",
+  "folder": "maths",
+  "lines": 132,
+  "chars": 4864,
+  "examples": 6,
+  "functions": 3,
+  "sha256": "5dd6779751fbb171f52742adf702143bf75ae540fc4958581a049084c74fe480"
+ },
+ {
+  "path": "maths/euclidean_distance.py",
+  "folder": "maths",
+  "lines": 65,
+  "chars": 1934,
+  "examples": 6,
+  "functions": 3,
+  "sha256": "00d03d949cc63271148cc57ad2ff164903a57b2e811ff8531f9ebf3260e770a2"
+ },
+ {
+  "path": "maths/euler_method.py",
+  "folder": "maths",
+  "lines": 47,
+  "chars": 1219,
+  "examples": 4,
+  "functions": 1,
+  "sha256": "64e549da5d488c464901304011c2a5868f54651113618c72d4bf8f64262cae20"
+ },
+ {
+  "path": "maths/euler_modified.py",
+  "folder": "maths",
+  "lines": 54,
+  "chars": 1448,
+  "examples": 7,
+  "functions": 1,
+  "sha256": "234a7eb48c8b1afe0b5d63efa0e0f30e88a98e56ff8030c258c66891ee6d1562"
+ },
+ {
+  "path": "maths/eulers_totient.py",
+  "folder": "maths",
+  "lines": 41,
+  "chars": 1163,
+  "examples": 3,
+  "functions": 1,
+  "sha256": "7b5c501b882b23a4ab22849ef8a1f8c545f27a2cc99e958b8fcd6a5f453ecb01"
+ },
+ {
+  "path": "maths/extended_euclidean_algorithm.py",
+  "folder": "maths",
+  "lines": 86,
+  "chars": 2063,
+  "examples": 7,
+  "functions": 2,
+  "sha256": "932d502e02bc3a6fe680a8185159cba3757556f91427758d2cfe288ee6d07f16"
+ },
+ {
+  "path": "maths/factorial.py",
+  "folder": "maths",
+  "lines": 72,
+  "chars": 2045,
+  "examples": 14,
+  "functions": 2,
+  "sha256": "0c8dad750ed6376ca2143da032f11b18f7a627f7018cbd2fdaf528b51ed68be4"
+ },
+ {
+  "path": "maths/factors.py",
+  "folder": "maths",
+  "lines": 34,
+  "chars": 845,
+  "examples": 4,
+  "functions": 1,
+  "sha256": "0393624984f428234f5b0c0b0cd1ba000c634a9e9d3fa8b38f9f0bde91428664"
+ },
+ {
+  "path": "maths/fast_inverse_sqrt.py",
+  "folder": "maths",
+  "lines": 54,
+  "chars": 1690,
+  "examples": 7,
+  "functions": 1,
+  "sha256": "32d6273f314b01ec8758517b0f02a84e5521ca12af2385db60b78bd4caba1542"
+ },
+ {
+  "path": "maths/fermat_little_theorem.py",
+  "folder": "maths",
+  "lines": 40,
+  "chars": 1081,
+  "examples": 3,
+  "functions": 1,
+  "sha256": "96fce8acd5cf1945874defa4ae211b40bcd7d2b661ba0016ceb1391916ec2651"
+ },
+ {
+  "path": "maths/fibonacci.py",
+  "folder": "maths",
+  "lines": 341,
+  "chars": 9205,
+  "examples": 41,
+  "functions": 12,
+  "sha256": "9b183e0f8ab752ca23b57a22c7d89a9aaa199e79241d3dc09cb03748be5d1323"
+ },
+ {
+  "path": "maths/find_max.py",
+  "folder": "maths",
+  "lines": 88,
+  "chars": 2923,
+  "examples": 10,
+  "functions": 2,
+  "sha256": "7ee7947173230d011ee1301840199d43e8d6be590120f1c74beae8f831935952"
+ },
+ {
+  "path": "maths/find_min.py",
+  "folder": "maths",
+  "lines": 87,
+  "chars": 2628,
+  "examples": 10,
+  "functions": 2,
+  "sha256": "1b191d73cbefe293dd3f0d9b7e0015e45a2551507f13f6a6e9b389e8827bd1bb"
+ },
+ {
+  "path": "maths/gaussian.py",
+  "folder": "maths",
+  "lines": 62,
+  "chars": 1650,
+  "examples": 13,
+  "functions": 1,
+  "sha256": "005279cc0dc6283f7c5123406b9c8ebb9994106808d92355c67bcb763611a61b"
+ },
+ {
+  "path": "maths/gcd_of_n_numbers.py",
+  "folder": "maths",
+  "lines": 109,
+  "chars": 3423,
+  "examples": 13,
+  "functions": 2,
+  "sha256": "c1e0c36c4113a5286e2387cc78080eb9cbf2478ac2b77b6b81287cc841fecca2"
+ },
+ {
+  "path": "maths/geometric_mean.py",
+  "folder": "maths",
+  "lines": 55,
+  "chars": 1851,
+  "examples": 7,
+  "functions": 1,
+  "sha256": "b78effa612b40b3c77e912e9e918be4afd5ec99aee2a42e0e09aa04977296772"
+ },
+ {
+  "path": "maths/integer_square_root.py",
+  "folder": "maths",
+  "lines": 73,
+  "chars": 2218,
+  "examples": 8,
+  "functions": 1,
+  "sha256": "2a016065c6f3f2b713cfdeae6ee5396706238cf49da66871a5cc72b3e70c5d6f"
+ },
+ {
+  "path": "maths/interquartile_range.py",
+  "folder": "maths",
+  "lines": 67,
+  "chars": 1894,
+  "examples": 9,
+  "functions": 2,
+  "sha256": "7858d7f508b7aa96a01ca5cb7babb102d4a34a78f571a543dbd312cecf063c70"
+ },
+ {
+  "path": "maths/is_int_palindrome.py",
+  "folder": "maths",
+  "lines": 34,
+  "chars": 689,
+  "examples": 6,
+  "functions": 1,
+  "sha256": "f7337c32f99bdd1602c00ce016fe9beb10db1eeff0fb7956fa31b061da8a9cb5"
+ },
+ {
+  "path": "maths/is_ip_v4_address_valid.py",
+  "folder": "maths",
+  "lines": 75,
+  "chars": 1652,
+  "examples": 12,
+  "functions": 1,
+  "sha256": "210b02bfba4d5740ce145166a343bc2166f1ba7ac2b137b6627c5f089397c61d"
+ },
+ {
+  "path": "maths/is_ipv6_address_valid.py",
+  "folder": "maths",
+  "lines": 127,
+  "chars": 3905,
+  "examples": 18,
+  "functions": 2,
+  "sha256": "2a27f2ebf6e87b8a41209051371a1d8743637d8e476cd7cea368183ce942d2a3"
+ },
+ {
+  "path": "maths/is_square_free.py",
+  "folder": "maths",
+  "lines": 40,
+  "chars": 906,
+  "examples": 6,
+  "functions": 1,
+  "sha256": "00a3c3e7a043f98a871999bb770896738607032e41d4d0c66e5295a5392cf510"
+ },
+ {
+  "path": "maths/jaccard_similarity.py",
+  "folder": "maths",
+  "lines": 98,
+  "chars": 3327,
+  "examples": 17,
+  "functions": 1,
+  "sha256": "6a8805dabbe527841f56c6dfbce84985a3b0955b90743e9de30c3c1de9f9ac1a"
+ },
+ {
+  "path": "maths/joint_probability_distribution.py",
+  "folder": "maths",
+  "lines": 124,
+  "chars": 3988,
+  "examples": 10,
+  "functions": 5,
+  "sha256": "881cb814043709167192ff1aecd397080e5340433f31abe2864479dc5d7c11fa"
+ },
+ {
+  "path": "maths/josephus_problem.py",
+  "folder": "maths",
+  "lines": 130,
+  "chars": 4010,
+  "examples": 13,
+  "functions": 3,
+  "sha256": "ba6e0f4d30faf62abc188e9f00dfb06b3fb6a4b3ff775e5ce244e1e7fe2e0eb7"
+ },
+ {
+  "path": "maths/juggler_sequence.py",
+  "folder": "maths",
+  "lines": 63,
+  "chars": 1875,
+  "examples": 9,
+  "functions": 1,
+  "sha256": "956ed9381c19b44e70de02b901c679312c1722da6bd145f661e3493e5d28cb33"
+ },
+ {
+  "path": "maths/laplace_transformation.py",
+  "folder": "maths",
+  "lines": 76,
+  "chars": 2265,
+  "examples": 8,
+  "functions": 1,
+  "sha256": "05626e72628656cfe95c21e81ef38fa548bc464fadd35ca81c317fde88c21ec3"
+ },
+ {
+  "path": "maths/line_intersection.py",
+  "folder": "maths",
+  "lines": 156,
+  "chars": 4890,
+  "examples": 13,
+  "functions": 3,
+  "sha256": "01b863d8007678aa639a26901a3618f16dffcc2eaeec8b0f9e59b0047a3c23f7"
+ },
+ {
+  "path": "maths/line_length.py",
+  "folder": "maths",
+  "lines": 65,
+  "chars": 1662,
+  "examples": 6,
+  "functions": 2,
+  "sha256": "e536206f5a43222486707f779eef2828810997fd4fe7d467daabd66fab21c77f"
+ },
+ {
+  "path": "maths/liouville_lambda.py",
+  "folder": "maths",
+  "lines": 46,
+  "chars": 1366,
+  "examples": 5,
+  "functions": 1,
+  "sha256": "5e8c586fdfd6424cc8712da747d9cc861b2606bf3b53ddac6afd68a6049234b5"
+ },
+ {
+  "path": "maths/lucas_series.py",
+  "folder": "maths",
+  "lines": 66,
+  "chars": 1844,
+  "examples": 10,
+  "functions": 2,
+  "sha256": "281576bb568148a1e73ab86813ae69873c01ba86baeadb3c1934dca55de4a976"
+ },
+ {
+  "path": "maths/maclaurin_series.py",
+  "folder": "maths",
+  "lines": 123,
+  "chars": 3752,
+  "examples": 20,
+  "functions": 2,
+  "sha256": "d99820a2e8a049df26f4ee5006d853d82f2d0018c3db59fa66555527626d19fc"
+ },
+ {
+  "path": "maths/manhattan_distance.py",
+  "folder": "maths",
+  "lines": 126,
+  "chars": 4125,
+  "examples": 22,
+  "functions": 3,
+  "sha256": "b73145bf85a86181705ff845c5be60904d9658ff1e676152d65bb6db516bbe66"
+ },
+ {
+  "path": "maths/matrix_exponentiation.py",
+  "folder": "maths",
+  "lines": 130,
+  "chars": 3436,
+  "examples": 10,
+  "functions": 8,
+  "sha256": "84af4e5cdadc246efcd5eedebf39c78810c213f0cd0f9b3f6e419c415025a50b"
+ },
+ {
+  "path": "maths/max_sum_sliding_window.py",
+  "folder": "maths",
+  "lines": 48,
+  "chars": 1403,
+  "examples": 8,
+  "functions": 1,
+  "sha256": "9ac1814403632ca55a5f5cabbff3ed6328af14ab4e85eda94a3ed96a53b3c099"
+ },
+ {
+  "path": "maths/minkowski_distance.py",
+  "folder": "maths",
+  "lines": 45,
+  "chars": 1481,
+  "examples": 6,
+  "functions": 1,
+  "sha256": "cad82933b5d43027dd76ac131f10ebb2f0031602e32ffa7fc2a7fd98e7d78b2c"
+ },
+ {
+  "path": "maths/mobius_function.py",
+  "folder": "maths",
+  "lines": 43,
+  "chars": 929,
+  "examples": 7,
+  "functions": 1,
+  "sha256": "6fac2457cff4d42d0d6f214d359dab8663bfa3817013e3fb693eab3c9fac9267"
+ },
+ {
+  "path": "maths/modular_division.py",
+  "folder": "maths",
+  "lines": 162,
+  "chars": 3656,
+  "examples": 14,
+  "functions": 6,
+  "sha256": "1389a34f9e80cd4013a3d47f40bacb9fd8234555638a6246289f25286b61de49"
+ },
+ {
+  "path": "maths/modular_exponential.py",
+  "folder": "maths",
+  "lines": 45,
+  "chars": 869,
+  "examples": 3,
+  "functions": 2,
+  "sha256": "4b116eefbe1cfaf380f830cc396ea39f29a23c2d8577810ad83c37c04d4d117f"
+ },
+ {
+  "path": "maths/monte_carlo_dice.py",
+  "folder": "maths",
+  "lines": 44,
+  "chars": 1268,
+  "examples": 6,
+  "functions": 3,
+  "sha256": "c2cea0954227495f84d8c2e6742b32b8e11070937ab8430916b88cb320adec87"
+ },
+ {
+  "path": "maths/ncr_combinations.py",
+  "folder": "maths",
+  "lines": 77,
+  "chars": 1890,
+  "examples": 6,
+  "functions": 1,
+  "sha256": "db3d62867e9f97a947e71eaf31cfb09a3332a40287c2767ad362339b46922d56"
+ },
+ {
+  "path": "maths/next_prime_number.py",
+  "folder": "maths",
+  "lines": 80,
+  "chars": 1788,
+  "examples": 10,
+  "functions": 2,
+  "sha256": "f6a55595692d5bac402e3b8a2305fc444ec16abad231a0982fa616ee1cc7f3a9"
+ },
+ {
+  "path": "maths/number_of_digits.py",
+  "folder": "maths",
+  "lines": 113,
+  "chars": 2703,
+  "examples": 20,
+  "functions": 5,
+  "sha256": "c990cec2b0769ccca2282f7d1aa81f8963e7465a30a8064ecd52df43d378c14b"
+ },
+ {
+  "path": "maths/numerical_analysis/adams_bashforth.py",
+  "folder": "maths",
+  "lines": 231,
+  "chars": 7099,
+  "examples": 21,
+  "functions": 5,
+  "sha256": "6df44a9c56d83a66a4614235c761bcb615c1db82cb24398da2d14def6c3e28af"
+ },
+ {
+  "path": "maths/numerical_analysis/bisection.py",
+  "folder": "maths",
+  "lines": 55,
+  "chars": 1670,
+  "examples": 5,
+  "functions": 2,
+  "sha256": "a4ede0385579cc24beaf2e671171c658190adb76cdf977a48136a99e1b7cc874"
+ },
+ {
+  "path": "maths/numerical_analysis/bisection_2.py",
+  "folder": "maths",
+  "lines": 63,
+  "chars": 1415,
+  "examples": 8,
+  "functions": 2,
+  "sha256": "f2e57b576cbc53da0d3a62923fa4219791bf7ae20e4d37acab816cd01c313fb5"
+ },
+ {
+  "path": "maths/numerical_analysis/brent_method.py",
+  "folder": "maths",
+  "lines": 121,
+  "chars": 2940,
+  "examples": 4,
+  "functions": 1,
+  "sha256": "4af21c80bd9a81d2de06fb96bf6013baf6f368bd2f310cb68641f1ee17c6036a"
+ },
+ {
+  "path": "maths/numerical_analysis/gauss_seidel_method.py",
+  "folder": "maths",
+  "lines": 43,
+  "chars": 1307,
+  "examples": 3,
+  "functions": 1,
+  "sha256": "5a3d3ae066c0496199ff3fe8bd779bfea2a5043b6328de5b3859809cb47374fe"
+ },
+ {
+  "path": "maths/numerical_analysis/integration_by_simpson_approx.py",
+  "folder": "maths",
+  "lines": 121,
+  "chars": 3880,
+  "examples": 8,
+  "functions": 2,
+  "sha256": "abfacce41e086d9cd5cb0f5cb22309571204791614329cfd16af3a9f51b724af"
+ },
+ {
+  "path": "maths/numerical_analysis/intersection.py",
+  "folder": "maths",
+  "lines": 54,
+  "chars": 1655,
+  "examples": 9,
+  "functions": 2,
+  "sha256": "34a16af70b11257ab0d59d303c4074c185dbeaae17410df29e74f89493232fac"
+ },
+ {
+  "path": "maths/numerical_analysis/nevilles_method.py",
+  "folder": "maths",
+  "lines": 55,
+  "chars": 1825,
+  "examples": 5,
+  "functions": 1,
+  "sha256": "c08836a18b9229ac9f47b253612e0c44357f42ab676538f0126a783c11fa77a4"
+ },
+ {
+  "path": "maths/numerical_analysis/newton_raphson.py",
+  "folder": "maths",
+  "lines": 114,
+  "chars": 3752,
+  "examples": 16,
+  "functions": 4,
+  "sha256": "c00112deb2b4d0ac0fd79c1d5ea23b2811c19c75290b03026271f10f36c1bba2"
+ },
+ {
+  "path": "maths/numerical_analysis/nth_root.py",
+  "folder": "maths",
+  "lines": 155,
+  "chars": 4627,
+  "examples": 15,
+  "functions": 1,
+  "sha256": "c60a3e5ffd935ba1ed73d2f9bb1e33b79e16065934e97a9e6bc25c4e1f090f09"
+ },
+ {
+  "path": "maths/numerical_analysis/numerical_integration.py",
+  "folder": "maths",
+  "lines": 66,
+  "chars": 1676,
+  "examples": 5,
+  "functions": 2,
+  "sha256": "b24c4536ecbe3c0428f61776d8ae931a51610d426894f84272188a23cebac1e3"
+ },
+ {
+  "path": "maths/numerical_analysis/proper_fractions.py",
+  "folder": "maths",
+  "lines": 40,
+  "chars": 1147,
+  "examples": 5,
+  "functions": 1,
+  "sha256": "e531f1062dce70c835ff51662c4189e6c3ded8ef12c047975f976697cc6358cb"
+ },
+ {
+  "path": "maths/numerical_analysis/runge_kutta.py",
+  "folder": "maths",
+  "lines": 44,
+  "chars": 1021,
+  "examples": 4,
+  "functions": 1,
+  "sha256": "4d2f6e9f779023354e469d0ad91bcd1afb73d992e055bfeefe9f3423c1c1744d"
+ },
+ {
+  "path": "maths/numerical_analysis/runge_kutta_fehlberg_45.py",
+  "folder": "maths",
+  "lines": 114,
+  "chars": 3212,
+  "examples": 11,
+  "functions": 1,
+  "sha256": "aac47390382cf39ce6e166d541bfdae2618b367b9c9ff49dd1a43604318935de"
+ },
+ {
+  "path": "maths/numerical_analysis/runge_kutta_gills.py",
+  "folder": "maths",
+  "lines": 90,
+  "chars": 2489,
+  "examples": 10,
+  "functions": 1,
+  "sha256": "3a1a2784a8325fae3e02e6020e7bb5bf6942f29921557faa060a7a0623b70309"
+ },
+ {
+  "path": "maths/numerical_analysis/simpson_rule.py",
+  "folder": "maths",
+  "lines": 86,
+  "chars": 2249,
+  "examples": 9,
+  "functions": 4,
+  "sha256": "337d5a10cf65268b356312ff49247cfd6b73f1a59c31607039ac7fd693e5b39b"
+ },
+ {
+  "path": "maths/numerical_analysis/square_root.py",
+  "folder": "maths",
+  "lines": 63,
+  "chars": 1252,
+  "examples": 5,
+  "functions": 4,
+  "sha256": "2d9d2cc1a0e45966149babc48b69f28b312442cdb04b733ae89787a1e169f882"
+ },
+ {
+  "path": "maths/numerical_analysis/weierstrass_method.py",
+  "folder": "maths",
+  "lines": 97,
+  "chars": 3001,
+  "examples": 4,
+  "functions": 1,
+  "sha256": "83967e518e3ebf5a3e181a3631a8dade7802f2edd9956f7e227cf556731413ec"
+ },
+ {
+  "path": "maths/odd_sieve.py",
+  "folder": "maths",
+  "lines": 42,
+  "chars": 1034,
+  "examples": 4,
+  "functions": 1,
+  "sha256": "e4618007e5ad0eefadd3993fb26e313cdefd4b45975c980914ed46e12e831b7d"
+ },
+ {
+  "path": "maths/padovan_sequence.py",
+  "folder": "maths",
+  "lines": 50,
+  "chars": 1232,
+  "examples": 8,
+  "functions": 1,
+  "sha256": "a0ca15a4a5c06333c7423e6c837aba7955df3ebf7030cbb803b76bd4771d2a37"
+ },
+ {
+  "path": "maths/pell_number.py",
+  "folder": "maths",
+  "lines": 79,
+  "chars": 2246,
+  "examples": 10,
+  "functions": 2,
+  "sha256": "638b444af482e8d59ed0784a97a34c0f5e7e8915ae4c7f02fb7fbb51d787e312"
+ },
+ {
+  "path": "maths/perfect_cube.py",
+  "folder": "maths",
+  "lines": 55,
+  "chars": 1355,
+  "examples": 7,
+  "functions": 2,
+  "sha256": "5c1fd3afa6184154d51dd0cf71b66cab2f5ac5b16501fc9cc4e40e83243575f8"
+ },
+ {
+  "path": "maths/perfect_number.py",
+  "folder": "maths",
+  "lines": 304,
+  "chars": 7975,
+  "examples": 47,
+  "functions": 4,
+  "sha256": "4bc343e3225f813378afb453402488573a2114387216c6d06da3a1ace6da3e7e"
+ },
+ {
+  "path": "maths/perfect_square.py",
+  "folder": "maths",
+  "lines": 73,
+  "chars": 1808,
+  "examples": 15,
+  "functions": 2,
+  "sha256": "cc4fc1867d63c30eecf51a774cc7ae1c715f780f65e72ade31ce5f35952975e6"
+ },
+ {
+  "path": "maths/persistence.py",
+  "folder": "maths",
+  "lines": 82,
+  "chars": 2131,
+  "examples": 6,
+  "functions": 2,
+  "sha256": "b64404686ed6be4d5078e426d48cd21952c4f29c8e8663d9e915e60461381d18"
+ },
+ {
+  "path": "maths/pi_generator.py",
+  "folder": "maths",
+  "lines": 87,
+  "chars": 2404,
+  "examples": 6,
+  "functions": 2,
+  "sha256": "836d0a25b1230896b6f539d3ba79fc95bfe2541d2ed060336a6c6dbcaf9811f7"
+ },
+ {
+  "path": "maths/pi_monte_carlo_estimation.py",
+  "folder": "maths",
+  "lines": 80,
+  "chars": 2370,
+  "examples": 3,
+  "functions": 4,
+  "sha256": "9c71393a00c40b16eb8c40f134013282f7e96ef9cdf5677935adb816c5275a68"
+ },
+ {
+  "path": "maths/points_are_collinear_3d.py",
+  "folder": "maths",
+  "lines": 126,
+  "chars": 4627,
+  "examples": 14,
+  "functions": 4,
+  "sha256": "42eac9262f16bc8a3a5e64fa70ad71c3bb877deffb07b149577b1f4072863e7c"
+ },
+ {
+  "path": "maths/pollard_rho.py",
+  "folder": "maths",
+  "lines": 147,
+  "chars": 5558,
+  "examples": 8,
+  "functions": 2,
+  "sha256": "b2616b6366c0f8636581ddb6b04600706b21158a9d9a18985b08aa44000639b8"
+ },
+ {
+  "path": "maths/polynomials/single_indeterminate_operations.py",
+  "folder": "maths",
+  "lines": 189,
+  "chars": 5870,
+  "examples": 29,
+  "functions": 12,
+  "sha256": "bc4fd0b2b68b0f1666d42fff722499c2cd72c119f678dbbcc4ef7b990f12c91e"
+ },
+ {
+  "path": "maths/power_using_recursion.py",
+  "folder": "maths",
+  "lines": 63,
+  "chars": 1691,
+  "examples": 11,
+  "functions": 1,
+  "sha256": "509f99198cf29e9588aac3ed264f3afd4b56e7ff39176fa0106432cdb6a9780a"
+ },
+ {
+  "path": "maths/prime_factors.py",
+  "folder": "maths",
+  "lines": 93,
+  "chars": 2098,
+  "examples": 19,
+  "functions": 2,
+  "sha256": "c5637623df3d4eecc10d76cccf29c2881e46c754482e2c94fa99af32be42bc20"
+ },
+ {
+  "path": "maths/prime_numbers.py",
+  "folder": "maths",
+  "lines": 109,
+  "chars": 3032,
+  "examples": 21,
+  "functions": 4,
+  "sha256": "1b7416a2a40c0535d5b18ab033f539c638324cf7ee0ccd746aaa784baea24a8d"
+ },
+ {
+  "path": "maths/prime_sieve_eratosthenes.py",
+  "folder": "maths",
+  "lines": 54,
+  "chars": 1161,
+  "examples": 5,
+  "functions": 1,
+  "sha256": "41a17a0765abd1480e43ae88f06c325a5ccf57ba99362fc202334297c4e4f693"
+ },
+ {
+  "path": "maths/pythagoras.py",
+  "folder": "maths",
+  "lines": 29,
+  "chars": 720,
+  "examples": 3,
+  "functions": 3,
+  "sha256": "902a78910e317057a22b3643f2eefc6b112902b2dd6bc403f06f076cdab6a991"
+ },
+ {
+  "path": "maths/qr_decomposition.py",
+  "folder": "maths",
+  "lines": 71,
+  "chars": 2155,
+  "examples": 6,
+  "functions": 1,
+  "sha256": "40f2689f22db86ed933464b8d18327fb037742d223ae6d45ace61715f2c57fd5"
+ },
+ {
+  "path": "maths/quadratic_equations_complex_numbers.py",
+  "folder": "maths",
+  "lines": 38,
+  "chars": 937,
+  "examples": 3,
+  "functions": 2,
+  "sha256": "6778003c85de2c8aad73efb97534a01cf008601fb484fa0a96b5b7a8446bcf11"
+ },
+ {
+  "path": "maths/radians.py",
+  "folder": "maths",
+  "lines": 29,
+  "chars": 592,
+  "examples": 6,
+  "functions": 1,
+  "sha256": "3ba39a229a66aaa6ff8821a9b994d542a18806a9cb9094cd12e8a83e9f150adb"
+ },
+ {
+  "path": "maths/recursive_digit_sum.py",
+  "folder": "maths",
+  "lines": 58,
+  "chars": 1769,
+  "examples": 3,
+  "functions": 1,
+  "sha256": "03b7affa95c39df3dc054cf6a95e0e7a2dcbfdaf3e4fdf91d3a5c93ae602b3d2"
+ },
+ {
+  "path": "maths/remove_digit.py",
+  "folder": "maths",
+  "lines": 36,
+  "chars": 994,
+  "examples": 6,
+  "functions": 1,
+  "sha256": "ecabd83f86a9ebe0f570fc9901ab10c82c0ad86cd46889d9e1dbcc8733ce2623"
+ },
+ {
+  "path": "maths/reverse_factorial_recursive.py",
+  "folder": "maths",
+  "lines": 58,
+  "chars": 1788,
+  "examples": 5,
+  "functions": 1,
+  "sha256": "3c3c6d59b44271bbea9f87c9a547af02e016f041e64d33f63a41376397fa1015"
+ },
+ {
+  "path": "maths/segmented_sieve.py",
+  "folder": "maths",
+  "lines": 79,
+  "chars": 1701,
+  "examples": 5,
+  "functions": 1,
+  "sha256": "514e93e0e30ceac39a8199f2cc8621609ae8293a1e9f2c2c80ebd03877bcfaa6"
+ },
+ {
+  "path": "maths/series/alternate_harmonic_series.py",
+  "folder": "maths",
+  "lines": 57,
+  "chars": 1998,
+  "examples": 8,
+  "functions": 1,
+  "sha256": "671a1482359cd593a6187248e9c18eefa1a66415a2d20501477967d249d15de0"
+ },
+ {
+  "path": "maths/series/alternating_harmonic_series.py",
+  "folder": "maths",
+  "lines": 34,
+  "chars": 775,
+  "examples": 3,
+  "functions": 1,
+  "sha256": "6d64200062aa9748846f1c14d6b1ef4b2abba83e95d41dfec2ff84439b460979"
+ },
+ {
+  "path": "maths/series/arithmetic.py",
+  "folder": "maths",
+  "lines": 77,
+  "chars": 2166,
+  "examples": 11,
+  "functions": 2,
+  "sha256": "346f717308d769f64bd1325342942c1b7d15eea7be964e85149f58aaa92d4268"
+ },
+ {
+  "path": "maths/series/geometric.py",
+  "folder": "maths",
+  "lines": 83,
+  "chars": 2315,
+  "examples": 13,
+  "functions": 2,
+  "sha256": "9a707f3bcd3d06f26b38ca8f83a0bd0b15d6ac0f315f4deccef36db5cbed4b5c"
+ },
+ {
+  "path": "maths/series/geometric_series.py",
+  "folder": "maths",
+  "lines": 74,
+  "chars": 2341,
+  "examples": 9,
+  "functions": 1,
+  "sha256": "caf69e223ca1a884a69bd455fc51f82b989af6d5fed59f9a92384feeeb56a49d"
+ },
+ {
+  "path": "maths/series/harmonic.py",
+  "folder": "maths",
+  "lines": 92,
+  "chars": 2747,
+  "examples": 14,
+  "functions": 2,
+  "sha256": "96d608eafbee579787e69a8c99b130e46b9ad6138bbdd46cc345f3bdcb7c472a"
+ },
+ {
+  "path": "maths/series/harmonic_series.py",
+  "folder": "maths",
+  "lines": 46,
+  "chars": 1255,
+  "examples": 6,
+  "functions": 1,
+  "sha256": "630c50504da055ab74fb10ff2926eed95ffaeed88a51ec6792cac2377debd362"
+ },
+ {
+  "path": "maths/series/hexagonal_numbers.py",
+  "folder": "maths",
+  "lines": 42,
+  "chars": 1302,
+  "examples": 3,
+  "functions": 1,
+  "sha256": "3ab8e11b837bdd2601669336cecf7e33c5a71b612e17f464b32a43cc1a75310f"
+ },
+ {
+  "path": "maths/series/logarithmic_series.py",
+  "folder": "maths",
+  "lines": 54,
+  "chars": 1730,
+  "examples": 4,
+  "functions": 1,
+  "sha256": "bb7fbad8350aef80e6e2037ccca4cde1561302999b32b273143538bfba4078e4"
+ },
+ {
+  "path": "maths/series/p_series.py",
+  "folder": "maths",
+  "lines": 51,
+  "chars": 1401,
+  "examples": 6,
+  "functions": 1,
+  "sha256": "3e66a8e9c9268bbbb867823f5589b000e1cacd755f7ae260c70de4700eb6f9f6"
+ },
+ {
+  "path": "maths/shoelace_area.py",
+  "folder": "maths",
+  "lines": 70,
+  "chars": 1803,
+  "examples": 4,
+  "functions": 1,
+  "sha256": "d92cac5961b925aa047744b611b03f9ff66c983a25a17a8cdecf4acd0fd2c4a5"
+ },
+ {
+  "path": "maths/sieve_of_atkin.py",
+  "folder": "maths",
+  "lines": 110,
+  "chars": 2990,
+  "examples": 6,
+  "functions": 1,
+  "sha256": "4026fdabef552355a302daf9923260cdb8871e61dd67e3ac7709e461f3cea7e6"
+ },
+ {
+  "path": "maths/sieve_of_eratosthenes.py",
+  "folder": "maths",
+  "lines": 66,
+  "chars": 1651,
+  "examples": 6,
+  "functions": 1,
+  "sha256": "c560818316c55dcfa9b53db9077302863e0e930e24f92f5543a18fc87fb61ffa"
+ },
+ {
+  "path": "maths/signum.py",
+  "folder": "maths",
+  "lines": 58,
+  "chars": 1183,
+  "examples": 10,
+  "functions": 2,
+  "sha256": "26f4699783f61ba190a40244a931e39d65861f15ef872e0f7473c996b47c4684"
+ },
+ {
+  "path": "maths/simultaneous_linear_equation_solver.py",
+  "folder": "maths",
+  "lines": 142,
+  "chars": 5129,
+  "examples": 8,
+  "functions": 2,
+  "sha256": "408e54829e7bf8bdf506c71ee332706396a607996854de92e0d9bac6d0ca4d92"
+ },
+ {
+  "path": "maths/sin.py",
+  "folder": "maths",
+  "lines": 64,
+  "chars": 1404,
+  "examples": 10,
+  "functions": 1,
+  "sha256": "88c56721062525f510e46ca66c3aeb74a0247cd3e6bc1e703bfe6dfb1504a63e"
+ },
+ {
+  "path": "maths/softmax.py",
+  "folder": "maths",
+  "lines": 139,
+  "chars": 4935,
+  "examples": 11,
+  "functions": 1,
+  "sha256": "5ad0f04a31ccc40b632221aad477ddd545e7294e46413f8e7134b1f6fb3dd86c"
+ },
+ {
+  "path": "maths/solovay_strassen_primality_test.py",
+  "folder": "maths",
+  "lines": 106,
+  "chars": 2802,
+  "examples": 7,
+  "functions": 2,
+  "sha256": "8bf3bfb8b7ef33931fe1d30491e632060cfba9bddeda5e2c65b5a4602f88f6be"
+ },
+ {
+  "path": "maths/spearman_rank_correlation_coefficient.py",
+  "folder": "maths",
+  "lines": 108,
+  "chars": 3002,
+  "examples": 15,
+  "functions": 2,
+  "sha256": "5198fd64597d0ca105ad1c82ec4cc7e29bfd865aa2abd64dcedfc49bb8751573"
+ },
+ {
+  "path": "maths/special_numbers/abundant_numbers.py",
+  "folder": "maths",
+  "lines": 57,
+  "chars": 1421,
+  "examples": 10,
+  "functions": 1,
+  "sha256": "8942bd19373d78dfc49041bb2e4fb70a1fb992d6287965980282cc2a153bf227"
+ },
+ {
+  "path": "maths/special_numbers/automorphic_number.py",
+  "folder": "maths",
+  "lines": 59,
+  "chars": 1576,
+  "examples": 10,
+  "functions": 1,
+  "sha256": "a64d9d75999b55c1727766a958aeebe2c3464c518d33226ef7bad0e866ac53c7"
+ },
+ {
+  "path": "maths/special_numbers/bell_numbers.py",
+  "folder": "maths",
+  "lines": 81,
+  "chars": 2194,
+  "examples": 6,
+  "functions": 2,
+  "sha256": "68e59360ee1a1b778db17d69c88ed157981d4d6f87a7c25914f49ac0a23356a4"
+ },
+ {
+  "path": "maths/special_numbers/catalan_number.py",
+  "folder": "maths",
+  "lines": 53,
+  "chars": 1185,
+  "examples": 4,
+  "functions": 1,
+  "sha256": "4d717755f195431e575392c1c9deeff3d015594b3ce8ffce2ca6d8069af171a9"
+ },
+ {
+  "path": "maths/special_numbers/deficient_numbers.py",
+  "folder": "maths",
+  "lines": 60,
+  "chars": 1441,
+  "examples": 10,
+  "functions": 1,
+  "sha256": "0ac9883be5b70345c54fb58ff53fb7dc6e896fd6e7dbc045eae2cd4bfe82e045"
+ },
+ {
+  "path": "maths/special_numbers/disarum_number.py",
+  "folder": "maths",
+  "lines": 53,
+  "chars": 1329,
+  "examples": 10,
+  "functions": 1,
+  "sha256": "523d9f21e4c115599b77e22c5423db06741229813ed03211a47f8213506dabdf"
+ },
+ {
+  "path": "maths/special_numbers/evil_number.py",
+  "folder": "maths",
+  "lines": 67,
+  "chars": 1628,
+  "examples": 12,
+  "functions": 1,
+  "sha256": "36a482550d48bf4c0391acdff7598779a5c89986c02a1bc0ac220aeae2a3c7c0"
+ },
+ {
+  "path": "maths/special_numbers/hamming_numbers.py",
+  "folder": "maths",
+  "lines": 55,
+  "chars": 1866,
+  "examples": 4,
+  "functions": 1,
+  "sha256": "926630307ebc0c79ae0bdfbde9f37af38c499df0a14ee5a5eceb3aa866fdd8a4"
+ },
+ {
+  "path": "maths/special_numbers/happy_number.py",
+  "folder": "maths",
+  "lines": 48,
+  "chars": 1368,
+  "examples": 8,
+  "functions": 1,
+  "sha256": "fab199585d2f27f715e4a4a3b72c7c042865f63f2ed64ac41130cc63e45e7b8b"
+ },
+ {
+  "path": "maths/special_numbers/harshad_numbers.py",
+  "folder": "maths",
+  "lines": 166,
+  "chars": 4502,
+  "examples": 23,
+  "functions": 4,
+  "sha256": "609125192e76d55fb7cfa01bed936dd5e494a467da95d121b29a00bdf8338747"
+ },
+ {
+  "path": "maths/special_numbers/hexagonal_number.py",
+  "folder": "maths",
+  "lines": 49,
+  "chars": 1356,
+  "examples": 6,
+  "functions": 1,
+  "sha256": "47423a82a8e93af59943d93491c30096e246a25a063737fca089d9f4194cf45e"
+ },
+ {
+  "path": "maths/special_numbers/jacobsthal_number.py",
+  "folder": "maths",
+  "lines": 103,
+  "chars": 2890,
+  "examples": 14,
+  "functions": 2,
+  "sha256": "d8f1d09f467520cf02e4fbcd4f49a579cfebb873e2c84c88590d9456b0df2acc"
+ },
+ {
+  "path": "maths/special_numbers/kaprekar_number.py",
+  "folder": "maths",
+  "lines": 56,
+  "chars": 1367,
+  "examples": 9,
+  "functions": 1,
+  "sha256": "3993b3054f3066c475f7ddd463169b3e68d80455b71b6f48c64f01e42b3e4866"
+ },
+ {
+  "path": "maths/special_numbers/krishnamurthy_number.py",
+  "folder": "maths",
+  "lines": 49,
+  "chars": 1072,
+  "examples": 6,
+  "functions": 2,
+  "sha256": "ea454c89e5014af4b4521a5fdf0cdfcfdf5d5569398f00fb7fc3ae2f377afaa9"
+ },
+ {
+  "path": "maths/special_numbers/perfect_number.py",
+  "folder": "maths",
+  "lines": 79,
+  "chars": 2105,
+  "examples": 11,
+  "functions": 1,
+  "sha256": "6b9a651328f94b5ab17e1e0060640904ddd1777fbb04f89e8cb5fb7b0bae57f7"
+ },
+ {
+  "path": "maths/special_numbers/polygonal_numbers.py",
+  "folder": "maths",
+  "lines": 32,
+  "chars": 914,
+  "examples": 6,
+  "functions": 1,
+  "sha256": "0ab08c2f54c765a964377c447c633333c99854e3b70cc06ed5a5346a1a25d3b9"
+ },
+ {
+  "path": "maths/special_numbers/pronic_number.py",
+  "folder": "maths",
+  "lines": 55,
+  "chars": 1309,
+  "examples": 11,
+  "functions": 1,
+  "sha256": "da4f5559f2f27c1f627c8fc6a8ed06b5dc98a5d7d577407a02dac224a7cecaa4"
+ },
+ {
+  "path": "maths/special_numbers/proth_number.py",
+  "folder": "maths",
+  "lines": 126,
+  "chars": 3344,
+  "examples": 12,
+  "functions": 2,
+  "sha256": "e3fed55f9fc123958bc9bda2767fedafbedbf33acbc859bad48c54dca96bf841"
+ },
+ {
+  "path": "maths/special_numbers/spy_number.py",
+  "folder": "maths",
+  "lines": 48,
+  "chars": 1157,
+  "examples": 6,
+  "functions": 1,
+  "sha256": "0985cd86804443f017248de68cf7f53ab87190c4d747fda7a6b3ec1ac10dd453"
+ },
+ {
+  "path": "maths/special_numbers/triangular_numbers.py",
+  "folder": "maths",
+  "lines": 43,
+  "chars": 1041,
+  "examples": 3,
+  "functions": 1,
+  "sha256": "75c1c7ea0fe284661c3928dceb3cdc38e0e5cc8e12790f5e4c1250613c210646"
+ },
+ {
+  "path": "maths/special_numbers/trimorphic_number.py",
+  "folder": "maths",
+  "lines": 53,
+  "chars": 1186,
+  "examples": 10,
+  "functions": 1,
+  "sha256": "b587512c02ae009d1debbb9d0d2c887aa517abf43c40e9ade612b4935b50350e"
+ },
+ {
+  "path": "maths/special_numbers/ugly_numbers.py",
+  "folder": "maths",
+  "lines": 54,
+  "chars": 1350,
+  "examples": 5,
+  "functions": 1,
+  "sha256": "bc6274a04a42e3fd5d8c8cc1ca128c631e1ae7ded98cb87c5cf7ea105521edda"
+ },
+ {
+  "path": "maths/special_numbers/weird_number.py",
+  "folder": "maths",
+  "lines": 101,
+  "chars": 2000,
+  "examples": 15,
+  "functions": 4,
+  "sha256": "5b512dd21a96969527cddf90dabac1ef496dff4e6553063afdc16bc5ea69e540"
+ },
+ {
+  "path": "maths/sum_of_arithmetic_series.py",
+  "folder": "maths",
+  "lines": 42,
+  "chars": 1357,
+  "examples": 7,
+  "functions": 1,
+  "sha256": "51211271f3c2ef8c98b31f3aad6dfdc7dafd3bace7927f202f7a1964c125c771"
+ },
+ {
+  "path": "maths/sum_of_digits.py",
+  "folder": "maths",
+  "lines": 74,
+  "chars": 1755,
+  "examples": 12,
+  "functions": 5,
+  "sha256": "7137250ef6e246e088f24e58d3e0b8894b3b037ba38fd09ad6386c5706457d56"
+ },
+ {
+  "path": "maths/sum_of_geometric_progression.py",
+  "folder": "maths",
+  "lines": 28,
+  "chars": 909,
+  "examples": 8,
+  "functions": 1,
+  "sha256": "cab7f8cf428e0b847efdf47e662af6f1677d1d207da9ad1ac603b4dd201a73a8"
+ },
+ {
+  "path": "maths/sumset.py",
+  "folder": "maths",
+  "lines": 39,
+  "chars": 921,
+  "examples": 4,
+  "functions": 1,
+  "sha256": "3390b1cb60f59cb6dde555b6feaceed530f561651ff412da0e4c91911510b853"
+ },
+ {
+  "path": "maths/sylvester_sequence.py",
+  "folder": "maths",
+  "lines": 44,
+  "chars": 1076,
+  "examples": 3,
+  "functions": 1,
+  "sha256": "fd510aa147de4cee4276de848924a0f1287889b2dc9bfe87bcc223b088770072"
+ },
+ {
+  "path": "maths/tonelli_shanks.py",
+  "folder": "maths",
+  "lines": 135,
+  "chars": 3956,
+  "examples": 15,
+  "functions": 2,
+  "sha256": "7863b9457bb20eca92b4e2def35a569b6a8df8ce949f4897e6d2e7c04418bec9"
+ },
+ {
+  "path": "maths/trailing_zeroes.py",
+  "folder": "maths",
+  "lines": 40,
+  "chars": 711,
+  "examples": 4,
+  "functions": 1,
+  "sha256": "773eaf675f4a94a51a1468cc09becbf28b13d3700febae65bef10515bc579bb3"
+ },
+ {
+  "path": "maths/trapezoidal_rule.py",
+  "folder": "maths",
+  "lines": 105,
+  "chars": 2516,
+  "examples": 14,
+  "functions": 4,
+  "sha256": "e7caf079a5a345b17f8723de93138f70fcdb7df8307c9dc7766cb929722e0a36"
+ },
+ {
+  "path": "maths/triplet_sum.py",
+  "folder": "maths",
+  "lines": 90,
+  "chars": 2458,
+  "examples": 10,
+  "functions": 4,
+  "sha256": "8f1953b3880ac5d75ca1bdb4fa86def8f969254c0bb698879f4b6b9ea644d8c3"
+ },
+ {
+  "path": "maths/two_pointer.py",
+  "folder": "maths",
+  "lines": 61,
+  "chars": 1487,
+  "examples": 8,
+  "functions": 1,
+  "sha256": "4d382a5281653fcaa7dda2b17afcf259b03302ddde8886aa8465175ab3ee9dbc"
+ },
+ {
+  "path": "maths/two_sum.py",
+  "folder": "maths",
+  "lines": 48,
+  "chars": 1103,
+  "examples": 7,
+  "functions": 1,
+  "sha256": "fc9e52329506ff9ae1dcc6feec30044e3fc88288203e0f9fc6f71e051e1d3158"
+ },
+ {
+  "path": "maths/volume.py",
+  "folder": "maths",
+  "lines": 594,
+  "chars": 19305,
+  "examples": 103,
+  "functions": 18,
+  "sha256": "20ce8be8f1ceface4b449d208f1ceaf9c05d7cc957eabf09c5c37a45c594f639"
+ },
+ {
+  "path": "maths/weighted_average.py",
+  "folder": "maths",
+  "lines": 44,
+  "chars": 1374,
+  "examples": 7,
+  "functions": 1,
+  "sha256": "4803a5b0f049e59f2f33aeb6d95d136f71e45b154405657f9cd77b98ab706bff"
+ },
+ {
+  "path": "maths/zellers_congruence.py",
+  "folder": "maths",
+  "lines": 164,
+  "chars": 4294,
+  "examples": 11,
+  "functions": 1,
+  "sha256": "1b4e816d667138fe7c47dedcc01413a289eae0a205c7edf81f6149931b41991b"
+ },
+ {
+  "path": "matrix/binary_search_matrix.py",
+  "folder": "matrix",
+  "lines": 57,
+  "chars": 1706,
+  "examples": 8,
+  "functions": 2,
+  "sha256": "30b071023f3828470bfce0f70ebe2a12e5e0e28e3bde2bd4c4aa029d6248d6ce"
+ },
+ {
+  "path": "matrix/count_islands_in_matrix.py",
+  "folder": "matrix",
+  "lines": 92,
+  "chars": 3308,
+  "examples": 18,
+  "functions": 4,
+  "sha256": "a1665661ecb1a41ed939fb7f8ec8b311abfcb18976b4caa63f8d2869ca1a1295"
+ },
+ {
+  "path": "matrix/count_negative_numbers_in_sorted_matrix.py",
+  "folder": "matrix",
+  "lines": 151,
+  "chars": 4247,
+  "examples": 15,
+  "functions": 7,
+  "sha256": "302e2951601d730127192cfc7ec342bcf4d1b27333e2858bc0f94760a90269b5"
+ },
+ {
+  "path": "matrix/count_paths.py",
+  "folder": "matrix",
+  "lines": 75,
+  "chars": 2146,
+  "examples": 4,
+  "functions": 1,
+  "sha256": "f86a3453cb02dec79ced16c856f1fa23233c5388a9f09c3bd88f64b6fc564216"
+ },
+ {
+  "path": "matrix/cramers_rule_2x2.py",
+  "folder": "matrix",
+  "lines": 82,
+  "chars": 3003,
+  "examples": 11,
+  "functions": 1,
+  "sha256": "30ceffdc316cf765958ba111ed1cbde9a11054ff42a9cb398160132f908facff"
+ },
+ {
+  "path": "matrix/inverse_of_matrix.py",
+  "folder": "matrix",
+  "lines": 161,
+  "chars": 6305,
+  "examples": 12,
+  "functions": 1,
+  "sha256": "a093c39b51c3f91bb8bc1a1ec1ac47b91d6ed2187ec3ea5c349117d73212ccf3"
+ },
+ {
+  "path": "matrix/kronecker_product.py",
+  "folder": "matrix",
+  "lines": 75,
+  "chars": 2137,
+  "examples": 6,
+  "functions": 2,
+  "sha256": "af4c7eb965c886d4439ff0ba0dc364a07652bad90146a89cfbc572b134a69067"
+ },
+ {
+  "path": "matrix/largest_square_area_in_matrix.py",
+  "folder": "matrix",
+  "lines": 188,
+  "chars": 5601,
+  "examples": 8,
+  "functions": 6,
+  "sha256": "e33b436fd083d3043161fdf9111940f145e32e1a82b92bb5a45f0154f3ff6a8c"
+ },
+ {
+  "path": "matrix/matrix_based_game.py",
+  "folder": "matrix",
+  "lines": 284,
+  "chars": 8572,
+  "examples": 16,
+  "functions": 11,
+  "sha256": "f5aac6032528845803bcc9671a239ab2b85ba996e996c6c12a8a2e23033b1b11"
+ },
+ {
+  "path": "matrix/matrix_class.py",
+  "folder": "matrix",
+  "lines": 370,
+  "chars": 11418,
+  "examples": 25,
+  "functions": 27,
+  "sha256": "488352b340e618e59f6210abf56c8dfd0d713adebe77f867706200ea452f8950"
+ },
+ {
+  "path": "matrix/matrix_equalization.py",
+  "folder": "matrix",
+  "lines": 55,
+  "chars": 1730,
+  "examples": 8,
+  "functions": 1,
+  "sha256": "990726701e2e16778960d5aaa6a63d75b5b642c1081cfa4a26423ef532155753"
+ },
+ {
+  "path": "matrix/matrix_multiplication_recursion.py",
+  "folder": "matrix",
+  "lines": 181,
+  "chars": 5153,
+  "examples": 10,
+  "functions": 4,
+  "sha256": "79346877df658235eece610ca615c95ccdea275aa3565305494a5ea34f48b371"
+ },
+ {
+  "path": "matrix/matrix_operation.py",
+  "folder": "matrix",
+  "lines": 217,
+  "chars": 6467,
+  "examples": 23,
+  "functions": 14,
+  "sha256": "01066228d8ae29e202a17a68f81fb5f39beb2d993ec6a461a908e339bd029736"
+ },
+ {
+  "path": "matrix/max_area_of_island.py",
+  "folder": "matrix",
+  "lines": 112,
+  "chars": 3421,
+  "examples": 4,
+  "functions": 3,
+  "sha256": "ff6aab97f552836af906c0bba6155f6bba8a1fcb3874353d6e25ecb72e103482"
+ },
+ {
+  "path": "matrix/median_matrix.py",
+  "folder": "matrix",
+  "lines": 38,
+  "chars": 738,
+  "examples": 4,
+  "functions": 1,
+  "sha256": "1e17b16f52eee0e863577a28575b3cd1424cb788467cf71d9695412b89818918"
+ },
+ {
+  "path": "matrix/nth_fibonacci_using_matrix_exponentiation.py",
+  "folder": "matrix",
+  "lines": 94,
+  "chars": 2787,
+  "examples": 4,
+  "functions": 5,
+  "sha256": "5692ccaf80b7f6f25b7c9cbb4bb854a0cf646cc56e8e90eb84fb151e31620551"
+ },
+ {
+  "path": "matrix/pascal_triangle.py",
+  "folder": "matrix",
+  "lines": 189,
+  "chars": 6183,
+  "examples": 20,
+  "functions": 7,
+  "sha256": "9496de45ed252c84fd11bf217d22e28cc8f9b18a152ff3d656e1e91d3750236e"
+ },
+ {
+  "path": "matrix/rotate_matrix.py",
+  "folder": "matrix",
+  "lines": 101,
+  "chars": 2733,
+  "examples": 11,
+  "functions": 8,
+  "sha256": "98ed0886ed4e9a373f896027c1e4da31548fca044f7e00f0708730bdd6b04fab"
+ },
+ {
+  "path": "matrix/sherman_morrison.py",
+  "folder": "matrix",
+  "lines": 268,
+  "chars": 8278,
+  "examples": 29,
+  "functions": 15,
+  "sha256": "fca3b58248349bc2c0066b0b516f608d115ca4fc387e4f1a4ccf759f8eda45af"
+ },
+ {
+  "path": "matrix/validate_sudoku_board.py",
+  "folder": "matrix",
+  "lines": 167,
+  "chars": 5861,
+  "examples": 9,
+  "functions": 1,
+  "sha256": "e361dab7d29adabd479d24cc70b1af5e34f71d684b8c8590e5b80e4dfc7045d0"
+ },
+ {
+  "path": "networking_flow/dinic.py",
+  "folder": "networking_flow",
+  "lines": 166,
+  "chars": 5961,
+  "examples": 17,
+  "functions": 5,
+  "sha256": "a674a98bf54c3bcabffe371fcdcb29ab2da3ee12b3e7452fd4e6e0b29118dc86"
+ },
+ {
+  "path": "networking_flow/ford_fulkerson.py",
+  "folder": "networking_flow",
+  "lines": 122,
+  "chars": 3468,
+  "examples": 3,
+  "functions": 2,
+  "sha256": "93ec2e45382bee30f5f7ceb2a6df181ef46f8398c3e974679a59b474a82031ef"
+ },
+ {
+  "path": "networking_flow/minimum_cut.py",
+  "folder": "networking_flow",
+  "lines": 101,
+  "chars": 3102,
+  "examples": 5,
+  "functions": 2,
+  "sha256": "a721ccfc9d8d51a20906105ad9203622d5291f64fce6ab9ad4a189b4487e20e9"
+ },
+ {
+  "path": "networking_flow/push_relabel.py",
+  "folder": "networking_flow",
+  "lines": 162,
+  "chars": 5989,
+  "examples": 16,
+  "functions": 5,
+  "sha256": "1c18392d931ccd2819e6533bf3f208f5a3696515022f8eea1ea9f30f18729b56"
+ },
+ {
+  "path": "neural_network/activation_functions/gaussian_error_linear_unit.py",
+  "folder": "neural_network",
+  "lines": 51,
+  "chars": 1491,
+  "examples": 3,
+  "functions": 2,
+  "sha256": "2f61dff6845226dd91981d45a98230af2d04a5902309db8024cfeda084765e62"
+ },
+ {
+  "path": "neural_network/activation_functions/swish.py",
+  "folder": "neural_network",
+  "lines": 75,
+  "chars": 2287,
+  "examples": 5,
+  "functions": 3,
+  "sha256": "2762b7e53163b76b4b88c6a3db281175706ad3f74045d49039adc451f8a2e6da"
+ },
+ {
+  "path": "neural_network/lstm.py",
+  "folder": "neural_network",
+  "lines": 521,
+  "chars": 18911,
+  "examples": 67,
+  "functions": 13,
+  "sha256": "8ee2dc74f26289596d0b0f27b94921721a2ac4987485eae1a43c1f33187fc30a"
+ },
+ {
+  "path": "neural_network/optimizers/adagrad.py",
+  "folder": "neural_network",
+  "lines": 88,
+  "chars": 2602,
+  "examples": 7,
+  "functions": 2,
+  "sha256": "b74e601363de8ad6de0c2a9dca1478951a32b717bfc13c6a26bc79efacaf89a5"
+ },
+ {
+  "path": "neural_network/optimizers/adam_optimizer.py",
+  "folder": "neural_network",
+  "lines": 112,
+  "chars": 3277,
+  "examples": 7,
+  "functions": 2,
+  "sha256": "a529596c282595f17fc60cdb5c2634629cd441fb1ab70ee86af7875cc75e71b0"
+ },
+ {
+  "path": "neural_network/optimizers/momentum_sgd.py",
+  "folder": "neural_network",
+  "lines": 88,
+  "chars": 2579,
+  "examples": 7,
+  "functions": 2,
+  "sha256": "ee7828733ff6f37f50fc69c80156b1031c123ac365fc88bd62a71b72e6493459"
+ },
+ {
+  "path": "neural_network/optimizers/muon_optimizer.py",
+  "folder": "neural_network",
+  "lines": 117,
+  "chars": 3434,
+  "examples": 11,
+  "functions": 3,
+  "sha256": "1fe03ecfba62fdcb79f4d654e6361922465891835d615910704c5b88729dac5e"
+ },
+ {
+  "path": "neural_network/optimizers/nesterov_accelerated_sgd.py",
+  "folder": "neural_network",
+  "lines": 92,
+  "chars": 2766,
+  "examples": 7,
+  "functions": 2,
+  "sha256": "54e7fcb611e9c6293dbca6d7cd215c59cd73ec605e3d058454d16848e88a72cf"
+ },
+ {
+  "path": "neural_network/perceptron.py",
+  "folder": "neural_network",
+  "lines": 246,
+  "chars": 7392,
+  "examples": 18,
+  "functions": 4,
+  "sha256": "f7a0d282f0e87b00a08ffe6136b77c02e9ab21f164ec655d6b21517d4dbb359d"
+ },
+ {
+  "path": "neural_network/simple_neural_network.py",
+  "folder": "neural_network",
+  "lines": 63,
+  "chars": 1554,
+  "examples": 6,
+  "functions": 2,
+  "sha256": "312c3233c72bfe91153d20281d42ec61cd377fab21ac0fc6c7603fd3257dc365"
+ },
+ {
+  "path": "neural_network/sliding_window_attention.py",
+  "folder": "neural_network",
+  "lines": 101,
+  "chars": 3493,
+  "examples": 5,
+  "functions": 2,
+  "sha256": "370d2b0dc0b70a4162d267609c0a9a1330ae90837d9a31c1f26ec2e66b665a15"
+ },
+ {
+  "path": "neural_network/two_hidden_layers_neural_network.py",
+  "folder": "neural_network",
+  "lines": 296,
+  "chars": 11626,
+  "examples": 28,
+  "functions": 8,
+  "sha256": "f3a286bae55149594681a6b01c05fcfc9dc137dd23aec6b8bc8eb9ef70a21b80"
+ },
+ {
+  "path": "other/activity_selection.py",
+  "folder": "other",
+  "lines": 43,
+  "chars": 1253,
+  "examples": 3,
+  "functions": 1,
+  "sha256": "1ae5579d4c25a3c209970109a5f26a76dbfb44747e63c4c3392448bafa4d6561"
+ },
+ {
+  "path": "other/alternative_list_arrange.py",
+  "folder": "other",
+  "lines": 34,
+  "chars": 1371,
+  "examples": 4,
+  "functions": 1,
+  "sha256": "27b629763b374926f239a43a7fde4644550e6589f9294be11c0d51f50934b751"
+ },
+ {
+  "path": "other/bankers_algorithm.py",
+  "folder": "other",
+  "lines": 228,
+  "chars": 8568,
+  "examples": 3,
+  "functions": 7,
+  "sha256": "32ddcc1ae09c8d32073443c4688b04ee45b748ad7726ea6ed6c2d43543fd4cf6"
+ },
+ {
+  "path": "other/cheap_progress.py",
+  "folder": "other",
+  "lines": 54,
+  "chars": 1910,
+  "examples": 6,
+  "functions": 1,
+  "sha256": "50101c13c123f0659018c55e247c59d8f668d88e0ad604cdaa15d1311b75e618"
+ },
+ {
+  "path": "other/dancing_links.py",
+  "folder": "other",
+  "lines": 165,
+  "chars": 4600,
+  "examples": 5,
+  "functions": 8,
+  "sha256": "2ec2f122bc03669e21195dfb79afb1aa033fc882e3ac3e1b88fe5f042af22ba1"
+ },
+ {
+  "path": "other/davis_putnam_logemann_loveland.py",
+  "folder": "other",
+  "lines": 369,
+  "chars": 11767,
+  "examples": 28,
+  "functions": 13,
+  "sha256": "82f17155135a13c8a6c0cbc2d7800f82005d2d8096fb88dec6ed563a5204b3d3"
+ },
+ {
+  "path": "other/doomsday.py",
+  "folder": "other",
+  "lines": 59,
+  "chars": 1565,
+  "examples": 6,
+  "functions": 1,
+  "sha256": "f105899b62bd697331ccd5a951a4335f0a70bb8ef339b551081456e585ba57eb"
+ },
+ {
+  "path": "other/gauss_easter.py",
+  "folder": "other",
+  "lines": 61,
+  "chars": 2015,
+  "examples": 4,
+  "functions": 1,
+  "sha256": "776989709790a605a883f5847fe32edaf211571d3a816a44ebad07b58a314260"
+ },
+ {
+  "path": "other/graham_scan.py",
+  "folder": "other",
+  "lines": 172,
+  "chars": 5435,
+  "examples": 10,
+  "functions": 4,
+  "sha256": "066257f61c85fd600b67c00349791071bd572dbb2b26d24ae75d69453f8a388a"
+ },
+ {
+  "path": "other/greedy.py",
+  "folder": "other",
+  "lines": 63,
+  "chars": 1993,
+  "examples": 6,
+  "functions": 9,
+  "sha256": "f487ed87532c53b5b73bcc1cb3f51f892e0f7a1874379021e9945be45e9a056c"
+ },
+ {
+  "path": "other/h_index.py",
+  "folder": "other",
+  "lines": 71,
+  "chars": 1843,
+  "examples": 6,
+  "functions": 1,
+  "sha256": "cbb2e4ab22401b3cc2085768a35b452d5ec457520f8e458541765a8c6a428722"
+ },
+ {
+  "path": "other/least_recently_used.py",
+  "folder": "other",
+  "lines": 92,
+  "chars": 2399,
+  "examples": 10,
+  "functions": 4,
+  "sha256": "f2ca29d77b01d5a777169e161cdc83721f5c51d21460ed8a1f77e1b540470dcb"
+ },
+ {
+  "path": "other/lfu_cache.py",
+  "folder": "other",
+  "lines": 319,
+  "chars": 9789,
+  "examples": 40,
+  "functions": 16,
+  "sha256": "bce8cebddcf997e70987174ad39c0e0dc7e7ee0a4900afb659ff1fd7f57190d0"
+ },
+ {
+  "path": "other/lru_cache.py",
+  "folder": "other",
+  "lines": 336,
+  "chars": 10132,
+  "examples": 43,
+  "functions": 15,
+  "sha256": "abfb3a335e75f6a8773c229394d9929f9ac82f1951c3ca9776ba1ef6c607395a"
+ },
+ {
+  "path": "other/magicdiamondpattern.py",
+  "folder": "other",
+  "lines": 79,
+  "chars": 1968,
+  "examples": 6,
+  "functions": 3,
+  "sha256": "c5eb7ee6fad6f3170c6a025ba8943cf9493bd96af64d1c3c0ac1b97cecb7df7e"
+ },
+ {
+  "path": "other/majority_vote_algorithm.py",
+  "folder": "other",
+  "lines": 38,
+  "chars": 1229,
+  "examples": 3,
+  "functions": 1,
+  "sha256": "2104a2bd547fc36d9100a9048f0fe73b86fd0d8a61d4d0c9ecc359e045105a86"
+ },
+ {
+  "path": "other/maximum_subsequence.py",
+  "folder": "other",
+  "lines": 42,
+  "chars": 1135,
+  "examples": 4,
+  "functions": 1,
+  "sha256": "8e969c2974503443401ff13dd011de85857427557497736b288ab6398dc532ee"
+ },
+ {
+  "path": "other/number_container_system.py",
+  "folder": "other",
+  "lines": 180,
+  "chars": 6296,
+  "examples": 30,
+  "functions": 5,
+  "sha256": "860b1aec022e6e5e4f6837a558bcecb7bf4af2721d409456dfd9aa82d5d2464a"
+ },
+ {
+  "path": "other/pipeline.py",
+  "folder": "other",
+  "lines": 46,
+  "chars": 1451,
+  "examples": 11,
+  "functions": 3,
+  "sha256": "35621c9be555fb2094c7903a9bde3edb0e36d08288dcd91b9442ea0355ac4548"
+ },
+ {
+  "path": "other/scoring_algorithm.py",
+  "folder": "other",
+  "lines": 120,
+  "chars": 3752,
+  "examples": 4,
+  "functions": 4,
+  "sha256": "af9c45f1457ea185d506db2636b945773d3bf252ae4f0ef17a258b52f9eea86b"
+ },
+ {
+  "path": "other/sdes.py",
+  "folder": "other",
+  "lines": 96,
+  "chars": 2607,
+  "examples": 4,
+  "functions": 5,
+  "sha256": "05550690aa3e5a287ea14d1e3462fea3d9f506b39a3b656ea9ae09ad668afd15"
+ },
+ {
+  "path": "other/sliding_window_maximum.py",
+  "folder": "other",
+  "lines": 58,
+  "chars": 1847,
+  "examples": 5,
+  "functions": 1,
+  "sha256": "6247ba9ae4e60c5306316a22c7b2c8ed30115922a40048a4c8c34888a65a0754"
+ },
+ {
+  "path": "other/token_bucket.py",
+  "folder": "other",
+  "lines": 100,
+  "chars": 3510,
+  "examples": 12,
+  "functions": 3,
+  "sha256": "bf10d4cf0769d11df00df7c77158d8366baf35758753d74bf2a314f8f0be262b"
+ },
+ {
+  "path": "other/word_search.py",
+  "folder": "other",
+  "lines": 395,
+  "chars": 15112,
+  "examples": 51,
+  "functions": 11,
+  "sha256": "60eaa5a1f25860623a8b40bd3c60754cdbd3f87717cebe7c91e5d6f9a26dc9fb"
+ },
+ {
+  "path": "physics/altitude_pressure.py",
+  "folder": "physics",
+  "lines": 52,
+  "chars": 1538,
+  "examples": 5,
+  "functions": 1,
+  "sha256": "f6e71333e24b3de634ca49eea0039bed66a09c2ad9a7cf439226deb98002ecd8"
+ },
+ {
+  "path": "physics/archimedes_principle_of_buoyant_force.py",
+  "folder": "physics",
+  "lines": 62,
+  "chars": 1937,
+  "examples": 7,
+  "functions": 1,
+  "sha256": "c1acb79b3526ae6dda21522eb132d9b834c6c4e866003e45ca2b72ddff773c41"
+ },
+ {
+  "path": "physics/bragg_angle.py",
+  "folder": "physics",
+  "lines": 41,
+  "chars": 1149,
+  "examples": 4,
+  "functions": 1,
+  "sha256": "77fcfd4a8c7357f5c9e3bb6d3d0a95c003625532d6ac5994ead93e830dbb4d24"
+ },
+ {
+  "path": "physics/center_of_mass.py",
+  "folder": "physics",
+  "lines": 110,
+  "chars": 3444,
+  "examples": 5,
+  "functions": 1,
+  "sha256": "f940bc180e3391bccc3749727415972ed326b42286c8fe69611ee4c5b60e718c"
+ },
+ {
+  "path": "physics/centripetal_force.py",
+  "folder": "physics",
+  "lines": 49,
+  "chars": 1676,
+  "examples": 5,
+  "functions": 1,
+  "sha256": "ba62952f49bc1b6622691fd5391467440ed0a44e3fbfd2894c14d95cf55d541d"
+ },
+ {
+  "path": "physics/coulombs_law.py",
+  "folder": "physics",
+  "lines": 42,
+  "chars": 1169,
+  "examples": 5,
+  "functions": 1,
+  "sha256": "109463ead05aa28d64109e5bf9cbb11a294221f959743bb96159c99d3979ac3d"
+ },
+ {
+  "path": "physics/doppler_frequency.py",
+  "folder": "physics",
+  "lines": 104,
+  "chars": 4470,
+  "examples": 9,
+  "functions": 1,
+  "sha256": "35d16dc092a88b5b3faac4ea411b45998fa611cde33a5527dcd2f4bdf6eafa69"
+ },
+ {
+  "path": "physics/escape_velocity.py",
+  "folder": "physics",
+  "lines": 67,
+  "chars": 2062,
+  "examples": 5,
+  "functions": 1,
+  "sha256": "c389d946723ec8d295c76d0392aa8f6796babbed92ee9ee92df61fcf0f42e08d"
+ },
+ {
+  "path": "physics/faraday_lenz_law.py",
+  "folder": "physics",
+  "lines": 93,
+  "chars": 3105,
+  "examples": 8,
+  "functions": 2,
+  "sha256": "d4bfd0f86114c70816acd23a58bdb074bd535efcc831c039881201b1f22f3877"
+ },
+ {
+  "path": "physics/first_law_of_thermodynamics.py",
+  "folder": "physics",
+  "lines": 176,
+  "chars": 6144,
+  "examples": 14,
+  "functions": 5,
+  "sha256": "864496513c70d7293802b7eb12cb746baf66e7654ecef55e3d71704d936c9fcb"
+ },
+ {
+  "path": "physics/grahams_law.py",
+  "folder": "physics",
+  "lines": 208,
+  "chars": 6969,
+  "examples": 22,
+  "functions": 6,
+  "sha256": "13da8fa0faf4a7c2a43dd4c3eee46f15b9c02b7caaf181a0e1c9129b1caedd2f"
+ },
+ {
+  "path": "physics/hamiltonian.py",
+  "folder": "physics",
+  "lines": 98,
+  "chars": 3091,
+  "examples": 8,
+  "functions": 2,
+  "sha256": "ea62b8b01a308b629d4c8d4de8ccd874b5fce698773022e34d4597ab4793c380"
+ },
+ {
+  "path": "physics/hookes_law.py",
+  "folder": "physics",
+  "lines": 52,
+  "chars": 1565,
+  "examples": 5,
+  "functions": 1,
+  "sha256": "2f48efd05ac08f21be4f2455bb8bb54549e37e3b0cf6c373321619a096fe6ac2"
+ },
+ {
+  "path": "physics/horizontal_projectile_motion.py",
+  "folder": "physics",
+  "lines": 166,
+  "chars": 4380,
+  "examples": 13,
+  "functions": 5,
+  "sha256": "23381b1116a746dce073753011a50a64aa999d262ea30e48286bdc7078325371"
+ },
+ {
+  "path": "physics/hubble_parameter.py",
+  "folder": "physics",
+  "lines": 108,
+  "chars": 3271,
+  "examples": 3,
+  "functions": 1,
+  "sha256": "fd1ccafc9e546edb9d53323faa09ca8fcef493960a6363c482ff346eaaa3638d"
+ },
+ {
+  "path": "physics/ideal_gas_law.py",
+  "folder": "physics",
+  "lines": 93,
+  "chars": 3053,
+  "examples": 12,
+  "functions": 4,
+  "sha256": "5a53cbdda97fde5c4b3774eb494b9b75f7361a8a3a07d87033abe678f1dd1eea"
+ },
+ {
+  "path": "physics/in_static_equilibrium.py",
+  "folder": "physics",
+  "lines": 99,
+  "chars": 2800,
+  "examples": 10,
+  "functions": 2,
+  "sha256": "09cd1a21c839bc3874a5483bf7bad615951cb08a9c59a0a5cf5c9d9570a1345e"
+ },
+ {
+  "path": "physics/kinetic_energy.py",
+  "folder": "physics",
+  "lines": 50,
+  "chars": 1696,
+  "examples": 7,
+  "functions": 1,
+  "sha256": "98cd508af5cf513802c1c611756b4693a206aa99f17ba83a7f27f70cf9f7cdf3"
+ },
+ {
+  "path": "physics/lens_formulae.py",
+  "folder": "physics",
+  "lines": 131,
+  "chars": 4624,
+  "examples": 15,
+  "functions": 3,
+  "sha256": "53702f6d7c30c77ef3fb239a0990bdd799ce7affa0592d035e51c47940e0f16c"
+ },
+ {
+  "path": "physics/light_aberration.py",
+  "folder": "physics",
+  "lines": 50,
+  "chars": 1455,
+  "examples": 4,
+  "functions": 1,
+  "sha256": "42965a8132609f15c43bdd7c4b6753709804d3c2e72a6b33f467fa8a7558ee57"
+ },
+ {
+  "path": "physics/magnetic_flux.py",
+  "folder": "physics",
+  "lines": 93,
+  "chars": 3033,
+  "examples": 10,
+  "functions": 2,
+  "sha256": "828efb50cbb157e34f94750bae46e7aafdc888446129c39423edc3098a62b6d4"
+ },
+ {
+  "path": "physics/malus_law.py",
+  "folder": "physics",
+  "lines": 80,
+  "chars": 3419,
+  "examples": 9,
+  "functions": 1,
+  "sha256": "82ca33a576e1604209e0f50004be9ca865d3ab6ed8d1a19b6c2ac83bf3de82cb"
+ },
+ {
+  "path": "physics/maxwells_equations.py",
+  "folder": "physics",
+  "lines": 395,
+  "chars": 12878,
+  "examples": 25,
+  "functions": 8,
+  "sha256": "bab5d8b59dab60d249814ea14c3389d3d04c4990f6e67ef7e929700008fce212"
+ },
+ {
+  "path": "physics/mirror_formulae.py",
+  "folder": "physics",
+  "lines": 127,
+  "chars": 4992,
+  "examples": 15,
+  "functions": 3,
+  "sha256": "e84071a906fbd82d3d766739e23ff39ede533ef16134ecf2352c0c7270b1f7a3"
+ },
+ {
+  "path": "physics/newtons_law_of_gravitation.py",
+  "folder": "physics",
+  "lines": 99,
+  "chars": 3532,
+  "examples": 5,
+  "functions": 1,
+  "sha256": "36d678f4078d00960c995f4746ec637c9b0161ee20979cb06d92d6a74dafb52f"
+ },
+ {
+  "path": "physics/orbital_transfer_work.py",
+  "folder": "physics",
+  "lines": 73,
+  "chars": 2607,
+  "examples": 3,
+  "functions": 1,
+  "sha256": "dd54a8fc29806763fab7701aa528e533dbf7017519e9a616cb3dc712a8b33a27"
+ },
+ {
+  "path": "physics/photoelectric_effect.py",
+  "folder": "physics",
+  "lines": 67,
+  "chars": 2353,
+  "examples": 5,
+  "functions": 1,
+  "sha256": "522d0e1471150663e305f5ac941372b7b3a6ae78125f711564db66ae5643bdb6"
+ },
+ {
+  "path": "physics/rainfall_intensity.py",
+  "folder": "physics",
+  "lines": 143,
+  "chars": 4038,
+  "examples": 13,
+  "functions": 1,
+  "sha256": "2920e98655e55a735b8832c622c62654b16d090f89f9bade2cb70c9b67145d9c"
+ },
+ {
+  "path": "physics/relativistic_velocity_summation.py",
+  "folder": "physics",
+  "lines": 49,
+  "chars": 1514,
+  "examples": 3,
+  "functions": 1,
+  "sha256": "89b29a29d4cd99251d8c55a7e9c231b125473c113f8acc59b0511a64cff4fba3"
+ },
+ {
+  "path": "physics/reynolds_number.py",
+  "folder": "physics",
+  "lines": 63,
+  "chars": 2198,
+  "examples": 5,
+  "functions": 1,
+  "sha256": "b147be1c9316aca2b0903f27753e7da53807fef912c67887b2097d84b2e5503b"
+ },
+ {
+  "path": "physics/shear_stress.py",
+  "folder": "physics",
+  "lines": 59,
+  "chars": 1622,
+  "examples": 3,
+  "functions": 1,
+  "sha256": "60a5248ac976fc2a1f291d9a2ff807f197ec6493dd575a984ce81a2677bd2037"
+ },
+ {
+  "path": "physics/snells_law.py",
+  "folder": "physics",
+  "lines": 75,
+  "chars": 2675,
+  "examples": 4,
+  "functions": 1,
+  "sha256": "9be852318938bbdc4e3bd13bd0287ffc83c2b208bd185eca453f973abfbf0408"
+ },
+ {
+  "path": "quantum/shor_algorithm.py",
+  "folder": "quantum",
+  "lines": 67,
+  "chars": 2005,
+  "examples": 8,
+  "functions": 2,
+  "sha256": "511b6bc21fd21292db210685ce75f3d09a4e020db55d1deb9baf4e7e01804246"
+ },
+ {
+  "path": "scheduling/first_come_first_served.py",
+  "folder": "scheduling",
+  "lines": 108,
+  "chars": 3771,
+  "examples": 12,
+  "functions": 4,
+  "sha256": "38fed4a8c1e80bd77a82a4158c78e2937898e22170593b816c834f4e76230e9d"
+ },
+ {
+  "path": "scheduling/highest_response_ratio_next.py",
+  "folder": "scheduling",
+  "lines": 119,
+  "chars": 3988,
+  "examples": 4,
+  "functions": 2,
+  "sha256": "b8cdcfbfd761b9bac69877f01fa1e9a177e8b569cd67168f5ba581f5ed799d47"
+ },
+ {
+  "path": "scheduling/job_sequence_with_deadline.py",
+  "folder": "scheduling",
+  "lines": 63,
+  "chars": 1895,
+  "examples": 7,
+  "functions": 1,
+  "sha256": "28226015e809eacd100829c90a6cf70e7b5d76d02744f65cbbe982a7b6a22aa6"
+ },
+ {
+  "path": "scheduling/multi_level_feedback_queue.py",
+  "folder": "scheduling",
+  "lines": 312,
+  "chars": 12405,
+  "examples": 68,
+  "functions": 11,
+  "sha256": "a44e5733f46a4b82b72f9829058085d49dc9c2466e79905f613f6a7ffc42f1f1"
+ },
+ {
+  "path": "scheduling/non_preemptive_shortest_job_first.py",
+  "folder": "scheduling",
+  "lines": 110,
+  "chars": 3494,
+  "examples": 6,
+  "functions": 2,
+  "sha256": "edd9695631da299eef0ac936d77e912723001f9950b008f5c42ef1975e57835f"
+ },
+ {
+  "path": "scheduling/round_robin.py",
+  "folder": "scheduling",
+  "lines": 67,
+  "chars": 2203,
+  "examples": 5,
+  "functions": 2,
+  "sha256": "372d68b0340efc8c7c103e096e171c9062492c72538d9c5602e0b8211c10879a"
+ },
+ {
+  "path": "searches/binary_search.py",
+  "folder": "searches",
+  "lines": 471,
+  "chars": 15945,
+  "examples": 70,
+  "functions": 12,
+  "sha256": "bf2d0a3cfb68b0518857385cfb41fccebd21c4884b1bd00f44360027b584b88e"
+ },
+ {
+  "path": "searches/double_linear_search.py",
+  "folder": "searches",
+  "lines": 37,
+  "chars": 1091,
+  "examples": 4,
+  "functions": 1,
+  "sha256": "1aa1d41fe826471606227677ee64b8d6625dfbb26dd422cf0c3eed43f235f1c9"
+ },
+ {
+  "path": "searches/exponential_search.py",
+  "folder": "searches",
+  "lines": 136,
+  "chars": 4486,
+  "examples": 13,
+  "functions": 3,
+  "sha256": "93abf48e2dfa7f94a5bd6967ca6b0cffbfc49a0cc3e3693a771905ead4562e42"
+ },
+ {
+  "path": "searches/interpolation_search.py",
+  "folder": "searches",
+  "lines": 145,
+  "chars": 4631,
+  "examples": 21,
+  "functions": 2,
+  "sha256": "4576e1e0331466a5d57f3b8b109acde9f3771735a81ac9b95f8757785a0cc284"
+ },
+ {
+  "path": "searches/jump_search.py",
+  "folder": "searches",
+  "lines": 70,
+  "chars": 1875,
+  "examples": 6,
+  "functions": 2,
+  "sha256": "bb274db1e8952b5e3a924acd66dd2b6880ec49d9b74d354fec97fee4713786b2"
+ },
+ {
+  "path": "searches/linear_search.py",
+  "folder": "searches",
+  "lines": 77,
+  "chars": 2395,
+  "examples": 8,
+  "functions": 2,
+  "sha256": "1336d1906f4a77f0eaf8f8a49d2395bde1517d67deb3e6d94af67c4f9f9405d4"
+ },
+ {
+  "path": "searches/median_of_medians.py",
+  "folder": "searches",
+  "lines": 107,
+  "chars": 2793,
+  "examples": 12,
+  "functions": 3,
+  "sha256": "1e20e473098f1cdd9daf0ad3a203bf90c330fbb243ba03ccbfd66ebbc7f5dcfb"
+ },
+ {
+  "path": "searches/quick_select.py",
+  "folder": "searches",
+  "lines": 84,
+  "chars": 2408,
+  "examples": 6,
+  "functions": 3,
+  "sha256": "80ff115fc79baf68ba77d5c5f84498ca5ea6f8b7c79d0cfedabb1f84dd5a465e"
+ },
+ {
+  "path": "searches/sentinel_linear_search.py",
+  "folder": "searches",
+  "lines": 58,
+  "chars": 1443,
+  "examples": 4,
+  "functions": 1,
+  "sha256": "cf25ad2b5a813cf4ef7dd0a6c680555e75c79b120e46d666c19add4a4bbe1385"
+ },
+ {
+  "path": "searches/simple_binary_search.py",
+  "folder": "searches",
+  "lines": 60,
+  "chars": 1677,
+  "examples": 14,
+  "functions": 1,
+  "sha256": "bf133ae3719eb1ee56f418ef103236228fb871ccb1443d013c67b9f68a414807"
+ },
+ {
+  "path": "searches/ternary_search.py",
+  "folder": "searches",
+  "lines": 185,
+  "chars": 5370,
+  "examples": 36,
+  "functions": 3,
+  "sha256": "24ca1e641d1a16496fc73b29f4cb2d7a997e630861af4f04f04fc35b5c018b77"
+ },
+ {
+  "path": "sorts/bead_sort.py",
+  "folder": "sorts",
+  "lines": 43,
+  "chars": 1290,
+  "examples": 6,
+  "functions": 1,
+  "sha256": "4e181e781f1019544b08d335029a18cca177f5b395a4886121bb3759d365c73e"
+ },
+ {
+  "path": "sorts/benchmark_sorts.py",
+  "folder": "sorts",
+  "lines": 145,
+  "chars": 4755,
+  "examples": 10,
+  "functions": 5,
+  "sha256": "d8890aa51a2670e76c7197064f0fc026488a879354bf31b5fd9b2bb459e55557"
+ },
+ {
+  "path": "sorts/binary_insertion_sort.py",
+  "folder": "sorts",
+  "lines": 76,
+  "chars": 2290,
+  "examples": 12,
+  "functions": 2,
+  "sha256": "b2cf06d1f2625b4ed813a094007bebcad01b468615bd7ebd667bbe163cce0a4a"
+ },
+ {
+  "path": "sorts/bitonic_sort.py",
+  "folder": "sorts",
+  "lines": 125,
+  "chars": 3604,
+  "examples": 27,
+  "functions": 4,
+  "sha256": "2ec8d7d6ac410596fee53ca7fb05147807ead75fc122d0821163b148b3eb1edd"
+ },
+ {
+  "path": "sorts/bogo_sort.py",
+  "folder": "sorts",
+  "lines": 60,
+  "chars": 1755,
+  "examples": 6,
+  "functions": 3,
+  "sha256": "57908f498351bebf77cf25e33a9472587ad46f5837713d807037c52a49dd7f19"
+ },
+ {
+  "path": "sorts/bubble_sort.py",
+  "folder": "sorts",
+  "lines": 173,
+  "chars": 6815,
+  "examples": 42,
+  "functions": 3,
+  "sha256": "6d35fcc577638b72f5e6865e71edda8cea02295faa213a74fbedaed1b53597a8"
+ },
+ {
+  "path": "sorts/bubble_sort_recursive.py",
+  "folder": "sorts",
+  "lines": 54,
+  "chars": 1302,
+  "examples": 8,
+  "functions": 2,
+  "sha256": "2a7717805353cf2c17b2420beaa76bcbdfe7115da2651cd814103a5e5a025a9f"
+ },
+ {
+  "path": "sorts/bucket_sort.py",
+  "folder": "sorts",
+  "lines": 116,
+  "chars": 3829,
+  "examples": 28,
+  "functions": 1,
+  "sha256": "65834fdc36a0edc39932b967906eec446580f399887c99ed65bc6d4cca892870"
+ },
+ {
+  "path": "sorts/circle_sort.py",
+  "folder": "sorts",
+  "lines": 103,
+  "chars": 2772,
+  "examples": 8,
+  "functions": 3,
+  "sha256": "d73d9aa3738846e9a281356901e5f5c0307068f97d8aebdf48619fa320c5cab8"
+ },
+ {
+  "path": "sorts/cocktail_shaker_sort.py",
+  "folder": "sorts",
+  "lines": 78,
+  "chars": 2235,
+  "examples": 8,
+  "functions": 2,
+  "sha256": "8290e33901c996127ca489e5e14b75dcea34e43cdfcd996a094b6c13c4706d0e"
+ },
+ {
+  "path": "sorts/comb_sort.py",
+  "folder": "sorts",
+  "lines": 80,
+  "chars": 2507,
+  "examples": 7,
+  "functions": 2,
+  "sha256": "864a1687d1486b92b0abbf538c5499761dc12d53b42f879d4caa767df17d076d"
+ },
+ {
+  "path": "sorts/counting_sort.py",
+  "folder": "sorts",
+  "lines": 73,
+  "chars": 2265,
+  "examples": 4,
+  "functions": 2,
+  "sha256": "09949678b5bc4a18685db4ef25c6b9a6ec998f6f6aa4babd94002acf9c1dce4e"
+ },
+ {
+  "path": "sorts/cycle_sort.py",
+  "folder": "sorts",
+  "lines": 67,
+  "chars": 1586,
+  "examples": 6,
+  "functions": 2,
+  "sha256": "ba31e754c7ea73fb7ee7f81e2502245b9004b2350df839668792e305eb1a6a46"
+ },
+ {
+  "path": "sorts/cyclic_sort.py",
+  "folder": "sorts",
+  "lines": 79,
+  "chars": 1884,
+  "examples": 4,
+  "functions": 1,
+  "sha256": "67de3082ba7cd38a54119c6a82ec46bff16268433d999312942f177f5a089737"
+ },
+ {
+  "path": "sorts/double_sort.py",
+  "folder": "sorts",
+  "lines": 56,
+  "chars": 2169,
+  "examples": 7,
+  "functions": 2,
+  "sha256": "381a8f02fc136accb5718330bfe43bdeb727d07d098669a336c2a44d4830147e"
+ },
+ {
+  "path": "sorts/dutch_national_flag_sort.py",
+  "folder": "sorts",
+  "lines": 98,
+  "chars": 3663,
+  "examples": 9,
+  "functions": 1,
+  "sha256": "22d1b82dcc60883fcefa3a5949eeafc22b31619c16c734f9f6d5c5497a0f8d1d"
+ },
+ {
+  "path": "sorts/exchange_sort.py",
+  "folder": "sorts",
+  "lines": 42,
+  "chars": 1290,
+  "examples": 8,
+  "functions": 2,
+  "sha256": "105dd477415b4dfec756703d622c1de33f60819e91eabe0da11919d6314c0623"
+ },
+ {
+  "path": "sorts/flash_sort.py",
+  "folder": "sorts",
+  "lines": 158,
+  "chars": 4565,
+  "examples": 14,
+  "functions": 2,
+  "sha256": "84c5379950a9ce2785535ca171872d01a520259498c8432effc727d2804eea86"
+ },
+ {
+  "path": "sorts/gnome_sort.py",
+  "folder": "sorts",
+  "lines": 75,
+  "chars": 1940,
+  "examples": 4,
+  "functions": 2,
+  "sha256": "bd99ab3b1a7d357cc2959b657a92e4964c16468d304d65199ac0fc5e14eb1761"
+ },
+ {
+  "path": "sorts/heap_sort.py",
+  "folder": "sorts",
+  "lines": 82,
+  "chars": 2353,
+  "examples": 12,
+  "functions": 3,
+  "sha256": "3ee8373cadc1fc534dde49496a86eb14796a6a355b896d0107758aee907395b4"
+ },
+ {
+  "path": "sorts/insertion_sort.py",
+  "folder": "sorts",
+  "lines": 101,
+  "chars": 3498,
+  "examples": 20,
+  "functions": 2,
+  "sha256": "3a1ff42dd74da9df3c8a72253d62c25fa8d0c109bf96701c6551bc91476fd3fc"
+ },
+ {
+  "path": "sorts/intro_sort.py",
+  "folder": "sorts",
+  "lines": 238,
+  "chars": 7994,
+  "examples": 50,
+  "functions": 8,
+  "sha256": "8c89188fbd0518b4fd21ca3e1224c6c1817046f5c33ad09d80486f5be45b8bee"
+ },
+ {
+  "path": "sorts/iterative_merge_sort.py",
+  "folder": "sorts",
+  "lines": 103,
+  "chars": 2886,
+  "examples": 16,
+  "functions": 3,
+  "sha256": "a16f82a73a8d5ed3595ec8b921e30733959073d2c37de6968f35b31d4ea101b2"
+ },
+ {
+  "path": "sorts/kirkpatrick_reisch_sort.py",
+  "folder": "sorts",
+  "lines": 85,
+  "chars": 2218,
+  "examples": 5,
+  "functions": 1,
+  "sha256": "94f5ba2143b687cbf4c636f5aba9229296199ce8d0e6dc02c600056b12c9b0f5"
+ },
+ {
+  "path": "sorts/merge_insertion_sort.py",
+  "folder": "sorts",
+  "lines": 206,
+  "chars": 5951,
+  "examples": 9,
+  "functions": 5,
+  "sha256": "3f28ad00267eb7b417a3f93d62ed6a5419ad867644f2b9dd23f0f9164f28002c"
+ },
+ {
+  "path": "sorts/merge_sort.py",
+  "folder": "sorts",
+  "lines": 75,
+  "chars": 1882,
+  "examples": 3,
+  "functions": 3,
+  "sha256": "c37c47ef9c269dc5024ca579433f7c0cd7e61e3bb35e4885bbcebd9a24e2d9a3"
+ },
+ {
+  "path": "sorts/msd_radix_sort.py",
+  "folder": "sorts",
+  "lines": 161,
+  "chars": 4696,
+  "examples": 24,
+  "functions": 4,
+  "sha256": "802a3d50fc3bd7392345c3c46da7020a77e65320d5f2e6f836399e274f2f003f"
+ },
+ {
+  "path": "sorts/natural_sort.py",
+  "folder": "sorts",
+  "lines": 36,
+  "chars": 1207,
+  "examples": 6,
+  "functions": 2,
+  "sha256": "a0621b93eea2bbfb69bc2c3abb44aec86c31b752f02651f99e33735a3de64417"
+ },
+ {
+  "path": "sorts/odd_even_sort.py",
+  "folder": "sorts",
+  "lines": 66,
+  "chars": 2208,
+  "examples": 7,
+  "functions": 2,
+  "sha256": "18135827a8ad5e6937e4456fa6b5a110f76380daa47f5c83135b844dc3c216ec"
+ },
+ {
+  "path": "sorts/odd_even_transposition_single_threaded.py",
+  "folder": "sorts",
+  "lines": 84,
+  "chars": 2807,
+  "examples": 18,
+  "functions": 2,
+  "sha256": "1203f0cf293a7212fdd8ec384b6e56cff62c8034bd330e3af68489ea184df821"
+ },
+ {
+  "path": "sorts/pancake_sort.py",
+  "folder": "sorts",
+  "lines": 79,
+  "chars": 2579,
+  "examples": 10,
+  "functions": 2,
+  "sha256": "0e9991f197d9187714e2225d7017447e422857add52fd57af70ad5d6d45e267f"
+ },
+ {
+  "path": "sorts/patience_sort.py",
+  "folder": "sorts",
+  "lines": 84,
+  "chars": 2288,
+  "examples": 6,
+  "functions": 4,
+  "sha256": "280347ab81a566ab49f8a1424363edec9abd01fc0c2a7a8630020131a482d09d"
+ },
+ {
+  "path": "sorts/pigeon_sort.py",
+  "folder": "sorts",
+  "lines": 61,
+  "chars": 1445,
+  "examples": 3,
+  "functions": 1,
+  "sha256": "ab4f29bea8c330d0e598f6ae44e6a2a3a81c93577018222a3b4efe6e73ff01af"
+ },
+ {
+  "path": "sorts/pigeonhole_sort.py",
+  "folder": "sorts",
+  "lines": 49,
+  "chars": 1225,
+  "examples": 5,
+  "functions": 2,
+  "sha256": "1b6978267f2b17893e9c046194a0b09607f38b448d3525a4c49cc9d524e5d1e2"
+ },
+ {
+  "path": "sorts/power_sort.py",
+  "folder": "sorts",
+  "lines": 430,
+  "chars": 12363,
+  "examples": 35,
+  "functions": 6,
+  "sha256": "058d9e76b1f29fc78ce0a95886e7f6339c65162fc2305c78084d0826de40c71d"
+ },
+ {
+  "path": "sorts/quick_sort.py",
+  "folder": "sorts",
+  "lines": 56,
+  "chars": 1620,
+  "examples": 7,
+  "functions": 2,
+  "sha256": "2cdf0918efd16829cd4ac63a11b675e73b61ec77cf58f9d470f5c0730ec301c4"
+ },
+ {
+  "path": "sorts/quick_sort_3_partition.py",
+  "folder": "sorts",
+  "lines": 272,
+  "chars": 7604,
+  "examples": 39,
+  "functions": 9,
+  "sha256": "4d59c45b1db0cec5b8981278d07c9bf217c22845a04cc1a8ca6a5a64d4ce0f9e"
+ },
+ {
+  "path": "sorts/radix_sort.py",
+  "folder": "sorts",
+  "lines": 58,
+  "chars": 1539,
+  "examples": 5,
+  "functions": 1,
+  "sha256": "6e5220290fa96cef446f8e2504d4f09bb6ce97df40ff3c7b1ff7e4ba858aa51d"
+ },
+ {
+  "path": "sorts/recursive_insertion_sort.py",
+  "folder": "sorts",
+  "lines": 102,
+  "chars": 2555,
+  "examples": 26,
+  "functions": 3,
+  "sha256": "edccaaf32662ea1f6b1d3354a6106d5f0c4fb9ef501884f37b70dc2285c7881b"
+ },
+ {
+  "path": "sorts/recursive_mergesort_array.py",
+  "folder": "sorts",
+  "lines": 86,
+  "chars": 2696,
+  "examples": 12,
+  "functions": 2,
+  "sha256": "c2476556e3201d1130f488eecb2b4a0462e4f9d8c07b038d40e456ed99f45725"
+ },
+ {
+  "path": "sorts/recursive_quick_sort.py",
+  "folder": "sorts",
+  "lines": 63,
+  "chars": 1639,
+  "examples": 9,
+  "functions": 3,
+  "sha256": "4764c026ce72820f912a0da44f02e769c81c45c5e743bdee8245119321b31f85"
+ },
+ {
+  "path": "sorts/reverse_selection.py",
+  "folder": "sorts",
+  "lines": 104,
+  "chars": 2699,
+  "examples": 17,
+  "functions": 3,
+  "sha256": "684276cf61aca028cd2c94989475d953e5a04b4d0e1a1242f511f19a04dbe4b6"
+ },
+ {
+  "path": "sorts/reversort.py",
+  "folder": "sorts",
+  "lines": 171,
+  "chars": 5250,
+  "examples": 33,
+  "functions": 3,
+  "sha256": "5ebcfb0aace1b5bd6af60dd9a084a9e64a4d33e7d8fe5dd16bdd5dc04f84075f"
+ },
+ {
+  "path": "sorts/selection_sort.py",
+  "folder": "sorts",
+  "lines": 84,
+  "chars": 2422,
+  "examples": 13,
+  "functions": 2,
+  "sha256": "b127ba324e56ee5282b62b3336bc3c7e6e750414916c0222f6039cefb4bf2fa0"
+ },
+ {
+  "path": "sorts/shell_sort.py",
+  "folder": "sorts",
+  "lines": 55,
+  "chars": 1557,
+  "examples": 7,
+  "functions": 2,
+  "sha256": "9ea86dfd52fa3de42160ba266c93ca93ea89f73ea741a189cfdf45f55ac3dd88"
+ },
+ {
+  "path": "sorts/shrink_shell_sort.py",
+  "folder": "sorts",
+  "lines": 79,
+  "chars": 2287,
+  "examples": 6,
+  "functions": 2,
+  "sha256": "2b26b6c76b56eb705ce8a09bd959e91f1bae9b4009a9c1b3d117d4d8a3474dc6"
+ },
+ {
+  "path": "sorts/slowsort.py",
+  "folder": "sorts",
+  "lines": 77,
+  "chars": 2223,
+  "examples": 11,
+  "functions": 2,
+  "sha256": "cf86a61c392e11af0e67e317345e1b4fc4cd843d33b23c80e4e5c599995b047a"
+ },
+ {
+  "path": "sorts/smoothsort.py",
+  "folder": "sorts",
+  "lines": 228,
+  "chars": 7455,
+  "examples": 28,
+  "functions": 4,
+  "sha256": "30c66706f2cedef82f2ddd52e423e1c161f85c32558aaaeb8c3f7c972c7eb626"
+ },
+ {
+  "path": "sorts/stalin_sort.py",
+  "folder": "sorts",
+  "lines": 56,
+  "chars": 1100,
+  "examples": 10,
+  "functions": 1,
+  "sha256": "073cbd19cb945a4d8b2d15ccdf6fd6ade7e974fe2835ff81b94554ce54503026"
+ },
+ {
+  "path": "sorts/stooge_sort.py",
+  "folder": "sorts",
+  "lines": 57,
+  "chars": 1385,
+  "examples": 5,
+  "functions": 3,
+  "sha256": "ac36999013ae6e4cae91f847d6d015ea693e2d5f889c52208cc50ee2ef77d916"
+ },
+ {
+  "path": "sorts/strand_sort.py",
+  "folder": "sorts",
+  "lines": 64,
+  "chars": 1659,
+  "examples": 3,
+  "functions": 3,
+  "sha256": "932c756c0b75cdcf5b425f012781e00bf9f710cfb32ef3e00dc15262e998f635"
+ },
+ {
+  "path": "sorts/tim_sort.py",
+  "folder": "sorts",
+  "lines": 170,
+  "chars": 4725,
+  "examples": 12,
+  "functions": 6,
+  "sha256": "d8aa095770b10da8baa35e06d178f73ffc7577ddf1c6a10c39bbece5c246b878"
+ },
+ {
+  "path": "sorts/topological_sort.py",
+  "folder": "sorts",
+  "lines": 80,
+  "chars": 2254,
+  "examples": 3,
+  "functions": 1,
+  "sha256": "e2a6a140f5288ccc23308495e72bfd26011d823b37e79782b51dfcc6f0bfdec2"
+ },
+ {
+  "path": "sorts/tree_sort.py",
+  "folder": "sorts",
+  "lines": 91,
+  "chars": 2205,
+  "examples": 12,
+  "functions": 5,
+  "sha256": "b5ff0c3c9a7f2e9f76f4781dfb2bc2dd065e4dd66723dc9754b8bb9cf4d63420"
+ },
+ {
+  "path": "sorts/unknown_sort.py",
+  "folder": "sorts",
+  "lines": 57,
+  "chars": 1586,
+  "examples": 6,
+  "functions": 2,
+  "sha256": "5065a7725d0ce2969e1cea994abef3f290c95973e76942975e112b119a999c4a"
+ },
+ {
+  "path": "sorts/wiggle_sort.py",
+  "folder": "sorts",
+  "lines": 42,
+  "chars": 1075,
+  "examples": 4,
+  "functions": 1,
+  "sha256": "c04efb868c4690d314be51d06eaba9ed7747390a8e5ef7f042796a741ac3f783"
+ },
+ {
+  "path": "strings/alternative_string_arrange.py",
+  "folder": "strings",
+  "lines": 31,
+  "chars": 1042,
+  "examples": 4,
+  "functions": 1,
+  "sha256": "8c477f1cae2ee2e6c0b7b31fc913378bd089216f679105b31a865e8bc28c4709"
+ },
+ {
+  "path": "strings/autocomplete_using_trie.py",
+  "folder": "strings",
+  "lines": 65,
+  "chars": 1489,
+  "examples": 5,
+  "functions": 6,
+  "sha256": "b563160fa751d880109666ec3de5be28d4ab51e403aa53f4797a2bf1c7da1754"
+ },
+ {
+  "path": "strings/barcode_validator.py",
+  "folder": "strings",
+  "lines": 88,
+  "chars": 2164,
+  "examples": 11,
+  "functions": 3,
+  "sha256": "788baaaf1629e4eb62d4623d6360117e88003b18126a43018eca76a2cd335035"
+ },
+ {
+  "path": "strings/bitap_string_match.py",
+  "folder": "strings",
+  "lines": 79,
+  "chars": 2370,
+  "examples": 7,
+  "functions": 1,
+  "sha256": "aa3e3569312951659b343658ad69b26c6123c378f1d34e30f67dba976aaf7a85"
+ },
+ {
+  "path": "strings/booths_algorithm.py",
+  "folder": "strings",
+  "lines": 66,
+  "chars": 2079,
+  "examples": 6,
+  "functions": 1,
+  "sha256": "ed8bdb654032105cd8392ebe1fb425beb7d3d93aca391bb769c87855b82cabb8"
+ },
+ {
+  "path": "strings/boyer_moore_horspool.py",
+  "folder": "strings",
+  "lines": 131,
+  "chars": 4150,
+  "examples": 18,
+  "functions": 3,
+  "sha256": "e1af778a39df61cff87a25649ef63c28dc743f9d0ef23648de77aabd38e0625c"
+ },
+ {
+  "path": "strings/boyer_moore_search.py",
+  "folder": "strings",
+  "lines": 131,
+  "chars": 4152,
+  "examples": 16,
+  "functions": 4,
+  "sha256": "d9e487ba41feb72f30db33352c155391fa1b175c7c4cd27f85fa759441d99af8"
+ },
+ {
+  "path": "strings/bpe_tokenizer.py",
+  "folder": "strings",
+  "lines": 131,
+  "chars": 4203,
+  "examples": 20,
+  "functions": 5,
+  "sha256": "15918e728b8d3c7da910c1a6777ed4b33673dd0ad94dc087320626d40f5fa403"
+ },
+ {
+  "path": "strings/camel_case_to_snake_case.py",
+  "folder": "strings",
+  "lines": 60,
+  "chars": 1584,
+  "examples": 5,
+  "functions": 1,
+  "sha256": "30044435ac48a53303718f0b079fa69dbc06a7e33bd64558c9611dbd2576ce12"
+ },
+ {
+  "path": "strings/can_string_be_rearranged_as_palindrome.py",
+  "folder": "strings",
+  "lines": 113,
+  "chars": 3958,
+  "examples": 8,
+  "functions": 3,
+  "sha256": "da5d538c07e3d45cbf81150e35037b3f5842c570ec70c9e4fb881040d930c714"
+ },
+ {
+  "path": "strings/capitalize.py",
+  "folder": "strings",
+  "lines": 26,
+  "chars": 648,
+  "examples": 5,
+  "functions": 1,
+  "sha256": "6e3555c9d2cdcb2c17ca8b9d67a57eecb9a418da9d78eb046425f93ba03b7580"
+ },
+ {
+  "path": "strings/check_anagrams.py",
+  "folder": "strings",
+  "lines": 52,
+  "chars": 1521,
+  "examples": 4,
+  "functions": 1,
+  "sha256": "74c87946314245ff42bd2aa8c96aff988e48d1bdb0f352363ef5b88984dc7e6d"
+ },
+ {
+  "path": "strings/count_vowels.py",
+  "folder": "strings",
+  "lines": 34,
+  "chars": 743,
+  "examples": 7,
+  "functions": 1,
+  "sha256": "cd4d464e4613172f20f87d2d01ce44aec306c75c4ce7b6bd762cbe14cf26f08b"
+ },
+ {
+  "path": "strings/count_vowels_consonants.py",
+  "folder": "strings",
+  "lines": 34,
+  "chars": 917,
+  "examples": 4,
+  "functions": 1,
+  "sha256": "e06c1ac685930125f8499c079d1398f7eb85ba1db7dc5030007eba2a6dd67a81"
+ },
+ {
+  "path": "strings/credit_card_validator.py",
+  "folder": "strings",
+  "lines": 103,
+  "chars": 3517,
+  "examples": 13,
+  "functions": 3,
+  "sha256": "82ff93b851c1bc4e1c60eb9472f83e17202d36e1b251aa5b075b7be58378af92"
+ },
+ {
+  "path": "strings/damerau_levenshtein_distance.py",
+  "folder": "strings",
+  "lines": 71,
+  "chars": 2287,
+  "examples": 6,
+  "functions": 1,
+  "sha256": "213bdd2f6a70173eb943d6aaa5d619f9f75b2442f4d2e0193f2c7d31d9511b94"
+ },
+ {
+  "path": "strings/dna.py",
+  "folder": "strings",
+  "lines": 30,
+  "chars": 555,
+  "examples": 4,
+  "functions": 1,
+  "sha256": "1471d1c9f30b88a59551eb71efe0cd74ef84a2ea2911688c221420b4fc652992"
+ },
+ {
+  "path": "strings/edit_distance.py",
+  "folder": "strings",
+  "lines": 46,
+  "chars": 1435,
+  "examples": 8,
+  "functions": 1,
+  "sha256": "32889670c2650298cbaa1b60e173799cd82b4da07fae84beb6f2cff03c76d5bd"
+ },
+ {
+  "path": "strings/frequency_finder.py",
+  "folder": "strings",
+  "lines": 106,
+  "chars": 2673,
+  "examples": 4,
+  "functions": 4,
+  "sha256": "42a6c1c2fb1c0e9576b073107c65dfc737853121364a1860a3b62e8eec5ef9dc"
+ },
+ {
+  "path": "strings/hamming_distance.py",
+  "folder": "strings",
+  "lines": 40,
+  "chars": 1059,
+  "examples": 4,
+  "functions": 1,
+  "sha256": "f295d43530c0fe2209bbc9c152ff2a92f5c5dcdba184f7186293df6a3dc6fec9"
+ },
+ {
+  "path": "strings/indian_phone_validator.py",
+  "folder": "strings",
+  "lines": 29,
+  "chars": 756,
+  "examples": 6,
+  "functions": 1,
+  "sha256": "a51f763ac097391e309d71ed3a720cb921012002acf30946cb55cea9d3113ee7"
+ },
+ {
+  "path": "strings/is_isogram.py",
+  "folder": "strings",
+  "lines": 30,
+  "chars": 864,
+  "examples": 3,
+  "functions": 1,
+  "sha256": "90b70d2727b151345c764a63d228840e243d9f5ba3046477d8b96b48a01cad0f"
+ },
+ {
+  "path": "strings/is_isomorphic.py",
+  "folder": "strings",
+  "lines": 48,
+  "chars": 1243,
+  "examples": 4,
+  "functions": 1,
+  "sha256": "bb631644aeed8ed47b9a51fc77ffa92cb21fe0ccd5e1e65b45748ab1dde4be2f"
+ },
+ {
+  "path": "strings/is_pangram.py",
+  "folder": "strings",
+  "lines": 95,
+  "chars": 2733,
+  "examples": 16,
+  "functions": 4,
+  "sha256": "f47f09b33e298c37bf813dc2a2b0460a1bb0c5f8fa9a8d1c5609a23408d135fd"
+ },
+ {
+  "path": "strings/is_polish_national_id.py",
+  "folder": "strings",
+  "lines": 92,
+  "chars": 2495,
+  "examples": 8,
+  "functions": 1,
+  "sha256": "cf5ba27d1d57dd535d2a099b07587ca759ac5dadb2941bf90ab18a136f0dd941"
+ },
+ {
+  "path": "strings/is_spain_national_id.py",
+  "folder": "strings",
+  "lines": 73,
+  "chars": 2390,
+  "examples": 11,
+  "functions": 1,
+  "sha256": "e690577f13f600c7f6656fa2a6a3cb315432b09a38794ef6c602192f1e3e0840"
+ },
+ {
+  "path": "strings/is_srilankan_phone_number.py",
+  "folder": "strings",
+  "lines": 33,
+  "chars": 876,
+  "examples": 7,
+  "functions": 1,
+  "sha256": "e31e700b59e84294c524ae2f0d95d9f65ffe40154d567917e8eb9f7e4e29a4ec"
+ },
+ {
+  "path": "strings/jaro_winkler.py",
+  "folder": "strings",
+  "lines": 120,
+  "chars": 3671,
+  "examples": 11,
+  "functions": 2,
+  "sha256": "c95e4faec6c695a55b0eeed2753a9a868755c68f227015422785fcbbc7a1e7ab"
+ },
+ {
+  "path": "strings/join.py",
+  "folder": "strings",
+  "lines": 74,
+  "chars": 2059,
+  "examples": 7,
+  "functions": 1,
+  "sha256": "9af9b997bfdd361c18d13e6d78a0aabaaacc8e76dea9385a4d1f66ea9174c549"
+ },
+ {
+  "path": "strings/largest_smallest_words.py",
+  "folder": "strings",
+  "lines": 47,
+  "chars": 1394,
+  "examples": 3,
+  "functions": 1,
+  "sha256": "520b462fcde0152ee02e7c2c15effe35b4a4678c39739cfad59422d006aa9be2"
+ },
+ {
+  "path": "strings/levenshtein_distance.py",
+  "folder": "strings",
+  "lines": 125,
+  "chars": 4277,
+  "examples": 14,
+  "functions": 3,
+  "sha256": "04cb19784ea8abf20e5b298b8761056cfc834f58489de8017cc45fc738bc0298"
+ },
+ {
+  "path": "strings/longest_word_in_sentence.py",
+  "folder": "strings",
+  "lines": 30,
+  "chars": 849,
+  "examples": 9,
+  "functions": 1,
+  "sha256": "3fd30148dda936eb1397faeb7df16a6360f4a32517deb86592025ef88e39183f"
+ },
+ {
+  "path": "strings/lower.py",
+  "folder": "strings",
+  "lines": 36,
+  "chars": 712,
+  "examples": 5,
+  "functions": 1,
+  "sha256": "12df59e6360c0b71a1f27351fcea2510277309a17924c261ebc0377524d8ee2d"
+ },
+ {
+  "path": "strings/min_cost_string_conversion.py",
+  "folder": "strings",
+  "lines": 173,
+  "chars": 5386,
+  "examples": 19,
+  "functions": 2,
+  "sha256": "3af5918516b2718d424bdde6cb3d348e8e2dfae449ff7b2ca6dfab85d82df80f"
+ },
+ {
+  "path": "strings/naive_string_search.py",
+  "folder": "strings",
+  "lines": 40,
+  "chars": 1190,
+  "examples": 5,
+  "functions": 1,
+  "sha256": "286fdac44c73f0392994f5682d79de18e8d1550292ca92662893a7b6246a7f40"
+ },
+ {
+  "path": "strings/ngram.py",
+  "folder": "strings",
+  "lines": 23,
+  "chars": 625,
+  "examples": 3,
+  "functions": 1,
+  "sha256": "506b9504a92441653411576f3b556bd15a2890bfb92d1c8b3b6e794c8834bdea"
+ },
+ {
+  "path": "strings/palindrome.py",
+  "folder": "strings",
+  "lines": 139,
+  "chars": 4091,
+  "examples": 9,
+  "functions": 6,
+  "sha256": "22f625271f51f2565cc4a56d75b5fcd3d5fafa6057b32dd705316ffd841723e9"
+ },
+ {
+  "path": "strings/pig_latin.py",
+  "folder": "strings",
+  "lines": 44,
+  "chars": 987,
+  "examples": 11,
+  "functions": 1,
+  "sha256": "58d5fdd409de0bcff98bf1003159d89e5a4ec7640086faefaf3f4362a7ccd2c9"
+ },
+ {
+  "path": "strings/prefix_function.py",
+  "folder": "strings",
+  "lines": 64,
+  "chars": 1621,
+  "examples": 5,
+  "functions": 2,
+  "sha256": "1d465606c15c77ad87ee2b42dfdd84304f734a4a5ec30cf9b27e7a819f7cdac8"
+ },
+ {
+  "path": "strings/reverse_letters.py",
+  "folder": "strings",
+  "lines": 24,
+  "chars": 733,
+  "examples": 4,
+  "functions": 1,
+  "sha256": "7a2c0b29cc372b404c4fb1c111aa51d3ce1d133b8ddc9fc527e77e5e3dced7e5"
+ },
+ {
+  "path": "strings/snake_case_to_camel_pascal_case.py",
+  "folder": "strings",
+  "lines": 52,
+  "chars": 1621,
+  "examples": 6,
+  "functions": 1,
+  "sha256": "a872f9ae13ff119b8c46b5990e65f7f1470349f44c63928ed22295787dca0e0e"
+ },
+ {
+  "path": "strings/split.py",
+  "folder": "strings",
+  "lines": 51,
+  "chars": 1256,
+  "examples": 7,
+  "functions": 1,
+  "sha256": "407c36b2f4034de9abadd810dd3f125d4fb4d676a63740184fed4f2fe28148fd"
+ },
+ {
+  "path": "strings/string_is_valid_number.py",
+  "folder": "strings",
+  "lines": 169,
+  "chars": 4522,
+  "examples": 28,
+  "functions": 2,
+  "sha256": "0a7653274cd0e83cdedb5be0aceb1ed5561bf7dacd05876144a064f95b60b6bc"
+ },
+ {
+  "path": "strings/string_switch_case.py",
+  "folder": "strings",
+  "lines": 122,
+  "chars": 3507,
+  "examples": 13,
+  "functions": 7,
+  "sha256": "ec7be06d6bd28397b0a7621266e0cc7323152182d41d073a54549130204f88f9"
+ },
+ {
+  "path": "strings/strip.py",
+  "folder": "strings",
+  "lines": 33,
+  "chars": 837,
+  "examples": 4,
+  "functions": 1,
+  "sha256": "31e238903899a072a53304e6748c0900094fa86bd9e955fc5413223cd819ddff"
+ },
+ {
+  "path": "strings/suffix_automaton.py",
+  "folder": "strings",
+  "lines": 177,
+  "chars": 5249,
+  "examples": 19,
+  "functions": 5,
+  "sha256": "28a4ff0147b27be7efa1c7ddd80b9ea46aee28cfea5ff1d5ae1df4237f908f7e"
+ },
+ {
+  "path": "strings/title.py",
+  "folder": "strings",
+  "lines": 57,
+  "chars": 1250,
+  "examples": 8,
+  "functions": 2,
+  "sha256": "ea8452115ed557b98805b68d02893a10468c5c67ea316e98beb60796606a2ad8"
+ },
+ {
+  "path": "strings/top_k_frequent_words.py",
+  "folder": "strings",
+  "lines": 100,
+  "chars": 3162,
+  "examples": 18,
+  "functions": 4,
+  "sha256": "0074d5a5e8c57d445f311759a76ce7ea7084664f04d115e20312dc368ada17ed"
+ },
+ {
+  "path": "strings/upper.py",
+  "folder": "strings",
+  "lines": 22,
+  "chars": 532,
+  "examples": 4,
+  "functions": 1,
+  "sha256": "41cc590292aebf5e3cef19053b458bc3011f32ee7c4567eb83afbe04228e19f7"
+ },
+ {
+  "path": "strings/wave_string.py",
+  "folder": "strings",
+  "lines": 20,
+  "chars": 437,
+  "examples": 3,
+  "functions": 1,
+  "sha256": "5196b6532591b213e338e24ef369c19665074a74709a3ba3900a1450766828a9"
+ },
+ {
+  "path": "strings/wildcard_pattern_matching.py",
+  "folder": "strings",
+  "lines": 112,
+  "chars": 3348,
+  "examples": 10,
+  "functions": 1,
+  "sha256": "9e168555e4190195e08d5cc563ed2f2e3283ff54e626ae5909a6d4cfd173a170"
+ },
+ {
+  "path": "strings/word_occurrence.py",
+  "folder": "strings",
+  "lines": 26,
+  "chars": 889,
+  "examples": 5,
+  "functions": 1,
+  "sha256": "01ab38f63a5272c0cadb2eb47da0cd3d7579079093b29e8a16ef170b1bc8d381"
+ },
+ {
+  "path": "strings/word_patterns.py",
+  "folder": "strings",
+  "lines": 65,
+  "chars": 2000,
+  "examples": 9,
+  "functions": 1,
+  "sha256": "df8cf51f073b9d58168d9c1e10bb40c45a816b33c3954b88fa1dfd254a3210b7"
+ },
+ {
+  "path": "strings/z_function.py",
+  "folder": "strings",
+  "lines": 85,
+  "chars": 2434,
+  "examples": 7,
+  "functions": 3,
+  "sha256": "86be6198221e0e6e6f1a6ec691c9aefcc3d191c2f99be6a1d9046461a65595e0"
+ }
+]

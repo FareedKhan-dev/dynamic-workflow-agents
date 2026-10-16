@@ -1,0 +1,21 @@
+{
+  "index_files": 1369,
+  "eligible": 872,
+  "files": 856,
+  "lines": 98028,
+  "functions": 2884,
+  "examples": 11190,
+  "chars": 2964328,
+  "imported_files": 16,
+  "median_lines": 86,
+  "dropped": {
+    "skipped folder": 223,
+    "ok": 872
+  },
+  "doctest_failures": {
+    "import error": 11,
+    "an example fails": 3,
+    "examples without a line": 1,
+    "depends on the seed": 1
+  }
+}

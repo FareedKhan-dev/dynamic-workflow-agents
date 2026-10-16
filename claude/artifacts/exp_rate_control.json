@@ -1,0 +1,15 @@
+{
+  "fixed16_429s": 62,
+  "fixed16_seconds": 1.2806,
+  "fixed16_requests": 83,
+  "fixed16_failed": 99,
+  "fixed16_answered": 21,
+  "fixed2_429s": 0,
+  "fixed2_seconds": 13.4224,
+  "aimd_429s": 7,
+  "aimd_seconds": 5.5001,
+  "aimd_requests": 127,
+  "aimd_answered": 120,
+  "capacity": 6,
+  "requests": 120
+}

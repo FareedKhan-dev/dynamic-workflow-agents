@@ -1,0 +1,81 @@
+{
+  "single": {
+    "accuracy": 0.9367,
+    "recall": 0.9125,
+    "precision": 0.928,
+    "graded": 600,
+    "line": 0.968,
+    "kind": 0.8402,
+    "recall_slip": 0.75,
+    "recall_operation": 0.9875,
+    "recall_misread": 1.0
+  },
+  "workflow": {
+    "accuracy": 0.96,
+    "recall": 0.9583,
+    "precision": 0.9426,
+    "graded": 600,
+    "line": 0.9652,
+    "kind": 0.7913,
+    "recall_slip": 0.875,
+    "recall_operation": 1.0,
+    "recall_misread": 1.0
+  },
+  "first": {
+    "accuracy": 0.9367,
+    "recall": 0.9,
+    "precision": 0.9391,
+    "graded": 600,
+    "line": 0.963,
+    "kind": 0.7778,
+    "recall_slip": 0.7,
+    "recall_operation": 1.0,
+    "recall_misread": 1.0
+  },
+  "calculator": {
+    "accuracy": 0.6517,
+    "recall": 0.1667,
+    "precision": 0.8163,
+    "graded": 600,
+    "line": 0.825,
+    "kind": 0.875,
+    "recall_slip": 0.4375,
+    "recall_operation": 0.0375,
+    "recall_misread": 0.025
+  },
+  "single_acc": 0.9367,
+  "wf_acc": 0.96,
+  "first_acc": 0.9367,
+  "wf_slip": 0.875,
+  "wf_operation": 1.0,
+  "wf_misread": 1.0,
+  "calc_slip": 0.4375,
+  "slope_single": 0.0057,
+  "slope_single_lo": -0.005,
+  "slope_single_hi": 0.0165,
+  "slope_wf": 0.0033,
+  "slope_wf_lo": -0.0048,
+  "slope_wf_hi": 0.0114,
+  "h9": false,
+  "plan": "phase(\"Grade every solution once\")\ngrades = flatten(parallel([lambda b=b: grade(b) for b in batches(items, 40)]))\ngrade_by_id = {g[\"id\"]: g for g in grades}\n\nphase(\"Calculator-flagged items\")\nflagged = [i for i in items if calculator_flags(i) > 0]\nsuspects = [i for i in flagged if i in grade_by_id and not grade_by_id[i][\"wrong\"]]\n\nif flagged:\n    first = flatten(parallel([lambda b=b: recheck(b, lens=\"calculator\", model=\"judge\") for b in batches(flagged, 40)]))\n    if suspects:\n        second = flatten(parallel([lambda b=b: recheck(b, lens=\"calculator\", model=\"fast\") for b in batches(suspects, 40)]))\n    else:\n        second = []\n    suspect_set = {i: True for i in suspects}\n    extra = [g for g in first + second if g[\"id\"] in suspect_set]\nelse:\n    extra = []\n\nphase(\"Merge and report\")\nresult = class_report(merge(grades + extra))",
+  "cost_wf": 4.1,
+  "cost_single": 3.0,
+  "context_last": 147786,
+  "lens_matrix": [
+    [
+      1.0,
+      1.0,
+      1.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ]
+  ]
+}

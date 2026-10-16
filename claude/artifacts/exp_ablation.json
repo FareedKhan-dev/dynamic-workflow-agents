@@ -1,0 +1,88 @@
+{
+  "rows": [
+    {
+      "feature": "three lenses (vs three general readings)",
+      "metric": "scan-stage recall",
+      "est": 0.0417,
+      "lo": -0.0417,
+      "hi": 0.125,
+      "verdict": "NEUTRAL"
+    },
+    {
+      "feature": "a second round of scanning",
+      "metric": "scan-stage recall",
+      "est": -0.0417,
+      "lo": -0.0972,
+      "hi": 0.0,
+      "verdict": "NEUTRAL"
+    },
+    {
+      "feature": "executable evidence",
+      "metric": "skeptic accuracy",
+      "est": -0.0673,
+      "lo": -0.1404,
+      "hi": 0.0,
+      "verdict": "NEUTRAL"
+    },
+    {
+      "feature": "verification, 2 of 3 skeptics",
+      "metric": "precision",
+      "est": -0.1134,
+      "lo": -0.1705,
+      "hi": -0.0649,
+      "verdict": "KEPT"
+    },
+    {
+      "feature": "three skeptics (vs one)",
+      "metric": "precision",
+      "est": 0.0071,
+      "lo": 0.0,
+      "hi": 0.0241,
+      "verdict": "NEUTRAL"
+    },
+    {
+      "feature": "a judge from another generation",
+      "metric": "skeptic accuracy",
+      "est": -0.0292,
+      "lo": -0.0994,
+      "hi": 0.041,
+      "verdict": "NEUTRAL"
+    }
+  ],
+  "described": [
+    {
+      "feature": "merging duplicates (dedupe)",
+      "metric": "skeptic calls per run",
+      "value": "saves 67 calls per run",
+      "verdict": "KEPT"
+    },
+    {
+      "feature": "the completeness critic",
+      "metric": "lift of missed bugs in named folders",
+      "value": "lift 0.8",
+      "verdict": "REPORTED"
+    },
+    {
+      "feature": "model routing",
+      "metric": "recall per cent on the subset",
+      "value": "front: worker, judge, lead",
+      "verdict": "REPORTED"
+    },
+    {
+      "feature": "hedged requests",
+      "metric": "slowest call (demo server)",
+      "value": "p90 hedging: 1.50 s against 1.49 s",
+      "verdict": "REPORTED"
+    },
+    {
+      "feature": "a pipeline instead of a barrier",
+      "metric": "wall clock (simulated)",
+      "value": "ratio 0.95",
+      "verdict": "REPORTED"
+    }
+  ],
+  "kept": 1,
+  "total": 6,
+  "neutral": 5,
+  "harmful": 0
+}

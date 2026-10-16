@@ -1,0 +1,65 @@
+{
+  "rows": [
+    {
+      "role": "worker",
+      "model": "Qwen3.8-27B",
+      "found": 3,
+      "recall": 0.125,
+      "false_places": 5,
+      "price": 0.2,
+      "full_scan": 2.8,
+      "median_s": 0.0048
+    },
+    {
+      "role": "fast",
+      "model": "Qwen3.8-Flash-Next",
+      "found": 7,
+      "recall": 0.2917,
+      "false_places": 39,
+      "price": 0.2,
+      "full_scan": 2.8,
+      "median_s": 39.6956
+    },
+    {
+      "role": "judge",
+      "model": "Qwen3.7-Plus",
+      "found": 8,
+      "recall": 0.3333,
+      "false_places": 7,
+      "price": 0.2,
+      "full_scan": 2.8,
+      "median_s": 24.7581
+    },
+    {
+      "role": "lead_alt",
+      "model": "Qwen3.7-Max",
+      "found": 15,
+      "recall": 0.625,
+      "false_places": 7,
+      "price": 0.5,
+      "full_scan": 7.0,
+      "median_s": 22.1606
+    },
+    {
+      "role": "lead",
+      "model": "Qwen3.8-Max",
+      "found": 16,
+      "recall": 0.6667,
+      "false_places": 9,
+      "price": 0.5,
+      "full_scan": 7.0,
+      "median_s": 49.0557
+    }
+  ],
+  "front": [
+    "judge",
+    "lead"
+  ],
+  "skipped": [
+    "omni"
+  ],
+  "best_role": "lead",
+  "best_recall": 0.6667,
+  "worker_recall": 0.125,
+  "worker_cost": 2.8
+}

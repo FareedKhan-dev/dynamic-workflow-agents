@@ -1,0 +1,75 @@
+{
+  "tiny_one": 0.9333,
+  "tiny_wf": 0.9667,
+  "tiny_one_cost": 1.2,
+  "tiny_wf_cost": 4.8,
+  "h10": false,
+  "chain_one": 0.0,
+  "chain_relay": 0.0,
+  "chain_one_cost": 1.0,
+  "chain_relay_cost": 5.6,
+  "tiny_plan_agents": 18,
+  "tiny_plan": "phase(\"Grade\")\nall_items = [i for i in items]\ngrades = flatten([grade(b) for b in batches(all_items, 40)])\nby_id = {g[\"id\"]: g for g in grades}\n\nphase(\"Calculator\")\nflagged = [i for i in all_items if calculator_flags(i) > 0]\nif flagged:\n    checks = flatten([recheck(b, lens=\"calculator\") for b in batches(flagged, 40)])\n    for g in checks:\n        if g[\"wrong\"]:\n            by_id[g[\"id\"]] = g\n\nphase(\"Report\")\nresult = class_report([by_id[i] for i in all_items])",
+  "chain_rows": [
+    {
+      "chain": 0,
+      "truth": 520,
+      "one": 160,
+      "relay": 275,
+      "one_ok": false,
+      "relay_ok": false,
+      "one_cost": 0.2,
+      "relay_cost": 0.8,
+      "one_s": 3.493,
+      "relay_s": 9.285
+    },
+    {
+      "chain": 1,
+      "truth": 471,
+      "one": 101,
+      "relay": 152,
+      "one_ok": false,
+      "relay_ok": false,
+      "one_cost": 0.2,
+      "relay_cost": 1.2,
+      "one_s": 1.992,
+      "relay_s": 16.733
+    },
+    {
+      "chain": 2,
+      "truth": 408,
+      "one": 126,
+      "relay": 273,
+      "one_ok": false,
+      "relay_ok": false,
+      "one_cost": 0.2,
+      "relay_cost": 1.2,
+      "one_s": 1.876,
+      "relay_s": 13.29
+    },
+    {
+      "chain": 3,
+      "truth": 146,
+      "one": 64,
+      "relay": 254,
+      "one_ok": false,
+      "relay_ok": false,
+      "one_cost": 0.2,
+      "relay_cost": 1.2,
+      "one_s": 2.984,
+      "relay_s": 11.848
+    },
+    {
+      "chain": 4,
+      "truth": 303,
+      "one": 106,
+      "relay": 496,
+      "one_ok": false,
+      "relay_ok": false,
+      "one_cost": 0.2,
+      "relay_cost": 1.2,
+      "one_s": 2.002,
+      "relay_s": 13.204
+    }
+  ]
+}

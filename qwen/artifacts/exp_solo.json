@@ -1,0 +1,69 @@
+{
+  "runs": [
+    {
+      "run": "solo-0",
+      "turns": 129,
+      "stop": "done",
+      "files_read": 15,
+      "coverage": 0.0177,
+      "reported": 0,
+      "found": 0,
+      "recall": 0.0,
+      "precision": null,
+      "compactions": 1,
+      "magicubes": 25.8,
+      "minutes": 6.329
+    },
+    {
+      "run": "solo-1",
+      "turns": 96,
+      "stop": "done",
+      "files_read": 7,
+      "coverage": 0.0082,
+      "reported": 1,
+      "found": 1,
+      "recall": 0.0139,
+      "precision": 1.0,
+      "compactions": 0,
+      "magicubes": 19.2,
+      "minutes": 4.4745
+    },
+    {
+      "run": "solo-2",
+      "turns": 131,
+      "stop": "done",
+      "files_read": 102,
+      "coverage": 0.1178,
+      "reported": 4,
+      "found": 4,
+      "recall": 0.0556,
+      "precision": 1.0,
+      "compactions": 1,
+      "magicubes": 26.2,
+      "minutes": 6.3165
+    }
+  ],
+  "turns": 150,
+  "found_min": 0,
+  "found_mid": 1,
+  "found_max": 4,
+  "coverage_min": 0.0082,
+  "coverage_max": 0.1178,
+  "recall_mean": 0.0231,
+  "precision_mean": 0.6667,
+  "compactions_run1": 1,
+  "magicubes_mean": 23.7333,
+  "minutes_mean": 5.7067,
+  "found_ids": [
+    [],
+    [
+      "B32"
+    ],
+    [
+      "B10",
+      "B32",
+      "B55",
+      "B68"
+    ]
+  ]
+}

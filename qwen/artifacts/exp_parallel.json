@@ -1,0 +1,9 @@
+{
+  "workers": 12,
+  "span": 0.485,
+  "serial": 0.07,
+  "tax": 0.3545,
+  "spread": 10000000.0,
+  "found": 13,
+  "findings": 20
+}

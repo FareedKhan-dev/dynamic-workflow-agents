@@ -1,0 +1,44 @@
+{"seq": 1, "t": 0.002, "type": "run.created", "run_id": "dry-583e5b50", "title": "dry run", "goal": ""}
+{"seq": 2, "t": 0.004, "type": "run.phase_started", "run_id": "dry-583e5b50", "phase": "Grade", "index": 1}
+{"seq": 3, "t": 0.004, "type": "run.agent_started", "run_id": "dry-583e5b50", "thread": "dry-583e5b50/t001", "label": "grade:1#0", "model": "Qwen3.8-27B", "phase": "Grade"}
+{"seq": 4, "t": 0.01, "type": "run.agent_ended", "run_id": "dry-583e5b50", "thread": "dry-583e5b50/t001", "label": "grade:1#0", "ok": true, "seconds": 0.01, "cached": false, "magicubes": 0.2, "phase": "Grade"}
+{"seq": 5, "t": 0.01, "type": "run.agent_started", "run_id": "dry-583e5b50", "thread": "dry-583e5b50/t002", "label": "grade:41#0", "model": "Qwen3.8-27B", "phase": "Grade"}
+{"seq": 6, "t": 0.021, "type": "run.agent_ended", "run_id": "dry-583e5b50", "thread": "dry-583e5b50/t002", "label": "grade:41#0", "ok": true, "seconds": 0.01, "cached": false, "magicubes": 0.2, "phase": "Grade"}
+{"seq": 7, "t": 0.021, "type": "run.agent_started", "run_id": "dry-583e5b50", "thread": "dry-583e5b50/t003", "label": "grade:81#0", "model": "Qwen3.8-27B", "phase": "Grade"}
+{"seq": 8, "t": 0.032, "type": "run.agent_ended", "run_id": "dry-583e5b50", "thread": "dry-583e5b50/t003", "label": "grade:81#0", "ok": true, "seconds": 0.01, "cached": false, "magicubes": 0.2, "phase": "Grade"}
+{"seq": 9, "t": 0.032, "type": "run.agent_started", "run_id": "dry-583e5b50", "thread": "dry-583e5b50/t004", "label": "grade:121#0", "model": "Qwen3.8-27B", "phase": "Grade"}
+{"seq": 10, "t": 0.038, "type": "run.agent_ended", "run_id": "dry-583e5b50", "thread": "dry-583e5b50/t004", "label": "grade:121#0", "ok": true, "seconds": 0.01, "cached": false, "magicubes": 0.2, "phase": "Grade"}
+{"seq": 11, "t": 0.038, "type": "run.agent_started", "run_id": "dry-583e5b50", "thread": "dry-583e5b50/t005", "label": "grade:161#0", "model": "Qwen3.8-27B", "phase": "Grade"}
+{"seq": 12, "t": 0.047, "type": "run.agent_ended", "run_id": "dry-583e5b50", "thread": "dry-583e5b50/t005", "label": "grade:161#0", "ok": true, "seconds": 0.01, "cached": false, "magicubes": 0.2, "phase": "Grade"}
+{"seq": 13, "t": 0.048, "type": "run.agent_started", "run_id": "dry-583e5b50", "thread": "dry-583e5b50/t006", "label": "grade:201#0", "model": "Qwen3.8-27B", "phase": "Grade"}
+{"seq": 14, "t": 0.059, "type": "run.agent_ended", "run_id": "dry-583e5b50", "thread": "dry-583e5b50/t006", "label": "grade:201#0", "ok": true, "seconds": 0.01, "cached": false, "magicubes": 0.2, "phase": "Grade"}
+{"seq": 15, "t": 0.059, "type": "run.agent_started", "run_id": "dry-583e5b50", "thread": "dry-583e5b50/t007", "label": "grade:241#0", "model": "Qwen3.8-27B", "phase": "Grade"}
+{"seq": 16, "t": 0.068, "type": "run.agent_ended", "run_id": "dry-583e5b50", "thread": "dry-583e5b50/t007", "label": "grade:241#0", "ok": true, "seconds": 0.01, "cached": false, "magicubes": 0.2, "phase": "Grade"}
+{"seq": 17, "t": 0.068, "type": "run.agent_started", "run_id": "dry-583e5b50", "thread": "dry-583e5b50/t008", "label": "grade:281#0", "model": "Qwen3.8-27B", "phase": "Grade"}
+{"seq": 18, "t": 0.075, "type": "run.agent_ended", "run_id": "dry-583e5b50", "thread": "dry-583e5b50/t008", "label": "grade:281#0", "ok": true, "seconds": 0.01, "cached": false, "magicubes": 0.2, "phase": "Grade"}
+{"seq": 19, "t": 0.076, "type": "run.agent_started", "run_id": "dry-583e5b50", "thread": "dry-583e5b50/t009", "label": "grade:321#0", "model": "Qwen3.8-27B", "phase": "Grade"}
+{"seq": 20, "t": 0.084, "type": "run.agent_ended", "run_id": "dry-583e5b50", "thread": "dry-583e5b50/t009", "label": "grade:321#0", "ok": true, "seconds": 0.01, "cached": false, "magicubes": 0.2, "phase": "Grade"}
+{"seq": 21, "t": 0.084, "type": "run.agent_started", "run_id": "dry-583e5b50", "thread": "dry-583e5b50/t010", "label": "grade:361#0", "model": "Qwen3.8-27B", "phase": "Grade"}
+{"seq": 22, "t": 0.089, "type": "run.agent_ended", "run_id": "dry-583e5b50", "thread": "dry-583e5b50/t010", "label": "grade:361#0", "ok": true, "seconds": 0.01, "cached": false, "magicubes": 0.2, "phase": "Grade"}
+{"seq": 23, "t": 0.09, "type": "run.agent_started", "run_id": "dry-583e5b50", "thread": "dry-583e5b50/t011", "label": "grade:401#0", "model": "Qwen3.8-27B", "phase": "Grade"}
+{"seq": 24, "t": 0.101, "type": "run.agent_ended", "run_id": "dry-583e5b50", "thread": "dry-583e5b50/t011", "label": "grade:401#0", "ok": true, "seconds": 0.01, "cached": false, "magicubes": 0.2, "phase": "Grade"}
+{"seq": 25, "t": 0.102, "type": "run.agent_started", "run_id": "dry-583e5b50", "thread": "dry-583e5b50/t012", "label": "grade:441#0", "model": "Qwen3.8-27B", "phase": "Grade"}
+{"seq": 26, "t": 0.111, "type": "run.agent_ended", "run_id": "dry-583e5b50", "thread": "dry-583e5b50/t012", "label": "grade:441#0", "ok": true, "seconds": 0.01, "cached": false, "magicubes": 0.2, "phase": "Grade"}
+{"seq": 27, "t": 0.112, "type": "run.agent_started", "run_id": "dry-583e5b50", "thread": "dry-583e5b50/t013", "label": "grade:481#0", "model": "Qwen3.8-27B", "phase": "Grade"}
+{"seq": 28, "t": 0.123, "type": "run.agent_ended", "run_id": "dry-583e5b50", "thread": "dry-583e5b50/t013", "label": "grade:481#0", "ok": true, "seconds": 0.01, "cached": false, "magicubes": 0.2, "phase": "Grade"}
+{"seq": 29, "t": 0.123, "type": "run.agent_started", "run_id": "dry-583e5b50", "thread": "dry-583e5b50/t014", "label": "grade:521#0", "model": "Qwen3.8-27B", "phase": "Grade"}
+{"seq": 30, "t": 0.136, "type": "run.agent_ended", "run_id": "dry-583e5b50", "thread": "dry-583e5b50/t014", "label": "grade:521#0", "ok": true, "seconds": 0.01, "cached": false, "magicubes": 0.2, "phase": "Grade"}
+{"seq": 31, "t": 0.137, "type": "run.agent_started", "run_id": "dry-583e5b50", "thread": "dry-583e5b50/t015", "label": "grade:561#0", "model": "Qwen3.8-27B", "phase": "Grade"}
+{"seq": 32, "t": 0.15, "type": "run.agent_ended", "run_id": "dry-583e5b50", "thread": "dry-583e5b50/t015", "label": "grade:561#0", "ok": true, "seconds": 0.01, "cached": false, "magicubes": 0.2, "phase": "Grade"}
+{"seq": 33, "t": 0.15, "type": "run.phase_ended", "run_id": "dry-583e5b50", "phase": "Grade", "agents": 15, "failed": 0, "seconds": 0.15}
+{"seq": 34, "t": 0.15, "type": "run.phase_started", "run_id": "dry-583e5b50", "phase": "Calculator", "index": 2}
+{"seq": 35, "t": 0.151, "type": "run.agent_started", "run_id": "dry-583e5b50", "thread": "dry-583e5b50/t016", "label": "recheck:calculator:9#0", "model": "Qwen3.7-Plus", "phase": "Calculator"}
+{"seq": 36, "t": 0.161, "type": "run.agent_ended", "run_id": "dry-583e5b50", "thread": "dry-583e5b50/t016", "label": "recheck:calculator:9#0", "ok": true, "seconds": 0.01, "cached": false, "magicubes": 0.2, "phase": "Calculator"}
+{"seq": 37, "t": 0.161, "type": "run.agent_started", "run_id": "dry-583e5b50", "thread": "dry-583e5b50/t017", "label": "recheck:calculator:490#0", "model": "Qwen3.7-Plus", "phase": "Calculator"}
+{"seq": 38, "t": 0.168, "type": "run.agent_ended", "run_id": "dry-583e5b50", "thread": "dry-583e5b50/t017", "label": "recheck:calculator:490#0", "ok": true, "seconds": 0.01, "cached": false, "magicubes": 0.2, "phase": "Calculator"}
+{"seq": 39, "t": 0.168, "type": "run.phase_ended", "run_id": "dry-583e5b50", "phase": "Calculator", "agents": 2, "failed": 0, "seconds": 0.02}
+{"seq": 40, "t": 0.168, "type": "run.phase_started", "run_id": "dry-583e5b50", "phase": "Report", "index": 3}
+{"seq": 41, "t": 0.169, "type": "run.agent_started", "run_id": "dry-583e5b50", "thread": "dry-583e5b50/t018", "label": "class report", "model": "Qwen3.8-Max", "phase": "Report"}
+{"seq": 42, "t": 0.174, "type": "run.agent_ended", "run_id": "dry-583e5b50", "thread": "dry-583e5b50/t018", "label": "class report", "ok": true, "seconds": 0.01, "cached": false, "magicubes": 0.5, "phase": "Report"}
+{"seq": 43, "t": 0.174, "type": "run.phase_ended", "run_id": "dry-583e5b50", "phase": "Report", "agents": 1, "failed": 0, "seconds": 0.01}
+{"seq": 44, "t": 0.174, "type": "run.ended", "run_id": "dry-583e5b50", "status": "completed", "seconds": 0.17, "agents": 18, "failed": 0, "magicubes": 3.9, "dropped": 0, "error": null}

@@ -1,0 +1,28 @@
+[
+ {
+  "id": "s42-test/t001",
+  "label": "check:bit_manipulation#0",
+  "phase": "",
+  "model": "Qwen-Ambassador/Qwen3.7-Plus",
+  "status": "done",
+  "started": 0.004517800000030547,
+  "ended": 0.0058902000018861145,
+  "cost": 0.0,
+  "error": null,
+  "replies": 1,
+  "reply": "{\n  \"verdicts\": [\n    {\n      \"report\": 1,\n      \"real\": true,\n      \"reason\": \"The while loop modifies 'number' to 0, so returning 'number' instead of 'result' always returns 0.\"\n    },\n    {\n      \"report\": 2,\n      \"real\": false,\n      \"reason\": \"For an all-pass filter, the denominator coefficients are indeed the reverse of the numerator coefficients, so setting a_coeffs to [b2, b1, b0] is mathematically correct and matches the docstring.\"\n    }\n  ]\n}"
+ },
+ {
+  "id": "s42-test/t002",
+  "label": "check:bit_manipulation#1",
+  "phase": "",
+  "model": "Qwen-Ambassador/Qwen3.7-Plus",
+  "status": "done",
+  "started": 0.00513409999985015,
+  "ended": 0.006489200000942219,
+  "cost": 0.0,
+  "error": null,
+  "replies": 1,
+  "reply": "{\n  \"verdicts\": [\n    {\n      \"report\": 1,\n      \"real\": true,\n      \"reason\": \"The loop clears the lowest set bit until 'number' becomes 0, so returning 'number' will always return 0 instead of the correct count stored in 'result'.\"\n    },\n    {\n      \"report\": 2,\n      \"real\": false,\n      \"reason\": \"For an all-pass filter, the denominator coefficients are mathematically defined as the reverse of the numerator coefficients, so setting them to [b2, b1, b0] is correct.\"\n    }\n  ]\n}"
+ }
+]

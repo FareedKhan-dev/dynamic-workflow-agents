@@ -1,0 +1,15 @@
+[
+ {
+  "id": "s22-one-worker/t001",
+  "label": "scan#0",
+  "phase": "Scan",
+  "model": "claude-haiku-5-5",
+  "status": "done",
+  "started": 0.0032064060001175676,
+  "ended": 0.004066677000082564,
+  "cost": 0.0,
+  "error": null,
+  "replies": 1,
+  "reply": "{\"findings\": [{\"file\": \"backtracking/knight_tour.py\", \"line\": 89, \"function\": \"open_knight_tour\", \"claim\": \"On success the function returns the loop variable j (an int) instead of the completed board, contradicting its list[list[int]] return type and the docstring.\", \"failing_call\": \"open_knight_tour(1)\", \"expected\": \"[[1]]\", \"confidence\": 0.9}]}"
+ }
+]

@@ -1,0 +1,68 @@
+{
+  "messages": 6097,
+  "leaks": 0,
+  "shards": 237,
+  "bad_shards": 0,
+  "instructions": [
+    {
+      "arm": "A, A2",
+      "instruction": "solo system",
+      "tokens": 621,
+      "sha256": "2bec8d388f2cfeb7"
+    },
+    {
+      "arm": "B",
+      "instruction": "sequential lead",
+      "tokens": 281,
+      "sha256": "5b813e544a732f2e"
+    },
+    {
+      "arm": "C, D",
+      "instruction": "scan",
+      "tokens": 452,
+      "sha256": "3b1d09e0f7911eb0"
+    },
+    {
+      "arm": "C, D",
+      "instruction": "lens boundaries",
+      "tokens": 121,
+      "sha256": "3c4de8394236d30d"
+    },
+    {
+      "arm": "C, D",
+      "instruction": "lens logic",
+      "tokens": 92,
+      "sha256": "474e9fb625d1ad12"
+    },
+    {
+      "arm": "C, D",
+      "instruction": "lens state",
+      "tokens": 106,
+      "sha256": "cd91ea159bc704a0"
+    },
+    {
+      "arm": "C, D",
+      "instruction": "skeptic",
+      "tokens": 355,
+      "sha256": "7c6cb763690ccf88"
+    },
+    {
+      "arm": "C, D",
+      "instruction": "report",
+      "tokens": 360,
+      "sha256": "e4534d86e45cbd4a"
+    },
+    {
+      "arm": "D",
+      "instruction": "lead program",
+      "tokens": 2122,
+      "sha256": "a1af5d55ea23ef38"
+    },
+    {
+      "arm": "D",
+      "instruction": "memo",
+      "tokens": 200,
+      "sha256": "b60cc2f3bf4b1f38"
+    }
+  ]
+}

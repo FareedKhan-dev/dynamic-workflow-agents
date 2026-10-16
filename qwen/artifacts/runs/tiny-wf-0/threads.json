@@ -1,0 +1,54 @@
+[
+ {
+  "id": "tiny-wf-0/t001",
+  "label": "grade:1#0",
+  "phase": "",
+  "model": "Qwen-Ambassador/Qwen3.8-27B",
+  "status": "done",
+  "started": 0.00013659999967785552,
+  "ended": 0.0008635999984107912,
+  "cost": 0.0,
+  "error": null,
+  "replies": 1,
+  "reply": "{\"grades\": [{\"id\": 1, \"wrong\": false, \"first_wrong_line\": null, \"kind\": null}, {\"id\": 2, \"wrong\": true, \"first_wrong_line\": 2, \"kind\": \"misread\"}, {\"id\": 3, \"wrong\": false, \"first_wrong_line\": null, \"kind\": null}, {\"id\": 4, \"wrong\": false, \"first_wrong_line\": null, \"kind\": null}, {\"id\": 5, \"wrong\": true, \"first_wrong_line\": 2, \"kind\": \"slip\"}]}"
+ },
+ {
+  "id": "tiny-wf-0/t002",
+  "label": "recheck:calculator:2#0",
+  "phase": "",
+  "model": "Qwen-Ambassador/Qwen3.7-Plus",
+  "status": "done",
+  "started": 0.0014344999945024028,
+  "ended": 23.901256199998898,
+  "cost": 0.2,
+  "error": null,
+  "replies": 1,
+  "reply": "{\n  \"grades\": [\n    {\n      \"id\": 2,\n      \"wrong\": true,\n      \"first_wrong_line\": 2,\n      \"kind\": \"misread\"\n    },\n    {\n      \"id\": 5,\n      \"wrong\": true,\n      \"first_wrong_line\": 2,\n      \"kind\": \"misread\"\n    }\n  ]\n}"
+ },
+ {
+  "id": "tiny-wf-0/t003",
+  "label": "recheck:logic:2#0",
+  "phase": "",
+  "model": "Qwen-Ambassador/Qwen3.7-Plus",
+  "status": "done",
+  "started": 0.0017578999977558851,
+  "ended": 21.713488599998527,
+  "cost": 0.2,
+  "error": null,
+  "replies": 1,
+  "reply": "{\n  \"grades\": [\n    {\n      \"id\": 2,\n      \"wrong\": true,\n      \"first_wrong_line\": 2,\n      \"kind\": \"misread\"\n    },\n    {\n      \"id\": 5,\n      \"wrong\": true,\n      \"first_wrong_line\": 2,\n      \"kind\": \"misread\"\n    }\n  ]\n}"
+ },
+ {
+  "id": "tiny-wf-0/t004",
+  "label": "recheck:question:2#0",
+  "phase": "",
+  "model": "Qwen-Ambassador/Qwen3.7-Plus",
+  "status": "done",
+  "started": 0.001998399995500222,
+  "ended": 30.589471499995852,
+  "cost": 0.2,
+  "error": null,
+  "replies": 1,
+  "reply": "{\n  \"grades\": [\n    {\n      \"id\": 2,\n      \"wrong\": true,\n      \"first_wrong_line\": 2,\n      \"kind\": \"misread\"\n    },\n    {\n      \"id\": 5,\n      \"wrong\": true,\n      \"first_wrong_line\": 2,\n      \"kind\": \"slip\"\n    }\n  ]\n}"
+ }
+]

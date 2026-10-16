@@ -1,0 +1,15 @@
+[
+ {
+  "id": "tiny-one-4/t001",
+  "label": "grade:201#0",
+  "phase": "",
+  "model": "Qwen-Ambassador/Qwen3.8-27B",
+  "status": "done",
+  "started": 0.00016039999900385737,
+  "ended": 2.9287393000049633,
+  "cost": 0.2,
+  "error": null,
+  "replies": 1,
+  "reply": "{\"grades\": [{\"id\": 201, \"wrong\": false, \"first_wrong_line\": null, \"kind\": null}, {\"id\": 202, \"wrong\": false, \"first_wrong_line\": null, \"kind\": null}, {\"id\": 203, \"wrong\": false, \"first_wrong_line\": null, \"kind\": null}, {\"id\": 204, \"wrong\": true, \"first_wrong_line\": 3, \"kind\": \"operation\"}, {\"id\": 205, \"wrong\": false, \"first_wrong_line\": null, \"kind\": null}]}"
+ }
+]

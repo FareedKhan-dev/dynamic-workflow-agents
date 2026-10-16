@@ -1,0 +1,54 @@
+[
+ {
+  "id": "tiny-wf-1/t001",
+  "label": "grade:51#0",
+  "phase": "",
+  "model": "Qwen-Ambassador/Qwen3.8-27B",
+  "status": "done",
+  "started": 0.00013770000077784061,
+  "ended": 0.0006677999990643002,
+  "cost": 0.0,
+  "error": null,
+  "replies": 1,
+  "reply": "{\"grades\": [{\"id\": 51, \"wrong\": true, \"first_wrong_line\": 2, \"kind\": \"operation\"}, {\"id\": 52, \"wrong\": false, \"first_wrong_line\": null, \"kind\": null}, {\"id\": 53, \"wrong\": false, \"first_wrong_line\": null, \"kind\": null}, {\"id\": 54, \"wrong\": false, \"first_wrong_line\": null, \"kind\": null}, {\"id\": 55, \"wrong\": true, \"first_wrong_line\": 5, \"kind\": \"operation\"}]\n}"
+ },
+ {
+  "id": "tiny-wf-1/t002",
+  "label": "recheck:calculator:51#0",
+  "phase": "",
+  "model": "Qwen-Ambassador/Qwen3.7-Plus",
+  "status": "done",
+  "started": 0.0014007999998284504,
+  "ended": 24.503926299999875,
+  "cost": 0.2,
+  "error": null,
+  "replies": 1,
+  "reply": "{\n  \"grades\": [\n    {\n      \"id\": 51,\n      \"wrong\": true,\n      \"first_wrong_line\": 2,\n      \"kind\": \"operation\"\n    },\n    {\n      \"id\": 55,\n      \"wrong\": true,\n      \"first_wrong_line\": 5,\n      \"kind\": \"operation\"\n    }\n  ]\n}"
+ },
+ {
+  "id": "tiny-wf-1/t003",
+  "label": "recheck:logic:51#0",
+  "phase": "",
+  "model": "Qwen-Ambassador/Qwen3.7-Plus",
+  "status": "done",
+  "started": 0.0019987000050605275,
+  "ended": 19.058822600003623,
+  "cost": 0.2,
+  "error": null,
+  "replies": 1,
+  "reply": "{\n  \"grades\": [\n    {\n      \"id\": 51,\n      \"wrong\": true,\n      \"first_wrong_line\": 2,\n      \"kind\": \"operation\"\n    },\n    {\n      \"id\": 55,\n      \"wrong\": true,\n      \"first_wrong_line\": 5,\n      \"kind\": \"operation\"\n    }\n  ]\n}"
+ },
+ {
+  "id": "tiny-wf-1/t004",
+  "label": "recheck:question:51#0",
+  "phase": "",
+  "model": "Qwen-Ambassador/Qwen3.7-Plus",
+  "status": "done",
+  "started": 0.0023824000018066727,
+  "ended": 23.762599699999555,
+  "cost": 0.2,
+  "error": null,
+  "replies": 1,
+  "reply": "{\"grades\": [{\"id\": 51, \"wrong\": true, \"first_wrong_line\": 2, \"kind\": \"operation\"}, {\"id\": 55, \"wrong\": true, \"first_wrong_line\": 5, \"kind\": \"operation\"}]}"
+ }
+]

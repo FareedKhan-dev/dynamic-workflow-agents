@@ -1,0 +1,54 @@
+[
+ {
+  "id": "tiny-wf-0/t001",
+  "label": "grade:1#0",
+  "phase": "",
+  "model": "claude-haiku-5-5",
+  "status": "done",
+  "started": 6.58429999020882e-05,
+  "ended": 0.00040142900024875416,
+  "cost": 0.0,
+  "error": null,
+  "replies": 1,
+  "reply": "{\"grades\": [{\"id\": 1, \"wrong\": false, \"first_wrong_line\": null, \"kind\": null}, {\"id\": 2, \"wrong\": true, \"first_wrong_line\": 2, \"kind\": \"operation\"}, {\"id\": 3, \"wrong\": false, \"first_wrong_line\": null, \"kind\": null}, {\"id\": 4, \"wrong\": false, \"first_wrong_line\": null, \"kind\": null}, {\"id\": 5, \"wrong\": true, \"first_wrong_line\": 2, \"kind\": \"misread\"}]}"
+ },
+ {
+  "id": "tiny-wf-0/t002",
+  "label": "recheck:calculator:2#0",
+  "phase": "",
+  "model": "claude-haiku-4-5",
+  "status": "done",
+  "started": 0.0007295099999282684,
+  "ended": 0.001384723000228405,
+  "cost": 0.0,
+  "error": null,
+  "replies": 1,
+  "reply": "{\"grades\": [{\"id\": 2, \"wrong\": true, \"first_wrong_line\": 2, \"kind\": \"operation\"}, {\"id\": 5, \"wrong\": true, \"first_wrong_line\": 2, \"kind\": \"slip\"}]}"
+ },
+ {
+  "id": "tiny-wf-0/t003",
+  "label": "recheck:logic:2#0",
+  "phase": "",
+  "model": "claude-haiku-4-5",
+  "status": "done",
+  "started": 0.0010083830002258765,
+  "ended": 0.0022332829998958914,
+  "cost": 0.0,
+  "error": null,
+  "replies": 1,
+  "reply": "{\"grades\": [{\"id\": 2, \"wrong\": true, \"first_wrong_line\": 2, \"kind\": \"slip\"}, {\"id\": 5, \"wrong\": true, \"first_wrong_line\": 2, \"kind\": \"slip\"}]}"
+ },
+ {
+  "id": "tiny-wf-0/t004",
+  "label": "recheck:question:2#0",
+  "phase": "",
+  "model": "claude-haiku-4-5",
+  "status": "done",
+  "started": 0.0014432900002248061,
+  "ended": 0.0019050340001740551,
+  "cost": 0.0,
+  "error": null,
+  "replies": 1,
+  "reply": "{\"grades\": [{\"id\": 2, \"wrong\": true, \"first_wrong_line\": 2, \"kind\": \"misread\"}, {\"id\": 5, \"wrong\": true, \"first_wrong_line\": 2, \"kind\": \"slip\"}]}"
+ }
+]

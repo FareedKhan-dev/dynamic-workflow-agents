@@ -1,0 +1,173 @@
+{
+  "places": 45,
+  "matched_confirmed": 28,
+  "matched_silent": 5,
+  "matched_unrunnable": 10,
+  "missed_by_scorer": 1,
+  "unmatched_silent": 0,
+  "unmatched_unrunnable": 1,
+  "sensitivity": {
+    "D run 0": [
+      {
+        "rule": "same function, within 0 lines",
+        "recall": 0.5139
+      },
+      {
+        "rule": "same function, within 1 lines",
+        "recall": 0.5278
+      },
+      {
+        "rule": "same function, within 2 lines",
+        "recall": 0.5278
+      },
+      {
+        "rule": "same function, within 3 lines",
+        "recall": 0.5278
+      },
+      {
+        "rule": "same function, within 4 lines",
+        "recall": 0.5278
+      },
+      {
+        "rule": "same function, within 5 lines",
+        "recall": 0.5278
+      },
+      {
+        "rule": "same function, within 6 lines",
+        "recall": 0.5278
+      },
+      {
+        "rule": "same function, within 7 lines",
+        "recall": 0.5278
+      },
+      {
+        "rule": "same function, within 8 lines",
+        "recall": 0.5278
+      },
+      {
+        "rule": "same function, within 9 lines",
+        "recall": 0.5278
+      },
+      {
+        "rule": "same function, within 10 lines",
+        "recall": 0.5278
+      },
+      {
+        "rule": "same function, any line",
+        "recall": 0.5278
+      },
+      {
+        "rule": "within 5 lines, any function",
+        "recall": 0.5278
+      }
+    ],
+    "D run 1": [
+      {
+        "rule": "same function, within 0 lines",
+        "recall": 0.3889
+      },
+      {
+        "rule": "same function, within 1 lines",
+        "recall": 0.4028
+      },
+      {
+        "rule": "same function, within 2 lines",
+        "recall": 0.4028
+      },
+      {
+        "rule": "same function, within 3 lines",
+        "recall": 0.4167
+      },
+      {
+        "rule": "same function, within 4 lines",
+        "recall": 0.4167
+      },
+      {
+        "rule": "same function, within 5 lines",
+        "recall": 0.4167
+      },
+      {
+        "rule": "same function, within 6 lines",
+        "recall": 0.4167
+      },
+      {
+        "rule": "same function, within 7 lines",
+        "recall": 0.4167
+      },
+      {
+        "rule": "same function, within 8 lines",
+        "recall": 0.4167
+      },
+      {
+        "rule": "same function, within 9 lines",
+        "recall": 0.4167
+      },
+      {
+        "rule": "same function, within 10 lines",
+        "recall": 0.4167
+      },
+      {
+        "rule": "same function, any line",
+        "recall": 0.4167
+      },
+      {
+        "rule": "within 5 lines, any function",
+        "recall": 0.4167
+      }
+    ],
+    "D run 2": [
+      {
+        "rule": "same function, within 0 lines",
+        "recall": 0.3889
+      },
+      {
+        "rule": "same function, within 1 lines",
+        "recall": 0.4028
+      },
+      {
+        "rule": "same function, within 2 lines",
+        "recall": 0.4028
+      },
+      {
+        "rule": "same function, within 3 lines",
+        "recall": 0.4028
+      },
+      {
+        "rule": "same function, within 4 lines",
+        "recall": 0.4028
+      },
+      {
+        "rule": "same function, within 5 lines",
+        "recall": 0.4028
+      },
+      {
+        "rule": "same function, within 6 lines",
+        "recall": 0.4028
+      },
+      {
+        "rule": "same function, within 7 lines",
+        "recall": 0.4028
+      },
+      {
+        "rule": "same function, within 8 lines",
+        "recall": 0.4028
+      },
+      {
+        "rule": "same function, within 9 lines",
+        "recall": 0.4028
+      },
+      {
+        "rule": "same function, within 10 lines",
+        "recall": 0.4028
+      },
+      {
+        "rule": "same function, any line",
+        "recall": 0.4028
+      },
+      {
+        "rule": "within 5 lines, any function",
+        "recall": 0.4028
+      }
+    ]
+  }
+}

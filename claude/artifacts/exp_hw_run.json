@@ -1,0 +1,81 @@
+{
+  "single": {
+    "accuracy": 0.8517,
+    "recall": 0.8333,
+    "precision": 0.8032,
+    "graded": 600,
+    "line": 0.86,
+    "kind": 0.665,
+    "recall_slip": 0.75,
+    "recall_operation": 0.825,
+    "recall_misread": 0.925
+  },
+  "workflow": {
+    "accuracy": 0.965,
+    "recall": 0.9792,
+    "precision": 0.9363,
+    "graded": 600,
+    "line": 0.9489,
+    "kind": 0.8809,
+    "recall_slip": 0.9875,
+    "recall_operation": 0.95,
+    "recall_misread": 1.0
+  },
+  "first": {
+    "accuracy": 0.9783,
+    "recall": 0.975,
+    "precision": 0.971,
+    "graded": 600,
+    "line": 0.9615,
+    "kind": 0.8803,
+    "recall_slip": 0.975,
+    "recall_operation": 0.95,
+    "recall_misread": 1.0
+  },
+  "calculator": {
+    "accuracy": 0.6517,
+    "recall": 0.1667,
+    "precision": 0.8163,
+    "graded": 600,
+    "line": 0.825,
+    "kind": 0.875,
+    "recall_slip": 0.4375,
+    "recall_operation": 0.0375,
+    "recall_misread": 0.025
+  },
+  "single_acc": 0.8517,
+  "wf_acc": 0.965,
+  "first_acc": 0.9783,
+  "wf_slip": 0.9875,
+  "wf_operation": 0.95,
+  "wf_misread": 1.0,
+  "calc_slip": 0.4375,
+  "slope_single": -0.0293,
+  "slope_single_lo": -0.0428,
+  "slope_single_hi": -0.0156,
+  "slope_wf": 0.001,
+  "slope_wf_lo": -0.0065,
+  "slope_wf_hi": 0.0092,
+  "h9": true,
+  "plan": "phase(\"Grade\")\ngrades = flatten(parallel([lambda b=b: grade(b) for b in batches(items, 40)]))\n\nphase(\"Recheck flagged\")\nflagged = [i for i in items if calculator_flags(i) > 0]\nif len(flagged) > 0:\n    rc = flatten(parallel([lambda b=b: recheck(b, lens=\"calculator\") for b in batches(flagged, 40)]))\n    grades = grades + rc + rc\n    \nphase(\"Report\")\nresult = class_report(merge(grades))",
+  "cost_wf": 7.09,
+  "cost_single": 12.97,
+  "context_last": 158466,
+  "lens_matrix": [
+    [
+      1.0,
+      1.0,
+      1.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ]
+  ]
+}

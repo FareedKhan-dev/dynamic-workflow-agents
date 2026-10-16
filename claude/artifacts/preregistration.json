@@ -1,0 +1,76 @@
+{
+ "arms": {
+  "A": "one agent alone with tools, 150 turns (S17), three runs",
+  "A2": "one agent alone with as many turns as the median dynamic run's cents buy, two runs",
+  "B": "a lead calling helpers one at a time (S19), one run",
+  "C": "the fixed plan: three lenses, three skeptics with evidence, report (S32), three runs",
+  "D": "the dynamic workflow: the lead writes a new plan program for each run (S39 and S52), three runs"
+ },
+ "hypotheses": [
+  {
+   "claim": "the dynamic workflow finds more planted bugs than one agent alone",
+   "id": "H1",
+   "rule": "min recall(D) > max recall(A) and the interval of mean recall(D) - mean recall(A) excludes 0"
+  },
+  {
+   "claim": "the same holds against one agent given the same budget",
+   "id": "H1b",
+   "rule": "min recall(D) > max recall(A2) and the interval of mean recall(D) - mean recall(A2) excludes 0"
+  },
+  {
+   "claim": "the dynamic workflow is more consistent from run to run",
+   "id": "H2",
+   "rule": "spread(D) < spread(A)"
+  },
+  {
+   "claim": "the dynamic workflow is not much less precise than one agent",
+   "id": "H3",
+   "rule": "the lower bound of the interval of mean precision(D) - mean precision(A) is at least -0.10"
+  },
+  {
+   "claim": "verification buys precision at little cost in recall",
+   "id": "H4",
+   "rule": "for 2 of 3 skeptics against no verification: the lower bound of the precision gain is at least 0.15 and the upper bound of the recall loss is at most 0.05"
+  },
+  {
+   "claim": "a second round of scanning finds more planted bugs",
+   "id": "H5",
+   "rule": "adding the next fixed-plan run's scan to a run's scan adds at least 3 planted bugs at the scan stage, in at least 2 of the 3 runs"
+  },
+  {
+   "claim": "executable evidence makes skeptics more accurate",
+   "id": "H6",
+   "rule": "the lower bound of the interval of accuracy with evidence - accuracy without is above 0"
+  },
+  {
+   "claim": "a pipeline finishes sooner than a barrier for the same calls",
+   "id": "H7",
+   "rule": "simulated pipeline wall clock <= 0.8 x simulated barrier wall clock for the fixed plan, from recorded latencies"
+  },
+  {
+   "claim": "a crashed run resumes without paying twice",
+   "id": "H8",
+   "rule": "after a cancel and a resume, the final report equals that of an uninterrupted run and no call was paid twice"
+  },
+  {
+   "claim": "one agent grading a long list gets worse further down; the workflow does not",
+   "id": "H9",
+   "rule": "the interval of one agent's accuracy-against-position slope is below 0, and the workflow's includes 0 (Part VIII)"
+  },
+  {
+   "claim": "on a tiny job, the workflow is no better and costs more",
+   "id": "H10",
+   "rule": "workflow accuracy <= one agent's accuracy + 0.02 and workflow cost > one agent's cost (Part VIII)"
+  }
+ ],
+ "metrics": {
+  "cost": "cents at full price, counting calls the ledger answered",
+  "precision": "distinct matched places / (distinct matched + distinct unmatched places)",
+  "recall": "planted bugs matched by the final report / 72",
+  "spread": "max minus min recall over an arm's runs",
+  "wall clock": "seconds from a run's first to its last event, as recorded when it was paid for"
+ },
+ "statistics": "95% percentile bootstrap intervals, 2,000 resamples, over planted bugs for recall and over reported places for precision, runs resampled within each arm, seed 42",
+ "title": "Dynamic workflows against one agent and against a fixed plan, on a 72-bug planted audit",
+ "verdicts": "SUPPORTED when the rule holds, NOT SUPPORTED when it does not, REPORTED when the data the rule needs does not exist"
+}

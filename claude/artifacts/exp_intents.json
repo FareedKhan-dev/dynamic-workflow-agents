@@ -1,0 +1,15 @@
+{
+  "one_share": 0.0759,
+  "one_labelled": 759,
+  "unsorted": 4338,
+  "count_error": 633.9,
+  "flat_share": 0.0,
+  "tree_unmapped": 302,
+  "ari": 0.0231,
+  "nmi": 0.2372,
+  "cost": 51.4,
+  "topics": 2,
+  "labels": 1727,
+  "plan": "phase(\"Tag\")\nbatch_list = batches(messages, 300)\ntagged = parallel([lambda b=b: tag(b) for b in batch_list])\n\nphase(\"Merge\")\nall_labels = []\nseen = set()\nfor t in tagged:\n    for lab in t.values():\n        if lab not in seen:\n            seen.add(lab)\n            all_labels.append(lab)\nlog(\"distinct labels: \" + str(len(all_labels)))\nmapping = tree_merge(all_labels, group=300, k=80)\ntopics = sorted(set(mapping.values()))\n\nphase(\"Classify\")\nassigned = parallel([lambda b=b: classify(b, topics) for b in batch_list])\nmerged = {}\nfor a in assigned:\n    merged.update(a)\n\nresult = {\"topics\": topics, \"counts\": count(merged)}",
+  "messages": 10003
+}

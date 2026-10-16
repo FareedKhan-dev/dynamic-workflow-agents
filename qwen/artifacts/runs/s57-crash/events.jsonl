@@ -1,0 +1,25 @@
+{"seq": 1, "t": 0.001, "type": "run.created", "run_id": "s57-crash", "title": "H8: crashed halfway", "goal": ""}
+{"seq": 2, "t": 0.002, "type": "run.phase_started", "run_id": "s57-crash", "phase": "Scan", "index": 1}
+{"seq": 3, "t": 0.413, "type": "run.agent_started", "run_id": "s57-crash", "thread": "s57-crash/t001", "label": "scan:general:greedy_methods#0", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 4, "t": 0.42, "type": "run.agent_ended", "run_id": "s57-crash", "thread": "s57-crash/t001", "label": "scan:general:greedy_methods#0", "ok": true, "seconds": 0.01, "cached": true, "magicubes": 0.0, "phase": "Scan"}
+{"seq": 5, "t": 0.423, "type": "run.agent_started", "run_id": "s57-crash", "thread": "s57-crash/t002", "label": "scan:general:conversions#0", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 6, "t": 0.425, "type": "run.agent_ended", "run_id": "s57-crash", "thread": "s57-crash/t002", "label": "scan:general:conversions#0", "ok": true, "seconds": 0.0, "cached": true, "magicubes": 0.0, "phase": "Scan"}
+{"seq": 7, "t": 0.442, "type": "run.agent_started", "run_id": "s57-crash", "thread": "s57-crash/t003", "label": "scan:general:graphs#0", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 8, "t": 0.446, "type": "run.agent_ended", "run_id": "s57-crash", "thread": "s57-crash/t003", "label": "scan:general:graphs#0", "ok": true, "seconds": 0.0, "cached": true, "magicubes": 0.0, "phase": "Scan"}
+{"seq": 9, "t": 0.452, "type": "run.agent_started", "run_id": "s57-crash", "thread": "s57-crash/t004", "label": "scan:general:machine_learning#0", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 10, "t": 0.456, "type": "run.agent_ended", "run_id": "s57-crash", "thread": "s57-crash/t004", "label": "scan:general:machine_learning#0", "ok": true, "seconds": 0.0, "cached": true, "magicubes": 0.0, "phase": "Scan"}
+{"seq": 11, "t": 0.463, "type": "run.agent_started", "run_id": "s57-crash", "thread": "s57-crash/t005", "label": "scan:general:ciphers#0", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 12, "t": 0.466, "type": "run.agent_ended", "run_id": "s57-crash", "thread": "s57-crash/t005", "label": "scan:general:ciphers#0", "ok": true, "seconds": 0.0, "cached": true, "magicubes": 0.0, "phase": "Scan"}
+{"seq": 13, "t": 0.474, "type": "run.agent_started", "run_id": "s57-crash", "thread": "s57-crash/t006", "label": "scan:general:strings#0", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 14, "t": 0.476, "type": "run.agent_ended", "run_id": "s57-crash", "thread": "s57-crash/t006", "label": "scan:general:strings#0", "ok": true, "seconds": 0.0, "cached": true, "magicubes": 0.0, "phase": "Scan"}
+{"seq": 15, "t": 0.48, "type": "run.agent_started", "run_id": "s57-crash", "thread": "s57-crash/t007", "label": "scan:general:electronics#0", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 16, "t": 0.482, "type": "run.agent_ended", "run_id": "s57-crash", "thread": "s57-crash/t007", "label": "scan:general:electronics#0", "ok": true, "seconds": 0.0, "cached": true, "magicubes": 0.0, "phase": "Scan"}
+{"seq": 17, "t": 0.491, "type": "run.agent_started", "run_id": "s57-crash", "thread": "s57-crash/t008", "label": "scan:general:data_structures#0", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 18, "t": 0.494, "type": "run.agent_ended", "run_id": "s57-crash", "thread": "s57-crash/t008", "label": "scan:general:data_structures#0", "ok": true, "seconds": 0.0, "cached": true, "magicubes": 0.0, "phase": "Scan"}
+{"seq": 19, "t": 0.515, "type": "run.agent_started", "run_id": "s57-crash", "thread": "s57-crash/t009", "label": "scan:general:maths#0", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 20, "t": 0.519, "type": "run.agent_ended", "run_id": "s57-crash", "thread": "s57-crash/t009", "label": "scan:general:maths#0", "ok": true, "seconds": 0.0, "cached": true, "magicubes": 0.0, "phase": "Scan"}
+{"seq": 21, "t": 0.523, "type": "run.agent_started", "run_id": "s57-crash", "thread": "s57-crash/t010", "label": "scan:general:audio_filters#0", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 22, "t": 0.526, "type": "run.agent_ended", "run_id": "s57-crash", "thread": "s57-crash/t010", "label": "scan:general:audio_filters#0", "ok": true, "seconds": 0.0, "cached": true, "magicubes": 0.0, "phase": "Scan"}
+{"seq": 23, "t": 0.532, "type": "run.log", "run_id": "s57-crash", "message": "cancel requested"}
+{"seq": 24, "t": 0.563, "type": "run.phase_ended", "run_id": "s57-crash", "phase": "Scan", "agents": 10, "failed": 0, "seconds": 0.56}
+{"seq": 25, "t": 0.563, "type": "run.ended", "run_id": "s57-crash", "status": "cancelled", "seconds": 0.56, "agents": 10, "failed": 0, "magicubes": 0.0, "dropped": 0, "error": null}

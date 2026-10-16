@@ -1,0 +1,15 @@
+[
+ {
+  "id": "tiny-one-4/t001",
+  "label": "grade:201#0",
+  "phase": "",
+  "model": "claude-haiku-5-5",
+  "status": "done",
+  "started": 5.948100033492665e-05,
+  "ended": 0.00037671700010832865,
+  "cost": 0.0,
+  "error": null,
+  "replies": 1,
+  "reply": "{\"grades\": [{\"id\": 201, \"wrong\": false, \"first_wrong_line\": null, \"kind\": null}, {\"id\": 202, \"wrong\": false, \"first_wrong_line\": null, \"kind\": null}, {\"id\": 203, \"wrong\": false, \"first_wrong_line\": null, \"kind\": null}, {\"id\": 204, \"wrong\": true, \"first_wrong_line\": 3, \"kind\": \"operation\"}, {\"id\": 205, \"wrong\": true, \"first_wrong_line\": 2, \"kind\": \"slip\"}]}"
+ }
+]

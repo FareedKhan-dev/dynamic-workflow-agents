@@ -1,0 +1,19 @@
+{"seq": 1, "t": 0.003, "type": "run.created", "run_id": "s31-kit", "title": "the kit on one shard", "goal": ""}
+{"seq": 2, "t": 0.003, "type": "run.phase_started", "run_id": "s31-kit", "phase": "Scan", "index": 1}
+{"seq": 3, "t": 0.191, "type": "run.agent_started", "run_id": "s31-kit", "thread": "s31-kit/t001", "label": "scan:boundaries:data_structures#0", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 4, "t": 0.196, "type": "run.agent_ended", "run_id": "s31-kit", "thread": "s31-kit/t001", "label": "scan:boundaries:data_structures#0", "ok": true, "seconds": 0.0, "cached": true, "magicubes": 0.0, "phase": "Scan"}
+{"seq": 5, "t": 0.207, "type": "run.agent_started", "run_id": "s31-kit", "thread": "s31-kit/t002", "label": "scan:logic:data_structures#0", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 6, "t": 0.212, "type": "run.agent_ended", "run_id": "s31-kit", "thread": "s31-kit/t002", "label": "scan:logic:data_structures#0", "ok": true, "seconds": 0.0, "cached": true, "magicubes": 0.0, "phase": "Scan"}
+{"seq": 7, "t": 0.213, "type": "run.log", "run_id": "s31-kit", "message": "5 findings, 5 places"}
+{"seq": 8, "t": 0.213, "type": "run.phase_ended", "run_id": "s31-kit", "phase": "Scan", "agents": 2, "failed": 0, "seconds": 0.21}
+{"seq": 9, "t": 0.213, "type": "run.phase_started", "run_id": "s31-kit", "phase": "Check", "index": 2}
+{"seq": 10, "t": 0.757, "type": "run.agent_started", "run_id": "s31-kit", "thread": "s31-kit/t003", "label": "check:data_structures#1", "model": "Qwen3.7-Plus", "phase": "Check"}
+{"seq": 11, "t": 0.759, "type": "run.agent_ended", "run_id": "s31-kit", "thread": "s31-kit/t003", "label": "check:data_structures#1", "ok": true, "seconds": 0.0, "cached": true, "magicubes": 0.0, "phase": "Check"}
+{"seq": 12, "t": 0.76, "type": "run.agent_started", "run_id": "s31-kit", "thread": "s31-kit/t004", "label": "check:data_structures#0", "model": "Qwen3.7-Plus", "phase": "Check"}
+{"seq": 13, "t": 0.762, "type": "run.agent_ended", "run_id": "s31-kit", "thread": "s31-kit/t004", "label": "check:data_structures#0", "ok": true, "seconds": 0.0, "cached": true, "magicubes": 0.0, "phase": "Check"}
+{"seq": 14, "t": 0.763, "type": "run.phase_ended", "run_id": "s31-kit", "phase": "Check", "agents": 2, "failed": 0, "seconds": 0.55}
+{"seq": 15, "t": 0.763, "type": "run.phase_started", "run_id": "s31-kit", "phase": "Report", "index": 3}
+{"seq": 16, "t": 0.763, "type": "run.agent_started", "run_id": "s31-kit", "thread": "s31-kit/t005", "label": "report", "model": "Qwen3.8-Max", "phase": "Report"}
+{"seq": 17, "t": 0.764, "type": "run.agent_ended", "run_id": "s31-kit", "thread": "s31-kit/t005", "label": "report", "ok": true, "seconds": 0.0, "cached": true, "magicubes": 0.0, "phase": "Report"}
+{"seq": 18, "t": 0.764, "type": "run.phase_ended", "run_id": "s31-kit", "phase": "Report", "agents": 1, "failed": 0, "seconds": 0.0}
+{"seq": 19, "t": 0.764, "type": "run.ended", "run_id": "s31-kit", "status": "completed", "seconds": 0.76, "agents": 5, "failed": 0, "magicubes": 0.0, "dropped": 0, "error": null}

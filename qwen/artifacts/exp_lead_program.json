@@ -1,0 +1,107 @@
+{
+  "rows": [
+    {
+      "sample": 0,
+      "tries": 1,
+      "valid": "yes",
+      "lines": 63,
+      "magicubes": 52.9,
+      "workers": 263,
+      "features": "loop, decides from results, own function"
+    },
+    {
+      "sample": 1,
+      "tries": 1,
+      "valid": "yes",
+      "lines": 72,
+      "magicubes": 36.4,
+      "workers": 182,
+      "features": "loop, decides from results"
+    },
+    {
+      "sample": 2,
+      "tries": 1,
+      "valid": "yes",
+      "lines": 75,
+      "magicubes": 52.5,
+      "workers": 261,
+      "features": "loop, decides from results, own function"
+    },
+    {
+      "sample": 3,
+      "tries": 2,
+      "valid": "yes",
+      "lines": 65,
+      "magicubes": 34.9,
+      "workers": 173,
+      "features": "loop, decides from results, own function"
+    },
+    {
+      "sample": 4,
+      "tries": 2,
+      "valid": "yes",
+      "lines": 77,
+      "magicubes": 50.4,
+      "workers": 252,
+      "features": "loop, decides from results"
+    },
+    {
+      "sample": 5,
+      "tries": 2,
+      "valid": "yes",
+      "lines": 61,
+      "magicubes": 22.4,
+      "workers": 112,
+      "features": "loop, decides from results"
+    },
+    {
+      "sample": 6,
+      "tries": 2,
+      "valid": "yes",
+      "lines": 45,
+      "magicubes": 39.2,
+      "workers": 196,
+      "features": "loop, decides from results, reads the budget, own function"
+    },
+    {
+      "sample": 7,
+      "tries": 1,
+      "valid": "yes",
+      "lines": 34,
+      "magicubes": 45.5,
+      "workers": 226,
+      "features": "loop, decides from results"
+    },
+    {
+      "sample": 8,
+      "tries": 1,
+      "valid": "yes",
+      "lines": 67,
+      "magicubes": 52.9,
+      "workers": 263,
+      "features": "loop, decides from results"
+    },
+    {
+      "sample": 9,
+      "tries": 1,
+      "valid": "yes",
+      "lines": 72,
+      "magicubes": 52.9,
+      "workers": 263,
+      "features": "loop, decides from results"
+    }
+  ],
+  "valid_first": 6,
+  "valid_final": 10,
+  "errors": {
+    "size": 4
+  },
+  "features": {
+    "loop": 10,
+    "decides from results": 10,
+    "own function": 4,
+    "reads the budget": 1
+  },
+  "beyond": 10,
+  "instruction_tokens": 1968
+}

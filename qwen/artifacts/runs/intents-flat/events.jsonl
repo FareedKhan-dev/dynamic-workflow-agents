@@ -1,0 +1,4 @@
+{"seq": 1, "t": 0.0, "type": "run.created", "run_id": "intents-flat", "title": "intents: one flat merge", "goal": ""}
+{"seq": 2, "t": 0.001, "type": "run.agent_started", "run_id": "intents-flat", "thread": "intents-flat/t001", "label": "merge:1297", "model": "Qwen3.7-Plus", "phase": ""}
+{"seq": 3, "t": 1730.601, "type": "run.agent_ended", "run_id": "intents-flat", "thread": "intents-flat/t001", "label": "merge:1297", "ok": false, "seconds": 1730.6, "cached": false, "magicubes": 0.4, "phase": ""}
+{"seq": 4, "t": 1730.601, "type": "run.ended", "run_id": "intents-flat", "status": "completed", "seconds": 1730.6, "agents": 1, "failed": 1, "magicubes": 0.4, "dropped": 0, "error": null}

@@ -1,0 +1,86 @@
+{
+  "rows": [
+    {
+      "sample": 0,
+      "tries": 1,
+      "valid": "yes",
+      "phases": 4,
+      "lenses": "general, boundaries, logic, state",
+      "shard": 100,
+      "skeptics": "3 of 5",
+      "evidence": "on",
+      "workers": 199
+    },
+    {
+      "sample": 1,
+      "tries": 1,
+      "valid": "yes",
+      "phases": 4,
+      "lenses": "general, boundaries, logic, state",
+      "shard": 100,
+      "skeptics": "2 of 3",
+      "evidence": "on",
+      "workers": 313
+    },
+    {
+      "sample": 2,
+      "tries": 1,
+      "valid": "yes",
+      "phases": 3,
+      "lenses": "general, boundaries, logic, state",
+      "shard": 100,
+      "skeptics": "2 of 3",
+      "evidence": "on",
+      "workers": 93
+    },
+    {
+      "sample": 3,
+      "tries": 1,
+      "valid": "yes",
+      "phases": 4,
+      "lenses": "general, boundaries, logic, state",
+      "shard": 100,
+      "skeptics": "2 of 3",
+      "evidence": "on",
+      "workers": 313
+    },
+    {
+      "sample": 4,
+      "tries": 1,
+      "valid": "yes",
+      "phases": 5,
+      "lenses": "general, boundaries, logic, state",
+      "shard": 100,
+      "skeptics": "2 of 3",
+      "evidence": "on",
+      "workers": 274
+    }
+  ],
+  "distinct": 5,
+  "valid_first": 5,
+  "valid_final": 5,
+  "workers_min": 93,
+  "workers_max": 313,
+  "run": {
+    "recall": 0.375,
+    "precision": 0.8438,
+    "tp": 27,
+    "fp": 5,
+    "bugs_reported": 32,
+    "coverage": 1.0,
+    "found_recall": 0.3889,
+    "checked_recall": 0.3889,
+    "confirmed_recall": 0.375,
+    "findings": 142,
+    "checked": 52,
+    "confirmed": 32,
+    "left_out": 0,
+    "agents": 134,
+    "calls": 138,
+    "magicubes": 0.0,
+    "seconds": 6.8,
+    "status": "completed"
+  },
+  "ledger_hits": 138,
+  "instruction_tokens": 826
+}

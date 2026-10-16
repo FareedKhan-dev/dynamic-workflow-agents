@@ -1,0 +1,60 @@
+{
+  "rows": [
+    {
+      "run": 0,
+      "named": "audio_filters, boolean_algebra, matrix, networking_flow, neural_network",
+      "missed": 20,
+      "missed_in_named": 1,
+      "share_missed": 0.05,
+      "share_files": 0.0561,
+      "lift": 0.8917,
+      "findings": 232,
+      "places": 114,
+      "confirmed": 86,
+      "reported": 86,
+      "merged": 0,
+      "left_out": 0,
+      "calls_saved": 60
+    },
+    {
+      "run": 1,
+      "named": "boolean_algebra, greedy_methods, networking_flow, neural_network, physics",
+      "missed": 22,
+      "missed_in_named": 1,
+      "share_missed": 0.0455,
+      "share_files": 0.0829,
+      "lift": 0.548,
+      "findings": 265,
+      "places": 119,
+      "confirmed": 86,
+      "reported": 86,
+      "merged": 0,
+      "left_out": 0,
+      "calls_saved": 75
+    },
+    {
+      "run": 2,
+      "named": "boolean_algebra, conversions, maths, networking_flow, neural_network",
+      "missed": 16,
+      "missed_in_named": 4,
+      "share_missed": 0.25,
+      "share_files": 0.2815,
+      "lift": 0.888,
+      "findings": 237,
+      "places": 107,
+      "confirmed": 82,
+      "reported": 82,
+      "merged": 0,
+      "left_out": 0,
+      "calls_saved": 66
+    }
+  ],
+  "findings": 244.6667,
+  "places": 113.3333,
+  "calls_saved": 67.0,
+  "merged": 0.0,
+  "left_out": 0.0,
+  "share_files": 0.1402,
+  "share_missed": 0.1152,
+  "lift": 0.7759
+}

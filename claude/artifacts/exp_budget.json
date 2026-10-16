@@ -1,0 +1,36 @@
+{
+  "spent": 8.0,
+  "cap_final": 10.0,
+  "pauses": 1,
+  "server_calls": 40,
+  "max_waiting": 10,
+  "overshoot": 0.0,
+  "identical": true,
+  "token_overshoot": [
+    {
+      "concurrency": 1,
+      "check spent only": 34410,
+      "reserve the maximum": 0
+    },
+    {
+      "concurrency": 4,
+      "check spent only": 145048,
+      "reserve the maximum": 0
+    },
+    {
+      "concurrency": 8,
+      "check spent only": 294188,
+      "reserve the maximum": 0
+    },
+    {
+      "concurrency": 12,
+      "check spent only": 414808,
+      "reserve the maximum": 0
+    },
+    {
+      "concurrency": 16,
+      "check spent only": 530941,
+      "reserve the maximum": 0
+    }
+  ]
+}

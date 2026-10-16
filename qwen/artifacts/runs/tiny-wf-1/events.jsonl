@@ -1,0 +1,10 @@
+{"seq": 1, "t": 0.0, "type": "run.created", "run_id": "tiny-wf-1", "title": "tiny job 1: forced workflow", "goal": ""}
+{"seq": 2, "t": 0.0, "type": "run.agent_started", "run_id": "tiny-wf-1", "thread": "tiny-wf-1/t001", "label": "grade:51#0", "model": "Qwen3.8-27B", "phase": ""}
+{"seq": 3, "t": 0.001, "type": "run.agent_ended", "run_id": "tiny-wf-1", "thread": "tiny-wf-1/t001", "label": "grade:51#0", "ok": true, "seconds": 0.0, "cached": true, "magicubes": 0.0, "phase": ""}
+{"seq": 4, "t": 0.001, "type": "run.agent_started", "run_id": "tiny-wf-1", "thread": "tiny-wf-1/t002", "label": "recheck:calculator:51#0", "model": "Qwen3.7-Plus", "phase": ""}
+{"seq": 5, "t": 0.002, "type": "run.agent_started", "run_id": "tiny-wf-1", "thread": "tiny-wf-1/t003", "label": "recheck:logic:51#0", "model": "Qwen3.7-Plus", "phase": ""}
+{"seq": 6, "t": 0.002, "type": "run.agent_started", "run_id": "tiny-wf-1", "thread": "tiny-wf-1/t004", "label": "recheck:question:51#0", "model": "Qwen3.7-Plus", "phase": ""}
+{"seq": 7, "t": 19.059, "type": "run.agent_ended", "run_id": "tiny-wf-1", "thread": "tiny-wf-1/t003", "label": "recheck:logic:51#0", "ok": true, "seconds": 19.06, "cached": false, "magicubes": 0.2, "phase": ""}
+{"seq": 8, "t": 23.763, "type": "run.agent_ended", "run_id": "tiny-wf-1", "thread": "tiny-wf-1/t004", "label": "recheck:question:51#0", "ok": true, "seconds": 23.76, "cached": false, "magicubes": 0.2, "phase": ""}
+{"seq": 9, "t": 24.504, "type": "run.agent_ended", "run_id": "tiny-wf-1", "thread": "tiny-wf-1/t002", "label": "recheck:calculator:51#0", "ok": true, "seconds": 24.5, "cached": false, "magicubes": 0.2, "phase": ""}
+{"seq": 10, "t": 24.505, "type": "run.ended", "run_id": "tiny-wf-1", "status": "completed", "seconds": 24.5, "agents": 4, "failed": 0, "magicubes": 0.6, "dropped": 0, "error": null}

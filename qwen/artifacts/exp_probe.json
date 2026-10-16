@@ -1,0 +1,101 @@
+{
+  "models": 6,
+  "answers": 6,
+  "json_mode": 6,
+  "thinking_off": 6,
+  "slowest_s": 5.6022,
+  "rows": [
+    {
+      "model": "Qwen3.8-Max",
+      "role": "lead",
+      "answers": "yes",
+      "thinking off": "yes",
+      "JSON mode": "yes",
+      "first_byte": 1.7813,
+      "seconds": 2.339,
+      "reasoning": 110
+    },
+    {
+      "model": "Qwen3.7-Max",
+      "role": "lead_alt",
+      "answers": "yes",
+      "thinking off": "yes",
+      "JSON mode": "yes",
+      "first_byte": 1.7646,
+      "seconds": 3.9524,
+      "reasoning": 577
+    },
+    {
+      "model": "Qwen3.8-27B",
+      "role": "worker",
+      "answers": "yes",
+      "thinking off": "yes",
+      "JSON mode": "yes",
+      "first_byte": 2.4616,
+      "seconds": 5.6022,
+      "reasoning": 630
+    },
+    {
+      "model": "Qwen3.8-Flash-Next",
+      "role": "fast",
+      "answers": "yes",
+      "thinking off": "yes",
+      "JSON mode": "yes",
+      "first_byte": 1.2916,
+      "seconds": 1.7226,
+      "reasoning": 105
+    },
+    {
+      "model": "Qwen3.7-Plus",
+      "role": "judge",
+      "answers": "yes",
+      "thinking off": "yes",
+      "JSON mode": "yes",
+      "first_byte": 1.8086,
+      "seconds": 4.4279,
+      "reasoning": 568
+    },
+    {
+      "model": "Qwen3.8-Omni-Flash",
+      "role": "omni",
+      "answers": "yes",
+      "thinking off": "yes",
+      "JSON mode": "yes",
+      "first_byte": 1.6435,
+      "seconds": 2.0561,
+      "reasoning": 101
+    }
+  ],
+  "can": {
+    "Qwen-Ambassador/Qwen3.8-Max": [
+      "JSON mode",
+      "answers",
+      "thinking off"
+    ],
+    "Qwen-Ambassador/Qwen3.7-Max": [
+      "JSON mode",
+      "answers",
+      "thinking off"
+    ],
+    "Qwen-Ambassador/Qwen3.8-27B": [
+      "JSON mode",
+      "answers",
+      "thinking off"
+    ],
+    "Qwen-Ambassador/Qwen3.8-Flash-Next": [
+      "JSON mode",
+      "answers",
+      "thinking off"
+    ],
+    "Qwen-Ambassador/Qwen3.7-Plus": [
+      "JSON mode",
+      "answers",
+      "thinking off"
+    ],
+    "Qwen-Ambassador/Qwen3.8-Omni-Flash": [
+      "JSON mode",
+      "answers",
+      "thinking off"
+    ]
+  }
+}

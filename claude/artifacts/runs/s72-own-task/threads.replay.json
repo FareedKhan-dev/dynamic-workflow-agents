@@ -1,0 +1,15 @@
+[
+ {
+  "id": "s72-own-task/t001",
+  "label": "summarise",
+  "phase": "Summarise",
+  "model": "claude-haiku-5-5",
+  "status": "done",
+  "started": 0.00041326799964735983,
+  "ended": 0.0013451159998112416,
+  "cost": 0.0,
+  "error": null,
+  "replies": 1,
+  "reply": "{\"summaries\": [{\"id\": 1, \"summary\": \"Library adds lenses to scan workers.\"}, {\"id\": 2, \"summary\": \"Budget pauses work at the cap.\"}, {\"id\": 3, \"summary\": \"Plans are checked before running.\"}]}"
+ }
+]

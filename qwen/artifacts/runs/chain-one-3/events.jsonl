@@ -1,0 +1,4 @@
+{"seq": 1, "t": 0.0, "type": "run.created", "run_id": "chain-one-3", "title": "chain: one worker", "goal": ""}
+{"seq": 2, "t": 0.0, "type": "run.agent_started", "run_id": "chain-one-3", "thread": "chain-one-3/t001", "label": "follow", "model": "Qwen3.8-27B", "phase": ""}
+{"seq": 3, "t": 2.984, "type": "run.agent_ended", "run_id": "chain-one-3", "thread": "chain-one-3/t001", "label": "follow", "ok": true, "seconds": 2.98, "cached": false, "magicubes": 0.2, "phase": ""}
+{"seq": 4, "t": 2.984, "type": "run.ended", "run_id": "chain-one-3", "status": "completed", "seconds": 2.98, "agents": 1, "failed": 0, "magicubes": 0.2, "dropped": 0, "error": null}

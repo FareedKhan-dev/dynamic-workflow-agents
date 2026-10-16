@@ -1,0 +1,15 @@
+[
+ {
+  "id": "intents-one-call/t001",
+  "label": "tag:all",
+  "phase": "",
+  "model": "claude-haiku-5-5",
+  "status": "done",
+  "started": 0.003318513000067469,
+  "ended": 0.02573701399978745,
+  "cost": 0.0,
+  "error": null,
+  "replies": 1,
+  "reply": "{\"tags\": [{\"id\": 1, \"label\": \"card not arrived\"}, {\"id\": 2, \"label\": \"card not arrived\"}, {\"id\": 3, \"label\": \"card not arrived\"}, {\"id\": 4, \"label\": \"track card delivery\"}, {\"id\": 5, \"label\": \"card not arrived\"}, {\"id\": 6, \"label\": \"card shipping date\"}, {\"id\": 7, \"label\": \"track card delivery\"}, {\"id\": 8, \"label\": \"card not arrived\"}, {\"id\": 9, \"label\": \"track card delivery\"}, {\"id\": 10, \"label\": \"card not arrived\"}, {\"id\": 11, \"label\": \"card not arrived\"}, {\"id\": 12, \"label\": \"card not arrived\"}, {\"id\": 13, \"label\": \"track card delivery\"}, {\"id\": 14, \"label\": \"track card delivery\"}, {\"id\": 15, \"label\": \"card not arrived\"}, {\"id\": 16, \"label\": \"track card delivery\"}, {\"id\": 17, \"label\": \"card not arrived\"}, {\"id\": 18, \"label\": \"card arrival time\"}, {\"id\": 19, \"label\": \"card not arrived\"}, {\"id\": 20, \"label\": \"card not arrived\"}, {\"id\": 21, \"label\": \"track card delivery\"}, {\"id\": 22, \"label\": \"track card delivery\"}, {\"id\": 23, \"label\": \"card shipping date\"}, {\"id\": 24, \"label\": \"card not arrived\"}, {\"id\": 25, \"label\": \"card not arrived\"}, {\"id\": 26, \"label\": \"card not arrived\"}, {\"id\": 27, \"label\": \"track card delivery\"}, {\"id\": 28, \"label\": \"card arrival time\"}, {\"id\": 29, \"label\": \"card arrival time\"}, {\"id\": 30, \"label\": \"card arrival time\"}, {\"id\": 31, \"label\": \"track card delivery\"}, {\"id\": 32, \"label\": \"track card delivery\"}, {\"id\": 33, \"label\": \"card lost in delivery\"}, {\"id\": 34, \"label\": \"card not arrived\"}, {\"id\": 35, \"label\": \"card not arrived\"}, {\"id\": 36, \"label\": \"replacement card update\"}, {\"id\": 37, \"label\": \"card arrival time\"}, {\"id\": 38, \"label\": \"track card delivery\"}, {\"id\": 39, \"label\": \"card lost in delivery\"}, {\"id\": 40, \"label\": \"card not arrived\"}, {\"id\": 41, \"label\": \"track card delivery\"}, {\"id\": 42, \"label\": \"card not arrived\"}, {\"id\": 43, \"label\": \"card not arrived\"}, {\"id\": 44, \"label\": \"track card delivery\"}, {\"id\": 45, \"label\": \"card not arrived\"}, {\"id\": 46, \"label\": \"card not arrived\"}, {\"id\": 47, \"label\": \"card lost in delivery\"},"
+ }
+]

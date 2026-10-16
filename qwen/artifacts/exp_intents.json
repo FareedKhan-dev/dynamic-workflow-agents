@@ -1,0 +1,15 @@
+{
+  "one_share": 0.0855,
+  "one_labelled": 855,
+  "unsorted": 380,
+  "count_error": 234.6,
+  "flat_share": 0.0,
+  "tree_unmapped": 239,
+  "ari": 0.3796,
+  "nmi": 0.7646,
+  "cost": 11.6,
+  "topics": 30,
+  "labels": 1297,
+  "plan": "sample_ids = messages[::2]\n\nlabels = {}\nfor batch in batches(sample_ids, 300):\n    labels.update(tag(batch, model=\"fast\"))\n\nunique_labels = []\nfor label in labels.values():\n    if label not in unique_labels:\n        unique_labels.append(label)\n\nlabel_topic = tree_merge(unique_labels, group=300, k=80)\n\ntopics = []\nfor topic in label_topic.values():\n    if topic not in topics:\n        topics.append(topic)\n\nassignments = {}\nfor batch in batches(messages, 300):\n    assignments.update(classify(batch, topics, model=\"fast\"))\n\ncounts = count(assignments)\ntopics = list(counts.keys())\n\nresult = {\"topics\": topics, \"counts\": counts}",
+  "messages": 10003
+}

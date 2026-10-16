@@ -1,0 +1,80 @@
+"""
+This is pure Python implementation of comb sort algorithm.
+Comb sort is a relatively simple sorting algorithm originally designed by Wlodzimierz
+Dobosiewicz in 1980.  It was rediscovered by Stephen Lacey and Richard Box in 1991.
+Comb sort improves on bubble sort algorithm.
+In bubble sort, distance (or gap) between two compared elements is always one.
+Comb sort improvement is that gap can be much more than 1, in order to prevent slowing
+down by small values at the end of a list.
+
+More info on: https://en.wikipedia.org/wiki/Comb_sort
+
+For doctests run following command:
+python -m doctest -v comb_sort.py
+or
+python3 -m doctest -v comb_sort.py
+
+For manual testing run:
+python comb_sort.py
+"""
+
+from typing import Any, Protocol
+
+
+class Comparable(Protocol):
+    def __lt__(self, other: Any, /) -> bool: ...
+
+
+def comb_sort[T: Comparable](data: list[T]) -> list[T]:
+    """Pure implementation of comb sort algorithm in Python
+    :param data: mutable collection with comparable items
+    :return: the same collection in ascending order
+    Examples:
+    >>> comb_sort([0, 5, 3, 2, 2])
+    [0, 2, 2, 3, 5]
+    >>> comb_sort([])
+    []
+    >>> comb_sort([99, 45, -7, 8, 2, 0, -15, 3])
+    [-15, -7, 0, 2, 3, 8, 45, 99]
+    >>> comb_sort([2, 0, 3, 4, 5, 6, 1])
+    [0, 1, 2, 3, 4, 5, 6]
+    >>> comb_sort(["c", "a", "b"])
+    ['a', 'b', 'c']
+    >>> comb_sort([2.5, -1, 0.0])
+    [-1, 0.0, 2.5]
+    >>> comb_sort([1, "a"])
+    Traceback (most recent call last):
+    ...
+    TypeError: '<' not supported between instances of 'str' and 'int'
+    """
+    shrink_factor = 1.3
+    gap = len(data)
+    completed = False
+
+    while not completed:
+        # Update the gap value for a next comb.  The gap is never allowed to drop
+        # below 1: a gap of 0 compares each element with itself, so no swap can
+        # ever happen and the loop would exit while the data is still unsorted.
+        gap = max(int(gap / shrink_factor), 1)
+        if gap == 1:
+            completed = True
+
+        index = 0
+        while index + gap < len(data):
+            if data[index + gap] < data[index]:
+                # Swap values
+                data[index], data[index + gap] = data[index + gap], data[index]
+                completed = False
+            index += 1
+
+    return data
+
+
+if __name__ == "__main__":
+    import doctest
+
+    doctest.testmod()
+
+    user_input = input("Enter numbers separated by a comma:\n").strip()
+    unsorted = [int(item) for item in user_input.split(",")]
+    print(comb_sort(unsorted))

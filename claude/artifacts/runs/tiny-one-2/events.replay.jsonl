@@ -1,0 +1,4 @@
+{"seq": 1, "t": 0.0, "type": "run.created", "run_id": "tiny-one-2", "title": "tiny job 2: one worker", "goal": ""}
+{"seq": 2, "t": 0.0, "type": "run.agent_started", "run_id": "tiny-one-2", "thread": "tiny-one-2/t001", "label": "grade:101#0", "model": "claude-haiku-5-5", "phase": ""}
+{"seq": 3, "t": 0.001, "type": "run.agent_ended", "run_id": "tiny-one-2", "thread": "tiny-one-2/t001", "label": "grade:101#0", "ok": true, "seconds": 0.0, "cached": true, "cents": 0.0, "phase": ""}
+{"seq": 4, "t": 0.001, "type": "run.ended", "run_id": "tiny-one-2", "status": "completed", "seconds": 0.0, "agents": 1, "failed": 0, "cents": 0.0, "dropped": 0, "error": null}

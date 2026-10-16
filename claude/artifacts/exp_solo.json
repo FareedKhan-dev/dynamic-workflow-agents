@@ -1,0 +1,71 @@
+{
+  "runs": [
+    {
+      "run": "solo-0",
+      "turns": 46,
+      "stop": "done",
+      "files_read": 30,
+      "coverage": 0.035,
+      "reported": 6,
+      "found": 4,
+      "recall": 0.0556,
+      "precision": 0.6667,
+      "compactions": 0,
+      "cents": 2.1285,
+      "minutes": 1.5222
+    },
+    {
+      "run": "solo-1",
+      "turns": 21,
+      "stop": "done",
+      "files_read": 17,
+      "coverage": 0.0199,
+      "reported": 0,
+      "found": 0,
+      "recall": 0.0,
+      "precision": null,
+      "compactions": 0,
+      "cents": 1.1334,
+      "minutes": 1.0687
+    },
+    {
+      "run": "solo-2",
+      "turns": 29,
+      "stop": "done",
+      "files_read": 21,
+      "coverage": 0.0245,
+      "reported": 1,
+      "found": 0,
+      "recall": 0.0,
+      "precision": 0.0,
+      "compactions": 0,
+      "cents": 1.3455,
+      "minutes": 1.1686
+    }
+  ],
+  "turns": 150,
+  "found_min": 0,
+  "found_mid": 0,
+  "found_max": 4,
+  "coverage_min": 0.0199,
+  "coverage_max": 0.035,
+  "recall_mean": 0.0185,
+  "precision_mean": 0.2222,
+  "compactions_run1": 0,
+  "cents_mean": 1.5358,
+  "minutes_mean": 1.2532,
+  "turns_min": 21,
+  "turns_max": 46,
+  "done_runs": 3,
+  "compactions_total": 0,
+  "found_ids": [
+    [
+      "B15",
+      "B17",
+      "B18",
+      "B34"
+    ],
+    [],
+    []
+  ]
+}

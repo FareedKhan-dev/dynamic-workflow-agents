@@ -1,0 +1,15 @@
+[
+ {
+  "id": "chain-one-3/t001",
+  "label": "follow",
+  "phase": "",
+  "model": "claude-haiku-5-5",
+  "status": "done",
+  "started": 3.4656000025279354e-05,
+  "ended": 0.00021610600015264936,
+  "cost": 0.0,
+  "error": null,
+  "replies": 1,
+  "reply": "{\"record\": \"LAST\", \"balance\": 146}"
+ }
+]

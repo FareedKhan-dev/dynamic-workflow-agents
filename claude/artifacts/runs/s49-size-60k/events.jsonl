@@ -1,0 +1,90 @@
+{"seq": 1, "t": 0.0, "type": "run.created", "run_id": "s49-size-60k", "title": "slim plan at 60k-token shards", "goal": ""}
+{"seq": 2, "t": 0.001, "type": "run.phase_started", "run_id": "s49-size-60k", "phase": "Scan", "index": 1}
+{"seq": 3, "t": 0.195, "type": "run.agent_started", "run_id": "s49-size-60k", "thread": "s49-size-60k/t001", "label": "scan:general:data_compression#0", "model": "claude-haiku-5-5", "phase": "Scan"}
+{"seq": 4, "t": 0.207, "type": "run.agent_ended", "run_id": "s49-size-60k", "thread": "s49-size-60k/t001", "label": "scan:general:data_compression#0", "ok": true, "seconds": 0.01, "cached": true, "cents": 0.0, "phase": "Scan"}
+{"seq": 5, "t": 0.211, "type": "run.agent_started", "run_id": "s49-size-60k", "thread": "s49-size-60k/t002", "label": "scan:general:graphs#0", "model": "claude-haiku-5-5", "phase": "Scan"}
+{"seq": 6, "t": 0.219, "type": "run.agent_started", "run_id": "s49-size-60k", "thread": "s49-size-60k/t003", "label": "scan:general:geodesy#0", "model": "claude-haiku-5-5", "phase": "Scan"}
+{"seq": 7, "t": 0.226, "type": "run.agent_ended", "run_id": "s49-size-60k", "thread": "s49-size-60k/t002", "label": "scan:general:graphs#0", "ok": true, "seconds": 0.02, "cached": true, "cents": 0.0, "phase": "Scan"}
+{"seq": 8, "t": 0.232, "type": "run.agent_ended", "run_id": "s49-size-60k", "thread": "s49-size-60k/t003", "label": "scan:general:geodesy#0", "ok": true, "seconds": 0.01, "cached": true, "cents": 0.0, "phase": "Scan"}
+{"seq": 9, "t": 0.251, "type": "run.agent_started", "run_id": "s49-size-60k", "thread": "s49-size-60k/t004", "label": "scan:general:machine_learning#0", "model": "claude-haiku-5-5", "phase": "Scan"}
+{"seq": 10, "t": 0.264, "type": "run.agent_ended", "run_id": "s49-size-60k", "thread": "s49-size-60k/t004", "label": "scan:general:machine_learning#0", "ok": true, "seconds": 0.01, "cached": true, "cents": 0.0, "phase": "Scan"}
+{"seq": 11, "t": 0.283, "type": "run.agent_started", "run_id": "s49-size-60k", "thread": "s49-size-60k/t005", "label": "scan:general:maths#0", "model": "claude-haiku-5-5", "phase": "Scan"}
+{"seq": 12, "t": 0.287, "type": "run.agent_started", "run_id": "s49-size-60k", "thread": "s49-size-60k/t006", "label": "scan:general:hashes#0", "model": "claude-haiku-5-5", "phase": "Scan"}
+{"seq": 13, "t": 0.298, "type": "run.agent_ended", "run_id": "s49-size-60k", "thread": "s49-size-60k/t005", "label": "scan:general:maths#0", "ok": true, "seconds": 0.01, "cached": true, "cents": 0.0, "phase": "Scan"}
+{"seq": 14, "t": 0.303, "type": "run.agent_ended", "run_id": "s49-size-60k", "thread": "s49-size-60k/t006", "label": "scan:general:hashes#0", "ok": true, "seconds": 0.02, "cached": true, "cents": 0.0, "phase": "Scan"}
+{"seq": 15, "t": 0.321, "type": "run.agent_started", "run_id": "s49-size-60k", "thread": "s49-size-60k/t007", "label": "scan:general:matrix#0", "model": "claude-haiku-5-5", "phase": "Scan"}
+{"seq": 16, "t": 0.329, "type": "run.agent_ended", "run_id": "s49-size-60k", "thread": "s49-size-60k/t007", "label": "scan:general:matrix#0", "ok": true, "seconds": 0.01, "cached": true, "cents": 0.0, "phase": "Scan"}
+{"seq": 17, "t": 0.329, "type": "run.agent_started", "run_id": "s49-size-60k", "thread": "s49-size-60k/t008", "label": "scan:general:data_structures#0", "model": "claude-haiku-5-5", "phase": "Scan"}
+{"seq": 18, "t": 0.341, "type": "run.agent_ended", "run_id": "s49-size-60k", "thread": "s49-size-60k/t008", "label": "scan:general:data_structures#0", "ok": true, "seconds": 0.01, "cached": true, "cents": 0.0, "phase": "Scan"}
+{"seq": 19, "t": 0.396, "type": "run.agent_started", "run_id": "s49-size-60k", "thread": "s49-size-60k/t009", "label": "scan:general:searches#0", "model": "claude-haiku-5-5", "phase": "Scan"}
+{"seq": 20, "t": 0.407, "type": "run.agent_ended", "run_id": "s49-size-60k", "thread": "s49-size-60k/t009", "label": "scan:general:searches#0", "ok": true, "seconds": 0.01, "cached": true, "cents": 0.0, "phase": "Scan"}
+{"seq": 21, "t": 0.421, "type": "run.agent_started", "run_id": "s49-size-60k", "thread": "s49-size-60k/t010", "label": "scan:general:ciphers#0", "model": "claude-haiku-5-5", "phase": "Scan"}
+{"seq": 22, "t": 0.422, "type": "run.agent_started", "run_id": "s49-size-60k", "thread": "s49-size-60k/t011", "label": "scan:general:data_structures#0", "model": "claude-haiku-5-5", "phase": "Scan"}
+{"seq": 23, "t": 0.427, "type": "run.agent_started", "run_id": "s49-size-60k", "thread": "s49-size-60k/t012", "label": "scan:general:other#0", "model": "claude-haiku-5-5", "phase": "Scan"}
+{"seq": 24, "t": 0.436, "type": "run.agent_ended", "run_id": "s49-size-60k", "thread": "s49-size-60k/t010", "label": "scan:general:ciphers#0", "ok": true, "seconds": 0.02, "cached": true, "cents": 0.0, "phase": "Scan"}
+{"seq": 25, "t": 0.439, "type": "run.agent_started", "run_id": "s49-size-60k", "thread": "s49-size-60k/t013", "label": "scan:general:audio_filters#0", "model": "claude-haiku-5-5", "phase": "Scan"}
+{"seq": 26, "t": 0.443, "type": "run.agent_ended", "run_id": "s49-size-60k", "thread": "s49-size-60k/t011", "label": "scan:general:data_structures#0", "ok": true, "seconds": 0.02, "cached": true, "cents": 0.0, "phase": "Scan"}
+{"seq": 27, "t": 0.448, "type": "run.agent_ended", "run_id": "s49-size-60k", "thread": "s49-size-60k/t012", "label": "scan:general:other#0", "ok": true, "seconds": 0.02, "cached": true, "cents": 0.0, "phase": "Scan"}
+{"seq": 28, "t": 0.45, "type": "run.agent_ended", "run_id": "s49-size-60k", "thread": "s49-size-60k/t013", "label": "scan:general:audio_filters#0", "ok": true, "seconds": 0.01, "cached": true, "cents": 0.0, "phase": "Scan"}
+{"seq": 29, "t": 0.455, "type": "run.agent_started", "run_id": "s49-size-60k", "thread": "s49-size-60k/t014", "label": "scan:general:dynamic_programming#0", "model": "claude-haiku-5-5", "phase": "Scan"}
+{"seq": 30, "t": 0.468, "type": "run.agent_started", "run_id": "s49-size-60k", "thread": "s49-size-60k/t015", "label": "scan:general:bit_manipulation#0", "model": "claude-haiku-5-5", "phase": "Scan"}
+{"seq": 31, "t": 0.473, "type": "run.agent_started", "run_id": "s49-size-60k", "thread": "s49-size-60k/t016", "label": "scan:general:strings#0", "model": "claude-haiku-5-5", "phase": "Scan"}
+{"seq": 32, "t": 0.475, "type": "run.agent_ended", "run_id": "s49-size-60k", "thread": "s49-size-60k/t015", "label": "scan:general:bit_manipulation#0", "ok": true, "seconds": 0.01, "cached": true, "cents": 0.0, "phase": "Scan"}
+{"seq": 33, "t": 0.479, "type": "run.agent_started", "run_id": "s49-size-60k", "thread": "s49-size-60k/t017", "label": "scan:general:conversions#0", "model": "claude-haiku-5-5", "phase": "Scan"}
+{"seq": 34, "t": 0.484, "type": "run.agent_ended", "run_id": "s49-size-60k", "thread": "s49-size-60k/t014", "label": "scan:general:dynamic_programming#0", "ok": true, "seconds": 0.03, "cached": true, "cents": 0.0, "phase": "Scan"}
+{"seq": 35, "t": 0.489, "type": "run.agent_ended", "run_id": "s49-size-60k", "thread": "s49-size-60k/t016", "label": "scan:general:strings#0", "ok": true, "seconds": 0.02, "cached": true, "cents": 0.0, "phase": "Scan"}
+{"seq": 36, "t": 0.493, "type": "run.agent_ended", "run_id": "s49-size-60k", "thread": "s49-size-60k/t017", "label": "scan:general:conversions#0", "ok": true, "seconds": 0.01, "cached": true, "cents": 0.0, "phase": "Scan"}
+{"seq": 37, "t": 0.497, "type": "run.agent_started", "run_id": "s49-size-60k", "thread": "s49-size-60k/t018", "label": "scan:general:physics#0", "model": "claude-haiku-5-5", "phase": "Scan"}
+{"seq": 38, "t": 0.512, "type": "run.agent_ended", "run_id": "s49-size-60k", "thread": "s49-size-60k/t018", "label": "scan:general:physics#0", "ok": true, "seconds": 0.02, "cached": true, "cents": 0.0, "phase": "Scan"}
+{"seq": 39, "t": 0.517, "type": "run.agent_started", "run_id": "s49-size-60k", "thread": "s49-size-60k/t019", "label": "scan:general:electronics#0", "model": "claude-haiku-5-5", "phase": "Scan"}
+{"seq": 40, "t": 0.523, "type": "run.agent_ended", "run_id": "s49-size-60k", "thread": "s49-size-60k/t019", "label": "scan:general:electronics#0", "ok": true, "seconds": 0.01, "cached": true, "cents": 0.0, "phase": "Scan"}
+{"seq": 41, "t": 0.532, "type": "run.agent_started", "run_id": "s49-size-60k", "thread": "s49-size-60k/t020", "label": "scan:general:graphs#0", "model": "claude-haiku-5-5", "phase": "Scan"}
+{"seq": 42, "t": 0.54, "type": "run.agent_ended", "run_id": "s49-size-60k", "thread": "s49-size-60k/t020", "label": "scan:general:graphs#0", "ok": true, "seconds": 0.01, "cached": true, "cents": 0.0, "phase": "Scan"}
+{"seq": 43, "t": 0.545, "type": "run.agent_started", "run_id": "s49-size-60k", "thread": "s49-size-60k/t021", "label": "scan:general:maths#0", "model": "claude-haiku-5-5", "phase": "Scan"}
+{"seq": 44, "t": 0.549, "type": "run.agent_ended", "run_id": "s49-size-60k", "thread": "s49-size-60k/t021", "label": "scan:general:maths#0", "ok": true, "seconds": 0.0, "cached": true, "cents": 0.0, "phase": "Scan"}
+{"seq": 45, "t": 0.555, "type": "run.agent_started", "run_id": "s49-size-60k", "thread": "s49-size-60k/t022", "label": "scan:general:maths#0", "model": "claude-haiku-5-5", "phase": "Scan"}
+{"seq": 46, "t": 0.562, "type": "run.agent_ended", "run_id": "s49-size-60k", "thread": "s49-size-60k/t022", "label": "scan:general:maths#0", "ok": true, "seconds": 0.01, "cached": true, "cents": 0.0, "phase": "Scan"}
+{"seq": 47, "t": 0.564, "type": "run.agent_started", "run_id": "s49-size-60k", "thread": "s49-size-60k/t023", "label": "scan:general:sorts#0", "model": "claude-haiku-5-5", "phase": "Scan"}
+{"seq": 48, "t": 0.566, "type": "run.agent_ended", "run_id": "s49-size-60k", "thread": "s49-size-60k/t023", "label": "scan:general:sorts#0", "ok": true, "seconds": 0.0, "cached": true, "cents": 0.0, "phase": "Scan"}
+{"seq": 49, "t": 0.573, "type": "run.agent_started", "run_id": "s49-size-60k", "thread": "s49-size-60k/t024", "label": "scan:general:data_structures#0", "model": "claude-haiku-5-5", "phase": "Scan"}
+{"seq": 50, "t": 0.578, "type": "run.agent_ended", "run_id": "s49-size-60k", "thread": "s49-size-60k/t024", "label": "scan:general:data_structures#0", "ok": true, "seconds": 0.0, "cached": true, "cents": 0.0, "phase": "Scan"}
+{"seq": 51, "t": 0.583, "type": "run.agent_started", "run_id": "s49-size-60k", "thread": "s49-size-60k/t025", "label": "scan:general:maths#0", "model": "claude-haiku-5-5", "phase": "Scan"}
+{"seq": 52, "t": 0.587, "type": "run.agent_ended", "run_id": "s49-size-60k", "thread": "s49-size-60k/t025", "label": "scan:general:maths#0", "ok": true, "seconds": 0.0, "cached": true, "cents": 0.0, "phase": "Scan"}
+{"seq": 53, "t": 0.591, "type": "run.phase_ended", "run_id": "s49-size-60k", "phase": "Scan", "agents": 25, "failed": 0, "seconds": 0.59}
+{"seq": 54, "t": 0.591, "type": "run.phase_started", "run_id": "s49-size-60k", "phase": "Verify", "index": 2}
+{"seq": 55, "t": 0.782, "type": "run.agent_started", "run_id": "s49-size-60k", "thread": "s49-size-60k/t026", "label": "check:graphs#0", "model": "claude-haiku-4-5", "phase": "Verify"}
+{"seq": 56, "t": 0.801, "type": "run.agent_ended", "run_id": "s49-size-60k", "thread": "s49-size-60k/t026", "label": "check:graphs#0", "ok": true, "seconds": 0.02, "cached": true, "cents": 0.0, "phase": "Verify"}
+{"seq": 57, "t": 0.876, "type": "run.agent_started", "run_id": "s49-size-60k", "thread": "s49-size-60k/t027", "label": "check:maths#0", "model": "claude-haiku-4-5", "phase": "Verify"}
+{"seq": 58, "t": 0.892, "type": "run.agent_started", "run_id": "s49-size-60k", "thread": "s49-size-60k/t028", "label": "check:data_structures#0", "model": "claude-haiku-4-5", "phase": "Verify"}
+{"seq": 59, "t": 0.903, "type": "run.agent_ended", "run_id": "s49-size-60k", "thread": "s49-size-60k/t027", "label": "check:maths#0", "ok": true, "seconds": 0.03, "cached": true, "cents": 0.0, "phase": "Verify"}
+{"seq": 60, "t": 0.93, "type": "run.agent_started", "run_id": "s49-size-60k", "thread": "s49-size-60k/t029", "label": "check:conversions#0", "model": "claude-haiku-4-5", "phase": "Verify"}
+{"seq": 61, "t": 0.953, "type": "run.agent_ended", "run_id": "s49-size-60k", "thread": "s49-size-60k/t028", "label": "check:data_structures#0", "ok": true, "seconds": 0.06, "cached": true, "cents": 0.0, "phase": "Verify"}
+{"seq": 62, "t": 0.956, "type": "run.agent_started", "run_id": "s49-size-60k", "thread": "s49-size-60k/t030", "label": "check:greedy_methods#0", "model": "claude-haiku-4-5", "phase": "Verify"}
+{"seq": 63, "t": 0.977, "type": "run.agent_started", "run_id": "s49-size-60k", "thread": "s49-size-60k/t031", "label": "check:ciphers#0", "model": "claude-haiku-4-5", "phase": "Verify"}
+{"seq": 64, "t": 0.98, "type": "run.agent_ended", "run_id": "s49-size-60k", "thread": "s49-size-60k/t029", "label": "check:conversions#0", "ok": true, "seconds": 0.05, "cached": true, "cents": 0.0, "phase": "Verify"}
+{"seq": 65, "t": 0.986, "type": "run.agent_ended", "run_id": "s49-size-60k", "thread": "s49-size-60k/t030", "label": "check:greedy_methods#0", "ok": true, "seconds": 0.03, "cached": true, "cents": 0.0, "phase": "Verify"}
+{"seq": 66, "t": 0.987, "type": "run.agent_ended", "run_id": "s49-size-60k", "thread": "s49-size-60k/t031", "label": "check:ciphers#0", "ok": true, "seconds": 0.01, "cached": true, "cents": 0.0, "phase": "Verify"}
+{"seq": 67, "t": 1.041, "type": "run.agent_started", "run_id": "s49-size-60k", "thread": "s49-size-60k/t032", "label": "check:strings#0", "model": "claude-haiku-4-5", "phase": "Verify"}
+{"seq": 68, "t": 1.053, "type": "run.agent_ended", "run_id": "s49-size-60k", "thread": "s49-size-60k/t032", "label": "check:strings#0", "ok": true, "seconds": 0.01, "cached": true, "cents": 0.0, "phase": "Verify"}
+{"seq": 69, "t": 1.064, "type": "run.agent_started", "run_id": "s49-size-60k", "thread": "s49-size-60k/t033", "label": "check:maths#0", "model": "claude-haiku-4-5", "phase": "Verify"}
+{"seq": 70, "t": 1.081, "type": "run.agent_started", "run_id": "s49-size-60k", "thread": "s49-size-60k/t034", "label": "check:matrix#0", "model": "claude-haiku-4-5", "phase": "Verify"}
+{"seq": 71, "t": 1.083, "type": "run.agent_started", "run_id": "s49-size-60k", "thread": "s49-size-60k/t035", "label": "check:other#0", "model": "claude-haiku-4-5", "phase": "Verify"}
+{"seq": 72, "t": 1.088, "type": "run.agent_ended", "run_id": "s49-size-60k", "thread": "s49-size-60k/t033", "label": "check:maths#0", "ok": true, "seconds": 0.02, "cached": true, "cents": 0.0, "phase": "Verify"}
+{"seq": 73, "t": 1.09, "type": "run.agent_ended", "run_id": "s49-size-60k", "thread": "s49-size-60k/t034", "label": "check:matrix#0", "ok": true, "seconds": 0.01, "cached": true, "cents": 0.0, "phase": "Verify"}
+{"seq": 74, "t": 1.091, "type": "run.agent_ended", "run_id": "s49-size-60k", "thread": "s49-size-60k/t035", "label": "check:other#0", "ok": true, "seconds": 0.01, "cached": true, "cents": 0.0, "phase": "Verify"}
+{"seq": 75, "t": 1.126, "type": "run.agent_started", "run_id": "s49-size-60k", "thread": "s49-size-60k/t036", "label": "check:data_structures#0", "model": "claude-haiku-4-5", "phase": "Verify"}
+{"seq": 76, "t": 1.128, "type": "run.agent_ended", "run_id": "s49-size-60k", "thread": "s49-size-60k/t036", "label": "check:data_structures#0", "ok": true, "seconds": 0.0, "cached": true, "cents": 0.0, "phase": "Verify"}
+{"seq": 77, "t": 1.166, "type": "run.agent_started", "run_id": "s49-size-60k", "thread": "s49-size-60k/t037", "label": "check:searches#0", "model": "claude-haiku-4-5", "phase": "Verify"}
+{"seq": 78, "t": 1.186, "type": "run.agent_ended", "run_id": "s49-size-60k", "thread": "s49-size-60k/t037", "label": "check:searches#0", "ok": true, "seconds": 0.02, "cached": true, "cents": 0.0, "phase": "Verify"}
+{"seq": 79, "t": 1.187, "type": "run.agent_started", "run_id": "s49-size-60k", "thread": "s49-size-60k/t038", "label": "check:backtracking#0", "model": "claude-haiku-4-5", "phase": "Verify"}
+{"seq": 80, "t": 1.188, "type": "run.agent_ended", "run_id": "s49-size-60k", "thread": "s49-size-60k/t038", "label": "check:backtracking#0", "ok": true, "seconds": 0.0, "cached": true, "cents": 0.0, "phase": "Verify"}
+{"seq": 81, "t": 1.194, "type": "run.agent_started", "run_id": "s49-size-60k", "thread": "s49-size-60k/t039", "label": "check:dynamic_programming#0", "model": "claude-haiku-4-5", "phase": "Verify"}
+{"seq": 82, "t": 1.195, "type": "run.agent_ended", "run_id": "s49-size-60k", "thread": "s49-size-60k/t039", "label": "check:dynamic_programming#0", "ok": true, "seconds": 0.0, "cached": true, "cents": 0.0, "phase": "Verify"}
+{"seq": 83, "t": 1.252, "type": "run.agent_started", "run_id": "s49-size-60k", "thread": "s49-size-60k/t040", "label": "check:geodesy#0", "model": "claude-haiku-4-5", "phase": "Verify"}
+{"seq": 84, "t": 1.253, "type": "run.agent_ended", "run_id": "s49-size-60k", "thread": "s49-size-60k/t040", "label": "check:geodesy#0", "ok": true, "seconds": 0.0, "cached": true, "cents": 0.0, "phase": "Verify"}
+{"seq": 85, "t": 1.255, "type": "run.phase_ended", "run_id": "s49-size-60k", "phase": "Verify", "agents": 15, "failed": 0, "seconds": 0.66}
+{"seq": 86, "t": 1.255, "type": "run.phase_started", "run_id": "s49-size-60k", "phase": "Report", "index": 3}
+{"seq": 87, "t": 1.255, "type": "run.agent_started", "run_id": "s49-size-60k", "thread": "s49-size-60k/t041", "label": "report", "model": "claude-sonnet-5-5", "phase": "Report"}
+{"seq": 88, "t": 1.257, "type": "run.agent_ended", "run_id": "s49-size-60k", "thread": "s49-size-60k/t041", "label": "report", "ok": true, "seconds": 0.0, "cached": true, "cents": 0.0, "phase": "Report"}
+{"seq": 89, "t": 1.257, "type": "run.phase_ended", "run_id": "s49-size-60k", "phase": "Report", "agents": 1, "failed": 0, "seconds": 0.0}
+{"seq": 90, "t": 1.257, "type": "run.ended", "run_id": "s49-size-60k", "status": "completed", "seconds": 1.26, "agents": 41, "failed": 0, "cents": 0.0, "dropped": 0, "error": null}

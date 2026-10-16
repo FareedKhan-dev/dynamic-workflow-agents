@@ -1,0 +1,6 @@
+{"seq": 1, "t": 0.0, "type": "run.created", "run_id": "s72-own-task", "title": "your own task", "goal": ""}
+{"seq": 2, "t": 0.0, "type": "run.phase_started", "run_id": "s72-own-task", "phase": "Summarise", "index": 1}
+{"seq": 3, "t": 0.0, "type": "run.agent_started", "run_id": "s72-own-task", "thread": "s72-own-task/t001", "label": "summarise", "model": "claude-haiku-5-5", "phase": "Summarise"}
+{"seq": 4, "t": 0.001, "type": "run.agent_ended", "run_id": "s72-own-task", "thread": "s72-own-task/t001", "label": "summarise", "ok": true, "seconds": 0.0, "cached": true, "cents": 0.0, "phase": "Summarise"}
+{"seq": 5, "t": 0.001, "type": "run.phase_ended", "run_id": "s72-own-task", "phase": "Summarise", "agents": 1, "failed": 0, "seconds": 0.0}
+{"seq": 6, "t": 0.001, "type": "run.ended", "run_id": "s72-own-task", "status": "completed", "seconds": 0.0, "agents": 1, "failed": 0, "cents": 0.0, "dropped": 0, "error": null}

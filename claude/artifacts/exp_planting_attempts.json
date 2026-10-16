@@ -1,0 +1,74 @@
+{
+  "flip_comparison": {
+    "too loud": 3,
+    "survives": 22,
+    "planted": 20,
+    "hangs": 3
+  },
+  "off_by_one_range": {
+    "survives": 4,
+    "planted": 20,
+    "too loud": 16
+  },
+  "off_by_one_slice": {
+    "too loud": 13,
+    "planted": 21,
+    "survives": 5,
+    "flaky": 1
+  },
+  "swap_plus_minus": {
+    "planted": 21,
+    "survives": 6,
+    "too loud": 12,
+    "hangs": 1
+  },
+  "swap_and_or": {
+    "planted": 21,
+    "survives": 4,
+    "too loud": 6,
+    "hangs": 1
+  },
+  "drop_not": {
+    "too loud": 25,
+    "planted": 18,
+    "survives": 2,
+    "does not parse": 2,
+    "hangs": 1
+  },
+  "wrong_index": {
+    "planted": 19,
+    "survives": 14,
+    "too loud": 7
+  },
+  "wrong_constant": {
+    "survives": 5,
+    "too loud": 11,
+    "planted": 20,
+    "flaky": 2,
+    "hangs": 2
+  },
+  "swap_args": {
+    "too loud": 15,
+    "planted": 18,
+    "survives": 15
+  },
+  "wrong_return": {
+    "too loud": 25,
+    "survives": 4,
+    "planted": 19
+  },
+  "remove_early_return": {
+    "too loud": 10,
+    "survives": 12,
+    "planted": 18
+  },
+  "change_update": {
+    "planted": 19,
+    "survives": 5,
+    "too loud": 13,
+    "hangs": 3
+  },
+  "_total_attempts": 504,
+  "_candidates": 234,
+  "_sites": 11771
+}

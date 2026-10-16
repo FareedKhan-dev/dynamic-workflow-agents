@@ -1,0 +1,96 @@
+{"seq": 1, "t": 0.002, "type": "run.created", "run_id": "dry-fcd6b127", "title": "dry run", "goal": ""}
+{"seq": 2, "t": 0.005, "type": "run.phase_started", "run_id": "dry-fcd6b127", "phase": "Scan", "index": 1}
+{"seq": 3, "t": 0.125, "type": "run.agent_started", "run_id": "dry-fcd6b127", "thread": "dry-fcd6b127/t001", "label": "scan:general:data_compression#0", "model": "claude-haiku-5-5", "phase": "Scan"}
+{"seq": 4, "t": 0.183, "type": "run.agent_started", "run_id": "dry-fcd6b127", "thread": "dry-fcd6b127/t002", "label": "scan:general:boolean_algebra#0", "model": "claude-haiku-5-5", "phase": "Scan"}
+{"seq": 5, "t": 0.192, "type": "run.agent_started", "run_id": "dry-fcd6b127", "thread": "dry-fcd6b127/t003", "label": "scan:general:graphs#0", "model": "claude-haiku-5-5", "phase": "Scan"}
+{"seq": 6, "t": 0.21, "type": "run.agent_ended", "run_id": "dry-fcd6b127", "thread": "dry-fcd6b127/t001", "label": "scan:general:data_compression#0", "ok": true, "seconds": 0.08, "cached": false, "cents": 0.24, "phase": "Scan"}
+{"seq": 7, "t": 0.238, "type": "run.agent_started", "run_id": "dry-fcd6b127", "thread": "dry-fcd6b127/t004", "label": "scan:general:machine_learning#0", "model": "claude-haiku-5-5", "phase": "Scan"}
+{"seq": 8, "t": 0.283, "type": "run.agent_started", "run_id": "dry-fcd6b127", "thread": "dry-fcd6b127/t005", "label": "scan:general:data_structures#0", "model": "claude-haiku-5-5", "phase": "Scan"}
+{"seq": 9, "t": 0.289, "type": "run.agent_ended", "run_id": "dry-fcd6b127", "thread": "dry-fcd6b127/t002", "label": "scan:general:boolean_algebra#0", "ok": true, "seconds": 0.11, "cached": false, "cents": 0.24, "phase": "Scan"}
+{"seq": 10, "t": 0.316, "type": "run.agent_started", "run_id": "dry-fcd6b127", "thread": "dry-fcd6b127/t006", "label": "scan:general:graphs#0", "model": "claude-haiku-5-5", "phase": "Scan"}
+{"seq": 11, "t": 0.325, "type": "run.agent_started", "run_id": "dry-fcd6b127", "thread": "dry-fcd6b127/t007", "label": "scan:general:data_structures#0", "model": "claude-haiku-5-5", "phase": "Scan"}
+{"seq": 12, "t": 0.33, "type": "run.agent_started", "run_id": "dry-fcd6b127", "thread": "dry-fcd6b127/t008", "label": "scan:general:geodesy#0", "model": "claude-haiku-5-5", "phase": "Scan"}
+{"seq": 13, "t": 0.333, "type": "run.agent_ended", "run_id": "dry-fcd6b127", "thread": "dry-fcd6b127/t003", "label": "scan:general:graphs#0", "ok": true, "seconds": 0.14, "cached": false, "cents": 0.24, "phase": "Scan"}
+{"seq": 14, "t": 0.344, "type": "run.agent_started", "run_id": "dry-fcd6b127", "thread": "dry-fcd6b127/t009", "label": "scan:general:machine_learning#0", "model": "claude-haiku-5-5", "phase": "Scan"}
+{"seq": 15, "t": 0.376, "type": "run.agent_started", "run_id": "dry-fcd6b127", "thread": "dry-fcd6b127/t010", "label": "scan:general:linear_algebra#0", "model": "claude-haiku-5-5", "phase": "Scan"}
+{"seq": 16, "t": 0.381, "type": "run.agent_started", "run_id": "dry-fcd6b127", "thread": "dry-fcd6b127/t011", "label": "scan:general:audio_filters#0", "model": "claude-haiku-5-5", "phase": "Scan"}
+{"seq": 17, "t": 0.388, "type": "run.agent_started", "run_id": "dry-fcd6b127", "thread": "dry-fcd6b127/t012", "label": "scan:general:ciphers#0", "model": "claude-haiku-5-5", "phase": "Scan"}
+{"seq": 18, "t": 0.396, "type": "run.agent_started", "run_id": "dry-fcd6b127", "thread": "dry-fcd6b127/t013", "label": "scan:general:ciphers#0", "model": "claude-haiku-5-5", "phase": "Scan"}
+{"seq": 19, "t": 0.407, "type": "run.agent_started", "run_id": "dry-fcd6b127", "thread": "dry-fcd6b127/t014", "label": "scan:general:neural_network#0", "model": "claude-haiku-5-5", "phase": "Scan"}
+{"seq": 20, "t": 0.414, "type": "run.agent_ended", "run_id": "dry-fcd6b127", "thread": "dry-fcd6b127/t004", "label": "scan:general:machine_learning#0", "ok": true, "seconds": 0.18, "cached": false, "cents": 0.24, "phase": "Scan"}
+{"seq": 21, "t": 0.454, "type": "run.agent_started", "run_id": "dry-fcd6b127", "thread": "dry-fcd6b127/t015", "label": "scan:general:maths#0", "model": "claude-haiku-5-5", "phase": "Scan"}
+{"seq": 22, "t": 0.461, "type": "run.agent_started", "run_id": "dry-fcd6b127", "thread": "dry-fcd6b127/t016", "label": "scan:general:data_structures#0", "model": "claude-haiku-5-5", "phase": "Scan"}
+{"seq": 23, "t": 0.468, "type": "run.agent_ended", "run_id": "dry-fcd6b127", "thread": "dry-fcd6b127/t005", "label": "scan:general:data_structures#0", "ok": true, "seconds": 0.19, "cached": false, "cents": 0.24, "phase": "Scan"}
+{"seq": 24, "t": 0.474, "type": "run.agent_started", "run_id": "dry-fcd6b127", "thread": "dry-fcd6b127/t017", "label": "scan:general:dynamic_programming#0", "model": "claude-haiku-5-5", "phase": "Scan"}
+{"seq": 25, "t": 0.476, "type": "run.agent_started", "run_id": "dry-fcd6b127", "thread": "dry-fcd6b127/t018", "label": "scan:general:searches#0", "model": "claude-haiku-5-5", "phase": "Scan"}
+{"seq": 26, "t": 0.481, "type": "run.agent_started", "run_id": "dry-fcd6b127", "thread": "dry-fcd6b127/t019", "label": "scan:general:matrix#0", "model": "claude-haiku-5-5", "phase": "Scan"}
+{"seq": 27, "t": 0.487, "type": "run.agent_started", "run_id": "dry-fcd6b127", "thread": "dry-fcd6b127/t020", "label": "scan:general:greedy_methods#0", "model": "claude-haiku-5-5", "phase": "Scan"}
+{"seq": 28, "t": 0.499, "type": "run.agent_started", "run_id": "dry-fcd6b127", "thread": "dry-fcd6b127/t021", "label": "scan:general:data_structures#0", "model": "claude-haiku-5-5", "phase": "Scan"}
+{"seq": 29, "t": 0.514, "type": "run.agent_ended", "run_id": "dry-fcd6b127", "thread": "dry-fcd6b127/t006", "label": "scan:general:graphs#0", "ok": true, "seconds": 0.2, "cached": false, "cents": 0.24, "phase": "Scan"}
+{"seq": 30, "t": 0.532, "type": "run.agent_ended", "run_id": "dry-fcd6b127", "thread": "dry-fcd6b127/t007", "label": "scan:general:data_structures#0", "ok": true, "seconds": 0.21, "cached": false, "cents": 0.24, "phase": "Scan"}
+{"seq": 31, "t": 0.547, "type": "run.agent_started", "run_id": "dry-fcd6b127", "thread": "dry-fcd6b127/t022", "label": "scan:general:physics#0", "model": "claude-haiku-5-5", "phase": "Scan"}
+{"seq": 32, "t": 0.55, "type": "run.agent_started", "run_id": "dry-fcd6b127", "thread": "dry-fcd6b127/t023", "label": "scan:general:other#0", "model": "claude-haiku-5-5", "phase": "Scan"}
+{"seq": 33, "t": 0.559, "type": "run.agent_started", "run_id": "dry-fcd6b127", "thread": "dry-fcd6b127/t024", "label": "scan:general:data_structures#0", "model": "claude-haiku-5-5", "phase": "Scan"}
+{"seq": 34, "t": 0.562, "type": "run.agent_started", "run_id": "dry-fcd6b127", "thread": "dry-fcd6b127/t025", "label": "scan:general:dynamic_programming#0", "model": "claude-haiku-5-5", "phase": "Scan"}
+{"seq": 35, "t": 0.568, "type": "run.agent_ended", "run_id": "dry-fcd6b127", "thread": "dry-fcd6b127/t008", "label": "scan:general:geodesy#0", "ok": true, "seconds": 0.24, "cached": false, "cents": 0.24, "phase": "Scan"}
+{"seq": 36, "t": 0.572, "type": "run.agent_started", "run_id": "dry-fcd6b127", "thread": "dry-fcd6b127/t026", "label": "scan:general:electronics#0", "model": "claude-haiku-5-5", "phase": "Scan"}
+{"seq": 37, "t": 0.575, "type": "run.agent_started", "run_id": "dry-fcd6b127", "thread": "dry-fcd6b127/t027", "label": "scan:general:maths#0", "model": "claude-haiku-5-5", "phase": "Scan"}
+{"seq": 38, "t": 0.584, "type": "run.agent_started", "run_id": "dry-fcd6b127", "thread": "dry-fcd6b127/t028", "label": "scan:general:physics#0", "model": "claude-haiku-5-5", "phase": "Scan"}
+{"seq": 39, "t": 0.592, "type": "run.agent_started", "run_id": "dry-fcd6b127", "thread": "dry-fcd6b127/t029", "label": "scan:general:conversions#0", "model": "claude-haiku-5-5", "phase": "Scan"}
+{"seq": 40, "t": 0.604, "type": "run.agent_started", "run_id": "dry-fcd6b127", "thread": "dry-fcd6b127/t030", "label": "scan:general:graphs#0", "model": "claude-haiku-5-5", "phase": "Scan"}
+{"seq": 41, "t": 0.608, "type": "run.agent_ended", "run_id": "dry-fcd6b127", "thread": "dry-fcd6b127/t009", "label": "scan:general:machine_learning#0", "ok": true, "seconds": 0.26, "cached": false, "cents": 0.24, "phase": "Scan"}
+{"seq": 42, "t": 0.613, "type": "run.agent_started", "run_id": "dry-fcd6b127", "thread": "dry-fcd6b127/t031", "label": "scan:general:sorts#0", "model": "claude-haiku-5-5", "phase": "Scan"}
+{"seq": 43, "t": 0.636, "type": "run.agent_started", "run_id": "dry-fcd6b127", "thread": "dry-fcd6b127/t032", "label": "scan:general:strings#0", "model": "claude-haiku-5-5", "phase": "Scan"}
+{"seq": 44, "t": 0.638, "type": "run.agent_started", "run_id": "dry-fcd6b127", "thread": "dry-fcd6b127/t033", "label": "scan:general:sorts#0", "model": "claude-haiku-5-5", "phase": "Scan"}
+{"seq": 45, "t": 0.641, "type": "run.agent_ended", "run_id": "dry-fcd6b127", "thread": "dry-fcd6b127/t010", "label": "scan:general:linear_algebra#0", "ok": true, "seconds": 0.26, "cached": false, "cents": 0.24, "phase": "Scan"}
+{"seq": 46, "t": 0.642, "type": "run.agent_started", "run_id": "dry-fcd6b127", "thread": "dry-fcd6b127/t034", "label": "scan:general:maths#0", "model": "claude-haiku-5-5", "phase": "Scan"}
+{"seq": 47, "t": 0.646, "type": "run.agent_started", "run_id": "dry-fcd6b127", "thread": "dry-fcd6b127/t035", "label": "scan:general:backtracking#0", "model": "claude-haiku-5-5", "phase": "Scan"}
+{"seq": 48, "t": 0.648, "type": "run.agent_started", "run_id": "dry-fcd6b127", "thread": "dry-fcd6b127/t036", "label": "scan:general:maths#0", "model": "claude-haiku-5-5", "phase": "Scan"}
+{"seq": 49, "t": 0.65, "type": "run.agent_started", "run_id": "dry-fcd6b127", "thread": "dry-fcd6b127/t037", "label": "scan:general:maths#0", "model": "claude-haiku-5-5", "phase": "Scan"}
+{"seq": 50, "t": 0.653, "type": "run.agent_ended", "run_id": "dry-fcd6b127", "thread": "dry-fcd6b127/t011", "label": "scan:general:audio_filters#0", "ok": true, "seconds": 0.27, "cached": false, "cents": 0.24, "phase": "Scan"}
+{"seq": 51, "t": 0.662, "type": "run.agent_ended", "run_id": "dry-fcd6b127", "thread": "dry-fcd6b127/t012", "label": "scan:general:ciphers#0", "ok": true, "seconds": 0.27, "cached": false, "cents": 0.24, "phase": "Scan"}
+{"seq": 52, "t": 0.67, "type": "run.agent_ended", "run_id": "dry-fcd6b127", "thread": "dry-fcd6b127/t013", "label": "scan:general:ciphers#0", "ok": true, "seconds": 0.27, "cached": false, "cents": 0.24, "phase": "Scan"}
+{"seq": 53, "t": 0.677, "type": "run.agent_ended", "run_id": "dry-fcd6b127", "thread": "dry-fcd6b127/t014", "label": "scan:general:neural_network#0", "ok": true, "seconds": 0.27, "cached": false, "cents": 0.24, "phase": "Scan"}
+{"seq": 54, "t": 0.686, "type": "run.agent_ended", "run_id": "dry-fcd6b127", "thread": "dry-fcd6b127/t015", "label": "scan:general:maths#0", "ok": true, "seconds": 0.23, "cached": false, "cents": 0.24, "phase": "Scan"}
+{"seq": 55, "t": 0.694, "type": "run.agent_ended", "run_id": "dry-fcd6b127", "thread": "dry-fcd6b127/t016", "label": "scan:general:data_structures#0", "ok": true, "seconds": 0.23, "cached": false, "cents": 0.24, "phase": "Scan"}
+{"seq": 56, "t": 0.702, "type": "run.agent_ended", "run_id": "dry-fcd6b127", "thread": "dry-fcd6b127/t018", "label": "scan:general:searches#0", "ok": true, "seconds": 0.23, "cached": false, "cents": 0.24, "phase": "Scan"}
+{"seq": 57, "t": 0.711, "type": "run.agent_ended", "run_id": "dry-fcd6b127", "thread": "dry-fcd6b127/t017", "label": "scan:general:dynamic_programming#0", "ok": true, "seconds": 0.24, "cached": false, "cents": 0.24, "phase": "Scan"}
+{"seq": 58, "t": 0.719, "type": "run.agent_ended", "run_id": "dry-fcd6b127", "thread": "dry-fcd6b127/t019", "label": "scan:general:matrix#0", "ok": true, "seconds": 0.24, "cached": false, "cents": 0.24, "phase": "Scan"}
+{"seq": 59, "t": 0.727, "type": "run.agent_ended", "run_id": "dry-fcd6b127", "thread": "dry-fcd6b127/t020", "label": "scan:general:greedy_methods#0", "ok": true, "seconds": 0.24, "cached": false, "cents": 0.24, "phase": "Scan"}
+{"seq": 60, "t": 0.735, "type": "run.agent_ended", "run_id": "dry-fcd6b127", "thread": "dry-fcd6b127/t021", "label": "scan:general:data_structures#0", "ok": true, "seconds": 0.24, "cached": false, "cents": 0.24, "phase": "Scan"}
+{"seq": 61, "t": 0.743, "type": "run.agent_ended", "run_id": "dry-fcd6b127", "thread": "dry-fcd6b127/t022", "label": "scan:general:physics#0", "ok": true, "seconds": 0.2, "cached": false, "cents": 0.24, "phase": "Scan"}
+{"seq": 62, "t": 0.752, "type": "run.agent_ended", "run_id": "dry-fcd6b127", "thread": "dry-fcd6b127/t023", "label": "scan:general:other#0", "ok": true, "seconds": 0.2, "cached": false, "cents": 0.24, "phase": "Scan"}
+{"seq": 63, "t": 0.761, "type": "run.agent_ended", "run_id": "dry-fcd6b127", "thread": "dry-fcd6b127/t024", "label": "scan:general:data_structures#0", "ok": true, "seconds": 0.2, "cached": false, "cents": 0.24, "phase": "Scan"}
+{"seq": 64, "t": 0.769, "type": "run.agent_ended", "run_id": "dry-fcd6b127", "thread": "dry-fcd6b127/t025", "label": "scan:general:dynamic_programming#0", "ok": true, "seconds": 0.21, "cached": false, "cents": 0.24, "phase": "Scan"}
+{"seq": 65, "t": 0.777, "type": "run.agent_ended", "run_id": "dry-fcd6b127", "thread": "dry-fcd6b127/t026", "label": "scan:general:electronics#0", "ok": true, "seconds": 0.2, "cached": false, "cents": 0.24, "phase": "Scan"}
+{"seq": 66, "t": 0.784, "type": "run.agent_ended", "run_id": "dry-fcd6b127", "thread": "dry-fcd6b127/t027", "label": "scan:general:maths#0", "ok": true, "seconds": 0.21, "cached": false, "cents": 0.24, "phase": "Scan"}
+{"seq": 67, "t": 0.792, "type": "run.agent_ended", "run_id": "dry-fcd6b127", "thread": "dry-fcd6b127/t028", "label": "scan:general:physics#0", "ok": true, "seconds": 0.21, "cached": false, "cents": 0.24, "phase": "Scan"}
+{"seq": 68, "t": 0.799, "type": "run.agent_ended", "run_id": "dry-fcd6b127", "thread": "dry-fcd6b127/t029", "label": "scan:general:conversions#0", "ok": true, "seconds": 0.21, "cached": false, "cents": 0.24, "phase": "Scan"}
+{"seq": 69, "t": 0.806, "type": "run.agent_ended", "run_id": "dry-fcd6b127", "thread": "dry-fcd6b127/t030", "label": "scan:general:graphs#0", "ok": true, "seconds": 0.2, "cached": false, "cents": 0.24, "phase": "Scan"}
+{"seq": 70, "t": 0.812, "type": "run.agent_ended", "run_id": "dry-fcd6b127", "thread": "dry-fcd6b127/t031", "label": "scan:general:sorts#0", "ok": true, "seconds": 0.2, "cached": false, "cents": 0.24, "phase": "Scan"}
+{"seq": 71, "t": 0.819, "type": "run.agent_ended", "run_id": "dry-fcd6b127", "thread": "dry-fcd6b127/t032", "label": "scan:general:strings#0", "ok": true, "seconds": 0.18, "cached": false, "cents": 0.15, "phase": "Scan"}
+{"seq": 72, "t": 0.825, "type": "run.agent_ended", "run_id": "dry-fcd6b127", "thread": "dry-fcd6b127/t033", "label": "scan:general:sorts#0", "ok": true, "seconds": 0.19, "cached": false, "cents": 0.24, "phase": "Scan"}
+{"seq": 73, "t": 0.833, "type": "run.agent_ended", "run_id": "dry-fcd6b127", "thread": "dry-fcd6b127/t034", "label": "scan:general:maths#0", "ok": true, "seconds": 0.19, "cached": false, "cents": 0.24, "phase": "Scan"}
+{"seq": 74, "t": 0.841, "type": "run.agent_ended", "run_id": "dry-fcd6b127", "thread": "dry-fcd6b127/t035", "label": "scan:general:backtracking#0", "ok": true, "seconds": 0.19, "cached": false, "cents": 0.24, "phase": "Scan"}
+{"seq": 75, "t": 0.847, "type": "run.agent_ended", "run_id": "dry-fcd6b127", "thread": "dry-fcd6b127/t036", "label": "scan:general:maths#0", "ok": true, "seconds": 0.2, "cached": false, "cents": 0.24, "phase": "Scan"}
+{"seq": 76, "t": 0.854, "type": "run.agent_ended", "run_id": "dry-fcd6b127", "thread": "dry-fcd6b127/t037", "label": "scan:general:maths#0", "ok": true, "seconds": 0.2, "cached": false, "cents": 0.24, "phase": "Scan"}
+{"seq": 77, "t": 0.858, "type": "run.log", "run_id": "dry-fcd6b127", "message": "69 places found"}
+{"seq": 78, "t": 0.858, "type": "run.phase_ended", "run_id": "dry-fcd6b127", "phase": "Scan", "agents": 37, "failed": 0, "seconds": 0.85}
+{"seq": 79, "t": 0.858, "type": "run.phase_started", "run_id": "dry-fcd6b127", "phase": "Evidence", "index": 2}
+{"seq": 80, "t": 0.858, "type": "run.log", "run_id": "dry-fcd6b127", "message": "0 confirmed by sandbox, 69 unrun"}
+{"seq": 81, "t": 0.858, "type": "run.phase_ended", "run_id": "dry-fcd6b127", "phase": "Evidence", "agents": 0, "failed": 0, "seconds": 0.0}
+{"seq": 82, "t": 0.858, "type": "run.phase_started", "run_id": "dry-fcd6b127", "phase": "Verify", "index": 3}
+{"seq": 83, "t": 0.867, "type": "run.agent_started", "run_id": "dry-fcd6b127", "thread": "dry-fcd6b127/t038", "label": "check:backtracking#0", "model": "claude-haiku-4-5", "phase": "Verify"}
+{"seq": 84, "t": 0.868, "type": "run.agent_started", "run_id": "dry-fcd6b127", "thread": "dry-fcd6b127/t039", "label": "check:ciphers#0", "model": "claude-haiku-4-5", "phase": "Verify"}
+{"seq": 85, "t": 0.868, "type": "run.agent_started", "run_id": "dry-fcd6b127", "thread": "dry-fcd6b127/t040", "label": "check:data_structures#0", "model": "claude-haiku-4-5", "phase": "Verify"}
+{"seq": 86, "t": 0.869, "type": "run.agent_started", "run_id": "dry-fcd6b127", "thread": "dry-fcd6b127/t041", "label": "check:dynamic_programming#0", "model": "claude-haiku-4-5", "phase": "Verify"}
+{"seq": 87, "t": 0.872, "type": "run.agent_ended", "run_id": "dry-fcd6b127", "thread": "dry-fcd6b127/t038", "label": "check:backtracking#0", "ok": true, "seconds": 0.0, "cached": false, "cents": 0.29, "phase": "Verify"}
+{"seq": 88, "t": 0.877, "type": "run.agent_ended", "run_id": "dry-fcd6b127", "thread": "dry-fcd6b127/t041", "label": "check:dynamic_programming#0", "ok": true, "seconds": 0.01, "cached": false, "cents": 0.33, "phase": "Verify"}
+{"seq": 89, "t": 0.88, "type": "run.agent_ended", "run_id": "dry-fcd6b127", "thread": "dry-fcd6b127/t040", "label": "check:data_structures#0", "ok": true, "seconds": 0.01, "cached": false, "cents": 0.3, "phase": "Verify"}
+{"seq": 90, "t": 0.883, "type": "run.agent_ended", "run_id": "dry-fcd6b127", "thread": "dry-fcd6b127/t039", "label": "check:ciphers#0", "ok": true, "seconds": 0.02, "cached": false, "cents": 0.4, "phase": "Verify"}
+{"seq": 91, "t": 0.884, "type": "run.phase_ended", "run_id": "dry-fcd6b127", "phase": "Verify", "agents": 4, "failed": 0, "seconds": 0.03}
+{"seq": 92, "t": 0.884, "type": "run.phase_started", "run_id": "dry-fcd6b127", "phase": "Report", "index": 4}
+{"seq": 93, "t": 0.884, "type": "run.agent_started", "run_id": "dry-fcd6b127", "thread": "dry-fcd6b127/t042", "label": "report", "model": "claude-sonnet-5-5", "phase": "Report"}
+{"seq": 94, "t": 0.887, "type": "run.agent_ended", "run_id": "dry-fcd6b127", "thread": "dry-fcd6b127/t042", "label": "report", "ok": true, "seconds": 0.0, "cached": false, "cents": 0.37, "phase": "Report"}
+{"seq": 95, "t": 0.888, "type": "run.phase_ended", "run_id": "dry-fcd6b127", "phase": "Report", "agents": 1, "failed": 0, "seconds": 0.0}
+{"seq": 96, "t": 0.888, "type": "run.ended", "run_id": "dry-fcd6b127", "status": "completed", "seconds": 0.89, "agents": 42, "failed": 0, "cents": 10.57, "dropped": 0, "error": null}

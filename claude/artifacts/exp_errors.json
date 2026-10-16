@@ -1,0 +1,94 @@
+{
+  "rows": [
+    {
+      "run": "A run 0",
+      "never read": 67,
+      "read, never reported": 1,
+      "reported near it, not counted": 0,
+      "reported, then rejected": 0,
+      "confirmed, then lost": 0,
+      "found": 4
+    },
+    {
+      "run": "A run 1",
+      "never read": 72,
+      "read, never reported": 0,
+      "reported near it, not counted": 0,
+      "reported, then rejected": 0,
+      "confirmed, then lost": 0,
+      "found": 0
+    },
+    {
+      "run": "A run 2",
+      "never read": 71,
+      "read, never reported": 1,
+      "reported near it, not counted": 0,
+      "reported, then rejected": 0,
+      "confirmed, then lost": 0,
+      "found": 0
+    },
+    {
+      "run": "C run 0",
+      "never read": 0,
+      "read, never reported": 15,
+      "reported near it, not counted": 1,
+      "reported, then rejected": 4,
+      "confirmed, then lost": 0,
+      "found": 52
+    },
+    {
+      "run": "C run 1",
+      "never read": 0,
+      "read, never reported": 14,
+      "reported near it, not counted": 1,
+      "reported, then rejected": 6,
+      "confirmed, then lost": 1,
+      "found": 50
+    },
+    {
+      "run": "C run 2",
+      "never read": 0,
+      "read, never reported": 10,
+      "reported near it, not counted": 1,
+      "reported, then rejected": 5,
+      "confirmed, then lost": 0,
+      "found": 56
+    },
+    {
+      "run": "D run 0",
+      "never read": 0,
+      "read, never reported": 10,
+      "reported near it, not counted": 1,
+      "reported, then rejected": 6,
+      "confirmed, then lost": 0,
+      "found": 55
+    },
+    {
+      "run": "D run 1",
+      "never read": 0,
+      "read, never reported": 14,
+      "reported near it, not counted": 1,
+      "reported, then rejected": 5,
+      "confirmed, then lost": 1,
+      "found": 51
+    },
+    {
+      "run": "D run 2",
+      "never read": 0,
+      "read, never reported": 10,
+      "reported near it, not counted": 1,
+      "reported, then rejected": 6,
+      "confirmed, then lost": 0,
+      "found": 55
+    }
+  ],
+  "A_never": 70.0,
+  "D_worst": "read, never reported",
+  "D_worst_n": 11.3333,
+  "D_never_read": 0.0,
+  "D_read": 11.3333,
+  "D_reported_near_it": 1.0,
+  "D_reported": 5.6667,
+  "D_confirmed": 0.3333,
+  "D_found": 53.6667
+}

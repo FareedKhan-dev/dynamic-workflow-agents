@@ -1,0 +1,4 @@
+{"seq": 1, "t": 0.0, "type": "run.created", "run_id": "intents-one-call", "title": "intents in one call", "goal": ""}
+{"seq": 2, "t": 0.007, "type": "run.agent_started", "run_id": "intents-one-call", "thread": "intents-one-call/t001", "label": "tag:all", "model": "Qwen3.8-27B", "phase": ""}
+{"seq": 3, "t": 0.017, "type": "run.agent_ended", "run_id": "intents-one-call", "thread": "intents-one-call/t001", "label": "tag:all", "ok": true, "seconds": 0.01, "cached": true, "magicubes": 0.0, "phase": ""}
+{"seq": 4, "t": 0.017, "type": "run.ended", "run_id": "intents-one-call", "status": "completed", "seconds": 0.02, "agents": 1, "failed": 0, "magicubes": 0.0, "dropped": 0, "error": null}

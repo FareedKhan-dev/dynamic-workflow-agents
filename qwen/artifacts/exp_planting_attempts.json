@@ -1,0 +1,70 @@
+{
+  "flip_comparison": {
+    "too loud": 6,
+    "planted": 19,
+    "survives": 23
+  },
+  "off_by_one_range": {
+    "planted": 19,
+    "too loud": 13,
+    "survives": 8
+  },
+  "off_by_one_slice": {
+    "too loud": 12,
+    "planted": 19,
+    "survives": 9
+  },
+  "swap_plus_minus": {
+    "too loud": 15,
+    "planted": 19,
+    "survives": 6
+  },
+  "swap_and_or": {
+    "planted": 19,
+    "survives": 4,
+    "too loud": 9
+  },
+  "drop_not": {
+    "survives": 4,
+    "planted": 19,
+    "too loud": 30,
+    "does not parse": 2,
+    "hangs": 1
+  },
+  "wrong_index": {
+    "too loud": 23,
+    "survives": 28,
+    "planted": 19,
+    "hangs": 2
+  },
+  "wrong_constant": {
+    "survives": 13,
+    "too loud": 12,
+    "planted": 23
+  },
+  "swap_args": {
+    "survives": 20,
+    "too loud": 18,
+    "planted": 18
+  },
+  "wrong_return": {
+    "too loud": 17,
+    "planted": 22,
+    "hangs": 1
+  },
+  "remove_early_return": {
+    "planted": 19,
+    "survives": 10,
+    "too loud": 10,
+    "hangs": 1
+  },
+  "change_update": {
+    "planted": 19,
+    "survives": 4,
+    "too loud": 20,
+    "hangs": 5
+  },
+  "_total_attempts": 560,
+  "_candidates": 234,
+  "_sites": 11708
+}

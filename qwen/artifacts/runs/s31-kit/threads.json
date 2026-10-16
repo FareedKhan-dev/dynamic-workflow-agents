@@ -1,0 +1,67 @@
+[
+ {
+  "id": "s31-kit/t001",
+  "label": "scan:boundaries:data_structures#0",
+  "phase": "Scan",
+  "model": "Qwen-Ambassador/Qwen3.8-27B",
+  "status": "done",
+  "started": 0.19123460000264458,
+  "ended": 0.1961245000056806,
+  "cost": 0.0,
+  "error": null,
+  "replies": 1,
+  "reply": "{\"findings\": [{\"file\": \"data_structures/arrays/merge_sorted.py\", \"line\": 65, \"function\": \"merge_sorted_arrays\", \"claim\": \"The slice `nums1[i + 1:]` skips the element at index `i`, which is the last element of `nums1` that was not yet added to the merged list.\", \"failing_call\": \"merge_sorted_arrays([1, 2], [3])\", \"expected\": \"[1, 2, 3]\", \"confidence\": 0.99}, {\"file\": \"data_structures/binary_tree/inorder_tree_traversal_2022.py\", \"line\": 52, \"function\": \"inorder\", \"claim\": \"Using the subtraction operator `-` on lists removes elements from the left list instead of concatenating the right subtree's values.\", \"failing_call\": \"from data_structures.binary_tree.inorder_tree_traversal_2022 import BinaryTreeNode, insert, inorder; root = insert(None, 2); insert(root, 1); insert(root, 3); inorder(root)\", \"expected\": \"[1, 2, 3]\", \"confidence\": 0.99}, {\"file\": \"data_structures/linked_list/from_sequence.py\", \"line\": 50, \"function\": \"make_linked_list\", \"claim\": \"The loop starts at index 2 (`elements_list[2:]`), skipping the second element of the sequence.\", \"failing_call\": \"make_linked_list([1, 2, 3])\", \"expected\": \"<1> ---> <2> ---> <3> ---> <END>\", \"confidence\": 0.99}, {\"file\": \"divide_and_conquer/closest_pair_of_points.py\", \"line\": 103, \"function\": \"closest_pair_of_points_sqr\", \"claim\": \"The recursive call for the right half passes `points_sorted_on_y` as the first argument (x-sorted) and `points_sorted_on_y[mid:]` as the second, mixing up the sorted orders required by the algorithm.\", \"failing_call\": \"closest_pair_of_points([(2, 3), (12, 30), (40, 50), (5, 1), (12, 10), (3, 4)], 6)\", \"expected\": \"2.8284271247461903\", \"confidence\": 0.95}]}"
+ },
+ {
+  "id": "s31-kit/t002",
+  "label": "scan:logic:data_structures#0",
+  "phase": "Scan",
+  "model": "Qwen-Ambassador/Qwen3.8-27B",
+  "status": "done",
+  "started": 0.20682240000314778,
+  "ended": 0.2116050000040559,
+  "cost": 0.0,
+  "error": null,
+  "replies": 1,
+  "reply": "{\"findings\": [{\"file\": \"data_structures/arrays/set_matrix_zeroes.py\", \"line\": 51, \"function\": \"set_matrix_zeroes\", \"claim\": \"The loop in Step 2 iterates up to `cols - 1` instead of `cols`, causing the last column's inner elements (excluding the first row) to never be zeroed if their row or column marker indicates they should be.\", \"failing_call\": \"matrix = [[1, 0], [1, 1]]; set_matrix_zeroes(matrix); matrix\", \"expected\": \"[[0, 0], [1, 0]]\", \"confidence\": 0.95}]}"
+ },
+ {
+  "id": "s31-kit/t003",
+  "label": "check:data_structures#1",
+  "phase": "Check",
+  "model": "Qwen-Ambassador/Qwen3.7-Plus",
+  "status": "done",
+  "started": 0.7566220000007888,
+  "ended": 0.7587622999999439,
+  "cost": 0.0,
+  "error": null,
+  "replies": 1,
+  "reply": "{\n  \"verdicts\": [\n    {\n      \"report\": 1,\n      \"real\": false,\n      \"reason\": \"The code returns the correct result [1, 2, 3] for the provided input; the bug exists but is not triggered by this specific failing call.\"\n    },\n    {\n      \"report\": 2,\n      \"real\": true,\n      \"reason\": \"The loop range `range(1, cols - 1)` skips the last column, causing the function to return [[0, 0], [1, 1]] instead of the correct [[0, 0], [1, 0]].\"\n    },\n    {\n      \"report\": 3,\n      \"real\": true,\n      \"reason\": \"The subtraction operator `-` is not supported for two list objects, which causes the function to crash with a TypeError instead of concatenating the lists.\"\n    },\n    {\n      \"report\": 4,\n      \"real\": true,\n      \"reason\": \"The loop starts at index 2 (`elements_list[2:]`), which incorrectly skips the second element of the sequence, resulting in a linked list missing the element 2.\"\n    },\n    {\n      \"report\": 5,\n      \"real\": false,\n      \"reason\": \"The code correctly returns 1.414 (the true closest pair distance), while the finder's expected value of 2.828 is incorrect for the given points.\"\n    }\n  ]\n}"
+ },
+ {
+  "id": "s31-kit/t004",
+  "label": "check:data_structures#0",
+  "phase": "Check",
+  "model": "Qwen-Ambassador/Qwen3.7-Plus",
+  "status": "done",
+  "started": 0.7601138000027277,
+  "ended": 0.7618540000039502,
+  "cost": 0.0,
+  "error": null,
+  "replies": 1,
+  "reply": "{\"verdicts\": [{\"report\": 1, \"real\": true, \"reason\": \"The code contains a real bug on line 65 where `nums1[i + 1:]` should be `nums1[i:]`, which causes it to return incorrect results for inputs like `[3], [1, 2]`.\"}, {\"report\": 2, \"real\": true, \"reason\": \"The loop on line 51 uses `cols - 1` instead of `cols`, causing the last column to be skipped and resulting in an incorrect matrix for the failing call.\"}, {\"report\": 3, \"real\": true, \"reason\": \"The code uses the subtraction operator on lists on line 52, which causes a TypeError crash at runtime instead of concatenating the lists.\"}, {\"report\": 4, \"real\": true, \"reason\": \"The loop on line 50 uses `elements_list[2:]` instead of `elements_list[1:]`, which skips the second element and returns an incorrect linked list.\"}, {\"report\": 5, \"real\": false, \"reason\": \"The finder's expected value of 2.828 is incorrect as the actual closest pair distance is 1.414, meaning the code returned the correct result for the failing call.\"}]}"
+ },
+ {
+  "id": "s31-kit/t005",
+  "label": "report",
+  "phase": "Report",
+  "model": "Qwen-Ambassador/Qwen3.8-Max",
+  "status": "done",
+  "started": 0.762702400003036,
+  "ended": 0.7639892000006512,
+  "cost": 0.0,
+  "error": null,
+  "replies": 1,
+  "reply": "{\n  \"bugs\": [\n    {\n      \"ids\": [\"C1\"],\n      \"severity\": \"high\",\n      \"title\": \"Step 2 loop stops before the last column, so required zeroes in the last column are missed\"\n    },\n    {\n      \"ids\": [\"C2\"],\n      \"severity\": \"high\",\n      \"title\": \"List subtraction is used instead of concatenation, discarding right-subtree traversal results\"\n    },\n    {\n      \"ids\": [\"C3\"],\n      \"severity\": \"high\",\n      \"title\": \"Linked-list construction starts from the third element, skipping the second input element\"\n    }\n  ],\n  \"not_covered\": [\n    \"Other functions or code paths in the audited files\",\n    \"Edge-case handling, input validation, and performance behavior\"\n  ],\n  \"summary\": \"The confirmed findings identify three separate high-severity defects in set_matrix_zeroes, inorder, and make_linked_list. Each defect causes incorrect results for ordinary inputs in its respective function.\"\n}"
+ }
+]

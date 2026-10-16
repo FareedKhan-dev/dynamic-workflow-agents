@@ -1,0 +1,80 @@
+[
+ {
+  "id": "chain-relay-1/t001",
+  "label": "leg 1",
+  "phase": "",
+  "model": "claude-haiku-5-5",
+  "status": "done",
+  "started": 3.2080999972095015e-05,
+  "ended": 0.00019408600019232836,
+  "cost": 0.0,
+  "error": null,
+  "replies": 1,
+  "reply": "{\"record\": \"R198\", \"balance\": 287}"
+ },
+ {
+  "id": "chain-relay-1/t002",
+  "label": "leg 2",
+  "phase": "",
+  "model": "claude-haiku-5-5",
+  "status": "done",
+  "started": 0.00021134999997229897,
+  "ended": 0.00031121900019570603,
+  "cost": 0.0,
+  "error": null,
+  "replies": 1,
+  "reply": "{\"record\": \"R739\", \"balance\": 310}"
+ },
+ {
+  "id": "chain-relay-1/t003",
+  "label": "leg 3",
+  "phase": "",
+  "model": "claude-haiku-5-5",
+  "status": "done",
+  "started": 0.0003238980002606695,
+  "ended": 0.0004058950003127393,
+  "cost": 0.0,
+  "error": null,
+  "replies": 1,
+  "reply": "{\"record\": \"R939\", \"balance\": 376}"
+ },
+ {
+  "id": "chain-relay-1/t004",
+  "label": "leg 4",
+  "phase": "",
+  "model": "claude-haiku-5-5",
+  "status": "done",
+  "started": 0.00041771099995457917,
+  "ended": 0.0005004220001865178,
+  "cost": 0.0,
+  "error": null,
+  "replies": 1,
+  "reply": "{\"record\": \"R890\", \"balance\": 181}"
+ },
+ {
+  "id": "chain-relay-1/t005",
+  "label": "leg 5",
+  "phase": "",
+  "model": "claude-haiku-5-5",
+  "status": "done",
+  "started": 0.0005116530001032515,
+  "ended": 0.0006071520001569297,
+  "cost": 0.0,
+  "error": null,
+  "replies": 1,
+  "reply": "{\"record\": \"R693\", \"balance\": 376}"
+ },
+ {
+  "id": "chain-relay-1/t006",
+  "label": "leg 6",
+  "phase": "",
+  "model": "claude-haiku-5-5",
+  "status": "done",
+  "started": 0.0006305659999270574,
+  "ended": 0.0007255380000970035,
+  "cost": 0.0,
+  "error": null,
+  "replies": 1,
+  "reply": "{\"record\": \"LAST\", \"balance\": 471}"
+ }
+]

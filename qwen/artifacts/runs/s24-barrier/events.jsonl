@@ -1,0 +1,102 @@
+{"seq": 1, "t": 0.0, "type": "run.created", "run_id": "s24-barrier", "title": "barrier", "goal": ""}
+{"seq": 2, "t": 0.0, "type": "run.phase_started", "run_id": "s24-barrier", "phase": "Scan", "index": 1}
+{"seq": 3, "t": 0.002, "type": "run.agent_started", "run_id": "s24-barrier", "thread": "s24-barrier/t001", "label": "scan#0", "model": "fake-worker", "phase": "Scan"}
+{"seq": 4, "t": 0.004, "type": "run.agent_started", "run_id": "s24-barrier", "thread": "s24-barrier/t002", "label": "scan#1", "model": "fake-worker", "phase": "Scan"}
+{"seq": 5, "t": 0.005, "type": "run.agent_started", "run_id": "s24-barrier", "thread": "s24-barrier/t003", "label": "scan#2", "model": "fake-worker", "phase": "Scan"}
+{"seq": 6, "t": 0.006, "type": "run.agent_started", "run_id": "s24-barrier", "thread": "s24-barrier/t004", "label": "scan#3", "model": "fake-worker", "phase": "Scan"}
+{"seq": 7, "t": 0.007, "type": "run.agent_started", "run_id": "s24-barrier", "thread": "s24-barrier/t005", "label": "scan#4", "model": "fake-worker", "phase": "Scan"}
+{"seq": 8, "t": 0.01, "type": "run.agent_started", "run_id": "s24-barrier", "thread": "s24-barrier/t006", "label": "scan#5", "model": "fake-worker", "phase": "Scan"}
+{"seq": 9, "t": 0.012, "type": "run.agent_started", "run_id": "s24-barrier", "thread": "s24-barrier/t007", "label": "scan#6", "model": "fake-worker", "phase": "Scan"}
+{"seq": 10, "t": 0.013, "type": "run.agent_started", "run_id": "s24-barrier", "thread": "s24-barrier/t008", "label": "scan#7", "model": "fake-worker", "phase": "Scan"}
+{"seq": 11, "t": 0.014, "type": "run.agent_started", "run_id": "s24-barrier", "thread": "s24-barrier/t009", "label": "scan#8", "model": "fake-worker", "phase": "Scan"}
+{"seq": 12, "t": 0.026, "type": "run.agent_started", "run_id": "s24-barrier", "thread": "s24-barrier/t010", "label": "scan#9", "model": "fake-worker", "phase": "Scan"}
+{"seq": 13, "t": 0.049, "type": "run.agent_started", "run_id": "s24-barrier", "thread": "s24-barrier/t011", "label": "scan#10", "model": "fake-worker", "phase": "Scan"}
+{"seq": 14, "t": 0.063, "type": "run.agent_started", "run_id": "s24-barrier", "thread": "s24-barrier/t012", "label": "scan#11", "model": "fake-worker", "phase": "Scan"}
+{"seq": 15, "t": 0.078, "type": "run.agent_started", "run_id": "s24-barrier", "thread": "s24-barrier/t013", "label": "scan#12", "model": "fake-worker", "phase": "Scan"}
+{"seq": 16, "t": 0.096, "type": "run.agent_started", "run_id": "s24-barrier", "thread": "s24-barrier/t014", "label": "scan#13", "model": "fake-worker", "phase": "Scan"}
+{"seq": 17, "t": 0.113, "type": "run.agent_started", "run_id": "s24-barrier", "thread": "s24-barrier/t015", "label": "scan#14", "model": "fake-worker", "phase": "Scan"}
+{"seq": 18, "t": 0.129, "type": "run.agent_started", "run_id": "s24-barrier", "thread": "s24-barrier/t016", "label": "scan#15", "model": "fake-worker", "phase": "Scan"}
+{"seq": 19, "t": 0.143, "type": "run.agent_started", "run_id": "s24-barrier", "thread": "s24-barrier/t017", "label": "scan#16", "model": "fake-worker", "phase": "Scan"}
+{"seq": 20, "t": 0.157, "type": "run.agent_started", "run_id": "s24-barrier", "thread": "s24-barrier/t018", "label": "scan#17", "model": "fake-worker", "phase": "Scan"}
+{"seq": 21, "t": 0.174, "type": "run.agent_started", "run_id": "s24-barrier", "thread": "s24-barrier/t019", "label": "scan#18", "model": "fake-worker", "phase": "Scan"}
+{"seq": 22, "t": 0.177, "type": "run.agent_started", "run_id": "s24-barrier", "thread": "s24-barrier/t020", "label": "scan#19", "model": "fake-worker", "phase": "Scan"}
+{"seq": 23, "t": 0.179, "type": "run.agent_started", "run_id": "s24-barrier", "thread": "s24-barrier/t021", "label": "scan#20", "model": "fake-worker", "phase": "Scan"}
+{"seq": 24, "t": 0.181, "type": "run.agent_started", "run_id": "s24-barrier", "thread": "s24-barrier/t022", "label": "scan#21", "model": "fake-worker", "phase": "Scan"}
+{"seq": 25, "t": 0.184, "type": "run.agent_started", "run_id": "s24-barrier", "thread": "s24-barrier/t023", "label": "scan#22", "model": "fake-worker", "phase": "Scan"}
+{"seq": 26, "t": 0.185, "type": "run.agent_started", "run_id": "s24-barrier", "thread": "s24-barrier/t024", "label": "scan#23", "model": "fake-worker", "phase": "Scan"}
+{"seq": 27, "t": 0.266, "type": "run.agent_ended", "run_id": "s24-barrier", "thread": "s24-barrier/t004", "label": "scan#3", "ok": true, "seconds": 0.26, "cached": false, "magicubes": 0.2, "phase": "Scan"}
+{"seq": 28, "t": 0.288, "type": "run.agent_ended", "run_id": "s24-barrier", "thread": "s24-barrier/t003", "label": "scan#2", "ok": true, "seconds": 0.28, "cached": false, "magicubes": 0.2, "phase": "Scan"}
+{"seq": 29, "t": 0.294, "type": "run.agent_ended", "run_id": "s24-barrier", "thread": "s24-barrier/t007", "label": "scan#6", "ok": true, "seconds": 0.28, "cached": false, "magicubes": 0.2, "phase": "Scan"}
+{"seq": 30, "t": 0.302, "type": "run.agent_ended", "run_id": "s24-barrier", "thread": "s24-barrier/t012", "label": "scan#11", "ok": true, "seconds": 0.24, "cached": false, "magicubes": 0.2, "phase": "Scan"}
+{"seq": 31, "t": 0.309, "type": "run.agent_ended", "run_id": "s24-barrier", "thread": "s24-barrier/t011", "label": "scan#10", "ok": true, "seconds": 0.26, "cached": false, "magicubes": 0.2, "phase": "Scan"}
+{"seq": 32, "t": 0.314, "type": "run.agent_ended", "run_id": "s24-barrier", "thread": "s24-barrier/t018", "label": "scan#17", "ok": true, "seconds": 0.16, "cached": false, "magicubes": 0.2, "phase": "Scan"}
+{"seq": 33, "t": 0.32, "type": "run.agent_ended", "run_id": "s24-barrier", "thread": "s24-barrier/t020", "label": "scan#19", "ok": true, "seconds": 0.14, "cached": false, "magicubes": 0.2, "phase": "Scan"}
+{"seq": 34, "t": 0.326, "type": "run.agent_ended", "run_id": "s24-barrier", "thread": "s24-barrier/t022", "label": "scan#21", "ok": true, "seconds": 0.15, "cached": false, "magicubes": 0.2, "phase": "Scan"}
+{"seq": 35, "t": 0.363, "type": "run.agent_ended", "run_id": "s24-barrier", "thread": "s24-barrier/t005", "label": "scan#4", "ok": true, "seconds": 0.36, "cached": false, "magicubes": 0.2, "phase": "Scan"}
+{"seq": 36, "t": 0.371, "type": "run.agent_ended", "run_id": "s24-barrier", "thread": "s24-barrier/t010", "label": "scan#9", "ok": true, "seconds": 0.34, "cached": false, "magicubes": 0.2, "phase": "Scan"}
+{"seq": 37, "t": 0.415, "type": "run.agent_ended", "run_id": "s24-barrier", "thread": "s24-barrier/t017", "label": "scan#16", "ok": true, "seconds": 0.27, "cached": false, "magicubes": 0.2, "phase": "Scan"}
+{"seq": 38, "t": 0.434, "type": "run.agent_ended", "run_id": "s24-barrier", "thread": "s24-barrier/t006", "label": "scan#5", "ok": true, "seconds": 0.42, "cached": false, "magicubes": 0.2, "phase": "Scan"}
+{"seq": 39, "t": 0.52, "type": "run.agent_ended", "run_id": "s24-barrier", "thread": "s24-barrier/t013", "label": "scan#12", "ok": true, "seconds": 0.44, "cached": false, "magicubes": 0.2, "phase": "Scan"}
+{"seq": 40, "t": 0.526, "type": "run.agent_ended", "run_id": "s24-barrier", "thread": "s24-barrier/t009", "label": "scan#8", "ok": true, "seconds": 0.51, "cached": false, "magicubes": 0.2, "phase": "Scan"}
+{"seq": 41, "t": 0.532, "type": "run.agent_ended", "run_id": "s24-barrier", "thread": "s24-barrier/t001", "label": "scan#0", "ok": true, "seconds": 0.53, "cached": false, "magicubes": 0.2, "phase": "Scan"}
+{"seq": 42, "t": 0.538, "type": "run.agent_ended", "run_id": "s24-barrier", "thread": "s24-barrier/t002", "label": "scan#1", "ok": true, "seconds": 0.53, "cached": false, "magicubes": 0.2, "phase": "Scan"}
+{"seq": 43, "t": 0.614, "type": "run.agent_ended", "run_id": "s24-barrier", "thread": "s24-barrier/t015", "label": "scan#14", "ok": true, "seconds": 0.5, "cached": false, "magicubes": 0.2, "phase": "Scan"}
+{"seq": 44, "t": 0.634, "type": "run.agent_ended", "run_id": "s24-barrier", "thread": "s24-barrier/t023", "label": "scan#22", "ok": true, "seconds": 0.45, "cached": false, "magicubes": 0.2, "phase": "Scan"}
+{"seq": 45, "t": 0.708, "type": "run.agent_ended", "run_id": "s24-barrier", "thread": "s24-barrier/t008", "label": "scan#7", "ok": true, "seconds": 0.69, "cached": false, "magicubes": 0.2, "phase": "Scan"}
+{"seq": 46, "t": 0.774, "type": "run.agent_ended", "run_id": "s24-barrier", "thread": "s24-barrier/t024", "label": "scan#23", "ok": true, "seconds": 0.59, "cached": false, "magicubes": 0.2, "phase": "Scan"}
+{"seq": 47, "t": 1.077, "type": "run.agent_ended", "run_id": "s24-barrier", "thread": "s24-barrier/t021", "label": "scan#20", "ok": true, "seconds": 0.9, "cached": false, "magicubes": 0.2, "phase": "Scan"}
+{"seq": 48, "t": 1.093, "type": "run.agent_ended", "run_id": "s24-barrier", "thread": "s24-barrier/t016", "label": "scan#15", "ok": true, "seconds": 0.96, "cached": false, "magicubes": 0.2, "phase": "Scan"}
+{"seq": 49, "t": 1.21, "type": "run.agent_ended", "run_id": "s24-barrier", "thread": "s24-barrier/t014", "label": "scan#13", "ok": true, "seconds": 1.11, "cached": false, "magicubes": 0.2, "phase": "Scan"}
+{"seq": 50, "t": 1.686, "type": "run.agent_ended", "run_id": "s24-barrier", "thread": "s24-barrier/t019", "label": "scan#18", "ok": true, "seconds": 1.51, "cached": false, "magicubes": 0.2, "phase": "Scan"}
+{"seq": 51, "t": 1.689, "type": "run.phase_ended", "run_id": "s24-barrier", "phase": "Scan", "agents": 24, "failed": 0, "seconds": 1.69}
+{"seq": 52, "t": 1.689, "type": "run.phase_started", "run_id": "s24-barrier", "phase": "Verify", "index": 2}
+{"seq": 53, "t": 1.692, "type": "run.agent_started", "run_id": "s24-barrier", "thread": "s24-barrier/t025", "label": "verify#0", "model": "fake-judge", "phase": "Verify"}
+{"seq": 54, "t": 1.693, "type": "run.agent_started", "run_id": "s24-barrier", "thread": "s24-barrier/t026", "label": "verify#1", "model": "fake-judge", "phase": "Verify"}
+{"seq": 55, "t": 1.696, "type": "run.agent_started", "run_id": "s24-barrier", "thread": "s24-barrier/t027", "label": "verify#2", "model": "fake-judge", "phase": "Verify"}
+{"seq": 56, "t": 1.698, "type": "run.agent_started", "run_id": "s24-barrier", "thread": "s24-barrier/t028", "label": "verify#3", "model": "fake-judge", "phase": "Verify"}
+{"seq": 57, "t": 1.698, "type": "run.agent_started", "run_id": "s24-barrier", "thread": "s24-barrier/t029", "label": "verify#4", "model": "fake-judge", "phase": "Verify"}
+{"seq": 58, "t": 1.7, "type": "run.agent_started", "run_id": "s24-barrier", "thread": "s24-barrier/t030", "label": "verify#5", "model": "fake-judge", "phase": "Verify"}
+{"seq": 59, "t": 1.701, "type": "run.agent_started", "run_id": "s24-barrier", "thread": "s24-barrier/t031", "label": "verify#6", "model": "fake-judge", "phase": "Verify"}
+{"seq": 60, "t": 1.703, "type": "run.agent_started", "run_id": "s24-barrier", "thread": "s24-barrier/t032", "label": "verify#7", "model": "fake-judge", "phase": "Verify"}
+{"seq": 61, "t": 1.704, "type": "run.agent_started", "run_id": "s24-barrier", "thread": "s24-barrier/t033", "label": "verify#8", "model": "fake-judge", "phase": "Verify"}
+{"seq": 62, "t": 1.706, "type": "run.agent_started", "run_id": "s24-barrier", "thread": "s24-barrier/t034", "label": "verify#9", "model": "fake-judge", "phase": "Verify"}
+{"seq": 63, "t": 1.707, "type": "run.agent_started", "run_id": "s24-barrier", "thread": "s24-barrier/t035", "label": "verify#10", "model": "fake-judge", "phase": "Verify"}
+{"seq": 64, "t": 1.708, "type": "run.agent_started", "run_id": "s24-barrier", "thread": "s24-barrier/t036", "label": "verify#11", "model": "fake-judge", "phase": "Verify"}
+{"seq": 65, "t": 1.709, "type": "run.agent_started", "run_id": "s24-barrier", "thread": "s24-barrier/t037", "label": "verify#12", "model": "fake-judge", "phase": "Verify"}
+{"seq": 66, "t": 1.71, "type": "run.agent_started", "run_id": "s24-barrier", "thread": "s24-barrier/t038", "label": "verify#13", "model": "fake-judge", "phase": "Verify"}
+{"seq": 67, "t": 1.713, "type": "run.agent_started", "run_id": "s24-barrier", "thread": "s24-barrier/t039", "label": "verify#14", "model": "fake-judge", "phase": "Verify"}
+{"seq": 68, "t": 1.714, "type": "run.agent_started", "run_id": "s24-barrier", "thread": "s24-barrier/t040", "label": "verify#15", "model": "fake-judge", "phase": "Verify"}
+{"seq": 69, "t": 1.715, "type": "run.agent_started", "run_id": "s24-barrier", "thread": "s24-barrier/t041", "label": "verify#16", "model": "fake-judge", "phase": "Verify"}
+{"seq": 70, "t": 1.726, "type": "run.agent_started", "run_id": "s24-barrier", "thread": "s24-barrier/t042", "label": "verify#17", "model": "fake-judge", "phase": "Verify"}
+{"seq": 71, "t": 1.796, "type": "run.agent_started", "run_id": "s24-barrier", "thread": "s24-barrier/t043", "label": "verify#18", "model": "fake-judge", "phase": "Verify"}
+{"seq": 72, "t": 1.812, "type": "run.agent_started", "run_id": "s24-barrier", "thread": "s24-barrier/t044", "label": "verify#19", "model": "fake-judge", "phase": "Verify"}
+{"seq": 73, "t": 1.826, "type": "run.agent_started", "run_id": "s24-barrier", "thread": "s24-barrier/t045", "label": "verify#20", "model": "fake-judge", "phase": "Verify"}
+{"seq": 74, "t": 1.842, "type": "run.agent_ended", "run_id": "s24-barrier", "thread": "s24-barrier/t032", "label": "verify#7", "ok": true, "seconds": 0.14, "cached": false, "magicubes": 0.2, "phase": "Verify"}
+{"seq": 75, "t": 1.842, "type": "run.agent_started", "run_id": "s24-barrier", "thread": "s24-barrier/t046", "label": "verify#21", "model": "fake-judge", "phase": "Verify"}
+{"seq": 76, "t": 1.846, "type": "run.agent_started", "run_id": "s24-barrier", "thread": "s24-barrier/t047", "label": "verify#22", "model": "fake-judge", "phase": "Verify"}
+{"seq": 77, "t": 1.852, "type": "run.agent_ended", "run_id": "s24-barrier", "thread": "s24-barrier/t028", "label": "verify#3", "ok": true, "seconds": 0.15, "cached": false, "magicubes": 0.2, "phase": "Verify"}
+{"seq": 78, "t": 1.852, "type": "run.agent_started", "run_id": "s24-barrier", "thread": "s24-barrier/t048", "label": "verify#23", "model": "fake-judge", "phase": "Verify"}
+{"seq": 79, "t": 1.886, "type": "run.agent_ended", "run_id": "s24-barrier", "thread": "s24-barrier/t034", "label": "verify#9", "ok": true, "seconds": 0.18, "cached": false, "magicubes": 0.2, "phase": "Verify"}
+{"seq": 80, "t": 1.915, "type": "run.agent_ended", "run_id": "s24-barrier", "thread": "s24-barrier/t027", "label": "verify#2", "ok": true, "seconds": 0.22, "cached": false, "magicubes": 0.2, "phase": "Verify"}
+{"seq": 81, "t": 2.015, "type": "run.agent_ended", "run_id": "s24-barrier", "thread": "s24-barrier/t042", "label": "verify#17", "ok": true, "seconds": 0.29, "cached": false, "magicubes": 0.2, "phase": "Verify"}
+{"seq": 82, "t": 2.023, "type": "run.agent_ended", "run_id": "s24-barrier", "thread": "s24-barrier/t033", "label": "verify#8", "ok": true, "seconds": 0.32, "cached": false, "magicubes": 0.2, "phase": "Verify"}
+{"seq": 83, "t": 2.032, "type": "run.agent_ended", "run_id": "s24-barrier", "thread": "s24-barrier/t040", "label": "verify#15", "ok": true, "seconds": 0.32, "cached": false, "magicubes": 0.2, "phase": "Verify"}
+{"seq": 84, "t": 2.132, "type": "run.agent_ended", "run_id": "s24-barrier", "thread": "s24-barrier/t030", "label": "verify#5", "ok": true, "seconds": 0.43, "cached": false, "magicubes": 0.2, "phase": "Verify"}
+{"seq": 85, "t": 2.16, "type": "run.agent_ended", "run_id": "s24-barrier", "thread": "s24-barrier/t046", "label": "verify#21", "ok": true, "seconds": 0.32, "cached": false, "magicubes": 0.2, "phase": "Verify"}
+{"seq": 86, "t": 2.171, "type": "run.agent_ended", "run_id": "s24-barrier", "thread": "s24-barrier/t026", "label": "verify#1", "ok": true, "seconds": 0.48, "cached": false, "magicubes": 0.2, "phase": "Verify"}
+{"seq": 87, "t": 2.306, "type": "run.agent_ended", "run_id": "s24-barrier", "thread": "s24-barrier/t036", "label": "verify#11", "ok": true, "seconds": 0.6, "cached": false, "magicubes": 0.2, "phase": "Verify"}
+{"seq": 88, "t": 2.314, "type": "run.agent_ended", "run_id": "s24-barrier", "thread": "s24-barrier/t031", "label": "verify#6", "ok": true, "seconds": 0.61, "cached": false, "magicubes": 0.2, "phase": "Verify"}
+{"seq": 89, "t": 2.321, "type": "run.agent_ended", "run_id": "s24-barrier", "thread": "s24-barrier/t029", "label": "verify#4", "ok": true, "seconds": 0.62, "cached": false, "magicubes": 0.2, "phase": "Verify"}
+{"seq": 90, "t": 2.357, "type": "run.agent_ended", "run_id": "s24-barrier", "thread": "s24-barrier/t044", "label": "verify#19", "ok": true, "seconds": 0.54, "cached": false, "magicubes": 0.2, "phase": "Verify"}
+{"seq": 91, "t": 2.364, "type": "run.agent_ended", "run_id": "s24-barrier", "thread": "s24-barrier/t047", "label": "verify#22", "ok": true, "seconds": 0.52, "cached": false, "magicubes": 0.2, "phase": "Verify"}
+{"seq": 92, "t": 2.47, "type": "run.agent_ended", "run_id": "s24-barrier", "thread": "s24-barrier/t043", "label": "verify#18", "ok": true, "seconds": 0.67, "cached": false, "magicubes": 0.2, "phase": "Verify"}
+{"seq": 93, "t": 2.57, "type": "run.agent_ended", "run_id": "s24-barrier", "thread": "s24-barrier/t038", "label": "verify#13", "ok": true, "seconds": 0.86, "cached": false, "magicubes": 0.2, "phase": "Verify"}
+{"seq": 94, "t": 2.605, "type": "run.agent_ended", "run_id": "s24-barrier", "thread": "s24-barrier/t037", "label": "verify#12", "ok": true, "seconds": 0.9, "cached": false, "magicubes": 0.2, "phase": "Verify"}
+{"seq": 95, "t": 2.705, "type": "run.agent_ended", "run_id": "s24-barrier", "thread": "s24-barrier/t025", "label": "verify#0", "ok": true, "seconds": 1.01, "cached": false, "magicubes": 0.2, "phase": "Verify"}
+{"seq": 96, "t": 2.78, "type": "run.agent_ended", "run_id": "s24-barrier", "thread": "s24-barrier/t035", "label": "verify#10", "ok": true, "seconds": 1.07, "cached": false, "magicubes": 0.2, "phase": "Verify"}
+{"seq": 97, "t": 2.802, "type": "run.agent_ended", "run_id": "s24-barrier", "thread": "s24-barrier/t039", "label": "verify#14", "ok": true, "seconds": 1.09, "cached": false, "magicubes": 0.2, "phase": "Verify"}
+{"seq": 98, "t": 2.814, "type": "run.agent_ended", "run_id": "s24-barrier", "thread": "s24-barrier/t045", "label": "verify#20", "ok": true, "seconds": 0.99, "cached": false, "magicubes": 0.2, "phase": "Verify"}
+{"seq": 99, "t": 2.916, "type": "run.agent_ended", "run_id": "s24-barrier", "thread": "s24-barrier/t048", "label": "verify#23", "ok": true, "seconds": 1.06, "cached": false, "magicubes": 0.2, "phase": "Verify"}
+{"seq": 100, "t": 13.517, "type": "run.agent_ended", "run_id": "s24-barrier", "thread": "s24-barrier/t041", "label": "verify#16", "ok": true, "seconds": 11.8, "cached": false, "magicubes": 0.2, "phase": "Verify"}
+{"seq": 101, "t": 13.52, "type": "run.phase_ended", "run_id": "s24-barrier", "phase": "Verify", "agents": 24, "failed": 0, "seconds": 11.83}
+{"seq": 102, "t": 13.52, "type": "run.ended", "run_id": "s24-barrier", "status": "completed", "seconds": 13.52, "agents": 48, "failed": 0, "magicubes": 9.6, "dropped": 0, "error": null}

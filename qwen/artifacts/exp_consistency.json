@@ -1,0 +1,46 @@
+{
+  "A_every": 0,
+  "A_none": 68,
+  "A_jaccard": 0.0833,
+  "A_spread": 0.0556,
+  "A_union": 4,
+  "C_every": 15,
+  "C_none": 43,
+  "C_jaccard": 0.6464,
+  "C_spread": 0.0417,
+  "C_union": 29,
+  "D_every": 23,
+  "D_none": 29,
+  "D_jaccard": 0.6586,
+  "D_spread": 0.125,
+  "D_union": 43,
+  "rows": [
+    {
+      "arm": "A",
+      "every_run": 0,
+      "some_runs": 4,
+      "no_run": 68,
+      "spread": 0.0556,
+      "jaccard": 0.0833,
+      "union": 4
+    },
+    {
+      "arm": "C",
+      "every_run": 15,
+      "some_runs": 14,
+      "no_run": 43,
+      "spread": 0.0417,
+      "jaccard": 0.6464,
+      "union": 29
+    },
+    {
+      "arm": "D",
+      "every_run": 23,
+      "some_runs": 20,
+      "no_run": 29,
+      "spread": 0.125,
+      "jaccard": 0.6586,
+      "union": 43
+    }
+  ]
+}

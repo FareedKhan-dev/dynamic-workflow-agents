@@ -1,0 +1,18 @@
+{"seq": 1, "t": 0.0, "type": "run.created", "run_id": "s29-runaway", "title": "a plan that never stops asking", "goal": ""}
+{"seq": 2, "t": 0.0, "type": "run.agent_started", "run_id": "s29-runaway", "thread": "s29-runaway/t001", "label": "r#0", "model": "fake-worker", "phase": ""}
+{"seq": 3, "t": 0.468, "type": "run.agent_ended", "run_id": "s29-runaway", "thread": "s29-runaway/t001", "label": "r#0", "ok": true, "seconds": 0.47, "cached": false, "cents": 0.2, "phase": ""}
+{"seq": 4, "t": 0.468, "type": "run.agent_started", "run_id": "s29-runaway", "thread": "s29-runaway/t002", "label": "r#1", "model": "fake-worker", "phase": ""}
+{"seq": 5, "t": 1.417, "type": "run.agent_ended", "run_id": "s29-runaway", "thread": "s29-runaway/t002", "label": "r#1", "ok": true, "seconds": 0.95, "cached": false, "cents": 0.2, "phase": ""}
+{"seq": 6, "t": 1.417, "type": "run.agent_started", "run_id": "s29-runaway", "thread": "s29-runaway/t003", "label": "r#2", "model": "fake-worker", "phase": ""}
+{"seq": 7, "t": 1.925, "type": "run.agent_ended", "run_id": "s29-runaway", "thread": "s29-runaway/t003", "label": "r#2", "ok": true, "seconds": 0.51, "cached": false, "cents": 0.2, "phase": ""}
+{"seq": 8, "t": 1.925, "type": "run.agent_started", "run_id": "s29-runaway", "thread": "s29-runaway/t004", "label": "r#3", "model": "fake-worker", "phase": ""}
+{"seq": 9, "t": 2.47, "type": "run.agent_ended", "run_id": "s29-runaway", "thread": "s29-runaway/t004", "label": "r#3", "ok": true, "seconds": 0.54, "cached": false, "cents": 0.2, "phase": ""}
+{"seq": 10, "t": 2.47, "type": "run.agent_started", "run_id": "s29-runaway", "thread": "s29-runaway/t005", "label": "r#4", "model": "fake-worker", "phase": ""}
+{"seq": 11, "t": 2.991, "type": "run.agent_ended", "run_id": "s29-runaway", "thread": "s29-runaway/t005", "label": "r#4", "ok": true, "seconds": 0.52, "cached": false, "cents": 0.2, "phase": ""}
+{"seq": 12, "t": 2.991, "type": "run.dropped", "run_id": "s29-runaway", "what": "agent", "label": "r#5", "count": 1, "limit": 5}
+{"seq": 13, "t": 2.991, "type": "run.dropped", "run_id": "s29-runaway", "what": "agent", "label": "r#6", "count": 1, "limit": 5}
+{"seq": 14, "t": 2.991, "type": "run.dropped", "run_id": "s29-runaway", "what": "agent", "label": "r#7", "count": 1, "limit": 5}
+{"seq": 15, "t": 2.991, "type": "run.dropped", "run_id": "s29-runaway", "what": "agent", "label": "r#8", "count": 1, "limit": 5}
+{"seq": 16, "t": 2.991, "type": "run.dropped", "run_id": "s29-runaway", "what": "agent", "label": "r#9", "count": 1, "limit": 5}
+{"seq": 17, "t": 2.991, "type": "run.log", "run_id": "s29-runaway", "message": "the plan asked for 10 workers, twice its limit: cancelled as a runaway"}
+{"seq": 18, "t": 2.991, "type": "run.ended", "run_id": "s29-runaway", "status": "cancelled", "seconds": 2.99, "agents": 5, "failed": 0, "cents": 1.0, "dropped": 5, "error": null}

@@ -1,0 +1,41 @@
+{
+  "first_try": 1.0,
+  "after_repair": 1.0,
+  "correct": 0.9688,
+  "per_model": [
+    {
+      "model": "claude-haiku-5-5",
+      "first_try": 1.0,
+      "after_repair": 1.0,
+      "correct": 1.0
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "first_try": 1.0,
+      "after_repair": 1.0,
+      "correct": 1.0
+    },
+    {
+      "model": "claude-haiku-4-5",
+      "first_try": 1.0,
+      "after_repair": 1.0,
+      "correct": 0.875
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "first_try": 1.0,
+      "after_repair": 1.0,
+      "correct": 1.0
+    }
+  ],
+  "files": [
+    "searches/exponential_search.py",
+    "conversions/rgb_hsv_conversion.py",
+    "backtracking/n_queens.py",
+    "strings/frequency_finder.py",
+    "data_structures/stacks/stack_tracking_min_max.py",
+    "data_structures/linked_list/swap_nodes.py",
+    "data_structures/linked_list/partition_linked_list.py",
+    "data_structures/binary_tree/distribute_coins.py"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "usable": 1296,
+  "problems": 1319,
+  "n": 600,
+  "wrong": 240,
+  "plantable_slip": 871,
+  "plantable_operation": 322,
+  "plantable_misread": 549,
+  "leak": {
+    "lines": 0.5249,
+    "characters": 0.5317,
+    "has a decimal": 0.5049
+  },
+  "sha256": "f0eb4527e0a64e03db1eeba22a4cdd5806f14b8d8eeb41b2224151de64855ee5"
+}

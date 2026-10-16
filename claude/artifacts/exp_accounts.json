@@ -1,0 +1,183 @@
+{
+  "calls": 2022,
+  "paid": 1923.2208,
+  "top": "scan",
+  "top_calls": 799,
+  "second": "skeptic",
+  "second_calls": 664,
+  "by_role": [
+    {
+      "group": "scan",
+      "calls": 799,
+      "prompt_tokens": 32987222,
+      "completion_tokens": 4533652,
+      "cents": 1234.4166,
+      "seconds": 22266.9543
+    },
+    {
+      "group": "skeptic",
+      "calls": 664,
+      "prompt_tokens": 2429763,
+      "completion_tokens": 443087,
+      "cents": 362.9457,
+      "seconds": 3831.902
+    },
+    {
+      "group": "report",
+      "calls": 29,
+      "prompt_tokens": 194890,
+      "completion_tokens": 76018,
+      "cents": 114.996,
+      "seconds": 425.6595
+    },
+    {
+      "group": "lead",
+      "calls": 100,
+      "prompt_tokens": 352500,
+      "completion_tokens": 43366,
+      "cents": 78.5563,
+      "seconds": 407.4057
+    },
+    {
+      "group": "merge",
+      "calls": 9,
+      "prompt_tokens": 32716,
+      "completion_tokens": 77998,
+      "cents": 42.5507,
+      "seconds": 631.3053
+    },
+    {
+      "group": "tag",
+      "calls": 35,
+      "prompt_tokens": 453494,
+      "completion_tokens": 237704,
+      "cents": 28.5931,
+      "seconds": 668.9884
+    },
+    {
+      "group": "classify",
+      "calls": 41,
+      "prompt_tokens": 296984,
+      "completion_tokens": 213955,
+      "cents": 13.8366,
+      "seconds": 577.1455
+    },
+    {
+      "group": "grade-single",
+      "calls": 15,
+      "prompt_tokens": 1246542,
+      "completion_tokens": 34291,
+      "cents": 12.966,
+      "seconds": 132.635
+    },
+    {
+      "group": "worker",
+      "calls": 14,
+      "prompt_tokens": 522173,
+      "completion_tokens": 85922,
+      "cents": 9.5178,
+      "seconds": 398.9776
+    },
+    {
+      "group": "solo",
+      "calls": 133,
+      "prompt_tokens": 2030789,
+      "completion_tokens": 47935,
+      "cents": 6.0786,
+      "seconds": 308.5022
+    },
+    {
+      "group": "json-test",
+      "calls": 24,
+      "prompt_tokens": 40033,
+      "completion_tokens": 2054,
+      "cents": 5.209,
+      "seconds": 28.7127
+    },
+    {
+      "group": "grade",
+      "calls": 21,
+      "prompt_tokens": 148910,
+      "completion_tokens": 71094,
+      "cents": 5.0438,
+      "seconds": 290.4792
+    },
+    {
+      "group": "recheck",
+      "calls": 17,
+      "prompt_tokens": 20326,
+      "completion_tokens": 3124,
+      "cents": 3.5946,
+      "seconds": 30.0065
+    },
+    {
+      "group": "critic",
+      "calls": 3,
+      "prompt_tokens": 3864,
+      "completion_tokens": 1063,
+      "cents": 1.8358,
+      "seconds": 11.3906
+    },
+    {
+      "group": "chain",
+      "calls": 35,
+      "prompt_tokens": 111355,
+      "completion_tokens": 13710,
+      "cents": 1.7991,
+      "seconds": 66.1358
+    },
+    {
+      "group": "memory",
+      "calls": 71,
+      "prompt_tokens": 25242,
+      "completion_tokens": 18539,
+      "cents": 1.1794,
+      "seconds": 122.0718
+    },
+    {
+      "group": "probe",
+      "calls": 12,
+      "prompt_tokens": 401,
+      "completion_tokens": 79,
+      "cents": 0.1016,
+      "seconds": 10.6684
+    }
+  ],
+  "by_model": [
+    {
+      "group": "claude-haiku-5-5",
+      "calls": 1197,
+      "prompt_tokens": 36319940,
+      "completion_tokens": 5137702,
+      "cents": 717.3957,
+      "seconds": 22754.6022
+    },
+    {
+      "group": "claude-haiku-4-5",
+      "calls": 645,
+      "prompt_tokens": 2694549,
+      "completion_tokens": 380181,
+      "cents": 462.6639,
+      "seconds": 3919.3118
+    },
+    {
+      "group": "claude-sonnet-5",
+      "calls": 23,
+      "prompt_tokens": 779683,
+      "completion_tokens": 256305,
+      "cents": 426.4049,
+      "seconds": 2606.3892
+    },
+    {
+      "group": "claude-sonnet-5-5",
+      "calls": 157,
+      "prompt_tokens": 1103032,
+      "completion_tokens": 129403,
+      "cents": 316.7563,
+      "seconds": 928.6373
+    }
+  ],
+  "dear_model": "claude-sonnet-5",
+  "dear_calls": 23,
+  "dear_cents": 426.4049
+}

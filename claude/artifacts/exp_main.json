@@ -1,0 +1,148 @@
+{
+  "A_mean": 0.0185,
+  "A2_mean": 0.0,
+  "B_mean": 0.7778,
+  "C_mean": 0.7315,
+  "D_mean": 0.7454,
+  "A_prec": 0.2222,
+  "A2_prec": 0.0,
+  "B_prec": 0.5714,
+  "C_prec": 0.623,
+  "D_prec": 0.6391,
+  "A_cost": 6.2871,
+  "A2_cost": 1.8071,
+  "B_cost": 70.4852,
+  "C_cost": 117.8333,
+  "D_cost": 99.8067,
+  "DA_lo": 0.6157,
+  "DA_hi": 0.8241,
+  "DA2_lo": 0.6481,
+  "DA2_hi": 0.8333,
+  "DC_lo": -0.0556,
+  "DC_hi": 0.0833,
+  "PDA_lo": -0.0004,
+  "PDA_hi": 0.6881,
+  "a2_turns": 400,
+  "arms": [
+    {
+      "arm": "A",
+      "run": 0,
+      "recall": 0.0556,
+      "precision": 0.6667,
+      "tp": 4,
+      "fp": 2,
+      "cost": 10.5109,
+      "minutes": 1.5222
+    },
+    {
+      "arm": "A",
+      "run": 1,
+      "recall": 0.0,
+      "precision": null,
+      "tp": 0,
+      "fp": 0,
+      "cost": 3.2096,
+      "minutes": 1.0687
+    },
+    {
+      "arm": "A",
+      "run": 2,
+      "recall": 0.0,
+      "precision": 0.0,
+      "tp": 0,
+      "fp": 1,
+      "cost": 5.1408,
+      "minutes": 1.1686
+    },
+    {
+      "arm": "A2",
+      "run": 0,
+      "recall": 0.0,
+      "precision": null,
+      "tp": 0,
+      "fp": 0,
+      "cost": 1.5008,
+      "minutes": 0.4585
+    },
+    {
+      "arm": "A2",
+      "run": 1,
+      "recall": 0.0,
+      "precision": null,
+      "tp": 0,
+      "fp": 0,
+      "cost": 2.1133,
+      "minutes": 0.7355
+    },
+    {
+      "arm": "B",
+      "run": 0,
+      "recall": 0.7778,
+      "precision": 0.5714,
+      "tp": 56,
+      "fp": 42,
+      "minutes": 18.289,
+      "cost": 70.4852
+    },
+    {
+      "arm": "C",
+      "run": 0,
+      "recall": 0.7222,
+      "precision": 0.6047,
+      "tp": 52,
+      "fp": 34,
+      "cost": 117.97,
+      "minutes": 0.0736
+    },
+    {
+      "arm": "C",
+      "run": 1,
+      "recall": 0.6944,
+      "precision": 0.5814,
+      "tp": 50,
+      "fp": 36,
+      "cost": 118.47,
+      "minutes": 0.0577
+    },
+    {
+      "arm": "C",
+      "run": 2,
+      "recall": 0.7778,
+      "precision": 0.6829,
+      "tp": 56,
+      "fp": 26,
+      "cost": 117.06,
+      "minutes": 0.0558
+    },
+    {
+      "arm": "D",
+      "run": 0,
+      "recall": 0.7639,
+      "precision": 0.6548,
+      "tp": 55,
+      "fp": 29,
+      "cost": 109.46,
+      "minutes": 0.6813
+    },
+    {
+      "arm": "D",
+      "run": 1,
+      "recall": 0.7083,
+      "precision": 0.6,
+      "tp": 51,
+      "fp": 34,
+      "cost": 94.76,
+      "minutes": 0.024
+    },
+    {
+      "arm": "D",
+      "run": 2,
+      "recall": 0.7639,
+      "precision": 0.6627,
+      "tp": 55,
+      "fp": 28,
+      "cost": 95.2,
+      "minutes": 0.5699
+    }
+  ]
+}

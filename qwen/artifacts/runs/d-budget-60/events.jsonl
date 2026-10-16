@@ -1,0 +1,184 @@
+{"seq": 1, "t": 0.0, "type": "run.created", "run_id": "d-budget-60", "title": "the lead's plan for 60 MC", "goal": ""}
+{"seq": 2, "t": 0.006, "type": "run.phase_started", "run_id": "d-budget-60", "phase": "Scan", "index": 1}
+{"seq": 3, "t": 1.828, "type": "run.agent_started", "run_id": "d-budget-60", "thread": "d-budget-60/t001", "label": "scan:general:greedy_methods#0", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 4, "t": 1.846, "type": "run.agent_ended", "run_id": "d-budget-60", "thread": "d-budget-60/t001", "label": "scan:general:greedy_methods#0", "ok": true, "seconds": 0.02, "cached": true, "magicubes": 0.0, "phase": "Scan"}
+{"seq": 5, "t": 2.228, "type": "run.agent_started", "run_id": "d-budget-60", "thread": "d-budget-60/t002", "label": "scan:logic:greedy_methods#0", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 6, "t": 2.254, "type": "run.agent_ended", "run_id": "d-budget-60", "thread": "d-budget-60/t002", "label": "scan:logic:greedy_methods#0", "ok": true, "seconds": 0.03, "cached": true, "magicubes": 0.0, "phase": "Scan"}
+{"seq": 7, "t": 2.294, "type": "run.agent_started", "run_id": "d-budget-60", "thread": "d-budget-60/t003", "label": "scan:general:machine_learning#0", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 8, "t": 2.329, "type": "run.agent_started", "run_id": "d-budget-60", "thread": "d-budget-60/t004", "label": "scan:logic:machine_learning#0", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 9, "t": 2.336, "type": "run.agent_ended", "run_id": "d-budget-60", "thread": "d-budget-60/t003", "label": "scan:general:machine_learning#0", "ok": true, "seconds": 0.04, "cached": true, "magicubes": 0.0, "phase": "Scan"}
+{"seq": 10, "t": 2.377, "type": "run.agent_started", "run_id": "d-budget-60", "thread": "d-budget-60/t005", "label": "scan:boundaries:greedy_methods#0", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 11, "t": 2.38, "type": "run.agent_ended", "run_id": "d-budget-60", "thread": "d-budget-60/t004", "label": "scan:logic:machine_learning#0", "ok": true, "seconds": 0.05, "cached": true, "magicubes": 0.0, "phase": "Scan"}
+{"seq": 12, "t": 2.405, "type": "run.agent_ended", "run_id": "d-budget-60", "thread": "d-budget-60/t005", "label": "scan:boundaries:greedy_methods#0", "ok": true, "seconds": 0.03, "cached": true, "magicubes": 0.0, "phase": "Scan"}
+{"seq": 13, "t": 2.507, "type": "run.agent_started", "run_id": "d-budget-60", "thread": "d-budget-60/t006", "label": "scan:boundaries:machine_learning#0", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 14, "t": 2.513, "type": "run.agent_started", "run_id": "d-budget-60", "thread": "d-budget-60/t007", "label": "scan:general:graphs#0", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 15, "t": 2.547, "type": "run.agent_started", "run_id": "d-budget-60", "thread": "d-budget-60/t008", "label": "scan:logic:graphs#0", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 16, "t": 2.583, "type": "run.agent_started", "run_id": "d-budget-60", "thread": "d-budget-60/t009", "label": "scan:general:conversions#0", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 17, "t": 2.586, "type": "run.agent_started", "run_id": "d-budget-60", "thread": "d-budget-60/t010", "label": "scan:general:electronics#0", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 18, "t": 2.605, "type": "run.agent_ended", "run_id": "d-budget-60", "thread": "d-budget-60/t006", "label": "scan:boundaries:machine_learning#0", "ok": true, "seconds": 0.1, "cached": true, "magicubes": 0.0, "phase": "Scan"}
+{"seq": 19, "t": 2.626, "type": "run.agent_ended", "run_id": "d-budget-60", "thread": "d-budget-60/t007", "label": "scan:general:graphs#0", "ok": true, "seconds": 0.11, "cached": true, "magicubes": 0.0, "phase": "Scan"}
+{"seq": 20, "t": 2.63, "type": "run.agent_ended", "run_id": "d-budget-60", "thread": "d-budget-60/t008", "label": "scan:logic:graphs#0", "ok": true, "seconds": 0.08, "cached": true, "magicubes": 0.0, "phase": "Scan"}
+{"seq": 21, "t": 2.639, "type": "run.agent_ended", "run_id": "d-budget-60", "thread": "d-budget-60/t010", "label": "scan:general:electronics#0", "ok": true, "seconds": 0.05, "cached": true, "magicubes": 0.0, "phase": "Scan"}
+{"seq": 22, "t": 2.678, "type": "run.agent_ended", "run_id": "d-budget-60", "thread": "d-budget-60/t009", "label": "scan:general:conversions#0", "ok": true, "seconds": 0.09, "cached": true, "magicubes": 0.0, "phase": "Scan"}
+{"seq": 23, "t": 2.788, "type": "run.agent_started", "run_id": "d-budget-60", "thread": "d-budget-60/t011", "label": "scan:logic:conversions#0", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 24, "t": 2.803, "type": "run.agent_ended", "run_id": "d-budget-60", "thread": "d-budget-60/t011", "label": "scan:logic:conversions#0", "ok": true, "seconds": 0.02, "cached": true, "magicubes": 0.0, "phase": "Scan"}
+{"seq": 25, "t": 2.857, "type": "run.agent_started", "run_id": "d-budget-60", "thread": "d-budget-60/t012", "label": "scan:general:greedy_methods#1", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 26, "t": 2.866, "type": "run.agent_started", "run_id": "d-budget-60", "thread": "d-budget-60/t013", "label": "scan:logic:ciphers#0", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 27, "t": 2.896, "type": "run.agent_ended", "run_id": "d-budget-60", "thread": "d-budget-60/t012", "label": "scan:general:greedy_methods#1", "ok": true, "seconds": 0.04, "cached": true, "magicubes": 0.0, "phase": "Scan"}
+{"seq": 28, "t": 2.896, "type": "run.agent_started", "run_id": "d-budget-60", "thread": "d-budget-60/t014", "label": "scan:general:ciphers#0", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 29, "t": 2.93, "type": "run.agent_ended", "run_id": "d-budget-60", "thread": "d-budget-60/t013", "label": "scan:logic:ciphers#0", "ok": true, "seconds": 0.06, "cached": true, "magicubes": 0.0, "phase": "Scan"}
+{"seq": 30, "t": 2.938, "type": "run.agent_started", "run_id": "d-budget-60", "thread": "d-budget-60/t015", "label": "scan:state:greedy_methods#0", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 31, "t": 2.945, "type": "run.agent_ended", "run_id": "d-budget-60", "thread": "d-budget-60/t014", "label": "scan:general:ciphers#0", "ok": true, "seconds": 0.05, "cached": true, "magicubes": 0.0, "phase": "Scan"}
+{"seq": 32, "t": 2.971, "type": "run.agent_ended", "run_id": "d-budget-60", "thread": "d-budget-60/t015", "label": "scan:state:greedy_methods#0", "ok": true, "seconds": 0.03, "cached": true, "magicubes": 0.0, "phase": "Scan"}
+{"seq": 33, "t": 2.994, "type": "run.agent_started", "run_id": "d-budget-60", "thread": "d-budget-60/t016", "label": "scan:logic:electronics#0", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 34, "t": 3.016, "type": "run.agent_ended", "run_id": "d-budget-60", "thread": "d-budget-60/t016", "label": "scan:logic:electronics#0", "ok": true, "seconds": 0.02, "cached": true, "magicubes": 0.0, "phase": "Scan"}
+{"seq": 35, "t": 3.06, "type": "run.agent_started", "run_id": "d-budget-60", "thread": "d-budget-60/t017", "label": "scan:general:ciphers#1", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 36, "t": 3.095, "type": "run.agent_ended", "run_id": "d-budget-60", "thread": "d-budget-60/t017", "label": "scan:general:ciphers#1", "ok": true, "seconds": 0.03, "cached": true, "magicubes": 0.0, "phase": "Scan"}
+{"seq": 37, "t": 3.121, "type": "run.agent_started", "run_id": "d-budget-60", "thread": "d-budget-60/t018", "label": "scan:general:data_structures#0", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 38, "t": 3.127, "type": "run.agent_started", "run_id": "d-budget-60", "thread": "d-budget-60/t019", "label": "scan:general:conversions#1", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 39, "t": 3.141, "type": "run.agent_started", "run_id": "d-budget-60", "thread": "d-budget-60/t020", "label": "scan:state:machine_learning#0", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 40, "t": 3.151, "type": "run.agent_ended", "run_id": "d-budget-60", "thread": "d-budget-60/t018", "label": "scan:general:data_structures#0", "ok": true, "seconds": 0.03, "cached": true, "magicubes": 0.0, "phase": "Scan"}
+{"seq": 41, "t": 3.154, "type": "run.agent_ended", "run_id": "d-budget-60", "thread": "d-budget-60/t019", "label": "scan:general:conversions#1", "ok": true, "seconds": 0.03, "cached": true, "magicubes": 0.0, "phase": "Scan"}
+{"seq": 42, "t": 3.165, "type": "run.agent_started", "run_id": "d-budget-60", "thread": "d-budget-60/t021", "label": "scan:state:graphs#0", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 43, "t": 3.177, "type": "run.agent_ended", "run_id": "d-budget-60", "thread": "d-budget-60/t020", "label": "scan:state:machine_learning#0", "ok": true, "seconds": 0.04, "cached": true, "magicubes": 0.0, "phase": "Scan"}
+{"seq": 44, "t": 3.188, "type": "run.agent_ended", "run_id": "d-budget-60", "thread": "d-budget-60/t021", "label": "scan:state:graphs#0", "ok": true, "seconds": 0.02, "cached": true, "magicubes": 0.0, "phase": "Scan"}
+{"seq": 45, "t": 3.198, "type": "run.agent_started", "run_id": "d-budget-60", "thread": "d-budget-60/t022", "label": "scan:boundaries:conversions#0", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 46, "t": 3.227, "type": "run.agent_started", "run_id": "d-budget-60", "thread": "d-budget-60/t023", "label": "scan:state:conversions#0", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 47, "t": 3.246, "type": "run.agent_ended", "run_id": "d-budget-60", "thread": "d-budget-60/t022", "label": "scan:boundaries:conversions#0", "ok": true, "seconds": 0.05, "cached": true, "magicubes": 0.0, "phase": "Scan"}
+{"seq": 48, "t": 3.261, "type": "run.agent_ended", "run_id": "d-budget-60", "thread": "d-budget-60/t023", "label": "scan:state:conversions#0", "ok": true, "seconds": 0.03, "cached": true, "magicubes": 0.0, "phase": "Scan"}
+{"seq": 49, "t": 3.263, "type": "run.agent_started", "run_id": "d-budget-60", "thread": "d-budget-60/t024", "label": "scan:state:ciphers#0", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 50, "t": 3.272, "type": "run.agent_ended", "run_id": "d-budget-60", "thread": "d-budget-60/t024", "label": "scan:state:ciphers#0", "ok": true, "seconds": 0.01, "cached": true, "magicubes": 0.0, "phase": "Scan"}
+{"seq": 51, "t": 3.282, "type": "run.agent_started", "run_id": "d-budget-60", "thread": "d-budget-60/t025", "label": "scan:boundaries:ciphers#0", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 52, "t": 3.305, "type": "run.agent_started", "run_id": "d-budget-60", "thread": "d-budget-60/t026", "label": "scan:boundaries:graphs#0", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 53, "t": 3.314, "type": "run.agent_ended", "run_id": "d-budget-60", "thread": "d-budget-60/t025", "label": "scan:boundaries:ciphers#0", "ok": true, "seconds": 0.03, "cached": true, "magicubes": 0.0, "phase": "Scan"}
+{"seq": 54, "t": 3.327, "type": "run.agent_ended", "run_id": "d-budget-60", "thread": "d-budget-60/t026", "label": "scan:boundaries:graphs#0", "ok": true, "seconds": 0.02, "cached": true, "magicubes": 0.0, "phase": "Scan"}
+{"seq": 55, "t": 3.336, "type": "run.agent_started", "run_id": "d-budget-60", "thread": "d-budget-60/t027", "label": "scan:general:graphs#1", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 56, "t": 3.355, "type": "run.agent_ended", "run_id": "d-budget-60", "thread": "d-budget-60/t027", "label": "scan:general:graphs#1", "ok": true, "seconds": 0.02, "cached": true, "magicubes": 0.0, "phase": "Scan"}
+{"seq": 57, "t": 3.357, "type": "run.agent_started", "run_id": "d-budget-60", "thread": "d-budget-60/t028", "label": "scan:boundaries:strings#0", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 58, "t": 3.372, "type": "run.agent_ended", "run_id": "d-budget-60", "thread": "d-budget-60/t028", "label": "scan:boundaries:strings#0", "ok": true, "seconds": 0.01, "cached": true, "magicubes": 0.0, "phase": "Scan"}
+{"seq": 59, "t": 3.375, "type": "run.agent_started", "run_id": "d-budget-60", "thread": "d-budget-60/t029", "label": "scan:state:electronics#0", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 60, "t": 3.384, "type": "run.agent_started", "run_id": "d-budget-60", "thread": "d-budget-60/t030", "label": "scan:general:strings#0", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 61, "t": 3.395, "type": "run.agent_ended", "run_id": "d-budget-60", "thread": "d-budget-60/t029", "label": "scan:state:electronics#0", "ok": true, "seconds": 0.02, "cached": true, "magicubes": 0.0, "phase": "Scan"}
+{"seq": 62, "t": 3.408, "type": "run.agent_ended", "run_id": "d-budget-60", "thread": "d-budget-60/t030", "label": "scan:general:strings#0", "ok": true, "seconds": 0.02, "cached": true, "magicubes": 0.0, "phase": "Scan"}
+{"seq": 63, "t": 3.429, "type": "run.agent_started", "run_id": "d-budget-60", "thread": "d-budget-60/t031", "label": "scan:logic:strings#0", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 64, "t": 3.437, "type": "run.agent_started", "run_id": "d-budget-60", "thread": "d-budget-60/t032", "label": "scan:boundaries:electronics#0", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 65, "t": 3.449, "type": "run.agent_started", "run_id": "d-budget-60", "thread": "d-budget-60/t033", "label": "scan:state:strings#0", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 66, "t": 3.459, "type": "run.agent_ended", "run_id": "d-budget-60", "thread": "d-budget-60/t031", "label": "scan:logic:strings#0", "ok": true, "seconds": 0.03, "cached": true, "magicubes": 0.0, "phase": "Scan"}
+{"seq": 67, "t": 3.465, "type": "run.agent_ended", "run_id": "d-budget-60", "thread": "d-budget-60/t032", "label": "scan:boundaries:electronics#0", "ok": true, "seconds": 0.03, "cached": true, "magicubes": 0.0, "phase": "Scan"}
+{"seq": 68, "t": 3.473, "type": "run.agent_started", "run_id": "d-budget-60", "thread": "d-budget-60/t034", "label": "scan:logic:data_structures#0", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 69, "t": 3.49, "type": "run.agent_ended", "run_id": "d-budget-60", "thread": "d-budget-60/t033", "label": "scan:state:strings#0", "ok": true, "seconds": 0.04, "cached": true, "magicubes": 0.0, "phase": "Scan"}
+{"seq": 70, "t": 3.518, "type": "run.agent_ended", "run_id": "d-budget-60", "thread": "d-budget-60/t034", "label": "scan:logic:data_structures#0", "ok": true, "seconds": 0.05, "cached": true, "magicubes": 0.0, "phase": "Scan"}
+{"seq": 71, "t": 3.535, "type": "run.agent_started", "run_id": "d-budget-60", "thread": "d-budget-60/t035", "label": "scan:boundaries:data_structures#0", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 72, "t": 3.552, "type": "run.agent_ended", "run_id": "d-budget-60", "thread": "d-budget-60/t035", "label": "scan:boundaries:data_structures#0", "ok": true, "seconds": 0.02, "cached": true, "magicubes": 0.0, "phase": "Scan"}
+{"seq": 73, "t": 3.567, "type": "run.agent_started", "run_id": "d-budget-60", "thread": "d-budget-60/t036", "label": "scan:boundaries:other#0", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 74, "t": 3.58, "type": "run.agent_ended", "run_id": "d-budget-60", "thread": "d-budget-60/t036", "label": "scan:boundaries:other#0", "ok": true, "seconds": 0.01, "cached": true, "magicubes": 0.0, "phase": "Scan"}
+{"seq": 75, "t": 3.64, "type": "run.agent_started", "run_id": "d-budget-60", "thread": "d-budget-60/t037", "label": "scan:general:electronics#1", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 76, "t": 3.656, "type": "run.agent_ended", "run_id": "d-budget-60", "thread": "d-budget-60/t037", "label": "scan:general:electronics#1", "ok": true, "seconds": 0.02, "cached": true, "magicubes": 0.0, "phase": "Scan"}
+{"seq": 77, "t": 3.68, "type": "run.agent_started", "run_id": "d-budget-60", "thread": "d-budget-60/t038", "label": "scan:logic:other#0", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 78, "t": 3.693, "type": "run.agent_started", "run_id": "d-budget-60", "thread": "d-budget-60/t039", "label": "scan:general:data_structures#1", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 79, "t": 3.698, "type": "run.agent_ended", "run_id": "d-budget-60", "thread": "d-budget-60/t038", "label": "scan:logic:other#0", "ok": true, "seconds": 0.02, "cached": true, "magicubes": 0.0, "phase": "Scan"}
+{"seq": 80, "t": 3.707, "type": "run.agent_ended", "run_id": "d-budget-60", "thread": "d-budget-60/t039", "label": "scan:general:data_structures#1", "ok": true, "seconds": 0.01, "cached": true, "magicubes": 0.0, "phase": "Scan"}
+{"seq": 81, "t": 3.771, "type": "run.agent_started", "run_id": "d-budget-60", "thread": "d-budget-60/t040", "label": "scan:logic:maths#0", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 82, "t": 3.788, "type": "run.agent_started", "run_id": "d-budget-60", "thread": "d-budget-60/t041", "label": "scan:boundaries:maths#0", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 83, "t": 3.794, "type": "run.agent_ended", "run_id": "d-budget-60", "thread": "d-budget-60/t040", "label": "scan:logic:maths#0", "ok": true, "seconds": 0.02, "cached": true, "magicubes": 0.0, "phase": "Scan"}
+{"seq": 84, "t": 3.798, "type": "run.agent_started", "run_id": "d-budget-60", "thread": "d-budget-60/t042", "label": "scan:state:data_structures#0", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 85, "t": 3.811, "type": "run.agent_ended", "run_id": "d-budget-60", "thread": "d-budget-60/t041", "label": "scan:boundaries:maths#0", "ok": true, "seconds": 0.02, "cached": true, "magicubes": 0.0, "phase": "Scan"}
+{"seq": 86, "t": 3.813, "type": "run.agent_started", "run_id": "d-budget-60", "thread": "d-budget-60/t043", "label": "scan:general:other#0", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 87, "t": 3.816, "type": "run.agent_ended", "run_id": "d-budget-60", "thread": "d-budget-60/t042", "label": "scan:state:data_structures#0", "ok": true, "seconds": 0.02, "cached": true, "magicubes": 0.0, "phase": "Scan"}
+{"seq": 88, "t": 3.824, "type": "run.agent_started", "run_id": "d-budget-60", "thread": "d-budget-60/t044", "label": "scan:general:maths#0", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 89, "t": 3.837, "type": "run.agent_ended", "run_id": "d-budget-60", "thread": "d-budget-60/t043", "label": "scan:general:other#0", "ok": true, "seconds": 0.02, "cached": true, "magicubes": 0.0, "phase": "Scan"}
+{"seq": 90, "t": 3.838, "type": "run.agent_started", "run_id": "d-budget-60", "thread": "d-budget-60/t045", "label": "scan:general:audio_filters#0", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 91, "t": 3.844, "type": "run.agent_started", "run_id": "d-budget-60", "thread": "d-budget-60/t046", "label": "scan:state:other#0", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 92, "t": 3.853, "type": "run.agent_ended", "run_id": "d-budget-60", "thread": "d-budget-60/t044", "label": "scan:general:maths#0", "ok": true, "seconds": 0.03, "cached": true, "magicubes": 0.0, "phase": "Scan"}
+{"seq": 93, "t": 3.855, "type": "run.agent_started", "run_id": "d-budget-60", "thread": "d-budget-60/t047", "label": "scan:boundaries:searches#0", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 94, "t": 3.866, "type": "run.agent_ended", "run_id": "d-budget-60", "thread": "d-budget-60/t045", "label": "scan:general:audio_filters#0", "ok": true, "seconds": 0.03, "cached": true, "magicubes": 0.0, "phase": "Scan"}
+{"seq": 95, "t": 3.871, "type": "run.agent_ended", "run_id": "d-budget-60", "thread": "d-budget-60/t046", "label": "scan:state:other#0", "ok": true, "seconds": 0.03, "cached": true, "magicubes": 0.0, "phase": "Scan"}
+{"seq": 96, "t": 3.881, "type": "run.agent_ended", "run_id": "d-budget-60", "thread": "d-budget-60/t047", "label": "scan:boundaries:searches#0", "ok": true, "seconds": 0.03, "cached": true, "magicubes": 0.0, "phase": "Scan"}
+{"seq": 97, "t": 3.89, "type": "run.agent_started", "run_id": "d-budget-60", "thread": "d-budget-60/t048", "label": "scan:state:searches#0", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 98, "t": 3.898, "type": "run.agent_started", "run_id": "d-budget-60", "thread": "d-budget-60/t049", "label": "scan:general:machine_learning#1", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 99, "t": 3.901, "type": "run.agent_started", "run_id": "d-budget-60", "thread": "d-budget-60/t050", "label": "scan:logic:searches#0", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 100, "t": 3.906, "type": "run.agent_started", "run_id": "d-budget-60", "thread": "d-budget-60/t051", "label": "scan:logic:audio_filters#0", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 101, "t": 3.911, "type": "run.agent_ended", "run_id": "d-budget-60", "thread": "d-budget-60/t048", "label": "scan:state:searches#0", "ok": true, "seconds": 0.02, "cached": true, "magicubes": 0.0, "phase": "Scan"}
+{"seq": 102, "t": 3.912, "type": "run.agent_started", "run_id": "d-budget-60", "thread": "d-budget-60/t052", "label": "scan:general:searches#0", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 103, "t": 3.922, "type": "run.agent_started", "run_id": "d-budget-60", "thread": "d-budget-60/t053", "label": "scan:state:maths#0", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 104, "t": 3.929, "type": "run.agent_ended", "run_id": "d-budget-60", "thread": "d-budget-60/t049", "label": "scan:general:machine_learning#1", "ok": true, "seconds": 0.03, "cached": true, "magicubes": 0.0, "phase": "Scan"}
+{"seq": 105, "t": 3.932, "type": "run.agent_ended", "run_id": "d-budget-60", "thread": "d-budget-60/t050", "label": "scan:logic:searches#0", "ok": true, "seconds": 0.03, "cached": true, "magicubes": 0.0, "phase": "Scan"}
+{"seq": 106, "t": 3.938, "type": "run.agent_ended", "run_id": "d-budget-60", "thread": "d-budget-60/t051", "label": "scan:logic:audio_filters#0", "ok": true, "seconds": 0.03, "cached": true, "magicubes": 0.0, "phase": "Scan"}
+{"seq": 107, "t": 3.956, "type": "run.agent_ended", "run_id": "d-budget-60", "thread": "d-budget-60/t052", "label": "scan:general:searches#0", "ok": true, "seconds": 0.04, "cached": true, "magicubes": 0.0, "phase": "Scan"}
+{"seq": 108, "t": 3.966, "type": "run.agent_started", "run_id": "d-budget-60", "thread": "d-budget-60/t054", "label": "scan:state:audio_filters#0", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 109, "t": 3.971, "type": "run.agent_ended", "run_id": "d-budget-60", "thread": "d-budget-60/t053", "label": "scan:state:maths#0", "ok": true, "seconds": 0.05, "cached": true, "magicubes": 0.0, "phase": "Scan"}
+{"seq": 110, "t": 3.985, "type": "run.agent_ended", "run_id": "d-budget-60", "thread": "d-budget-60/t054", "label": "scan:state:audio_filters#0", "ok": true, "seconds": 0.02, "cached": true, "magicubes": 0.0, "phase": "Scan"}
+{"seq": 111, "t": 4.077, "type": "run.agent_started", "run_id": "d-budget-60", "thread": "d-budget-60/t055", "label": "scan:general:audio_filters#1", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 112, "t": 4.089, "type": "run.agent_ended", "run_id": "d-budget-60", "thread": "d-budget-60/t055", "label": "scan:general:audio_filters#1", "ok": true, "seconds": 0.01, "cached": true, "magicubes": 0.0, "phase": "Scan"}
+{"seq": 113, "t": 4.122, "type": "run.agent_started", "run_id": "d-budget-60", "thread": "d-budget-60/t056", "label": "scan:general:data_structures#0", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 114, "t": 4.137, "type": "run.agent_ended", "run_id": "d-budget-60", "thread": "d-budget-60/t056", "label": "scan:general:data_structures#0", "ok": true, "seconds": 0.01, "cached": true, "magicubes": 0.0, "phase": "Scan"}
+{"seq": 115, "t": 4.252, "type": "run.agent_started", "run_id": "d-budget-60", "thread": "d-budget-60/t057", "label": "scan:boundaries:audio_filters#0", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 116, "t": 4.282, "type": "run.agent_ended", "run_id": "d-budget-60", "thread": "d-budget-60/t057", "label": "scan:boundaries:audio_filters#0", "ok": true, "seconds": 0.03, "cached": true, "magicubes": 0.0, "phase": "Scan"}
+{"seq": 117, "t": 4.357, "type": "run.agent_started", "run_id": "d-budget-60", "thread": "d-budget-60/t058", "label": "scan:boundaries:data_structures#0", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 118, "t": 4.368, "type": "run.agent_ended", "run_id": "d-budget-60", "thread": "d-budget-60/t058", "label": "scan:boundaries:data_structures#0", "ok": true, "seconds": 0.01, "cached": true, "magicubes": 0.0, "phase": "Scan"}
+{"seq": 119, "t": 4.415, "type": "run.agent_started", "run_id": "d-budget-60", "thread": "d-budget-60/t059", "label": "scan:general:strings#1", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 120, "t": 4.432, "type": "run.agent_ended", "run_id": "d-budget-60", "thread": "d-budget-60/t059", "label": "scan:general:strings#1", "ok": true, "seconds": 0.02, "cached": true, "magicubes": 0.0, "phase": "Scan"}
+{"seq": 121, "t": 4.494, "type": "run.agent_started", "run_id": "d-budget-60", "thread": "d-budget-60/t060", "label": "scan:logic:data_structures#0", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 122, "t": 4.506, "type": "run.agent_started", "run_id": "d-budget-60", "thread": "d-budget-60/t061", "label": "scan:general:maths#1", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 123, "t": 4.52, "type": "run.agent_ended", "run_id": "d-budget-60", "thread": "d-budget-60/t061", "label": "scan:general:maths#1", "ok": true, "seconds": 0.01, "cached": true, "magicubes": 0.0, "phase": "Scan"}
+{"seq": 124, "t": 4.525, "type": "run.agent_ended", "run_id": "d-budget-60", "thread": "d-budget-60/t060", "label": "scan:logic:data_structures#0", "ok": true, "seconds": 0.03, "cached": true, "magicubes": 0.0, "phase": "Scan"}
+{"seq": 125, "t": 4.558, "type": "run.agent_started", "run_id": "d-budget-60", "thread": "d-budget-60/t062", "label": "scan:general:maths#0", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 126, "t": 4.566, "type": "run.agent_ended", "run_id": "d-budget-60", "thread": "d-budget-60/t062", "label": "scan:general:maths#0", "ok": true, "seconds": 0.01, "cached": true, "magicubes": 0.0, "phase": "Scan"}
+{"seq": 127, "t": 4.571, "type": "run.agent_started", "run_id": "d-budget-60", "thread": "d-budget-60/t063", "label": "scan:general:other#1", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 128, "t": 4.577, "type": "run.agent_ended", "run_id": "d-budget-60", "thread": "d-budget-60/t063", "label": "scan:general:other#1", "ok": true, "seconds": 0.01, "cached": true, "magicubes": 0.0, "phase": "Scan"}
+{"seq": 129, "t": 4.583, "type": "run.agent_started", "run_id": "d-budget-60", "thread": "d-budget-60/t064", "label": "scan:state:data_structures#0", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 130, "t": 4.589, "type": "run.agent_ended", "run_id": "d-budget-60", "thread": "d-budget-60/t064", "label": "scan:state:data_structures#0", "ok": true, "seconds": 0.01, "cached": true, "magicubes": 0.0, "phase": "Scan"}
+{"seq": 131, "t": 4.601, "type": "run.agent_started", "run_id": "d-budget-60", "thread": "d-budget-60/t065", "label": "scan:general:searches#1", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 132, "t": 4.606, "type": "run.agent_ended", "run_id": "d-budget-60", "thread": "d-budget-60/t065", "label": "scan:general:searches#1", "ok": true, "seconds": 0.01, "cached": true, "magicubes": 0.0, "phase": "Scan"}
+{"seq": 133, "t": 4.607, "type": "run.agent_started", "run_id": "d-budget-60", "thread": "d-budget-60/t066", "label": "scan:general:data_structures#1", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 134, "t": 4.613, "type": "run.agent_ended", "run_id": "d-budget-60", "thread": "d-budget-60/t066", "label": "scan:general:data_structures#1", "ok": true, "seconds": 0.01, "cached": true, "magicubes": 0.0, "phase": "Scan"}
+{"seq": 135, "t": 4.632, "type": "run.agent_started", "run_id": "d-budget-60", "thread": "d-budget-60/t067", "label": "scan:boundaries:maths#0", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 136, "t": 4.637, "type": "run.agent_ended", "run_id": "d-budget-60", "thread": "d-budget-60/t067", "label": "scan:boundaries:maths#0", "ok": true, "seconds": 0.0, "cached": true, "magicubes": 0.0, "phase": "Scan"}
+{"seq": 137, "t": 4.639, "type": "run.agent_started", "run_id": "d-budget-60", "thread": "d-budget-60/t068", "label": "scan:logic:maths#0", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 138, "t": 4.643, "type": "run.agent_ended", "run_id": "d-budget-60", "thread": "d-budget-60/t068", "label": "scan:logic:maths#0", "ok": true, "seconds": 0.0, "cached": true, "magicubes": 0.0, "phase": "Scan"}
+{"seq": 139, "t": 4.654, "type": "run.agent_started", "run_id": "d-budget-60", "thread": "d-budget-60/t069", "label": "scan:state:maths#0", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 140, "t": 4.658, "type": "run.agent_ended", "run_id": "d-budget-60", "thread": "d-budget-60/t069", "label": "scan:state:maths#0", "ok": true, "seconds": 0.0, "cached": true, "magicubes": 0.0, "phase": "Scan"}
+{"seq": 141, "t": 4.701, "type": "run.agent_started", "run_id": "d-budget-60", "thread": "d-budget-60/t070", "label": "scan:general:maths#1", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 142, "t": 4.706, "type": "run.agent_ended", "run_id": "d-budget-60", "thread": "d-budget-60/t070", "label": "scan:general:maths#1", "ok": true, "seconds": 0.01, "cached": true, "magicubes": 0.0, "phase": "Scan"}
+{"seq": 143, "t": 4.713, "type": "run.log", "run_id": "d-budget-60", "message": "105 findings, 59 candidates from 70 scans"}
+{"seq": 144, "t": 4.713, "type": "run.phase_ended", "run_id": "d-budget-60", "phase": "Scan", "agents": 70, "failed": 0, "seconds": 4.71}
+{"seq": 145, "t": 4.713, "type": "run.phase_started", "run_id": "d-budget-60", "phase": "Verify", "index": 2}
+{"seq": 146, "t": 4.745, "type": "run.agent_started", "run_id": "d-budget-60", "thread": "d-budget-60/t071", "label": "check:audio_filters#0", "model": "Qwen3.7-Plus", "phase": "Verify"}
+{"seq": 147, "t": 4.751, "type": "run.agent_ended", "run_id": "d-budget-60", "thread": "d-budget-60/t071", "label": "check:audio_filters#0", "ok": true, "seconds": 0.01, "cached": true, "magicubes": 0.0, "phase": "Verify"}
+{"seq": 148, "t": 4.754, "type": "run.agent_started", "run_id": "d-budget-60", "thread": "d-budget-60/t072", "label": "check:ciphers#0", "model": "Qwen3.7-Plus", "phase": "Verify"}
+{"seq": 149, "t": 4.755, "type": "run.agent_started", "run_id": "d-budget-60", "thread": "d-budget-60/t073", "label": "check:ciphers#1", "model": "Qwen3.7-Plus", "phase": "Verify"}
+{"seq": 150, "t": 4.761, "type": "run.agent_started", "run_id": "d-budget-60", "thread": "d-budget-60/t074", "label": "check:audio_filters#1", "model": "Qwen3.7-Plus", "phase": "Verify"}
+{"seq": 151, "t": 4.763, "type": "run.agent_ended", "run_id": "d-budget-60", "thread": "d-budget-60/t072", "label": "check:ciphers#0", "ok": true, "seconds": 0.01, "cached": true, "magicubes": 0.0, "phase": "Verify"}
+{"seq": 152, "t": 4.764, "type": "run.agent_started", "run_id": "d-budget-60", "thread": "d-budget-60/t075", "label": "check:sorts#1", "model": "Qwen3.7-Plus", "phase": "Verify"}
+{"seq": 153, "t": 4.77, "type": "run.agent_ended", "run_id": "d-budget-60", "thread": "d-budget-60/t073", "label": "check:ciphers#1", "ok": true, "seconds": 0.01, "cached": true, "magicubes": 0.0, "phase": "Verify"}
+{"seq": 154, "t": 4.774, "type": "run.agent_started", "run_id": "d-budget-60", "thread": "d-budget-60/t076", "label": "check:maths#0", "model": "Qwen3.7-Plus", "phase": "Verify"}
+{"seq": 155, "t": 4.775, "type": "run.agent_ended", "run_id": "d-budget-60", "thread": "d-budget-60/t074", "label": "check:audio_filters#1", "ok": true, "seconds": 0.01, "cached": true, "magicubes": 0.0, "phase": "Verify"}
+{"seq": 156, "t": 4.776, "type": "run.agent_started", "run_id": "d-budget-60", "thread": "d-budget-60/t077", "label": "check:maths#1", "model": "Qwen3.7-Plus", "phase": "Verify"}
+{"seq": 157, "t": 4.777, "type": "run.agent_ended", "run_id": "d-budget-60", "thread": "d-budget-60/t075", "label": "check:sorts#1", "ok": true, "seconds": 0.01, "cached": true, "magicubes": 0.0, "phase": "Verify"}
+{"seq": 158, "t": 4.787, "type": "run.agent_started", "run_id": "d-budget-60", "thread": "d-budget-60/t078", "label": "check:maths#0", "model": "Qwen3.7-Plus", "phase": "Verify"}
+{"seq": 159, "t": 4.79, "type": "run.agent_started", "run_id": "d-budget-60", "thread": "d-budget-60/t079", "label": "check:sorts#0", "model": "Qwen3.7-Plus", "phase": "Verify"}
+{"seq": 160, "t": 4.791, "type": "run.agent_ended", "run_id": "d-budget-60", "thread": "d-budget-60/t076", "label": "check:maths#0", "ok": true, "seconds": 0.02, "cached": true, "magicubes": 0.0, "phase": "Verify"}
+{"seq": 161, "t": 4.793, "type": "run.agent_ended", "run_id": "d-budget-60", "thread": "d-budget-60/t079", "label": "check:sorts#0", "ok": true, "seconds": 0.0, "cached": true, "magicubes": 0.0, "phase": "Verify"}
+{"seq": 162, "t": 4.795, "type": "run.agent_ended", "run_id": "d-budget-60", "thread": "d-budget-60/t078", "label": "check:maths#0", "ok": true, "seconds": 0.01, "cached": true, "magicubes": 0.0, "phase": "Verify"}
+{"seq": 163, "t": 4.796, "type": "run.agent_ended", "run_id": "d-budget-60", "thread": "d-budget-60/t077", "label": "check:maths#1", "ok": true, "seconds": 0.02, "cached": true, "magicubes": 0.0, "phase": "Verify"}
+{"seq": 164, "t": 4.799, "type": "run.agent_started", "run_id": "d-budget-60", "thread": "d-budget-60/t080", "label": "check:maths#1", "model": "Qwen3.7-Plus", "phase": "Verify"}
+{"seq": 165, "t": 4.805, "type": "run.agent_ended", "run_id": "d-budget-60", "thread": "d-budget-60/t080", "label": "check:maths#1", "ok": true, "seconds": 0.01, "cached": true, "magicubes": 0.0, "phase": "Verify"}
+{"seq": 166, "t": 4.815, "type": "run.agent_started", "run_id": "d-budget-60", "thread": "d-budget-60/t081", "label": "check:other#1", "model": "Qwen3.7-Plus", "phase": "Verify"}
+{"seq": 167, "t": 4.817, "type": "run.agent_ended", "run_id": "d-budget-60", "thread": "d-budget-60/t081", "label": "check:other#1", "ok": true, "seconds": 0.0, "cached": true, "magicubes": 0.0, "phase": "Verify"}
+{"seq": 168, "t": 4.821, "type": "run.agent_started", "run_id": "d-budget-60", "thread": "d-budget-60/t082", "label": "check:other#0", "model": "Qwen3.7-Plus", "phase": "Verify"}
+{"seq": 169, "t": 4.823, "type": "run.agent_ended", "run_id": "d-budget-60", "thread": "d-budget-60/t082", "label": "check:other#0", "ok": true, "seconds": 0.0, "cached": true, "magicubes": 0.0, "phase": "Verify"}
+{"seq": 170, "t": 5.068, "type": "run.agent_started", "run_id": "d-budget-60", "thread": "d-budget-60/t083", "label": "check:data_structures#1", "model": "Qwen3.7-Plus", "phase": "Verify"}
+{"seq": 171, "t": 5.07, "type": "run.agent_started", "run_id": "d-budget-60", "thread": "d-budget-60/t084", "label": "check:data_structures#0", "model": "Qwen3.7-Plus", "phase": "Verify"}
+{"seq": 172, "t": 5.071, "type": "run.agent_ended", "run_id": "d-budget-60", "thread": "d-budget-60/t083", "label": "check:data_structures#1", "ok": true, "seconds": 0.0, "cached": true, "magicubes": 0.0, "phase": "Verify"}
+{"seq": 173, "t": 5.075, "type": "run.agent_ended", "run_id": "d-budget-60", "thread": "d-budget-60/t084", "label": "check:data_structures#0", "ok": true, "seconds": 0.01, "cached": true, "magicubes": 0.0, "phase": "Verify"}
+{"seq": 174, "t": 5.2, "type": "run.agent_started", "run_id": "d-budget-60", "thread": "d-budget-60/t085", "label": "check:financial#0", "model": "Qwen3.7-Plus", "phase": "Verify"}
+{"seq": 175, "t": 5.202, "type": "run.agent_ended", "run_id": "d-budget-60", "thread": "d-budget-60/t085", "label": "check:financial#0", "ok": true, "seconds": 0.0, "cached": true, "magicubes": 0.0, "phase": "Verify"}
+{"seq": 176, "t": 5.212, "type": "run.agent_started", "run_id": "d-budget-60", "thread": "d-budget-60/t086", "label": "check:financial#1", "model": "Qwen3.7-Plus", "phase": "Verify"}
+{"seq": 177, "t": 5.216, "type": "run.agent_ended", "run_id": "d-budget-60", "thread": "d-budget-60/t086", "label": "check:financial#1", "ok": true, "seconds": 0.0, "cached": true, "magicubes": 0.0, "phase": "Verify"}
+{"seq": 178, "t": 5.219, "type": "run.log", "run_id": "d-budget-60", "message": "36 confirmed"}
+{"seq": 179, "t": 5.219, "type": "run.phase_ended", "run_id": "d-budget-60", "phase": "Verify", "agents": 16, "failed": 0, "seconds": 0.51}
+{"seq": 180, "t": 5.219, "type": "run.phase_started", "run_id": "d-budget-60", "phase": "Report", "index": 3}
+{"seq": 181, "t": 5.219, "type": "run.agent_started", "run_id": "d-budget-60", "thread": "d-budget-60/t087", "label": "report", "model": "Qwen3.8-Max", "phase": "Report"}
+{"seq": 182, "t": 5.223, "type": "run.agent_ended", "run_id": "d-budget-60", "thread": "d-budget-60/t087", "label": "report", "ok": true, "seconds": 0.0, "cached": true, "magicubes": 0.0, "phase": "Report"}
+{"seq": 183, "t": 5.223, "type": "run.phase_ended", "run_id": "d-budget-60", "phase": "Report", "agents": 1, "failed": 0, "seconds": 0.0}
+{"seq": 184, "t": 5.223, "type": "run.ended", "run_id": "d-budget-60", "status": "completed", "seconds": 5.22, "agents": 87, "failed": 0, "magicubes": 0.0, "dropped": 0, "error": null}

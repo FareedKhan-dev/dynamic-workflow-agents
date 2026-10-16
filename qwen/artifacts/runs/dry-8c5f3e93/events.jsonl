@@ -1,0 +1,85 @@
+{"seq": 1, "t": 0.008, "type": "run.created", "run_id": "dry-8c5f3e93", "title": "dry run", "goal": ""}
+{"seq": 2, "t": 0.014, "type": "run.phase_started", "run_id": "dry-8c5f3e93", "phase": "Scan", "index": 1}
+{"seq": 3, "t": 0.014, "type": "run.log", "run_id": "dry-8c5f3e93", "message": "14 shards"}
+{"seq": 4, "t": 0.505, "type": "run.agent_started", "run_id": "dry-8c5f3e93", "thread": "dry-8c5f3e93/t001", "label": "scan:general:greedy_methods#0", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 5, "t": 0.538, "type": "run.agent_started", "run_id": "dry-8c5f3e93", "thread": "dry-8c5f3e93/t002", "label": "scan:general:machine_learning#0", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 6, "t": 0.57, "type": "run.agent_ended", "run_id": "dry-8c5f3e93", "thread": "dry-8c5f3e93/t001", "label": "scan:general:greedy_methods#0", "ok": true, "seconds": 0.07, "cached": false, "magicubes": 0.2, "phase": "Scan"}
+{"seq": 7, "t": 0.595, "type": "run.agent_started", "run_id": "dry-8c5f3e93", "thread": "dry-8c5f3e93/t003", "label": "scan:general:conversions#0", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 8, "t": 0.629, "type": "run.agent_ended", "run_id": "dry-8c5f3e93", "thread": "dry-8c5f3e93/t002", "label": "scan:general:machine_learning#0", "ok": true, "seconds": 0.09, "cached": false, "magicubes": 0.2, "phase": "Scan"}
+{"seq": 9, "t": 0.666, "type": "run.agent_started", "run_id": "dry-8c5f3e93", "thread": "dry-8c5f3e93/t004", "label": "scan:general:graphs#0", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 10, "t": 0.684, "type": "run.agent_started", "run_id": "dry-8c5f3e93", "thread": "dry-8c5f3e93/t005", "label": "scan:general:electronics#0", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 11, "t": 0.694, "type": "run.agent_ended", "run_id": "dry-8c5f3e93", "thread": "dry-8c5f3e93/t003", "label": "scan:general:conversions#0", "ok": true, "seconds": 0.1, "cached": false, "magicubes": 0.2, "phase": "Scan"}
+{"seq": 12, "t": 0.733, "type": "run.agent_started", "run_id": "dry-8c5f3e93", "thread": "dry-8c5f3e93/t006", "label": "scan:general:data_structures#0", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 13, "t": 0.757, "type": "run.agent_ended", "run_id": "dry-8c5f3e93", "thread": "dry-8c5f3e93/t004", "label": "scan:general:graphs#0", "ok": true, "seconds": 0.09, "cached": false, "magicubes": 0.2, "phase": "Scan"}
+{"seq": 14, "t": 0.812, "type": "run.agent_started", "run_id": "dry-8c5f3e93", "thread": "dry-8c5f3e93/t007", "label": "scan:general:ciphers#0", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 15, "t": 0.817, "type": "run.agent_ended", "run_id": "dry-8c5f3e93", "thread": "dry-8c5f3e93/t005", "label": "scan:general:electronics#0", "ok": true, "seconds": 0.13, "cached": false, "magicubes": 0.2, "phase": "Scan"}
+{"seq": 16, "t": 0.852, "type": "run.agent_started", "run_id": "dry-8c5f3e93", "thread": "dry-8c5f3e93/t008", "label": "scan:general:strings#0", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 17, "t": 0.87, "type": "run.agent_ended", "run_id": "dry-8c5f3e93", "thread": "dry-8c5f3e93/t006", "label": "scan:general:data_structures#0", "ok": true, "seconds": 0.14, "cached": false, "magicubes": 0.2, "phase": "Scan"}
+{"seq": 18, "t": 0.922, "type": "run.agent_started", "run_id": "dry-8c5f3e93", "thread": "dry-8c5f3e93/t009", "label": "scan:general:audio_filters#0", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 19, "t": 0.927, "type": "run.agent_ended", "run_id": "dry-8c5f3e93", "thread": "dry-8c5f3e93/t007", "label": "scan:general:ciphers#0", "ok": true, "seconds": 0.12, "cached": false, "magicubes": 0.2, "phase": "Scan"}
+{"seq": 20, "t": 0.955, "type": "run.agent_started", "run_id": "dry-8c5f3e93", "thread": "dry-8c5f3e93/t010", "label": "scan:general:data_structures#0", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 21, "t": 0.97, "type": "run.agent_started", "run_id": "dry-8c5f3e93", "thread": "dry-8c5f3e93/t011", "label": "scan:general:other#0", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 22, "t": 0.974, "type": "run.agent_ended", "run_id": "dry-8c5f3e93", "thread": "dry-8c5f3e93/t008", "label": "scan:general:strings#0", "ok": true, "seconds": 0.12, "cached": false, "magicubes": 0.2, "phase": "Scan"}
+{"seq": 23, "t": 1.005, "type": "run.agent_started", "run_id": "dry-8c5f3e93", "thread": "dry-8c5f3e93/t012", "label": "scan:general:maths#0", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 24, "t": 1.009, "type": "run.agent_started", "run_id": "dry-8c5f3e93", "thread": "dry-8c5f3e93/t013", "label": "scan:general:searches#0", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 25, "t": 1.021, "type": "run.agent_ended", "run_id": "dry-8c5f3e93", "thread": "dry-8c5f3e93/t009", "label": "scan:general:audio_filters#0", "ok": true, "seconds": 0.1, "cached": false, "magicubes": 0.2, "phase": "Scan"}
+{"seq": 26, "t": 1.077, "type": "run.agent_ended", "run_id": "dry-8c5f3e93", "thread": "dry-8c5f3e93/t010", "label": "scan:general:data_structures#0", "ok": true, "seconds": 0.12, "cached": false, "magicubes": 0.2, "phase": "Scan"}
+{"seq": 27, "t": 1.088, "type": "run.agent_started", "run_id": "dry-8c5f3e93", "thread": "dry-8c5f3e93/t014", "label": "scan:general:maths#0", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 28, "t": 1.113, "type": "run.agent_ended", "run_id": "dry-8c5f3e93", "thread": "dry-8c5f3e93/t011", "label": "scan:general:other#0", "ok": true, "seconds": 0.14, "cached": false, "magicubes": 0.2, "phase": "Scan"}
+{"seq": 29, "t": 1.151, "type": "run.agent_ended", "run_id": "dry-8c5f3e93", "thread": "dry-8c5f3e93/t012", "label": "scan:general:maths#0", "ok": true, "seconds": 0.15, "cached": false, "magicubes": 0.2, "phase": "Scan"}
+{"seq": 30, "t": 1.187, "type": "run.agent_ended", "run_id": "dry-8c5f3e93", "thread": "dry-8c5f3e93/t013", "label": "scan:general:searches#0", "ok": true, "seconds": 0.18, "cached": false, "magicubes": 0.2, "phase": "Scan"}
+{"seq": 31, "t": 1.228, "type": "run.agent_ended", "run_id": "dry-8c5f3e93", "thread": "dry-8c5f3e93/t014", "label": "scan:general:maths#0", "ok": true, "seconds": 0.14, "cached": false, "magicubes": 0.2, "phase": "Scan"}
+{"seq": 32, "t": 1.231, "type": "run.log", "run_id": "dry-8c5f3e93", "message": "Pass 0 (general): 12 findings, 12 unique places"}
+{"seq": 33, "t": 1.833, "type": "run.agent_started", "run_id": "dry-8c5f3e93", "thread": "dry-8c5f3e93/t015", "label": "scan:logic:greedy_methods#1", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 34, "t": 1.878, "type": "run.agent_started", "run_id": "dry-8c5f3e93", "thread": "dry-8c5f3e93/t016", "label": "scan:logic:machine_learning#1", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 35, "t": 1.905, "type": "run.agent_ended", "run_id": "dry-8c5f3e93", "thread": "dry-8c5f3e93/t015", "label": "scan:logic:greedy_methods#1", "ok": true, "seconds": 0.07, "cached": false, "magicubes": 0.2, "phase": "Scan"}
+{"seq": 36, "t": 1.936, "type": "run.agent_started", "run_id": "dry-8c5f3e93", "thread": "dry-8c5f3e93/t017", "label": "scan:logic:graphs#1", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 37, "t": 1.959, "type": "run.agent_ended", "run_id": "dry-8c5f3e93", "thread": "dry-8c5f3e93/t016", "label": "scan:logic:machine_learning#1", "ok": true, "seconds": 0.08, "cached": false, "magicubes": 0.2, "phase": "Scan"}
+{"seq": 38, "t": 1.995, "type": "run.agent_started", "run_id": "dry-8c5f3e93", "thread": "dry-8c5f3e93/t018", "label": "scan:logic:ciphers#1", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 39, "t": 2.015, "type": "run.agent_ended", "run_id": "dry-8c5f3e93", "thread": "dry-8c5f3e93/t017", "label": "scan:logic:graphs#1", "ok": true, "seconds": 0.08, "cached": false, "magicubes": 0.2, "phase": "Scan"}
+{"seq": 40, "t": 2.031, "type": "run.agent_started", "run_id": "dry-8c5f3e93", "thread": "dry-8c5f3e93/t019", "label": "scan:logic:electronics#1", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 41, "t": 2.061, "type": "run.agent_started", "run_id": "dry-8c5f3e93", "thread": "dry-8c5f3e93/t020", "label": "scan:logic:conversions#1", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 42, "t": 2.064, "type": "run.agent_ended", "run_id": "dry-8c5f3e93", "thread": "dry-8c5f3e93/t018", "label": "scan:logic:ciphers#1", "ok": true, "seconds": 0.07, "cached": false, "magicubes": 0.2, "phase": "Scan"}
+{"seq": 43, "t": 2.119, "type": "run.agent_started", "run_id": "dry-8c5f3e93", "thread": "dry-8c5f3e93/t021", "label": "scan:logic:other#1", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 44, "t": 2.15, "type": "run.agent_ended", "run_id": "dry-8c5f3e93", "thread": "dry-8c5f3e93/t019", "label": "scan:logic:electronics#1", "ok": true, "seconds": 0.12, "cached": false, "magicubes": 0.2, "phase": "Scan"}
+{"seq": 45, "t": 2.175, "type": "run.agent_started", "run_id": "dry-8c5f3e93", "thread": "dry-8c5f3e93/t022", "label": "scan:logic:strings#1", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 46, "t": 2.181, "type": "run.agent_started", "run_id": "dry-8c5f3e93", "thread": "dry-8c5f3e93/t023", "label": "scan:logic:data_structures#1", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 47, "t": 2.193, "type": "run.agent_ended", "run_id": "dry-8c5f3e93", "thread": "dry-8c5f3e93/t020", "label": "scan:logic:conversions#1", "ok": true, "seconds": 0.13, "cached": false, "magicubes": 0.2, "phase": "Scan"}
+{"seq": 48, "t": 2.2, "type": "run.agent_started", "run_id": "dry-8c5f3e93", "thread": "dry-8c5f3e93/t024", "label": "scan:logic:maths#1", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 49, "t": 2.228, "type": "run.agent_started", "run_id": "dry-8c5f3e93", "thread": "dry-8c5f3e93/t025", "label": "scan:logic:audio_filters#1", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 50, "t": 2.265, "type": "run.agent_started", "run_id": "dry-8c5f3e93", "thread": "dry-8c5f3e93/t026", "label": "scan:logic:searches#1", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 51, "t": 2.27, "type": "run.agent_ended", "run_id": "dry-8c5f3e93", "thread": "dry-8c5f3e93/t021", "label": "scan:logic:other#1", "ok": true, "seconds": 0.15, "cached": false, "magicubes": 0.2, "phase": "Scan"}
+{"seq": 52, "t": 2.282, "type": "run.agent_started", "run_id": "dry-8c5f3e93", "thread": "dry-8c5f3e93/t027", "label": "scan:logic:data_structures#1", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 53, "t": 2.296, "type": "run.agent_ended", "run_id": "dry-8c5f3e93", "thread": "dry-8c5f3e93/t022", "label": "scan:logic:strings#1", "ok": true, "seconds": 0.12, "cached": false, "magicubes": 0.2, "phase": "Scan"}
+{"seq": 54, "t": 2.331, "type": "run.agent_started", "run_id": "dry-8c5f3e93", "thread": "dry-8c5f3e93/t028", "label": "scan:logic:maths#1", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 55, "t": 2.336, "type": "run.agent_ended", "run_id": "dry-8c5f3e93", "thread": "dry-8c5f3e93/t023", "label": "scan:logic:data_structures#1", "ok": true, "seconds": 0.16, "cached": false, "magicubes": 0.2, "phase": "Scan"}
+{"seq": 56, "t": 2.387, "type": "run.agent_ended", "run_id": "dry-8c5f3e93", "thread": "dry-8c5f3e93/t024", "label": "scan:logic:maths#1", "ok": true, "seconds": 0.19, "cached": false, "magicubes": 0.2, "phase": "Scan"}
+{"seq": 57, "t": 2.44, "type": "run.agent_ended", "run_id": "dry-8c5f3e93", "thread": "dry-8c5f3e93/t025", "label": "scan:logic:audio_filters#1", "ok": true, "seconds": 0.21, "cached": false, "magicubes": 0.2, "phase": "Scan"}
+{"seq": 58, "t": 2.476, "type": "run.agent_ended", "run_id": "dry-8c5f3e93", "thread": "dry-8c5f3e93/t026", "label": "scan:logic:searches#1", "ok": true, "seconds": 0.21, "cached": false, "magicubes": 0.2, "phase": "Scan"}
+{"seq": 59, "t": 2.511, "type": "run.agent_ended", "run_id": "dry-8c5f3e93", "thread": "dry-8c5f3e93/t027", "label": "scan:logic:data_structures#1", "ok": true, "seconds": 0.23, "cached": false, "magicubes": 0.2, "phase": "Scan"}
+{"seq": 60, "t": 2.545, "type": "run.agent_ended", "run_id": "dry-8c5f3e93", "thread": "dry-8c5f3e93/t028", "label": "scan:logic:maths#1", "ok": true, "seconds": 0.21, "cached": false, "magicubes": 0.2, "phase": "Scan"}
+{"seq": 61, "t": 2.547, "type": "run.log", "run_id": "dry-8c5f3e93", "message": "Pass 1 (logic): 12 findings, 24 unique places"}
+{"seq": 62, "t": 2.548, "type": "run.phase_ended", "run_id": "dry-8c5f3e93", "phase": "Scan", "agents": 28, "failed": 0, "seconds": 2.53}
+{"seq": 63, "t": 2.548, "type": "run.phase_started", "run_id": "dry-8c5f3e93", "phase": "Filter", "index": 2}
+{"seq": 64, "t": 2.548, "type": "run.log", "run_id": "dry-8c5f3e93", "message": "24 candidates, 24 kept for judgment"}
+{"seq": 65, "t": 2.548, "type": "run.phase_ended", "run_id": "dry-8c5f3e93", "phase": "Filter", "agents": 0, "failed": 0, "seconds": 0.0}
+{"seq": 66, "t": 2.548, "type": "run.phase_started", "run_id": "dry-8c5f3e93", "phase": "Verify", "index": 3}
+{"seq": 67, "t": 2.564, "type": "run.agent_started", "run_id": "dry-8c5f3e93", "thread": "dry-8c5f3e93/t029", "label": "check:backtracking#1", "model": "Qwen3.7-Plus", "phase": "Verify"}
+{"seq": 68, "t": 2.567, "type": "run.agent_started", "run_id": "dry-8c5f3e93", "thread": "dry-8c5f3e93/t030", "label": "check:data_structures#1", "model": "Qwen3.7-Plus", "phase": "Verify"}
+{"seq": 69, "t": 2.568, "type": "run.agent_started", "run_id": "dry-8c5f3e93", "thread": "dry-8c5f3e93/t031", "label": "check:data_structures#0", "model": "Qwen3.7-Plus", "phase": "Verify"}
+{"seq": 70, "t": 2.569, "type": "run.agent_started", "run_id": "dry-8c5f3e93", "thread": "dry-8c5f3e93/t032", "label": "check:backtracking#0", "model": "Qwen3.7-Plus", "phase": "Verify"}
+{"seq": 71, "t": 2.572, "type": "run.agent_started", "run_id": "dry-8c5f3e93", "thread": "dry-8c5f3e93/t033", "label": "check:maths#0", "model": "Qwen3.7-Plus", "phase": "Verify"}
+{"seq": 72, "t": 2.572, "type": "run.agent_started", "run_id": "dry-8c5f3e93", "thread": "dry-8c5f3e93/t034", "label": "check:maths#1", "model": "Qwen3.7-Plus", "phase": "Verify"}
+{"seq": 73, "t": 2.575, "type": "run.agent_ended", "run_id": "dry-8c5f3e93", "thread": "dry-8c5f3e93/t029", "label": "check:backtracking#1", "ok": true, "seconds": 0.01, "cached": false, "magicubes": 0.2, "phase": "Verify"}
+{"seq": 74, "t": 2.587, "type": "run.agent_ended", "run_id": "dry-8c5f3e93", "thread": "dry-8c5f3e93/t030", "label": "check:data_structures#1", "ok": true, "seconds": 0.02, "cached": false, "magicubes": 0.2, "phase": "Verify"}
+{"seq": 75, "t": 2.596, "type": "run.agent_ended", "run_id": "dry-8c5f3e93", "thread": "dry-8c5f3e93/t031", "label": "check:data_structures#0", "ok": true, "seconds": 0.03, "cached": false, "magicubes": 0.2, "phase": "Verify"}
+{"seq": 76, "t": 2.604, "type": "run.agent_ended", "run_id": "dry-8c5f3e93", "thread": "dry-8c5f3e93/t032", "label": "check:backtracking#0", "ok": true, "seconds": 0.03, "cached": false, "magicubes": 0.2, "phase": "Verify"}
+{"seq": 77, "t": 2.613, "type": "run.agent_ended", "run_id": "dry-8c5f3e93", "thread": "dry-8c5f3e93/t033", "label": "check:maths#0", "ok": true, "seconds": 0.04, "cached": false, "magicubes": 0.2, "phase": "Verify"}
+{"seq": 78, "t": 2.62, "type": "run.agent_ended", "run_id": "dry-8c5f3e93", "thread": "dry-8c5f3e93/t034", "label": "check:maths#1", "ok": true, "seconds": 0.05, "cached": false, "magicubes": 0.2, "phase": "Verify"}
+{"seq": 79, "t": 2.621, "type": "run.log", "run_id": "dry-8c5f3e93", "message": "1 confirmed"}
+{"seq": 80, "t": 2.621, "type": "run.phase_ended", "run_id": "dry-8c5f3e93", "phase": "Verify", "agents": 6, "failed": 0, "seconds": 0.07}
+{"seq": 81, "t": 2.621, "type": "run.phase_started", "run_id": "dry-8c5f3e93", "phase": "Report", "index": 4}
+{"seq": 82, "t": 2.621, "type": "run.agent_started", "run_id": "dry-8c5f3e93", "thread": "dry-8c5f3e93/t035", "label": "report", "model": "Qwen3.8-Max", "phase": "Report"}
+{"seq": 83, "t": 2.627, "type": "run.agent_ended", "run_id": "dry-8c5f3e93", "thread": "dry-8c5f3e93/t035", "label": "report", "ok": true, "seconds": 0.01, "cached": false, "magicubes": 0.5, "phase": "Report"}
+{"seq": 84, "t": 2.627, "type": "run.phase_ended", "run_id": "dry-8c5f3e93", "phase": "Report", "agents": 1, "failed": 0, "seconds": 0.01}
+{"seq": 85, "t": 2.627, "type": "run.ended", "run_id": "dry-8c5f3e93", "status": "completed", "seconds": 2.63, "agents": 35, "failed": 0, "magicubes": 7.3, "dropped": 0, "error": null}

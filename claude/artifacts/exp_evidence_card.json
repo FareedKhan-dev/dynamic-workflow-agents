@@ -1,0 +1,36 @@
+{
+  "acc_with": 0.6725,
+  "acc_without": 0.6053,
+  "tpr_with": 0.9286,
+  "fpr_with": 0.5747,
+  "tpr_without": 0.9405,
+  "fpr_without": 0.7184,
+  "by_status": [
+    {
+      "status": "differs",
+      "places": 57,
+      "with": 0.6316,
+      "without": 0.6667
+    },
+    {
+      "status": "raised",
+      "places": 18,
+      "with": 0.6667,
+      "without": 0.6852
+    },
+    {
+      "status": "agrees",
+      "places": 3,
+      "with": 1.0,
+      "without": 0.3333
+    },
+    {
+      "status": "not run",
+      "places": 36,
+      "with": 0.713,
+      "without": 0.4907
+    }
+  ],
+  "verdicts": 342,
+  "places": 114
+}

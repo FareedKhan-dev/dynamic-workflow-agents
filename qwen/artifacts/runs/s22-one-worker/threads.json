@@ -1,0 +1,15 @@
+[
+ {
+  "id": "s22-one-worker/t001",
+  "label": "scan#0",
+  "phase": "Scan",
+  "model": "Qwen-Ambassador/Qwen3.8-27B",
+  "status": "done",
+  "started": 0.20464429999992717,
+  "ended": 0.20917209999606712,
+  "cost": 0.0,
+  "error": null,
+  "replies": 1,
+  "reply": "{\"findings\": [{\"file\": \"bit_manipulation/fast_walsh_hadamard_transform.py\", \"line\": 55, \"function\": \"fwht_xor\", \"claim\": \"The function returns the original input sequence instead of the computed transform result.\", \"failing_call\": \"fwht_xor([1, 2, 3, 4])\", \"expected\": \"[10, -2, -2, 8]\", \"confidence\": 1.0}]}"
+ }
+]

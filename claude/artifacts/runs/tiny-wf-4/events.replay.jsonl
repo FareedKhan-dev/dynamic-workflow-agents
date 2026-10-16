@@ -1,0 +1,10 @@
+{"seq": 1, "t": 0.0, "type": "run.created", "run_id": "tiny-wf-4", "title": "tiny job 4: forced workflow", "goal": ""}
+{"seq": 2, "t": 0.0, "type": "run.agent_started", "run_id": "tiny-wf-4", "thread": "tiny-wf-4/t001", "label": "grade:201#0", "model": "claude-haiku-5-5", "phase": ""}
+{"seq": 3, "t": 0.0, "type": "run.agent_ended", "run_id": "tiny-wf-4", "thread": "tiny-wf-4/t001", "label": "grade:201#0", "ok": true, "seconds": 0.0, "cached": true, "cents": 0.0, "phase": ""}
+{"seq": 4, "t": 0.001, "type": "run.agent_started", "run_id": "tiny-wf-4", "thread": "tiny-wf-4/t002", "label": "recheck:calculator:204#0", "model": "claude-haiku-4-5", "phase": ""}
+{"seq": 5, "t": 0.001, "type": "run.agent_started", "run_id": "tiny-wf-4", "thread": "tiny-wf-4/t003", "label": "recheck:logic:204#0", "model": "claude-haiku-4-5", "phase": ""}
+{"seq": 6, "t": 0.001, "type": "run.agent_started", "run_id": "tiny-wf-4", "thread": "tiny-wf-4/t004", "label": "recheck:question:204#0", "model": "claude-haiku-4-5", "phase": ""}
+{"seq": 7, "t": 0.001, "type": "run.agent_ended", "run_id": "tiny-wf-4", "thread": "tiny-wf-4/t002", "label": "recheck:calculator:204#0", "ok": true, "seconds": 0.0, "cached": true, "cents": 0.0, "phase": ""}
+{"seq": 8, "t": 0.002, "type": "run.agent_ended", "run_id": "tiny-wf-4", "thread": "tiny-wf-4/t003", "label": "recheck:logic:204#0", "ok": true, "seconds": 0.0, "cached": true, "cents": 0.0, "phase": ""}
+{"seq": 9, "t": 0.002, "type": "run.agent_ended", "run_id": "tiny-wf-4", "thread": "tiny-wf-4/t004", "label": "recheck:question:204#0", "ok": true, "seconds": 0.0, "cached": true, "cents": 0.0, "phase": ""}
+{"seq": 10, "t": 0.002, "type": "run.ended", "run_id": "tiny-wf-4", "status": "completed", "seconds": 0.0, "agents": 4, "failed": 0, "cents": 0.0, "dropped": 0, "error": null}

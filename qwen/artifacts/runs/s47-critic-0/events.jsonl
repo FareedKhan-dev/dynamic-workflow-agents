@@ -1,0 +1,4 @@
+{"seq": 1, "t": 0.0, "type": "run.created", "run_id": "s47-critic-0", "title": "critic for run 0", "goal": ""}
+{"seq": 2, "t": 0.0, "type": "run.agent_started", "run_id": "s47-critic-0", "thread": "s47-critic-0/t001", "label": "critic", "model": "Qwen3.8-Max", "phase": ""}
+{"seq": 3, "t": 0.002, "type": "run.agent_ended", "run_id": "s47-critic-0", "thread": "s47-critic-0/t001", "label": "critic", "ok": true, "seconds": 0.0, "cached": true, "magicubes": 0.0, "phase": ""}
+{"seq": 4, "t": 0.002, "type": "run.ended", "run_id": "s47-critic-0", "status": "completed", "seconds": 0.0, "agents": 1, "failed": 0, "magicubes": 0.0, "dropped": 0, "error": null}

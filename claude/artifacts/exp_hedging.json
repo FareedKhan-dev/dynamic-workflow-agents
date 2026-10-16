@@ -1,0 +1,87 @@
+{
+  "rows": [
+    {
+      "setting": "no hedging",
+      "gate": "256 fixed slots",
+      "median": 0.584,
+      "p90": 0.9636,
+      "slowest": 1.4922,
+      "extra_calls": 0
+    },
+    {
+      "setting": "hedge after p50",
+      "gate": "256 fixed slots",
+      "median": 0.5846,
+      "p90": 0.9035,
+      "slowest": 1.5015,
+      "extra_calls": 27
+    },
+    {
+      "setting": "hedge after p75",
+      "gate": "256 fixed slots",
+      "median": 0.588,
+      "p90": 0.9749,
+      "slowest": 1.5009,
+      "extra_calls": 11
+    },
+    {
+      "setting": "hedge after p90",
+      "gate": "256 fixed slots",
+      "median": 0.5811,
+      "p90": 0.9748,
+      "slowest": 1.4994,
+      "extra_calls": 4
+    },
+    {
+      "setting": "hedge after p95",
+      "gate": "256 fixed slots",
+      "median": 0.603,
+      "p90": 0.9784,
+      "slowest": 1.521,
+      "extra_calls": 2
+    },
+    {
+      "setting": "no hedging",
+      "gate": "40 fixed slots",
+      "median": 0.697,
+      "p90": 1.1307,
+      "slowest": 1.4899,
+      "extra_calls": 0
+    },
+    {
+      "setting": "hedge after p50",
+      "gate": "40 fixed slots",
+      "median": 0.7211,
+      "p90": 1.133,
+      "slowest": 1.5171,
+      "extra_calls": 39
+    },
+    {
+      "setting": "no hedging",
+      "gate": "learning gate",
+      "median": 0.7961,
+      "p90": 1.2164,
+      "slowest": 1.74,
+      "extra_calls": 0
+    },
+    {
+      "setting": "hedge after p50",
+      "gate": "learning gate",
+      "median": 0.7971,
+      "p90": 1.4933,
+      "slowest": 2.25,
+      "extra_calls": 41
+    }
+  ],
+  "extra_p50": 27,
+  "extra_p90": 4,
+  "slowest_p50": 1.5015,
+  "tight_verdict": "about the same slowest call (+2%)",
+  "learning_verdict": "a slowest call 29% slower",
+  "slowest_none": 1.4922,
+  "slowest_p90": 1.4994,
+  "wide_p50_verdict": "about the same slowest call (+1%)",
+  "wide_p90_verdict": "about the same slowest call (+0%)",
+  "p90_none": 0.9636,
+  "p90_p50": 0.9035
+}

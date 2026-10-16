@@ -1,0 +1,54 @@
+[
+ {
+  "id": "tiny-wf-5/t001",
+  "label": "grade:251#0",
+  "phase": "",
+  "model": "Qwen-Ambassador/Qwen3.8-27B",
+  "status": "done",
+  "started": 0.00025019999884534627,
+  "ended": 0.0014135000019450672,
+  "cost": 0.0,
+  "error": null,
+  "replies": 1,
+  "reply": "{\"grades\": [{\"id\": 251, \"wrong\": false, \"first_wrong_line\": null, \"kind\": null}, {\"id\": 252, \"wrong\": true, \"first_wrong_line\": 1, \"kind\": \"misread\"}, {\"id\": 253, \"wrong\": true, \"first_wrong_line\": 1, \"kind\": \"slip\"}, {\"id\": 254, \"wrong\": true, \"first_wrong_line\": 4, \"kind\": \"operation\"}, {\"id\": 255, \"wrong\": false, \"first_wrong_line\": null, \"kind\": null}]}"
+ },
+ {
+  "id": "tiny-wf-5/t002",
+  "label": "recheck:calculator:252#0",
+  "phase": "",
+  "model": "Qwen-Ambassador/Qwen3.7-Plus",
+  "status": "done",
+  "started": 0.002749200000835117,
+  "ended": 53.31826690000162,
+  "cost": 0.2,
+  "error": null,
+  "replies": 1,
+  "reply": "{\n  \"grades\": [\n    {\n      \"id\": 252,\n      \"wrong\": true,\n      \"first_wrong_line\": 1,\n      \"kind\": \"misread\"\n    },\n    {\n      \"id\": 253,\n      \"wrong\": true,\n      \"first_wrong_line\": 2,\n      \"kind\": \"operation\"\n    },\n    {\n      \"id\": 254,\n      \"wrong\": true,\n      \"first_wrong_line\": 8,\n      \"kind\": \"slip\"\n    }\n  ]\n}"
+ },
+ {
+  "id": "tiny-wf-5/t003",
+  "label": "recheck:logic:252#0",
+  "phase": "",
+  "model": "Qwen-Ambassador/Qwen3.7-Plus",
+  "status": "done",
+  "started": 0.003845899998850655,
+  "ended": 66.71989900000335,
+  "cost": 0.2,
+  "error": null,
+  "replies": 1,
+  "reply": "{\n  \"grades\": [\n    {\n      \"id\": 252,\n      \"wrong\": true,\n      \"first_wrong_line\": 1,\n      \"kind\": \"misread\"\n    },\n    {\n      \"id\": 253,\n      \"wrong\": true,\n      \"first_wrong_line\": 2,\n      \"kind\": \"operation\"\n    },\n    {\n      \"id\": 254,\n      \"wrong\": true,\n      \"first_wrong_line\": 8,\n      \"kind\": \"slip\"\n    }\n  ]\n}"
+ },
+ {
+  "id": "tiny-wf-5/t004",
+  "label": "recheck:question:252#0",
+  "phase": "",
+  "model": "Qwen-Ambassador/Qwen3.7-Plus",
+  "status": "done",
+  "started": 0.0049373000001651235,
+  "ended": 60.05720970000402,
+  "cost": 0.2,
+  "error": null,
+  "replies": 1,
+  "reply": "{\"grades\": [{\"id\": 252, \"wrong\": true, \"first_wrong_line\": 1, \"kind\": \"misread\"}, {\"id\": 253, \"wrong\": true, \"first_wrong_line\": 1, \"kind\": \"misread\"}, {\"id\": 254, \"wrong\": true, \"first_wrong_line\": 8, \"kind\": \"slip\"}]}"
+ }
+]

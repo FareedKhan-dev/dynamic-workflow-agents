@@ -1,0 +1,15 @@
+[
+ {
+  "id": "intents-flat/t001",
+  "label": "merge:1727",
+  "phase": "",
+  "model": "claude-haiku-4-5",
+  "status": "failed",
+  "started": 0.0007332679997489322,
+  "ended": 0.004467175999707251,
+  "cost": 0.0,
+  "error": "schema: top level: 'topics' is a required property; top level: 'mapping' is a required property",
+  "replies": 2,
+  "reply": "{\n  \"topics\": [\n    {\n      \"name\": \"Card Delivery and Activation\",\n      \"description\": \"Issues related to receiving physical or virtual cards, delivery timelines, and card activation\"\n    },\n    {\n      \"name\": \"Card Lost or Stolen\",\n      \"description\": \"Reporting lost or stolen cards and requesting emergency replacement or blocking\"\n    },\n    {\n      \"name\": \"Card Technical Issues\",\n      \"description\": \"Card not working, broken, declined, or experiencing technical problems\"\n    },\n    {\n      \"name\": \"PIN Management\",\n      \"description\": \"PIN-related issues including forgotten PIN, blocked PIN, changing PIN, and wrong PIN attempts\"\n    },\n    {\n      \"name\": \"Top-Up by Card\",\n      \"description\": \"Adding funds to account using credit or debit cards, including payment method acceptance\"\n    },\n    {\n      \"name\": \"Top-Up by Bank Transfer\",\n      \"description\": \"Adding funds via bank transfer or account transfer methods\"\n    },\n    {\n      \"name\": \"Top-Up by Cash or Cheque\",\n      \"description\": \"Depositing cash or cheques to add funds to account\"\n    },\n    {\n      \"name\": \"Top-Up Verification and Authentication\",\n      \"description\": \"Verification codes, authentication processes, and security checks for top-ups\"\n    },\n    {\n      \"name\": \"Top-Up Limits and Policies\",\n      \"description\": \"Questions about top-up limits, maximum amounts, frequency restrictions, and auto top-up settings\"\n    },\n    {\n      \"name\": \"Top-Up Failed or Pending\",\n      \"description\": \"Top-up transactions that failed, were declined, reverted, or remain pending\"\n    },\n    {\n      \"name\": \"Currency Exchange Rates\",\n      \"description\": \"Questions about exchange rates, rate calculations, and currency conversion costs\"\n    },\n    {\n      \"name\": \"Currency Conversion Issues\",\n      \"description\": \"Problems with currency exchanges, incorrect rates applied, or unexpected conversion fees\"\n    },\n    {\n      \"name\": \"Supported Currencies and Countries\",\n      \"description\": \"Questions about "
+ }
+]

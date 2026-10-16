@@ -1,0 +1,136 @@
+{
+  "estimates": {
+    "the fixed plan, compiled": {
+      "agents": 148,
+      "calls": 148,
+      "cents": 107.9,
+      "phases": {
+        "Scan": 111,
+        "Verify": 36,
+        "Report": 1
+      },
+      "dropped": 0,
+      "minutes": 2.0,
+      "status": "completed"
+    },
+    "loop until nothing new": {
+      "agents": 223,
+      "calls": 223,
+      "cents": 236.0,
+      "phases": {
+        "Scan": 111,
+        "Verify": 111,
+        "Report": 1
+      },
+      "dropped": 0,
+      "minutes": 2.2,
+      "status": "completed"
+    },
+    "decide from the evidence": {
+      "agents": 148,
+      "calls": 148,
+      "cents": 107.9,
+      "phases": {
+        "Scan": 111,
+        "Triage": 0,
+        "Verify": 36,
+        "Report": 1
+      },
+      "dropped": 0,
+      "minutes": 2.0,
+      "status": "completed"
+    },
+    "pipeline per shard": {
+      "agents": 223,
+      "calls": 223,
+      "cents": 222.0,
+      "phases": {
+        "Scan and verify, per shard": 222,
+        "Report": 1
+      },
+      "dropped": 0,
+      "minutes": 3.1,
+      "status": "completed"
+    },
+    "fit the budget": {
+      "agents": 148,
+      "calls": 148,
+      "cents": 107.9,
+      "phases": {
+        "Scan": 111,
+        "Verify": 36,
+        "Report": 1
+      },
+      "dropped": 0,
+      "minutes": 2.0,
+      "status": "completed"
+    }
+  },
+  "runaway_refused": true,
+  "runaway_reason": "line 1: the dry run ended cancelled: 1000 workers refused by the agent limit",
+  "fixed_error": -0.0843,
+  "json_error": -0.0684,
+  "auto_limit": 80.0,
+  "gate": [
+    {
+      "plan": "the fixed plan, compiled",
+      "decision": "held",
+      "why": "estimated 107.9\u00a2 is over the automatic limit of 80.0; a person must approve it",
+      "tight": "held",
+      "why_tight": "estimated 107.9\u00a2 is over the automatic limit of 66.7; a person must approve it"
+    },
+    {
+      "plan": "loop until nothing new",
+      "decision": "held",
+      "why": "estimated 236.0\u00a2 is over the automatic limit of 80.0; a person must approve it",
+      "tight": "refused",
+      "why_tight": "estimated 236.0\u00a2 is more than the whole budget of 200"
+    },
+    {
+      "plan": "decide from the evidence",
+      "decision": "held",
+      "why": "estimated 107.9\u00a2 is over the automatic limit of 80.0; a person must approve it",
+      "tight": "held",
+      "why_tight": "estimated 107.9\u00a2 is over the automatic limit of 66.7; a person must approve it"
+    },
+    {
+      "plan": "pipeline per shard",
+      "decision": "held",
+      "why": "estimated 222.0\u00a2 is over the automatic limit of 80.0; a person must approve it",
+      "tight": "refused",
+      "why_tight": "estimated 222.0\u00a2 is more than the whole budget of 200"
+    },
+    {
+      "plan": "fit the budget",
+      "decision": "held",
+      "why": "estimated 107.9\u00a2 is over the automatic limit of 80.0; a person must approve it",
+      "tight": "held",
+      "why_tight": "estimated 107.9\u00a2 is over the automatic limit of 66.7; a person must approve it"
+    },
+    {
+      "plan": "runaway",
+      "decision": "refused",
+      "why": "the plan failed its check or its dry run",
+      "tight": "refused",
+      "why_tight": "the plan failed its check or its dry run"
+    }
+  ],
+  "estimate_rows": [
+    {
+      "plan": "C, the fixed plan (mean of 3)",
+      "est_calls": 148,
+      "calls": 175.0,
+      "est_cents": 107.9,
+      "mc": 117.8333,
+      "error": -0.0843
+    },
+    {
+      "plan": "the lead's JSON plan 0",
+      "est_calls": 148,
+      "calls": 183,
+      "est_cents": 105.5,
+      "mc": 113.24,
+      "error": -0.0684
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "first_try": 1.0,
+  "after_repair": 1.0,
+  "correct": 1.0,
+  "per_model": [
+    {
+      "model": "Qwen3.8-27B",
+      "first_try": 1.0,
+      "after_repair": 1.0,
+      "correct": 1.0
+    },
+    {
+      "model": "Qwen3.8-Flash-Next",
+      "first_try": 1.0,
+      "after_repair": 1.0,
+      "correct": 1.0
+    },
+    {
+      "model": "Qwen3.7-Plus",
+      "first_try": 1.0,
+      "after_repair": 1.0,
+      "correct": 1.0
+    },
+    {
+      "model": "Qwen3.8-Max",
+      "first_try": 1.0,
+      "after_repair": 1.0,
+      "correct": 1.0
+    }
+  ],
+  "files": [
+    "physics/mirror_formulae.py",
+    "conversions/decimal_to_binary.py",
+    "backtracking/m_coloring_problem.py",
+    "strings/bpe_tokenizer.py",
+    "data_structures/queues/queue_by_list.py",
+    "data_structures/linked_list/partition_linked_list.py",
+    "data_structures/linked_list/has_loop.py",
+    "data_structures/arrays/find_triplets_with_0_sum.py"
+  ]
+}

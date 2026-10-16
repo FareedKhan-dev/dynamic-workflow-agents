@@ -1,0 +1,71 @@
+{
+  "models": 4,
+  "answers": 4,
+  "json_mode": 4,
+  "thinking_off": 4,
+  "slowest_s": 1.2462,
+  "rows": [
+    {
+      "model": "claude-sonnet-5-5",
+      "role": "lead",
+      "answers": "yes",
+      "thinking off": "yes",
+      "JSON mode": "yes",
+      "first_byte": 1.2125,
+      "seconds": 1.2267,
+      "reasoning": 0
+    },
+    {
+      "model": "claude-sonnet-5",
+      "role": "lead_alt",
+      "answers": "yes",
+      "thinking off": "yes",
+      "JSON mode": "yes",
+      "first_byte": 0.8816,
+      "seconds": 1.2462,
+      "reasoning": 0
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "role": "worker, fast",
+      "answers": "yes",
+      "thinking off": "yes",
+      "JSON mode": "yes",
+      "first_byte": 1.13,
+      "seconds": 1.1424,
+      "reasoning": 0
+    },
+    {
+      "model": "claude-haiku-4-5",
+      "role": "judge, omni",
+      "answers": "yes",
+      "thinking off": "yes",
+      "JSON mode": "yes",
+      "first_byte": 0.6353,
+      "seconds": 0.6936,
+      "reasoning": 0
+    }
+  ],
+  "can": {
+    "claude-sonnet-5-5": [
+      "JSON mode",
+      "answers",
+      "thinking off"
+    ],
+    "claude-sonnet-5": [
+      "JSON mode",
+      "answers",
+      "thinking off"
+    ],
+    "claude-haiku-5-5": [
+      "JSON mode",
+      "answers",
+      "thinking off"
+    ],
+    "claude-haiku-4-5": [
+      "JSON mode",
+      "answers",
+      "thinking off"
+    ]
+  }
+}

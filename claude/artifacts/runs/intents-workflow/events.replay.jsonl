@@ -1,0 +1,159 @@
+{"seq": 1, "t": 0.0, "type": "run.created", "run_id": "intents-workflow", "title": "intents: the lead's plan", "goal": "Find out what the bank's customers are asking about: a list of topics, and how many of the 10,003 messages fall into each."}
+{"seq": 2, "t": 0.002, "type": "run.phase_started", "run_id": "intents-workflow", "phase": "Tag", "index": 1}
+{"seq": 3, "t": 0.003, "type": "run.agent_started", "run_id": "intents-workflow", "thread": "intents-workflow/t001", "label": "tag:1", "model": "claude-haiku-5-5", "phase": "Tag"}
+{"seq": 4, "t": 0.004, "type": "run.agent_started", "run_id": "intents-workflow", "thread": "intents-workflow/t002", "label": "tag:301", "model": "claude-haiku-5-5", "phase": "Tag"}
+{"seq": 5, "t": 0.005, "type": "run.agent_started", "run_id": "intents-workflow", "thread": "intents-workflow/t003", "label": "tag:601", "model": "claude-haiku-5-5", "phase": "Tag"}
+{"seq": 6, "t": 0.005, "type": "run.agent_started", "run_id": "intents-workflow", "thread": "intents-workflow/t004", "label": "tag:901", "model": "claude-haiku-5-5", "phase": "Tag"}
+{"seq": 7, "t": 0.006, "type": "run.agent_started", "run_id": "intents-workflow", "thread": "intents-workflow/t005", "label": "tag:1201", "model": "claude-haiku-5-5", "phase": "Tag"}
+{"seq": 8, "t": 0.009, "type": "run.agent_ended", "run_id": "intents-workflow", "thread": "intents-workflow/t001", "label": "tag:1", "ok": true, "seconds": 0.01, "cached": true, "cents": 0.0, "phase": "Tag"}
+{"seq": 9, "t": 0.01, "type": "run.agent_started", "run_id": "intents-workflow", "thread": "intents-workflow/t006", "label": "tag:1501", "model": "claude-haiku-5-5", "phase": "Tag"}
+{"seq": 10, "t": 0.01, "type": "run.agent_started", "run_id": "intents-workflow", "thread": "intents-workflow/t007", "label": "tag:1801", "model": "claude-haiku-5-5", "phase": "Tag"}
+{"seq": 11, "t": 0.014, "type": "run.agent_ended", "run_id": "intents-workflow", "thread": "intents-workflow/t002", "label": "tag:301", "ok": true, "seconds": 0.01, "cached": true, "cents": 0.0, "phase": "Tag"}
+{"seq": 12, "t": 0.015, "type": "run.agent_started", "run_id": "intents-workflow", "thread": "intents-workflow/t008", "label": "tag:2401", "model": "claude-haiku-5-5", "phase": "Tag"}
+{"seq": 13, "t": 0.015, "type": "run.agent_started", "run_id": "intents-workflow", "thread": "intents-workflow/t009", "label": "tag:2101", "model": "claude-haiku-5-5", "phase": "Tag"}
+{"seq": 14, "t": 0.016, "type": "run.agent_started", "run_id": "intents-workflow", "thread": "intents-workflow/t010", "label": "tag:2701", "model": "claude-haiku-5-5", "phase": "Tag"}
+{"seq": 15, "t": 0.019, "type": "run.agent_ended", "run_id": "intents-workflow", "thread": "intents-workflow/t003", "label": "tag:601", "ok": true, "seconds": 0.01, "cached": true, "cents": 0.0, "phase": "Tag"}
+{"seq": 16, "t": 0.024, "type": "run.agent_ended", "run_id": "intents-workflow", "thread": "intents-workflow/t004", "label": "tag:901", "ok": true, "seconds": 0.02, "cached": true, "cents": 0.0, "phase": "Tag"}
+{"seq": 17, "t": 0.024, "type": "run.agent_started", "run_id": "intents-workflow", "thread": "intents-workflow/t011", "label": "tag:3601", "model": "claude-haiku-5-5", "phase": "Tag"}
+{"seq": 18, "t": 0.024, "type": "run.agent_started", "run_id": "intents-workflow", "thread": "intents-workflow/t012", "label": "tag:3301", "model": "claude-haiku-5-5", "phase": "Tag"}
+{"seq": 19, "t": 0.025, "type": "run.agent_started", "run_id": "intents-workflow", "thread": "intents-workflow/t013", "label": "tag:3001", "model": "claude-haiku-5-5", "phase": "Tag"}
+{"seq": 20, "t": 0.025, "type": "run.agent_started", "run_id": "intents-workflow", "thread": "intents-workflow/t014", "label": "tag:3901", "model": "claude-haiku-5-5", "phase": "Tag"}
+{"seq": 21, "t": 0.026, "type": "run.agent_started", "run_id": "intents-workflow", "thread": "intents-workflow/t015", "label": "tag:4201", "model": "claude-haiku-5-5", "phase": "Tag"}
+{"seq": 22, "t": 0.026, "type": "run.agent_started", "run_id": "intents-workflow", "thread": "intents-workflow/t016", "label": "tag:4501", "model": "claude-haiku-5-5", "phase": "Tag"}
+{"seq": 23, "t": 0.03, "type": "run.agent_ended", "run_id": "intents-workflow", "thread": "intents-workflow/t005", "label": "tag:1201", "ok": true, "seconds": 0.02, "cached": true, "cents": 0.0, "phase": "Tag"}
+{"seq": 24, "t": 0.03, "type": "run.agent_started", "run_id": "intents-workflow", "thread": "intents-workflow/t017", "label": "tag:4801", "model": "claude-haiku-5-5", "phase": "Tag"}
+{"seq": 25, "t": 0.031, "type": "run.agent_started", "run_id": "intents-workflow", "thread": "intents-workflow/t018", "label": "tag:5101", "model": "claude-haiku-5-5", "phase": "Tag"}
+{"seq": 26, "t": 0.032, "type": "run.agent_started", "run_id": "intents-workflow", "thread": "intents-workflow/t019", "label": "tag:5401", "model": "claude-haiku-5-5", "phase": "Tag"}
+{"seq": 27, "t": 0.035, "type": "run.agent_ended", "run_id": "intents-workflow", "thread": "intents-workflow/t006", "label": "tag:1501", "ok": true, "seconds": 0.03, "cached": true, "cents": 0.0, "phase": "Tag"}
+{"seq": 28, "t": 0.036, "type": "run.agent_started", "run_id": "intents-workflow", "thread": "intents-workflow/t020", "label": "tag:6001", "model": "claude-haiku-5-5", "phase": "Tag"}
+{"seq": 29, "t": 0.036, "type": "run.agent_started", "run_id": "intents-workflow", "thread": "intents-workflow/t021", "label": "tag:5701", "model": "claude-haiku-5-5", "phase": "Tag"}
+{"seq": 30, "t": 0.04, "type": "run.agent_ended", "run_id": "intents-workflow", "thread": "intents-workflow/t007", "label": "tag:1801", "ok": true, "seconds": 0.03, "cached": true, "cents": 0.0, "phase": "Tag"}
+{"seq": 31, "t": 0.041, "type": "run.agent_started", "run_id": "intents-workflow", "thread": "intents-workflow/t022", "label": "tag:6601", "model": "claude-haiku-5-5", "phase": "Tag"}
+{"seq": 32, "t": 0.041, "type": "run.agent_started", "run_id": "intents-workflow", "thread": "intents-workflow/t023", "label": "tag:6301", "model": "claude-haiku-5-5", "phase": "Tag"}
+{"seq": 33, "t": 0.041, "type": "run.agent_started", "run_id": "intents-workflow", "thread": "intents-workflow/t024", "label": "tag:6901", "model": "claude-haiku-5-5", "phase": "Tag"}
+{"seq": 34, "t": 0.042, "type": "run.agent_started", "run_id": "intents-workflow", "thread": "intents-workflow/t025", "label": "tag:7201", "model": "claude-haiku-5-5", "phase": "Tag"}
+{"seq": 35, "t": 0.046, "type": "run.agent_ended", "run_id": "intents-workflow", "thread": "intents-workflow/t008", "label": "tag:2401", "ok": true, "seconds": 0.03, "cached": true, "cents": 0.0, "phase": "Tag"}
+{"seq": 36, "t": 0.047, "type": "run.agent_started", "run_id": "intents-workflow", "thread": "intents-workflow/t026", "label": "tag:7501", "model": "claude-haiku-5-5", "phase": "Tag"}
+{"seq": 37, "t": 0.05, "type": "run.agent_ended", "run_id": "intents-workflow", "thread": "intents-workflow/t009", "label": "tag:2101", "ok": true, "seconds": 0.04, "cached": true, "cents": 0.0, "phase": "Tag"}
+{"seq": 38, "t": 0.051, "type": "run.agent_started", "run_id": "intents-workflow", "thread": "intents-workflow/t027", "label": "tag:8101", "model": "claude-haiku-5-5", "phase": "Tag"}
+{"seq": 39, "t": 0.051, "type": "run.agent_started", "run_id": "intents-workflow", "thread": "intents-workflow/t028", "label": "tag:7801", "model": "claude-haiku-5-5", "phase": "Tag"}
+{"seq": 40, "t": 0.052, "type": "run.agent_started", "run_id": "intents-workflow", "thread": "intents-workflow/t029", "label": "tag:8401", "model": "claude-haiku-5-5", "phase": "Tag"}
+{"seq": 41, "t": 0.056, "type": "run.agent_ended", "run_id": "intents-workflow", "thread": "intents-workflow/t010", "label": "tag:2701", "ok": true, "seconds": 0.04, "cached": true, "cents": 0.0, "phase": "Tag"}
+{"seq": 42, "t": 0.058, "type": "run.agent_started", "run_id": "intents-workflow", "thread": "intents-workflow/t030", "label": "tag:8701", "model": "claude-haiku-5-5", "phase": "Tag"}
+{"seq": 43, "t": 0.058, "type": "run.agent_started", "run_id": "intents-workflow", "thread": "intents-workflow/t031", "label": "tag:9001", "model": "claude-haiku-5-5", "phase": "Tag"}
+{"seq": 44, "t": 0.059, "type": "run.agent_started", "run_id": "intents-workflow", "thread": "intents-workflow/t032", "label": "tag:9301", "model": "claude-haiku-5-5", "phase": "Tag"}
+{"seq": 45, "t": 0.059, "type": "run.agent_started", "run_id": "intents-workflow", "thread": "intents-workflow/t033", "label": "tag:9601", "model": "claude-haiku-5-5", "phase": "Tag"}
+{"seq": 46, "t": 0.063, "type": "run.agent_ended", "run_id": "intents-workflow", "thread": "intents-workflow/t011", "label": "tag:3601", "ok": true, "seconds": 0.04, "cached": true, "cents": 0.0, "phase": "Tag"}
+{"seq": 47, "t": 0.067, "type": "run.agent_ended", "run_id": "intents-workflow", "thread": "intents-workflow/t012", "label": "tag:3301", "ok": true, "seconds": 0.04, "cached": true, "cents": 0.0, "phase": "Tag"}
+{"seq": 48, "t": 0.067, "type": "run.agent_started", "run_id": "intents-workflow", "thread": "intents-workflow/t034", "label": "tag:9901", "model": "claude-haiku-5-5", "phase": "Tag"}
+{"seq": 49, "t": 0.071, "type": "run.agent_ended", "run_id": "intents-workflow", "thread": "intents-workflow/t013", "label": "tag:3001", "ok": true, "seconds": 0.05, "cached": true, "cents": 0.0, "phase": "Tag"}
+{"seq": 50, "t": 0.074, "type": "run.agent_ended", "run_id": "intents-workflow", "thread": "intents-workflow/t014", "label": "tag:3901", "ok": true, "seconds": 0.05, "cached": true, "cents": 0.0, "phase": "Tag"}
+{"seq": 51, "t": 0.078, "type": "run.agent_ended", "run_id": "intents-workflow", "thread": "intents-workflow/t015", "label": "tag:4201", "ok": true, "seconds": 0.05, "cached": true, "cents": 0.0, "phase": "Tag"}
+{"seq": 52, "t": 0.082, "type": "run.agent_ended", "run_id": "intents-workflow", "thread": "intents-workflow/t016", "label": "tag:4501", "ok": true, "seconds": 0.06, "cached": true, "cents": 0.0, "phase": "Tag"}
+{"seq": 53, "t": 0.085, "type": "run.agent_ended", "run_id": "intents-workflow", "thread": "intents-workflow/t017", "label": "tag:4801", "ok": true, "seconds": 0.06, "cached": true, "cents": 0.0, "phase": "Tag"}
+{"seq": 54, "t": 0.09, "type": "run.agent_ended", "run_id": "intents-workflow", "thread": "intents-workflow/t018", "label": "tag:5101", "ok": true, "seconds": 0.06, "cached": true, "cents": 0.0, "phase": "Tag"}
+{"seq": 55, "t": 0.094, "type": "run.agent_ended", "run_id": "intents-workflow", "thread": "intents-workflow/t019", "label": "tag:5401", "ok": true, "seconds": 0.06, "cached": true, "cents": 0.0, "phase": "Tag"}
+{"seq": 56, "t": 0.099, "type": "run.agent_ended", "run_id": "intents-workflow", "thread": "intents-workflow/t020", "label": "tag:6001", "ok": true, "seconds": 0.06, "cached": true, "cents": 0.0, "phase": "Tag"}
+{"seq": 57, "t": 0.102, "type": "run.agent_ended", "run_id": "intents-workflow", "thread": "intents-workflow/t021", "label": "tag:5701", "ok": true, "seconds": 0.07, "cached": true, "cents": 0.0, "phase": "Tag"}
+{"seq": 58, "t": 0.106, "type": "run.agent_ended", "run_id": "intents-workflow", "thread": "intents-workflow/t022", "label": "tag:6601", "ok": true, "seconds": 0.07, "cached": true, "cents": 0.0, "phase": "Tag"}
+{"seq": 59, "t": 0.11, "type": "run.agent_ended", "run_id": "intents-workflow", "thread": "intents-workflow/t023", "label": "tag:6301", "ok": true, "seconds": 0.07, "cached": true, "cents": 0.0, "phase": "Tag"}
+{"seq": 60, "t": 0.121, "type": "run.agent_ended", "run_id": "intents-workflow", "thread": "intents-workflow/t024", "label": "tag:6901", "ok": true, "seconds": 0.08, "cached": true, "cents": 0.0, "phase": "Tag"}
+{"seq": 61, "t": 0.125, "type": "run.agent_ended", "run_id": "intents-workflow", "thread": "intents-workflow/t025", "label": "tag:7201", "ok": true, "seconds": 0.08, "cached": true, "cents": 0.0, "phase": "Tag"}
+{"seq": 62, "t": 0.128, "type": "run.agent_ended", "run_id": "intents-workflow", "thread": "intents-workflow/t026", "label": "tag:7501", "ok": true, "seconds": 0.08, "cached": true, "cents": 0.0, "phase": "Tag"}
+{"seq": 63, "t": 0.132, "type": "run.agent_ended", "run_id": "intents-workflow", "thread": "intents-workflow/t027", "label": "tag:8101", "ok": true, "seconds": 0.08, "cached": true, "cents": 0.0, "phase": "Tag"}
+{"seq": 64, "t": 0.136, "type": "run.agent_ended", "run_id": "intents-workflow", "thread": "intents-workflow/t028", "label": "tag:7801", "ok": true, "seconds": 0.08, "cached": true, "cents": 0.0, "phase": "Tag"}
+{"seq": 65, "t": 0.14, "type": "run.agent_ended", "run_id": "intents-workflow", "thread": "intents-workflow/t029", "label": "tag:8401", "ok": true, "seconds": 0.09, "cached": true, "cents": 0.0, "phase": "Tag"}
+{"seq": 66, "t": 0.144, "type": "run.agent_ended", "run_id": "intents-workflow", "thread": "intents-workflow/t030", "label": "tag:8701", "ok": true, "seconds": 0.09, "cached": true, "cents": 0.0, "phase": "Tag"}
+{"seq": 67, "t": 0.147, "type": "run.agent_ended", "run_id": "intents-workflow", "thread": "intents-workflow/t031", "label": "tag:9001", "ok": true, "seconds": 0.09, "cached": true, "cents": 0.0, "phase": "Tag"}
+{"seq": 68, "t": 0.151, "type": "run.agent_ended", "run_id": "intents-workflow", "thread": "intents-workflow/t033", "label": "tag:9601", "ok": true, "seconds": 0.09, "cached": true, "cents": 0.0, "phase": "Tag"}
+{"seq": 69, "t": 0.155, "type": "run.agent_ended", "run_id": "intents-workflow", "thread": "intents-workflow/t032", "label": "tag:9301", "ok": true, "seconds": 0.1, "cached": true, "cents": 0.0, "phase": "Tag"}
+{"seq": 70, "t": 0.156, "type": "run.agent_ended", "run_id": "intents-workflow", "thread": "intents-workflow/t034", "label": "tag:9901", "ok": true, "seconds": 0.09, "cached": true, "cents": 0.0, "phase": "Tag"}
+{"seq": 71, "t": 0.158, "type": "run.phase_ended", "run_id": "intents-workflow", "phase": "Tag", "agents": 34, "failed": 0, "seconds": 0.16}
+{"seq": 72, "t": 0.158, "type": "run.phase_started", "run_id": "intents-workflow", "phase": "Merge", "index": 2}
+{"seq": 73, "t": 0.159, "type": "run.log", "run_id": "intents-workflow", "message": "distinct labels: 1727"}
+{"seq": 74, "t": 0.16, "type": "run.agent_started", "run_id": "intents-workflow", "thread": "intents-workflow/t035", "label": "merge:300", "model": "claude-haiku-4-5", "phase": "Merge"}
+{"seq": 75, "t": 0.161, "type": "run.agent_ended", "run_id": "intents-workflow", "thread": "intents-workflow/t035", "label": "merge:300", "ok": true, "seconds": 0.0, "cached": true, "cents": 0.0, "phase": "Merge"}
+{"seq": 76, "t": 0.161, "type": "run.agent_started", "run_id": "intents-workflow", "thread": "intents-workflow/t036", "label": "merge:300", "model": "claude-haiku-4-5", "phase": "Merge"}
+{"seq": 77, "t": 0.162, "type": "run.agent_started", "run_id": "intents-workflow", "thread": "intents-workflow/t037", "label": "merge:300", "model": "claude-haiku-4-5", "phase": "Merge"}
+{"seq": 78, "t": 0.162, "type": "run.agent_started", "run_id": "intents-workflow", "thread": "intents-workflow/t038", "label": "merge:300", "model": "claude-haiku-4-5", "phase": "Merge"}
+{"seq": 79, "t": 0.163, "type": "run.agent_started", "run_id": "intents-workflow", "thread": "intents-workflow/t039", "label": "merge:300", "model": "claude-haiku-4-5", "phase": "Merge"}
+{"seq": 80, "t": 0.163, "type": "run.agent_ended", "run_id": "intents-workflow", "thread": "intents-workflow/t036", "label": "merge:300", "ok": true, "seconds": 0.0, "cached": true, "cents": 0.0, "phase": "Merge"}
+{"seq": 81, "t": 0.163, "type": "run.agent_started", "run_id": "intents-workflow", "thread": "intents-workflow/t040", "label": "merge:227", "model": "claude-haiku-4-5", "phase": "Merge"}
+{"seq": 82, "t": 0.164, "type": "run.agent_ended", "run_id": "intents-workflow", "thread": "intents-workflow/t037", "label": "merge:300", "ok": true, "seconds": 0.0, "cached": true, "cents": 0.0, "phase": "Merge"}
+{"seq": 83, "t": 0.164, "type": "run.agent_ended", "run_id": "intents-workflow", "thread": "intents-workflow/t040", "label": "merge:227", "ok": true, "seconds": 0.0, "cached": true, "cents": 0.0, "phase": "Merge"}
+{"seq": 84, "t": 0.165, "type": "run.agent_ended", "run_id": "intents-workflow", "thread": "intents-workflow/t039", "label": "merge:300", "ok": true, "seconds": 0.0, "cached": true, "cents": 0.0, "phase": "Merge"}
+{"seq": 85, "t": 0.166, "type": "run.agent_ended", "run_id": "intents-workflow", "thread": "intents-workflow/t038", "label": "merge:300", "ok": true, "seconds": 0.0, "cached": true, "cents": 0.0, "phase": "Merge"}
+{"seq": 86, "t": 0.167, "type": "run.agent_started", "run_id": "intents-workflow", "thread": "intents-workflow/t041", "label": "merge:299", "model": "claude-haiku-4-5", "phase": "Merge"}
+{"seq": 87, "t": 0.167, "type": "run.agent_ended", "run_id": "intents-workflow", "thread": "intents-workflow/t041", "label": "merge:299", "ok": true, "seconds": 0.0, "cached": true, "cents": 0.0, "phase": "Merge"}
+{"seq": 88, "t": 0.168, "type": "run.phase_ended", "run_id": "intents-workflow", "phase": "Merge", "agents": 7, "failed": 0, "seconds": 0.01}
+{"seq": 89, "t": 0.168, "type": "run.phase_started", "run_id": "intents-workflow", "phase": "Classify", "index": 3}
+{"seq": 90, "t": 0.168, "type": "run.agent_started", "run_id": "intents-workflow", "thread": "intents-workflow/t042", "label": "classify:1", "model": "claude-haiku-5-5", "phase": "Classify"}
+{"seq": 91, "t": 0.168, "type": "run.agent_started", "run_id": "intents-workflow", "thread": "intents-workflow/t043", "label": "classify:301", "model": "claude-haiku-5-5", "phase": "Classify"}
+{"seq": 92, "t": 0.169, "type": "run.agent_started", "run_id": "intents-workflow", "thread": "intents-workflow/t044", "label": "classify:601", "model": "claude-haiku-5-5", "phase": "Classify"}
+{"seq": 93, "t": 0.17, "type": "run.agent_started", "run_id": "intents-workflow", "thread": "intents-workflow/t045", "label": "classify:901", "model": "claude-haiku-5-5", "phase": "Classify"}
+{"seq": 94, "t": 0.17, "type": "run.agent_started", "run_id": "intents-workflow", "thread": "intents-workflow/t046", "label": "classify:1201", "model": "claude-haiku-5-5", "phase": "Classify"}
+{"seq": 95, "t": 0.171, "type": "run.agent_started", "run_id": "intents-workflow", "thread": "intents-workflow/t047", "label": "classify:1501", "model": "claude-haiku-5-5", "phase": "Classify"}
+{"seq": 96, "t": 0.174, "type": "run.agent_ended", "run_id": "intents-workflow", "thread": "intents-workflow/t042", "label": "classify:1", "ok": true, "seconds": 0.01, "cached": true, "cents": 0.0, "phase": "Classify"}
+{"seq": 97, "t": 0.175, "type": "run.agent_started", "run_id": "intents-workflow", "thread": "intents-workflow/t048", "label": "classify:1801", "model": "claude-haiku-5-5", "phase": "Classify"}
+{"seq": 98, "t": 0.175, "type": "run.agent_started", "run_id": "intents-workflow", "thread": "intents-workflow/t049", "label": "classify:2101", "model": "claude-haiku-5-5", "phase": "Classify"}
+{"seq": 99, "t": 0.175, "type": "run.agent_started", "run_id": "intents-workflow", "thread": "intents-workflow/t050", "label": "classify:2401", "model": "claude-haiku-5-5", "phase": "Classify"}
+{"seq": 100, "t": 0.176, "type": "run.agent_started", "run_id": "intents-workflow", "thread": "intents-workflow/t051", "label": "classify:2701", "model": "claude-haiku-5-5", "phase": "Classify"}
+{"seq": 101, "t": 0.18, "type": "run.agent_ended", "run_id": "intents-workflow", "thread": "intents-workflow/t043", "label": "classify:301", "ok": true, "seconds": 0.01, "cached": true, "cents": 0.0, "phase": "Classify"}
+{"seq": 102, "t": 0.181, "type": "run.agent_started", "run_id": "intents-workflow", "thread": "intents-workflow/t052", "label": "classify:3001", "model": "claude-haiku-5-5", "phase": "Classify"}
+{"seq": 103, "t": 0.185, "type": "run.agent_ended", "run_id": "intents-workflow", "thread": "intents-workflow/t044", "label": "classify:601", "ok": true, "seconds": 0.02, "cached": true, "cents": 0.0, "phase": "Classify"}
+{"seq": 104, "t": 0.189, "type": "run.agent_ended", "run_id": "intents-workflow", "thread": "intents-workflow/t045", "label": "classify:901", "ok": true, "seconds": 0.02, "cached": true, "cents": 0.0, "phase": "Classify"}
+{"seq": 105, "t": 0.189, "type": "run.agent_started", "run_id": "intents-workflow", "thread": "intents-workflow/t053", "label": "classify:3901", "model": "claude-haiku-5-5", "phase": "Classify"}
+{"seq": 106, "t": 0.189, "type": "run.agent_started", "run_id": "intents-workflow", "thread": "intents-workflow/t054", "label": "classify:3601", "model": "claude-haiku-5-5", "phase": "Classify"}
+{"seq": 107, "t": 0.189, "type": "run.agent_started", "run_id": "intents-workflow", "thread": "intents-workflow/t055", "label": "classify:3301", "model": "claude-haiku-5-5", "phase": "Classify"}
+{"seq": 108, "t": 0.193, "type": "run.agent_ended", "run_id": "intents-workflow", "thread": "intents-workflow/t046", "label": "classify:1201", "ok": true, "seconds": 0.02, "cached": true, "cents": 0.0, "phase": "Classify"}
+{"seq": 109, "t": 0.194, "type": "run.agent_started", "run_id": "intents-workflow", "thread": "intents-workflow/t056", "label": "classify:4501", "model": "claude-haiku-5-5", "phase": "Classify"}
+{"seq": 110, "t": 0.194, "type": "run.agent_started", "run_id": "intents-workflow", "thread": "intents-workflow/t057", "label": "classify:4201", "model": "claude-haiku-5-5", "phase": "Classify"}
+{"seq": 111, "t": 0.195, "type": "run.agent_started", "run_id": "intents-workflow", "thread": "intents-workflow/t058", "label": "classify:5101", "model": "claude-haiku-5-5", "phase": "Classify"}
+{"seq": 112, "t": 0.196, "type": "run.agent_started", "run_id": "intents-workflow", "thread": "intents-workflow/t059", "label": "classify:5401", "model": "claude-haiku-5-5", "phase": "Classify"}
+{"seq": 113, "t": 0.196, "type": "run.agent_started", "run_id": "intents-workflow", "thread": "intents-workflow/t060", "label": "classify:4801", "model": "claude-haiku-5-5", "phase": "Classify"}
+{"seq": 114, "t": 0.2, "type": "run.agent_ended", "run_id": "intents-workflow", "thread": "intents-workflow/t047", "label": "classify:1501", "ok": true, "seconds": 0.03, "cached": true, "cents": 0.0, "phase": "Classify"}
+{"seq": 115, "t": 0.2, "type": "run.agent_started", "run_id": "intents-workflow", "thread": "intents-workflow/t061", "label": "classify:6001", "model": "claude-haiku-5-5", "phase": "Classify"}
+{"seq": 116, "t": 0.201, "type": "run.agent_started", "run_id": "intents-workflow", "thread": "intents-workflow/t062", "label": "classify:5701", "model": "claude-haiku-5-5", "phase": "Classify"}
+{"seq": 117, "t": 0.201, "type": "run.agent_started", "run_id": "intents-workflow", "thread": "intents-workflow/t063", "label": "classify:6301", "model": "claude-haiku-5-5", "phase": "Classify"}
+{"seq": 118, "t": 0.202, "type": "run.agent_started", "run_id": "intents-workflow", "thread": "intents-workflow/t064", "label": "classify:6601", "model": "claude-haiku-5-5", "phase": "Classify"}
+{"seq": 119, "t": 0.206, "type": "run.agent_ended", "run_id": "intents-workflow", "thread": "intents-workflow/t048", "label": "classify:1801", "ok": true, "seconds": 0.03, "cached": true, "cents": 0.0, "phase": "Classify"}
+{"seq": 120, "t": 0.206, "type": "run.agent_started", "run_id": "intents-workflow", "thread": "intents-workflow/t065", "label": "classify:7201", "model": "claude-haiku-5-5", "phase": "Classify"}
+{"seq": 121, "t": 0.206, "type": "run.agent_started", "run_id": "intents-workflow", "thread": "intents-workflow/t066", "label": "classify:6901", "model": "claude-haiku-5-5", "phase": "Classify"}
+{"seq": 122, "t": 0.207, "type": "run.agent_started", "run_id": "intents-workflow", "thread": "intents-workflow/t067", "label": "classify:7501", "model": "claude-haiku-5-5", "phase": "Classify"}
+{"seq": 123, "t": 0.207, "type": "run.agent_started", "run_id": "intents-workflow", "thread": "intents-workflow/t068", "label": "classify:7801", "model": "claude-haiku-5-5", "phase": "Classify"}
+{"seq": 124, "t": 0.211, "type": "run.agent_ended", "run_id": "intents-workflow", "thread": "intents-workflow/t049", "label": "classify:2101", "ok": true, "seconds": 0.04, "cached": true, "cents": 0.0, "phase": "Classify"}
+{"seq": 125, "t": 0.211, "type": "run.agent_started", "run_id": "intents-workflow", "thread": "intents-workflow/t069", "label": "classify:8101", "model": "claude-haiku-5-5", "phase": "Classify"}
+{"seq": 126, "t": 0.212, "type": "run.agent_started", "run_id": "intents-workflow", "thread": "intents-workflow/t070", "label": "classify:8701", "model": "claude-haiku-5-5", "phase": "Classify"}
+{"seq": 127, "t": 0.212, "type": "run.agent_started", "run_id": "intents-workflow", "thread": "intents-workflow/t071", "label": "classify:8401", "model": "claude-haiku-5-5", "phase": "Classify"}
+{"seq": 128, "t": 0.216, "type": "run.agent_ended", "run_id": "intents-workflow", "thread": "intents-workflow/t050", "label": "classify:2401", "ok": true, "seconds": 0.04, "cached": true, "cents": 0.0, "phase": "Classify"}
+{"seq": 129, "t": 0.217, "type": "run.agent_started", "run_id": "intents-workflow", "thread": "intents-workflow/t072", "label": "classify:9001", "model": "claude-haiku-5-5", "phase": "Classify"}
+{"seq": 130, "t": 0.22, "type": "run.agent_ended", "run_id": "intents-workflow", "thread": "intents-workflow/t051", "label": "classify:2701", "ok": true, "seconds": 0.04, "cached": true, "cents": 0.0, "phase": "Classify"}
+{"seq": 131, "t": 0.222, "type": "run.agent_started", "run_id": "intents-workflow", "thread": "intents-workflow/t073", "label": "classify:9601", "model": "claude-haiku-5-5", "phase": "Classify"}
+{"seq": 132, "t": 0.222, "type": "run.agent_started", "run_id": "intents-workflow", "thread": "intents-workflow/t074", "label": "classify:9301", "model": "claude-haiku-5-5", "phase": "Classify"}
+{"seq": 133, "t": 0.223, "type": "run.agent_started", "run_id": "intents-workflow", "thread": "intents-workflow/t075", "label": "classify:9901", "model": "claude-haiku-5-5", "phase": "Classify"}
+{"seq": 134, "t": 0.233, "type": "run.agent_ended", "run_id": "intents-workflow", "thread": "intents-workflow/t053", "label": "classify:3901", "ok": true, "seconds": 0.04, "cached": true, "cents": 0.0, "phase": "Classify"}
+{"seq": 135, "t": 0.237, "type": "run.agent_ended", "run_id": "intents-workflow", "thread": "intents-workflow/t054", "label": "classify:3601", "ok": true, "seconds": 0.05, "cached": true, "cents": 0.0, "phase": "Classify"}
+{"seq": 136, "t": 0.248, "type": "run.agent_ended", "run_id": "intents-workflow", "thread": "intents-workflow/t056", "label": "classify:4501", "ok": true, "seconds": 0.05, "cached": true, "cents": 0.0, "phase": "Classify"}
+{"seq": 137, "t": 0.252, "type": "run.agent_ended", "run_id": "intents-workflow", "thread": "intents-workflow/t057", "label": "classify:4201", "ok": true, "seconds": 0.06, "cached": true, "cents": 0.0, "phase": "Classify"}
+{"seq": 138, "t": 0.256, "type": "run.agent_ended", "run_id": "intents-workflow", "thread": "intents-workflow/t058", "label": "classify:5101", "ok": true, "seconds": 0.06, "cached": true, "cents": 0.0, "phase": "Classify"}
+{"seq": 139, "t": 0.259, "type": "run.agent_ended", "run_id": "intents-workflow", "thread": "intents-workflow/t059", "label": "classify:5401", "ok": true, "seconds": 0.06, "cached": true, "cents": 0.0, "phase": "Classify"}
+{"seq": 140, "t": 0.263, "type": "run.agent_ended", "run_id": "intents-workflow", "thread": "intents-workflow/t060", "label": "classify:4801", "ok": true, "seconds": 0.07, "cached": true, "cents": 0.0, "phase": "Classify"}
+{"seq": 141, "t": 0.275, "type": "run.agent_ended", "run_id": "intents-workflow", "thread": "intents-workflow/t062", "label": "classify:5701", "ok": true, "seconds": 0.07, "cached": true, "cents": 0.0, "phase": "Classify"}
+{"seq": 142, "t": 0.296, "type": "run.agent_ended", "run_id": "intents-workflow", "thread": "intents-workflow/t065", "label": "classify:7201", "ok": true, "seconds": 0.09, "cached": true, "cents": 0.0, "phase": "Classify"}
+{"seq": 143, "t": 0.3, "type": "run.agent_ended", "run_id": "intents-workflow", "thread": "intents-workflow/t066", "label": "classify:6901", "ok": true, "seconds": 0.09, "cached": true, "cents": 0.0, "phase": "Classify"}
+{"seq": 144, "t": 0.304, "type": "run.agent_ended", "run_id": "intents-workflow", "thread": "intents-workflow/t067", "label": "classify:7501", "ok": true, "seconds": 0.1, "cached": true, "cents": 0.0, "phase": "Classify"}
+{"seq": 145, "t": 0.316, "type": "run.agent_ended", "run_id": "intents-workflow", "thread": "intents-workflow/t069", "label": "classify:8101", "ok": true, "seconds": 0.1, "cached": true, "cents": 0.0, "phase": "Classify"}
+{"seq": 146, "t": 0.32, "type": "run.agent_ended", "run_id": "intents-workflow", "thread": "intents-workflow/t070", "label": "classify:8701", "ok": true, "seconds": 0.11, "cached": true, "cents": 0.0, "phase": "Classify"}
+{"seq": 147, "t": 0.323, "type": "run.agent_ended", "run_id": "intents-workflow", "thread": "intents-workflow/t071", "label": "classify:8401", "ok": true, "seconds": 0.11, "cached": true, "cents": 0.0, "phase": "Classify"}
+{"seq": 148, "t": 0.327, "type": "run.agent_ended", "run_id": "intents-workflow", "thread": "intents-workflow/t072", "label": "classify:9001", "ok": true, "seconds": 0.11, "cached": true, "cents": 0.0, "phase": "Classify"}
+{"seq": 149, "t": 0.345, "type": "run.agent_ended", "run_id": "intents-workflow", "thread": "intents-workflow/t074", "label": "classify:9301", "ok": true, "seconds": 0.12, "cached": true, "cents": 0.0, "phase": "Classify"}
+{"seq": 150, "t": 0.347, "type": "run.agent_ended", "run_id": "intents-workflow", "thread": "intents-workflow/t075", "label": "classify:9901", "ok": true, "seconds": 0.12, "cached": true, "cents": 0.0, "phase": "Classify"}
+{"seq": 151, "t": 0.351, "type": "run.agent_ended", "run_id": "intents-workflow", "thread": "intents-workflow/t052", "label": "classify:3001", "ok": true, "seconds": 0.17, "cached": true, "cents": 0.0, "phase": "Classify"}
+{"seq": 152, "t": 0.351, "type": "run.agent_ended", "run_id": "intents-workflow", "thread": "intents-workflow/t055", "label": "classify:3301", "ok": false, "seconds": 0.16, "cached": true, "cents": 0.0, "phase": "Classify"}
+{"seq": 153, "t": 0.355, "type": "run.agent_ended", "run_id": "intents-workflow", "thread": "intents-workflow/t061", "label": "classify:6001", "ok": true, "seconds": 0.15, "cached": true, "cents": 0.0, "phase": "Classify"}
+{"seq": 154, "t": 0.355, "type": "run.agent_ended", "run_id": "intents-workflow", "thread": "intents-workflow/t063", "label": "classify:6301", "ok": true, "seconds": 0.15, "cached": true, "cents": 0.0, "phase": "Classify"}
+{"seq": 155, "t": 0.359, "type": "run.agent_ended", "run_id": "intents-workflow", "thread": "intents-workflow/t064", "label": "classify:6601", "ok": true, "seconds": 0.16, "cached": true, "cents": 0.0, "phase": "Classify"}
+{"seq": 156, "t": 0.359, "type": "run.agent_ended", "run_id": "intents-workflow", "thread": "intents-workflow/t068", "label": "classify:7801", "ok": false, "seconds": 0.15, "cached": true, "cents": 0.0, "phase": "Classify"}
+{"seq": 157, "t": 0.36, "type": "run.agent_ended", "run_id": "intents-workflow", "thread": "intents-workflow/t073", "label": "classify:9601", "ok": false, "seconds": 0.14, "cached": true, "cents": 0.0, "phase": "Classify"}
+{"seq": 158, "t": 0.363, "type": "run.phase_ended", "run_id": "intents-workflow", "phase": "Classify", "agents": 34, "failed": 3, "seconds": 0.2}
+{"seq": 159, "t": 0.363, "type": "run.ended", "run_id": "intents-workflow", "status": "completed", "seconds": 0.36, "agents": 75, "failed": 3, "cents": 0.0, "dropped": 0, "error": null}

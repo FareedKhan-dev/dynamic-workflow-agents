@@ -1,0 +1,15 @@
+[
+ {
+  "id": "s47-critic-2/t001",
+  "label": "critic",
+  "phase": "",
+  "model": "Qwen-Ambassador/Qwen3.8-Max",
+  "status": "done",
+  "started": 0.0001253000009455718,
+  "ended": 0.0016958000051090494,
+  "cost": 0.0,
+  "error": null,
+  "replies": 1,
+  "reply": "{\n  \"folders\": [\n    {\n      \"folder\": \"dynamic_programming\",\n      \"why\": \"No findings, places, or confirmations across a medium-sized folder, which is unusually weak compared with similarly scoped folders.\"\n    },\n    {\n      \"folder\": \"physics\",\n      \"why\": \"Zero findings, places, and confirmations despite enough files that some audit output would normally be expected.\"\n    },\n    {\n      \"folder\": \"machine_learning\",\n      \"why\": \"No reader findings or confirmed places, suggesting possible under-examination rather than obvious cleanliness.\"\n    },\n    {\n      \"folder\": \"graphs\",\n      \"why\": \"Only one finding and one place, with no confirmations, giving a very low yield relative to the rest of the audit.\"\n    },\n    {\n      \"folder\": \"maths\",\n      \"why\": \"Very few findings and no confirmed places relative to its scope; the concern is the low validated-issue rate, not merely the folder size.\"\n    }\n  ]\n}"
+ }
+]

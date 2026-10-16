@@ -1,0 +1,44 @@
+{"seq": 1, "t": 0.0, "type": "run.created", "run_id": "hw-workflow", "title": "homework: the lead's plan", "goal": "Grade 600 homework solutions to maths word problems: for each, say whether it is wrong and, if so, where and how."}
+{"seq": 2, "t": 0.001, "type": "run.phase_started", "run_id": "hw-workflow", "phase": "Grade", "index": 1}
+{"seq": 3, "t": 0.001, "type": "run.agent_started", "run_id": "hw-workflow", "thread": "hw-workflow/t001", "label": "grade:1#0", "model": "claude-haiku-5-5", "phase": "Grade"}
+{"seq": 4, "t": 0.002, "type": "run.agent_started", "run_id": "hw-workflow", "thread": "hw-workflow/t002", "label": "grade:41#0", "model": "claude-haiku-5-5", "phase": "Grade"}
+{"seq": 5, "t": 0.003, "type": "run.agent_started", "run_id": "hw-workflow", "thread": "hw-workflow/t003", "label": "grade:81#0", "model": "claude-haiku-5-5", "phase": "Grade"}
+{"seq": 6, "t": 0.004, "type": "run.agent_started", "run_id": "hw-workflow", "thread": "hw-workflow/t004", "label": "grade:121#0", "model": "claude-haiku-5-5", "phase": "Grade"}
+{"seq": 7, "t": 0.006, "type": "run.agent_ended", "run_id": "hw-workflow", "thread": "hw-workflow/t001", "label": "grade:1#0", "ok": true, "seconds": 0.0, "cached": true, "cents": 0.0, "phase": "Grade"}
+{"seq": 8, "t": 0.007, "type": "run.agent_started", "run_id": "hw-workflow", "thread": "hw-workflow/t005", "label": "grade:201#0", "model": "claude-haiku-5-5", "phase": "Grade"}
+{"seq": 9, "t": 0.007, "type": "run.agent_started", "run_id": "hw-workflow", "thread": "hw-workflow/t006", "label": "grade:161#0", "model": "claude-haiku-5-5", "phase": "Grade"}
+{"seq": 10, "t": 0.008, "type": "run.agent_started", "run_id": "hw-workflow", "thread": "hw-workflow/t007", "label": "grade:241#0", "model": "claude-haiku-5-5", "phase": "Grade"}
+{"seq": 11, "t": 0.01, "type": "run.agent_ended", "run_id": "hw-workflow", "thread": "hw-workflow/t003", "label": "grade:81#0", "ok": true, "seconds": 0.01, "cached": true, "cents": 0.0, "phase": "Grade"}
+{"seq": 12, "t": 0.01, "type": "run.agent_started", "run_id": "hw-workflow", "thread": "hw-workflow/t008", "label": "grade:321#0", "model": "claude-haiku-5-5", "phase": "Grade"}
+{"seq": 13, "t": 0.011, "type": "run.agent_started", "run_id": "hw-workflow", "thread": "hw-workflow/t009", "label": "grade:361#0", "model": "claude-haiku-5-5", "phase": "Grade"}
+{"seq": 14, "t": 0.012, "type": "run.agent_ended", "run_id": "hw-workflow", "thread": "hw-workflow/t002", "label": "grade:41#0", "ok": true, "seconds": 0.01, "cached": true, "cents": 0.0, "phase": "Grade"}
+{"seq": 15, "t": 0.012, "type": "run.agent_started", "run_id": "hw-workflow", "thread": "hw-workflow/t010", "label": "grade:281#0", "model": "claude-haiku-5-5", "phase": "Grade"}
+{"seq": 16, "t": 0.013, "type": "run.agent_started", "run_id": "hw-workflow", "thread": "hw-workflow/t011", "label": "grade:401#0", "model": "claude-haiku-5-5", "phase": "Grade"}
+{"seq": 17, "t": 0.014, "type": "run.agent_started", "run_id": "hw-workflow", "thread": "hw-workflow/t012", "label": "grade:441#0", "model": "claude-haiku-5-5", "phase": "Grade"}
+{"seq": 18, "t": 0.015, "type": "run.agent_ended", "run_id": "hw-workflow", "thread": "hw-workflow/t004", "label": "grade:121#0", "ok": true, "seconds": 0.01, "cached": true, "cents": 0.0, "phase": "Grade"}
+{"seq": 19, "t": 0.016, "type": "run.agent_started", "run_id": "hw-workflow", "thread": "hw-workflow/t013", "label": "grade:521#0", "model": "claude-haiku-5-5", "phase": "Grade"}
+{"seq": 20, "t": 0.016, "type": "run.agent_started", "run_id": "hw-workflow", "thread": "hw-workflow/t014", "label": "grade:481#0", "model": "claude-haiku-5-5", "phase": "Grade"}
+{"seq": 21, "t": 0.017, "type": "run.agent_started", "run_id": "hw-workflow", "thread": "hw-workflow/t015", "label": "grade:561#0", "model": "claude-haiku-5-5", "phase": "Grade"}
+{"seq": 22, "t": 0.018, "type": "run.agent_ended", "run_id": "hw-workflow", "thread": "hw-workflow/t005", "label": "grade:201#0", "ok": true, "seconds": 0.01, "cached": true, "cents": 0.0, "phase": "Grade"}
+{"seq": 23, "t": 0.019, "type": "run.agent_ended", "run_id": "hw-workflow", "thread": "hw-workflow/t006", "label": "grade:161#0", "ok": true, "seconds": 0.01, "cached": true, "cents": 0.0, "phase": "Grade"}
+{"seq": 24, "t": 0.02, "type": "run.agent_ended", "run_id": "hw-workflow", "thread": "hw-workflow/t007", "label": "grade:241#0", "ok": true, "seconds": 0.01, "cached": true, "cents": 0.0, "phase": "Grade"}
+{"seq": 25, "t": 0.021, "type": "run.agent_ended", "run_id": "hw-workflow", "thread": "hw-workflow/t008", "label": "grade:321#0", "ok": true, "seconds": 0.01, "cached": true, "cents": 0.0, "phase": "Grade"}
+{"seq": 26, "t": 0.022, "type": "run.agent_ended", "run_id": "hw-workflow", "thread": "hw-workflow/t009", "label": "grade:361#0", "ok": true, "seconds": 0.01, "cached": true, "cents": 0.0, "phase": "Grade"}
+{"seq": 27, "t": 0.023, "type": "run.agent_ended", "run_id": "hw-workflow", "thread": "hw-workflow/t010", "label": "grade:281#0", "ok": true, "seconds": 0.01, "cached": true, "cents": 0.0, "phase": "Grade"}
+{"seq": 28, "t": 0.024, "type": "run.agent_ended", "run_id": "hw-workflow", "thread": "hw-workflow/t011", "label": "grade:401#0", "ok": true, "seconds": 0.01, "cached": true, "cents": 0.0, "phase": "Grade"}
+{"seq": 29, "t": 0.026, "type": "run.agent_ended", "run_id": "hw-workflow", "thread": "hw-workflow/t012", "label": "grade:441#0", "ok": true, "seconds": 0.01, "cached": true, "cents": 0.0, "phase": "Grade"}
+{"seq": 30, "t": 0.027, "type": "run.agent_ended", "run_id": "hw-workflow", "thread": "hw-workflow/t014", "label": "grade:481#0", "ok": true, "seconds": 0.01, "cached": true, "cents": 0.0, "phase": "Grade"}
+{"seq": 31, "t": 0.028, "type": "run.agent_ended", "run_id": "hw-workflow", "thread": "hw-workflow/t013", "label": "grade:521#0", "ok": true, "seconds": 0.01, "cached": true, "cents": 0.0, "phase": "Grade"}
+{"seq": 32, "t": 0.029, "type": "run.agent_ended", "run_id": "hw-workflow", "thread": "hw-workflow/t015", "label": "grade:561#0", "ok": true, "seconds": 0.01, "cached": true, "cents": 0.0, "phase": "Grade"}
+{"seq": 33, "t": 0.031, "type": "run.phase_ended", "run_id": "hw-workflow", "phase": "Grade", "agents": 15, "failed": 0, "seconds": 0.03}
+{"seq": 34, "t": 0.031, "type": "run.phase_started", "run_id": "hw-workflow", "phase": "Recheck flagged", "index": 2}
+{"seq": 35, "t": 0.031, "type": "run.agent_started", "run_id": "hw-workflow", "thread": "hw-workflow/t016", "label": "recheck:calculator:9#0", "model": "claude-haiku-4-5", "phase": "Recheck flagged"}
+{"seq": 36, "t": 0.032, "type": "run.agent_started", "run_id": "hw-workflow", "thread": "hw-workflow/t017", "label": "recheck:calculator:490#0", "model": "claude-haiku-4-5", "phase": "Recheck flagged"}
+{"seq": 37, "t": 0.033, "type": "run.agent_ended", "run_id": "hw-workflow", "thread": "hw-workflow/t016", "label": "recheck:calculator:9#0", "ok": true, "seconds": 0.0, "cached": true, "cents": 0.0, "phase": "Recheck flagged"}
+{"seq": 38, "t": 0.034, "type": "run.agent_ended", "run_id": "hw-workflow", "thread": "hw-workflow/t017", "label": "recheck:calculator:490#0", "ok": true, "seconds": 0.0, "cached": true, "cents": 0.0, "phase": "Recheck flagged"}
+{"seq": 39, "t": 0.034, "type": "run.phase_ended", "run_id": "hw-workflow", "phase": "Recheck flagged", "agents": 2, "failed": 0, "seconds": 0.0}
+{"seq": 40, "t": 0.034, "type": "run.phase_started", "run_id": "hw-workflow", "phase": "Report", "index": 3}
+{"seq": 41, "t": 0.036, "type": "run.agent_started", "run_id": "hw-workflow", "thread": "hw-workflow/t018", "label": "class report", "model": "claude-sonnet-5-5", "phase": "Report"}
+{"seq": 42, "t": 0.036, "type": "run.agent_ended", "run_id": "hw-workflow", "thread": "hw-workflow/t018", "label": "class report", "ok": true, "seconds": 0.0, "cached": true, "cents": 0.0, "phase": "Report"}
+{"seq": 43, "t": 0.036, "type": "run.phase_ended", "run_id": "hw-workflow", "phase": "Report", "agents": 1, "failed": 0, "seconds": 0.0}
+{"seq": 44, "t": 0.036, "type": "run.ended", "run_id": "hw-workflow", "status": "completed", "seconds": 0.04, "agents": 18, "failed": 0, "cents": 0.0, "dropped": 0, "error": null}

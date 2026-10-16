@@ -1,0 +1,86 @@
+{"seq": 1, "t": 0.0, "type": "run.created", "run_id": "s26-budget", "title": "forty workers under a cap of 5", "goal": ""}
+{"seq": 2, "t": 0.0, "type": "run.phase_started", "run_id": "s26-budget", "phase": "Work", "index": 1}
+{"seq": 3, "t": 0.001, "type": "run.agent_started", "run_id": "s26-budget", "thread": "s26-budget/t001", "label": "w#0", "model": "fake-worker", "phase": "Work"}
+{"seq": 4, "t": 0.001, "type": "run.agent_started", "run_id": "s26-budget", "thread": "s26-budget/t002", "label": "w#1", "model": "fake-worker", "phase": "Work"}
+{"seq": 5, "t": 0.002, "type": "run.agent_started", "run_id": "s26-budget", "thread": "s26-budget/t003", "label": "w#2", "model": "fake-worker", "phase": "Work"}
+{"seq": 6, "t": 0.002, "type": "run.agent_started", "run_id": "s26-budget", "thread": "s26-budget/t004", "label": "w#3", "model": "fake-worker", "phase": "Work"}
+{"seq": 7, "t": 0.003, "type": "run.agent_started", "run_id": "s26-budget", "thread": "s26-budget/t005", "label": "w#4", "model": "fake-worker", "phase": "Work"}
+{"seq": 8, "t": 0.003, "type": "run.agent_started", "run_id": "s26-budget", "thread": "s26-budget/t006", "label": "w#5", "model": "fake-worker", "phase": "Work"}
+{"seq": 9, "t": 0.003, "type": "run.agent_started", "run_id": "s26-budget", "thread": "s26-budget/t007", "label": "w#6", "model": "fake-worker", "phase": "Work"}
+{"seq": 10, "t": 0.004, "type": "run.agent_started", "run_id": "s26-budget", "thread": "s26-budget/t008", "label": "w#7", "model": "fake-worker", "phase": "Work"}
+{"seq": 11, "t": 0.004, "type": "run.agent_started", "run_id": "s26-budget", "thread": "s26-budget/t009", "label": "w#8", "model": "fake-worker", "phase": "Work"}
+{"seq": 12, "t": 0.004, "type": "run.agent_started", "run_id": "s26-budget", "thread": "s26-budget/t010", "label": "w#9", "model": "fake-worker", "phase": "Work"}
+{"seq": 13, "t": 0.004, "type": "run.agent_started", "run_id": "s26-budget", "thread": "s26-budget/t011", "label": "w#10", "model": "fake-worker", "phase": "Work"}
+{"seq": 14, "t": 0.005, "type": "run.agent_started", "run_id": "s26-budget", "thread": "s26-budget/t012", "label": "w#11", "model": "fake-worker", "phase": "Work"}
+{"seq": 15, "t": 0.005, "type": "run.agent_started", "run_id": "s26-budget", "thread": "s26-budget/t013", "label": "w#12", "model": "fake-worker", "phase": "Work"}
+{"seq": 16, "t": 0.005, "type": "run.agent_started", "run_id": "s26-budget", "thread": "s26-budget/t014", "label": "w#13", "model": "fake-worker", "phase": "Work"}
+{"seq": 17, "t": 0.006, "type": "run.agent_started", "run_id": "s26-budget", "thread": "s26-budget/t015", "label": "w#14", "model": "fake-worker", "phase": "Work"}
+{"seq": 18, "t": 0.006, "type": "run.agent_started", "run_id": "s26-budget", "thread": "s26-budget/t016", "label": "w#15", "model": "fake-worker", "phase": "Work"}
+{"seq": 19, "t": 0.006, "type": "run.agent_started", "run_id": "s26-budget", "thread": "s26-budget/t017", "label": "w#16", "model": "fake-worker", "phase": "Work"}
+{"seq": 20, "t": 0.007, "type": "run.agent_started", "run_id": "s26-budget", "thread": "s26-budget/t018", "label": "w#17", "model": "fake-worker", "phase": "Work"}
+{"seq": 21, "t": 0.007, "type": "run.agent_started", "run_id": "s26-budget", "thread": "s26-budget/t019", "label": "w#18", "model": "fake-worker", "phase": "Work"}
+{"seq": 22, "t": 0.007, "type": "run.agent_started", "run_id": "s26-budget", "thread": "s26-budget/t020", "label": "w#19", "model": "fake-worker", "phase": "Work"}
+{"seq": 23, "t": 0.007, "type": "run.agent_started", "run_id": "s26-budget", "thread": "s26-budget/t021", "label": "w#20", "model": "fake-worker", "phase": "Work"}
+{"seq": 24, "t": 0.007, "type": "run.agent_started", "run_id": "s26-budget", "thread": "s26-budget/t022", "label": "w#21", "model": "fake-worker", "phase": "Work"}
+{"seq": 25, "t": 0.007, "type": "run.agent_started", "run_id": "s26-budget", "thread": "s26-budget/t023", "label": "w#22", "model": "fake-worker", "phase": "Work"}
+{"seq": 26, "t": 0.008, "type": "run.agent_started", "run_id": "s26-budget", "thread": "s26-budget/t024", "label": "w#23", "model": "fake-worker", "phase": "Work"}
+{"seq": 27, "t": 0.008, "type": "run.agent_started", "run_id": "s26-budget", "thread": "s26-budget/t025", "label": "w#24", "model": "fake-worker", "phase": "Work"}
+{"seq": 28, "t": 0.008, "type": "run.agent_started", "run_id": "s26-budget", "thread": "s26-budget/t026", "label": "w#25", "model": "fake-worker", "phase": "Work"}
+{"seq": 29, "t": 0.008, "type": "run.agent_started", "run_id": "s26-budget", "thread": "s26-budget/t027", "label": "w#26", "model": "fake-worker", "phase": "Work"}
+{"seq": 30, "t": 0.009, "type": "run.agent_started", "run_id": "s26-budget", "thread": "s26-budget/t028", "label": "w#27", "model": "fake-worker", "phase": "Work"}
+{"seq": 31, "t": 0.009, "type": "run.agent_started", "run_id": "s26-budget", "thread": "s26-budget/t029", "label": "w#28", "model": "fake-worker", "phase": "Work"}
+{"seq": 32, "t": 0.01, "type": "run.agent_started", "run_id": "s26-budget", "thread": "s26-budget/t030", "label": "w#29", "model": "fake-worker", "phase": "Work"}
+{"seq": 33, "t": 0.01, "type": "run.agent_started", "run_id": "s26-budget", "thread": "s26-budget/t031", "label": "w#30", "model": "fake-worker", "phase": "Work"}
+{"seq": 34, "t": 0.01, "type": "run.agent_started", "run_id": "s26-budget", "thread": "s26-budget/t032", "label": "w#31", "model": "fake-worker", "phase": "Work"}
+{"seq": 35, "t": 0.01, "type": "run.agent_started", "run_id": "s26-budget", "thread": "s26-budget/t033", "label": "w#32", "model": "fake-worker", "phase": "Work"}
+{"seq": 36, "t": 0.011, "type": "run.agent_started", "run_id": "s26-budget", "thread": "s26-budget/t034", "label": "w#33", "model": "fake-worker", "phase": "Work"}
+{"seq": 37, "t": 0.011, "type": "run.agent_started", "run_id": "s26-budget", "thread": "s26-budget/t035", "label": "w#34", "model": "fake-worker", "phase": "Work"}
+{"seq": 38, "t": 0.011, "type": "run.agent_started", "run_id": "s26-budget", "thread": "s26-budget/t036", "label": "w#35", "model": "fake-worker", "phase": "Work"}
+{"seq": 39, "t": 0.011, "type": "run.agent_started", "run_id": "s26-budget", "thread": "s26-budget/t037", "label": "w#36", "model": "fake-worker", "phase": "Work"}
+{"seq": 40, "t": 0.012, "type": "run.agent_started", "run_id": "s26-budget", "thread": "s26-budget/t038", "label": "w#37", "model": "fake-worker", "phase": "Work"}
+{"seq": 41, "t": 0.012, "type": "run.agent_started", "run_id": "s26-budget", "thread": "s26-budget/t039", "label": "w#38", "model": "fake-worker", "phase": "Work"}
+{"seq": 42, "t": 0.013, "type": "run.agent_started", "run_id": "s26-budget", "thread": "s26-budget/t040", "label": "w#39", "model": "fake-worker", "phase": "Work"}
+{"seq": 43, "t": 0.446, "type": "run.agent_ended", "run_id": "s26-budget", "thread": "s26-budget/t001", "label": "w#0", "ok": true, "seconds": 0.44, "cached": false, "cents": 0.2, "phase": "Work"}
+{"seq": 44, "t": 0.469, "type": "run.agent_ended", "run_id": "s26-budget", "thread": "s26-budget/t008", "label": "w#7", "ok": true, "seconds": 0.47, "cached": false, "cents": 0.2, "phase": "Work"}
+{"seq": 45, "t": 0.606, "type": "run.agent_ended", "run_id": "s26-budget", "thread": "s26-budget/t004", "label": "w#3", "ok": true, "seconds": 0.6, "cached": false, "cents": 0.2, "phase": "Work"}
+{"seq": 46, "t": 0.617, "type": "run.agent_ended", "run_id": "s26-budget", "thread": "s26-budget/t002", "label": "w#1", "ok": true, "seconds": 0.62, "cached": false, "cents": 0.2, "phase": "Work"}
+{"seq": 47, "t": 0.683, "type": "run.agent_ended", "run_id": "s26-budget", "thread": "s26-budget/t012", "label": "w#11", "ok": true, "seconds": 0.68, "cached": false, "cents": 0.2, "phase": "Work"}
+{"seq": 48, "t": 0.748, "type": "run.agent_ended", "run_id": "s26-budget", "thread": "s26-budget/t009", "label": "w#8", "ok": true, "seconds": 0.74, "cached": false, "cents": 0.2, "phase": "Work"}
+{"seq": 49, "t": 0.768, "type": "run.agent_ended", "run_id": "s26-budget", "thread": "s26-budget/t010", "label": "w#9", "ok": true, "seconds": 0.76, "cached": false, "cents": 0.2, "phase": "Work"}
+{"seq": 50, "t": 0.85, "type": "run.agent_ended", "run_id": "s26-budget", "thread": "s26-budget/t015", "label": "w#14", "ok": true, "seconds": 0.24, "cached": false, "cents": 0.2, "phase": "Work"}
+{"seq": 51, "t": 0.866, "type": "run.agent_ended", "run_id": "s26-budget", "thread": "s26-budget/t003", "label": "w#2", "ok": true, "seconds": 0.86, "cached": false, "cents": 0.2, "phase": "Work"}
+{"seq": 52, "t": 0.875, "type": "run.agent_ended", "run_id": "s26-budget", "thread": "s26-budget/t007", "label": "w#6", "ok": true, "seconds": 0.87, "cached": false, "cents": 0.2, "phase": "Work"}
+{"seq": 53, "t": 0.984, "type": "run.agent_ended", "run_id": "s26-budget", "thread": "s26-budget/t021", "label": "w#20", "ok": true, "seconds": 0.12, "cached": false, "cents": 0.2, "phase": "Work"}
+{"seq": 54, "t": 1.02, "type": "run.agent_ended", "run_id": "s26-budget", "thread": "s26-budget/t005", "label": "w#4", "ok": true, "seconds": 1.02, "cached": false, "cents": 0.2, "phase": "Work"}
+{"seq": 55, "t": 1.026, "type": "run.agent_ended", "run_id": "s26-budget", "thread": "s26-budget/t013", "label": "w#12", "ok": true, "seconds": 0.58, "cached": false, "cents": 0.2, "phase": "Work"}
+{"seq": 56, "t": 1.029, "type": "run.agent_ended", "run_id": "s26-budget", "thread": "s26-budget/t014", "label": "w#13", "ok": true, "seconds": 0.56, "cached": false, "cents": 0.2, "phase": "Work"}
+{"seq": 57, "t": 1.03, "type": "run.paused", "run_id": "s26-budget", "spent": 2.8, "cap": 5.0, "waiting": 0}
+{"seq": 58, "t": 1.094, "type": "run.agent_ended", "run_id": "s26-budget", "thread": "s26-budget/t011", "label": "w#10", "ok": true, "seconds": 1.09, "cached": false, "cents": 0.2, "phase": "Work"}
+{"seq": 59, "t": 1.192, "type": "run.agent_ended", "run_id": "s26-budget", "thread": "s26-budget/t020", "label": "w#19", "ok": true, "seconds": 0.34, "cached": false, "cents": 0.2, "phase": "Work"}
+{"seq": 60, "t": 1.228, "type": "run.agent_ended", "run_id": "s26-budget", "thread": "s26-budget/t017", "label": "w#16", "ok": true, "seconds": 0.54, "cached": false, "cents": 0.2, "phase": "Work"}
+{"seq": 61, "t": 1.349, "type": "run.agent_ended", "run_id": "s26-budget", "thread": "s26-budget/t023", "label": "w#22", "ok": true, "seconds": 0.37, "cached": false, "cents": 0.2, "phase": "Work"}
+{"seq": 62, "t": 1.443, "type": "run.agent_ended", "run_id": "s26-budget", "thread": "s26-budget/t006", "label": "w#5", "ok": true, "seconds": 1.44, "cached": false, "cents": 0.2, "phase": "Work"}
+{"seq": 63, "t": 1.468, "type": "run.agent_ended", "run_id": "s26-budget", "thread": "s26-budget/t016", "label": "w#15", "ok": true, "seconds": 0.85, "cached": false, "cents": 0.2, "phase": "Work"}
+{"seq": 64, "t": 1.562, "type": "run.agent_ended", "run_id": "s26-budget", "thread": "s26-budget/t019", "label": "w#18", "ok": true, "seconds": 0.79, "cached": false, "cents": 0.2, "phase": "Work"}
+{"seq": 65, "t": 1.576, "type": "run.agent_ended", "run_id": "s26-budget", "thread": "s26-budget/t018", "label": "w#17", "ok": true, "seconds": 0.83, "cached": false, "cents": 0.2, "phase": "Work"}
+{"seq": 66, "t": 1.593, "type": "run.agent_ended", "run_id": "s26-budget", "thread": "s26-budget/t025", "label": "w#24", "ok": true, "seconds": 0.57, "cached": false, "cents": 0.2, "phase": "Work"}
+{"seq": 67, "t": 1.63, "type": "run.resumed", "run_id": "s26-budget", "spent": 4.6, "cap": 10.0, "waiting": 10}
+{"seq": 68, "t": 1.744, "type": "run.agent_ended", "run_id": "s26-budget", "thread": "s26-budget/t031", "label": "w#30", "ok": true, "seconds": 0.3, "cached": false, "cents": 0.2, "phase": "Work"}
+{"seq": 69, "t": 1.759, "type": "run.agent_ended", "run_id": "s26-budget", "thread": "s26-budget/t033", "label": "w#32", "ok": true, "seconds": 0.2, "cached": false, "cents": 0.2, "phase": "Work"}
+{"seq": 70, "t": 1.972, "type": "run.agent_ended", "run_id": "s26-budget", "thread": "s26-budget/t022", "label": "w#21", "ok": true, "seconds": 1.1, "cached": false, "cents": 0.2, "phase": "Work"}
+{"seq": 71, "t": 2.012, "type": "run.agent_ended", "run_id": "s26-budget", "thread": "s26-budget/t028", "label": "w#27", "ok": true, "seconds": 0.82, "cached": false, "cents": 0.2, "phase": "Work"}
+{"seq": 72, "t": 2.038, "type": "run.agent_ended", "run_id": "s26-budget", "thread": "s26-budget/t024", "label": "w#23", "ok": true, "seconds": 1.02, "cached": false, "cents": 0.2, "phase": "Work"}
+{"seq": 73, "t": 2.163, "type": "run.agent_ended", "run_id": "s26-budget", "thread": "s26-budget/t036", "label": "w#35", "ok": true, "seconds": 0.42, "cached": false, "cents": 0.2, "phase": "Work"}
+{"seq": 74, "t": 2.358, "type": "run.agent_ended", "run_id": "s26-budget", "thread": "s26-budget/t035", "label": "w#34", "ok": true, "seconds": 0.77, "cached": false, "cents": 0.2, "phase": "Work"}
+{"seq": 75, "t": 2.38, "type": "run.agent_ended", "run_id": "s26-budget", "thread": "s26-budget/t040", "label": "w#39", "ok": true, "seconds": 0.34, "cached": false, "cents": 0.2, "phase": "Work"}
+{"seq": 76, "t": 2.482, "type": "run.agent_ended", "run_id": "s26-budget", "thread": "s26-budget/t034", "label": "w#33", "ok": true, "seconds": 0.91, "cached": false, "cents": 0.2, "phase": "Work"}
+{"seq": 77, "t": 2.486, "type": "run.agent_ended", "run_id": "s26-budget", "thread": "s26-budget/t032", "label": "w#31", "ok": true, "seconds": 1.02, "cached": false, "cents": 0.2, "phase": "Work"}
+{"seq": 78, "t": 2.589, "type": "run.agent_ended", "run_id": "s26-budget", "thread": "s26-budget/t039", "label": "w#38", "ok": true, "seconds": 0.58, "cached": false, "cents": 0.2, "phase": "Work"}
+{"seq": 79, "t": 2.616, "type": "run.agent_ended", "run_id": "s26-budget", "thread": "s26-budget/t037", "label": "w#36", "ok": true, "seconds": 0.86, "cached": false, "cents": 0.2, "phase": "Work"}
+{"seq": 80, "t": 2.657, "type": "run.agent_ended", "run_id": "s26-budget", "thread": "s26-budget/t026", "label": "w#25", "ok": true, "seconds": 1.63, "cached": false, "cents": 0.2, "phase": "Work"}
+{"seq": 81, "t": 2.66, "type": "run.agent_ended", "run_id": "s26-budget", "thread": "s26-budget/t030", "label": "w#29", "ok": true, "seconds": 1.31, "cached": false, "cents": 0.2, "phase": "Work"}
+{"seq": 82, "t": 2.997, "type": "run.agent_ended", "run_id": "s26-budget", "thread": "s26-budget/t038", "label": "w#37", "ok": true, "seconds": 1.02, "cached": false, "cents": 0.2, "phase": "Work"}
+{"seq": 83, "t": 3.186, "type": "run.agent_ended", "run_id": "s26-budget", "thread": "s26-budget/t027", "label": "w#26", "ok": true, "seconds": 2.09, "cached": false, "cents": 0.2, "phase": "Work"}
+{"seq": 84, "t": 3.425, "type": "run.agent_ended", "run_id": "s26-budget", "thread": "s26-budget/t029", "label": "w#28", "ok": true, "seconds": 2.2, "cached": false, "cents": 0.2, "phase": "Work"}
+{"seq": 85, "t": 3.429, "type": "run.phase_ended", "run_id": "s26-budget", "phase": "Work", "agents": 40, "failed": 0, "seconds": 3.43}
+{"seq": 86, "t": 3.429, "type": "run.ended", "run_id": "s26-budget", "status": "completed", "seconds": 3.43, "agents": 40, "failed": 0, "cents": 8.0, "dropped": 0, "error": null}

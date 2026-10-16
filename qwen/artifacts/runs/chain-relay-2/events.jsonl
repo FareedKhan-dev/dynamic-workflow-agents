@@ -1,0 +1,14 @@
+{"seq": 1, "t": 0.0, "type": "run.created", "run_id": "chain-relay-2", "title": "chain: relay", "goal": ""}
+{"seq": 2, "t": 0.0, "type": "run.agent_started", "run_id": "chain-relay-2", "thread": "chain-relay-2/t001", "label": "leg 1", "model": "Qwen3.8-27B", "phase": ""}
+{"seq": 3, "t": 2.003, "type": "run.agent_ended", "run_id": "chain-relay-2", "thread": "chain-relay-2/t001", "label": "leg 1", "ok": true, "seconds": 2.0, "cached": false, "magicubes": 0.2, "phase": ""}
+{"seq": 4, "t": 2.003, "type": "run.agent_started", "run_id": "chain-relay-2", "thread": "chain-relay-2/t002", "label": "leg 2", "model": "Qwen3.8-27B", "phase": ""}
+{"seq": 5, "t": 4.74, "type": "run.agent_ended", "run_id": "chain-relay-2", "thread": "chain-relay-2/t002", "label": "leg 2", "ok": true, "seconds": 2.74, "cached": false, "magicubes": 0.2, "phase": ""}
+{"seq": 6, "t": 4.74, "type": "run.agent_started", "run_id": "chain-relay-2", "thread": "chain-relay-2/t003", "label": "leg 3", "model": "Qwen3.8-27B", "phase": ""}
+{"seq": 7, "t": 7.013, "type": "run.agent_ended", "run_id": "chain-relay-2", "thread": "chain-relay-2/t003", "label": "leg 3", "ok": true, "seconds": 2.27, "cached": false, "magicubes": 0.2, "phase": ""}
+{"seq": 8, "t": 7.013, "type": "run.agent_started", "run_id": "chain-relay-2", "thread": "chain-relay-2/t004", "label": "leg 4", "model": "Qwen3.8-27B", "phase": ""}
+{"seq": 9, "t": 9.241, "type": "run.agent_ended", "run_id": "chain-relay-2", "thread": "chain-relay-2/t004", "label": "leg 4", "ok": true, "seconds": 2.23, "cached": false, "magicubes": 0.2, "phase": ""}
+{"seq": 10, "t": 9.241, "type": "run.agent_started", "run_id": "chain-relay-2", "thread": "chain-relay-2/t005", "label": "leg 5", "model": "Qwen3.8-27B", "phase": ""}
+{"seq": 11, "t": 11.3, "type": "run.agent_ended", "run_id": "chain-relay-2", "thread": "chain-relay-2/t005", "label": "leg 5", "ok": true, "seconds": 2.06, "cached": false, "magicubes": 0.2, "phase": ""}
+{"seq": 12, "t": 11.3, "type": "run.agent_started", "run_id": "chain-relay-2", "thread": "chain-relay-2/t006", "label": "leg 6", "model": "Qwen3.8-27B", "phase": ""}
+{"seq": 13, "t": 13.29, "type": "run.agent_ended", "run_id": "chain-relay-2", "thread": "chain-relay-2/t006", "label": "leg 6", "ok": true, "seconds": 1.99, "cached": false, "magicubes": 0.2, "phase": ""}
+{"seq": 14, "t": 13.29, "type": "run.ended", "run_id": "chain-relay-2", "status": "completed", "seconds": 13.29, "agents": 6, "failed": 0, "magicubes": 1.2, "dropped": 0, "error": null}

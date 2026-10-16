@@ -1,0 +1,54 @@
+[
+ {
+  "id": "tiny-wf-4/t001",
+  "label": "grade:201#0",
+  "phase": "",
+  "model": "claude-haiku-5-5",
+  "status": "done",
+  "started": 5.980700007057749e-05,
+  "ended": 0.0003603140003178851,
+  "cost": 0.0,
+  "error": null,
+  "replies": 1,
+  "reply": "{\"grades\": [{\"id\": 201, \"wrong\": false, \"first_wrong_line\": null, \"kind\": null}, {\"id\": 202, \"wrong\": false, \"first_wrong_line\": null, \"kind\": null}, {\"id\": 203, \"wrong\": false, \"first_wrong_line\": null, \"kind\": null}, {\"id\": 204, \"wrong\": true, \"first_wrong_line\": 3, \"kind\": \"operation\"}, {\"id\": 205, \"wrong\": true, \"first_wrong_line\": 2, \"kind\": \"slip\"}]}"
+ },
+ {
+  "id": "tiny-wf-4/t002",
+  "label": "recheck:calculator:204#0",
+  "phase": "",
+  "model": "claude-haiku-4-5",
+  "status": "done",
+  "started": 0.0005895340000279248,
+  "ended": 0.0010798490002343897,
+  "cost": 0.0,
+  "error": null,
+  "replies": 1,
+  "reply": "{\"grades\": [{\"id\": 204, \"wrong\": false, \"first_wrong_line\": null, \"kind\": null}, {\"id\": 205, \"wrong\": false, \"first_wrong_line\": null, \"kind\": null}]}"
+ },
+ {
+  "id": "tiny-wf-4/t003",
+  "label": "recheck:logic:204#0",
+  "phase": "",
+  "model": "claude-haiku-4-5",
+  "status": "done",
+  "started": 0.0008500140002070111,
+  "ended": 0.0015158589999373362,
+  "cost": 0.0,
+  "error": null,
+  "replies": 1,
+  "reply": "{\n  \"grades\": [\n    {\n      \"id\": 204,\n      \"wrong\": true,\n      \"first_wrong_line\": 3,\n      \"kind\": \"operation\"\n    },\n    {\n      \"id\": 205,\n      \"wrong\": false,\n      \"first_wrong_line\": null,\n      \"kind\": null\n    }\n  ]\n}"
+ },
+ {
+  "id": "tiny-wf-4/t004",
+  "label": "recheck:question:204#0",
+  "phase": "",
+  "model": "claude-haiku-4-5",
+  "status": "done",
+  "started": 0.0012718880002466904,
+  "ended": 0.001757380000071862,
+  "cost": 0.0,
+  "error": null,
+  "replies": 1,
+  "reply": "{\"grades\": [{\"id\": 204, \"wrong\": true, \"first_wrong_line\": 3, \"kind\": \"operation\"}, {\"id\": 205, \"wrong\": false, \"first_wrong_line\": null, \"kind\": null}]}"
+ }
+]

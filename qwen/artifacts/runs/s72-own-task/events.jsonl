@@ -1,0 +1,6 @@
+{"seq": 1, "t": 0.0, "type": "run.created", "run_id": "s72-own-task", "title": "your own task", "goal": ""}
+{"seq": 2, "t": 0.0, "type": "run.phase_started", "run_id": "s72-own-task", "phase": "Summarise", "index": 1}
+{"seq": 3, "t": 0.0, "type": "run.agent_started", "run_id": "s72-own-task", "thread": "s72-own-task/t001", "label": "summarise", "model": "Qwen3.8-Flash-Next", "phase": "Summarise"}
+{"seq": 4, "t": 2.049, "type": "run.agent_ended", "run_id": "s72-own-task", "thread": "s72-own-task/t001", "label": "summarise", "ok": true, "seconds": 2.05, "cached": false, "magicubes": 0.2, "phase": "Summarise"}
+{"seq": 5, "t": 2.049, "type": "run.phase_ended", "run_id": "s72-own-task", "phase": "Summarise", "agents": 1, "failed": 0, "seconds": 2.05}
+{"seq": 6, "t": 2.049, "type": "run.ended", "run_id": "s72-own-task", "status": "completed", "seconds": 2.05, "agents": 1, "failed": 0, "magicubes": 0.2, "dropped": 0, "error": null}

@@ -1,0 +1,21 @@
+{"seq": 1, "t": 0.0, "type": "run.created", "run_id": "s29-items", "title": "a plan that passes too many items", "goal": ""}
+{"seq": 2, "t": 0.0, "type": "run.phase_started", "run_id": "s29-items", "phase": "Work", "index": 1}
+{"seq": 3, "t": 0.0, "type": "run.dropped", "run_id": "s29-items", "what": "parallel items", "count": 4, "limit": 8}
+{"seq": 4, "t": 0.001, "type": "run.agent_started", "run_id": "s29-items", "thread": "s29-items/t001", "label": "i#0", "model": "fake-worker", "phase": "Work"}
+{"seq": 5, "t": 0.001, "type": "run.agent_started", "run_id": "s29-items", "thread": "s29-items/t002", "label": "i#1", "model": "fake-worker", "phase": "Work"}
+{"seq": 6, "t": 0.001, "type": "run.agent_started", "run_id": "s29-items", "thread": "s29-items/t003", "label": "i#2", "model": "fake-worker", "phase": "Work"}
+{"seq": 7, "t": 0.002, "type": "run.agent_started", "run_id": "s29-items", "thread": "s29-items/t004", "label": "i#3", "model": "fake-worker", "phase": "Work"}
+{"seq": 8, "t": 0.003, "type": "run.agent_started", "run_id": "s29-items", "thread": "s29-items/t005", "label": "i#4", "model": "fake-worker", "phase": "Work"}
+{"seq": 9, "t": 0.003, "type": "run.agent_started", "run_id": "s29-items", "thread": "s29-items/t006", "label": "i#5", "model": "fake-worker", "phase": "Work"}
+{"seq": 10, "t": 0.003, "type": "run.agent_started", "run_id": "s29-items", "thread": "s29-items/t007", "label": "i#6", "model": "fake-worker", "phase": "Work"}
+{"seq": 11, "t": 0.004, "type": "run.agent_started", "run_id": "s29-items", "thread": "s29-items/t008", "label": "i#7", "model": "fake-worker", "phase": "Work"}
+{"seq": 12, "t": 0.143, "type": "run.agent_ended", "run_id": "s29-items", "thread": "s29-items/t006", "label": "i#5", "ok": true, "seconds": 0.14, "cached": false, "cents": 0.2, "phase": "Work"}
+{"seq": 13, "t": 0.147, "type": "run.agent_ended", "run_id": "s29-items", "thread": "s29-items/t005", "label": "i#4", "ok": true, "seconds": 0.14, "cached": false, "cents": 0.2, "phase": "Work"}
+{"seq": 14, "t": 0.54, "type": "run.agent_ended", "run_id": "s29-items", "thread": "s29-items/t003", "label": "i#2", "ok": true, "seconds": 0.54, "cached": false, "cents": 0.2, "phase": "Work"}
+{"seq": 15, "t": 0.552, "type": "run.agent_ended", "run_id": "s29-items", "thread": "s29-items/t008", "label": "i#7", "ok": true, "seconds": 0.55, "cached": false, "cents": 0.2, "phase": "Work"}
+{"seq": 16, "t": 0.554, "type": "run.agent_ended", "run_id": "s29-items", "thread": "s29-items/t004", "label": "i#3", "ok": true, "seconds": 0.55, "cached": false, "cents": 0.2, "phase": "Work"}
+{"seq": 17, "t": 0.702, "type": "run.agent_ended", "run_id": "s29-items", "thread": "s29-items/t001", "label": "i#0", "ok": true, "seconds": 0.7, "cached": false, "cents": 0.2, "phase": "Work"}
+{"seq": 18, "t": 0.927, "type": "run.agent_ended", "run_id": "s29-items", "thread": "s29-items/t007", "label": "i#6", "ok": true, "seconds": 0.92, "cached": false, "cents": 0.2, "phase": "Work"}
+{"seq": 19, "t": 0.984, "type": "run.agent_ended", "run_id": "s29-items", "thread": "s29-items/t002", "label": "i#1", "ok": true, "seconds": 0.98, "cached": false, "cents": 0.2, "phase": "Work"}
+{"seq": 20, "t": 0.986, "type": "run.phase_ended", "run_id": "s29-items", "phase": "Work", "agents": 8, "failed": 0, "seconds": 0.99}
+{"seq": 21, "t": 0.986, "type": "run.ended", "run_id": "s29-items", "status": "completed", "seconds": 0.99, "agents": 8, "failed": 0, "cents": 1.6, "dropped": 4, "error": null}

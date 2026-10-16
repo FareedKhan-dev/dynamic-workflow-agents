@@ -1,0 +1,6 @@
+{"seq": 1, "t": 0.0, "type": "run.created", "run_id": "s42-test", "title": "skeptics: judge, evidence on", "goal": ""}
+{"seq": 2, "t": 0.004, "type": "run.agent_started", "run_id": "s42-test", "thread": "s42-test/t001", "label": "check:bit_manipulation#0", "model": "Qwen3.7-Plus", "phase": ""}
+{"seq": 3, "t": 0.005, "type": "run.agent_started", "run_id": "s42-test", "thread": "s42-test/t002", "label": "check:bit_manipulation#1", "model": "Qwen3.7-Plus", "phase": ""}
+{"seq": 4, "t": 0.006, "type": "run.agent_ended", "run_id": "s42-test", "thread": "s42-test/t001", "label": "check:bit_manipulation#0", "ok": true, "seconds": 0.0, "cached": true, "magicubes": 0.0, "phase": ""}
+{"seq": 5, "t": 0.007, "type": "run.agent_ended", "run_id": "s42-test", "thread": "s42-test/t002", "label": "check:bit_manipulation#1", "ok": true, "seconds": 0.0, "cached": true, "magicubes": 0.0, "phase": ""}
+{"seq": 6, "t": 0.007, "type": "run.ended", "run_id": "s42-test", "status": "completed", "seconds": 0.01, "agents": 2, "failed": 0, "magicubes": 0.0, "dropped": 0, "error": null}

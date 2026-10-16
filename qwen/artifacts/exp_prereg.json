@@ -1,0 +1,11 @@
+{
+  "sha256": "e28357c97d713074b5f979f0a8a70a55bb37a83fed3f0db75c0d6beed30ecbf9",
+  "hypotheses": 11,
+  "arms": [
+    "A",
+    "A2",
+    "B",
+    "C",
+    "D"
+  ]
+}

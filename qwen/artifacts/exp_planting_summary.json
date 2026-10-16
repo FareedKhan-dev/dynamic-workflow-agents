@@ -1,0 +1,11 @@
+{
+  "most_unnoticed": "flip comparison",
+  "most_unnoticed_share": 0.4792,
+  "least_unnoticed": "wrong return",
+  "least_unnoticed_share": 0.0,
+  "loudest": "drop not",
+  "loudest_share": 0.5357,
+  "attempts": 560,
+  "candidates": 234,
+  "unnoticed_total": 129.0
+}

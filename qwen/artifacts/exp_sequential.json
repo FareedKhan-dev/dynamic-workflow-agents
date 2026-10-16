@@ -1,0 +1,17 @@
+{
+  "shards": 14,
+  "reviewed": 14,
+  "stop": "done",
+  "lead_turns": 15,
+  "all_findings": 18,
+  "all_found": 12,
+  "kept": 18,
+  "kept_found": 12,
+  "recall": 0.1667,
+  "precision": 0.6667,
+  "minutes": 8.6588,
+  "helper_minutes": 4.3479,
+  "lead_minutes": 4.3109,
+  "magicubes": 10.3,
+  "lead_context_last": 2646
+}

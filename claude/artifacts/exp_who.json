@@ -1,0 +1,92 @@
+{
+  "weakest": "swap arguments",
+  "weakest_recall": 0.4444,
+  "strongest": "swap + and -",
+  "strongest_recall": 1.0,
+  "D_quiet": 0.6757,
+  "D_loud": 0.819,
+  "by_arm": {
+    "A": {
+      "kind": {
+        "flip comparison": 0.0,
+        "off-by-one range": 0.0,
+        "off-by-one slice": 0.1667,
+        "swap + and -": 0.0,
+        "swap and / or": 0.0,
+        "drop not": 0.0556,
+        "wrong index": 0.0,
+        "wrong start value": 0.0,
+        "swap arguments": 0.0,
+        "wrong return value": 0.0,
+        "remove early return": 0.0,
+        "change update": 0.0
+      },
+      "loudness": {
+        "quiet half": 0.018,
+        "loud half": 0.019
+      },
+      "length": {
+        "quarter 4": 0.0,
+        "quarter 3": 0.0185,
+        "quarter 2": 0.0175,
+        "quarter 1": 0.0417
+      }
+    },
+    "C": {
+      "kind": {
+        "flip comparison": 0.7778,
+        "off-by-one range": 0.6111,
+        "off-by-one slice": 0.4444,
+        "swap + and -": 0.9444,
+        "swap and / or": 0.5,
+        "drop not": 0.8889,
+        "wrong index": 0.9444,
+        "wrong start value": 0.9444,
+        "swap arguments": 0.5,
+        "wrong return value": 1.0,
+        "remove early return": 0.5,
+        "change update": 0.7222
+      },
+      "loudness": {
+        "quiet half": 0.6757,
+        "loud half": 0.7905
+      },
+      "length": {
+        "quarter 4": 0.6667,
+        "quarter 3": 0.7222,
+        "quarter 2": 0.8596,
+        "quarter 1": 0.6667
+      }
+    },
+    "D": {
+      "kind": {
+        "flip comparison": 0.7778,
+        "off-by-one range": 0.6667,
+        "off-by-one slice": 0.6111,
+        "swap + and -": 1.0,
+        "swap and / or": 0.5,
+        "drop not": 0.9444,
+        "wrong index": 0.8889,
+        "wrong start value": 0.9444,
+        "swap arguments": 0.4444,
+        "wrong return value": 1.0,
+        "remove early return": 0.6111,
+        "change update": 0.5556
+      },
+      "loudness": {
+        "quiet half": 0.6757,
+        "loud half": 0.819
+      },
+      "length": {
+        "quarter 4": 0.6667,
+        "quarter 3": 0.7407,
+        "quarter 2": 0.8596,
+        "quarter 1": 0.7083
+      }
+    }
+  },
+  "A_short": 0.0417,
+  "A_long": 0.0,
+  "D_short": 0.7083,
+  "D_long": 0.6667
+}

@@ -1,0 +1,84 @@
+{"seq": 1, "t": 0.0, "type": "run.created", "run_id": "s26-reference", "title": "forty workers, no cap", "goal": ""}
+{"seq": 2, "t": 0.0, "type": "run.phase_started", "run_id": "s26-reference", "phase": "Work", "index": 1}
+{"seq": 3, "t": 0.002, "type": "run.agent_started", "run_id": "s26-reference", "thread": "s26-reference/t001", "label": "w#0", "model": "fake-worker", "phase": "Work"}
+{"seq": 4, "t": 0.003, "type": "run.agent_started", "run_id": "s26-reference", "thread": "s26-reference/t002", "label": "w#1", "model": "fake-worker", "phase": "Work"}
+{"seq": 5, "t": 0.004, "type": "run.agent_started", "run_id": "s26-reference", "thread": "s26-reference/t003", "label": "w#2", "model": "fake-worker", "phase": "Work"}
+{"seq": 6, "t": 0.006, "type": "run.agent_started", "run_id": "s26-reference", "thread": "s26-reference/t004", "label": "w#3", "model": "fake-worker", "phase": "Work"}
+{"seq": 7, "t": 0.007, "type": "run.agent_started", "run_id": "s26-reference", "thread": "s26-reference/t005", "label": "w#4", "model": "fake-worker", "phase": "Work"}
+{"seq": 8, "t": 0.009, "type": "run.agent_started", "run_id": "s26-reference", "thread": "s26-reference/t006", "label": "w#5", "model": "fake-worker", "phase": "Work"}
+{"seq": 9, "t": 0.011, "type": "run.agent_started", "run_id": "s26-reference", "thread": "s26-reference/t007", "label": "w#6", "model": "fake-worker", "phase": "Work"}
+{"seq": 10, "t": 0.013, "type": "run.agent_started", "run_id": "s26-reference", "thread": "s26-reference/t008", "label": "w#7", "model": "fake-worker", "phase": "Work"}
+{"seq": 11, "t": 0.014, "type": "run.agent_started", "run_id": "s26-reference", "thread": "s26-reference/t009", "label": "w#8", "model": "fake-worker", "phase": "Work"}
+{"seq": 12, "t": 0.017, "type": "run.agent_started", "run_id": "s26-reference", "thread": "s26-reference/t010", "label": "w#9", "model": "fake-worker", "phase": "Work"}
+{"seq": 13, "t": 0.018, "type": "run.agent_started", "run_id": "s26-reference", "thread": "s26-reference/t011", "label": "w#10", "model": "fake-worker", "phase": "Work"}
+{"seq": 14, "t": 0.02, "type": "run.agent_started", "run_id": "s26-reference", "thread": "s26-reference/t012", "label": "w#11", "model": "fake-worker", "phase": "Work"}
+{"seq": 15, "t": 0.022, "type": "run.agent_started", "run_id": "s26-reference", "thread": "s26-reference/t013", "label": "w#12", "model": "fake-worker", "phase": "Work"}
+{"seq": 16, "t": 0.024, "type": "run.agent_started", "run_id": "s26-reference", "thread": "s26-reference/t014", "label": "w#13", "model": "fake-worker", "phase": "Work"}
+{"seq": 17, "t": 0.025, "type": "run.agent_started", "run_id": "s26-reference", "thread": "s26-reference/t015", "label": "w#14", "model": "fake-worker", "phase": "Work"}
+{"seq": 18, "t": 0.026, "type": "run.agent_started", "run_id": "s26-reference", "thread": "s26-reference/t016", "label": "w#15", "model": "fake-worker", "phase": "Work"}
+{"seq": 19, "t": 0.027, "type": "run.agent_started", "run_id": "s26-reference", "thread": "s26-reference/t017", "label": "w#16", "model": "fake-worker", "phase": "Work"}
+{"seq": 20, "t": 0.029, "type": "run.agent_started", "run_id": "s26-reference", "thread": "s26-reference/t018", "label": "w#17", "model": "fake-worker", "phase": "Work"}
+{"seq": 21, "t": 0.031, "type": "run.agent_started", "run_id": "s26-reference", "thread": "s26-reference/t019", "label": "w#18", "model": "fake-worker", "phase": "Work"}
+{"seq": 22, "t": 0.033, "type": "run.agent_started", "run_id": "s26-reference", "thread": "s26-reference/t020", "label": "w#19", "model": "fake-worker", "phase": "Work"}
+{"seq": 23, "t": 0.034, "type": "run.agent_started", "run_id": "s26-reference", "thread": "s26-reference/t021", "label": "w#20", "model": "fake-worker", "phase": "Work"}
+{"seq": 24, "t": 0.037, "type": "run.agent_started", "run_id": "s26-reference", "thread": "s26-reference/t022", "label": "w#21", "model": "fake-worker", "phase": "Work"}
+{"seq": 25, "t": 0.038, "type": "run.agent_started", "run_id": "s26-reference", "thread": "s26-reference/t023", "label": "w#22", "model": "fake-worker", "phase": "Work"}
+{"seq": 26, "t": 0.038, "type": "run.agent_started", "run_id": "s26-reference", "thread": "s26-reference/t024", "label": "w#23", "model": "fake-worker", "phase": "Work"}
+{"seq": 27, "t": 0.039, "type": "run.agent_started", "run_id": "s26-reference", "thread": "s26-reference/t025", "label": "w#24", "model": "fake-worker", "phase": "Work"}
+{"seq": 28, "t": 0.039, "type": "run.agent_started", "run_id": "s26-reference", "thread": "s26-reference/t026", "label": "w#25", "model": "fake-worker", "phase": "Work"}
+{"seq": 29, "t": 0.04, "type": "run.agent_started", "run_id": "s26-reference", "thread": "s26-reference/t027", "label": "w#26", "model": "fake-worker", "phase": "Work"}
+{"seq": 30, "t": 0.04, "type": "run.agent_started", "run_id": "s26-reference", "thread": "s26-reference/t028", "label": "w#27", "model": "fake-worker", "phase": "Work"}
+{"seq": 31, "t": 0.04, "type": "run.agent_started", "run_id": "s26-reference", "thread": "s26-reference/t029", "label": "w#28", "model": "fake-worker", "phase": "Work"}
+{"seq": 32, "t": 0.041, "type": "run.agent_started", "run_id": "s26-reference", "thread": "s26-reference/t030", "label": "w#29", "model": "fake-worker", "phase": "Work"}
+{"seq": 33, "t": 0.041, "type": "run.agent_started", "run_id": "s26-reference", "thread": "s26-reference/t031", "label": "w#30", "model": "fake-worker", "phase": "Work"}
+{"seq": 34, "t": 0.042, "type": "run.agent_started", "run_id": "s26-reference", "thread": "s26-reference/t032", "label": "w#31", "model": "fake-worker", "phase": "Work"}
+{"seq": 35, "t": 0.042, "type": "run.agent_started", "run_id": "s26-reference", "thread": "s26-reference/t033", "label": "w#32", "model": "fake-worker", "phase": "Work"}
+{"seq": 36, "t": 0.043, "type": "run.agent_started", "run_id": "s26-reference", "thread": "s26-reference/t034", "label": "w#33", "model": "fake-worker", "phase": "Work"}
+{"seq": 37, "t": 0.043, "type": "run.agent_started", "run_id": "s26-reference", "thread": "s26-reference/t035", "label": "w#34", "model": "fake-worker", "phase": "Work"}
+{"seq": 38, "t": 0.044, "type": "run.agent_started", "run_id": "s26-reference", "thread": "s26-reference/t036", "label": "w#35", "model": "fake-worker", "phase": "Work"}
+{"seq": 39, "t": 0.044, "type": "run.agent_started", "run_id": "s26-reference", "thread": "s26-reference/t037", "label": "w#36", "model": "fake-worker", "phase": "Work"}
+{"seq": 40, "t": 0.045, "type": "run.agent_started", "run_id": "s26-reference", "thread": "s26-reference/t038", "label": "w#37", "model": "fake-worker", "phase": "Work"}
+{"seq": 41, "t": 0.045, "type": "run.agent_started", "run_id": "s26-reference", "thread": "s26-reference/t039", "label": "w#38", "model": "fake-worker", "phase": "Work"}
+{"seq": 42, "t": 0.045, "type": "run.agent_started", "run_id": "s26-reference", "thread": "s26-reference/t040", "label": "w#39", "model": "fake-worker", "phase": "Work"}
+{"seq": 43, "t": 0.088, "type": "run.agent_ended", "run_id": "s26-reference", "thread": "s26-reference/t004", "label": "w#3", "ok": true, "seconds": 0.08, "cached": false, "magicubes": 0.2, "phase": "Work"}
+{"seq": 44, "t": 0.127, "type": "run.agent_ended", "run_id": "s26-reference", "thread": "s26-reference/t005", "label": "w#4", "ok": true, "seconds": 0.12, "cached": false, "magicubes": 0.2, "phase": "Work"}
+{"seq": 45, "t": 0.219, "type": "run.agent_ended", "run_id": "s26-reference", "thread": "s26-reference/t013", "label": "w#12", "ok": true, "seconds": 0.13, "cached": false, "magicubes": 0.2, "phase": "Work"}
+{"seq": 46, "t": 0.238, "type": "run.agent_ended", "run_id": "s26-reference", "thread": "s26-reference/t010", "label": "w#9", "ok": true, "seconds": 0.22, "cached": false, "magicubes": 0.2, "phase": "Work"}
+{"seq": 47, "t": 0.256, "type": "run.agent_ended", "run_id": "s26-reference", "thread": "s26-reference/t002", "label": "w#1", "ok": true, "seconds": 0.25, "cached": false, "magicubes": 0.2, "phase": "Work"}
+{"seq": 48, "t": 0.271, "type": "run.agent_ended", "run_id": "s26-reference", "thread": "s26-reference/t007", "label": "w#6", "ok": true, "seconds": 0.26, "cached": false, "magicubes": 0.2, "phase": "Work"}
+{"seq": 49, "t": 0.285, "type": "run.agent_ended", "run_id": "s26-reference", "thread": "s26-reference/t011", "label": "w#10", "ok": true, "seconds": 0.27, "cached": false, "magicubes": 0.2, "phase": "Work"}
+{"seq": 50, "t": 0.509, "type": "run.agent_ended", "run_id": "s26-reference", "thread": "s26-reference/t012", "label": "w#11", "ok": true, "seconds": 0.49, "cached": false, "magicubes": 0.2, "phase": "Work"}
+{"seq": 51, "t": 0.518, "type": "run.agent_ended", "run_id": "s26-reference", "thread": "s26-reference/t009", "label": "w#8", "ok": true, "seconds": 0.5, "cached": false, "magicubes": 0.2, "phase": "Work"}
+{"seq": 52, "t": 0.525, "type": "run.agent_ended", "run_id": "s26-reference", "thread": "s26-reference/t008", "label": "w#7", "ok": true, "seconds": 0.51, "cached": false, "magicubes": 0.2, "phase": "Work"}
+{"seq": 53, "t": 0.593, "type": "run.agent_ended", "run_id": "s26-reference", "thread": "s26-reference/t001", "label": "w#0", "ok": true, "seconds": 0.59, "cached": false, "magicubes": 0.2, "phase": "Work"}
+{"seq": 54, "t": 0.599, "type": "run.agent_ended", "run_id": "s26-reference", "thread": "s26-reference/t022", "label": "w#21", "ok": true, "seconds": 0.07, "cached": false, "magicubes": 0.2, "phase": "Work"}
+{"seq": 55, "t": 0.678, "type": "run.agent_ended", "run_id": "s26-reference", "thread": "s26-reference/t016", "label": "w#15", "ok": true, "seconds": 0.44, "cached": false, "magicubes": 0.2, "phase": "Work"}
+{"seq": 56, "t": 0.698, "type": "run.agent_ended", "run_id": "s26-reference", "thread": "s26-reference/t019", "label": "w#18", "ok": true, "seconds": 0.41, "cached": false, "magicubes": 0.2, "phase": "Work"}
+{"seq": 57, "t": 0.716, "type": "run.agent_ended", "run_id": "s26-reference", "thread": "s26-reference/t017", "label": "w#16", "ok": true, "seconds": 0.46, "cached": false, "magicubes": 0.2, "phase": "Work"}
+{"seq": 58, "t": 0.728, "type": "run.agent_ended", "run_id": "s26-reference", "thread": "s26-reference/t014", "label": "w#13", "ok": true, "seconds": 0.6, "cached": false, "magicubes": 0.2, "phase": "Work"}
+{"seq": 59, "t": 0.734, "type": "run.agent_ended", "run_id": "s26-reference", "thread": "s26-reference/t024", "label": "w#23", "ok": true, "seconds": 0.13, "cached": false, "magicubes": 0.2, "phase": "Work"}
+{"seq": 60, "t": 0.831, "type": "run.agent_ended", "run_id": "s26-reference", "thread": "s26-reference/t021", "label": "w#20", "ok": true, "seconds": 0.31, "cached": false, "magicubes": 0.2, "phase": "Work"}
+{"seq": 61, "t": 0.84, "type": "run.agent_ended", "run_id": "s26-reference", "thread": "s26-reference/t018", "label": "w#17", "ok": true, "seconds": 0.57, "cached": false, "magicubes": 0.2, "phase": "Work"}
+{"seq": 62, "t": 0.949, "type": "run.agent_ended", "run_id": "s26-reference", "thread": "s26-reference/t029", "label": "w#28", "ok": true, "seconds": 0.22, "cached": false, "magicubes": 0.2, "phase": "Work"}
+{"seq": 63, "t": 0.998, "type": "run.agent_ended", "run_id": "s26-reference", "thread": "s26-reference/t020", "label": "w#19", "ok": true, "seconds": 0.49, "cached": false, "magicubes": 0.2, "phase": "Work"}
+{"seq": 64, "t": 1.073, "type": "run.agent_ended", "run_id": "s26-reference", "thread": "s26-reference/t025", "label": "w#24", "ok": true, "seconds": 0.39, "cached": false, "magicubes": 0.2, "phase": "Work"}
+{"seq": 65, "t": 1.101, "type": "run.agent_ended", "run_id": "s26-reference", "thread": "s26-reference/t023", "label": "w#22", "ok": true, "seconds": 0.51, "cached": false, "magicubes": 0.2, "phase": "Work"}
+{"seq": 66, "t": 1.121, "type": "run.agent_ended", "run_id": "s26-reference", "thread": "s26-reference/t026", "label": "w#25", "ok": true, "seconds": 0.42, "cached": false, "magicubes": 0.2, "phase": "Work"}
+{"seq": 67, "t": 1.15, "type": "run.agent_ended", "run_id": "s26-reference", "thread": "s26-reference/t003", "label": "w#2", "ok": true, "seconds": 1.15, "cached": false, "magicubes": 0.2, "phase": "Work"}
+{"seq": 68, "t": 1.263, "type": "run.agent_ended", "run_id": "s26-reference", "thread": "s26-reference/t027", "label": "w#26", "ok": true, "seconds": 0.55, "cached": false, "magicubes": 0.2, "phase": "Work"}
+{"seq": 69, "t": 1.272, "type": "run.agent_ended", "run_id": "s26-reference", "thread": "s26-reference/t032", "label": "w#31", "ok": true, "seconds": 0.32, "cached": false, "magicubes": 0.2, "phase": "Work"}
+{"seq": 70, "t": 1.299, "type": "run.agent_ended", "run_id": "s26-reference", "thread": "s26-reference/t034", "label": "w#33", "ok": true, "seconds": 0.23, "cached": false, "magicubes": 0.2, "phase": "Work"}
+{"seq": 71, "t": 1.318, "type": "run.agent_ended", "run_id": "s26-reference", "thread": "s26-reference/t028", "label": "w#27", "ok": true, "seconds": 0.59, "cached": false, "magicubes": 0.2, "phase": "Work"}
+{"seq": 72, "t": 1.421, "type": "run.agent_ended", "run_id": "s26-reference", "thread": "s26-reference/t039", "label": "w#38", "ok": true, "seconds": 0.15, "cached": false, "magicubes": 0.2, "phase": "Work"}
+{"seq": 73, "t": 1.449, "type": "run.agent_ended", "run_id": "s26-reference", "thread": "s26-reference/t030", "label": "w#29", "ok": true, "seconds": 0.62, "cached": false, "magicubes": 0.2, "phase": "Work"}
+{"seq": 74, "t": 1.457, "type": "run.agent_ended", "run_id": "s26-reference", "thread": "s26-reference/t040", "label": "w#39", "ok": true, "seconds": 0.16, "cached": false, "magicubes": 0.2, "phase": "Work"}
+{"seq": 75, "t": 1.462, "type": "run.agent_ended", "run_id": "s26-reference", "thread": "s26-reference/t036", "label": "w#35", "ok": true, "seconds": 0.34, "cached": false, "magicubes": 0.2, "phase": "Work"}
+{"seq": 76, "t": 1.644, "type": "run.agent_ended", "run_id": "s26-reference", "thread": "s26-reference/t035", "label": "w#34", "ok": true, "seconds": 0.54, "cached": false, "magicubes": 0.2, "phase": "Work"}
+{"seq": 77, "t": 1.65, "type": "run.agent_ended", "run_id": "s26-reference", "thread": "s26-reference/t033", "label": "w#32", "ok": true, "seconds": 0.65, "cached": false, "magicubes": 0.2, "phase": "Work"}
+{"seq": 78, "t": 1.654, "type": "run.agent_ended", "run_id": "s26-reference", "thread": "s26-reference/t037", "label": "w#36", "ok": true, "seconds": 0.5, "cached": false, "magicubes": 0.2, "phase": "Work"}
+{"seq": 79, "t": 1.676, "type": "run.agent_ended", "run_id": "s26-reference", "thread": "s26-reference/t038", "label": "w#37", "ok": true, "seconds": 0.41, "cached": false, "magicubes": 0.2, "phase": "Work"}
+{"seq": 80, "t": 1.908, "type": "run.agent_ended", "run_id": "s26-reference", "thread": "s26-reference/t031", "label": "w#30", "ok": true, "seconds": 1.07, "cached": false, "magicubes": 0.2, "phase": "Work"}
+{"seq": 81, "t": 13.325, "type": "run.agent_ended", "run_id": "s26-reference", "thread": "s26-reference/t006", "label": "w#5", "ok": true, "seconds": 13.32, "cached": false, "magicubes": 0.2, "phase": "Work"}
+{"seq": 82, "t": 24.405, "type": "run.agent_ended", "run_id": "s26-reference", "thread": "s26-reference/t015", "label": "w#14", "ok": true, "seconds": 24.19, "cached": false, "magicubes": 0.2, "phase": "Work"}
+{"seq": 83, "t": 24.409, "type": "run.phase_ended", "run_id": "s26-reference", "phase": "Work", "agents": 40, "failed": 0, "seconds": 24.41}
+{"seq": 84, "t": 24.409, "type": "run.ended", "run_id": "s26-reference", "status": "completed", "seconds": 24.41, "agents": 40, "failed": 0, "magicubes": 8.0, "dropped": 0, "error": null}

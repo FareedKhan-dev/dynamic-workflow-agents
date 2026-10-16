@@ -1,0 +1,54 @@
+[
+ {
+  "id": "tiny-wf-1/t001",
+  "label": "grade:51#0",
+  "phase": "",
+  "model": "claude-haiku-5-5",
+  "status": "done",
+  "started": 6.232799978533876e-05,
+  "ended": 0.0003568569995877624,
+  "cost": 0.0,
+  "error": null,
+  "replies": 1,
+  "reply": "{\"grades\": [{\"id\": 51, \"wrong\": true, \"first_wrong_line\": 2, \"kind\": \"operation\"}, {\"id\": 52, \"wrong\": false, \"first_wrong_line\": null, \"kind\": null}, {\"id\": 53, \"wrong\": false, \"first_wrong_line\": null, \"kind\": null}, {\"id\": 54, \"wrong\": false, \"first_wrong_line\": null, \"kind\": null}, {\"id\": 55, \"wrong\": true, \"first_wrong_line\": 5, \"kind\": \"operation\"}]}"
+ },
+ {
+  "id": "tiny-wf-1/t002",
+  "label": "recheck:calculator:51#0",
+  "phase": "",
+  "model": "claude-haiku-4-5",
+  "status": "done",
+  "started": 0.0006223559998943529,
+  "ended": 0.001483295999605616,
+  "cost": 0.0,
+  "error": null,
+  "replies": 1,
+  "reply": "{\n  \"grades\": [\n    {\n      \"id\": 51,\n      \"wrong\": true,\n      \"first_wrong_line\": 2,\n      \"kind\": \"operation\"\n    },\n    {\n      \"id\": 55,\n      \"wrong\": true,\n      \"first_wrong_line\": 5,\n      \"kind\": \"operation\"\n    }\n  ]\n}"
+ },
+ {
+  "id": "tiny-wf-1/t003",
+  "label": "recheck:logic:51#0",
+  "phase": "",
+  "model": "claude-haiku-4-5",
+  "status": "done",
+  "started": 0.0008725859997866792,
+  "ended": 0.001771725999788032,
+  "cost": 0.0,
+  "error": null,
+  "replies": 1,
+  "reply": "{\"grades\": [{\"id\": 51, \"wrong\": true, \"first_wrong_line\": 2, \"kind\": \"operation\"}, {\"id\": 55, \"wrong\": true, \"first_wrong_line\": 5, \"kind\": \"operation\"}]}"
+ },
+ {
+  "id": "tiny-wf-1/t004",
+  "label": "recheck:question:51#0",
+  "phase": "",
+  "model": "claude-haiku-4-5",
+  "status": "done",
+  "started": 0.0011472389996924903,
+  "ended": 0.0021425799995995476,
+  "cost": 0.0,
+  "error": null,
+  "replies": 1,
+  "reply": "{\n  \"grades\": [\n    {\n      \"id\": 51,\n      \"wrong\": true,\n      \"first_wrong_line\": 2,\n      \"kind\": \"operation\"\n    },\n    {\n      \"id\": 55,\n      \"wrong\": true,\n      \"first_wrong_line\": 5,\n      \"kind\": \"operation\"\n    }\n  ]\n}"
+ }
+]

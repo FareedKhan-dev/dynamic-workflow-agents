@@ -1,0 +1,34 @@
+{
+  "rows": [
+    {
+      "judge": "audit skeptic, Qwen3.7-Plus, with evidence",
+      "n": 120,
+      "accuracy": 0.8417,
+      "tpr": 0.9394,
+      "fpr": 0.2778
+    },
+    {
+      "judge": "audit skeptic, Qwen3.7-Plus, no evidence",
+      "n": 120,
+      "accuracy": 0.85,
+      "tpr": 0.9394,
+      "fpr": 0.2593
+    },
+    {
+      "judge": "audit skeptic, Qwen3.8-27B (the finders' model)",
+      "n": 116,
+      "accuracy": 0.8879,
+      "tpr": 0.8769,
+      "fpr": 0.098
+    },
+    {
+      "judge": "homework second look, calculator lens",
+      "n": 72,
+      "accuracy": 1.0,
+      "tpr": 1.0,
+      "fpr": 0.0
+    }
+  ],
+  "best": "homework second look, calculator lens",
+  "best_acc": 1.0
+}

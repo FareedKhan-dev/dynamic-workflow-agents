@@ -1,0 +1,62 @@
+{
+  "cases": {
+    "exact hit": {
+      "tp": 1,
+      "fp": 0,
+      "duplicates": 0,
+      "recall": 0.0139,
+      "precision": 1.0
+    },
+    "three lines off": {
+      "tp": 1,
+      "fp": 0,
+      "duplicates": 0,
+      "recall": 0.0139,
+      "precision": 1.0
+    },
+    "twenty lines off": {
+      "tp": 0,
+      "fp": 1,
+      "duplicates": 0,
+      "recall": 0.0,
+      "precision": 0.0
+    },
+    "said twice": {
+      "tp": 1,
+      "fp": 0,
+      "duplicates": 1,
+      "recall": 0.0139,
+      "precision": 1.0
+    },
+    "a clean file": {
+      "tp": 0,
+      "fp": 1,
+      "duplicates": 0,
+      "recall": 0.0,
+      "precision": 0.0
+    },
+    "messy path": {
+      "tp": 1,
+      "fp": 0,
+      "duplicates": 0,
+      "recall": 0.0139,
+      "precision": 1.0
+    },
+    "no findings": {
+      "tp": 0,
+      "fp": 0,
+      "duplicates": 0,
+      "recall": 0.0,
+      "precision": null
+    },
+    "every bug, exactly": {
+      "tp": 72,
+      "fp": 0,
+      "duplicates": 0,
+      "recall": 1.0,
+      "precision": 1.0
+    }
+  },
+  "window": 5,
+  "scope": "function"
+}

@@ -1,0 +1,28 @@
+{"seq": 1, "t": 0.001, "type": "run.created", "run_id": "s23-parallel", "title": "twelve workers in one phase", "goal": ""}
+{"seq": 2, "t": 0.001, "type": "run.phase_started", "run_id": "s23-parallel", "phase": "Scan", "index": 1}
+{"seq": 3, "t": 0.087, "type": "run.agent_started", "run_id": "s23-parallel", "thread": "s23-parallel/t001", "label": "scan#29", "model": "claude-haiku-5-5", "phase": "Scan"}
+{"seq": 4, "t": 0.092, "type": "run.agent_ended", "run_id": "s23-parallel", "thread": "s23-parallel/t001", "label": "scan#29", "ok": true, "seconds": 0.0, "cached": true, "cents": 0.0, "phase": "Scan"}
+{"seq": 5, "t": 0.097, "type": "run.agent_started", "run_id": "s23-parallel", "thread": "s23-parallel/t002", "label": "scan#8", "model": "claude-haiku-5-5", "phase": "Scan"}
+{"seq": 6, "t": 0.101, "type": "run.agent_ended", "run_id": "s23-parallel", "thread": "s23-parallel/t002", "label": "scan#8", "ok": true, "seconds": 0.0, "cached": true, "cents": 0.0, "phase": "Scan"}
+{"seq": 7, "t": 0.107, "type": "run.agent_started", "run_id": "s23-parallel", "thread": "s23-parallel/t003", "label": "scan#3", "model": "claude-haiku-5-5", "phase": "Scan"}
+{"seq": 8, "t": 0.11, "type": "run.agent_ended", "run_id": "s23-parallel", "thread": "s23-parallel/t003", "label": "scan#3", "ok": true, "seconds": 0.0, "cached": true, "cents": 0.0, "phase": "Scan"}
+{"seq": 9, "t": 0.115, "type": "run.agent_started", "run_id": "s23-parallel", "thread": "s23-parallel/t004", "label": "scan#19", "model": "claude-haiku-5-5", "phase": "Scan"}
+{"seq": 10, "t": 0.119, "type": "run.agent_ended", "run_id": "s23-parallel", "thread": "s23-parallel/t004", "label": "scan#19", "ok": true, "seconds": 0.0, "cached": true, "cents": 0.0, "phase": "Scan"}
+{"seq": 11, "t": 0.126, "type": "run.agent_started", "run_id": "s23-parallel", "thread": "s23-parallel/t005", "label": "scan#30", "model": "claude-haiku-5-5", "phase": "Scan"}
+{"seq": 12, "t": 0.13, "type": "run.agent_ended", "run_id": "s23-parallel", "thread": "s23-parallel/t005", "label": "scan#30", "ok": true, "seconds": 0.0, "cached": true, "cents": 0.0, "phase": "Scan"}
+{"seq": 13, "t": 0.154, "type": "run.agent_started", "run_id": "s23-parallel", "thread": "s23-parallel/t006", "label": "scan#18", "model": "claude-haiku-5-5", "phase": "Scan"}
+{"seq": 14, "t": 0.156, "type": "run.agent_started", "run_id": "s23-parallel", "thread": "s23-parallel/t007", "label": "scan#13", "model": "claude-haiku-5-5", "phase": "Scan"}
+{"seq": 15, "t": 0.158, "type": "run.agent_started", "run_id": "s23-parallel", "thread": "s23-parallel/t008", "label": "scan#10", "model": "claude-haiku-5-5", "phase": "Scan"}
+{"seq": 16, "t": 0.16, "type": "run.agent_ended", "run_id": "s23-parallel", "thread": "s23-parallel/t006", "label": "scan#18", "ok": true, "seconds": 0.01, "cached": true, "cents": 0.0, "phase": "Scan"}
+{"seq": 17, "t": 0.161, "type": "run.agent_ended", "run_id": "s23-parallel", "thread": "s23-parallel/t007", "label": "scan#13", "ok": true, "seconds": 0.0, "cached": true, "cents": 0.0, "phase": "Scan"}
+{"seq": 18, "t": 0.162, "type": "run.agent_started", "run_id": "s23-parallel", "thread": "s23-parallel/t009", "label": "scan#34", "model": "claude-haiku-5-5", "phase": "Scan"}
+{"seq": 19, "t": 0.163, "type": "run.agent_started", "run_id": "s23-parallel", "thread": "s23-parallel/t010", "label": "scan#5", "model": "claude-haiku-5-5", "phase": "Scan"}
+{"seq": 20, "t": 0.164, "type": "run.agent_ended", "run_id": "s23-parallel", "thread": "s23-parallel/t008", "label": "scan#10", "ok": true, "seconds": 0.01, "cached": true, "cents": 0.0, "phase": "Scan"}
+{"seq": 21, "t": 0.166, "type": "run.agent_ended", "run_id": "s23-parallel", "thread": "s23-parallel/t010", "label": "scan#5", "ok": true, "seconds": 0.0, "cached": true, "cents": 0.0, "phase": "Scan"}
+{"seq": 22, "t": 0.166, "type": "run.agent_ended", "run_id": "s23-parallel", "thread": "s23-parallel/t009", "label": "scan#34", "ok": true, "seconds": 0.0, "cached": true, "cents": 0.0, "phase": "Scan"}
+{"seq": 23, "t": 0.168, "type": "run.agent_started", "run_id": "s23-parallel", "thread": "s23-parallel/t011", "label": "scan#25", "model": "claude-haiku-5-5", "phase": "Scan"}
+{"seq": 24, "t": 0.183, "type": "run.agent_ended", "run_id": "s23-parallel", "thread": "s23-parallel/t011", "label": "scan#25", "ok": true, "seconds": 0.01, "cached": true, "cents": 0.0, "phase": "Scan"}
+{"seq": 25, "t": 0.183, "type": "run.agent_started", "run_id": "s23-parallel", "thread": "s23-parallel/t012", "label": "scan#1", "model": "claude-haiku-5-5", "phase": "Scan"}
+{"seq": 26, "t": 0.184, "type": "run.agent_ended", "run_id": "s23-parallel", "thread": "s23-parallel/t012", "label": "scan#1", "ok": true, "seconds": 0.0, "cached": true, "cents": 0.0, "phase": "Scan"}
+{"seq": 27, "t": 0.186, "type": "run.phase_ended", "run_id": "s23-parallel", "phase": "Scan", "agents": 12, "failed": 0, "seconds": 0.19}
+{"seq": 28, "t": 0.186, "type": "run.ended", "run_id": "s23-parallel", "status": "completed", "seconds": 0.19, "agents": 12, "failed": 0, "cents": 0.0, "dropped": 0, "error": null}

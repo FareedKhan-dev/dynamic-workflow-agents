@@ -1,0 +1,28 @@
+[
+ {
+  "id": "s42-test/t001",
+  "label": "check:backtracking#0",
+  "phase": "",
+  "model": "claude-haiku-4-5",
+  "status": "done",
+  "started": 0.001671087000204352,
+  "ended": 0.0021528290001242567,
+  "cost": 0.0,
+  "error": null,
+  "replies": 1,
+  "reply": "{\n  \"verdicts\": [\n    {\n      \"report\": 1,\n      \"real\": true,\n      \"reason\": \"Line 89 returns `j` (the column index, an integer) instead of `board` (the completed tour as a list of lists), which violates the declared return type `list[list[int]]` and the function's purpose.\"\n    },\n    {\n      \"report\": 2,\n      \"real\": true,\n      \"reason\": \"Line 18 uses `ljust(5 * ((len(binary_data) // 5) + 1), \\\"0\\\")` which always pads to a length that is a multiple of 5, adding an extra 5-bit group even when the binary data length is already a multiple of 5, causing incorrect encoding with extra padding characters.\"\n    }\n  ]\n}"
+ },
+ {
+  "id": "s42-test/t002",
+  "label": "check:backtracking#1",
+  "phase": "",
+  "model": "claude-haiku-4-5",
+  "status": "done",
+  "started": 0.0018245440001010138,
+  "ended": 0.0024459180001485947,
+  "cost": 0.0,
+  "error": null,
+  "replies": 1,
+  "reply": "{\n  \"verdicts\": [\n    {\n      \"report\": 1,\n      \"real\": true,\n      \"reason\": \"Line 89 returns `j` (the column index, an integer) instead of `board` (the completed tour board), which violates the declared return type `list[list[int]]` and causes the function to return 0 instead of the expected board for input `open_knight_tour(1)`.\"\n    },\n    {\n      \"report\": 2,\n      \"real\": true,\n      \"reason\": \"Line 18 unconditionally adds an extra 5-bit group by using `(len(binary_data) // 5) + 1`, which causes unnecessary padding even when the binary data length is already a multiple of 5, resulting in extra characters and incorrect '=' padding for inputs like `b'12345'`.\"\n    }\n  ]\n}"
+ }
+]

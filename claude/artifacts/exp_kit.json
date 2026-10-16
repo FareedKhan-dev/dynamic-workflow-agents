@@ -1,0 +1,19 @@
+{
+  "lenses": [
+    "boundaries",
+    "logic",
+    "state"
+  ],
+  "shard_files": 33,
+  "shard_bugs": 7,
+  "found": 5,
+  "places": 5,
+  "confirmed": 4,
+  "reported": 4,
+  "tp": 2,
+  "fp": 2,
+  "calls": 5,
+  "cents": 0.0,
+  "evidence_good": "raised",
+  "evidence_wrong": "agrees"
+}

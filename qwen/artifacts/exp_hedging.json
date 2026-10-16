@@ -1,0 +1,83 @@
+{
+  "rows": [
+    {
+      "setting": "no hedging",
+      "gate": "256 fixed slots",
+      "median": 0.3552,
+      "p90": 0.6932,
+      "slowest": 8.7022,
+      "extra_calls": 0
+    },
+    {
+      "setting": "hedge after p50",
+      "gate": "256 fixed slots",
+      "median": 0.5843,
+      "p90": 0.8058,
+      "slowest": 1.105,
+      "extra_calls": 47
+    },
+    {
+      "setting": "hedge after p75",
+      "gate": "256 fixed slots",
+      "median": 0.3843,
+      "p90": 0.665,
+      "slowest": 1.0753,
+      "extra_calls": 24
+    },
+    {
+      "setting": "hedge after p90",
+      "gate": "256 fixed slots",
+      "median": 0.4841,
+      "p90": 0.9487,
+      "slowest": 1.3449,
+      "extra_calls": 9
+    },
+    {
+      "setting": "hedge after p95",
+      "gate": "256 fixed slots",
+      "median": 0.3619,
+      "p90": 0.6534,
+      "slowest": 2.25,
+      "extra_calls": 1
+    },
+    {
+      "setting": "no hedging",
+      "gate": "40 fixed slots",
+      "median": 0.3185,
+      "p90": 0.6692,
+      "slowest": 8.6692,
+      "extra_calls": 0
+    },
+    {
+      "setting": "hedge after p50",
+      "gate": "40 fixed slots",
+      "median": 0.4037,
+      "p90": 0.643,
+      "slowest": 0.9341,
+      "extra_calls": 37
+    },
+    {
+      "setting": "no hedging",
+      "gate": "learning gate",
+      "median": 0.41,
+      "p90": 0.7086,
+      "slowest": 8.679,
+      "extra_calls": 0
+    },
+    {
+      "setting": "hedge after p50",
+      "gate": "learning gate",
+      "median": 0.4393,
+      "p90": 0.9208,
+      "slowest": 1.5319,
+      "extra_calls": 38
+    }
+  ],
+  "extra_p50": 47,
+  "extra_p90": 9,
+  "slowest_p50": 1.105,
+  "tight_verdict": "a slowest call 89% faster",
+  "learning_verdict": "a slowest call 82% faster",
+  "slowest_none": 8.7022,
+  "slowest_p90": 1.3449
+}

@@ -1,0 +1,136 @@
+{
+  "estimates": {
+    "the fixed plan, compiled": {
+      "agents": 49,
+      "calls": 49,
+      "magicubes": 10.1,
+      "phases": {
+        "Scan": 42,
+        "Verify": 6,
+        "Report": 1
+      },
+      "dropped": 0,
+      "minutes": 5.0,
+      "status": "completed"
+    },
+    "loop until nothing new": {
+      "agents": 154,
+      "calls": 154,
+      "magicubes": 31.1,
+      "phases": {
+        "Scan": 102,
+        "Verify": 51,
+        "Report": 1
+      },
+      "dropped": 0,
+      "minutes": 7.2,
+      "status": "completed"
+    },
+    "decide from the evidence": {
+      "agents": 118,
+      "calls": 118,
+      "magicubes": 23.9,
+      "phases": {
+        "Scan": 102,
+        "Triage": 0,
+        "Verify": 15,
+        "Report": 1
+      },
+      "dropped": 0,
+      "minutes": 5.6,
+      "status": "completed"
+    },
+    "pipeline per shard": {
+      "agents": 157,
+      "calls": 157,
+      "magicubes": 31.7,
+      "phases": {
+        "Scan and verify, per shard": 156,
+        "Report": 1
+      },
+      "dropped": 0,
+      "minutes": 4.3,
+      "status": "completed"
+    },
+    "fit the budget": {
+      "agents": 118,
+      "calls": 118,
+      "magicubes": 23.9,
+      "phases": {
+        "Scan": 102,
+        "Verify": 15,
+        "Report": 1
+      },
+      "dropped": 0,
+      "minutes": 5.6,
+      "status": "completed"
+    }
+  },
+  "runaway_refused": true,
+  "runaway_reason": "line 1: the dry run ended cancelled: 1000 workers refused by the agent limit",
+  "fixed_error": -0.2699,
+  "json_error": -0.2079,
+  "auto_limit": 40.0,
+  "gate": [
+    {
+      "plan": "the fixed plan, compiled",
+      "decision": "approved",
+      "why": "estimated 10.1 MC is under the automatic limit of 40.0",
+      "tight": "approved",
+      "why_tight": "estimated 10.1 MC is under the automatic limit of 15.0"
+    },
+    {
+      "plan": "loop until nothing new",
+      "decision": "approved",
+      "why": "estimated 31.1 MC is under the automatic limit of 40.0",
+      "tight": "held",
+      "why_tight": "estimated 31.1 MC is over the automatic limit of 15.0; a person must approve it"
+    },
+    {
+      "plan": "decide from the evidence",
+      "decision": "approved",
+      "why": "estimated 23.9 MC is under the automatic limit of 40.0",
+      "tight": "held",
+      "why_tight": "estimated 23.9 MC is over the automatic limit of 15.0; a person must approve it"
+    },
+    {
+      "plan": "pipeline per shard",
+      "decision": "approved",
+      "why": "estimated 31.7 MC is under the automatic limit of 40.0",
+      "tight": "held",
+      "why_tight": "estimated 31.7 MC is over the automatic limit of 15.0; a person must approve it"
+    },
+    {
+      "plan": "fit the budget",
+      "decision": "approved",
+      "why": "estimated 23.9 MC is under the automatic limit of 40.0",
+      "tight": "held",
+      "why_tight": "estimated 23.9 MC is over the automatic limit of 15.0; a person must approve it"
+    },
+    {
+      "plan": "runaway",
+      "decision": "refused",
+      "why": "the plan failed its check or its dry run",
+      "tight": "refused",
+      "why_tight": "the plan failed its check or its dry run"
+    }
+  ],
+  "estimate_rows": [
+    {
+      "plan": "C, the fixed plan (mean of 3)",
+      "est_calls": 49,
+      "calls": 67.6667,
+      "est_mc": 10.1,
+      "mc": 13.8333,
+      "error": -0.2699
+    },
+    {
+      "plan": "the lead's JSON plan 0",
+      "est_calls": 109,
+      "calls": 138,
+      "est_mc": 22.1,
+      "mc": 27.9,
+      "error": -0.2079
+    }
+  ]
+}

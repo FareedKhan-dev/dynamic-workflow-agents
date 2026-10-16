@@ -1,0 +1,54 @@
+[
+ {
+  "id": "tiny-wf-2/t001",
+  "label": "grade:101#0",
+  "phase": "",
+  "model": "Qwen-Ambassador/Qwen3.8-27B",
+  "status": "done",
+  "started": 0.00015600000187987462,
+  "ended": 0.0006665999972028658,
+  "cost": 0.0,
+  "error": null,
+  "replies": 1,
+  "reply": "{\"grades\": [{\"id\": 101, \"wrong\": false, \"first_wrong_line\": null, \"kind\": null}, {\"id\": 102, \"wrong\": false, \"first_wrong_line\": null, \"kind\": null}, {\"id\": 103, \"wrong\": true, \"first_wrong_line\": 4, \"kind\": \"operation\"}, {\"id\": 104, \"wrong\": false, \"first_wrong_line\": null, \"kind\": null}, {\"id\": 105, \"wrong\": false, \"first_wrong_line\": null, \"kind\": null}]}"
+ },
+ {
+  "id": "tiny-wf-2/t002",
+  "label": "recheck:calculator:103#0",
+  "phase": "",
+  "model": "Qwen-Ambassador/Qwen3.7-Plus",
+  "status": "done",
+  "started": 0.0016698000035830773,
+  "ended": 9.668914800000493,
+  "cost": 0.2,
+  "error": null,
+  "replies": 1,
+  "reply": "{\"grades\": [{\"id\": 103, \"wrong\": false, \"first_wrong_line\": null, \"kind\": null}]}"
+ },
+ {
+  "id": "tiny-wf-2/t003",
+  "label": "recheck:logic:103#0",
+  "phase": "",
+  "model": "Qwen-Ambassador/Qwen3.7-Plus",
+  "status": "done",
+  "started": 0.00274100000387989,
+  "ended": 16.45291559999896,
+  "cost": 0.2,
+  "error": null,
+  "replies": 1,
+  "reply": "{\"grades\": [{\"id\": 103, \"wrong\": false, \"first_wrong_line\": null, \"kind\": null}]}"
+ },
+ {
+  "id": "tiny-wf-2/t004",
+  "label": "recheck:question:103#0",
+  "phase": "",
+  "model": "Qwen-Ambassador/Qwen3.7-Plus",
+  "status": "done",
+  "started": 0.0032591999988653697,
+  "ended": 29.99165229999926,
+  "cost": 0.2,
+  "error": null,
+  "replies": 1,
+  "reply": "{\"grades\": [{\"id\": 103, \"wrong\": true, \"first_wrong_line\": 4, \"kind\": \"operation\"}]}"
+ }
+]

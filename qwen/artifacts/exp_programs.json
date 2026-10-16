@@ -1,0 +1,125 @@
+{
+  "api_words": 318,
+  "api_tokens": 1045,
+  "names": 21,
+  "hostile": 14,
+  "hostile_refused": 14,
+  "good": 5,
+  "good_accepted": 5,
+  "rows": [
+    {
+      "program": "import a module",
+      "group": "hostile",
+      "verdict": "refused",
+      "reason": "line 1: Import is not allowed: a plan has nothing to import"
+    },
+    {
+      "program": "reach builtins through a dunder",
+      "group": "hostile",
+      "verdict": "refused",
+      "reason": "line 1: the name '__import__' starts with an underscore, which is not allowed"
+    },
+    {
+      "program": "open a file",
+      "group": "hostile",
+      "verdict": "refused",
+      "reason": "line 1: the name 'open' is not defined; the plan language has no such name"
+    },
+    {
+      "program": "read a function's globals",
+      "group": "hostile",
+      "verdict": "refused",
+      "reason": "line 1: '.__globals__' reaches into Python's internals, which is not allowed"
+    },
+    {
+      "program": "format-string attribute walk",
+      "group": "hostile",
+      "verdict": "refused",
+      "reason": "line 1: the method '.format()' is not allowed; allowed: add, append, count, endswith, extend, ge"
+    },
+    {
+      "program": "an unbounded loop",
+      "group": "hostile",
+      "verdict": "refused",
+      "reason": "line 1: While is not allowed: use a for loop over range(n), so the loop states its bound"
+    },
+    {
+      "program": "run arbitrary code",
+      "group": "hostile",
+      "verdict": "refused",
+      "reason": "line 1: the name 'exec' is not defined; the plan language has no such name"
+    },
+    {
+      "program": "define a class",
+      "group": "hostile",
+      "verdict": "refused",
+      "reason": "line 1: ClassDef is not allowed: a plan defines no classes"
+    },
+    {
+      "program": "redefine a primitive",
+      "group": "hostile",
+      "verdict": "refused",
+      "reason": "line 1: 'agent' is part of the plan language and cannot be reassigned"
+    },
+    {
+      "program": "getattr by name",
+      "group": "hostile",
+      "verdict": "refused",
+      "reason": "line 1: the name 'getattr' is not defined; the plan language has no such name"
+    },
+    {
+      "program": "hide failures",
+      "group": "hostile",
+      "verdict": "refused",
+      "reason": "line 1: Try is not allowed: a plan must not hide errors; failed workers already return None"
+    },
+    {
+      "program": "walk to the base classes",
+      "group": "hostile",
+      "verdict": "refused",
+      "reason": "line 1: '.__bases__' reaches into Python's internals, which is not allowed"
+    },
+    {
+      "program": "an attribute inside an f-string",
+      "group": "hostile",
+      "verdict": "refused",
+      "reason": "line 1: '.__name__' reaches into Python's internals, which is not allowed"
+    },
+    {
+      "program": "a huge number",
+      "group": "hostile",
+      "verdict": "refused",
+      "reason": "line 1: Pow is not allowed: nothing in a plan needs an exponent"
+    },
+    {
+      "program": "the fixed plan, compiled",
+      "group": "good",
+      "verdict": "accepted",
+      "reason": "-"
+    },
+    {
+      "program": "loop until nothing new",
+      "group": "good",
+      "verdict": "accepted",
+      "reason": "-"
+    },
+    {
+      "program": "decide from the evidence",
+      "group": "good",
+      "verdict": "accepted",
+      "reason": "-"
+    },
+    {
+      "program": "pipeline per shard",
+      "group": "good",
+      "verdict": "accepted",
+      "reason": "-"
+    },
+    {
+      "program": "fit the budget",
+      "group": "good",
+      "verdict": "accepted",
+      "reason": "-"
+    }
+  ]
+}

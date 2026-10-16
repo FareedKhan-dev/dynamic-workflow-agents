@@ -1,0 +1,83 @@
+{
+  "bugs": 72,
+  "files": 849,
+  "share_of_files": 0.0848,
+  "operators": {
+    "flip comparison": 6,
+    "off-by-one range": 6,
+    "off-by-one slice": 6,
+    "swap + and -": 6,
+    "swap and / or": 6,
+    "drop not": 6,
+    "wrong index": 6,
+    "wrong start value": 6,
+    "swap arguments": 6,
+    "wrong return value": 6,
+    "remove early return": 6,
+    "change update": 6
+  },
+  "folders": 24,
+  "median_loudness": 0.25,
+  "audited_lines": 91327,
+  "visible_examples": 8699,
+  "hidden_clean": 2270,
+  "untouched_clean": 13,
+  "max_auroc": 0.5522,
+  "ks_p": 0.4503,
+  "leak": [
+    {
+      "property": "examples",
+      "buggy mean": 10.4861,
+      "clean mean": 10.0,
+      "auroc": 0.5068
+    },
+    {
+      "property": "examples per function",
+      "buggy mean": 4.3014,
+      "clean mean": 3.7664,
+      "auroc": 0.5336
+    },
+    {
+      "property": "lines",
+      "buggy mean": 109.75,
+      "clean mean": 107.3681,
+      "auroc": 0.5171
+    },
+    {
+      "property": "docstring share",
+      "buggy mean": 0.4351,
+      "clean mean": 0.4641,
+      "auroc": 0.5522
+    },
+    {
+      "property": "blank-line runs in docstrings",
+      "buggy mean": 0.1944,
+      "clean mean": 0.1905,
+      "auroc": 0.5097
+    }
+  ],
+  "plant_log": {
+    "flip_comparison|planted": 6,
+    "off_by_one_range|planted": 6,
+    "off_by_one_range|failing example keeps state": 1,
+    "off_by_one_slice|planted": 6,
+    "swap_plus_minus|planted": 6,
+    "swap_plus_minus|failing example keeps state": 1,
+    "swap_and_or|planted": 6,
+    "swap_and_or|file already holds a bug": 1,
+    "drop_not|planted": 6,
+    "drop_not|failing example keeps state": 2,
+    "drop_not|file already holds a bug": 1,
+    "wrong_index|planted": 6,
+    "wrong_constant|planted": 6,
+    "swap_args|planted": 6,
+    "swap_args|failing example keeps state": 2,
+    "swap_args|failing example not found": 1,
+    "swap_args|file already holds a bug": 1,
+    "wrong_return|planted": 6,
+    "remove_early_return|planted": 6,
+    "remove_early_return|file already holds a bug": 1,
+    "change_update|planted": 6,
+    "change_update|failing example keeps state": 3
+  }
+}

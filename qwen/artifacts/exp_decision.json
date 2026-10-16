@@ -1,0 +1,124 @@
+{
+  "all_tokens": 953141,
+  "subset_files": 283,
+  "subset_bugs": 24,
+  "subset_tokens": 323407,
+  "rows": [
+    {
+      "size": 20000,
+      "sample": 0,
+      "recall": 0.2917,
+      "precision": 0.4375,
+      "found": 7,
+      "fp": 9,
+      "calls": 17,
+      "median_s": 10.7063
+    },
+    {
+      "size": 20000,
+      "sample": 1,
+      "recall": 0.3333,
+      "precision": 0.5,
+      "found": 8,
+      "fp": 8,
+      "calls": 17,
+      "median_s": 10.3435
+    },
+    {
+      "size": 40000,
+      "sample": 0,
+      "recall": 0.2083,
+      "precision": 0.5556,
+      "found": 5,
+      "fp": 4,
+      "calls": 9,
+      "median_s": 10.4655
+    },
+    {
+      "size": 40000,
+      "sample": 1,
+      "recall": 0.2083,
+      "precision": 0.625,
+      "found": 5,
+      "fp": 3,
+      "calls": 9,
+      "median_s": 4.6865
+    },
+    {
+      "size": 60000,
+      "sample": 0,
+      "recall": 0.125,
+      "precision": 0.5,
+      "found": 3,
+      "fp": 3,
+      "calls": 6,
+      "median_s": 14.8924
+    },
+    {
+      "size": 60000,
+      "sample": 1,
+      "recall": 0.2917,
+      "precision": 0.5833,
+      "found": 7,
+      "fp": 5,
+      "calls": 6,
+      "median_s": 16.059
+    },
+    {
+      "size": 100000,
+      "sample": 0,
+      "recall": 0.25,
+      "precision": 0.75,
+      "found": 6,
+      "fp": 2,
+      "calls": 4,
+      "median_s": 17.6352
+    },
+    {
+      "size": 100000,
+      "sample": 1,
+      "recall": 0.3333,
+      "precision": 0.8889,
+      "found": 8,
+      "fp": 1,
+      "calls": 4,
+      "median_s": 16.7188
+    }
+  ],
+  "chosen": 100000,
+  "recall_20k": 0.3125,
+  "recall_40k": 0.2083,
+  "recall_60k": 0.2083,
+  "recall_100k": 0.2917,
+  "best": 0.3125,
+  "depth": [
+    {
+      "depth": "0.00 to 0.25",
+      "bugs": 54,
+      "recall": 0.3889
+    },
+    {
+      "depth": "0.25 to 0.50",
+      "bugs": 38,
+      "recall": 0.2105
+    },
+    {
+      "depth": "0.50 to 0.75",
+      "bugs": 54,
+      "recall": 0.2037
+    },
+    {
+      "depth": "0.75 to 1.00",
+      "bugs": 46,
+      "recall": 0.1957
+    }
+  ],
+  "depth_first": 0.3889,
+  "depth_last": 0.1957,
+  "think_on": 0.4167,
+  "think_off": 0.2083,
+  "think_on_s": 476.5725,
+  "think_off_s": 9.2158,
+  "chars_per_token": 2.5454,
+  "calls": 90
+}

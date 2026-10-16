@@ -1,0 +1,15 @@
+[
+ {
+  "id": "intents-flat/t001",
+  "label": "merge:1297",
+  "phase": "",
+  "model": "Qwen-Ambassador/Qwen3.7-Plus",
+  "status": "failed",
+  "started": 0.0005654000051436014,
+  "ended": 1730.6011175000021,
+  "cost": 0.4,
+  "error": "schema: top level: 'topics' is a required property; top level: 'mapping' is a required property",
+  "replies": 2,
+  "reply": "{\n  \"topics\": [\n    {\n      \"name\": \"Activate Card\",\n      \"description\": \"Assist customers with activating their new or replacement physical cards, including troubleshooting activation failures and providing instructions.\"\n    },\n    {\n      \"name\": \"Manage and Reset PIN\",\n      \"description\": \"Help customers change, reset, unblock, or retrieve their card PIN, including instructions for doing so at an ATM or via the app.\"\n    },\n    {\n      \"name\": \"Track and Manage Card Delivery\",\n      \"description\": \"Provide updates on physical card shipping status, delivery times, and assist with expediting or scheduling deliveries.\"\n    },\n    {\n      \"name\": \"Replace Lost, Stolen, or Damaged Card\",\n      \"description\": \"Handle reports of lost, stolen, damaged, or expired cards, freeze the compromised card, and initiate the replacement process.\"\n    },\n    {\n      \"name\": \"Order Additional or Replacement Cards\",\n      \"description\": \"Guide customers through the process of ordering additional physical cards, including secondary cards for themselves or family members.\"\n    },\n    {\n      \"name\": \"Virtual and Disposable Cards\",\n      \"description\": \"Assist customers in requesting, accessing, and troubleshooting virtual or disposable virtual cards for online or secure transactions.\"\n    },\n    {\n      \"name\": \"Card Types and Schemes\",\n      \"description\": \"Explain the differences between card types (e.g., Visa vs. Mastercard), features, and benefits to help customers choose the right option.\"\n    },\n    {\n      \"name\": \"Card Fees and Pricing\",\n      \"description\": \"Clarify fees associated with card issuance, maintenance, foreign usage, ATM withdrawals, and other account services, including fee waivers.\"\n    },\n    {\n      \"name\": \"Account Closure and Deletion\",\n      \"description\": \"Assist customers in closing, deleting, or deactivating their accounts and removing associated data.\"\n    },\n    {\n      \"name\": \"Update Personal Details\",\n      \"description\": \"Help customers update th"
+ }
+]

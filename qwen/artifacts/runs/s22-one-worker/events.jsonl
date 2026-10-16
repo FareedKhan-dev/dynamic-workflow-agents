@@ -1,0 +1,6 @@
+{"seq": 1, "t": 0.001, "type": "run.created", "run_id": "s22-one-worker", "title": "one worker on one shard", "goal": ""}
+{"seq": 2, "t": 0.001, "type": "run.phase_started", "run_id": "s22-one-worker", "phase": "Scan", "index": 1}
+{"seq": 3, "t": 0.204, "type": "run.agent_started", "run_id": "s22-one-worker", "thread": "s22-one-worker/t001", "label": "scan#0", "model": "Qwen3.8-27B", "phase": "Scan"}
+{"seq": 4, "t": 0.209, "type": "run.agent_ended", "run_id": "s22-one-worker", "thread": "s22-one-worker/t001", "label": "scan#0", "ok": true, "seconds": 0.0, "cached": true, "magicubes": 0.0, "phase": "Scan"}
+{"seq": 5, "t": 0.209, "type": "run.phase_ended", "run_id": "s22-one-worker", "phase": "Scan", "agents": 1, "failed": 0, "seconds": 0.21}
+{"seq": 6, "t": 0.209, "type": "run.ended", "run_id": "s22-one-worker", "status": "completed", "seconds": 0.21, "agents": 1, "failed": 0, "magicubes": 0.0, "dropped": 0, "error": null}

@@ -1,0 +1,15 @@
+[
+ {
+  "id": "chain-one-0/t001",
+  "label": "follow",
+  "phase": "",
+  "model": "Qwen-Ambassador/Qwen3.8-27B",
+  "status": "done",
+  "started": 7.90999984019436e-05,
+  "ended": 3.4930298999970546,
+  "cost": 0.2,
+  "error": null,
+  "replies": 1,
+  "reply": "{\"record\": \"R214\", \"balance\": 160}"
+ }
+]

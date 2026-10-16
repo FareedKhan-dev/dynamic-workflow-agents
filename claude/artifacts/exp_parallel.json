@@ -1,0 +1,14 @@
+{
+  "workers": 12,
+  "span": 0.095,
+  "serial": 0.01,
+  "tax": 0.2982,
+  "spread": 10000000.0,
+  "found": 27,
+  "findings": 35,
+  "cached": 12,
+  "rec_min": 17.0344,
+  "rec_max": 53.2176,
+  "rec_serial": 386.4624,
+  "rec_tax": 0.3948
+}

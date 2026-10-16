@@ -1,0 +1,92 @@
+{
+  "rows": [
+    {
+      "k": 0,
+      "need": 0,
+      "kept": 40,
+      "precision": 0.55,
+      "recall": 0.3056,
+      "calls": 0
+    },
+    {
+      "k": 1,
+      "need": 1,
+      "kept": 25,
+      "precision": 0.88,
+      "recall": 0.3056,
+      "calls": 1
+    },
+    {
+      "k": 3,
+      "need": 1,
+      "kept": 29,
+      "precision": 0.7586,
+      "recall": 0.3056,
+      "calls": 3
+    },
+    {
+      "k": 3,
+      "need": 2,
+      "kept": 25,
+      "precision": 0.8,
+      "recall": 0.2778,
+      "calls": 3
+    },
+    {
+      "k": 3,
+      "need": 3,
+      "kept": 23,
+      "precision": 0.8696,
+      "recall": 0.2778,
+      "calls": 3
+    },
+    {
+      "k": 5,
+      "need": 1,
+      "kept": 30,
+      "precision": 0.7333,
+      "recall": 0.3056,
+      "calls": 5
+    },
+    {
+      "k": 5,
+      "need": 2,
+      "kept": 28,
+      "precision": 0.7857,
+      "recall": 0.3056,
+      "calls": 5
+    },
+    {
+      "k": 5,
+      "need": 3,
+      "kept": 25,
+      "precision": 0.8,
+      "recall": 0.2778,
+      "calls": 5
+    },
+    {
+      "k": 5,
+      "need": 4,
+      "kept": 24,
+      "precision": 0.8333,
+      "recall": 0.2778,
+      "calls": 5
+    },
+    {
+      "k": 5,
+      "need": 5,
+      "kept": 23,
+      "precision": 0.8696,
+      "recall": 0.2778,
+      "calls": 5
+    }
+  ],
+  "none_precision": 0.55,
+  "none_recall": 0.3056,
+  "p23": 0.8,
+  "r23": 0.2778,
+  "p11": 0.88,
+  "r11": 0.3056,
+  "p35": 0.8,
+  "r35": 0.2778
+}
