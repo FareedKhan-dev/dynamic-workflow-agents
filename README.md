@@ -18,7 +18,7 @@ git clone https://github.com/FareedKhan-dev/dynamic-workflow-agents.git
 cd dynamic-workflow-agents/claude # or: cd dynamic-workflow-agents/qwen
 uv sync --locked --group lab
 uv run python _build/checks.py
-uv run jupyter lab
+uv run --group lab jupyter lab
 ```
 
 Open `dynamic_workflows.ipynb` in JupyterLab and select the Python kernel from this edition's `.venv`. The saved notebook can be read without a key. If JupyterLab does not select the environment automatically, register its kernel with `uv run python -m ipykernel install --user --name dynamic-workflows-claude --display-name "Dynamic Workflows (Claude)"` (substitute `qwen` in the name for that edition), then choose it in JupyterLab.
