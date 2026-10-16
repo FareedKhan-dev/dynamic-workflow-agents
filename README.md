@@ -1,4 +1,4 @@
-<h1 align="center">🧭 Dynamic Workflow Agents</h1>
+<h1 align="center">⚙️ Dynamic Workflow Agents</h1>
 
 <p align="center"><strong>Build a multi-agent runtime from scratch. Give it a real job. Measure what it actually improves.</strong></p>
 
@@ -14,7 +14,7 @@
 
 This repository contains two self-contained editions of **Dynamic Workflows from Scratch**. In each notebook, a lead agent writes a phased plan, a plain-Python runtime executes it with parallel workers, and experiments test where that design helps. The main job is a planted-bug audit of a large algorithm library. The same engine later grades maths homework and groups customer messages.
 
-| 🐛 Benchmark | 🧪 Experiment | 🧵 Runtime | 📓 Deliverable |
+| 🔍 Benchmark | 🧪 Experiment | ⚙️ Runtime | 📊 Deliverable |
 | :---: | :---: | :---: | :---: |
 | **72 planted bugs** | Solo, fixed, and lead-written plans | Parallel phases, events, threads, budgets, and resume | **2 executed notebooks** with outputs and figures |
 
@@ -23,14 +23,14 @@ This repository contains two self-contained editions of **Dynamic Workflows from
 
 ## Explore the notebooks
 
-| | 🔵 Claude edition | 🟣 Qwen edition |
+| | 🔷 Claude edition | 🔶 Qwen edition |
 | --- | --- | --- |
 | **Open the notebook** | [Read `claude/dynamic_workflows.ipynb`](claude/dynamic_workflows.ipynb) | [Read `qwen/dynamic_workflows.ipynb`](qwen/dynamic_workflows.ipynb) |
 | **Provider in the recorded run** | Anthropic API | ModelScope's Qwen endpoint |
 | **Accounting** | Per token, in cents | Per call, in Magicubes |
 | **Notebook spending cap** | 2,500 cents | 1,500 Magicubes |
 | **Recorded answer ledger** | 2,022 calls | 2,617 calls |
-| **Validation status** | Live run ✅ · replay ✅ · prose audit ✅ · checks ✅ | Live run ✅ · replay pending · prose audit pending · checks ✅ |
+| **Validation status** | Live run ✓ · replay ✓ · prose audit ✓ · checks ✓ | Live run ✓ · replay pending · prose audit pending · checks ✓ |
 
 Each edition owns its `pyproject.toml`, lockfile, data, answer ledger, run traces, and generated results. Open and run one edition from its own directory. The notebook chooses its project root by finding the nearest `pyproject.toml`, so that boundary matters.
 
@@ -40,15 +40,15 @@ The lead proposes the work; the runtime controls its execution. A worker can ins
 
 ```mermaid
 flowchart LR
-    J["📥 Large job"] --> L["🧠 Lead<br/>writes a phased plan"]
+    J["🔍 Large job"] --> L["🧮 Lead<br/>writes a phased plan"]
     L --> R["⚙️ Runtime<br/>executes the plan"]
-    R --> W["👥 Parallel workers<br/>inspect separate pieces"]
-    W --> V["🔎 Merge and verify<br/>evidence and findings"]
-    V --> O["📄 Final report"]
-    R --> T["📜 Events and<br/>worker threads"]
-    R --> B["💰 Shared budget<br/>pause and resume"]
-    W --> C["🌐 Model client"]
-    C <--> D[("🗃️ SQLite answer ledger")]
+    R --> W["💻 Parallel workers<br/>inspect separate pieces"]
+    W --> V["🔬 Merge and verify<br/>evidence and findings"]
+    V --> O["📊 Final report"]
+    R --> T["📡 Events and<br/>worker threads"]
+    R --> B["⏱️ Shared budget<br/>pause and resume"]
+    W --> C["🔌 Model client"]
+    C <--> D[("💾 SQLite answer ledger")]
     classDef blue fill:#e7f1ff,stroke:#2a78d6,color:#10263f;
     classDef green fill:#e0f5ec,stroke:#1baf7a,color:#11382b;
     classDef amber fill:#fff2d9,stroke:#eda100,color:#513b09;
@@ -63,18 +63,18 @@ The notebook teaches the pieces in sequence: create a verifiable benchmark, impl
 
 ```mermaid
 flowchart LR
-    S["📝 _build/src/<br/>editable cells"] --> A["🔧 build.py<br/>assemble and attach diagrams"]
-    G["🎨 _build/diagrams/<br/>source PNGs"] --> A
-    A --> N["📓 Notebook"]
+    S["⌨️ _build/src/<br/>editable cells"] --> A["⚙️ build.py<br/>assemble and attach diagrams"]
+    G["📐 _build/diagrams/<br/>source PNGs"] --> A
+    A --> N["▣ Notebook"]
     N --> M{"Run mode"}
     M -->|smoke| F["🧪 Scripted answers<br/>free scratch output"]
-    M -->|collect| P["🌐 Live provider calls<br/>save answers first"]
-    M -->|replay| L["🗃️ Saved answers<br/>offline execution"]
-    P --> D[("SQLite ledger")]
+    M -->|collect| P["🔌 Live provider calls<br/>save answers first"]
+    M -->|replay| L["💾 Saved answers<br/>offline execution"]
+    P --> D[("💾 SQLite ledger")]
     D --> L
     P --> E["📊 Records, traces,<br/>figures, executed notebook"]
     L --> E
-    F --> X["📂 _build/out/<br/>synthetic results"]
+    F --> X["▣ _build/out/<br/>synthetic results"]
     classDef source fill:#e7f1ff,stroke:#2a78d6,color:#10263f;
     classDef result fill:#e0f5ec,stroke:#1baf7a,color:#11382b;
     classDef caution fill:#fff2d9,stroke:#eda100,color:#513b09;
@@ -89,7 +89,7 @@ flowchart LR
 
 The code-audit benchmark scores each reported location against a hidden 72-bug answer key. **Recall** is the share of planted bugs found. The table shows the mean of three runs per arm, taken from the [Claude](claude/artifacts/exp_main.json) and [Qwen](qwen/artifacts/exp_main.json) experiment records.
 
-| Audit design | 🔵 Claude recall | 🟣 Qwen recall | What the design does |
+| Audit design | 🔷 Claude recall | 🔶 Qwen recall | What the design does |
 | --- | ---: | ---: | --- |
 | **One agent** | **1.9%** | **2.3%** | One agent explores the repository alone. |
 | **Fixed workflow** | **73.2%** | **30.1%** | A prewritten parallel scan and review plan. |
